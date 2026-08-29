@@ -56,12 +56,18 @@ Build status and phase-by-phase notes: [`docs/PROGRESS.md`](./docs/PROGRESS.md).
 ```
 IqraSpace/
 ├─ apps/web/            # Next.js app (App Router)
-│  ├─ src/app/           # routes: dashboard, classes, lessons, teach/[lessonId], share/[lessonId]
-│  ├─ src/components/    # pdf/, dashboard/
-│  └─ src/lib/           # supabaseClient.ts, realtime.ts
+│  ├─ src/app/           # (public): /, /login, /signup — (app): dashboard, classes, lessons,
+│  │                     #   students, materials, schedule, attendance, progress, notes,
+│  │                     #   meet, notifications, settings, teach/[lessonId] — share/[lessonId]
+│  ├─ src/components/    # ui/ (design-system primitives), shell/ (Sidebar/Topbar/AppShell),
+│  │                     #   pdf/ (PdfViewer), teach/ (TeachClient/ShareClient), lessons/
+│  └─ src/lib/           # supabaseClient.ts, realtime.ts, sharing.ts, storage.ts,
+│                        #   notifications.ts, quranContent.ts, theme.ts, format.ts
 ├─ supabase/
-│  ├─ migrations/        # SQL schema (source of truth, see architecture §13)
-│  └─ functions/         # Edge Functions (google-oauth-exchange, drive-file-proxy — Phase 2)
+│  ├─ migrations/        # SQL schema (source of truth, see architecture §13) + expanded
+│  │                     #   Phase 1 migrations 0005-0011 (see docs/PROGRESS.md)
+│  └─ functions/         # Edge Functions (google-oauth-exchange, drive-file-proxy —
+│                        #   code-complete, not yet deployed; see docs/PROGRESS.md)
 ├─ docs/PROGRESS.md      # phase-by-phase build log, decisions, deviations
 └─ Iqra-space-architecture.md
 ```
@@ -79,3 +85,19 @@ IqraSpace/
 - **Architecture doc location:** kept at repo root (`Iqra-space-architecture.md`)
   instead of `docs/architecture.md` per §19, to avoid duplicating/renaming the
   file the user already has open. Purely cosmetic.
+- **Phases 1–5 collapsed into one pass** (2026-08-29, at the user's explicit
+  request, matching a supplied HTML product demo): the PDF viewer, live
+  highlight-sync, attendance, schedule, progress, notes and notifications
+  originally spread across architecture §20's Phases 2–5 are implemented now
+  rather than later. See docs/PROGRESS.md's "Phase 1 (expanded scope)" entry.
+- **Google Drive/Calendar OAuth is the one deliberate exception**: it needs a
+  Google Cloud OAuth client (client ID/secret) that only the project owner
+  can provision — not something achievable from this environment. Both Edge
+  Functions (`google-oauth-exchange`, `drive-file-proxy`) are fully written
+  and the "Connect Google Drive" UI builds a real consent-screen redirect, but
+  neither Edge Function has been deployed, and the feature correctly shows a
+  "not configured" state rather than faking a connection. Direct PDF upload
+  to Supabase Storage (architecture §8's own "simpler fallback... recommended
+  for the very first MVP cut") is the fully-working path for lesson materials
+  today. Google Meet uses architecture §9's Option A (manual link) — no OAuth
+  needed there at all, and it's fully functional.

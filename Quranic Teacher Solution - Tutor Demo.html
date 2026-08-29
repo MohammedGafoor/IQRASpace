@@ -1,0 +1,1651 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Quranic Teacher — Tutor Demo</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700&family=Public+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+/* ============ DESIGN TOKENS ============ */
+:root{
+  --paper:#F5F6EF;
+  --paper-alt:#ECEEE3;
+  --panel:#FFFFFF;
+  --ink:#1B231F;
+  --ink-soft:#4B564F;
+  --muted:#7C877E;
+  --teal:#0E5C52;
+  --teal-deep:#0A413A;
+  --teal-tint:#E3EEEC;
+  --gold:#B8863A;
+  --gold-tint:#F3E6CE;
+  --highlight:#FFD35C;
+  --highlight-soft:#FFF1CC;
+  --red:#AD4430;
+  --red-tint:#F5E3DE;
+  --green:#2F7A4D;
+  --green-tint:#E3F0E6;
+  --amber:#B8863A;
+  --amber-tint:#F3E6CE;
+  --line:#DEE2D6;
+  --radius-s:8px;
+  --radius-m:14px;
+  --radius-l:22px;
+  --shadow-s:0 1px 3px rgba(15,30,25,.08);
+  --shadow-m:0 10px 28px rgba(15,30,25,.10);
+  --shadow-l:0 24px 56px rgba(15,30,25,.18);
+  --font-display:'Fraunces', ui-serif, Georgia, 'Times New Roman', serif;
+  --font-body:'Public Sans', ui-sans-serif, system-ui, -apple-system, 'Segoe UI', sans-serif;
+  --sidebar-w:264px;
+}
+body.dark{
+  --paper:#0F1A17;
+  --paper-alt:#142420;
+  --panel:#132520;
+  --ink:#ECEFE7;
+  --ink-soft:#BFC9C1;
+  --muted:#87958D;
+  --teal:#3FA88F;
+  --teal-deep:#1C3C36;
+  --teal-tint:#173733;
+  --gold:#D8A85C;
+  --gold-tint:#2A2216;
+  --highlight:#E7B93F;
+  --highlight-soft:#332A15;
+  --red:#D97C67;
+  --red-tint:#3A2420;
+  --green:#5CBB82;
+  --green-tint:#173626;
+  --line:#25382F;
+  --shadow-s:0 1px 3px rgba(0,0,0,.35);
+  --shadow-m:0 10px 28px rgba(0,0,0,.35);
+  --shadow-l:0 24px 56px rgba(0,0,0,.5);
+}
+
+*{box-sizing:border-box;}
+html,body{margin:0;padding:0;}
+body{
+  font-family:var(--font-body);
+  background:var(--paper);
+  color:var(--ink);
+  -webkit-font-smoothing:antialiased;
+}
+h1,h2,h3,h4{font-family:var(--font-display);color:var(--ink);margin:0 0 8px;font-weight:600;letter-spacing:-.01em;}
+p{margin:0 0 10px;color:var(--ink-soft);line-height:1.6;}
+a{color:inherit;}
+button{font-family:inherit;}
+::selection{background:var(--highlight);color:var(--ink);}
+:focus-visible{outline:2px solid var(--gold);outline-offset:2px;border-radius:4px;}
+
+.eyebrow{
+  text-transform:uppercase;letter-spacing:.12em;font-size:.72rem;font-weight:700;
+  color:var(--teal);margin-bottom:8px;display:inline-block;
+}
+
+/* ============ PATTERN TEXTURE ============ */
+.pattern{
+  background-image:
+    linear-gradient(135deg, rgba(14,92,82,.06) 25%, transparent 25%),
+    linear-gradient(225deg, rgba(14,92,82,.06) 25%, transparent 25%),
+    linear-gradient(45deg, rgba(184,134,58,.06) 25%, transparent 25%),
+    linear-gradient(315deg, rgba(184,134,58,.06) 25%, transparent 25%);
+  background-position: 22px 0, 22px 0, 0 0, 0 0;
+  background-size: 44px 44px;
+  background-repeat:repeat;
+}
+
+/* ============ APP SHELL ============ */
+.app-shell{display:flex;min-height:100vh;}
+
+.sidebar{
+  width:var(--sidebar-w);flex:0 0 var(--sidebar-w);
+  background:var(--teal-deep);color:#EAF3F0;
+  display:flex;flex-direction:column;
+  position:fixed;top:0;bottom:0;left:0;z-index:40;
+  transition:transform .25s ease;
+}
+.sidebar-brand{
+  display:flex;align-items:center;gap:12px;padding:22px 20px 18px;
+  border-bottom:1px solid rgba(234,243,240,.12);
+}
+.brandmark{position:relative;width:30px;height:30px;flex:0 0 30px;}
+.brandmark span{position:absolute;inset:0;border:2px solid var(--gold);}
+.brandmark span:last-child{transform:rotate(45deg);}
+.brand-text b{display:block;font-family:var(--font-display);font-size:1.05rem;font-weight:600;color:#fff;}
+.brand-text small{display:block;font-size:.72rem;color:#AFC9C2;letter-spacing:.03em;}
+
+.nav{flex:1;overflow-y:auto;padding:14px 10px;}
+.nav-item{
+  width:100%;display:flex;align-items:center;gap:10px;text-align:left;
+  background:transparent;border:none;color:#CFE3DE;padding:10px 12px;
+  border-radius:10px;font-size:.86rem;font-weight:500;cursor:pointer;
+  border-left:3px solid transparent;margin-bottom:2px;
+}
+.nav-item:hover{background:rgba(234,243,240,.08);color:#fff;}
+.nav-item.active{background:rgba(255,255,255,.1);color:#fff;border-left:3px solid var(--gold);font-weight:700;}
+.nav-emoji{font-size:1rem;width:20px;text-align:center;}
+
+.sidebar-foot{padding:14px 20px 20px;border-top:1px solid rgba(234,243,240,.12);}
+.tutor-chip{display:flex;align-items:center;gap:10px;margin-bottom:10px;}
+.tutor-avatar{width:34px;height:34px;border-radius:50%;background:var(--gold);display:flex;align-items:center;justify-content:center;font-weight:700;color:#221a0c;font-size:.8rem;}
+.tutor-chip b{display:block;font-size:.82rem;color:#fff;}
+.tutor-chip small{color:#AFC9C2;font-size:.72rem;}
+.reset-link{background:none;border:none;color:#AFC9C2;font-size:.75rem;cursor:pointer;padding:0;text-decoration:underline;text-underline-offset:3px;}
+
+.sidebar-close{display:none;}
+
+/* ============ MAIN ============ */
+.main-wrap{flex:1;margin-left:var(--sidebar-w);display:flex;flex-direction:column;min-width:0;}
+.topbar{
+  position:sticky;top:0;z-index:30;
+  display:flex;align-items:center;justify-content:space-between;gap:16px;
+  padding:16px 28px;background:var(--paper);border-bottom:1px solid var(--line);
+}
+.topbar-title h2{margin:0;font-size:1.3rem;}
+.topbar-title p{margin:2px 0 0;font-size:.85rem;color:var(--muted);}
+.topbar-actions{display:flex;align-items:center;gap:10px;}
+.hamburger{display:none;background:none;border:1px solid var(--line);border-radius:8px;width:38px;height:38px;cursor:pointer;font-size:1.1rem;}
+.icon-btn{
+  position:relative;background:var(--panel);border:1px solid var(--line);border-radius:10px;
+  width:38px;height:38px;display:flex;align-items:center;justify-content:center;cursor:pointer;font-size:1.05rem;
+}
+.icon-btn .dot{position:absolute;top:-3px;right:-3px;background:var(--red);color:#fff;font-size:.62rem;font-weight:700;border-radius:999px;padding:1px 5px;line-height:1.3;}
+.avatar-sm{width:38px;height:38px;border-radius:50%;background:var(--teal);color:#fff;display:flex;align-items:center;justify-content:center;font-weight:700;font-size:.8rem;}
+
+.content{padding:26px 28px 60px;max-width:1180px;width:100%;margin:0 auto;}
+.screen{display:none;animation:fadein .25s ease;}
+.screen.active{display:block;}
+@keyframes fadein{from{opacity:0;transform:translateY(6px);}to{opacity:1;transform:translateY(0);}}
+
+/* ============ GENERIC COMPONENTS ============ */
+.card{
+  background:var(--panel);border:1px solid var(--line);border-radius:var(--radius-l);
+  padding:22px;box-shadow:var(--shadow-s);
+}
+.grid{display:grid;gap:16px;}
+.grid-2{grid-template-columns:1fr 1fr;}
+.grid-3{grid-template-columns:repeat(3,1fr);}
+.grid-4{grid-template-columns:repeat(4,1fr);}
+@media(max-width:900px){.grid-2,.grid-3,.grid-4{grid-template-columns:1fr;}}
+
+.btn{
+  display:inline-flex;align-items:center;justify-content:center;gap:7px;
+  border-radius:999px;padding:10px 18px;font-size:.86rem;font-weight:700;
+  cursor:pointer;border:1px solid transparent;white-space:nowrap;transition:transform .1s ease, box-shadow .15s ease;
+}
+.btn:active{transform:scale(.97);}
+.btn-primary{background:var(--teal);color:#fff;box-shadow:var(--shadow-s);}
+.btn-primary:hover{background:var(--teal-deep);}
+.btn-gold{background:var(--gold);color:#241d0e;}
+.btn-gold:hover{filter:brightness(1.06);}
+.btn-outline{background:transparent;border-color:var(--line);color:var(--ink);}
+.btn-outline:hover{border-color:var(--teal);color:var(--teal);}
+.btn-ghost{background:var(--paper-alt);color:var(--ink-soft);}
+.btn-ghost:hover{color:var(--ink);}
+.btn-sm{padding:6px 12px;font-size:.76rem;}
+.btn-danger{background:var(--red-tint);color:var(--red);}
+.btn:disabled{opacity:.45;cursor:not-allowed;}
+.btn-block{width:100%;}
+
+.badge{display:inline-flex;align-items:center;gap:5px;padding:3px 10px;border-radius:999px;font-size:.72rem;font-weight:700;}
+.badge-green{background:var(--green-tint);color:var(--green);}
+.badge-red{background:var(--red-tint);color:var(--red);}
+.badge-amber{background:var(--amber-tint);color:var(--amber);}
+.badge-teal{background:var(--teal-tint);color:var(--teal-deep);}
+.badge-muted{background:var(--paper-alt);color:var(--muted);}
+
+.avatar{width:44px;height:44px;border-radius:50%;color:#fff;display:flex;align-items:center;justify-content:center;font-weight:700;font-size:.85rem;flex:0 0 44px;}
+
+table{width:100%;border-collapse:collapse;font-size:.86rem;}
+th{text-align:left;color:var(--muted);font-weight:700;font-size:.72rem;text-transform:uppercase;letter-spacing:.05em;padding:0 12px 10px;border-bottom:1px solid var(--line);}
+td{padding:12px;border-bottom:1px solid var(--line);vertical-align:middle;}
+tr:last-child td{border-bottom:none;}
+
+.progress-track{background:var(--paper-alt);border-radius:999px;height:9px;overflow:hidden;}
+.progress-fill{height:100%;border-radius:999px;background:var(--teal);transition:width .5s ease;}
+
+.section-head{display:flex;align-items:flex-end;justify-content:space-between;gap:16px;margin-bottom:18px;flex-wrap:wrap;}
+.section-head h2{margin-bottom:4px;}
+.section-head p{margin:0;}
+
+.chip-row{display:flex;flex-wrap:wrap;gap:8px;}
+.chip{background:var(--paper-alt);border:1px solid var(--line);padding:6px 12px;border-radius:999px;font-size:.78rem;font-weight:600;color:var(--ink-soft);}
+
+.flow-chain{display:flex;flex-wrap:wrap;align-items:center;gap:8px;}
+.flow-chip{background:var(--teal-tint);color:var(--teal-deep);padding:9px 15px;border-radius:999px;font-weight:700;font-size:.82rem;white-space:nowrap;}
+.flow-arrow{color:var(--gold);font-size:1.1rem;}
+
+.toolbar{display:flex;gap:10px;align-items:center;flex-wrap:wrap;margin-bottom:18px;}
+.input,select,textarea{
+  border:1px solid var(--line);border-radius:10px;padding:10px 12px;font-family:inherit;
+  font-size:.85rem;background:var(--panel);color:var(--ink);width:100%;
+}
+textarea{resize:vertical;min-height:80px;}
+.field{margin-bottom:14px;}
+.field label{display:block;font-size:.76rem;font-weight:700;color:var(--muted);text-transform:uppercase;letter-spacing:.04em;margin-bottom:6px;}
+
+/* ============ SIDEBAR MOBILE ============ */
+@media(max-width:960px){
+  .sidebar{transform:translateX(-100%);box-shadow:var(--shadow-l);}
+  .sidebar.open{transform:translateX(0);}
+  .main-wrap{margin-left:0;}
+  .hamburger{display:flex;align-items:center;justify-content:center;}
+  .content{padding:20px 16px 50px;}
+  .topbar{padding:14px 16px;}
+  .sidebar-close{display:block;position:absolute;top:16px;right:14px;background:none;border:none;color:#fff;font-size:1.2rem;cursor:pointer;}
+}
+.scrim{display:none;position:fixed;inset:0;background:rgba(10,20,17,.45);z-index:35;}
+.scrim.show{display:block;}
+
+/* ============ MODAL ============ */
+.modal-overlay{
+  position:fixed;inset:0;background:rgba(10,20,17,.5);z-index:60;
+  display:none;align-items:center;justify-content:center;padding:20px;
+}
+.modal-overlay.open{display:flex;}
+.modal{
+  background:var(--panel);border-radius:var(--radius-l);max-width:560px;width:100%;
+  max-height:88vh;overflow-y:auto;box-shadow:var(--shadow-l);padding:26px;position:relative;
+}
+.modal-close{position:absolute;top:18px;right:18px;background:var(--paper-alt);border:none;width:32px;height:32px;border-radius:50%;cursor:pointer;font-size:1rem;}
+
+/* ============ TOAST ============ */
+#toast{
+  position:fixed;bottom:26px;left:50%;transform:translateX(-50%) translateY(20px);
+  background:var(--teal-deep);color:#fff;padding:13px 22px;border-radius:999px;
+  font-size:.85rem;font-weight:600;box-shadow:var(--shadow-l);z-index:100;
+  opacity:0;pointer-events:none;transition:all .25s ease;display:flex;align-items:center;gap:8px;
+}
+#toast.show{opacity:1;transform:translateX(-50%) translateY(0);}
+
+/* ============ HERO (Overview) ============ */
+.hero{border-radius:var(--radius-l);padding:44px 38px;position:relative;overflow:hidden;background:var(--panel);border:1px solid var(--line);}
+.hero h1{font-size:2.3rem;max-width:640px;line-height:1.15;}
+.hero p.lead{font-size:1.02rem;max-width:560px;}
+.pillars{margin-top:26px;}
+.pillar{background:var(--panel);border:1px solid var(--line);border-radius:var(--radius-m);padding:18px;}
+.pillar .pillar-icon{font-size:1.4rem;margin-bottom:8px;display:block;}
+.pillar h4{font-size:.95rem;margin-bottom:6px;}
+.pillar ul{margin:0;padding-left:18px;color:var(--ink-soft);font-size:.83rem;line-height:1.7;}
+
+/* ============ WHY SCREEN ============ */
+.compare-row{display:grid;grid-template-columns:1fr 1fr;gap:14px;padding:14px 0;border-bottom:1px dashed var(--line);}
+.compare-row:last-child{border-bottom:none;}
+@media(max-width:760px){.compare-row{grid-template-columns:1fr;}}
+.compare-cell{padding:12px 14px;border-radius:10px;font-size:.87rem;}
+.compare-cell.before{background:var(--red-tint);color:#5c2d20;}
+.compare-cell.after{background:var(--green-tint);color:#1e4a2f;}
+
+/* ============ DASHBOARD ============ */
+.stat-card{background:var(--panel);border:1px solid var(--line);border-radius:var(--radius-m);padding:18px;}
+.stat-card .num{font-family:var(--font-display);font-size:2rem;color:var(--teal-deep);}
+.stat-card .lbl{font-size:.78rem;color:var(--muted);font-weight:600;}
+.lesson-row{display:flex;align-items:center;gap:12px;padding:12px 0;border-bottom:1px solid var(--line);}
+.lesson-row:last-child{border-bottom:none;}
+.lesson-row .meta b{display:block;font-size:.88rem;}
+.lesson-row .meta span{font-size:.76rem;color:var(--muted);}
+.quick-grid{display:grid;grid-template-columns:repeat(5,1fr);gap:10px;}
+@media(max-width:900px){.quick-grid{grid-template-columns:repeat(2,1fr);}}
+.quick-btn{
+  background:var(--paper-alt);border:1px solid var(--line);border-radius:var(--radius-m);
+  padding:16px 10px;text-align:center;cursor:pointer;font-weight:700;font-size:.8rem;color:var(--ink);
+}
+.quick-btn:hover{border-color:var(--teal);color:var(--teal);}
+.quick-btn .qi{display:block;font-size:1.3rem;margin-bottom:6px;}
+
+/* ============ STUDENT CARDS ============ */
+.student-card{background:var(--panel);border:1px solid var(--line);border-radius:var(--radius-m);padding:16px;cursor:pointer;transition:box-shadow .15s, border-color .15s;}
+.student-card:hover{box-shadow:var(--shadow-m);border-color:var(--teal);}
+.student-head{display:flex;gap:12px;align-items:center;margin-bottom:12px;}
+.student-head b{display:block;font-size:.94rem;}
+.student-head span{font-size:.76rem;color:var(--muted);}
+.mini-row{display:flex;justify-content:space-between;font-size:.76rem;color:var(--muted);margin-bottom:4px;}
+.student-actions{display:flex;gap:8px;margin-top:12px;}
+
+/* ============ CLASSES ============ */
+.class-card{background:var(--panel);border:1px solid var(--line);border-radius:var(--radius-l);padding:20px;}
+.stack-avatars{display:flex;}
+.stack-avatars .avatar{width:32px;height:32px;font-size:.68rem;flex:0 0 32px;border:2px solid var(--panel);margin-left:-10px;}
+.stack-avatars .avatar:first-child{margin-left:0;}
+.class-actions{display:flex;gap:8px;flex-wrap:wrap;margin-top:16px;}
+
+/* ============ LESSON MATERIALS ============ */
+.tabs{display:flex;gap:6px;border-bottom:1px solid var(--line);margin-bottom:18px;}
+.tab-btn{background:none;border:none;padding:10px 16px;font-weight:700;font-size:.85rem;color:var(--muted);cursor:pointer;border-bottom:2px solid transparent;margin-bottom:-1px;}
+.tab-btn.active{color:var(--teal-deep);border-bottom-color:var(--teal);}
+.file-card{display:flex;align-items:center;gap:12px;border:1px solid var(--line);border-radius:var(--radius-m);padding:14px;background:var(--panel);}
+.file-card .fi{font-size:1.4rem;}
+.file-card .fmeta b{display:block;font-size:.85rem;}
+.file-card .fmeta span{font-size:.74rem;color:var(--muted);}
+.drive-breadcrumb{font-size:.8rem;color:var(--muted);margin-bottom:12px;}
+.drive-breadcrumb b{color:var(--ink);}
+
+/* ============ TEACH SCREEN ============ */
+.teach-toolbar{display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap;margin-bottom:16px;}
+.view-toggle{display:flex;gap:4px;background:var(--paper-alt);padding:4px;border-radius:999px;}
+.view-toggle button{background:none;border:none;padding:7px 14px;border-radius:999px;font-size:.78rem;font-weight:700;color:var(--muted);cursor:pointer;}
+.view-toggle button.active{background:var(--panel);color:var(--teal-deep);box-shadow:var(--shadow-s);}
+.status-pill{padding:6px 13px;border-radius:999px;font-size:.76rem;font-weight:700;}
+.status-pill.live{background:var(--green-tint);color:var(--green);}
+.status-pill.idle{background:var(--paper-alt);color:var(--muted);}
+
+.teach-body{display:grid;grid-template-columns:130px 1fr 270px;gap:16px;align-items:start;}
+@media(max-width:1080px){.teach-body{grid-template-columns:1fr;}}
+
+.thumb-col{display:flex;flex-direction:row;gap:8px;}
+@media(max-width:1080px){.thumb-col{order:3;flex-direction:row;overflow-x:auto;}}
+@media(min-width:1081px){.thumb-col{flex-direction:column;}}
+.thumb{
+  border:2px solid var(--line);border-radius:10px;background:var(--panel);padding:10px 8px;
+  text-align:center;cursor:pointer;font-size:.72rem;font-weight:700;color:var(--muted);flex:0 0 auto;width:100%;
+}
+.thumb.active{border-color:var(--teal);color:var(--teal-deep);background:var(--teal-tint);}
+.thumb .tp{display:block;font-family:var(--font-display);font-size:1.1rem;color:inherit;margin-bottom:2px;}
+
+.canvas-area{display:flex;gap:16px;flex-wrap:wrap;order:1;}
+.panel{flex:1 1 320px;background:var(--panel);border:1px solid var(--line);border-radius:var(--radius-l);overflow:hidden;box-shadow:var(--shadow-s);}
+.panel-head{display:flex;align-items:center;justify-content:space-between;padding:12px 16px;border-bottom:1px solid var(--line);background:var(--paper-alt);}
+.panel-head b{font-size:.8rem;}
+.panel-body{padding:16px;min-height:280px;}
+.mode-tutor .student-panel{display:none;}
+.mode-student .tutor-panel{display:none;}
+
+.ayah-row{
+  display:flex;align-items:center;gap:12px;padding:14px;border:1px solid var(--line);border-radius:12px;
+  margin-bottom:10px;cursor:pointer;background:var(--panel);transition:background .2s, border-color .2s, box-shadow .2s;
+}
+.ayah-row:hover{border-color:var(--teal);}
+.ayah-row.selected{border-color:var(--teal);box-shadow:0 0 0 2px var(--teal-tint) inset;}
+.ayah-row.highlighted{background:var(--highlight-soft);border-color:var(--highlight);}
+.ayah-num{
+  flex:0 0 30px;width:30px;height:30px;border-radius:50%;background:var(--teal-tint);color:var(--teal-deep);
+  display:flex;align-items:center;justify-content:center;font-weight:700;font-size:.75rem;
+}
+.ayah-ar{
+  flex:1;direction:rtl;text-align:right;font-size:1.55rem;line-height:2.1;
+  font-family:'Scheherazade New','Traditional Arabic','Geeza Pro',serif;color:var(--ink);
+}
+.student-panel .ayah-row{cursor:default;}
+.student-panel .ayah-row:hover{border-color:var(--line);}
+.live-tag{display:inline-flex;align-items:center;gap:6px;background:var(--green-tint);color:var(--green);font-size:.72rem;font-weight:700;padding:4px 10px;border-radius:999px;margin-bottom:10px;}
+.live-dot{width:7px;height:7px;border-radius:50%;background:var(--green);animation:pulse 1.4s infinite;}
+@keyframes pulse{0%,100%{opacity:1;}50%{opacity:.35;}}
+.empty-note{color:var(--muted);font-size:.85rem;text-align:center;padding:40px 10px;}
+
+.controls-col{order:2;display:flex;flex-direction:column;gap:14px;}
+.ctrl-card{background:var(--panel);border:1px solid var(--line);border-radius:var(--radius-m);padding:14px 16px;}
+.ctrl-card h4{font-size:.78rem;text-transform:uppercase;letter-spacing:.04em;color:var(--muted);margin-bottom:8px;}
+.ctrl-readout{font-family:var(--font-display);font-size:1.2rem;color:var(--teal-deep);}
+.btn-grid{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-top:10px;}
+.mini-student{display:flex;align-items:center;gap:8px;padding:6px 0;font-size:.8rem;}
+.mini-student .live-dot{margin-left:auto;}
+
+/* ============ DEMO PLAY BAR ============ */
+.demo-bar{
+  display:flex;align-items:center;justify-content:space-between;gap:14px;flex-wrap:wrap;
+  background:var(--teal-deep);color:#EAF3F0;border-radius:var(--radius-m);padding:14px 20px;margin-bottom:18px;
+}
+.demo-bar p{color:#CFE3DE;margin:0;font-size:.83rem;}
+
+/* ============ SCHEDULE ============ */
+.week-grid{display:grid;grid-template-columns:repeat(7,1fr);gap:8px;margin-top:10px;}
+.day-col{background:var(--paper-alt);border-radius:var(--radius-m);padding:10px;min-height:180px;}
+.day-col b{display:block;font-size:.78rem;margin-bottom:8px;color:var(--ink-soft);}
+.slot{background:var(--panel);border:1px solid var(--line);border-left:3px solid var(--teal);border-radius:8px;padding:8px;font-size:.7rem;margin-bottom:6px;cursor:pointer;}
+.slot b{display:block;font-size:.72rem;margin:0;}
+.slot-empty{border:1px dashed var(--line);border-radius:8px;padding:8px;text-align:center;font-size:.68rem;color:var(--muted);cursor:pointer;}
+@media(max-width:900px){.week-grid{grid-template-columns:repeat(2,1fr);}}
+
+/* ============ JOURNEY ============ */
+.journey{display:grid;grid-template-columns:repeat(auto-fill,minmax(155px,1fr));gap:10px;}
+.journey-step{background:var(--paper-alt);border:1px solid var(--line);border-radius:var(--radius-m);padding:12px 14px;cursor:pointer;text-align:left;transition:transform .15s, box-shadow .15s;}
+.journey-step:hover{transform:translateY(-3px);box-shadow:var(--shadow-m);border-color:var(--teal);}
+.journey-step b{display:block;font-family:var(--font-display);color:var(--gold);font-size:.72rem;}
+.journey-step span{font-size:.8rem;font-weight:700;}
+
+/* ============ FEEDBACK ============ */
+.check-grid label,.radio-row label{display:flex;align-items:center;gap:10px;padding:9px 0;font-size:.88rem;cursor:pointer;}
+.radio-row{display:flex;gap:22px;}
+
+/* ============ TECH ============ */
+details{border:1px solid var(--line);border-radius:var(--radius-m);padding:12px 16px;margin-bottom:10px;background:var(--panel);}
+summary{cursor:pointer;font-weight:700;font-size:.9rem;}
+details p{margin-top:10px;}
+
+.foot-quote{text-align:center;padding:36px 20px;}
+.foot-quote h3{font-size:1.4rem;max-width:600px;margin:0 auto 16px;}
+
+@media(prefers-reduced-motion: reduce){
+  *{animation-duration:.001ms !important;animation-iteration-count:1 !important;transition-duration:.001ms !important;}
+}
+</style>
+</head>
+<body>
+
+<div class="scrim" id="scrim" onclick="toggleSidebar(false)"></div>
+
+<div class="app-shell">
+  <!-- SIDEBAR -->
+  <aside class="sidebar" id="sidebar">
+    <button class="sidebar-close" onclick="toggleSidebar(false)" aria-label="Close menu">✕</button>
+    <div class="sidebar-brand">
+      <div class="brandmark"><span></span><span></span></div>
+      <div class="brand-text"><b>Quranic Teacher</b><small>Online teaching workspace</small></div>
+    </div>
+    <nav class="nav" id="navList"></nav>
+    <div class="sidebar-foot">
+      <div class="tutor-chip">
+        <div class="tutor-avatar">UA</div>
+        <div><b>Ustadh Abdullah</b><small>Demo mode</small></div>
+      </div>
+      <button class="reset-link" onclick="location.reload()">↺ Reset demo</button>
+    </div>
+  </aside>
+
+  <!-- MAIN -->
+  <div class="main-wrap">
+    <header class="topbar">
+      <div style="display:flex;align-items:center;gap:12px;">
+        <button class="hamburger" onclick="toggleSidebar(true)" aria-label="Open menu">☰</button>
+        <div class="topbar-title">
+          <h2 id="pageTitle">Overview</h2>
+          <p id="pageSubtitle">A calm, connected workspace for online Qur'an teaching</p>
+        </div>
+      </div>
+      <div class="topbar-actions">
+        <button class="icon-btn" onclick="toggleNotif()" aria-label="Notifications">🔔<span class="dot">3</span></button>
+        <button class="icon-btn" onclick="toggleDark()" id="themeBtn" aria-label="Toggle theme">🌙</button>
+        <div class="avatar-sm">UA</div>
+      </div>
+    </header>
+
+    <main class="content" id="mainContent">
+
+      <!-- ================= 1. OVERVIEW ================= -->
+      <section class="screen" id="screen-overview">
+        <div class="hero pattern">
+          <span class="eyebrow">Quranic Teacher</span>
+          <h1>A simple digital workspace for Qur'an teachers.</h1>
+          <p class="lead">Organise your students and lessons, share exactly the verse you're explaining the instant you're explaining it, and keep every Google Meet, attendance record and progress note in one calm place — built around how you already teach.</p>
+          <div style="margin-top:20px;display:flex;gap:10px;flex-wrap:wrap;">
+            <button class="btn btn-primary" onclick="showScreen('dashboard')">See the Dashboard</button>
+            <button class="btn btn-outline" onclick="showScreen('why')">Why this solution?</button>
+          </div>
+
+          <div class="grid grid-4 pillars">
+            <div class="pillar"><span class="pillar-icon">📖</span><h4>Teach</h4>
+              <ul><li>Organise lessons</li><li>Open lesson material</li><li>Highlight Qur'anic content</li><li>Share exactly what you're teaching</li></ul></div>
+            <div class="pillar"><span class="pillar-icon">🎥</span><h4>Connect</h4>
+              <ul><li>Schedule online lessons</li><li>Join Google Meet</li><li>Keep students connected</li></ul></div>
+            <div class="pillar"><span class="pillar-icon">📈</span><h4>Track</h4>
+              <ul><li>Attendance</li><li>Lesson history</li><li>Student progress</li><li>Teacher notes</li></ul></div>
+            <div class="pillar"><span class="pillar-icon">🗂️</span><h4>Manage</h4>
+              <ul><li>Students</li><li>Classes</li><li>Lesson materials</li><li>Teaching schedule</li></ul></div>
+          </div>
+        </div>
+
+        <div class="card" style="margin-top:22px;">
+          <span class="eyebrow">The shape of a lesson</span>
+          <h3 style="margin-bottom:14px;">From "good morning" to a saved progress note</h3>
+          <div class="flow-chain">
+            <span class="flow-chip">Tutor</span><span class="flow-arrow">→</span>
+            <span class="flow-chip">Lesson</span><span class="flow-arrow">→</span>
+            <span class="flow-chip">Qur'an Material</span><span class="flow-arrow">→</span>
+            <span class="flow-chip">Share</span><span class="flow-arrow">→</span>
+            <span class="flow-chip">Student</span><span class="flow-arrow">→</span>
+            <span class="flow-chip">Google Meet</span><span class="flow-arrow">→</span>
+            <span class="flow-chip">Attendance</span><span class="flow-arrow">→</span>
+            <span class="flow-chip">Progress</span>
+          </div>
+        </div>
+
+        <div class="card" style="margin-top:22px;">
+          <div class="section-head">
+            <div><span class="eyebrow">Complete teaching journey</span><h3>Every step, click any of them to jump straight in</h3></div>
+          </div>
+          <div class="journey" id="journeyGrid"></div>
+        </div>
+      </section>
+
+      <!-- ================= 2. WHY ================= -->
+      <section class="screen" id="screen-why">
+        <div class="card">
+          <span class="eyebrow">Today vs. with Quranic Teacher</span>
+          <h3 style="margin-bottom:16px;">Where time gets lost — and how it comes back</h3>
+          <div id="compareList"></div>
+        </div>
+
+        <div class="card" style="margin-top:22px;">
+          <span class="eyebrow">Business benefits</span>
+          <h3 style="margin-bottom:16px;">How this helps you as a Tutor</h3>
+          <div class="grid grid-3" id="benefitGrid"></div>
+        </div>
+      </section>
+
+      <!-- ================= 3. DASHBOARD ================= -->
+      <section class="screen" id="screen-dashboard">
+        <div class="grid grid-3" style="margin-bottom:20px;">
+          <div class="stat-card"><div class="num">3</div><div class="lbl">Lessons today</div></div>
+          <div class="stat-card"><div class="num">7</div><div class="lbl">Active students</div></div>
+          <div class="stat-card"><div class="num">92%</div><div class="lbl">Attendance this week</div></div>
+        </div>
+
+        <div class="grid grid-2">
+          <div class="card">
+            <h3>Today's Lessons</h3>
+            <div class="lesson-row">
+              <div class="avatar" style="background:#0E5C52">AM</div>
+              <div class="meta" style="flex:1"><b>Ahmed Mohammed</b><span>Surah Al-Fatiha · 4:00 PM</span></div>
+              <button class="btn btn-primary btn-sm" onclick="startLessonFor('ahmed')">Start</button>
+            </div>
+            <div class="lesson-row">
+              <div class="avatar" style="background:#B8863A">FA</div>
+              <div class="meta" style="flex:1"><b>Fatima Ahmed</b><span>Tajweed — Noon Sakinah · 5:00 PM</span></div>
+              <button class="btn btn-primary btn-sm" onclick="startLessonFor('fatima')">Start</button>
+            </div>
+            <div class="lesson-row">
+              <div class="avatar" style="background:#5B7A6E">AK</div>
+              <div class="meta" style="flex:1"><b>Abdullah Karim</b><span>Surah Al-Ikhlas · 6:00 PM</span></div>
+              <button class="btn btn-primary btn-sm" onclick="startLessonFor('abdullah')">Start</button>
+            </div>
+            <p style="margin-top:12px;font-size:.8rem;">Tomorrow: 2 lessons scheduled.</p>
+          </div>
+
+          <div class="card">
+            <h3>Quick Actions</h3>
+            <div class="quick-grid">
+              <button class="quick-btn" onclick="showScreen('teach')"><span class="qi">✨</span>Start Lesson</button>
+              <button class="quick-btn" onclick="showScreen('schedule')"><span class="qi">📅</span>Schedule</button>
+              <button class="quick-btn" onclick="showScreen('students')"><span class="qi">👨‍🎓</span>Students</button>
+              <button class="quick-btn" onclick="showScreen('materials')"><span class="qi">📄</span>Materials</button>
+              <button class="quick-btn" onclick="showScreen('attendance')"><span class="qi">✅</span>Attendance</button>
+            </div>
+            <h3 style="margin-top:22px;">Recent Activity</h3>
+            <p style="font-size:.83rem;">✅ Marked Fatima present — Aug 28<br>📝 Saved lesson note for Ahmed — Aug 27<br>📤 Shared Ayah 5 with Group A — Aug 27</p>
+          </div>
+        </div>
+
+        <div class="card" style="margin-top:20px;">
+          <h3>Progress Snapshot</h3>
+          <div class="grid grid-3" id="dashProgress"></div>
+        </div>
+      </section>
+
+      <!-- ================= 4. STUDENTS ================= -->
+      <section class="screen" id="screen-students">
+        <div class="toolbar">
+          <input class="input" style="max-width:260px" placeholder="Search students…">
+          <span class="chip">All classes ▾</span>
+          <span class="chip">Active ▾</span>
+          <button class="btn btn-primary" style="margin-left:auto" onclick="showToast('New student form (demo)')">+ Add Student</button>
+        </div>
+        <div class="grid grid-3" id="studentGrid"></div>
+      </section>
+
+      <!-- ================= 5. CLASSES ================= -->
+      <section class="screen" id="screen-classes">
+        <div class="grid grid-2">
+          <div class="class-card">
+            <span class="eyebrow">4 students · Sun / Tue / Thu</span>
+            <h3>Quran Beginners – Group A</h3>
+            <div class="stack-avatars">
+              <div class="avatar" style="background:#0E5C52">AM</div>
+              <div class="avatar" style="background:#5B7A6E">AK</div>
+              <div class="avatar" style="background:#0E5C52">YI</div>
+              <div class="avatar" style="background:#B8863A">MA</div>
+            </div>
+            <p style="margin-top:12px;">Teacher: Ustadh Abdullah</p>
+            <div class="class-actions">
+              <button class="btn btn-primary btn-sm" onclick="showScreen('teach')">Start Class</button>
+              <button class="btn btn-outline btn-sm" onclick="showScreen('schedule')">Schedule</button>
+              <button class="btn btn-outline btn-sm" onclick="showScreen('attendance')">Attendance</button>
+              <button class="btn btn-outline btn-sm" onclick="showScreen('lessons')">Lessons</button>
+            </div>
+          </div>
+          <div class="class-card">
+            <span class="eyebrow">3 students · Mon / Wed</span>
+            <h3>Tajweed Foundations – Group B</h3>
+            <div class="stack-avatars">
+              <div class="avatar" style="background:#B8863A">FA</div>
+              <div class="avatar" style="background:#5B7A6E">KO</div>
+              <div class="avatar" style="background:#0E5C52">BH</div>
+            </div>
+            <p style="margin-top:12px;">Teacher: Ustadh Abdullah</p>
+            <div class="class-actions">
+              <button class="btn btn-primary btn-sm" onclick="showScreen('teach')">Start Class</button>
+              <button class="btn btn-outline btn-sm" onclick="showScreen('schedule')">Schedule</button>
+              <button class="btn btn-outline btn-sm" onclick="showScreen('attendance')">Attendance</button>
+              <button class="btn btn-outline btn-sm" onclick="showScreen('lessons')">Lessons</button>
+            </div>
+          </div>
+          <div class="class-card" style="display:flex;align-items:center;justify-content:center;border-style:dashed;cursor:pointer;" onclick="showToast('New class form (demo)')">
+            <p style="margin:0;font-weight:700;color:var(--muted);">+ Create Class</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- ================= 6. LESSONS ================= -->
+      <section class="screen" id="screen-lessons">
+        <div class="toolbar">
+          <input class="input" style="max-width:260px" placeholder="Search lessons…">
+          <span class="chip">Subject ▾</span>
+          <span class="chip">Sort: Last used ▾</span>
+          <button class="btn btn-primary" style="margin-left:auto" onclick="showToast('New lesson form (demo)')">+ Create Lesson</button>
+        </div>
+        <div class="card">
+          <table>
+            <thead><tr><th>Lesson</th><th>Subject</th><th>Material</th><th>Students</th><th>Last Used</th><th></th></tr></thead>
+            <tbody id="lessonTable"></tbody>
+          </table>
+        </div>
+      </section>
+
+      <!-- ================= 7. MATERIALS ================= -->
+      <section class="screen" id="screen-materials">
+        <div class="tabs">
+          <button class="tab-btn active" data-mtab="mine" onclick="switchMatTab('mine')">My Lesson Files</button>
+          <button class="tab-btn" data-mtab="drive" onclick="switchMatTab('drive')">Google Drive</button>
+        </div>
+
+        <div id="matMine">
+          <div class="grid grid-2" id="fileGrid"></div>
+        </div>
+
+        <div id="matDrive" style="display:none;">
+          <div class="card" id="driveConnectCard">
+            <h3>📁 Connect Google Drive</h3>
+            <p>Use lesson PDFs you've already saved in Drive — no need to upload them again. Quranic Teacher only ever sees the specific files you choose to share.</p>
+            <button class="btn btn-primary" onclick="connectDrive()">Connect Google Drive</button>
+          </div>
+          <div id="driveBrowser" style="display:none;">
+            <div class="card" style="margin-bottom:14px;">
+              <span class="badge badge-teal">🟢 Connected as ustadh.abdullah@gmail.com</span>
+            </div>
+            <div class="drive-breadcrumb">My Drive / <b>Quran Lessons</b></div>
+            <div class="grid grid-2" id="driveFileGrid"></div>
+            <button class="btn btn-primary" style="margin-top:16px;" onclick="showToast('Selected file added to the lesson')">Add Selected to Lesson</button>
+          </div>
+        </div>
+      </section>
+
+      <!-- ================= 8/12/13/14. TEACH / SHARE (HERO) ================= -->
+      <section class="screen" id="screen-teach">
+        <div class="demo-bar">
+          <div>
+            <b>See it live</b>
+            <p>Runs a short simulation: select a verse, highlight it, and share it — watch the Student panel update instantly.</p>
+          </div>
+          <button class="btn btn-gold" onclick="playDemo()">▶ Demonstrate Live Sharing</button>
+        </div>
+
+        <div class="teach-toolbar">
+          <div>
+            <b style="font-family:var(--font-display);font-size:1.05rem;">Surah Al-Fatiha — Lesson 03</b>
+            <div style="font-size:.78rem;color:var(--muted);">Page <span id="pageIndicator">1</span> of 2</div>
+          </div>
+          <div class="view-toggle">
+            <button class="active" data-mode="split" onclick="setMode('split')">Split View</button>
+            <button data-mode="tutor" onclick="setMode('tutor')">Tutor View</button>
+            <button data-mode="student" onclick="setMode('student')">Student View</button>
+          </div>
+          <span class="status-pill idle" id="sharePill">⚪ Not sharing</span>
+        </div>
+
+        <div class="teach-body">
+          <div class="thumb-col">
+            <div class="thumb active" data-page="1" onclick="goPage(1)"><span class="tp">1</span>Ayah 1–4</div>
+            <div class="thumb" data-page="2" onclick="goPage(2)"><span class="tp">2</span>Ayah 5–7</div>
+          </div>
+
+          <div class="canvas-area mode-split" id="canvasArea">
+            <div class="panel tutor-panel">
+              <div class="panel-head"><b>👤 Tutor View — editable</b><span class="badge badge-muted">You</span></div>
+              <div class="panel-body" id="tutorAyahs"></div>
+            </div>
+            <div class="panel student-panel">
+              <div class="panel-head"><b>🎓 Student View — read only</b><span class="badge badge-muted">Ahmed's screen</span></div>
+              <div class="panel-body" id="studentAyahs"></div>
+            </div>
+          </div>
+
+          <div class="controls-col">
+            <div class="ctrl-card">
+              <h4>Selected Content</h4>
+              <div class="ctrl-readout" id="selectedReadout">None selected</div>
+            </div>
+            <div class="ctrl-card">
+              <h4>Highlight Tools</h4>
+              <div class="btn-grid">
+                <button class="btn btn-outline btn-sm" onclick="applyHighlight()">✏️ Highlight</button>
+                <button class="btn btn-ghost btn-sm" onclick="clearHighlight()">Clear</button>
+                <button class="btn btn-ghost btn-sm" onclick="goPage(Math.max(1,currentPage-1))">◀ Prev</button>
+                <button class="btn btn-ghost btn-sm" onclick="goPage(Math.min(2,currentPage+1))">Next ▶</button>
+              </div>
+              <button class="btn btn-primary btn-block" style="margin-top:10px;" onclick="shareWithStudent()">📤 Share with Student</button>
+            </div>
+            <div class="ctrl-card">
+              <h4>In this lesson</h4>
+              <div class="mini-student"><span>Ahmed Mohammed</span><span class="live-dot" id="liveDot1" style="display:none;"></span></div>
+              <div class="mini-student"><span>Abdullah Karim</span><span class="live-dot" style="display:none;"></span></div>
+              <div class="mini-student"><span>Yusuf Ibrahim</span><span class="live-dot" style="display:none;"></span></div>
+              <div class="mini-student"><span>Maryam Abdullah</span><span class="live-dot" style="display:none;"></span></div>
+              <button class="btn btn-outline btn-block btn-sm" style="margin-top:10px;" onclick="openModal('meetModal')">🎥 Start Google Meet</button>
+            </div>
+            <div class="ctrl-card">
+              <h4>Quick Note</h4>
+              <textarea class="input" placeholder="Jot something down during the lesson…" style="min-height:60px;"></textarea>
+              <button class="btn btn-ghost btn-sm" style="margin-top:8px;" onclick="showToast('Note saved to this lesson')">Save Note</button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ================= 9. GOOGLE MEET ================= -->
+      <section class="screen" id="screen-meet">
+        <div class="card">
+          <span class="eyebrow">Today's Online Lesson</span>
+          <h3>Surah Al-Fatiha — Lesson 03</h3>
+          <p><b style="color:var(--ink)">Student:</b> Ahmed Mohammed &nbsp;·&nbsp; <b style="color:var(--ink)">Date:</b> Saturday, 29 August &nbsp;·&nbsp; <b style="color:var(--ink)">Time:</b> 4:00 PM</p>
+          <div style="display:flex;gap:10px;flex-wrap:wrap;margin-top:14px;">
+            <button class="btn btn-primary" onclick="openModal('meetModal')">🎥 Join Google Meet</button>
+            <button class="btn btn-outline" onclick="copyLink()">🔗 Copy Meeting Link</button>
+            <button class="btn btn-ghost" onclick="showToast('Reschedule form opened (demo)')">Reschedule</button>
+            <button class="btn btn-danger" onclick="showToast('Lesson cancelled (demo)')">Cancel Lesson</button>
+          </div>
+        </div>
+
+        <div class="card" style="margin-top:20px;">
+          <h3>Upcoming Lessons with Meet Links</h3>
+          <table>
+            <thead><tr><th>Student</th><th>Lesson</th><th>When</th><th></th></tr></thead>
+            <tbody>
+              <tr><td>Fatima Ahmed</td><td>Tajweed — Noon Sakinah</td><td>Today, 5:00 PM</td><td><button class="btn btn-sm btn-outline" onclick="openModal('meetModal')">Join</button></td></tr>
+              <tr><td>Abdullah Karim</td><td>Surah Al-Ikhlas</td><td>Today, 6:00 PM</td><td><button class="btn btn-sm btn-outline" onclick="openModal('meetModal')">Join</button></td></tr>
+              <tr><td>Yusuf Ibrahim</td><td>Noorani Qaida — Lesson 12</td><td>Tomorrow, 4:30 PM</td><td><button class="btn btn-sm btn-outline" onclick="openModal('meetModal')">Join</button></td></tr>
+            </tbody>
+          </table>
+        </div>
+
+        <div class="card" style="margin-top:20px;background:var(--teal-tint);border-color:transparent;">
+          <p style="color:var(--teal-deep);margin:0;">The Google Meet link lives with the lesson, so everything you need to teach — material, meeting and notes — is in one place. No separate calendar to check.</p>
+        </div>
+      </section>
+
+      <!-- ================= 10. SCHEDULE ================= -->
+      <section class="screen" id="screen-schedule">
+        <div class="toolbar">
+          <div class="view-toggle">
+            <button class="active">Weekly</button>
+            <button onclick="showToast('Daily view (demo)')">Daily</button>
+            <button onclick="showToast('Monthly view (demo)')">Monthly</button>
+          </div>
+          <button class="btn btn-primary" style="margin-left:auto" onclick="openModal('scheduleModal')">+ Create Lesson</button>
+        </div>
+        <div class="card">
+          <div class="week-grid">
+            <div class="day-col"><b>Sun</b><div class="slot" onclick="showToast('Lesson details (demo)')"><b>4:00 PM</b>Ahmed — Al-Fatiha</div><div class="slot-empty" onclick="openModal('scheduleModal')">+ Add</div></div>
+            <div class="day-col"><b>Mon</b><div class="slot" onclick="showToast('Lesson details (demo)')"><b>5:00 PM</b>Bilal — Tajweed</div><div class="slot-empty" onclick="openModal('scheduleModal')">+ Add</div></div>
+            <div class="day-col"><b>Tue</b><div class="slot-empty" onclick="openModal('scheduleModal')">+ Add</div></div>
+            <div class="day-col"><b>Wed</b><div class="slot" onclick="showToast('Lesson details (demo)')"><b>5:30 PM</b>Khadija — Tajweed</div><div class="slot-empty" onclick="openModal('scheduleModal')">+ Add</div></div>
+            <div class="day-col"><b>Thu</b><div class="slot-empty" onclick="openModal('scheduleModal')">+ Add</div></div>
+            <div class="day-col"><b>Fri</b><div class="slot-empty" onclick="openModal('scheduleModal')">+ Add</div></div>
+            <div class="day-col"><b>Sat</b>
+              <div class="slot" onclick="showToast('Lesson details (demo)')"><b>4:00 PM</b>Ahmed — Al-Fatiha</div>
+              <div class="slot" onclick="showToast('Lesson details (demo)')"><b>5:00 PM</b>Fatima — Tajweed</div>
+              <div class="slot" onclick="showToast('Lesson details (demo)')"><b>6:00 PM</b>Abdullah — Al-Ikhlas</div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ================= 11. ATTENDANCE ================= -->
+      <section class="screen" id="screen-attendance">
+        <div class="card" style="margin-bottom:16px;">
+          <span class="eyebrow">This week</span>
+          <div style="display:flex;align-items:center;gap:14px;">
+            <div class="stat-card" style="flex:0 0 160px;"><div class="num" id="attPct">92%</div><div class="lbl">Overall attendance</div></div>
+            <p style="margin:0;">Mark it once during the lesson — it updates the student's history and progress automatically.</p>
+          </div>
+        </div>
+        <div class="card">
+          <table>
+            <thead><tr><th>Student</th><th>Lesson</th><th>Date</th><th>Status</th><th></th></tr></thead>
+            <tbody id="attendanceTable"></tbody>
+          </table>
+        </div>
+      </section>
+
+      <!-- ================= 12. PROGRESS ================= -->
+      <section class="screen" id="screen-progress">
+        <div class="chip-row" id="progressTabs" style="margin-bottom:18px;"></div>
+        <div id="progressDetail"></div>
+      </section>
+
+      <!-- ================= 13. LESSON NOTES ================= -->
+      <section class="screen" id="screen-notes">
+        <div class="grid grid-2">
+          <div class="card">
+            <h3>Recent Notes</h3>
+            <div id="notesList"></div>
+          </div>
+          <div class="card">
+            <h3>New Lesson Note</h3>
+            <div class="field"><label>Student</label>
+              <select class="input"><option>Ahmed Mohammed</option><option>Fatima Ahmed</option><option>Abdullah Karim</option></select>
+            </div>
+            <div class="field"><label>Lesson</label>
+              <select class="input"><option>Surah Al-Fatiha — Lesson 03</option><option>Tajweed — Noon Sakinah</option></select>
+            </div>
+            <div class="field"><label>What was covered</label><textarea class="input" id="noteCovered" placeholder="Ayah 1–4, Madd rules…"></textarea></div>
+            <div class="field"><label>Student performance</label><textarea class="input" id="notePerf" placeholder="Good pronunciation, needs practice on…"></textarea></div>
+            <div class="field"><label>Next lesson</label><textarea class="input" id="noteNext" placeholder="Ayah 5–7, review Madd rules"></textarea></div>
+            <button class="btn btn-primary btn-block" onclick="saveLessonNote()">Save Lesson</button>
+          </div>
+        </div>
+      </section>
+
+      <!-- ================= 14. NOTIFICATIONS ================= -->
+      <section class="screen" id="screen-notifications">
+        <div class="toolbar"><button class="btn btn-outline btn-sm" style="margin-left:auto" onclick="markAllRead()">Mark all as read</button></div>
+        <div class="card" id="notifList"></div>
+      </section>
+
+      <!-- ================= 15. SETTINGS ================= -->
+      <section class="screen" id="screen-settings">
+        <div class="grid grid-2">
+          <div class="card">
+            <h3>Profile</h3>
+            <div class="field"><label>Tutor name</label><input class="input" value="Ustadh Abdullah"></div>
+            <div class="field"><label>Email</label><input class="input" value="ustadh.abdullah@gmail.com"></div>
+            <button class="btn btn-outline btn-sm">Change photo</button>
+          </div>
+          <div class="card">
+            <h3>Google Account</h3>
+            <div class="mini-row" style="font-size:.85rem;margin-bottom:10px;"><span>Google Drive</span><span class="badge badge-green">Connected</span></div>
+            <div class="mini-row" style="font-size:.85rem;"><span>Calendar / Meet</span><span class="badge badge-green">Connected</span></div>
+          </div>
+          <div class="card">
+            <h3>Lesson Settings</h3>
+            <div class="field"><label>Default lesson duration</label><select class="input"><option>30 minutes</option><option selected>45 minutes</option><option>60 minutes</option></select></div>
+            <div class="field"><label>Reminder time</label><select class="input"><option>5 minutes before</option><option selected>15 minutes before</option><option>30 minutes before</option></select></div>
+          </div>
+          <div class="card">
+            <h3>Notifications</h3>
+            <label style="display:flex;gap:10px;align-items:center;margin-bottom:8px;"><input type="checkbox" checked> Email reminders</label>
+            <label style="display:flex;gap:10px;align-items:center;">Lesson start reminders <input type="checkbox" checked style="margin-left:auto;"></label>
+          </div>
+          <div class="card" style="grid-column:1/-1;">
+            <h3>Appearance</h3>
+            <div style="display:flex;gap:10px;">
+              <button class="btn btn-outline" id="lightBtn" onclick="setDark(false)">☀️ Light</button>
+              <button class="btn btn-outline" id="darkBtn" onclick="setDark(true)">🌙 Dark</button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ================= 16. TECHNICAL OVERVIEW ================= -->
+      <section class="screen" id="screen-technical">
+        <div class="card" style="margin-bottom:18px;background:var(--paper-alt);">
+          <span class="badge badge-teal">Optional — technical reference only</span>
+          <p style="margin-top:10px;">This section is for anyone curious what runs underneath. You don't need any of it to use the app.</p>
+        </div>
+
+        <details open><summary>Recommended technology stack</summary><p>React-based web app, PDF.js for rendering lesson PDFs, and Supabase for the shared database, login and real-time sync — hosted on a free-tier cloud host.</p></details>
+        <details><summary>Authentication</summary><p>Email/password or "Sign in with Google" — each person only ever sees the classes, lessons and data relevant to their own role.</p></details>
+        <details><summary>Database</summary><p>A standard relational database (PostgreSQL) storing students, classes, lessons, attendance, notes and progress — portable and not locked to one vendor.</p></details>
+        <details><summary>Google Drive integration</summary><p>Least-privilege access: the app only ever sees the specific files a Tutor picks, never the whole Drive. No paid Google Workspace account required.</p></details>
+        <details><summary>Google Meet integration</summary><p>Meet links can be pasted in manually (fastest to launch) or generated automatically via the Google Calendar API in a later phase.</p></details>
+        <details><summary>PDF viewer</summary><p>Every device renders its own copy of the PDF; only page number and highlight position are sent between devices — fast and clear even on a slow connection.</p></details>
+        <details><summary>Real-time sharing</summary><p>A lightweight live-update channel broadcasts the Tutor's current highlight to every connected student in well under a second.</p></details>
+        <details><summary>Hosting</summary><p>Static frontend on a free edge host (e.g. Cloudflare Pages), backend/database on Supabase's free tier.</p></details>
+        <details><summary>Security</summary><p>Row-level access rules, encrypted credentials, HTTPS everywhere, and minimal collection of any student's personal information.</p></details>
+        <details><summary>Backup</summary><p>Managed database backups through the hosting provider; lesson notes and attendance are never stored only on one device.</p></details>
+        <details><summary>Scalability</summary><p>Comfortably handles a solo tutor's full practice; the same architecture scales to multiple tutors later without a rebuild.</p></details>
+
+        <div class="card" style="margin-top:18px;">
+          <span class="eyebrow">Cost & deployment concept</span>
+          <h3>Free or near-zero operating cost for a small tutor</h3>
+          <div class="flow-chain" style="margin:14px 0;">
+            <span class="flow-chip">Tutor / Student</span><span class="flow-arrow">→</span>
+            <span class="flow-chip">Web App</span><span class="flow-arrow">→</span>
+            <span class="flow-chip">Free / Low-Cost Cloud</span><span class="flow-arrow">→</span>
+            <span class="flow-chip">Google Drive</span><span class="flow-arrow">→</span>
+            <span class="flow-chip">Google Meet</span>
+          </div>
+          <p style="margin:0;">Actual cost depends on usage and each provider's current free-tier limits — this isn't a promise that it stays free forever, but at one tutor's scale it realistically costs $0/month to run.</p>
+        </div>
+      </section>
+
+      <!-- ================= 17. ROADMAP ================= -->
+      <section class="screen" id="screen-roadmap">
+        <div class="grid grid-3">
+          <div class="card">
+            <span class="badge badge-teal">Phase 1</span>
+            <h3 style="margin-top:10px;">MVP</h3>
+            <ul style="padding-left:18px;color:var(--ink-soft);font-size:.85rem;line-height:1.9;">
+              <li>Tutor & Student login</li><li>Student management</li><li>Classes</li><li>Lessons</li>
+              <li>PDF lesson materials</li><li>Google Drive</li><li>Teaching / Sharing screen</li>
+              <li>Highlighting</li><li>Google Meet link</li><li>Schedule</li><li>Attendance</li>
+              <li>Lesson notes</li><li>Basic progress tracking</li>
+            </ul>
+          </div>
+          <div class="card">
+            <span class="badge badge-amber">Phase 2</span>
+            <h3 style="margin-top:10px;">Next up</h3>
+            <ul style="padding-left:18px;color:var(--ink-soft);font-size:.85rem;line-height:1.9;">
+              <li>Parent / Guardian access</li><li>Automated reminders</li><li>Advanced progress reports</li>
+              <li>Homework & assignments</li><li>Voice recording</li><li>More Qur'an-specific tools</li>
+            </ul>
+          </div>
+          <div class="card">
+            <span class="badge badge-muted">Future</span>
+            <h3 style="margin-top:10px;">Exploratory</h3>
+            <ul style="padding-left:18px;color:var(--ink-soft);font-size:.85rem;line-height:1.9;">
+              <li>AI-assisted pronunciation feedback</li><li>Tajweed assistance</li><li>Advanced analytics</li>
+              <li>Multi-tutor support</li><li>Subscription management</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <!-- ================= 18. FEEDBACK ================= -->
+      <section class="screen" id="screen-feedback">
+        <div class="card" id="feedbackForm">
+          <span class="eyebrow">Before we build it</span>
+          <h3>What do you think?</h3>
+          <p>Your answers help decide what gets built first.</p>
+
+          <div class="field">
+            <label>Which feature would help you the most?</label>
+            <div class="check-grid">
+              <label><input type="checkbox"> Student Management</label>
+              <label><input type="checkbox"> Lesson Management</label>
+              <label><input type="checkbox" checked> PDF Highlight & Sharing</label>
+              <label><input type="checkbox"> Google Meet</label>
+              <label><input type="checkbox"> Attendance</label>
+              <label><input type="checkbox"> Student Progress</label>
+            </div>
+          </div>
+          <div class="field"><label>What would you change?</label><textarea class="input" placeholder="Tell us…"></textarea></div>
+          <div class="field"><label>What feature is missing?</label><textarea class="input" placeholder="Tell us…"></textarea></div>
+          <div class="field">
+            <label>Would you use this solution?</label>
+            <div class="radio-row">
+              <label><input type="radio" name="wouldUse" checked> Yes</label>
+              <label><input type="radio" name="wouldUse"> Maybe</label>
+              <label><input type="radio" name="wouldUse"> No</label>
+            </div>
+          </div>
+          <button class="btn btn-primary" onclick="submitFeedback()">Submit Feedback</button>
+        </div>
+
+        <div class="card" id="feedbackDone" style="display:none;text-align:center;">
+          <span style="font-size:2rem;">🎉</span>
+          <h3>Thank you!</h3>
+          <p>Your feedback has been recorded (demo only) and will help shape what gets built first.</p>
+          <button class="btn btn-outline btn-sm" onclick="resetFeedback()">Submit another response</button>
+        </div>
+
+        <div class="foot-quote">
+          <span class="eyebrow">In short</span>
+          <h3>One place to manage your Qur'an classes, lessons, students and teaching materials — while making online teaching easier and more interactive.</h3>
+          <div class="flow-chain" style="justify-content:center;margin-top:14px;">
+            <span class="flow-chip">Manage</span><span class="flow-arrow">→</span>
+            <span class="flow-chip">Teach</span><span class="flow-arrow">→</span>
+            <span class="flow-chip">Share</span><span class="flow-arrow">→</span>
+            <span class="flow-chip">Track</span>
+          </div>
+        </div>
+      </section>
+
+    </main>
+  </div>
+</div>
+
+<!-- ============ MODALS ============ -->
+<div class="modal-overlay" id="meetModal">
+  <div class="modal">
+    <button class="modal-close" onclick="closeModal('meetModal')">✕</button>
+    <span class="eyebrow">Google Meet</span>
+    <h3>Ready to join</h3>
+    <p>In the real app, this opens <b style="color:var(--ink)">meet.google.com/abc-defg-hij</b> in a new tab — the same link every student sees on their lesson screen.</p>
+    <button class="btn btn-primary btn-block" onclick="closeModal('meetModal');showToast('Opening Google Meet…')">🎥 Continue to Meet</button>
+  </div>
+</div>
+
+<div class="modal-overlay" id="scheduleModal">
+  <div class="modal">
+    <button class="modal-close" onclick="closeModal('scheduleModal')">✕</button>
+    <span class="eyebrow">New Lesson</span>
+    <h3>Create Lesson</h3>
+    <div class="field"><label>Student / Class</label><select class="input"><option>Ahmed Mohammed</option><option>Quran Beginners – Group A</option></select></div>
+    <div class="field"><label>Lesson</label><select class="input"><option>Surah Al-Fatiha — Lesson 04</option><option>Tajweed — Idghaam</option></select></div>
+    <div class="grid grid-2">
+      <div class="field"><label>Date</label><input class="input" type="date"></div>
+      <div class="field"><label>Time</label><input class="input" type="time"></div>
+    </div>
+    <div class="grid grid-2">
+      <div class="field"><label>Duration</label><select class="input"><option>30 min</option><option selected>45 min</option><option>60 min</option></select></div>
+      <div class="field"><label>Reminder</label><select class="input"><option>15 min before</option><option>30 min before</option></select></div>
+    </div>
+    <label style="display:flex;gap:8px;align-items:center;margin-bottom:14px;"><input type="checkbox" checked> Generate Google Meet link</label>
+    <button class="btn btn-primary btn-block" onclick="closeModal('scheduleModal');showToast('Lesson scheduled')">Save Lesson</button>
+  </div>
+</div>
+
+<div class="modal-overlay" id="studentModal">
+  <div class="modal" id="studentModalBody"></div>
+</div>
+
+<div class="modal-overlay" id="notifModal">
+  <div class="modal">
+    <button class="modal-close" onclick="closeModal('notifModal')">✕</button>
+    <span class="eyebrow">Notifications</span>
+    <h3>Recent</h3>
+    <p>🔔 Lesson starting in 15 minutes — Ahmed, 4:00 PM</p>
+    <p>🔔 Fatima's lesson is scheduled for 5:00 PM</p>
+    <p>🔔 Weekly student progress is ready to review</p>
+    <button class="btn btn-outline btn-block" onclick="closeModal('notifModal');showScreen('notifications')">See all notifications</button>
+  </div>
+</div>
+
+<div id="toast"></div>
+
+<script>
+/* ============================================================
+   DATA
+   ============================================================ */
+const NAV = [
+  ['overview','🏠','Overview'],['why','🎯','Why This Solution?'],['dashboard','📊','Tutor Dashboard'],
+  ['students','👨‍🎓','Students'],['classes','📚','Classes'],['lessons','📖','Lessons'],
+  ['materials','📄','Lesson Materials'],['teach','✨','Teaching / Sharing'],['meet','🎥','Google Meet'],
+  ['schedule','📅','Schedule'],['attendance','✅','Attendance'],['progress','📈','Student Progress'],
+  ['notes','📝','Lesson Notes'],['notifications','🔔','Notifications'],['settings','⚙️','Settings'],
+  ['technical','👨‍💻','Technical Overview'],['roadmap','🚀','Implementation Roadmap'],['feedback','💬','Feedback']
+];
+
+const PAGE_META = {
+  overview:['Overview',"A calm, connected workspace for online Qur'an teaching"],
+  why:['Why This Solution?','Where time gets lost today — and how it comes back'],
+  dashboard:['Tutor Dashboard','Good afternoon, Ustadh Abdullah'],
+  students:['Students','Every learner, their class and their progress in one place'],
+  classes:['Classes','Groups of students taught together'],
+  lessons:['Lessons','Your library of prepared lessons and material'],
+  materials:['Lesson Materials','Your files, or files already sitting in Google Drive'],
+  teach:['Teaching · Sharing','The heart of the workspace — live during a lesson'],
+  meet:['Google Meet',"Every lesson's meeting link, kept with the lesson"],
+  schedule:['Schedule',"This week's lessons at a glance"],
+  attendance:['Attendance','Mark it once, see it everywhere'],
+  progress:['Student Progress',"What each student has learned, and where they're headed"],
+  notes:['Lesson Notes','A short record after every lesson'],
+  notifications:['Notifications','Reminders that stay out of your way'],
+  settings:['Settings','Your account, your defaults, your app'],
+  technical:['Technical Overview',"Optional — for anyone curious what's under the hood"],
+  roadmap:['Implementation Roadmap','What ships first, and what comes after'],
+  feedback:['Your Feedback','Help shape what gets built next'],
+};
+
+const STUDENTS = [
+ {id:'ahmed', name:'Ahmed Mohammed', cls:'Quran Beginners – Group A', level:'Intermediate', lesson:'Surah Al-Fatiha – Lesson 03', next:'Today · 4:00 PM', last:'Aug 27', attendance:94, completed:28, color:'#0E5C52',
+   progress:{recitation:80,tajweed:70,memorization:90},
+   recent:['Aug 27 — Surah Al-Fatiha (Ayah 1–4)','Aug 24 — Tajweed: Madd rules','Aug 20 — Surah Al-Ikhlas review'],
+   note:'Good pronunciation. Needs more practice on Madd rules before moving to Ayah 5.',
+   improve:'Madd (elongation) rules', target:'Ayah 5–7 of Al-Fatiha'},
+ {id:'fatima', name:'Fatima Ahmed', cls:'Tajweed Foundations – Group B', level:'Advanced', lesson:'Tajweed – Noon Sakinah', next:'Today · 5:00 PM', last:'Aug 28', attendance:98, completed:41, color:'#B8863A',
+   progress:{recitation:92,tajweed:88,memorization:75},
+   recent:['Aug 28 — Noon Sakinah, part 2','Aug 25 — Idghaam examples','Aug 21 — Recitation fluency check'],
+   note:'Confident recitation. Ready to start Idghaam next week.',
+   improve:'Idghaam without Ghunnah', target:'Noon Sakinah, part 3'},
+ {id:'abdullah', name:'Abdullah Karim', cls:'Quran Beginners – Group A', level:'Beginner', lesson:'Surah Al-Ikhlas', next:'Today · 6:00 PM', last:'Aug 26', attendance:88, completed:15, color:'#5B7A6E',
+   progress:{recitation:55,tajweed:40,memorization:65},
+   recent:['Aug 26 — Surah Al-Ikhlas, full recitation','Aug 22 — Letter articulation practice','Aug 18 — Noorani Qaida, lesson 11'],
+   note:'Making steady progress. Keep sessions short and encouraging.',
+   improve:'Letter articulation (makhraj)', target:'Surah Al-Ikhlas, memorization'},
+ {id:'yusuf', name:'Yusuf Ibrahim', cls:'Quran Beginners – Group A', level:'Beginner', lesson:'Noorani Qaida – Lesson 12', next:'Tomorrow · 4:30 PM', last:'Aug 26', attendance:90, completed:12, color:'#0E5C52',
+   progress:{recitation:48,tajweed:35,memorization:50},
+   recent:['Aug 26 — Noorani Qaida, lesson 12','Aug 23 — Noorani Qaida, lesson 11','Aug 19 — Arabic letters review'],
+   note:'Enjoys reading aloud. Build confidence before adding tajweed rules.',
+   improve:'Reading pace', target:'Noorani Qaida, lesson 13'},
+ {id:'maryam', name:'Maryam Abdullah', cls:'Quran Beginners – Group A', level:'Intermediate', lesson:'Surah Al-Fatiha – Lesson 03', next:'Tomorrow · 5:00 PM', last:'Aug 25', attendance:96, completed:24, color:'#B8863A',
+   progress:{recitation:75,tajweed:65,memorization:80},
+   recent:['Aug 25 — Surah Al-Fatiha (Ayah 1–4)','Aug 21 — Tajweed: Qalqalah','Aug 17 — Memorization check'],
+   note:"Very consistent — a steady, reliable presence in the group.",
+   improve:'Qalqalah pronunciation', target:'Ayah 5–7 of Al-Fatiha'},
+ {id:'khadija', name:'Khadija Omar', cls:'Tajweed Foundations – Group B', level:'Advanced', lesson:'Tajweed – Noon Sakinah', next:'Tomorrow · 5:30 PM', last:'Aug 28', attendance:100, completed:37, color:'#5B7A6E',
+   progress:{recitation:90,tajweed:85,memorization:70},
+   recent:['Aug 28 — Noon Sakinah, part 2','Aug 25 — Idghaam examples','Aug 21 — Recitation fluency check'],
+   note:'Excellent attendance and preparation every week.',
+   improve:'Memorization pace', target:'Noon Sakinah, part 3'},
+ {id:'bilal', name:'Bilal Hassan', cls:'Tajweed Foundations – Group B', level:'Intermediate', lesson:'Tajweed – Noon Sakinah', next:'Mon · 5:00 PM', last:'Aug 22', attendance:82, completed:20, color:'#0E5C52',
+   progress:{recitation:70,tajweed:60,memorization:55},
+   recent:['Aug 22 — Noon Sakinah, part 1','Aug 18 — Ghunnah practice','Aug 14 — Recitation review'],
+   note:'Missed two sessions this month — worth a quick check-in.',
+   improve:'Attendance consistency', target:'Noon Sakinah, part 2'},
+];
+
+const LESSONS = [
+  ['Surah Al-Fatiha','Recitation','📄 PDF','4','Today'],
+  ['Tajweed – Noon Sakinah','Tajweed','📄 PDF','3','Yesterday'],
+  ['Surah Al-Ikhlas','Memorization','📄 PDF','3','Aug 28'],
+  ['Noorani Qaida – Lesson 12','Foundational Reading','📄 PDF','2','Aug 26'],
+];
+
+const MY_FILES = [
+  ['📄','Surah Al-Fatiha.pdf','1.2 MB · used in 4 lessons'],
+  ['📄','Tajweed Rules – Lesson 05.pdf','860 KB · used in 3 lessons'],
+  ['📄','Surah Al-Ikhlas.pdf','410 KB · used in 3 lessons'],
+  ['📄','Noorani Qaida – Lesson 12.pdf','2.1 MB · used in 2 lessons'],
+];
+
+const DRIVE_FILES = [
+  ['📄','Surah Al-Baqarah – Selections.pdf','My Drive / Quran Lessons'],
+  ['📄','Tajweed Rules – Lesson 06.pdf','My Drive / Quran Lessons'],
+  ['📄','Noorani Qaida – Lesson 13.pdf','My Drive / Quran Lessons'],
+  ['📄','Surah Yaseen – Class Copy.pdf','My Drive / Quran Lessons'],
+];
+
+const JOURNEY = [
+  ['01','Login','overview'],['02','Tutor Dashboard','dashboard'],['03','Select Student','students'],
+  ['04','Select Lesson','lessons'],['05','Open Lesson PDF','materials'],['06','Start Google Meet','meet'],
+  ['07','Open Teaching Screen','teach'],['08','Select Qur\u2019anic Content','teach'],['09','Highlight','teach'],
+  ['10','Share with Student','teach'],['11','Explain / Teach','teach'],['12','Complete Lesson','teach'],
+  ['13','Record Attendance','attendance'],['14','Add Lesson Notes','notes'],['15','Update Progress','progress'],
+];
+
+const WHY_ROWS = [
+  ['Lesson PDFs may be scattered across folders.','Every lesson\u2019s material is attached right where you teach it.'],
+  ['Finding the correct lesson can take time.','Search or filter your lesson library in seconds.'],
+  ['You need to explain a specific Ayah or section clearly.','Highlight exactly the passage you mean, in real time.'],
+  ['Students may not see exactly what you\u2019re explaining.','What you highlight appears on their screen instantly.'],
+  ['Meeting links are scattered across chats and calendars.','The Meet link lives with the lesson — one click to join.'],
+  ['Attendance and history are tracked manually.','Mark attendance once; history updates itself.'],
+  ['Student progress is hard to track over time.','A simple visual record of what each student has learned.'],
+];
+
+const BENEFITS = [
+  ['⏱️','Save Time','Find students, lessons and materials quickly.'],
+  ['🎯','Teach Better','Show students exactly what you\u2019re explaining.'],
+  ['🗂️','Stay Organized','Keep lessons, PDFs, schedules and notes together.'],
+  ['🤝','Improve Engagement','Students follow the Tutor\u2019s current teaching content.'],
+  ['📈','Track Progress','Know what each student has learned.'],
+  ['✅','Reduce Manual Work','Simplify attendance and lesson records.'],
+];
+
+const NOTIFICATIONS = [
+  ['🔔','Lesson starting in 15 minutes','Ahmed Mohammed · 4:00 PM',true],
+  ['🔔',"Fatima's lesson is scheduled",'Today · 5:00 PM',true],
+  ['🔔','Abdullah missed today\u2019s lesson','Aug 26',true],
+  ['📈','Weekly student progress is ready','Every Sunday',false],
+  ['📄','New file added to Lesson Materials','Tajweed Rules – Lesson 05.pdf',false],
+];
+
+const FATIHA = [
+ {n:1, ar:'بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ', page:1},
+ {n:2, ar:'الْحَمْدُ لِلَّهِ رَبِّ الْعَالَمِينَ', page:1},
+ {n:3, ar:'الرَّحْمَٰنِ الرَّحِيمِ', page:1},
+ {n:4, ar:'مَالِكِ يَوْمِ الدِّينِ', page:1},
+ {n:5, ar:'إِيَّاكَ نَعْبُدُ وَإِيَّاكَ نَسْتَعِينُ', page:2},
+ {n:6, ar:'اهْدِنَا الصِّرَاطَ الْمُسْتَقِيمَ', page:2},
+ {n:7, ar:'صِرَاطَ الَّذِينَ أَنْعَمْتَ عَلَيْهِمْ غَيْرِ الْمَغْضُوبِ عَلَيْهِمْ وَلَا الضَّالِّينَ', page:2},
+];
+
+/* ============================================================
+   NAV + SCREENS
+   ============================================================ */
+let currentScreen = 'overview';
+
+function buildNav(){
+  const nav = document.getElementById('navList');
+  nav.innerHTML = NAV.map(([id,emoji,label]) =>
+    `<button class="nav-item" data-target="${id}" onclick="showScreen('${id}')">
+      <span class="nav-emoji">${emoji}</span><span>${label}</span>
+    </button>`).join('');
+}
+
+function showScreen(id){
+  currentScreen = id;
+  document.querySelectorAll('.screen').forEach(s=>s.classList.remove('active'));
+  const target = document.getElementById('screen-'+id);
+  if(target) target.classList.add('active');
+  document.querySelectorAll('.nav-item').forEach(n=>n.classList.toggle('active', n.dataset.target===id));
+  const meta = PAGE_META[id] || [id,''];
+  document.getElementById('pageTitle').textContent = meta[0];
+  document.getElementById('pageSubtitle').textContent = meta[1];
+  document.getElementById('mainContent').scrollTop = 0;
+  window.scrollTo(0,0);
+  location.hash = id;
+  toggleSidebar(false);
+}
+
+function toggleSidebar(open){
+  document.getElementById('sidebar').classList.toggle('open', open);
+  document.getElementById('scrim').classList.toggle('show', open);
+}
+
+/* ============================================================
+   RENDER: journey / why / benefits
+   ============================================================ */
+function renderJourney(){
+  document.getElementById('journeyGrid').innerHTML = JOURNEY.map(([num,label,target])=>
+    `<div class="journey-step" onclick="showScreen('${target}')"><b>${num}</b><span>${label}</span></div>`).join('');
+}
+
+function renderWhy(){
+  document.getElementById('compareList').innerHTML = WHY_ROWS.map(([b,a])=>
+    `<div class="compare-row">
+      <div class="compare-cell before">❌ ${b}</div>
+      <div class="compare-cell after">✅ ${a}</div>
+    </div>`).join('');
+  document.getElementById('benefitGrid').innerHTML = BENEFITS.map(([icon,title,desc])=>
+    `<div class="pillar"><span class="pillar-icon">${icon}</span><h4>${title}</h4><p style="margin:0;font-size:.85rem;">${desc}</p></div>`).join('');
+}
+
+/* ============================================================
+   RENDER: dashboard progress snapshot
+   ============================================================ */
+function renderDashProgress(){
+  const picks = ['ahmed','fatima','abdullah'];
+  document.getElementById('dashProgress').innerHTML = picks.map(id=>{
+    const s = STUDENTS.find(x=>x.id===id);
+    const avg = Math.round((s.progress.recitation+s.progress.tajweed+s.progress.memorization)/3);
+    return `<div>
+      <div class="mini-row"><b style="color:var(--ink)">${s.name}</b><span>${avg}%</span></div>
+      <div class="progress-track"><div class="progress-fill" style="width:${avg}%"></div></div>
+    </div>`;
+  }).join('');
+}
+
+/* ============================================================
+   RENDER: students
+   ============================================================ */
+function renderStudents(){
+  document.getElementById('studentGrid').innerHTML = STUDENTS.map(s=>{
+    const initials = s.name.split(' ').map(w=>w[0]).join('').slice(0,2);
+    return `<div class="student-card" onclick="openStudentProfile('${s.id}')">
+      <div class="student-head">
+        <div class="avatar" style="background:${s.color}">${initials}</div>
+        <div><b>${s.name}</b><span>${s.cls}</span></div>
+      </div>
+      <div class="mini-row"><span>Current lesson</span><span style="color:var(--ink)">${s.lesson}</span></div>
+      <div class="mini-row"><span>Attendance</span><span style="color:var(--ink)">${s.attendance}%</span></div>
+      <div class="mini-row"><span>Next lesson</span><span style="color:var(--ink)">${s.next}</span></div>
+      <div class="student-actions">
+        <button class="btn btn-primary btn-sm" onclick="event.stopPropagation();startLessonFor('${s.id}')">Start Lesson</button>
+        <button class="btn btn-outline btn-sm" onclick="event.stopPropagation();openStudentProfile('${s.id}')">View Profile</button>
+      </div>
+    </div>`;
+  }).join('');
+}
+
+function openStudentProfile(id){
+  const s = STUDENTS.find(x=>x.id===id);
+  const initials = s.name.split(' ').map(w=>w[0]).join('').slice(0,2);
+  document.getElementById('studentModalBody').innerHTML = `
+    <button class="modal-close" onclick="closeModal('studentModal')">✕</button>
+    <div class="student-head" style="margin-bottom:16px;">
+      <div class="avatar" style="width:56px;height:56px;font-size:1.1rem;background:${s.color}">${initials}</div>
+      <div><b style="font-size:1.1rem;">${s.name}</b><span>${s.cls} · ${s.level}</span></div>
+    </div>
+    <div class="grid grid-3" style="margin-bottom:16px;">
+      <div class="stat-card"><div class="num" style="font-size:1.4rem;">${s.completed}</div><div class="lbl">Lessons done</div></div>
+      <div class="stat-card"><div class="num" style="font-size:1.4rem;">${s.attendance}%</div><div class="lbl">Attendance</div></div>
+      <div class="stat-card"><div class="num" style="font-size:1.4rem;">${s.next.split('·')[0]}</div><div class="lbl">Next lesson</div></div>
+    </div>
+    <h4 style="font-size:.8rem;text-transform:uppercase;color:var(--muted);letter-spacing:.04em;">Progress</h4>
+    ${progressBars(s.progress)}
+    <h4 style="font-size:.8rem;text-transform:uppercase;color:var(--muted);letter-spacing:.04em;margin-top:16px;">Recent Lessons</h4>
+    <p style="font-size:.85rem;">${s.recent.join('<br>')}</p>
+    <h4 style="font-size:.8rem;text-transform:uppercase;color:var(--muted);letter-spacing:.04em;">Teacher Notes</h4>
+    <p style="font-size:.85rem;">${s.note}</p>
+    <button class="btn btn-primary btn-block" onclick="closeModal('studentModal');startLessonFor('${s.id}')">Start Lesson</button>
+  `;
+  openModal('studentModal');
+}
+
+function progressBars(p){
+  const rows = [['Recitation',p.recitation],['Tajweed',p.tajweed],['Memorization',p.memorization]];
+  return rows.map(([label,val])=>`
+    <div style="margin-bottom:10px;">
+      <div class="mini-row"><span>${label}</span><span style="color:var(--ink)">${val}%</span></div>
+      <div class="progress-track"><div class="progress-fill" style="width:${val}%"></div></div>
+    </div>`).join('');
+}
+
+function startLessonFor(id){
+  showToast('Starting lesson…');
+  setTimeout(()=>showScreen('teach'), 300);
+}
+
+/* ============================================================
+   RENDER: lessons / files / drive
+   ============================================================ */
+function renderLessons(){
+  document.getElementById('lessonTable').innerHTML = LESSONS.map(([name,subj,mat,students,used])=>
+    `<tr><td><b>${name}</b></td><td>${subj}</td><td>${mat}</td><td>${students}</td><td>${used}</td>
+     <td><button class="btn btn-sm btn-outline" onclick="showScreen('teach')">Open</button></td></tr>`).join('');
+}
+
+function renderFiles(){
+  document.getElementById('fileGrid').innerHTML = MY_FILES.map(([icon,name,meta])=>
+    `<div class="file-card"><span class="fi">${icon}</span><div class="fmeta"><b>${name}</b><span>${meta}</span></div>
+     <button class="btn btn-sm btn-outline" style="margin-left:auto" onclick="showToast('Added to lesson')">Add</button></div>`).join('');
+  document.getElementById('driveFileGrid').innerHTML = DRIVE_FILES.map(([icon,name,loc])=>
+    `<div class="file-card"><input type="checkbox" style="width:16px;height:16px;"><span class="fi">${icon}</span>
+     <div class="fmeta"><b>${name}</b><span>${loc}</span></div></div>`).join('');
+}
+
+function switchMatTab(tab){
+  document.querySelectorAll('[data-mtab]').forEach(b=>b.classList.toggle('active', b.dataset.mtab===tab));
+  document.getElementById('matMine').style.display = tab==='mine' ? 'block' : 'none';
+  document.getElementById('matDrive').style.display = tab==='drive' ? 'block' : 'none';
+}
+
+function connectDrive(){
+  showToast('Connected to Google Drive');
+  document.getElementById('driveConnectCard').style.display='none';
+  document.getElementById('driveBrowser').style.display='block';
+}
+
+/* ============================================================
+   TEACHING / SHARING — the hero feature
+   ============================================================ */
+let currentPage = 1;
+let selectedAyah = null;
+let tutorHighlight = null;
+let shared = {page:null, ayah:null, active:false};
+
+function goPage(p){
+  currentPage = p;
+  selectedAyah = null;
+  document.getElementById('pageIndicator').textContent = p;
+  document.querySelectorAll('.thumb').forEach(t=>t.classList.toggle('active', Number(t.dataset.page)===p));
+  updateReadout();
+  renderTutorAyahs();
+}
+
+function renderTutorAyahs(){
+  const rows = FATIHA.filter(a=>a.page===currentPage);
+  document.getElementById('tutorAyahs').innerHTML = rows.map(a=>{
+    const cls = ['ayah-row'];
+    if(selectedAyah===a.n) cls.push('selected');
+    if(tutorHighlight===a.n) cls.push('highlighted');
+    return `<div class="${cls.join(' ')}" onclick="selectAyah(${a.n})">
+      <div class="ayah-num">${a.n}</div><div class="ayah-ar">${a.ar}</div>
+    </div>`;
+  }).join('');
+  renderStudentAyahs();
+}
+
+function renderStudentAyahs(){
+  const container = document.getElementById('studentAyahs');
+  if(!shared.active){
+    container.innerHTML = `<div class="empty-note">Waiting for the Tutor to share a passage…</div>`;
+    return;
+  }
+  const rows = FATIHA.filter(a=>a.page===shared.page);
+  let html = `<span class="live-tag"><span class="live-dot"></span> Tutor is explaining this section</span>`;
+  html += rows.map(a=>{
+    const cls = ['ayah-row'];
+    if(shared.ayah===a.n) cls.push('highlighted');
+    return `<div class="${cls.join(' ')}"><div class="ayah-num">${a.n}</div><div class="ayah-ar">${a.ar}</div></div>`;
+  }).join('');
+  container.innerHTML = html;
+}
+
+function selectAyah(n){
+  selectedAyah = n;
+  updateReadout();
+  renderTutorAyahs();
+}
+
+function updateReadout(){
+  document.getElementById('selectedReadout').textContent = selectedAyah ? ('Ayah '+selectedAyah) : 'None selected';
+}
+
+function applyHighlight(){
+  if(!selectedAyah){ showToast('Select a verse first'); return; }
+  tutorHighlight = selectedAyah;
+  renderTutorAyahs();
+  showToast('Highlighted — ready to share');
+}
+
+function clearHighlight(){
+  tutorHighlight = null;
+  selectedAyah = null;
+  shared = {page:null, ayah:null, active:false};
+  document.getElementById('sharePill').className = 'status-pill idle';
+  document.getElementById('sharePill').textContent = '⚪ Not sharing';
+  document.querySelectorAll('.live-dot[id]').forEach(d=>d.style.display='none');
+  updateReadout();
+  renderTutorAyahs();
+}
+
+function shareWithStudent(){
+  if(!tutorHighlight){ showToast('Highlight a verse before sharing'); return; }
+  shared = {page:currentPage, ayah:tutorHighlight, active:true};
+  document.getElementById('sharePill').className = 'status-pill live';
+  document.getElementById('sharePill').textContent = '🟢 Sharing live';
+  document.getElementById('liveDot1').style.display = 'inline-block';
+  renderStudentAyahs();
+  showToast('Shared with students — appears on their screens instantly');
+}
+
+function setMode(mode){
+  document.querySelectorAll('.view-toggle button').forEach(b=>b.classList.toggle('active', b.dataset.mode===mode));
+  const area = document.getElementById('canvasArea');
+  area.className = 'canvas-area mode-'+mode;
+}
+
+function playDemo(){
+  clearHighlight();
+  showToast('Demo starting…');
+  setTimeout(()=>{ goPage(2); }, 500);
+  setTimeout(()=>{ selectAyah(5); showToast('Tutor selects Ayah 5'); }, 1300);
+  setTimeout(()=>{ applyHighlight(); }, 2200);
+  setTimeout(()=>{ shareWithStudent(); }, 3200);
+}
+
+/* ============================================================
+   MEET
+   ============================================================ */
+function copyLink(){
+  showToast('Meeting link copied to clipboard');
+}
+
+/* ============================================================
+   ATTENDANCE
+   ============================================================ */
+const ATT_ROWS = [
+  {name:'Ahmed Mohammed', lesson:'Surah Al-Fatiha', status:'present'},
+  {name:'Fatima Ahmed', lesson:'Tajweed – Noon Sakinah', status:'present'},
+  {name:'Abdullah Karim', lesson:'Surah Al-Ikhlas', status:'absent'},
+  {name:'Yusuf Ibrahim', lesson:'Noorani Qaida – Lesson 12', status:'late'},
+  {name:'Maryam Abdullah', lesson:'Surah Al-Fatiha', status:'present'},
+];
+function renderAttendance(){
+  document.getElementById('attendanceTable').innerHTML = ATT_ROWS.map((r,i)=>`
+    <tr>
+      <td>${r.name}</td><td>${r.lesson}</td><td>Today, Aug 29</td>
+      <td id="att-badge-${i}">${attBadge(r.status)}</td>
+      <td>
+        <button class="btn btn-sm btn-ghost" onclick="setAtt(${i},'present')">Present</button>
+        <button class="btn btn-sm btn-ghost" onclick="setAtt(${i},'absent')">Absent</button>
+        <button class="btn btn-sm btn-ghost" onclick="setAtt(${i},'late')">Late</button>
+        <button class="btn btn-sm btn-ghost" onclick="setAtt(${i},'excused')">Excused</button>
+      </td>
+    </tr>`).join('');
+  recalcAttendance();
+}
+function attBadge(status){
+  const map = {present:['badge-green','Present'],absent:['badge-red','Absent'],late:['badge-amber','Late'],excused:['badge-muted','Excused']};
+  const [cls,label] = map[status];
+  return `<span class="badge ${cls}">${label}</span>`;
+}
+function setAtt(i,status){
+  ATT_ROWS[i].status = status;
+  document.getElementById('att-badge-'+i).innerHTML = attBadge(status);
+  recalcAttendance();
+  showToast('Attendance updated');
+}
+function recalcAttendance(){
+  const present = ATT_ROWS.filter(r=>r.status==='present'||r.status==='late').length;
+  const pct = Math.round((present/ATT_ROWS.length)*100);
+  document.getElementById('attPct').textContent = pct+'%';
+}
+
+/* ============================================================
+   PROGRESS
+   ============================================================ */
+let progressStudent = 'ahmed';
+function renderProgressTabs(){
+  document.getElementById('progressTabs').innerHTML = STUDENTS.map(s=>
+    `<span class="chip" style="cursor:pointer;${s.id===progressStudent?'background:var(--teal);color:#fff;border-color:var(--teal);':''}" onclick="selectProgress('${s.id}')">${s.name}</span>`).join('');
+}
+function selectProgress(id){
+  progressStudent = id;
+  renderProgressTabs();
+  renderProgressDetail();
+}
+function renderProgressDetail(){
+  const s = STUDENTS.find(x=>x.id===progressStudent);
+  document.getElementById('progressDetail').innerHTML = `
+    <div class="card">
+      <span class="eyebrow">${s.cls}</span>
+      <h3>${s.name}</h3>
+      <div class="grid grid-3" style="margin:14px 0;">
+        <div class="stat-card"><div class="num" style="font-size:1.3rem;">${s.level}</div><div class="lbl">Current level</div></div>
+        <div class="stat-card"><div class="num" style="font-size:1.3rem;">${s.completed}</div><div class="lbl">Lessons completed</div></div>
+        <div class="stat-card"><div class="num" style="font-size:1.3rem;">${s.attendance}%</div><div class="lbl">Attendance</div></div>
+      </div>
+      <h4 style="font-size:.8rem;text-transform:uppercase;color:var(--muted);letter-spacing:.04em;">Current Focus</h4>
+      ${progressBars(s.progress)}
+      <div class="grid grid-2" style="margin-top:16px;">
+        <div>
+          <h4 style="font-size:.8rem;text-transform:uppercase;color:var(--muted);letter-spacing:.04em;">Recent Lessons</h4>
+          <p style="font-size:.85rem;">${s.recent.join('<br>')}</p>
+        </div>
+        <div>
+          <h4 style="font-size:.8rem;text-transform:uppercase;color:var(--muted);letter-spacing:.04em;">Teacher Comments</h4>
+          <p style="font-size:.85rem;">${s.note}</p>
+        </div>
+      </div>
+      <div class="grid grid-2">
+        <div class="card" style="background:var(--amber-tint);border-color:transparent;"><b style="color:var(--ink)">Area to improve</b><p style="margin:4px 0 0;">${s.improve}</p></div>
+        <div class="card" style="background:var(--teal-tint);border-color:transparent;"><b style="color:var(--ink)">Next target</b><p style="margin:4px 0 0;">${s.target}</p></div>
+      </div>
+    </div>`;
+}
+
+/* ============================================================
+   NOTES
+   ============================================================ */
+let NOTES = [
+  {student:'Ahmed Mohammed', lesson:'Surah Al-Fatiha', date:'Aug 27', covered:'Ayah 1–4, Madd rules', perf:'Good pronunciation, needs Madd practice', next:'Ayah 5–7'},
+  {student:'Fatima Ahmed', lesson:'Tajweed – Noon Sakinah', date:'Aug 28', covered:'Idghaam examples', perf:'Confident, ready to progress', next:'Idghaam without Ghunnah'},
+];
+function renderNotes(){
+  document.getElementById('notesList').innerHTML = NOTES.map(n=>
+    `<div class="card" style="margin-bottom:10px;padding:14px;">
+      <div class="mini-row"><b style="color:var(--ink)">${n.student}</b><span>${n.date}</span></div>
+      <p style="margin:4px 0 0;font-size:.83rem;"><b style="color:var(--ink)">${n.lesson}</b><br>${n.covered}</p>
+    </div>`).join('');
+}
+function saveLessonNote(){
+  const covered = document.getElementById('noteCovered').value || 'Lesson covered as planned';
+  NOTES.unshift({student:'Ahmed Mohammed', lesson:'Surah Al-Fatiha — Lesson 03', date:'Today', covered, perf:'', next:''});
+  renderNotes();
+  document.getElementById('noteCovered').value='';
+  document.getElementById('notePerf').value='';
+  document.getElementById('noteNext').value='';
+  showToast('Lesson note saved');
+}
+
+/* ============================================================
+   NOTIFICATIONS
+   ============================================================ */
+function renderNotifications(){
+  document.getElementById('notifList').innerHTML = NOTIFICATIONS.map((n,i)=>
+    `<div class="lesson-row" id="notif-${i}">
+      <span style="font-size:1.2rem;">${n[0]}</span>
+      <div class="meta" style="flex:1"><b>${n[1]}</b><span>${n[2]}</span></div>
+      ${n[3] ? '<span class="live-dot" style="background:var(--gold);"></span>' : ''}
+    </div>`).join('');
+}
+function markAllRead(){
+  document.querySelectorAll('#notifList .live-dot').forEach(d=>d.style.display='none');
+  showToast('All notifications marked as read');
+}
+function toggleNotif(){ openModal('notifModal'); }
+
+/* ============================================================
+   FEEDBACK
+   ============================================================ */
+function submitFeedback(){
+  document.getElementById('feedbackForm').style.display='none';
+  document.getElementById('feedbackDone').style.display='block';
+}
+function resetFeedback(){
+  document.getElementById('feedbackForm').style.display='block';
+  document.getElementById('feedbackDone').style.display='none';
+}
+
+/* ============================================================
+   MODALS / TOAST / THEME
+   ============================================================ */
+function openModal(id){ document.getElementById(id).classList.add('open'); }
+function closeModal(id){ document.getElementById(id).classList.remove('open'); }
+document.querySelectorAll('.modal-overlay').forEach(m=>{
+  m.addEventListener('click', e=>{ if(e.target===m) m.classList.remove('open'); });
+});
+
+let toastTimer;
+function showToast(msg){
+  const t = document.getElementById('toast');
+  t.textContent = msg;
+  t.classList.add('show');
+  clearTimeout(toastTimer);
+  toastTimer = setTimeout(()=>t.classList.remove('show'), 2600);
+}
+
+function toggleDark(){ setDark(!document.body.classList.contains('dark')); }
+function setDark(on){
+  document.body.classList.toggle('dark', on);
+  document.getElementById('themeBtn').textContent = on ? '☀️' : '🌙';
+  const lb=document.getElementById('lightBtn'), db=document.getElementById('darkBtn');
+  if(lb&&db){
+    lb.style.borderColor = on ? '' : 'var(--teal)'; lb.style.color = on ? '' : 'var(--teal)';
+    db.style.borderColor = on ? 'var(--teal)' : ''; db.style.color = on ? 'var(--teal)' : '';
+  }
+}
+
+/* ============================================================
+   INIT
+   ============================================================ */
+function init(){
+  buildNav();
+  renderJourney();
+  renderWhy();
+  renderDashProgress();
+  renderStudents();
+  renderLessons();
+  renderFiles();
+  renderTutorAyahs();
+  renderAttendance();
+  renderProgressTabs();
+  renderProgressDetail();
+  renderNotes();
+  renderNotifications();
+
+  const startId = (location.hash||'').replace('#','') || 'overview';
+  showScreen(PAGE_META[startId] ? startId : 'overview');
+}
+window.addEventListener('hashchange', ()=>{
+  const id = (location.hash||'').replace('#','');
+  if(PAGE_META[id]) showScreen(id);
+});
+init();
+</script>
+</body>
+</html>

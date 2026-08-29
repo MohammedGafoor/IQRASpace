@@ -1,17 +1,24 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
+import { Fraunces, Inter, Amiri } from "next/font/google";
 import "./globals.css";
 import { Providers } from "@/components/Providers";
-import { NavBar } from "@/components/NavBar";
+import { THEME_INIT_SCRIPT } from "@/lib/theme";
 
-const geistSans = Geist({
-  variable: "--font-geist-sans",
+const fraunces = Fraunces({
+  variable: "--font-fraunces",
+  subsets: ["latin"],
+  weight: ["400", "500", "600", "700"],
+});
+
+const inter = Inter({
+  variable: "--font-inter",
   subsets: ["latin"],
 });
 
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
-  subsets: ["latin"],
+const amiri = Amiri({
+  variable: "--font-amiri",
+  subsets: ["arabic"],
+  weight: ["400", "700"],
 });
 
 export const metadata: Metadata = {
@@ -23,13 +30,15 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
   return (
     <html
       lang="en"
-      className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
+      className={`${fraunces.variable} ${inter.variable} ${amiri.variable} h-full antialiased`}
+      suppressHydrationWarning
     >
-      <body className="min-h-full flex flex-col">
-        <Providers>
-          <NavBar />
-          {children}
-        </Providers>
+      <head>
+        {/* Blocking, pre-hydration theme apply — avoids a flash of the wrong theme. */}
+        <script dangerouslySetInnerHTML={{ __html: THEME_INIT_SCRIPT }} />
+      </head>
+      <body className="min-h-full flex flex-col bg-paper text-ink">
+        <Providers>{children}</Providers>
       </body>
     </html>
   );

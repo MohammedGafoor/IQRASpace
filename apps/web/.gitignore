@@ -17,6 +17,10 @@
 /.next/
 /out/
 
+# pdfjs-dist runtime assets (wasm codecs, standard fonts, cmaps) — synced
+# from node_modules by scripts/copy-pdfjs-assets.mjs, see PdfViewer.tsx
+/public/pdfjs/
+
 # production
 /build
 
