@@ -91,9 +91,96 @@ phase. Phase numbers follow architecture §20.
 Phase 0 is now fully done, including the live backend — nothing outstanding
 before Phase 1.
 
-## Phase 1 — Core CRUD (classes, students, lessons, dashboard shell)
+## Phase 1 — Core CRUD (classes, students, lessons, dashboard shell) ✅ done
 
-Not started.
+Scope note: architecture §20 groups "Auth wiring" under the earlier
+"Foundation" phase, but it's implemented here (start of Phase 1) since
+role-scoped CRUD is meaningless without it — see README "Notable deviations".
+
+**Database**
+- `0002_auth_signup_trigger.sql` — `handle_new_user()` trigger (auth.users →
+  public.users/tutors/students), since architecture §13's DDL doesn't wire
+  Supabase Auth to the domain tables on its own.
+- `0003_rls_policies_phase1.sql` — RLS policies for users/tutors/students/
+  classes/class_members/lessons, plus `add_student_to_class(class_id, email)`
+  — a narrow SECURITY DEFINER RPC so a tutor can add a student by email
+  without a broad "read any student profile" policy (privacy, given §16's
+  minors concern).
+- `0004_fix_rls_recursion.sql` — **bug found and fixed during validation**:
+  `classes` and `class_members` policies cross-referenced each other
+  (`classes_student_select` queries `class_members`, `class_members_tutor_all`
+  queries `classes`), which Postgres flagged as infinite RLS recursion
+  (`42P17`) on every query against either table. Fixed with three
+  `STABLE SECURITY DEFINER` helper functions (`is_tutor_of_class`,
+  `is_member_of_class`, `is_tutor_of_student`) that break the cycle — the
+  standard Supabase pattern for this. Same treatment applied to the
+  users/students "tutor of student" policies, which had the same shape.
+- Auth config: disabled email confirmation (`supabase config push`) — the
+  hosted project defaulted to requiring it, and Supabase's free-tier shared
+  SMTP allows only **2 emails/hour**, which made even manual signup testing
+  hit a rate limit immediately. Documented tradeoff: signup email ownership
+  is unverified for now; revisit alongside custom SMTP later. Also corrected
+  `site_url`/`additional_redirect_urls` to `localhost:3000` (was defaulted to
+  `127.0.0.1` with an `https://` typo from the dashboard's own default).
+
+**Backend validated directly against the hosted project** (curl, before
+touching the frontend): signup (tutor + student, via `auth.users` → trigger
+→ `public.users`/`tutors`/`students`), self-select RLS, a second tutor's
+cross-tenant isolation (empty results, RPC rejects with "Not authorized"),
+class creation, `add_student_to_class` RPC, lesson creation, and student
+read-visibility into their tutor's class/lesson — all confirmed working
+after the recursion fix.
+
+**Frontend** (`apps/web`)
+- `src/lib/authContext.tsx` — `AuthProvider`/`useAuth`: tracks the Supabase
+  session and the matching `public.users` profile row.
+- `src/components/{Providers,NavBar,RequireAuth}.tsx` — app-wide auth wiring,
+  role-aware nav, and a client-side route guard (redirects to `/login`; real
+  enforcement is still RLS, this is only for UX).
+- `/login`, `/signup` — email+password; signup role (Tutor/Student — Guardian
+  deferred to Phase 2 per §4) is passed as `auth.users` metadata for the
+  trigger to consume.
+- `/classes` — tutor: create class, add/remove student by email, delete
+  class. Student: read-only list, scoped automatically by RLS.
+- `/lessons` — tutor: create lesson (linked to a class), change status,
+  delete. Student: read-only.
+- `/dashboard` — real queries for Today's/Upcoming/Recent lessons and My
+  Classes (architecture §18); Active Lesson / Recently Used PDFs /
+  Attendance Snapshot cards are explicitly marked "coming in a later phase"
+  rather than faked.
+
+**Validated**
+- `npm run lint` / `npm run build` — clean (including a fix for a real
+  issue: `React.FormEvent` no longer exists as of this React/Next version —
+  `@types/react` flags it `@deprecated`, `SubmitEvent<HTMLFormElement>` is
+  the correct current type for `onSubmit` handlers; and the new
+  `react-hooks/set-state-in-effect` rule, satisfied by moving `setLoading`/
+  `setError` calls after the first `await` rather than before it).
+- Full end-to-end UI test via a throwaway Playwright script (driving the
+  system's existing Chrome install headless — see below) against the real
+  dev server and the real hosted Supabase project: tutor signs up → creates
+  a class → student signs up → tutor adds student by email → tutor creates
+  a lesson → lesson shows on the tutor's dashboard → student sees the class
+  and lesson read-only with no mutation controls. **11/12 automated checks
+  passed**; the one failure was the test checking the navbar before the
+  async profile fetch resolved (a test-timing issue, not an app bug) — while
+  investigating it, fixed a real minor UX flash (navbar briefly rendering
+  "()" for name/role while the profile row loads).
+
+**Outstanding / notes for the user**
+- A `supabase_service_token` line appeared in `apps/web/.env.local` (not
+  something this session added) — it's the same personal access token used
+  for the CLI, not a service_role key, and nothing currently reads that
+  variable. Flagged for the user rather than removed or acted on silently.
+- Test accounts created against the live project during validation
+  (`tutor.*`/`student.*`/`tutor2.*@qa-iqraspace.io`) are harmless but real
+  rows in the hosted DB — delete them via Dashboard → Authentication → Users
+  whenever convenient (needs the service_role key or dashboard access, which
+  this session doesn't have).
+- Recommend `/run-skill-generator` for the Playwright-driven UI check built
+  for this phase's validation (chrome path, auth flow, dev-server gotchas) —
+  Phases 3+ (Highlighting+Realtime, multi-browser sync) will want the same
+  driving approach repeatedly.
 
 ## Phase 2 — PDF pipeline (upload to Storage, PDF.js viewer, page navigation)
 
