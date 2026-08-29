@@ -69,14 +69,27 @@ phase. Phase numbers follow architecture §20.
   service-role (server-side) access is unaffected. Pure hardening, no
   scope change to Phase 6's actual work.
 
-**Outstanding — needs the user**
-- Create the actual Supabase project (dashboard sign-up + "New Project" is a
-  user action; can't be done on their behalf) and hand back the Project URL +
-  anon key so `apps/web/.env.local` can be filled in and the migration
-  applied. Everything else in Phase 0 works without it — `npm run build` and
-  `npm run dev` succeed today; Supabase-backed features simply throw the
-  explicit "missing env var" error until then, rather than something more
-  confusing later.
+**Supabase project wired up** (2026-08-29)
+- User created the hosted Supabase project (`pqlrexhtwgleokyiamie`) and
+  provided the Project URL + a `sb_publishable_...` key. Note: this is
+  Supabase's newer **publishable/secret key** format rather than the legacy
+  `anon`/`service_role` JWTs the architecture doc predates — functionally a
+  drop-in replacement for the anon key in `supabase-js`'s `createClient`, no
+  code changes needed.
+- `apps/web/.env.local` created (gitignored) with
+  `NEXT_PUBLIC_SUPABASE_URL` / `NEXT_PUBLIC_SUPABASE_ANON_KEY`.
+- User also provided a Supabase personal access token, used to
+  `supabase link --project-ref pqlrexhtwgleokyiamie` and
+  `supabase db push`. `0001_init_schema.sql` is now applied and recorded in
+  the remote migration history (`supabase migration list --linked` shows
+  `0001` local == remote).
+- Verified end-to-end: `curl .../rest/v1/classes` with the publishable key
+  returns `200 []` — confirms both connectivity and that the deny-by-default
+  RLS posture is working (reachable, zero rows, no policy yet grants access).
+  `npm run build` picks up `.env.local` and still compiles clean.
+
+Phase 0 is now fully done, including the live backend — nothing outstanding
+before Phase 1.
 
 ## Phase 1 — Core CRUD (classes, students, lessons, dashboard shell)
 
