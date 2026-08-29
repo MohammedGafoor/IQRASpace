@@ -1,0 +1,15 @@
+{
+  "name": "quranic-teacher",
+  "version": "0.0.0",
+  "private": true,
+  "description": "Root tooling for the IQRASpace / Quranic Teacher monorepo (see docs/architecture.md). App code lives in apps/web; Supabase config/migrations live in supabase/.",
+  "scripts": {
+    "supabase": "supabase",
+    "dev": "npm run dev --prefix apps/web",
+    "build": "npm run build --prefix apps/web",
+    "lint": "npm run lint --prefix apps/web"
+  },
+  "devDependencies": {
+    "supabase": "^2.116.0"
+  }
+}
