@@ -131,6 +131,10 @@ Or, pushing directly to `main` (small pilot team) triggers the same `validate` �
 3. `deploy` failing on `vercel pull`/`vercel build`/`vercel deploy` almost always means a missing/incorrect secret (`VERCEL_TOKEN`/`VERCEL_ORG_ID`/`VERCEL_PROJECT_ID`) — re-check the GitHub Secrets above.
 4. Health check failing means the app built and deployed but didn't serve `200` on `/` or `/login` — check the Vercel deployment's own Runtime Logs (dashboard → Deployments → the deployment → Logs) for the actual server error.
 
+### Note: Vercel Deployment Protection (SSO) is on for this team
+
+This Vercel team has **Deployment Protection** enabled by default, so every *per-deployment* URL (`iqraspace-xxxxx-shaga2.vercel.app` — what `vercel deploy` prints, and what the GitHub Actions job summary/Environment link show) redirects to `vercel.com/sso-api` and requires a logged-in Vercel account to view. **Only the stable alias `https://iqraspace.vercel.app` is exempt and publicly reachable** — that's the one pilot users are given, and the one the CI health check deliberately targets instead of the ephemeral deploy URL. If you ever need to open a specific historical deployment directly (not the alias), you'll need to be logged into the Vercel account/team that owns the project.
+
 ### Rollback
 
 No custom rollback tooling was built — Vercel already keeps every past deployment. To roll back: Vercel dashboard → `shaga2/iqraspace` → **Deployments** → pick a previous (working) deployment → **Promote to Production**. Equivalently via CLI: `vercel rollback [deployment-url] --token=...`.
