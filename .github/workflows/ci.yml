@@ -107,11 +107,19 @@ jobs:
       # Phase 10 / Phase 12 health check — application loads, login page
       # loads. Anything deeper (auth round-trip, PDF rendering) is a manual
       # pass per DEPLOYMENT.md; not scripted here.
+      #
+      # Deliberately checks the stable pilot alias, not
+      # steps.deploy.outputs.url: this Vercel team has Deployment
+      # Protection (SSO) on by default, which redirects every
+      # per-deployment URL to vercel.com/sso-api — only the assigned
+      # Production alias is exempt and actually publicly reachable, which
+      # is also the one real pilot users are given.
       - name: Health check
         run: |
           set -e
+          PILOT_URL="https://iqraspace.vercel.app"
           for path in "/" "/login"; do
-            code=$(curl -s -o /dev/null -w "%{http_code}" "${{ steps.deploy.outputs.url }}$path")
+            code=$(curl -s -o /dev/null -w "%{http_code}" "$PILOT_URL$path")
             echo "$path -> HTTP $code"
             if [ "$code" != "200" ]; then
               echo "::error::Health check failed for $path (HTTP $code)"
