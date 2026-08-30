@@ -40,6 +40,14 @@ jobs:
       - name: Lint
         run: npm run lint
 
+      # `tsc --noEmit` needs next-env.d.ts and .next/types/**, which Next.js
+      # normally only generates as a side effect of `next dev`/`next build`
+      # — both gitignored, so a fresh CI checkout has neither yet and tsc
+      # fails with "next-env.d.ts not found" (TS6053). `next typegen`
+      # generates just those, without a full build.
+      - name: Generate route types
+        run: npx next typegen
+
       - name: Type check
         run: npm run typecheck
 
