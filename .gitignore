@@ -11,3 +11,6 @@ supabase/.env.*.local
 # OS
 .DS_Store
 Thumbs.db
+
+# Claude Code local/personal settings (machine-specific permission overrides)
+.claude/settings.local.json

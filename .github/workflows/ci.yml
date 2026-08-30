@@ -1,0 +1,130 @@
+name: CI/CD
+
+# CI ("validate") runs on every push to main and every PR targeting main.
+# CD ("deploy") runs only after validate succeeds, and only for a push to
+# main (not PRs) — see DEPLOYMENT.md for the full pipeline writeup and
+# the one-time repo setup (GitHub Secrets) this workflow depends on.
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+defaults:
+  run:
+    working-directory: apps/web
+
+jobs:
+  validate:
+    name: Lint, Typecheck, Test & Build
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20.x"
+          cache: "npm"
+          cache-dependency-path: apps/web/package-lock.json
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Lint
+        run: npm run lint
+
+      - name: Type check
+        run: npm run typecheck
+
+      # No test suite exists yet in this project (see docs/PROGRESS.md) —
+      # --if-present makes this a no-op instead of a failure until one is
+      # added, without having to remember to edit this workflow later.
+      - name: Run tests (if any)
+        run: npm run test --if-present
+
+      # Same build Vercel's own pipeline runs (Phase 6 of the deployment
+      # writeup) — this is a fast-fail gate only. The `deploy` job below
+      # does the actual production build via the Vercel CLI itself, so
+      # nothing built here is uploaded or deployed.
+      - name: Build
+        run: npm run build
+        env:
+          NEXT_PUBLIC_SUPABASE_URL: ${{ secrets.NEXT_PUBLIC_SUPABASE_URL }}
+          NEXT_PUBLIC_SUPABASE_ANON_KEY: ${{ secrets.NEXT_PUBLIC_SUPABASE_ANON_KEY }}
+
+  deploy:
+    name: Deploy to Vercel (pilot)
+    needs: validate
+    if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    environment:
+      name: pilot
+      url: ${{ steps.deploy.outputs.url }}
+    env:
+      VERCEL_ORG_ID: ${{ secrets.VERCEL_ORG_ID }}
+      VERCEL_PROJECT_ID: ${{ secrets.VERCEL_PROJECT_ID }}
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Install Vercel CLI
+        run: npm install --global vercel@latest
+
+      # Pulls the Production env vars + project settings already configured
+      # in the Vercel dashboard (NEXT_PUBLIC_SUPABASE_URL/ANON_KEY etc.) —
+      # nothing Supabase-related needs to be duplicated as a GitHub Secret
+      # for this job specifically.
+      - name: Pull Vercel project settings
+        run: vercel pull --yes --environment=production --token="${{ secrets.VERCEL_TOKEN }}"
+
+      # Vercel's own build mechanism (Phase 6) — this *is* the build/package
+      # step; no separate artifact is hand-assembled here per design.
+      - name: Build via Vercel
+        run: vercel build --prod --token="${{ secrets.VERCEL_TOKEN }}"
+
+      - name: Deploy prebuilt output to Vercel
+        id: deploy
+        run: |
+          url=$(vercel deploy --prebuilt --prod --token="${{ secrets.VERCEL_TOKEN }}")
+          echo "Deployed: $url"
+          echo "url=$url" >> "$GITHUB_OUTPUT"
+
+      # Phase 10 / Phase 12 health check — application loads, login page
+      # loads. Anything deeper (auth round-trip, PDF rendering) is a manual
+      # pass per DEPLOYMENT.md; not scripted here.
+      - name: Health check
+        run: |
+          set -e
+          for path in "/" "/login"; do
+            code=$(curl -s -o /dev/null -w "%{http_code}" "${{ steps.deploy.outputs.url }}$path")
+            echo "$path -> HTTP $code"
+            if [ "$code" != "200" ]; then
+              echo "::error::Health check failed for $path (HTTP $code)"
+              exit 1
+            fi
+          done
+
+      - name: Deployment summary
+        if: always()
+        run: |
+          {
+            echo "## Deployment Summary"
+            echo ""
+            echo "| Field | Value |"
+            echo "|---|---|"
+            echo "| Status | ${{ job.status }} |"
+            echo "| Commit | \`${{ github.sha }}\` |"
+            echo "| Branch | \`${{ github.ref_name }}\` |"
+            echo "| Run | #${{ github.run_number }} (run id ${{ github.run_id }}) |"
+            echo "| Triggered by | ${{ github.actor }} |"
+            echo "| Timestamp (UTC) | $(date -u +'%Y-%m-%d %H:%M:%S') |"
+            echo "| Deployment URL | ${{ steps.deploy.outputs.url }} |"
+            echo "| Pilot alias | https://iqraspace.vercel.app |"
+          } >> "$GITHUB_STEP_SUMMARY"

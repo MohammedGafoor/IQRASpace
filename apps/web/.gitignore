@@ -43,6 +43,11 @@ yarn-error.log*
 # vercel
 .vercel
 
+# throwaway one-off scripts (ad hoc validation/testing, not meant to be
+# committed or re-run — see docs/PROGRESS.md's recurring "throwaway script"
+# pattern). Deliberately-kept one-off scripts live without this prefix.
+scripts/_tmp_*
+
 # typescript
 *.tsbuildinfo
 next-env.d.ts
