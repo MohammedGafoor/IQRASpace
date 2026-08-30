@@ -39,6 +39,22 @@ export async function listLessonMaterials(tutorId: string): Promise<StoredFile[]
     }));
 }
 
+/**
+ * All lesson materials across every tutor's folder — for admin/super_admin,
+ * who have no folder of their own (0018_admin_full_access.sql grants the
+ * write side; bucket read/list is already open to any authenticated user
+ * per 0011, so no RLS change was needed for this). `list("")` on the bucket
+ * root returns one folder-placeholder entry (no `id`) per tutor who's
+ * uploaded something; each is then listed individually and flattened.
+ */
+export async function listAllLessonMaterials(): Promise<StoredFile[]> {
+  const { data: folders, error } = await supabase.storage.from(LESSON_MATERIALS_BUCKET).list("");
+  if (error || !folders) return [];
+  const tutorIds = folders.filter((f) => !f.id).map((f) => f.name);
+  const perTutor = await Promise.all(tutorIds.map((id) => listLessonMaterials(id)));
+  return perTutor.flat().sort((a, b) => b.updatedAt.localeCompare(a.updatedAt));
+}
+
 export async function getSignedMaterialUrl(path: string, expiresInSeconds = 3600) {
   const { data, error } = await supabase.storage
     .from(LESSON_MATERIALS_BUCKET)

@@ -3,8 +3,9 @@
 import { useEffect, useState } from "react";
 import { useAuth } from "@/lib/authContext";
 import { supabase } from "@/lib/supabaseClient";
-import type { Lesson, LessonNote } from "@/lib/types";
+import type { AppUser, Lesson, LessonNote } from "@/lib/types";
 import { notifyUser } from "@/lib/notifications";
+import { isAdminRole } from "@/lib/roles";
 import { Card, Eyebrow, SectionHead } from "@/components/ui/Card";
 import { Button } from "@/components/ui/Button";
 import { Field, Select, Textarea } from "@/components/ui/Field";
@@ -15,8 +16,10 @@ export default function NotesPage() {
   const { profile } = useAuth();
   const { showToast } = useToast();
   const isTutor = profile?.role === "tutor";
+  const canManage = isTutor || isAdminRole(profile?.role);
 
   const [lessons, setLessons] = useState<Lesson[]>([]);
+  const [studentsById, setStudentsById] = useState<Map<string, AppUser>>(new Map());
   const [notes, setNotes] = useState<LessonNote[]>([]);
   const [lessonId, setLessonId] = useState("");
   const [covered, setCovered] = useState("");
@@ -30,6 +33,12 @@ export default function NotesPage() {
     const rows = (lessonRows ?? []) as Lesson[];
     setLessons(rows);
     setLessonId((prev) => prev || rows[0]?.id || "");
+
+    const studentIds = Array.from(new Set(rows.map((l) => l.student_id)));
+    if (studentIds.length > 0) {
+      const { data: userRows } = await supabase.from("users").select("*").in("id", studentIds);
+      setStudentsById(new Map(((userRows ?? []) as AppUser[]).map((u) => [u.id, u])));
+    }
 
     const lessonIds = rows.map((l) => l.id);
     if (lessonIds.length > 0) {
@@ -50,7 +59,10 @@ export default function NotesPage() {
   }, []);
 
   function lessonTitle(id: string) {
-    return lessons.find((l) => l.id === id)?.title ?? "Lesson";
+    const lesson = lessons.find((l) => l.id === id);
+    if (!lesson) return "Lesson";
+    const studentName = studentsById.get(lesson.student_id)?.full_name;
+    return studentName ? `${studentName} — ${lesson.title}` : lesson.title;
   }
 
   async function handleSave() {
@@ -70,16 +82,15 @@ export default function NotesPage() {
 
     const lesson = lessons.find((l) => l.id === lessonId);
     if (lesson) {
-      const { data: memberRows } = await supabase.from("class_members").select("student_id").eq("class_id", lesson.class_id);
-      for (const m of memberRows ?? []) {
-        await notifyUser({
-          userId: m.student_id,
-          type: "lesson_note_added",
-          title: "New lesson note",
-          body: covered || lesson.title,
-          relatedLessonId: lessonId,
-        });
-      }
+      // One-to-one session — notify just this session's one student
+      // (0023_student_based_scheduling.sql's `lessons.student_id`).
+      await notifyUser({
+        userId: lesson.student_id,
+        type: "lesson_note_added",
+        title: "New lesson note",
+        body: covered || lesson.title,
+        relatedLessonId: lessonId,
+      });
     }
 
     showToast("Lesson note saved");
@@ -118,7 +129,7 @@ export default function NotesPage() {
           )}
         </Card>
 
-        {isTutor && (
+        {canManage && (
           <Card>
             <SectionHead title="New Lesson Note" />
             <Field label="Lesson">
@@ -126,7 +137,7 @@ export default function NotesPage() {
                 {lessons.length === 0 && <option value="">No lessons yet</option>}
                 {lessons.map((l) => (
                   <option key={l.id} value={l.id}>
-                    {l.title} — {l.lesson_date}
+                    {lessonTitle(l.id)} — {l.lesson_date}
                   </option>
                 ))}
               </Select>

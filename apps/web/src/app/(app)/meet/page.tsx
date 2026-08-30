@@ -3,7 +3,7 @@
 import { useEffect, useState } from "react";
 import Link from "next/link";
 import { supabase } from "@/lib/supabaseClient";
-import type { Lesson, Meeting } from "@/lib/types";
+import type { AppUser, Lesson, Meeting } from "@/lib/types";
 import { formatDate, formatTime, todayISO } from "@/lib/format";
 import { Card, Eyebrow, SectionHead } from "@/components/ui/Card";
 import { Button } from "@/components/ui/Button";
@@ -15,6 +15,7 @@ type Row = { lesson: Lesson; meeting: Meeting };
 export default function MeetPage() {
   const { showToast } = useToast();
   const [rows, setRows] = useState<Row[]>([]);
+  const [studentsById, setStudentsById] = useState<Map<string, AppUser>>(new Map());
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
@@ -30,10 +31,11 @@ export default function MeetPage() {
         setLoading(false);
         return;
       }
-      const { data: meetingRows } = await supabase
-        .from("meetings")
-        .select("*")
-        .in("lesson_id", lessons.map((l) => l.id));
+      const [{ data: meetingRows }, { data: userRows }] = await Promise.all([
+        supabase.from("meetings").select("*").in("lesson_id", lessons.map((l) => l.id)),
+        supabase.from("users").select("*").in("id", Array.from(new Set(lessons.map((l) => l.student_id)))),
+      ]);
+      setStudentsById(new Map(((userRows ?? []) as AppUser[]).map((u) => [u.id, u])));
       const meetings = (meetingRows ?? []) as Meeting[];
       const built = lessons
         .map((lesson) => {
@@ -46,6 +48,10 @@ export default function MeetPage() {
     }
     load();
   }, []);
+
+  function studentName(id: string) {
+    return studentsById.get(id)?.full_name ?? null;
+  }
 
   function copyLink(url: string) {
     navigator.clipboard?.writeText(url);
@@ -63,7 +69,7 @@ export default function MeetPage() {
       {todayRow ? (
         <Card>
           <Eyebrow>Today&rsquo;s Online Lesson</Eyebrow>
-          <h3 className="text-lg font-semibold">{todayRow.lesson.title}</h3>
+          <h3 className="text-lg font-semibold">{studentName(todayRow.lesson.student_id) ?? todayRow.lesson.title}</h3>
           <p className="mt-1 text-sm text-ink-soft">
             {formatDate(todayRow.lesson.lesson_date)}
             {todayRow.lesson.start_time && ` · ${formatTime(todayRow.lesson.start_time)}`}
@@ -99,7 +105,7 @@ export default function MeetPage() {
             <tbody>
               {upcoming.map((r) => (
                 <tr key={r.lesson.id} className="border-t border-line">
-                  <td className="py-2.5">{r.lesson.title}</td>
+                  <td className="py-2.5">{studentName(r.lesson.student_id) ?? r.lesson.title}</td>
                   <td className="py-2.5 text-ink-soft">
                     {formatDate(r.lesson.lesson_date)}
                     {r.lesson.start_time && ` · ${formatTime(r.lesson.start_time)}`}

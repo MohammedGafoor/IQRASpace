@@ -1,10 +1,11 @@
 "use client";
 
 import { useCallback, useEffect, useState } from "react";
+import Link from "next/link";
 import { useAuth } from "@/lib/authContext";
 import { supabase } from "@/lib/supabaseClient";
 import type { AppUser, ClassMember, ClassRow, Lesson, LessonProgress } from "@/lib/types";
-import { getStudentCurriculumProgress, type CurriculumRow } from "@/lib/curriculum";
+import { isAdminRole } from "@/lib/roles";
 import { Card, Eyebrow, SectionHead } from "@/components/ui/Card";
 import { Chip } from "@/components/ui/Badge";
 import { ProgressBar, StatCard } from "@/components/ui/ProgressBar";
@@ -12,30 +13,35 @@ import { Button } from "@/components/ui/Button";
 import { Field, Input, Select, Textarea } from "@/components/ui/Field";
 import { EmptyState } from "@/components/ui/EmptyState";
 import { useToast } from "@/components/ui/Toast";
+import { StudentLessonManager } from "@/components/students/StudentLessonManager";
 
 export default function ProgressPage() {
   const { profile } = useAuth();
   const { showToast } = useToast();
   const isTutor = profile?.role === "tutor";
+  // Admin/super_admin see and manage every tutor's students, not just their
+  // own — see the classesQuery branch below (0018_admin_full_access.sql).
+  const canManage = isTutor || isAdminRole(profile?.role);
 
   const [students, setStudents] = useState<AppUser[]>([]);
   const [lessons, setLessons] = useState<Lesson[]>([]);
   const [selected, setSelected] = useState<string>("");
   const [entries, setEntries] = useState<LessonProgress[]>([]);
-  const [curriculum, setCurriculum] = useState<CurriculumRow[]>([]);
+  const [classMembers, setClassMembers] = useState<ClassMember[]>([]);
   const [loading, setLoading] = useState(true);
 
   const load = useCallback(async () => {
     if (!profile) return;
 
-    if (!isTutor) {
+    if (!canManage) {
       setSelected(profile.id);
       setStudents([profile]);
       setLoading(false);
       return;
     }
 
-    const { data: classRows } = await supabase.from("classes").select("*").eq("tutor_id", profile.id);
+    const classesQuery = supabase.from("classes").select("*");
+    const { data: classRows } = await (isTutor ? classesQuery.eq("tutor_id", profile.id) : classesQuery);
     const classes = (classRows ?? []) as ClassRow[];
     if (classes.length === 0) {
       setLoading(false);
@@ -47,7 +53,9 @@ export default function ProgressPage() {
       supabase.from("lessons").select("*").in("class_id", classIds),
     ]);
     setLessons((lessonRows ?? []) as Lesson[]);
-    const studentIds = Array.from(new Set(((memberRows ?? []) as ClassMember[]).map((m) => m.student_id)));
+    const members = (memberRows ?? []) as ClassMember[];
+    setClassMembers(members);
+    const studentIds = Array.from(new Set(members.map((m) => m.student_id)));
     if (studentIds.length === 0) {
       setLoading(false);
       return;
@@ -57,7 +65,7 @@ export default function ProgressPage() {
     setStudents(rows);
     setSelected((prev) => prev || rows[0]?.id || "");
     setLoading(false);
-  }, [profile, isTutor]);
+  }, [profile, isTutor, canManage]);
 
   useEffect(() => {
     // eslint-disable-next-line react-hooks/set-state-in-effect
@@ -72,8 +80,13 @@ export default function ProgressPage() {
       .eq("student_id", selected)
       .order("created_at", { ascending: false })
       .then(({ data }) => setEntries((data ?? []) as LessonProgress[]));
-    getStudentCurriculumProgress(selected).then(setCurriculum);
   }, [selected]);
+
+  // Scoped to the selected student's own classes — previously this passed
+  // every lesson across all of the tutor's classes, letting a tutor log a
+  // "skill score" against a session the selected student never attended.
+  const selectedStudentClassIds = classMembers.filter((m) => m.student_id === selected).map((m) => m.class_id);
+  const studentLessons = lessons.filter((l) => selectedStudentClassIds.includes(l.class_id));
 
   if (loading) return <p className="text-sm text-muted">Loading…</p>;
 
@@ -95,7 +108,7 @@ export default function ProgressPage() {
         <h1 className="text-2xl font-semibold">What each student has learned</h1>
       </div>
 
-      {isTutor && students.length > 0 && (
+      {canManage && students.length > 0 && (
         <div className="flex flex-wrap gap-2">
           {students.map((s) => (
             <Chip key={s.id} active={s.id === selected} onClick={() => setSelected(s.id)}>
@@ -111,24 +124,20 @@ export default function ProgressPage() {
         </Card>
       ) : (
         <>
-          {curriculum.length > 0 && (
-            <Card>
-              <SectionHead eyebrow="Curriculum" title="Lesson Plan Progress" />
-              {curriculum.map((c) => (
-                <div key={c.planId} className="mb-3">
-                  <div className="mb-1 flex items-center justify-between text-sm">
-                    <span className="font-semibold">{c.planName}</span>
-                    <span className="text-xs text-ink-soft">
-                      {c.currentTitle ? `Lesson ${c.currentSequence}: ${c.currentTitle}` : "Plan completed 🎉"}
-                    </span>
-                  </div>
-                  <ProgressBar
-                    value={c.totalActive > 0 ? Math.round((c.completedCount / c.totalActive) * 100) : 0}
-                    label={`${c.completedCount}/${c.totalActive} lessons completed`}
-                  />
-                </div>
-              ))}
-            </Card>
+          {student && (
+            <div>
+              <SectionHead
+                eyebrow="Curriculum"
+                title="Lesson Plan Progress"
+                subtitle="Automatically follows this student's assigned class — change, repeat, skip, or confirm a lesson below."
+              />
+              <StudentLessonManager
+                studentId={selected}
+                tutorId={profile?.id ?? ""}
+                canManage={canManage}
+                onChanged={load}
+              />
+            </div>
           )}
           <Card>
           <Eyebrow>{student?.full_name}</Eyebrow>
@@ -158,23 +167,38 @@ export default function ProgressPage() {
         </>
       )}
 
-      {isTutor && student && (
+      {canManage && student && (
         <Card>
-          <SectionHead title="Add Progress Entry" subtitle="Record after a lesson to build this student's trend." />
-          <AddProgressForm
-            studentId={selected}
-            lessons={lessons}
-            onSaved={() => {
-              showToast("Progress saved");
-              load();
-              supabase
-                .from("lesson_progress")
-                .select("*")
-                .eq("student_id", selected)
-                .order("created_at", { ascending: false })
-                .then(({ data }) => setEntries((data ?? []) as LessonProgress[]));
-            }}
+          <SectionHead
+            title="Skill Score Entry"
+            subtitle="Log recitation/tajweed/memorization scores against a conducted session — separate from the student's lesson-plan position above."
           />
+          {studentLessons.length === 0 ? (
+            <EmptyState icon="🗓️">
+              No sessions scheduled yet for {student.full_name}&rsquo;s class — schedule one first, then come back to
+              log a skill score against it.
+              <br />
+              <Link href="/schedule" className="mt-2 inline-block font-semibold text-primary hover:underline">
+                Go to Schedule →
+              </Link>
+            </EmptyState>
+          ) : (
+            <AddProgressForm
+              key={selected}
+              studentId={selected}
+              lessons={studentLessons}
+              onSaved={() => {
+                showToast("Progress saved");
+                load();
+                supabase
+                  .from("lesson_progress")
+                  .select("*")
+                  .eq("student_id", selected)
+                  .order("created_at", { ascending: false })
+                  .then(({ data }) => setEntries((data ?? []) as LessonProgress[]));
+              }}
+            />
+          )}
         </Card>
       )}
     </div>

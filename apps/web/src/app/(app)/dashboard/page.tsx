@@ -4,8 +4,9 @@ import { useEffect, useState } from "react";
 import Link from "next/link";
 import { useAuth } from "@/lib/authContext";
 import { supabase } from "@/lib/supabaseClient";
-import type { AttendanceRecord, ClassMember, ClassRow, Lesson, LessonNote } from "@/lib/types";
+import type { AppUser, AttendanceRecord, ClassMember, ClassRow, Lesson, LessonNote } from "@/lib/types";
 import { formatDate, formatTime, todayISO } from "@/lib/format";
+import { isAdminRole } from "@/lib/roles";
 import { Card, Eyebrow, SectionHead } from "@/components/ui/Card";
 import { StatCard } from "@/components/ui/ProgressBar";
 import { EmptyState } from "@/components/ui/EmptyState";
@@ -22,12 +23,15 @@ const QUICK_ACTIONS = [
 export default function DashboardPage() {
   const { profile } = useAuth();
   const isTutor = profile?.role === "tutor";
+  const isAdmin = isAdminRole(profile?.role);
+  const canManage = isTutor || isAdmin;
 
   const [classes, setClasses] = useState<ClassRow[]>([]);
   const [lessons, setLessons] = useState<Lesson[]>([]);
   const [studentCount, setStudentCount] = useState(0);
   const [attendancePct, setAttendancePct] = useState<number | null>(null);
   const [recentNotes, setRecentNotes] = useState<LessonNote[]>([]);
+  const [studentsById, setStudentsById] = useState<Map<string, AppUser>>(new Map());
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
@@ -45,7 +49,7 @@ export default function DashboardPage() {
       setClasses(classList);
       setLessons(lessonList);
 
-      if (isTutor && classList.length > 0) {
+      if (canManage && classList.length > 0) {
         const { data: memberRows } = await supabase
           .from("class_members")
           .select("student_id")
@@ -55,6 +59,12 @@ export default function DashboardPage() {
           );
         const unique = new Set(((memberRows ?? []) as ClassMember[]).map((m) => m.student_id));
         if (active) setStudentCount(unique.size);
+      }
+
+      const todayStudentIds = Array.from(new Set(lessonList.filter((l) => l.lesson_date === todayISO()).map((l) => l.student_id)));
+      if (todayStudentIds.length > 0) {
+        const { data: userRows } = await supabase.from("users").select("*").in("id", todayStudentIds);
+        if (active) setStudentsById(new Map(((userRows ?? []) as AppUser[]).map((u) => [u.id, u])));
       }
 
       const lessonIds = lessonList.map((l) => l.id);
@@ -87,7 +97,7 @@ export default function DashboardPage() {
     return () => {
       active = false;
     };
-  }, [profile, isTutor]);
+  }, [profile, isTutor, canManage]);
 
   if (loading) return <p className="text-sm text-muted">Loading…</p>;
 
@@ -98,18 +108,21 @@ export default function DashboardPage() {
   function classNameFor(id: string) {
     return classes.find((c) => c.id === id)?.name ?? "Unknown class";
   }
+  function studentNameFor(id: string) {
+    return studentsById.get(id)?.full_name ?? "—";
+  }
 
   return (
     <div className="flex flex-col gap-5">
       <div>
-        <Eyebrow>{isTutor ? "Tutor Dashboard" : "Student Dashboard"}</Eyebrow>
+        <Eyebrow>{isAdmin ? "Platform Dashboard" : isTutor ? "Tutor Dashboard" : "Student Dashboard"}</Eyebrow>
         <h1 className="text-2xl font-semibold">
-          {isTutor ? "Good to see you" : "Welcome"}, {profile?.full_name ?? ""}
+          {canManage ? "Good to see you" : "Welcome"}, {profile?.full_name ?? ""}
         </h1>
-        {!isTutor && <p className="mt-1 text-sm text-muted">Your classes and lessons, read-only.</p>}
+        {!canManage && <p className="mt-1 text-sm text-muted">Your classes and lessons, read-only.</p>}
       </div>
 
-      {isTutor && (
+      {canManage && (
         <div className="grid gap-4 sm:grid-cols-3">
           <StatCard value={todaysLessons.length} label="Lessons today" />
           <StatCard value={studentCount} label="Active students" />
@@ -127,12 +140,12 @@ export default function DashboardPage() {
               {todaysLessons.map((l) => (
                 <li key={l.id} className="flex items-center justify-between gap-3 border-b border-line pb-3 last:border-0 last:pb-0">
                   <div>
-                    <b className="block text-sm">{l.title}</b>
+                    <b className="block text-sm">{studentNameFor(l.student_id)}</b>
                     <span className="text-xs text-muted">
                       {classNameFor(l.class_id)} · {formatTime(l.start_time) ?? "time TBD"}
                     </span>
                   </div>
-                  {isTutor && (
+                  {canManage && (
                     <LinkButton href={`/teach/${l.id}`} size="sm">
                       Start
                     </LinkButton>
@@ -180,9 +193,9 @@ export default function DashboardPage() {
       </div>
 
       <Card>
-        <SectionHead title="My Classes" action={isTutor ? <LinkButton href="/classes" size="sm" variant="outline">Manage</LinkButton> : undefined} />
+        <SectionHead title="My Classes" action={canManage ? <LinkButton href="/classes" size="sm" variant="outline">Manage</LinkButton> : undefined} />
         {classes.length === 0 ? (
-          <EmptyState icon="📚">{isTutor ? "No classes yet — create one to get started." : "You're not in any classes yet."}</EmptyState>
+          <EmptyState icon="📚">{canManage ? "No classes yet — create one to get started." : "You're not in any classes yet."}</EmptyState>
         ) : (
           <ul className="flex flex-wrap gap-2">
             {classes.map((c) => (

@@ -3,11 +3,22 @@
 // Kept hand-written rather than generated (`supabase gen types`) for Phase 1 —
 // worth switching to generated types once the schema stabilizes past Phase 1.
 
-export type Role = "tutor" | "student" | "guardian";
+// 'admin'/'super_admin' added in 0017_admin_super_admin_roles.sql — never
+// grantable via public signup (see that migration's handle_new_user() fix);
+// provisioned only via `npm run seed:admins` (scripts/seed-admin-accounts.mjs).
+// See src/lib/roles.ts for the permission split between the two.
+export type Role = "tutor" | "student" | "guardian" | "admin" | "super_admin";
 
 export type AppUser = {
   id: string;
-  email: string;
+  /** Login identifier (0019_username_auth.sql) — required, unique. */
+  username: string;
+  /** Optional contact email — unrelated to how the account authenticates.
+   * Never `select("*")` this into a login flow; see lib/username.ts's
+   * `auth_email` note for the technical (real-or-synthetic) Auth identifier,
+   * which never leaves the server except via get_auth_email_for_username(). */
+  email: string | null;
+  phone: string | null;
   full_name: string;
   role: Role;
   created_at: string;
@@ -52,6 +63,11 @@ export type LessonStatus = "scheduled" | "active" | "completed" | "cancelled";
 
 export type Lesson = {
   id: string;
+  /** The one student this one-to-one session is with (0023_student_based_scheduling.sql)
+   * — the schedule's primary shape. `class_id`/`tutor_id` are auto-derived
+   * from this student, kept only so existing RLS/attendance/materials keep
+   * working unchanged — never chosen independently in the UI. */
+  student_id: string;
   class_id: string;
   tutor_id: string;
   title: string;
@@ -61,8 +77,31 @@ export type Lesson = {
   duration_minutes: number;
   /** Which bundled surah (lib/quranContent.ts) this lesson's Teach/Share screen uses, if any. */
   quran_surah_key: string | null;
-  /** Which Universal Lesson Plan item this session is teaching, if any (see LessonPlanItem). */
+  /** Which Universal Lesson Plan item this session is teaching, if any (see LessonPlanItem).
+   * Reference only — set from the student's actual current lesson at
+   * scheduling time, never chosen manually; the schedule doesn't control it. */
   lesson_plan_item_id: string | null;
+  /** Set when this session was materialized from a RecurringSessionRule. */
+  recurring_rule_id: string | null;
+};
+
+/** A recurring one-to-one slot ("Ahmed, Sun/Tue/Thu 6pm, 20min") —
+ * materialized into concrete `Lesson` rows up front by
+ * lib/recurringSessions.ts's generateSessionsForRule(), not by a
+ * cron/background job. `class_id` is carried for the same reason as on
+ * `Lesson` — reuse of existing class-scoped RLS, never chosen independently. */
+export type RecurringSessionRule = {
+  id: string;
+  tutor_id: string;
+  student_id: string;
+  class_id: string;
+  days_of_week: number[]; // 0=Sunday..6=Saturday
+  start_time: string; // "HH:MM:SS"
+  duration_minutes: number;
+  active: boolean;
+  starts_on: string; // ISO date
+  ends_on: string | null;
+  created_at: string;
 };
 
 export type GoogleDriveFile = {
@@ -152,13 +191,15 @@ export type HighlightedContent = {
 
 /**
  * Universal Lesson Plan (curriculum), separate from class/session scheduling
- * (see supabase/migrations/0013-0016 and the Lesson Library redesign). A plan
- * is a reusable, ordered sequence of lessons a tutor defines once and can
- * assign to any number of classes via ClassLessonPlan.
+ * (see supabase/migrations/0013-0016, 0021 and the Lesson Library redesign).
+ * A plan is a reusable, ordered sequence of lessons — NOT owned by any one
+ * tutor (0021_universal_lesson_plans.sql removed `tutor_id`) — that any
+ * number of classes (each still owned by its own tutor) can be assigned to
+ * via ClassLessonPlan. Curriculum editing (create/edit/reorder/delete) is
+ * admin/super_admin only; any tutor can read the whole catalog.
  */
 export type LessonPlan = {
   id: string;
-  tutor_id: string;
   name: string;
   description: string | null;
   active: boolean;

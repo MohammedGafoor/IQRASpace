@@ -4,16 +4,20 @@ import { useCallback, useEffect, useState, type SubmitEvent } from "react";
 import { useAuth } from "@/lib/authContext";
 import { supabase } from "@/lib/supabaseClient";
 import type { AppUser, ClassMember, ClassRow } from "@/lib/types";
+import { isAdminRole } from "@/lib/roles";
 import { Card, Eyebrow } from "@/components/ui/Card";
 import { Button } from "@/components/ui/Button";
 import { Field, Input } from "@/components/ui/Field";
 import { Avatar } from "@/components/ui/Avatar";
 import { EmptyState } from "@/components/ui/EmptyState";
 import { LinkButton } from "@/components/ui/Button";
+import { TutorPicker } from "@/components/admin/TutorPicker";
 
 export default function ClassesPage() {
   const { profile } = useAuth();
   const isTutor = profile?.role === "tutor";
+  // Admin/super_admin can manage every tutor's classes (0018_admin_full_access.sql).
+  const canManage = isTutor || isAdminRole(profile?.role);
 
   const [classes, setClasses] = useState<ClassRow[]>([]);
   const [members, setMembers] = useState<Record<string, AppUser[]>>({});
@@ -22,7 +26,10 @@ export default function ClassesPage() {
 
   const [newClassName, setNewClassName] = useState("");
   const [creating, setCreating] = useState(false);
-  const [addStudentEmail, setAddStudentEmail] = useState<Record<string, string>>({});
+  // Admin has no tutors row of its own — classes.tutor_id is NOT NULL, so an
+  // admin creating a class must say which tutor it belongs to.
+  const [actingTutorId, setActingTutorId] = useState<string | null>(null);
+  const [addStudentUsername, setAddStudentUsername] = useState<Record<string, string>>({});
   const [addStudentError, setAddStudentError] = useState<Record<string, string>>({});
 
   const load = useCallback(async () => {
@@ -76,8 +83,13 @@ export default function ClassesPage() {
   async function handleCreateClass(e: SubmitEvent<HTMLFormElement>) {
     e.preventDefault();
     if (!profile) return;
+    const tutorId = isTutor ? profile.id : actingTutorId;
+    if (!tutorId) {
+      setError("Choose a tutor for this class.");
+      return;
+    }
     setCreating(true);
-    const { error } = await supabase.from("classes").insert({ tutor_id: profile.id, name: newClassName });
+    const { error } = await supabase.from("classes").insert({ tutor_id: tutorId, name: newClassName });
     setCreating(false);
     if (error) {
       setError(error.message);
@@ -99,18 +111,20 @@ export default function ClassesPage() {
 
   async function handleAddStudent(e: SubmitEvent<HTMLFormElement>, classId: string) {
     e.preventDefault();
-    const email = addStudentEmail[classId]?.trim();
-    if (!email) return;
+    const username = addStudentUsername[classId]?.trim();
+    if (!username) return;
     setAddStudentError((prev) => ({ ...prev, [classId]: "" }));
+    // Username, not email (0019_username_auth.sql) — a student may have no
+    // email at all.
     const { error } = await supabase.rpc("add_student_to_class", {
       p_class_id: classId,
-      p_student_email: email,
+      p_student_username: username,
     });
     if (error) {
       setAddStudentError((prev) => ({ ...prev, [classId]: error.message }));
       return;
     }
-    setAddStudentEmail((prev) => ({ ...prev, [classId]: "" }));
+    setAddStudentUsername((prev) => ({ ...prev, [classId]: "" }));
     load();
   }
 
@@ -133,9 +147,14 @@ export default function ClassesPage() {
       </div>
       {error && <p className="text-sm text-danger">{error}</p>}
 
-      {isTutor && (
+      {canManage && (
         <Card>
           <form onSubmit={handleCreateClass} className="flex flex-wrap items-end gap-3">
+            {!isTutor && (
+              <div className="min-w-[220px]">
+                <TutorPicker value={actingTutorId} onChange={setActingTutorId} />
+              </div>
+            )}
             <div className="min-w-[240px] flex-1">
               <Field label="New class name">
                 <Input
@@ -157,7 +176,7 @@ export default function ClassesPage() {
         <p className="text-sm text-muted">Loading…</p>
       ) : classes.length === 0 ? (
         <Card>
-          <EmptyState icon="📚">{isTutor ? "No classes yet — create one above." : "You're not in any classes yet."}</EmptyState>
+          <EmptyState icon="📚">{canManage ? "No classes yet — create one above." : "You're not in any classes yet."}</EmptyState>
         </Card>
       ) : (
         <div className="grid gap-4 lg:grid-cols-2">
@@ -168,7 +187,7 @@ export default function ClassesPage() {
                   <Eyebrow>{(members[c.id] ?? []).length} students</Eyebrow>
                   <h3 className="text-lg font-semibold">{c.name}</h3>
                 </div>
-                {isTutor && (
+                {canManage && (
                   <button onClick={() => handleDeleteClass(c.id)} className="text-xs font-semibold text-danger hover:underline">
                     Delete
                   </button>
@@ -181,7 +200,7 @@ export default function ClassesPage() {
                   <span key={s.id} className="flex items-center gap-2 rounded-full bg-paper-alt py-1 pl-1 pr-3 text-sm">
                     <Avatar name={s.full_name} size={22} />
                     {s.full_name}
-                    {isTutor && (
+                    {canManage && (
                       <button onClick={() => handleRemoveStudent(c.id, s.id)} aria-label={`Remove ${s.full_name}`} className="text-muted hover:text-danger">
                         ×
                       </button>
@@ -190,13 +209,13 @@ export default function ClassesPage() {
                 ))}
               </div>
 
-              {isTutor && (
+              {canManage && (
                 <form onSubmit={(e) => handleAddStudent(e, c.id)} className="mt-3.5 flex gap-2">
                   <Input
-                    type="email"
-                    placeholder="Add student by email"
-                    value={addStudentEmail[c.id] ?? ""}
-                    onChange={(e) => setAddStudentEmail((prev) => ({ ...prev, [c.id]: e.target.value }))}
+                    type="text"
+                    placeholder="Add student by username"
+                    value={addStudentUsername[c.id] ?? ""}
+                    onChange={(e) => setAddStudentUsername((prev) => ({ ...prev, [c.id]: e.target.value }))}
                   />
                   <Button type="submit" variant="outline" size="sm">
                     Add

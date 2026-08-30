@@ -8,7 +8,8 @@
     "prebuild": "node scripts/copy-pdfjs-assets.mjs",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "seed:admins": "node --env-file=.env.local scripts/seed-admin-accounts.mjs"
   },
   "dependencies": {
     "@supabase/supabase-js": "^2.112.4",

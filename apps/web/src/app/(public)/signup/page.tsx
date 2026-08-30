@@ -5,6 +5,7 @@ import Link from "next/link";
 import { useRouter } from "next/navigation";
 import { supabase } from "@/lib/supabaseClient";
 import type { Role } from "@/lib/types";
+import { buildAuthEmail, friendlyAuthError } from "@/lib/username";
 import { Button } from "@/components/ui/Button";
 import { Field, Input, Select } from "@/components/ui/Field";
 
@@ -17,6 +18,7 @@ const ROLES: { value: Extract<Role, "tutor" | "student">; label: string }[] = [
 export default function SignupPage() {
   const router = useRouter();
   const [fullName, setFullName] = useState("");
+  const [username, setUsername] = useState("");
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const [role, setRole] = useState<Role>("student");
@@ -27,17 +29,20 @@ export default function SignupPage() {
     e.preventDefault();
     setError(null);
     setSubmitting(true);
-    // full_name/role land in auth.users.raw_user_meta_data and are copied into
-    // public.users (+ tutors/students) by the handle_new_user trigger
-    // (supabase/migrations/0002_auth_signup_trigger.sql).
+    // username/full_name/role/contact_email land in auth.users.raw_user_meta_data
+    // and are split apart by the handle_new_user trigger
+    // (0002_auth_signup_trigger.sql, rewritten by 0019_username_auth.sql) into
+    // public.users.username/full_name/role/email (+ tutors/students row).
+    // Email is optional — signUp still needs *an* email-shaped identifier for
+    // Supabase Auth itself, so a synthetic one is used when none is given.
     const { error } = await supabase.auth.signUp({
-      email,
+      email: buildAuthEmail(username, email),
       password,
-      options: { data: { full_name: fullName, role } },
+      options: { data: { username, full_name: fullName, role, contact_email: email || null } },
     });
     setSubmitting(false);
     if (error) {
-      setError(error.message);
+      setError(friendlyAuthError(error.message));
       return;
     }
     router.push("/dashboard");
@@ -61,8 +66,17 @@ export default function SignupPage() {
           <Field label="Full name">
             <Input required value={fullName} onChange={(e) => setFullName(e.target.value)} />
           </Field>
-          <Field label="Email">
-            <Input type="email" required value={email} onChange={(e) => setEmail(e.target.value)} />
+          <Field label="Username" hint="What you'll log in with — no email needed.">
+            <Input
+              required
+              pattern="[a-zA-Z0-9_.-]+"
+              title="Letters, numbers, underscores, dots and hyphens only"
+              value={username}
+              onChange={(e) => setUsername(e.target.value)}
+            />
+          </Field>
+          <Field label="Email (optional)">
+            <Input type="email" value={email} onChange={(e) => setEmail(e.target.value)} />
           </Field>
           <Field label="Password">
             <Input

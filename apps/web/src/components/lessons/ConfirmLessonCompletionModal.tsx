@@ -1,8 +1,8 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import { supabase } from "@/lib/supabaseClient";
 import { notifyUser } from "@/lib/notifications";
+import { confirmStudentLessonCompleted } from "@/lib/curriculum";
 import type { AppUser, LessonPlanItem } from "@/lib/types";
 import { Button } from "@/components/ui/Button";
 import { Input } from "@/components/ui/Field";
@@ -42,41 +42,11 @@ export function ConfirmLessonCompletion({
     setSaving(true);
     const selected = participants.filter((p) => checked[p.id]);
 
-    const { data: nextItem } = await supabase
-      .from("lesson_plan_items")
-      .select("id, title")
-      .eq("lesson_plan_id", planItem.lesson_plan_id)
-      .eq("active", true)
-      .gt("sequence", planItem.sequence)
-      .order("sequence", { ascending: true })
-      .limit(1)
-      .maybeSingle();
-
     for (const student of selected) {
-      await supabase.from("student_lesson_progress").upsert(
-        {
-          student_id: student.id,
-          lesson_plan_id: planItem.lesson_plan_id,
-          current_item_id: nextItem?.id ?? null,
-          status: nextItem ? "not_started" : "mastered",
-          tutor_confirmed: false,
-          completed_at: null,
-          notes: notes[student.id] || null,
-          updated_at: new Date().toISOString(),
-        },
-        { onConflict: "student_id,lesson_plan_id" }
-      );
-
-      await supabase.from("student_lesson_completions").upsert(
-        {
-          student_id: student.id,
-          lesson_plan_item_id: planItem.id,
-          lesson_id: lessonId,
-          confirmed_by: tutorId,
-          completed_at: new Date().toISOString(),
-        },
-        { onConflict: "student_id,lesson_plan_item_id" }
-      );
+      const { nextItem } = await confirmStudentLessonCompleted(student.id, tutorId, planItem, {
+        lessonId,
+        notes: notes[student.id] || null,
+      });
 
       await notifyUser({
         userId: student.id,

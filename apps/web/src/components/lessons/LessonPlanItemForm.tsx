@@ -17,7 +17,7 @@ const NEW_FILE = "__upload_new__";
  * Library page) — this form only edits the item's own curriculum content.
  */
 export function LessonPlanItemForm({
-  tutorId,
+  uploaderId,
   lessonPlanId,
   item,
   nextSequence,
@@ -25,7 +25,7 @@ export function LessonPlanItemForm({
   onSaved,
   onCancel,
 }: {
-  tutorId: string;
+  uploaderId: string;
   lessonPlanId: string;
   item?: LessonPlanItem | null;
   nextSequence: number;
@@ -47,8 +47,8 @@ export function LessonPlanItemForm({
   const [saving, setSaving] = useState(false);
 
   useEffect(() => {
-    listLessonMaterials(tutorId).then(setFiles);
-  }, [tutorId]);
+    listLessonMaterials(uploaderId).then(setFiles);
+  }, [uploaderId]);
 
   async function handleSubmit(e: SubmitEvent<HTMLFormElement>) {
     e.preventDefault();
@@ -56,7 +56,7 @@ export function LessonPlanItemForm({
 
     let storagePath = materialChoice === NEW_FILE ? "" : materialChoice;
     if (materialChoice === NEW_FILE && file) {
-      const { path, error } = await uploadLessonMaterial(tutorId, file);
+      const { path, error } = await uploadLessonMaterial(uploaderId, file);
       if (error) {
         setSaving(false);
         showToast(error.message);
@@ -120,7 +120,7 @@ export function LessonPlanItemForm({
             <option value="">None</option>
             {/* The item's current file may live outside this tutor's own folder
                 (e.g. the seeded Qaida curriculum) — keep it selectable even if
-                listLessonMaterials(tutorId) doesn't return it. */}
+                listLessonMaterials(uploaderId) doesn't return it. */}
             {item?.material_storage_path && !files.some((f) => f.path === item.material_storage_path) && (
               <option value={item.material_storage_path}>{item.material_storage_path.split("/").pop()}</option>
             )}

@@ -7,12 +7,14 @@ import {
   deleteLessonMaterial,
   formatFileSize,
   getSignedMaterialUrl,
+  listAllLessonMaterials,
   listLessonMaterials,
   uploadLessonMaterial,
   type StoredFile,
 } from "@/lib/storage";
-import type { Lesson } from "@/lib/types";
+import type { AppUser, Lesson } from "@/lib/types";
 import { buildGoogleDriveConsentUrl } from "@/lib/googleDrive";
+import { isAdminRole } from "@/lib/roles";
 import { useToast } from "@/components/ui/Toast";
 import { Card, Eyebrow } from "@/components/ui/Card";
 import { Button } from "@/components/ui/Button";
@@ -29,10 +31,15 @@ export default function MaterialsPage() {
   const { profile } = useAuth();
   const { showToast } = useToast();
   const isTutor = profile?.role === "tutor";
+  // Admin/super_admin can manage every tutor's materials, not just their own
+  // (0018_admin_full_access.sql for the write side; storage read/list is
+  // already open to any authenticated user per 0011).
+  const canManage = isTutor || isAdminRole(profile?.role);
 
   const [tab, setTab] = useState<"mine" | "drive">("mine");
   const [files, setFiles] = useState<StoredFile[]>([]);
   const [lessons, setLessons] = useState<Lesson[]>([]);
+  const [studentsById, setStudentsById] = useState<Map<string, AppUser>>(new Map());
   const [loading, setLoading] = useState(true);
   const [uploading, setUploading] = useState(false);
   const [preview, setPreview] = useState<{ name: string; url: string } | null>(null);
@@ -43,13 +50,19 @@ export default function MaterialsPage() {
   const load = useCallback(async () => {
     if (!profile) return;
     const [stored, { data: lessonRows }] = await Promise.all([
-      listLessonMaterials(profile.id),
+      canManage && !isTutor ? listAllLessonMaterials() : listLessonMaterials(profile.id),
       supabase.from("lessons").select("*").order("lesson_date", { ascending: false }),
     ]);
     setFiles(stored);
-    setLessons((lessonRows ?? []) as Lesson[]);
+    const lessonList = (lessonRows ?? []) as Lesson[];
+    setLessons(lessonList);
+    const studentIds = Array.from(new Set(lessonList.map((l) => l.student_id)));
+    if (studentIds.length > 0) {
+      const { data: userRows } = await supabase.from("users").select("*").in("id", studentIds);
+      setStudentsById(new Map(((userRows ?? []) as AppUser[]).map((u) => [u.id, u])));
+    }
     setLoading(false);
-  }, [profile]);
+  }, [profile, isTutor, canManage]);
 
   useEffect(() => {
     // eslint-disable-next-line react-hooks/set-state-in-effect
@@ -120,7 +133,7 @@ export default function MaterialsPage() {
 
       {tab === "mine" && (
         <div className="flex flex-col gap-4">
-          {isTutor && (
+          {canManage && (
             <Card>
               <div className="flex flex-wrap items-center justify-between gap-3">
                 <div>
@@ -160,7 +173,7 @@ export default function MaterialsPage() {
                     <Button size="sm" variant="outline" onClick={() => handlePreview(f)}>
                       View
                     </Button>
-                    {isTutor && (
+                    {canManage && (
                       <>
                         <Button size="sm" variant="outline" onClick={() => setAttachTarget(f)}>
                           Add
@@ -219,7 +232,7 @@ export default function MaterialsPage() {
           <option value="">Choose a lesson…</option>
           {lessons.map((l) => (
             <option key={l.id} value={l.id}>
-              {l.title} — {l.lesson_date}
+              {studentsById.get(l.student_id)?.full_name ?? l.title} — {l.lesson_date}
             </option>
           ))}
         </Select>

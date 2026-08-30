@@ -85,8 +85,11 @@ export default function SettingsPage() {
           <Field label="Full name">
             <Input value={fullName} onChange={(e) => setFullName(e.target.value)} />
           </Field>
-          <Field label="Email">
-            <Input value={profile?.email ?? ""} disabled />
+          <Field label="Username" hint="Ask an admin to change this.">
+            <Input value={profile?.username ?? ""} disabled />
+          </Field>
+          <Field label="Email (optional)">
+            <Input value={profile?.email ?? ""} disabled placeholder="Not set" />
           </Field>
           <Button variant="outline" size="sm" onClick={handleSaveProfile} disabled={savingProfile}>
             {savingProfile ? "Saving…" : "Save changes"}
@@ -109,11 +112,13 @@ export default function SettingsPage() {
           <>
             <Card>
               <SectionHead title="Lesson Settings" />
-              <Field label="Default lesson duration">
+              <Field label="Default lesson duration" hint="20 minutes is the standard for one-to-one sessions.">
                 <Select
                   value={tutor.default_lesson_duration_minutes}
                   onChange={(e) => setTutor({ ...tutor, default_lesson_duration_minutes: Number(e.target.value) })}
                 >
+                  <option value={15}>15 minutes</option>
+                  <option value={20}>20 minutes</option>
                   <option value={30}>30 minutes</option>
                   <option value={45}>45 minutes</option>
                   <option value={60}>60 minutes</option>

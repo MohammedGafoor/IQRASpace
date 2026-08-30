@@ -4,33 +4,47 @@ import { useEffect, useState } from "react";
 import { useAuth } from "@/lib/authContext";
 import { supabase } from "@/lib/supabaseClient";
 import type { AppUser, AttendanceRecord, ClassMember, ClassRow, Lesson, LessonNote, LessonProgress } from "@/lib/types";
-import { getStudentCurriculumProgress, type CurriculumRow } from "@/lib/curriculum";
+import { isAdminRole } from "@/lib/roles";
+import {
+  getBulkCurrentLessonItems,
+  getStudentCurriculumProgress,
+  type CurrentLessonInfo,
+  type CurriculumRow,
+} from "@/lib/curriculum";
 import { formatDate, todayISO } from "@/lib/format";
 import { Card } from "@/components/ui/Card";
 import { Avatar } from "@/components/ui/Avatar";
+import { Button } from "@/components/ui/Button";
 import { Input } from "@/components/ui/Field";
 import { Modal } from "@/components/ui/Modal";
 import { ProgressBar, StatCard } from "@/components/ui/ProgressBar";
 import { EmptyState } from "@/components/ui/EmptyState";
+import { StudentLessonManager } from "@/components/students/StudentLessonManager";
+import { useLessonMaterialViewer } from "@/components/students/LessonMaterialViewer";
 
 type StudentRow = {
   user: AppUser;
   classNames: string[];
   nextLesson: Lesson | null;
+  currentLesson: CurrentLessonInfo | null;
 };
 
 export default function StudentsPage() {
   const { profile } = useAuth();
   const isTutor = profile?.role === "tutor";
+  // Admin/super_admin get the platform-wide roster (all tutors' students),
+  // not just "their own" (0018_admin_full_access.sql).
+  const canManage = isTutor || isAdminRole(profile?.role);
 
   const [rows, setRows] = useState<StudentRow[]>([]);
   const [lessons, setLessons] = useState<Lesson[]>([]);
   const [loading, setLoading] = useState(true);
   const [search, setSearch] = useState("");
   const [openStudent, setOpenStudent] = useState<AppUser | null>(null);
+  const { openItem, modal: materialModal } = useLessonMaterialViewer();
 
   useEffect(() => {
-    if (!profile || !isTutor) {
+    if (!profile || !canManage) {
       // eslint-disable-next-line react-hooks/set-state-in-effect
       setLoading(false);
       return;
@@ -38,7 +52,8 @@ export default function StudentsPage() {
     let active = true;
 
     async function load() {
-      const { data: classRows } = await supabase.from("classes").select("*").eq("tutor_id", profile!.id);
+      const classesQuery = supabase.from("classes").select("*");
+      const { data: classRows } = await (isTutor ? classesQuery.eq("tutor_id", profile!.id) : classesQuery);
       const classes = (classRows ?? []) as ClassRow[];
       if (classes.length === 0) {
         if (active) {
@@ -69,6 +84,7 @@ export default function StudentsPage() {
       const { data: userRows } = await supabase.from("users").select("*").in("id", studentIds);
       const users = (userRows ?? []) as AppUser[];
       const today = todayISO();
+      const currentLessons = await getBulkCurrentLessonItems(studentIds);
 
       const built: StudentRow[] = users.map((u) => {
         const studentClassIds = members.filter((m) => m.student_id === u.id).map((m) => m.class_id);
@@ -76,7 +92,12 @@ export default function StudentsPage() {
         const upcoming = lessonList
           .filter((l) => studentClassIds.includes(l.class_id) && l.lesson_date >= today)
           .sort((a, b) => a.lesson_date.localeCompare(b.lesson_date));
-        return { user: u, classNames, nextLesson: upcoming[0] ?? null };
+        return {
+          user: u,
+          classNames,
+          nextLesson: upcoming[0] ?? null,
+          currentLesson: currentLessons.get(u.id) ?? null,
+        };
       });
 
       if (active) {
@@ -88,9 +109,9 @@ export default function StudentsPage() {
     return () => {
       active = false;
     };
-  }, [profile, isTutor]);
+  }, [profile, isTutor, canManage]);
 
-  if (!isTutor) {
+  if (!canManage) {
     return (
       <Card>
         <EmptyState icon="🎓">A student directory is available to tutors. Check Progress for your own record.</EmptyState>
@@ -131,23 +152,59 @@ export default function StudentsPage() {
                   <span className="text-[0.76rem] text-muted">{r.classNames.join(", ") || "No class yet"}</span>
                 </div>
               </div>
-              <div className="flex justify-between text-[0.76rem] text-muted">
+              <div className="mb-3 flex justify-between text-[0.76rem] text-muted">
                 <span>Next lesson</span>
                 <span className="text-ink">{r.nextLesson ? `${formatDate(r.nextLesson.lesson_date)}` : "—"}</span>
               </div>
+              {r.currentLesson?.item ? (
+                <Button
+                  size="sm"
+                  variant="outline"
+                  className="w-full"
+                  onClick={(e) => {
+                    e.stopPropagation();
+                    openItem(r.currentLesson!.item!);
+                  }}
+                >
+                  ▶ Launch Lesson
+                </Button>
+              ) : (
+                <Button
+                  size="sm"
+                  variant="ghost"
+                  className="w-full"
+                  onClick={(e) => {
+                    e.stopPropagation();
+                    setOpenStudent(r.user);
+                  }}
+                >
+                  ＋ Assign Lesson
+                </Button>
+              )}
             </Card>
           ))}
         </div>
       )}
 
       <Modal open={!!openStudent} onClose={() => setOpenStudent(null)}>
-        {openStudent && <StudentProfile student={openStudent} lessons={lessons} />}
+        {openStudent && profile && <StudentProfile student={openStudent} lessons={lessons} tutorId={profile.id} canManage={canManage} />}
       </Modal>
+      {materialModal}
     </div>
   );
 }
 
-function StudentProfile({ student, lessons }: { student: AppUser; lessons: Lesson[] }) {
+function StudentProfile({
+  student,
+  lessons,
+  tutorId,
+  canManage,
+}: {
+  student: AppUser;
+  lessons: Lesson[];
+  tutorId: string;
+  canManage: boolean;
+}) {
   const [progress, setProgress] = useState<LessonProgress[]>([]);
   const [notes, setNotes] = useState<LessonNote[]>([]);
   const [attendance, setAttendance] = useState<AttendanceRecord[]>([]);
@@ -200,13 +257,19 @@ function StudentProfile({ student, lessons }: { student: AppUser; lessons: Lesso
         <Avatar name={student.full_name} size={56} />
         <div>
           <b className="text-lg font-semibold">{student.full_name}</b>
-          <p className="text-sm text-muted">{student.email}</p>
+          <p className="text-sm text-muted">{student.email ?? `@${student.username}`}</p>
         </div>
       </div>
       <div className="mb-4 grid grid-cols-2 gap-3">
         <StatCard value={progress.length} label="Progress entries" />
         <StatCard value={attendancePct !== null ? `${attendancePct}%` : "—"} label="Attendance" />
       </div>
+
+      <h4 className="mb-2 text-xs font-bold uppercase tracking-wide text-muted">Lesson Progress</h4>
+      <div className="mb-4">
+        <StudentLessonManager studentId={student.id} tutorId={tutorId} canManage={canManage} />
+      </div>
+
       {curriculum.length > 0 && (
         <>
           <h4 className="mb-2 text-xs font-bold uppercase tracking-wide text-muted">Curriculum Progress</h4>

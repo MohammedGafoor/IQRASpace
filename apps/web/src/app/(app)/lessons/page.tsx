@@ -4,7 +4,8 @@ import { useCallback, useEffect, useState } from "react";
 import { useAuth } from "@/lib/authContext";
 import { supabase } from "@/lib/supabaseClient";
 import { getSignedMaterialUrl } from "@/lib/storage";
-import type { ClassLessonPlan, ClassMember, ClassRow, LessonPlan, LessonPlanItem } from "@/lib/types";
+import type { ClassLessonPlan, ClassRow, LessonPlan, LessonPlanItem } from "@/lib/types";
+import { isAdminRole } from "@/lib/roles";
 import { Card, Eyebrow, SectionHead } from "@/components/ui/Card";
 import { Select } from "@/components/ui/Field";
 import { Button } from "@/components/ui/Button";
@@ -17,16 +18,26 @@ import { LessonPlanItemForm } from "@/components/lessons/LessonPlanItemForm";
 import { PdfViewer } from "@/components/pdf/PdfViewer";
 
 /**
- * Lesson Library — the Universal Lesson Plan (curriculum) manager. This
- * screen defines *what* should be taught and in what order; it deliberately
- * carries no date/time/duration/tutor-or-student-assignment fields — that's
- * Class/Session scheduling (/schedule), a separate concept. See the approved
- * redesign plan for the full rationale.
+ * Lesson Library — the Universal Lesson Plan (curriculum) manager. A plan is
+ * NOT owned by any one tutor (0021_universal_lesson_plans.sql) — it's a
+ * shared catalog any number of tutors can browse and assign to their own
+ * classes. This screen defines *what* should be taught and in what order;
+ * it deliberately carries no date/time/duration/tutor-or-student-assignment
+ * fields — that's Class/Session scheduling (/schedule), a separate concept.
  */
 export default function LessonsPage() {
   const { profile } = useAuth();
   const { showToast } = useToast();
   const isTutor = profile?.role === "tutor";
+  // Curriculum editing (create/edit/reorder/delete a plan or its items) is
+  // admin/super_admin only — decided with the user when the tutor-ownership
+  // column was removed, matching Admin's existing "Lesson Library /
+  // Curriculum" full-CRUD requirement.
+  const canEditCurriculum = isAdminRole(profile?.role);
+  // Assigning one's own class to a plan (and the per-student progress tools
+  // that follow) is still how a tutor "uses" the universal curriculum, so
+  // this stays available to any tutor, not just admin.
+  const canAssignClasses = isTutor || isAdminRole(profile?.role);
 
   const [plans, setPlans] = useState<LessonPlan[]>([]);
   const [selectedPlanId, setSelectedPlanId] = useState("");
@@ -41,18 +52,21 @@ export default function LessonsPage() {
   const [materialModal, setMaterialModal] = useState<{ url: string; page: number } | null>(null);
 
   const loadPlans = useCallback(async () => {
-    const query = supabase.from("lesson_plans").select("*").order("created_at");
-    const { data } = isTutor && profile ? await query.eq("tutor_id", profile.id) : await query;
+    // Unfiltered for everyone — RLS decides who sees what: every tutor/admin
+    // sees the whole shared catalog, a student sees only their assigned
+    // plan (0021_universal_lesson_plans.sql).
+    const { data } = await supabase.from("lesson_plans").select("*").order("created_at");
     const rows = (data ?? []) as LessonPlan[];
     setPlans(rows);
     setSelectedPlanId((prev) => prev || rows[0]?.id || "");
     setLoading(false);
-  }, [profile, isTutor]);
+  }, []);
 
   const loadClasses = useCallback(async () => {
-    if (!profile || !isTutor) return;
+    if (!profile || !canAssignClasses) return;
+    const classesQuery = supabase.from("classes").select("*");
     const [{ data: classRows }, { data: assignRows }] = await Promise.all([
-      supabase.from("classes").select("*").eq("tutor_id", profile.id),
+      isTutor ? classesQuery.eq("tutor_id", profile.id) : classesQuery,
       supabase.from("class_lesson_plans").select("class_id, lesson_plan_id"),
     ]);
     setClasses((classRows ?? []) as ClassRow[]);
@@ -61,7 +75,7 @@ export default function LessonsPage() {
       map[a.class_id] = a.lesson_plan_id;
     });
     setClassPlanByClassId(map);
-  }, [profile, isTutor]);
+  }, [profile, isTutor, canAssignClasses]);
 
   useEffect(() => {
     // eslint-disable-next-line react-hooks/set-state-in-effect
@@ -107,24 +121,10 @@ export default function LessonsPage() {
       return;
     }
 
-    // Give every already-enrolled student a starting-point progress row so
-    // they show up as "not started at Lesson 1" rather than having no record.
-    const firstItem = items.slice().sort((a, b) => a.sequence - b.sequence)[0];
-    if (firstItem) {
-      const { data: memberRows } = await supabase.from("class_members").select("*").eq("class_id", classId);
-      for (const m of (memberRows ?? []) as ClassMember[]) {
-        await supabase.from("student_lesson_progress").upsert(
-          {
-            student_id: m.student_id,
-            lesson_plan_id: selectedPlanId,
-            current_item_id: firstItem.id,
-            status: "not_started",
-          },
-          { onConflict: "student_id,lesson_plan_id", ignoreDuplicates: true }
-        );
-      }
-    }
-
+    // Every already-enrolled student gets a starting-point progress row
+    // ("not started at Lesson 1") automatically — seed_progress_on_plan_assigned
+    // trigger (0022_student_progress_gaps.sql), not client-side, so it also
+    // covers a student added to the class later (seed_progress_on_member_added).
     showToast("Class assigned to this plan");
     loadClasses();
   }
@@ -170,24 +170,25 @@ export default function LessonsPage() {
     <div className="flex flex-col gap-5">
       <div>
         <Eyebrow>Lessons</Eyebrow>
-        <h1 className="text-2xl font-semibold">Your lesson library</h1>
+        <h1 className="text-2xl font-semibold">{canEditCurriculum ? "The shared lesson library" : "The shared curriculum"}</h1>
         <p className="mt-1 text-sm text-ink-soft">
-          Define the curriculum here — sequence, objective, and material. Scheduling a class/session with a student
-          happens in Schedule.
+          {canEditCurriculum
+            ? "Define the curriculum here — sequence, objective, and material. Every tutor shares this catalog. Scheduling a class/session with a student happens in Schedule."
+            : "Browse the curriculum and assign your classes to a plan. Only an admin can edit lesson content — scheduling a class/session happens in Schedule."}
         </p>
       </div>
 
       {loading ? (
         <p className="text-sm text-muted">Loading…</p>
       ) : plans.length === 0 ? (
-        isTutor ? (
+        canEditCurriculum ? (
           <Card>
             <SectionHead title="No lesson plans yet" subtitle="Create your first curriculum to get started." />
             <LessonPlanPicker
               plans={plans}
               selectedId={selectedPlanId}
               onSelect={setSelectedPlanId}
-              tutorId={profile!.id}
+              canCreate={canEditCurriculum}
               onCreated={(id) => {
                 setSelectedPlanId(id);
                 loadPlans();
@@ -201,17 +202,19 @@ export default function LessonsPage() {
         )
       ) : (
         <>
-          {isTutor ? (
-            <LessonPlanPicker
-              plans={plans}
-              selectedId={selectedPlanId}
-              onSelect={setSelectedPlanId}
-              tutorId={profile!.id}
-              onCreated={(id) => {
-                setSelectedPlanId(id);
-                loadPlans();
-              }}
-            />
+          {canAssignClasses ? (
+            <div className="flex flex-wrap items-center gap-3">
+              <LessonPlanPicker
+                plans={plans}
+                selectedId={selectedPlanId}
+                onSelect={setSelectedPlanId}
+                canCreate={canEditCurriculum}
+                onCreated={(id) => {
+                  setSelectedPlanId(id);
+                  loadPlans();
+                }}
+              />
+            </div>
           ) : (
             <div className="flex flex-wrap gap-2">
               {plans.map((p) => (
@@ -228,19 +231,21 @@ export default function LessonsPage() {
               title={selectedPlan?.name ?? ""}
               subtitle={selectedPlan?.description ?? undefined}
               action={
-                isTutor && (
+                canAssignClasses && (
                   <div className="flex gap-2">
                     <Button variant="outline" size="sm" onClick={() => setPreviewOpen(true)}>
                       Preview sequence
                     </Button>
-                    <Button size="sm" onClick={() => setItemModal({ item: null })}>
-                      ＋ Add Lesson
-                    </Button>
+                    {canEditCurriculum && (
+                      <Button size="sm" onClick={() => setItemModal({ item: null })}>
+                        ＋ Add Lesson
+                      </Button>
+                    )}
                   </div>
                 )
               }
             />
-            {isTutor && (
+            {canAssignClasses && (
               <div className="mb-4 flex flex-wrap items-center gap-2 rounded-[var(--radius-m)] bg-paper-alt p-3 text-sm">
                 <span className="font-semibold text-ink-soft">Used by:</span>
                 {assignedClasses.length === 0 ? (
@@ -289,7 +294,7 @@ export default function LessonsPage() {
                       <th className="py-2 pr-3 text-xs font-bold uppercase tracking-wide">Objective</th>
                       <th className="py-2 pr-3 text-xs font-bold uppercase tracking-wide">Material</th>
                       <th className="py-2 pr-3 text-xs font-bold uppercase tracking-wide">Status</th>
-                      {isTutor && <th className="py-2" />}
+                      {canEditCurriculum && <th className="py-2" />}
                     </tr>
                   </thead>
                   <tbody>
@@ -313,7 +318,7 @@ export default function LessonsPage() {
                         <td className="py-2.5 pr-3">
                           <Badge tone={item.active ? "teal" : "muted"}>{item.active ? "Active" : "Inactive"}</Badge>
                         </td>
-                        {isTutor && (
+                        {canEditCurriculum && (
                           <td className="py-2.5 text-right">
                             <div className="flex justify-end gap-2 whitespace-nowrap text-xs font-semibold">
                               <button
@@ -354,7 +359,7 @@ export default function LessonsPage() {
       <Modal open={!!itemModal} onClose={() => setItemModal(null)}>
         {itemModal && profile && (
           <LessonPlanItemForm
-            tutorId={profile.id}
+            uploaderId={profile.id}
             lessonPlanId={selectedPlanId}
             item={itemModal.item}
             nextSequence={(sortedItems[sortedItems.length - 1]?.sequence ?? 0) + 1}

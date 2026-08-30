@@ -34,8 +34,11 @@ yarn-debug.log*
 yarn-error.log*
 .pnpm-debug.log*
 
-# env files (can opt-in for committing if needed)
+# env files — all real .env* files stay untracked/uncommitted...
 .env*
+# ...except the placeholder-only example file, which must be committed so a
+# new developer can find it at all (see .env.local.example's own header).
+!.env.local.example
 
 # vercel
 .vercel

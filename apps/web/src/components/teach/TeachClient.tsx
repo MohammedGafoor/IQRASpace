@@ -7,7 +7,8 @@ import { getLessonChannel, type HighlightState } from "@/lib/realtime";
 import { getOrCreateActiveSession, recordHighlight } from "@/lib/sharing";
 import { getSurah, surahPageCount } from "@/lib/quranContent";
 import { getLessonMaterial, getSignedMaterialUrl } from "@/lib/storage";
-import type { AppUser, ClassMember, ClassRow, Lesson, LessonMaterial, LessonPlanItem, Meeting } from "@/lib/types";
+import type { AppUser, ClassRow, Lesson, LessonMaterial, LessonPlanItem, Meeting } from "@/lib/types";
+import { isAdminRole } from "@/lib/roles";
 import { Card, Eyebrow } from "@/components/ui/Card";
 import { Button } from "@/components/ui/Button";
 import { Textarea } from "@/components/ui/Field";
@@ -55,6 +56,7 @@ export function TeachClient({ lessonId }: { lessonId: string }) {
 
   const surah = getSurah(lesson?.quran_surah_key ?? planItem?.quran_surah_key ?? undefined);
   const isTutor = profile?.role === "tutor";
+  const canManage = isTutor || isAdminRole(profile?.role);
 
   useEffect(() => {
     async function load() {
@@ -69,12 +71,11 @@ export function TeachClient({ lessonId }: { lessonId: string }) {
       const { data: meetingRow } = await supabase.from("meetings").select("*").eq("lesson_id", lessonId).maybeSingle();
       setMeeting((meetingRow as Meeting) ?? null);
 
-      const { data: memberRows } = await supabase.from("class_members").select("*").eq("class_id", loadedLesson.class_id);
-      const studentIds = ((memberRows ?? []) as ClassMember[]).map((m) => m.student_id);
-      if (studentIds.length > 0) {
-        const { data: userRows } = await supabase.from("users").select("*").in("id", studentIds);
-        setParticipants((userRows ?? []) as AppUser[]);
-      }
+      // One-to-one session — `participants` is always this one student
+      // (0023_student_based_scheduling.sql's `lessons.student_id`), not the
+      // whole class roster.
+      const { data: studentRow } = await supabase.from("users").select("*").eq("id", loadedLesson.student_id).maybeSingle();
+      if (studentRow) setParticipants([studentRow as AppUser]);
 
       let loadedPlanItem: LessonPlanItem | null = null;
       if (loadedLesson.lesson_plan_item_id) {
@@ -279,7 +280,7 @@ export function TeachClient({ lessonId }: { lessonId: string }) {
               note={note}
               setNote={setNote}
               saveNote={saveNote}
-              canConfirm={isTutor && !!planItem}
+              canConfirm={canManage && !!planItem}
               onConfirm={() => setConfirmOpen(true)}
             />
           </div>
@@ -505,7 +506,7 @@ export function TeachClient({ lessonId }: { lessonId: string }) {
             note={note}
             setNote={setNote}
             saveNote={saveNote}
-            canConfirm={isTutor && !!planItem}
+            canConfirm={canManage && !!planItem}
             onConfirm={() => setConfirmOpen(true)}
           />
         </div>

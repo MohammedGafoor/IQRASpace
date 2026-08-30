@@ -28,6 +28,21 @@ export function combineDateTime(dateISO: string, time: string | null | undefined
   return new Date(`${dateISO}T${time ?? "00:00:00"}`);
 }
 
+/** "14:30" + 20 -> "14:50" (wraps at 24h; Postgres TIME "HH:MM" or "HH:MM:SS" in, "HH:MM" out). */
+export function addMinutesToTime(time: string, minutes: number): string {
+  const [hStr, mStr] = time.split(":");
+  const totalMinutes = (((Number(hStr) * 60 + Number(mStr) + minutes) % 1440) + 1440) % 1440;
+  const h = Math.floor(totalMinutes / 60);
+  const m = totalMinutes % 60;
+  return `${String(h).padStart(2, "0")}:${String(m).padStart(2, "0")}`;
+}
+
+/** A session's "10:00 AM – 10:20 AM" range from its start time + duration. */
+export function computeEndTime(startTime: string | null | undefined, durationMinutes: number): string | null {
+  if (!startTime) return null;
+  return formatTime(addMinutesToTime(startTime, durationMinutes));
+}
+
 export function relativeTime(iso: string) {
   const diffMs = Date.now() - new Date(iso).getTime();
   const mins = Math.round(diffMs / 60000);

@@ -5,12 +5,15 @@ import { usePathname, useRouter } from "next/navigation";
 import { useAuth } from "@/lib/authContext";
 import { supabase } from "@/lib/supabaseClient";
 import { Avatar } from "@/components/ui/Avatar";
-import { NAV_ITEMS } from "./navConfig";
+import { isAdminRole } from "@/lib/roles";
+import { ADMIN_NAV_ITEMS, NAV_ITEMS } from "./navConfig";
 
 export function Sidebar({ open, onClose }: { open: boolean; onClose: () => void }) {
   const pathname = usePathname();
   const router = useRouter();
   const { profile } = useAuth();
+  // Admin/super_admin get a separate, smaller nav — see navConfig.ts.
+  const navItems = isAdminRole(profile?.role) ? ADMIN_NAV_ITEMS : NAV_ITEMS;
 
   async function handleLogout() {
     await supabase.auth.signOut();
@@ -50,7 +53,7 @@ export function Sidebar({ open, onClose }: { open: boolean; onClose: () => void 
         </div>
 
         <nav className="flex-1 overflow-y-auto p-2.5">
-          {NAV_ITEMS.map((item) => {
+          {navItems.map((item) => {
             const active = pathname.startsWith(item.href);
             return (
               <Link

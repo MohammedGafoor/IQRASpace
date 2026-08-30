@@ -3,8 +3,9 @@
 import { useCallback, useEffect, useState } from "react";
 import { useAuth } from "@/lib/authContext";
 import { supabase } from "@/lib/supabaseClient";
-import type { AppUser, AttendanceRecord, AttendanceStatus, ClassMember, Lesson } from "@/lib/types";
+import type { AppUser, AttendanceRecord, AttendanceStatus, Lesson } from "@/lib/types";
 import { notifyUser } from "@/lib/notifications";
+import { isAdminRole } from "@/lib/roles";
 import { Card, Eyebrow } from "@/components/ui/Card";
 import { Select } from "@/components/ui/Field";
 import { Badge, type BadgeTone } from "@/components/ui/Badge";
@@ -24,9 +25,11 @@ export default function AttendancePage() {
   const { profile } = useAuth();
   const { showToast } = useToast();
   const isTutor = profile?.role === "tutor";
+  const canManage = isTutor || isAdminRole(profile?.role);
 
   const [lessons, setLessons] = useState<Lesson[]>([]);
   const [lessonId, setLessonId] = useState("");
+  const [studentsById, setStudentsById] = useState<Map<string, AppUser>>(new Map());
   const [students, setStudents] = useState<AppUser[]>([]);
   const [records, setRecords] = useState<Record<string, AttendanceRecord>>({});
   const [weekPct, setWeekPct] = useState<number | null>(null);
@@ -44,7 +47,13 @@ export default function AttendancePage() {
         const today = new Date().toISOString().slice(0, 10);
         setLessonId((prev) => prev || rows.find((l) => l.lesson_date === today)?.id || rows[0]?.id || "");
 
-        if (isTutor && rows.length > 0) {
+        const studentIds = Array.from(new Set(rows.map((l) => l.student_id)));
+        if (studentIds.length > 0) {
+          const { data: userRows } = await supabase.from("users").select("*").in("id", studentIds);
+          setStudentsById(new Map(((userRows ?? []) as AppUser[]).map((u) => [u.id, u])));
+        }
+
+        if (canManage && rows.length > 0) {
           const weekAgo = new Date();
           weekAgo.setDate(weekAgo.getDate() - 7);
           const { data: attRows } = await supabase
@@ -60,21 +69,20 @@ export default function AttendancePage() {
         }
         setLoading(false);
       });
-  }, [profile, isTutor]);
+  }, [profile, isTutor, canManage]);
 
   const loadRoster = useCallback(async (id: string) => {
     if (!id) return;
     const lesson = lessons.find((l) => l.id === id);
     if (!lesson) return;
-    const [{ data: memberRows }, { data: attRows }] = await Promise.all([
-      supabase.from("class_members").select("*").eq("class_id", lesson.class_id),
+    // One-to-one session — the "roster" is just this one scheduled student
+    // (0023_student_based_scheduling.sql's `lessons.student_id`), not the
+    // whole class.
+    const [{ data: userRow }, { data: attRows }] = await Promise.all([
+      supabase.from("users").select("*").eq("id", lesson.student_id).maybeSingle(),
       supabase.from("attendance").select("*").eq("lesson_id", id),
     ]);
-    const studentIds = ((memberRows ?? []) as ClassMember[]).map((m) => m.student_id);
-    const { data: userRows } = studentIds.length
-      ? await supabase.from("users").select("*").in("id", studentIds)
-      : { data: [] };
-    setStudents((userRows ?? []) as AppUser[]);
+    setStudents(userRow ? [userRow as AppUser] : []);
     const byStudent: Record<string, AttendanceRecord> = {};
     for (const r of (attRows ?? []) as AttendanceRecord[]) byStudent[r.student_id] = r;
     setRecords(byStudent);
@@ -126,21 +134,21 @@ export default function AttendancePage() {
             {lessons.length === 0 && <option value="">No lessons yet</option>}
             {lessons.map((l) => (
               <option key={l.id} value={l.id}>
-                {l.title} — {l.lesson_date}
+                {studentsById.get(l.student_id)?.full_name ?? l.title} — {l.lesson_date}
               </option>
             ))}
           </Select>
         </div>
 
         {students.length === 0 ? (
-          <EmptyState icon="✅">No students in this lesson&rsquo;s class yet.</EmptyState>
+          <EmptyState icon="✅">No student found for this session.</EmptyState>
         ) : (
           <table className="w-full text-left text-sm">
             <thead className="text-muted">
               <tr>
                 <th className="pb-2 text-xs font-bold uppercase tracking-wide">Student</th>
                 <th className="pb-2 text-xs font-bold uppercase tracking-wide">Status</th>
-                {isTutor && <th className="pb-2" />}
+                {canManage && <th className="pb-2" />}
               </tr>
             </thead>
             <tbody>
@@ -152,7 +160,7 @@ export default function AttendancePage() {
                     <td className="py-2.5">
                       <Badge tone={record ? STATUS_TONE[record.status] : "muted"}>{record?.status ?? "Not marked"}</Badge>
                     </td>
-                    {isTutor && (
+                    {canManage && (
                       <td className="py-2.5">
                         <div className="flex gap-1.5">
                           {STATUSES.map((st) => (
