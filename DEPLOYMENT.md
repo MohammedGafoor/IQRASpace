@@ -122,7 +122,10 @@ Or, pushing directly to `main` (small pilot team) triggers the same `validate` �
 ### Viewing deployment status
 
 - GitHub → **Actions** tab → the `CI/CD` workflow run for your commit. The `deploy` job's summary tab shows commit SHA, branch, run number, timestamp, and the exact deployment URL.
+- GitHub → repo **Settings → Environments → `vercel`** — the GitHub Environment the `deploy` job runs against (`environment: name: vercel` in `.github/workflows/ci.yml`); its page links straight to the deployment history for this job.
 - Vercel dashboard → `shaga2/iqraspace` → **Deployments** — full build logs, and every past deployment stays browsable/promotable.
+
+Environment secrets (`VERCEL_TOKEN`, `VERCEL_ORG_ID`, `VERCEL_PROJECT_ID`, `NEXT_PUBLIC_SUPABASE_URL`, `NEXT_PUBLIC_SUPABASE_ANON_KEY`) are repository-level secrets, not scoped to the `vercel` Environment specifically — the `deploy` job can read them regardless of which Environment it's associated with. No secret migration is needed if the Environment is ever renamed again.
 
 ### Troubleshooting a failed run
 
