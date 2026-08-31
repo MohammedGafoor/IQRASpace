@@ -7,6 +7,16 @@ import { PdfToolbar } from "./PdfToolbar";
 import type { Annotation, AnnotationTool } from "./annotationTypes";
 import { TOOL_COLORS, newAnnotationId } from "./annotationTypes";
 
+// pdf.js's getDocument() does its own fetch/XHR for these three asset
+// paths — unlike next/link or next/image, Next's `basePath` config does
+// NOT auto-prefix arbitrary string literals passed to third-party code,
+// so this needs its own explicit prefix via a client-exposed env var
+// (NEXT_PUBLIC_BASE_PATH, set alongside next.config.ts's server-side
+// NEXT_BASE_PATH — client components can only read NEXT_PUBLIC_* vars).
+// Empty string when unset (local dev, bare-origin deploys), matching
+// next.config.ts's own `|| undefined` fallback.
+const BASE_PATH = process.env.NEXT_PUBLIC_BASE_PATH ?? "";
+
 type PdfViewerProps = {
   url: string | null;
   className?: string;
@@ -203,9 +213,11 @@ export function PdfViewer({ url, className, initialPage, page, onPageChange, rea
           // pagination bug since the page *count* and navigation are fine.
           // Paths are served from public/pdfjs/, synced from node_modules by
           // scripts/copy-pdfjs-assets.mjs (see that script's header comment).
-          wasmUrl: "/pdfjs/wasm/",
-          standardFontDataUrl: "/pdfjs/standard_fonts/",
-          cMapUrl: "/pdfjs/cmaps/",
+          // BASE_PATH-prefixed (see module-level comment above) — public/
+          // folder assets are NOT auto-prefixed by Next's basePath config.
+          wasmUrl: `${BASE_PATH}/pdfjs/wasm/`,
+          standardFontDataUrl: `${BASE_PATH}/pdfjs/standard_fonts/`,
+          cMapUrl: `${BASE_PATH}/pdfjs/cmaps/`,
           cMapPacked: true,
         });
         loadingTaskRef.current = loadingTask;

@@ -114,11 +114,31 @@ jobs:
       # per-deployment URL to vercel.com/sso-api — only the assigned
       # Production alias is exempt and actually publicly reachable, which
       # is also the one real pilot users are given.
+      #
+      # Since the Learning migration (basePath cutover to /learning), the
+      # old bare "/" and "/login" 307-redirect rather than serving
+      # directly (see next.config.ts's redirects()) — checked in two
+      # parts so a broken redirect and a genuinely-down app fail with
+      # different, legible errors instead of both just "not 200".
       - name: Health check
         run: |
           set -e
           PILOT_URL="https://iqraspace.vercel.app"
-          for path in "/" "/login"; do
+
+          check_redirect() {
+            local from="$1" to="$2"
+            code=$(curl -s -o /dev/null -w "%{http_code}" "$PILOT_URL$from")
+            location=$(curl -s -o /dev/null -w "%{redirect_url}" "$PILOT_URL$from")
+            echo "$from -> HTTP $code, Location: $location"
+            if [ "$code" != "307" ] || [ "$location" != "$PILOT_URL$to" ]; then
+              echo "::error::Expected 307 to $PILOT_URL$to for $from, got $code -> $location"
+              exit 1
+            fi
+          }
+          check_redirect "/" "/learning"
+          check_redirect "/login" "/learning/login"
+
+          for path in "/learning" "/learning/login"; do
             code=$(curl -s -o /dev/null -w "%{http_code}" "$PILOT_URL$path")
             echo "$path -> HTTP $code"
             if [ "$code" != "200" ]; then
@@ -142,5 +162,5 @@ jobs:
             echo "| Triggered by | ${{ github.actor }} |"
             echo "| Timestamp (UTC) | $(date -u +'%Y-%m-%d %H:%M:%S') |"
             echo "| Deployment URL | ${{ steps.deploy.outputs.url }} |"
-            echo "| Pilot alias | https://iqraspace.vercel.app |"
+            echo "| Pilot alias | https://iqraspace.vercel.app/learning |"
           } >> "$GITHUB_STEP_SUMMARY"
