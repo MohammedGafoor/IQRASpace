@@ -29,7 +29,33 @@ const nextConfig: NextConfig = {
   // rewriting all of it to CSS classes would be a real redesign, out of
   // scope for a deployment pass. Inline *styles* (not scripts) are a much
   // lower-risk CSP relaxation than allowing inline/eval'd script.
+  //
+  // script-src ALSO needs 'unsafe-inline' — this was the real root cause
+  // of "nothing on the reader page is clickable" (zoom, translation
+  // checkboxes, bookmark, Go-to-Ayah — every control, in both `next dev`
+  // and the production build). The App Router inlines small bootstrap
+  // <script> tags with no `src` (RSC flight data via
+  // `self.__next_f.push(...)`, plus a dev-only debug-channel script) to
+  // hydrate the page — without them the client never attaches ANY event
+  // listeners. `script-src 'self'` with no 'unsafe-inline'/nonce/hash
+  // silently blocked those (confirmed via a real browser: a CSP
+  // violation console error plus, in prod, a hydration-failure React
+  // error). The alternative — nonce-based CSP — requires forcing every
+  // route to dynamic rendering (Next's own CSP guide,
+  // node_modules/next/dist/docs/01-app/02-guides/content-security-policy.md
+  // §"Static vs Dynamic Rendering with CSP"), which would break this
+  // app's 759 statically-generated routes. Next's own docs give
+  // `script-src 'self' 'unsafe-inline'` as the standard, supported
+  // pattern for exactly this case (static generation, no nonces) — same
+  // trade-off already accepted for style-src above. 'unsafe-eval' is
+  // dev-only, added per the same guide's dev note (React reconstructs
+  // server error stacks via eval in development only — production uses
+  // neither React nor Next's eval). Nothing here allows a *third-party*
+  // script origin — an XSS payload still can't load an external script,
+  // only run inline, which is the same ceiling 'unsafe-inline' always
+  // implies.
   async headers() {
+    const isDev = process.env.NODE_ENV === "development";
     return [
       {
         source: "/:path*",
@@ -42,7 +68,7 @@ const nextConfig: NextConfig = {
             key: "Content-Security-Policy",
             value: [
               "default-src 'self'",
-              "script-src 'self'",
+              `script-src 'self' 'unsafe-inline'${isDev ? " 'unsafe-eval'" : ""}`,
               "style-src 'self' 'unsafe-inline'",
               "img-src 'self' data:",
               "font-src 'self'",
