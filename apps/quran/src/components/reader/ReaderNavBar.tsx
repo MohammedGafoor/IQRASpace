@@ -1,4 +1,5 @@
 import Link from "next/link";
+import type { CSSProperties } from "react";
 
 type NavTarget = { href: string; label: string };
 
@@ -6,6 +7,13 @@ type Props = {
   previous: NavTarget | undefined;
   next: NavTarget | undefined;
   variant?: "top" | "bottom";
+  /** The Surah/Juz/Page currently open, shown centered between Previous
+      and Next — bold, in the strongest available text color so it reads
+      as the "you are here" anchor rather than another link (Previous/
+      Next stay in the teal link color either side of it). Only rendered
+      for the "top" variant — see the doc comment below for why "bottom"
+      is a plain repeat, not a full nav bar. */
+  current?: string;
 };
 
 /**
@@ -19,36 +27,81 @@ type Props = {
  * navigation (found by an axe-core scan, not by inspection — see
  * PRODUCT-ROADMAP.md's Phase 1 status); the bottom copy is a plain
  * repeat for convenience, not a second landmark to jump to.
+ *
+ * The "top" copy is sticky, stacked directly beneath SiteHeader (see
+ * that component's own sticky/--site-header-height comment) so it — and
+ * the current Surah/Juz/Page name — stay visible while scrolling.
+ * CSS Grid (1fr / auto / 1fr), not flex `justify-content: space-between`:
+ * with two differently-sized Previous/Next labels either side, `space-
+ * between` would put equal *gaps* around the current-name span rather
+ * than actually centering it — the grid's two equal 1fr tracks are what
+ * make the middle column land at the true visual center regardless of
+ * how long either label is.
  */
-export function ReaderNavBar({ previous, next, variant = "top" }: Props) {
+export function ReaderNavBar({ previous, next, variant = "top", current }: Props) {
   const Container = variant === "top" ? "nav" : "div";
+  const isTop = variant === "top";
 
   return (
     <Container
-      {...(variant === "top" ? { "aria-label": "Surah/Juz/Page navigation" } : {})}
-      style={{
-        display: "flex",
-        justifyContent: "space-between",
-        marginBottom: variant === "top" ? "1rem" : 0,
-        marginTop: variant === "bottom" ? "2rem" : 0,
-        paddingTop: variant === "bottom" ? "1rem" : 0,
-        borderTop: variant === "bottom" ? "1px solid var(--color-border)" : "none",
-      }}
+      {...(isTop ? { "aria-label": "Surah/Juz/Page navigation" } : {})}
+      style={isTop ? topNavStyle : bottomNavStyle}
     >
       {previous ? (
-        <Link href={previous.href} style={{ color: "var(--color-primary)" }}>
+        <Link href={previous.href} style={{ ...navLinkStyle, justifySelf: "start" }}>
           ← {previous.label}
         </Link>
       ) : (
         <span />
       )}
+      {isTop && (
+        <span style={currentLabelStyle}>{current}</span>
+      )}
       {next ? (
-        <Link href={next.href} style={{ color: "var(--color-primary)" }}>
+        <Link href={next.href} style={{ ...navLinkStyle, justifySelf: "end" }}>
           {next.label} →
         </Link>
       ) : (
-        <span />
+        <span style={{ justifySelf: "end" }} />
       )}
     </Container>
   );
 }
+
+const navLinkStyle: CSSProperties = {
+  color: "var(--color-primary)",
+  overflow: "hidden",
+  textOverflow: "ellipsis",
+  whiteSpace: "nowrap",
+};
+
+const currentLabelStyle: CSSProperties = {
+  fontWeight: 700,
+  color: "var(--color-text)",
+  textAlign: "center",
+  overflow: "hidden",
+  textOverflow: "ellipsis",
+  whiteSpace: "nowrap",
+};
+
+const topNavStyle: CSSProperties = {
+  position: "sticky",
+  top: "var(--site-header-height)",
+  zIndex: 40,
+  display: "grid",
+  gridTemplateColumns: "1fr auto 1fr",
+  alignItems: "center",
+  gap: "0.75rem",
+  background: "var(--color-surface)",
+  borderBottom: "1px solid var(--color-border)",
+  padding: "0.65rem 0.25rem",
+  marginBottom: "1.5rem",
+};
+
+const bottomNavStyle: CSSProperties = {
+  display: "flex",
+  justifyContent: "space-between",
+  marginTop: "2rem",
+  paddingTop: "1rem",
+  borderTop: "1px solid var(--color-border)",
+};

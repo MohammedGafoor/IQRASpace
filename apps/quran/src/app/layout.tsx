@@ -1,5 +1,5 @@
 import type { Metadata, Viewport } from "next";
-import { Amiri, Fraunces, Inter } from "next/font/google";
+import { Amiri, Amiri_Quran, Fraunces, Inter, Lateef, Noto_Naskh_Arabic, Scheherazade_New } from "next/font/google";
 import { ReaderPreferencesProvider } from "@/lib/preferences/ReaderPreferencesProvider";
 import { SiteHeader } from "@/components/layout/SiteHeader";
 import { SiteFooter } from "@/components/layout/SiteFooter";
@@ -8,12 +8,43 @@ import "./globals.css";
 
 // Amiri: the standard open-source Arabic typeface for Quranic-script UI
 // (used elsewhere in this repo too — see apps/web/src/app/globals.css).
+// Scheherazade New/Lateef/Noto Naskh Arabic: three further open Naskh
+// faces offered in Settings' Arabic font picker (lib/content/arabicFonts.ts)
+// alongside Amiri — all sustained-reading Quran faces, not display fonts.
 // Inter: a calm, legible Latin body face for UI chrome.
 // Fraunces: warm display serif matching the IqraSpace wordmark/logo's
 // lettering (see components/layout/SiteHeader.tsx) — used only for the
 // brand name and headings, never body text or Quran content.
 const amiri = Amiri({
   variable: "--font-amiri",
+  subsets: ["arabic"],
+  weight: ["400", "700"],
+  display: "swap",
+});
+
+const amiriQuran = Amiri_Quran({
+  variable: "--font-amiri-quran",
+  subsets: ["arabic"],
+  weight: ["400"],
+  display: "swap",
+});
+
+const scheherazade = Scheherazade_New({
+  variable: "--font-scheherazade",
+  subsets: ["arabic"],
+  weight: ["400", "700"],
+  display: "swap",
+});
+
+const lateef = Lateef({
+  variable: "--font-lateef",
+  subsets: ["arabic"],
+  weight: ["400", "700"],
+  display: "swap",
+});
+
+const notoNaskh = Noto_Naskh_Arabic({
+  variable: "--font-noto-naskh",
   subsets: ["arabic"],
   weight: ["400", "700"],
   display: "swap",
@@ -61,7 +92,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" dir="ltr">
-      <body className={`${amiri.variable} ${inter.variable} ${fraunces.variable}`}>
+      <body
+        className={`${amiri.variable} ${amiriQuran.variable} ${scheherazade.variable} ${lateef.variable} ${notoNaskh.variable} ${inter.variable} ${fraunces.variable}`}
+      >
         <ReaderPreferencesProvider>
           <a href="#main-content" className="skip-link">
             Skip to content

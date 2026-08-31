@@ -36,7 +36,16 @@
   --color-border: #e4ddcc;
   --color-focus-ring: #0f5c4f;
 
-  --font-arabic: var(--font-amiri), "Traditional Arabic", serif;
+  /* Arabic Quran-text font choices (lib/content/arabicFonts.ts). Amiri is
+     the default/fallback — data-arabic-font (set by
+     ReaderPreferencesProvider) overrides --font-arabic below when a
+     reader picks a different one in Settings. */
+  --font-arabic-amiri: var(--font-amiri), "Traditional Arabic", serif;
+  --font-arabic-amiriquran: var(--font-amiri-quran), "Traditional Arabic", serif;
+  --font-arabic-scheherazade: var(--font-scheherazade), "Traditional Arabic", serif;
+  --font-arabic-lateef: var(--font-lateef), "Traditional Arabic", serif;
+  --font-arabic-notonaskh: var(--font-noto-naskh), "Traditional Arabic", serif;
+  --font-arabic: var(--font-arabic-amiri);
   --font-body: var(--font-inter), system-ui, -apple-system, sans-serif;
   --font-display: var(--font-fraunces), Georgia, serif; /* wordmark + headings only */
 
@@ -47,6 +56,17 @@
   --reader-translation-scale: 1;
   --reader-line-spacing: 1;
   --reader-max-width: 42rem;
+
+  /* SiteHeader's actual rendered height, in px — it's sticky, and the
+     Surah/Juz/Page nav row stacks sticky directly below it (top: var(
+     --site-header-height)), so the nav row needs to know exactly how
+     tall the header is. The header's own content can wrap onto a second
+     line on narrow viewports (long nav + theme toggle + Settings), so
+     this can't be a fixed constant — SiteHeader measures itself with a
+     ResizeObserver and corrects this value after mount. This is the
+     pre-hydration/JS-disabled fallback, sized for the common one-line
+     case (see SiteHeader.tsx's own comment). */
+  --site-header-height: 3.5rem;
 
   color-scheme: light;
 }
@@ -91,6 +111,19 @@
 }
 :root[data-reading-width="wide"] {
   --reader-max-width: 52rem;
+}
+
+:root[data-arabic-font="amiriQuran"] {
+  --font-arabic: var(--font-arabic-amiriquran);
+}
+:root[data-arabic-font="scheherazade"] {
+  --font-arabic: var(--font-arabic-scheherazade);
+}
+:root[data-arabic-font="lateef"] {
+  --font-arabic: var(--font-arabic-lateef);
+}
+:root[data-arabic-font="notoNaskh"] {
+  --font-arabic: var(--font-arabic-notonaskh);
 }
 
 * {
@@ -143,4 +176,85 @@ body {
 }
 .skip-link:focus {
   top: 0.5rem;
+}
+
+/*
+ * Reading Settings panel (components/reader/ReaderSettingsPanel.tsx) —
+ * the modal/side-panel that replaced the old always-visible
+ * ReaderToolbar row, per Readme.md §11 "do not overcrowd the reading
+ * surface". Media-query-driven so the component itself stays a plain
+ * dialog with no breakpoint logic in JS:
+ *   - phone (<640px): sheet slides up from the bottom, capped height.
+ *   - tablet/desktop (>=640px): panel slides in from the right, fixed
+ *     width, full height — a companion to the reading surface rather
+ *     than a takeover of it (Prompt §7: desktop should not feel like a
+ *     squeezed-down mobile view).
+ */
+.settings-backdrop {
+  position: fixed;
+  inset: 0;
+  background: rgb(0 0 0 / 40%);
+  z-index: 90;
+  animation: settings-fade-in 0.15s ease;
+}
+
+.settings-panel {
+  position: fixed;
+  z-index: 91;
+  background: var(--color-surface);
+  color: var(--color-text);
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 -4px 24px rgb(0 0 0 / 15%);
+  left: 0;
+  right: 0;
+  bottom: 0;
+  max-height: 85vh;
+  border-radius: 1rem 1rem 0 0;
+  animation: settings-slide-up 0.2s ease;
+}
+
+@media (min-width: 640px) {
+  .settings-panel {
+    left: auto;
+    top: 0;
+    bottom: 0;
+    width: min(24rem, 100vw);
+    max-height: none;
+    border-radius: 0;
+    box-shadow: -4px 0 24px rgb(0 0 0 / 15%);
+    animation: settings-slide-in 0.2s ease;
+  }
+}
+
+.settings-panel-body {
+  flex: 1 1 auto;
+  min-height: 0;
+  overflow-y: auto;
+  padding: 0 1.25rem 1.25rem;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .settings-backdrop,
+  .settings-panel {
+    animation: none;
+  }
+}
+
+@keyframes settings-fade-in {
+  from {
+    opacity: 0;
+  }
+}
+
+@keyframes settings-slide-up {
+  from {
+    transform: translateY(100%);
+  }
+}
+
+@keyframes settings-slide-in {
+  from {
+    transform: translateX(100%);
+  }
 }

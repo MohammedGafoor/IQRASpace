@@ -15,7 +15,7 @@
   <meta property="og:title" content="IqraSpace">
   <meta property="og:description" content="A free, non-commercial ecosystem for learning the Quran. Read. Listen. Learn. Reflect.">
   <meta property="og:url" content="https://iqraspace.org/">
-  <meta property="og:image" content="https://iqraspace.org/favicon.png">
+  <meta property="og:image" content="https://iqraspace.org/logo.png">
   <meta name="twitter:card" content="summary">
 
   <style>
@@ -72,22 +72,16 @@
       text-align: center;
     }
 
-    .mark {
-      width: 6rem;
-      height: 6rem;
-      border-radius: 1.25rem;
-      margin: 0 auto 1.5rem;
-      display: block;
+    .logo-heading {
+      margin: 0;
     }
 
-    .wordmark {
-      font-size: clamp(2rem, 7vw, 2.75rem);
-      font-weight: 600;
-      letter-spacing: 0.04em;
-      margin: 0 0 0.5rem;
+    .logo {
+      width: min(280px, 70vw);
+      height: auto;
+      margin: 0 auto 1rem;
+      display: block;
     }
-    .wordmark .iqra { color: var(--color-primary); }
-    .wordmark .space { color: var(--color-accent-text); }
 
     .tagline {
       margin: 0 0 2rem;
@@ -140,9 +134,10 @@
 </head>
 <body>
   <main>
-    <img class="mark" src="/apple-touch-icon.png" alt="" width="96" height="96">
-    <h1 class="wordmark"><span class="iqra">IQRA</span><span class="space">SPACE</span></h1>
-    <p class="tagline">Read. Listen. Learn. Reflect. A free, non-commercial home for learning the Quran.</p>
+    <h1 class="logo-heading">
+      <img class="logo" src="/logo.png" width="1254" height="1254" alt="IqraSpace — Read. Listen. Learn. Reflect.">
+    </h1>
+    <p class="tagline">A free, non-commercial home for learning the Quran.</p>
 
     <div class="cta-group">
       <a class="cta" href="/quran">

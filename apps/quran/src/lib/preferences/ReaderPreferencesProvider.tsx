@@ -27,6 +27,11 @@ function applyToDocument(prefs: ReaderPreferences) {
     root.setAttribute("data-theme", prefs.theme);
   }
   root.setAttribute("data-reading-width", prefs.readingWidth);
+  if (prefs.arabicFont === "amiri") {
+    root.removeAttribute("data-arabic-font");
+  } else {
+    root.setAttribute("data-arabic-font", prefs.arabicFont);
+  }
   root.style.setProperty("--reader-arabic-scale", String(prefs.arabicFontScale));
   root.style.setProperty("--reader-translation-scale", String(prefs.translationFontScale));
   root.style.setProperty("--reader-line-spacing", String(prefs.lineSpacing));

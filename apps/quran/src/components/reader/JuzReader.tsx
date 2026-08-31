@@ -1,7 +1,6 @@
 "use client";
 
 import { useReaderPreferences } from "@/lib/preferences/ReaderPreferencesProvider";
-import { ReaderToolbar } from "./ReaderToolbar";
 import { ReaderNavBar } from "./ReaderNavBar";
 import { AyahList } from "./AyahList";
 import type { VerseWithSurah } from "@/lib/content/types";
@@ -28,7 +27,7 @@ export function JuzReader({ juzNumber, verses, previous, next }: Props) {
 
   return (
     <div style={{ maxWidth: "var(--reader-max-width)", margin: "0 auto", padding: "1.5rem 1rem" }}>
-      <ReaderNavBar previous={navPrevious} next={navNext} variant="top" />
+      <ReaderNavBar previous={navPrevious} next={navNext} variant="top" current={`Juz ${juzNumber}`} />
 
       <header style={{ textAlign: "center", marginBottom: "2rem" }}>
         <p style={{ color: "var(--color-text-muted)", margin: 0, fontSize: "0.85rem" }}>
@@ -36,8 +35,6 @@ export function JuzReader({ juzNumber, verses, previous, next }: Props) {
         </p>
         <h1 style={{ margin: "0.25rem 0", color: "var(--color-primary)" }}>Juz {juzNumber}</h1>
       </header>
-
-      <ReaderToolbar />
 
       <AyahList
         verses={verses}

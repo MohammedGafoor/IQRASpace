@@ -3,6 +3,7 @@ import { Fraunces, Inter, Amiri } from "next/font/google";
 import "./globals.css";
 import { Providers } from "@/components/Providers";
 import { THEME_INIT_SCRIPT } from "@/lib/theme";
+import { canonicalUrl } from "@/lib/site";
 
 const fraunces = Fraunces({
   variable: "--font-fraunces",
@@ -22,6 +23,10 @@ const amiri = Amiri({
 });
 
 export const metadata: Metadata = {
+  // Resolves relative OG/Twitter image URLs (opengraph-image.tsx) against
+  // the real production origin instead of defaulting to localhost:3000 —
+  // same fix apps/quran's own layout.tsx applied first.
+  metadataBase: new URL(canonicalUrl("/")),
   title: "IQRASpace",
   description: "Online Quran learning management for a solo tutor and their students.",
 };

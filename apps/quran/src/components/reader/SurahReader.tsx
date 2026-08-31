@@ -2,7 +2,6 @@
 
 import { useMemo } from "react";
 import { useReaderPreferences } from "@/lib/preferences/ReaderPreferencesProvider";
-import { ReaderToolbar } from "./ReaderToolbar";
 import { ReaderNavBar } from "./ReaderNavBar";
 import { AyahList } from "./AyahList";
 import { JumpToAyah } from "./JumpToAyah";
@@ -34,7 +33,7 @@ export function SurahReader({ chapter, verses, previous, next }: Props) {
 
   return (
     <div style={{ maxWidth: "var(--reader-max-width)", margin: "0 auto", padding: "1.5rem 1rem" }}>
-      <ReaderNavBar previous={navPrevious} next={navNext} variant="top" />
+      <ReaderNavBar previous={navPrevious} next={navNext} variant="top" current={chapter.name_simple} />
 
       <header style={{ textAlign: "center", marginBottom: "2rem" }}>
         <p style={{ color: "var(--color-text-muted)", margin: 0, fontSize: "0.85rem" }}>
@@ -73,17 +72,7 @@ export function SurahReader({ chapter, verses, previous, next }: Props) {
         </p>
       )}
 
-      <div
-        style={{
-          display: "flex",
-          flexWrap: "wrap",
-          justifyContent: "space-between",
-          alignItems: "center",
-          gap: "0.75rem",
-          marginBottom: "0.75rem",
-        }}
-      >
-        <ReaderToolbar />
+      <div style={{ display: "flex", justifyContent: "flex-end", marginBottom: "0.75rem" }}>
         <JumpToAyah surahId={chapter.id} versesCount={chapter.verses_count} />
       </div>
 

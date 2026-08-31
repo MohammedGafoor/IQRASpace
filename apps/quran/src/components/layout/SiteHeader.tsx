@@ -1,9 +1,18 @@
 "use client";
 
 import Link from "next/link";
+import { usePathname } from "next/navigation";
+import { useEffect, useRef } from "react";
 import { useReaderPreferences } from "@/lib/preferences/ReaderPreferencesProvider";
+import { ReaderSettingsPanel } from "@/components/reader/ReaderSettingsPanel";
 import { BrandWordmark } from "./BrandWordmark";
 import type { Theme } from "@/lib/preferences/types";
+
+// Matches /surah/1, /juz/5, /page/23 — an open Surah/Juz/Page — but not
+// the bare list pages (/surah, /juz, /page), which show no Ayah text and
+// so have nothing for Settings' font/translation/bookmark controls to
+// visibly affect.
+const READER_PAGE_PATTERN = /^\/(surah|juz|page)\/[^/]+/;
 
 const THEME_CYCLE: Record<Theme, Theme> = {
   system: "light",
@@ -21,13 +30,44 @@ const THEME_LABEL: Record<Theme, string> = {
  * Persistent, minimal header (Readme.md §11 — "do not overcrowd").
  * Reading/navigation never requires an account, so there is deliberately
  * no sign-in control here yet — that's Phase 5.
+ *
+ * Sticky (not `position: fixed`) so it stays visible while scrolling: a
+ * sticky element still reserves its own space in normal document flow,
+ * so nothing below it needs manual top-padding to avoid being covered —
+ * `fixed` would need that compensation recalculated every time this
+ * header's height changes (e.g. its nav wrapping onto a second line on a
+ * narrow viewport), which sticky avoids entirely. The Surah/Juz/Page nav
+ * row (ReaderNavBar's "top" variant) stacks sticky directly beneath this
+ * one, offset by --site-header-height (measured below).
  */
 export function SiteHeader() {
   const { preferences, setPreference } = useReaderPreferences();
+  const pathname = usePathname();
+  const headerRef = useRef<HTMLElement>(null);
+  const isReaderPage = READER_PAGE_PATTERN.test(pathname ?? "");
+
+  // Keeps --site-header-height (globals.css) in sync with this header's
+  // REAL rendered height, not a guessed constant — it can change (its nav
+  // row wrapping at narrow widths, a browser font-size setting, etc.), and
+  // ReaderNavBar's sticky "top" offset would drift out of sync with
+  // whatever guess was hardcoded otherwise.
+  useEffect(() => {
+    const el = headerRef.current;
+    if (!el) return;
+    const observer = new ResizeObserver(([entry]) => {
+      document.documentElement.style.setProperty("--site-header-height", `${entry.contentRect.height}px`);
+    });
+    observer.observe(el);
+    return () => observer.disconnect();
+  }, []);
 
   return (
     <header
+      ref={headerRef}
       style={{
+        position: "sticky",
+        top: 0,
+        zIndex: 50,
         borderBottom: "1px solid var(--color-border)",
         background: "var(--color-surface)",
       }}
@@ -73,6 +113,11 @@ export function SiteHeader() {
           >
             {THEME_LABEL[preferences.theme]}
           </button>
+          {/* Only on an open Surah/Juz/Page — see READER_PAGE_PATTERN.
+              Was previously duplicated inline on each reader page; now
+              one place, reachable without scrolling back up past the
+              Ayah list. */}
+          {isReaderPage && <ReaderSettingsPanel />}
         </nav>
       </div>
     </header>

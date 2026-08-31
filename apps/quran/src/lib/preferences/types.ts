@@ -1,4 +1,5 @@
 import type { TranslationLanguageId } from "@/lib/content/translations";
+import type { ArabicFontId } from "@/lib/content/arabicFonts";
 
 /**
  * Reader preferences (Readme.md §10/§11) — deliberately the same shape as
@@ -11,6 +12,10 @@ export type ReadingWidth = "narrow" | "comfortable" | "wide";
 
 export type ReaderPreferences = {
   theme: Theme;
+  /** Which Arabic Quran typeface to render Ayahs in. Defaults to "amiri" —
+      the only font this app shipped before Settings gained a font picker,
+      so existing readers see no change until they pick something else. */
+  arabicFont: ArabicFontId;
   arabicFontScale: number;
   translationFontScale: number;
   lineSpacing: number;
@@ -29,6 +34,7 @@ export type ReaderPreferences = {
 
 export const DEFAULT_PREFERENCES: ReaderPreferences = {
   theme: "system",
+  arabicFont: "amiri",
   arabicFontScale: 1,
   translationFontScale: 1,
   lineSpacing: 1,

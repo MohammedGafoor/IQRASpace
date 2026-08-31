@@ -8,6 +8,12 @@ import { Avatar } from "@/components/ui/Avatar";
 import { isAdminRole } from "@/lib/roles";
 import { ADMIN_NAV_ITEMS, NAV_ITEMS } from "./navConfig";
 
+// The brand icon is served from app/icon.tsx, a generated route under
+// this app's own basePath — not auto-prefixed the way next/link/next/image
+// prefix their own src, so it needs the same explicit client-exposed
+// NEXT_PUBLIC_BASE_PATH prefix PdfViewer.tsx uses for its public/ assets.
+const BASE_PATH = process.env.NEXT_PUBLIC_BASE_PATH ?? "";
+
 export function Sidebar({ open, onClose }: { open: boolean; onClose: () => void }) {
   const pathname = usePathname();
   const router = useRouter();
@@ -42,10 +48,8 @@ export function Sidebar({ open, onClose }: { open: boolean; onClose: () => void 
         </button>
 
         <div className="flex items-center gap-3 border-b border-white/10 px-5 py-5">
-          <div className="relative h-8 w-8 shrink-0">
-            <span className="absolute inset-0 rounded-[6px] border-2 border-accent" />
-            <span className="absolute inset-0 rotate-45 rounded-[6px] border-2 border-accent" />
-          </div>
+          {/* eslint-disable-next-line @next/next/no-img-element -- served from app/icon.tsx (a generated route, not a static public/ file), so next/image's static-import optimizations don't apply */}
+          <img src={`${BASE_PATH}/icon`} alt="" width={32} height={32} className="h-8 w-8 shrink-0 rounded-[6px]" />
           <div>
             <b className="block font-display text-[1.05rem] font-semibold text-white">IQRASpace</b>
             <small className="block text-[0.72rem] tracking-wide text-[#afc9c2]">Online teaching workspace</small>
