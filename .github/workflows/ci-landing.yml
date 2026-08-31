@@ -85,13 +85,18 @@ jobs:
           echo "Deployed: $url"
           echo "url=$url" >> "$GITHUB_OUTPUT"
 
-      # Same Deployment Protection caveat as ci-quran.yml — switch to the
-      # stable <project>.vercel.app alias if this team has it on too.
+      # Checks the STABLE alias, not steps.deploy.outputs.url: confirmed
+      # (first real CI run, 2026-08-31) that this team's Deployment
+      # Protection (SSO) redirects every ephemeral per-deployment URL
+      # (302), same as ci-quran.yml and apps/web's ci.yml already
+      # document — the deploy itself succeeds, only the naive health
+      # check against the ephemeral URL fails.
       - name: Health check
         run: |
           set -e
+          ALIAS_URL="https://iqraspace-landing.vercel.app"
           for path in "/" "/robots.txt" "/sitemap.xml"; do
-            code=$(curl -s -o /dev/null -w "%{http_code}" "${{ steps.deploy.outputs.url }}$path")
+            code=$(curl -s -o /dev/null -w "%{http_code}" "$ALIAS_URL$path")
             echo "$path -> HTTP $code"
             if [ "$code" != "200" ]; then
               echo "::error::Health check failed for $path (HTTP $code)"
