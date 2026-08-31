@@ -19,6 +19,21 @@ const nextConfig: NextConfig = {
   // automatically once set.
   basePath: process.env.NEXT_BASE_PATH || undefined,
 
+  // Exposes the same basePath value to client-bundled code as
+  // NEXT_PUBLIC_BASE_PATH, inlined at build time — needed by
+  // BrandWordmark.tsx, which renders in SiteHeader (a Client Component)
+  // and can't rely on next/image's automatic basePath handling for its
+  // icon (see that file's comment: next/image does NOT prefix the
+  // optimizer's internal `url` query param with basePath for a
+  // self-referencing *generated* route like app/icon.tsx — confirmed
+  // live in production, 404s — even though it happens to work for a
+  // *static* public/ asset). Using next.config.ts's `env` field (not a
+  // second Vercel dashboard env var) means this can never drift out of
+  // sync with NEXT_BASE_PATH above — one source of truth either way.
+  env: {
+    NEXT_PUBLIC_BASE_PATH: process.env.NEXT_BASE_PATH || "",
+  },
+
   // Security headers (objective: "Missing appropriate security headers").
   // Source paths are automatically prefixed with basePath by Next itself,
   // same as rewrites/redirects, so "/:path*" already covers "/quran/*" in

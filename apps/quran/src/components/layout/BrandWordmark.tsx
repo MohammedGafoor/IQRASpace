@@ -1,4 +1,3 @@
-import Image from "next/image";
 import type { CSSProperties } from "react";
 
 type Props = {
@@ -8,6 +7,18 @@ type Props = {
       wordmark alone is the brand, not this specific product. */
   showProductLabel?: boolean;
 };
+
+// app/icon.tsx is a *generated* route, not a static public/ file —
+// confirmed live in production that next/image's automatic basePath
+// handling does NOT prefix the image optimizer's internal `url` query
+// param for a self-referencing generated route (it happens to work for
+// a static asset like public/brand/logo.png, but 404s for this one), so
+// a plain <img> with this explicitly-prefixed src is used instead.
+// NEXT_PUBLIC_BASE_PATH is inlined at build time via next.config.ts's
+// `env` field — works in both a Server Component (not-found.tsx) and a
+// Client Component (SiteHeader) context, unlike the server-only
+// NEXT_BASE_PATH/lib/site.ts's basePath().
+const BASE_PATH = process.env.NEXT_PUBLIC_BASE_PATH ?? "";
 
 /**
  * The icon mark (from app/icon.tsx — the same generated crop of
@@ -29,11 +40,14 @@ export function BrandWordmark({ size = "sm", showProductLabel = true }: Props) {
 
   return (
     <span style={{ display: "inline-flex", alignItems: "center", gap: "0.5rem", flexWrap: "wrap" }}>
-      {/* next/image (not a plain <img>) so basePath is applied
-          automatically in both server (not-found.tsx) and client
-          (SiteHeader) contexts — see app/icon.tsx's own size export for
-          the 512x512 source this is scaled down from. */}
-      <Image src="/icon" alt="" width={512} height={512} priority style={{ width: iconSize, height: iconSize, flexShrink: 0 }} />
+      {/* eslint-disable-next-line @next/next/no-img-element -- see the BASE_PATH comment above for why next/image isn't used here */}
+      <img
+        src={`${BASE_PATH}/icon`}
+        alt=""
+        width={512}
+        height={512}
+        style={{ width: iconSize, height: iconSize, flexShrink: 0 }}
+      />
       <span style={{ display: "inline-flex", alignItems: "baseline", gap: "0.4rem", flexWrap: "wrap" }}>
         <span
           style={{
