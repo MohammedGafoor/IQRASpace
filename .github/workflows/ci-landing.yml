@@ -23,6 +23,9 @@ on:
     paths:
       - "apps/landing/**"
       - ".github/workflows/ci-landing.yml"
+  # Lets a maintainer re-run validate+deploy from the Actions tab without
+  # needing an empty/no-op commit.
+  workflow_dispatch:
 
 concurrency:
   group: ${{ github.workflow }}-${{ github.ref }}

@@ -24,6 +24,10 @@ on:
     paths:
       - "apps/quran/**"
       - ".github/workflows/ci-quran.yml"
+  # Lets a maintainer re-run validate+deploy from the Actions tab without
+  # needing an empty/no-op commit — e.g. to redeploy after a Vercel-side
+  # env var change with no code change.
+  workflow_dispatch:
 
 concurrency:
   group: ${{ github.workflow }}-${{ github.ref }}
