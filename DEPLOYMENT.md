@@ -7,13 +7,13 @@ Status: **pilot** (no custom domain yet — temporary Vercel URL only).
 | | |
 |---|---|
 | Framework | Next.js 16.3.3 (App Router), React 19, TypeScript, Tailwind v4 |
-| App location | `apps/web/` (monorepo root only holds the Supabase CLI devDependency) |
+| App location | `apps/learning/` (monorepo root only holds the Supabase CLI devDependency) |
 | Package manager | npm |
-| Node.js | `>=20.9.0` (pinned in `apps/web/package.json` `engines`) |
-| Build command | `npm run build` (repo root) → delegates to `apps/web` → `next build` |
+| Node.js | `>=20.9.0` (pinned in `apps/learning/package.json` `engines`) |
+| Build command | `npm run build` (repo root) → delegates to `apps/learning` → `next build` |
 | Start command | `npm run start` (repo root) → `next start` |
-| Lint | `npm run lint` → `apps/web` → `eslint` |
-| Type check | `npm run typecheck` → `apps/web` → `tsc --noEmit` |
+| Lint | `npm run lint` → `apps/learning` → `eslint` |
+| Type check | `npm run typecheck` → `apps/learning` → `tsc --noEmit` |
 | Tests | none configured yet (`npm run test --if-present` is a no-op) |
 | Repository | https://github.com/MohammedGafoor/IQRASpace |
 | Deployment branch | `main` |
@@ -35,7 +35,7 @@ Status: **pilot** (no custom domain yet — temporary Vercel URL only).
 
 ## Environment Variables
 
-Local dev (`apps/web/.env.local`, gitignored) is documented end-to-end in `apps/web/.env.local.example` — every variable's purpose, whether it's browser- or server-only, and which are optional. Summary of what's actually live where:
+Local dev (`apps/learning/.env.local`, gitignored) is documented end-to-end in `apps/learning/.env.local.example` — every variable's purpose, whether it's browser- or server-only, and which are optional. Summary of what's actually live where:
 
 | Variable | Client-exposed? | Local dev | Vercel (Production + Preview) | Notes |
 |---|---|---|---|---|
@@ -43,7 +43,7 @@ Local dev (`apps/web/.env.local`, gitignored) is documented end-to-end in `apps/
 | `NEXT_PUBLIC_SUPABASE_ANON_KEY` | Yes | ✅ | ✅ | Publishable key; safe to expose (RLS is the real access control) |
 | `NEXT_PUBLIC_GOOGLE_CLIENT_ID` | Yes | not set | not set | Optional feature flag — Google Drive tab stays "not configured" while unset, same as local |
 | `NEXT_PUBLIC_GOOGLE_REDIRECT_URI` | Yes | not set | not set | Same as above |
-| `SUPABASE_SERVICE_ROLE_KEY` | **No — never** | ✅ (local scripts only) | **not set** | Only consumed by local one-off scripts (`npm run seed:admins`) and Edge Functions (which get it automatically from the Supabase platform). The deployed Next.js app itself never reads it — confirmed, nothing under `apps/web/src` references it. |
+| `SUPABASE_SERVICE_ROLE_KEY` | **No — never** | ✅ (local scripts only) | **not set** | Only consumed by local one-off scripts (`npm run seed:admins`) and Edge Functions (which get it automatically from the Supabase platform). The deployed Next.js app itself never reads it — confirmed, nothing under `apps/learning/src` references it. |
 | `SUPABASE_ACCESS_TOKEN`, `SUPABASE_DB_*`, `DATABASE_URL` | No | ✅ (CLI/local only) | not set | Supabase CLI / direct-Postgres access only, never read by app code |
 | `ADMIN_*` / `SUPER_ADMIN_*` / `DEMO_*` | No | ✅ (seed script only) | not set | Consumed only by `npm run seed:admins`, run locally |
 
@@ -82,7 +82,7 @@ A pull request against `main` runs only the `validate` job (lint/typecheck/build
 
 ### One-time setup already done
 
-- Vercel project `shaga2/iqraspace` created and linked to this codebase (`apps/web` as the app root).
+- Vercel project `shaga2/iqraspace` created and linked to this codebase (`apps/learning` as the app root).
 - `NEXT_PUBLIC_SUPABASE_URL` / `NEXT_PUBLIC_SUPABASE_ANON_KEY` set in Vercel (Production + Preview environments).
 - Supabase Auth `site_url`/`additional_redirect_urls` include the Vercel URL (see above).
 
@@ -95,14 +95,14 @@ The workflow needs these five **GitHub Actions secrets** (repo → Settings → 
 | `VERCEL_TOKEN` | The Vercel API token already used to set this deployment up (vercel.com/account/tokens) |
 | `VERCEL_ORG_ID` | `team_FXkdH5PjVawG5qfuheLlST0K` |
 | `VERCEL_PROJECT_ID` | `prj_YsuXnkbPqGKZw8cmv1waXAkF3vzs` |
-| `NEXT_PUBLIC_SUPABASE_URL` | Same value as `apps/web/.env.local` — not secret, just kept as a GitHub Secret for consistency |
-| `NEXT_PUBLIC_SUPABASE_ANON_KEY` | Same value as `apps/web/.env.local` — the publishable key, not secret |
+| `NEXT_PUBLIC_SUPABASE_URL` | Same value as `apps/learning/.env.local` — not secret, just kept as a GitHub Secret for consistency |
+| `NEXT_PUBLIC_SUPABASE_ANON_KEY` | Same value as `apps/learning/.env.local` — the publishable key, not secret |
 
 **The pipeline cannot deploy until these are added.** Until then, the `validate` job still runs and gates PRs correctly; only the `deploy` job is blocked.
 
 ### Also required: connect GitHub to Vercel (manual, one-time)
 
-Vercel refused to auto-link the GitHub repo during setup with: *"You need to add a Login Connection to your GitHub account first."* This doesn't block the GitHub Actions pipeline above (it deploys via the Vercel CLI + token, independent of Vercel's own Git integration) — but if you'd also like Vercel's dashboard to show commit/PR context on deployments, connect GitHub once at vercel.com/account/login-connections, then optionally run `vercel git connect` from `apps/web`.
+Vercel refused to auto-link the GitHub repo during setup with: *"You need to add a Login Connection to your GitHub account first."* This doesn't block the GitHub Actions pipeline above (it deploys via the Vercel CLI + token, independent of Vercel's own Git integration) — but if you'd also like Vercel's dashboard to show commit/PR context on deployments, connect GitHub once at vercel.com/account/login-connections, then optionally run `vercel git connect` from `apps/learning`.
 
 ### Everyday workflow (after the one-time setup above)
 
@@ -130,7 +130,7 @@ Environment secrets (`VERCEL_TOKEN`, `VERCEL_ORG_ID`, `VERCEL_PROJECT_ID`, `NEXT
 ### Troubleshooting a failed run
 
 1. Open the failed GitHub Actions run → the red ✕ step tells you which stage failed (lint / typecheck / test / build / Vercel build / deploy / health check).
-2. `validate` failing means the code itself has a problem — fix it locally (`npm run lint`, `npm run typecheck`, `npm run build` inside `apps/web` reproduce the same checks) and push again.
+2. `validate` failing means the code itself has a problem — fix it locally (`npm run lint`, `npm run typecheck`, `npm run build` inside `apps/learning` reproduce the same checks) and push again.
 3. `deploy` failing on `vercel pull`/`vercel build`/`vercel deploy` almost always means a missing/incorrect secret (`VERCEL_TOKEN`/`VERCEL_ORG_ID`/`VERCEL_PROJECT_ID`) — re-check the GitHub Secrets above.
 4. Health check failing means the app built and deployed but didn't serve `200` on `/` or `/login` — check the Vercel deployment's own Runtime Logs (dashboard → Deployments → the deployment → Logs) for the actual server error.
 

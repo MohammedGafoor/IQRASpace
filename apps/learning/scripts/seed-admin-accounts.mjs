@@ -6,7 +6,7 @@
 // deliberate, so the only way in is a trusted, service_role-authenticated
 // path run locally by a developer, never from the browser.
 //
-// Usage (from apps/web):
+// Usage (from apps/learning):
 //   npm run seed:admins
 // (runs `node --env-file=.env.local scripts/seed-admin-accounts.mjs` —
 // requires ADMIN_EMAIL/ADMIN_PASSWORD, SUPER_ADMIN_EMAIL/SUPER_ADMIN_PASSWORD

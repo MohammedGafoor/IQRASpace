@@ -5,7 +5,7 @@
 // since every step is keyed by fixed IDs and is idempotent (delete-if-exists,
 // upsert-by-id).
 //
-// Usage (from apps/web): node --env-file=.env.local scripts/cleanup-users.mjs
+// Usage (from apps/learning): node --env-file=.env.local scripts/cleanup-users.mjs
 //
 // What survives, and why (decided with the project owner after inventorying
 // the live DB — see docs/PROGRESS.md's Phase 3 entry for the full reasoning):

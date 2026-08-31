@@ -8,7 +8,7 @@ Build status and phase-by-phase notes: [`docs/PROGRESS.md`](./docs/PROGRESS.md).
 
 ## Stack
 
-- **Frontend:** Next.js 16 (App Router, TypeScript, Tailwind CSS) — `apps/web`
+- **Frontend:** Next.js 16 (App Router, TypeScript, Tailwind CSS) — `apps/learning`
 - **Backend:** Supabase (hosted free tier) — Postgres, Auth, Realtime, Storage, Edge Functions
 - **PDF rendering:** PDF.js (client-side)
 - **Hosting (planned):** Cloudflare Pages
@@ -23,7 +23,7 @@ Build status and phase-by-phase notes: [`docs/PROGRESS.md`](./docs/PROGRESS.md).
 1. **Install dependencies:**
    ```bash
    npm install               # root — installs the Supabase CLI (devDependency)
-   npm install --prefix apps/web
+   npm install --prefix apps/learning
    ```
 
 2. **Create a Supabase project:**
@@ -32,8 +32,8 @@ Build status and phase-by-phase notes: [`docs/PROGRESS.md`](./docs/PROGRESS.md).
 
 3. **Configure the frontend env:**
    ```bash
-   cp apps/web/.env.local.example apps/web/.env.local
-   # then edit apps/web/.env.local with the URL + anon key from step 2
+   cp apps/learning/.env.local.example apps/learning/.env.local
+   # then edit apps/learning/.env.local with the URL + anon key from step 2
    ```
 
 4. **Apply the database schema:**
@@ -46,8 +46,8 @@ Build status and phase-by-phase notes: [`docs/PROGRESS.md`](./docs/PROGRESS.md).
 
 5. **Run the app:**
    ```bash
-   npm run dev --prefix apps/web
-   # or: cd apps/web && npm run dev
+   npm run dev --prefix apps/learning
+   # or: cd apps/learning && npm run dev
    ```
    Visit http://localhost:3000.
 
@@ -55,7 +55,7 @@ Build status and phase-by-phase notes: [`docs/PROGRESS.md`](./docs/PROGRESS.md).
 
 ```
 IqraSpace/
-├─ apps/web/            # Next.js app (App Router)
+├─ apps/learning/            # Next.js app (App Router)
 │  ├─ src/app/           # (public): /, /login, /signup — (app): dashboard, classes, lessons,
 │  │                     #   students, materials, schedule, attendance, progress, notes,
 │  │                     #   meet, notifications, settings, teach/[lessonId] — share/[lessonId]

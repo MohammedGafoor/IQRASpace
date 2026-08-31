@@ -12,7 +12,7 @@ phase. Phase numbers follow architecture §20.
 - Docker was **not** installed — see decision below.
 
 **Scaffolding**
-- `apps/web`: Next.js 16 app, TypeScript, Tailwind CSS v4, ESLint, App Router,
+- `apps/learning`: Next.js 16 app, TypeScript, Tailwind CSS v4, ESLint, App Router,
   `src/` layout, `@/*` import alias.
 - Route skeleton created per architecture §19: `/dashboard`, `/classes`,
   `/lessons`, `/teach/[lessonId]`, `/share/[lessonId]` — each a placeholder
@@ -25,7 +25,7 @@ phase. Phase numbers follow architecture §20.
   and per-lesson channel naming helper, ready for the Highlighting + Realtime
   phase.
 - `src/components/pdf/`, `src/components/dashboard/` — empty, reserved per §19.
-- Installed `@supabase/supabase-js` and `pdfjs-dist` in `apps/web`.
+- Installed `@supabase/supabase-js` and `pdfjs-dist` in `apps/learning`.
 - Root `package.json` holds the Supabase CLI as a devDependency (Supabase no
   longer supports a global npm install; a local devDependency + `npx supabase`
   is their supported path on Windows without Scoop).
@@ -76,7 +76,7 @@ phase. Phase numbers follow architecture §20.
   `anon`/`service_role` JWTs the architecture doc predates — functionally a
   drop-in replacement for the anon key in `supabase-js`'s `createClient`, no
   code changes needed.
-- `apps/web/.env.local` created (gitignored) with
+- `apps/learning/.env.local` created (gitignored) with
   `NEXT_PUBLIC_SUPABASE_URL` / `NEXT_PUBLIC_SUPABASE_ANON_KEY`.
 - User also provided a Supabase personal access token, used to
   `supabase link --project-ref pqlrexhtwgleokyiamie` and
@@ -131,7 +131,7 @@ class creation, `add_student_to_class` RPC, lesson creation, and student
 read-visibility into their tutor's class/lesson — all confirmed working
 after the recursion fix.
 
-**Frontend** (`apps/web`)
+**Frontend** (`apps/learning`)
 - `src/lib/authContext.tsx` — `AuthProvider`/`useAuth`: tracks the Supabase
   session and the matching `public.users` profile row.
 - `src/components/{Providers,NavBar,RequireAuth}.tsx` — app-wide auth wiring,
@@ -168,7 +168,7 @@ after the recursion fix.
   "()" for name/role while the profile row loads).
 
 **Outstanding / notes for the user**
-- A `supabase_service_token` line appeared in `apps/web/.env.local` (not
+- A `supabase_service_token` line appeared in `apps/learning/.env.local` (not
   something this session added) — it's the same personal access token used
   for the CLI, not a service_role key, and nothing currently reads that
   variable. Flagged for the user rather than removed or acted on silently.
@@ -210,7 +210,7 @@ placeholders below; see also README "Notable deviations".
   `{tutorId}/` folder; read open to any authenticated user — documented
   tradeoff, these are lesson handouts, not personal data).
 
-**Design system** — `apps/web/src/app/globals.css` rewritten from the stock
+**Design system** — `apps/learning/src/app/globals.css` rewritten from the stock
 create-next-app template to a full Islamic-inspired token set: warm ivory
 paper, deep emerald/teal primary, warm gold accent, Fraunces (display) +
 Inter (body) + Amiri (Qur'an Arabic) via `next/font/google`, a real
@@ -545,13 +545,13 @@ separate table:
   `lessons_select_as_admin` — read-only visibility for `is_admin()`.
 
 **Provisioning — no admin account is reachable via public signup, by
-design:** `apps/web/scripts/seed-admin-accounts.mjs` (`npm run seed:admins`)
+design:** `apps/learning/scripts/seed-admin-accounts.mjs` (`npm run seed:admins`)
 reads `ADMIN_EMAIL`/`ADMIN_PASSWORD`/`SUPER_ADMIN_EMAIL`/
 `SUPER_ADMIN_PASSWORD` + `SUPABASE_SERVICE_ROLE_KEY` from `.env.local` and
 creates/promotes those two accounts directly via the Auth Admin API —
 idempotent (safe to re-run after editing `.env.local`).
 
-**Frontend** (`apps/web`): `Role` type extended (`src/lib/types.ts`);
+**Frontend** (`apps/learning`): `Role` type extended (`src/lib/types.ts`);
 `src/lib/roles.ts` centralizes the admin/super_admin check used everywhere
 (Sidebar, layout redirect, both admin pages) rather than repeating
 `role === "admin" || role === "super_admin"`. New `(app)/admin` route
@@ -644,7 +644,7 @@ on `npm run seed:admins`, preserving the boundary `0017` already drew.
 Deactivate/reactivate uses Auth's native ban (`ban_duration`) rather than a
 new `active` column. A caller can't deactivate/delete their own account.
 
-**Frontend** (`apps/web`):
+**Frontend** (`apps/learning`):
 - `(app)/layout.tsx`'s `AdminRedirect` removed outright — it was bouncing
   admin off every route except `/admin/*` and `/settings`, which directly
   contradicted "admin manages everything." Admin now reaches the full nav.
@@ -765,7 +765,7 @@ repurposed as a generic "Demo Student" and enrolled into Shaheen's class.
   action for exactly that case, not just the cleanup script. Fixed in
   `0020_fix_lessons_tutor_cascade.sql`.
 
-**One-off script** (`apps/web/scripts/cleanup-users.mjs`, run once against
+**One-off script** (`apps/learning/scripts/cleanup-users.mjs`, run once against
 the hosted project, not meant to be re-run routinely): moved
 `Noorani_Qaida.pdf` (+ an unrelated leftover `Holy-Quran-Para-1.pdf` test
 file) from the old demo tutor's Storage folder to Shaheen's, re-pointed all
