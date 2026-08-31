@@ -19,6 +19,12 @@ export type ReaderPreferences = {
       default — the Quran Arabic text is the thing being read; translation
       is opt-in, not shown until a reader explicitly turns one on. */
   enabledTranslations: TranslationLanguageId[];
+  /** Whether the per-ayah bookmark star is shown at all. Defaults to true
+      (unlike enabledTranslations) — bookmarking is an existing, no-account
+      feature (Readme.md §15) already visible on every ayah; this toggle
+      is for readers who want to hide it for a cleaner look, not an
+      opt-in reveal like translations. */
+  showBookmarks: boolean;
 };
 
 export const DEFAULT_PREFERENCES: ReaderPreferences = {
@@ -28,6 +34,7 @@ export const DEFAULT_PREFERENCES: ReaderPreferences = {
   lineSpacing: 1,
   readingWidth: "comfortable",
   enabledTranslations: [],
+  showBookmarks: true,
 };
 
 export const FONT_SCALE_MIN = 0.75;

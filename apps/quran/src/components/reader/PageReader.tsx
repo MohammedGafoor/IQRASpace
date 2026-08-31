@@ -40,6 +40,7 @@ export function PageReader({ pageNumber, verses, previous, next }: Props) {
       <AyahList
         verses={verses}
         enabledTranslations={preferences.enabledTranslations}
+        showBookmarks={preferences.showBookmarks}
         showSurahHeadings
         ariaLabel={`Ayahs on page ${pageNumber}`}
       />

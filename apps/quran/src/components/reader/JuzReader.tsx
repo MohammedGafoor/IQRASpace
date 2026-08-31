@@ -42,6 +42,7 @@ export function JuzReader({ juzNumber, verses, previous, next }: Props) {
       <AyahList
         verses={verses}
         enabledTranslations={preferences.enabledTranslations}
+        showBookmarks={preferences.showBookmarks}
         showSurahHeadings
         ariaLabel={`Ayahs of Juz ${juzNumber}`}
       />

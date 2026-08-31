@@ -107,6 +107,15 @@ export function ReaderToolbar() {
           </label>
         ))}
       </div>
+
+      <label style={{ display: "flex", alignItems: "center", gap: "0.4rem" }}>
+        <input
+          type="checkbox"
+          checked={preferences.showBookmarks}
+          onChange={(e) => setPreference("showBookmarks", e.target.checked)}
+        />
+        Show Bookmarks
+      </label>
     </div>
   );
 }

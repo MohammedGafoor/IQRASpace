@@ -12,6 +12,11 @@ type Props = {
       verse — empty means "Arabic only" (the default; Readme.md §7's
       "never show a translation the reader didn't ask for"). */
   enabledTranslations: TranslationLanguageId[];
+  /** Whether the bookmark star renders at all for this ayah. Bookmarked
+      state itself is still tracked/loaded regardless (see effect below)
+      so toggling this back on doesn't lose anything — it only hides the
+      control. */
+  showBookmarks: boolean;
   registerRef: (el: HTMLElement | null) => void;
   /** Rendered as a heading directly above this ayah — used by Juz/Page
       views to mark where a new Surah begins mid-list (a Surah reader
@@ -24,7 +29,7 @@ type Props = {
  * bookmark toggle. Bookmarking works with no account (Readme.md §15) —
  * see lib/preferences/storage.ts.
  */
-export function AyahBlock({ verse, enabledTranslations, registerRef, surahHeading }: Props) {
+export function AyahBlock({ verse, enabledTranslations, showBookmarks, registerRef, surahHeading }: Props) {
   const bookmarkKey = verse.verse_key;
   const [bookmarked, setBookmarked] = useState(false);
 
@@ -124,25 +129,27 @@ export function AyahBlock({ verse, enabledTranslations, registerRef, surahHeadin
             );
           })}
 
-          <button
-            type="button"
-            onClick={() => setBookmarked(toggleBookmark(bookmarkKey).includes(bookmarkKey))}
-            aria-pressed={bookmarked}
-            aria-label={
-              bookmarked ? `Remove bookmark for ayah ${verse.verse_key}` : `Bookmark ayah ${verse.verse_key}`
-            }
-            style={{
-              marginTop: "0.5rem",
-              background: "none",
-              border: "none",
-              padding: 0,
-              fontSize: "0.8rem",
-              color: bookmarked ? "var(--color-accent-text)" : "var(--color-text-muted)",
-              cursor: "pointer",
-            }}
-          >
-            {bookmarked ? "★ Bookmarked" : "☆ Bookmark"}
-          </button>
+          {showBookmarks && (
+            <button
+              type="button"
+              onClick={() => setBookmarked(toggleBookmark(bookmarkKey).includes(bookmarkKey))}
+              aria-pressed={bookmarked}
+              aria-label={
+                bookmarked ? `Remove bookmark for ayah ${verse.verse_key}` : `Bookmark ayah ${verse.verse_key}`
+              }
+              style={{
+                marginTop: "0.5rem",
+                background: "none",
+                border: "none",
+                padding: 0,
+                fontSize: "0.8rem",
+                color: bookmarked ? "var(--color-accent-text)" : "var(--color-text-muted)",
+                cursor: "pointer",
+              }}
+            >
+              {bookmarked ? "★ Bookmarked" : "☆ Bookmark"}
+            </button>
+          )}
         </div>
       </div>
     </li>

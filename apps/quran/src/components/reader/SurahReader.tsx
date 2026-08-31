@@ -90,6 +90,7 @@ export function SurahReader({ chapter, verses, previous, next }: Props) {
       <AyahList
         verses={versesWithSurah}
         enabledTranslations={preferences.enabledTranslations}
+        showBookmarks={preferences.showBookmarks}
         showSurahHeadings={false}
         ariaLabel={`Ayahs of ${chapter.name_simple}`}
       />
