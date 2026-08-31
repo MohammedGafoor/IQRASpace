@@ -90,17 +90,17 @@ jobs:
       # nothing Supabase-related needs to be duplicated as a GitHub Secret
       # for this job specifically.
       - name: Pull Vercel project settings
-        run: vercel pull --yes --environment=production --token="${{ secrets.VERCEL_TOKEN }}"
+        run: vercel pull --yes --environment=production --token="${{ secrets.LEARN_VERCEL_TOKEN }}"
 
       # Vercel's own build mechanism (Phase 6) — this *is* the build/package
       # step; no separate artifact is hand-assembled here per design.
       - name: Build via Vercel
-        run: vercel build --prod --token="${{ secrets.VERCEL_TOKEN }}"
+        run: vercel build --prod --token="${{ secrets.LEARN_VERCEL_TOKEN }}"
 
       - name: Deploy prebuilt output to Vercel
         id: deploy
         run: |
-          url=$(vercel deploy --prebuilt --prod --token="${{ secrets.VERCEL_TOKEN }}")
+          url=$(vercel deploy --prebuilt --prod --token="${{ secrets.LEARN_VERCEL_TOKEN }}")
           echo "Deployed: $url"
           echo "url=$url" >> "$GITHUB_OUTPUT"
 

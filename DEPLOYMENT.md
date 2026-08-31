@@ -92,7 +92,7 @@ The workflow needs these five **GitHub Actions secrets** (repo → Settings → 
 
 | Secret | Value |
 |---|---|
-| `VERCEL_TOKEN` | The Vercel API token already used to set this deployment up (vercel.com/account/tokens) |
+| `LEARN_VERCEL_TOKEN` | The Vercel API token already used to set this deployment up (vercel.com/account/tokens) — named `LEARN_` to match `QURAN_VERCEL_TOKEN`/`LANDING_VERCEL_TOKEN`'s per-app naming, unlike `VERCEL_ORG_ID`/`VERCEL_PROJECT_ID` below (left unprefixed) |
 | `VERCEL_ORG_ID` | `team_FXkdH5PjVawG5qfuheLlST0K` |
 | `VERCEL_PROJECT_ID` | `prj_YsuXnkbPqGKZw8cmv1waXAkF3vzs` |
 | `NEXT_PUBLIC_SUPABASE_URL` | Same value as `apps/learning/.env.local` — not secret, just kept as a GitHub Secret for consistency |
@@ -125,13 +125,13 @@ Or, pushing directly to `main` (small pilot team) triggers the same `validate` �
 - GitHub → repo **Settings → Environments → `vercel`** — the GitHub Environment the `deploy` job runs against (`environment: name: vercel` in `.github/workflows/ci.yml`); its page links straight to the deployment history for this job.
 - Vercel dashboard → `shaga2/iqraspace` → **Deployments** — full build logs, and every past deployment stays browsable/promotable.
 
-Environment secrets (`VERCEL_TOKEN`, `VERCEL_ORG_ID`, `VERCEL_PROJECT_ID`, `NEXT_PUBLIC_SUPABASE_URL`, `NEXT_PUBLIC_SUPABASE_ANON_KEY`) are repository-level secrets, not scoped to the `vercel` Environment specifically — the `deploy` job can read them regardless of which Environment it's associated with. No secret migration is needed if the Environment is ever renamed again.
+Environment secrets (`LEARN_VERCEL_TOKEN`, `VERCEL_ORG_ID`, `VERCEL_PROJECT_ID`, `NEXT_PUBLIC_SUPABASE_URL`, `NEXT_PUBLIC_SUPABASE_ANON_KEY`) are repository-level secrets, not scoped to the `vercel` Environment specifically — the `deploy` job can read them regardless of which Environment it's associated with. No secret migration is needed if the Environment is ever renamed again.
 
 ### Troubleshooting a failed run
 
 1. Open the failed GitHub Actions run → the red ✕ step tells you which stage failed (lint / typecheck / test / build / Vercel build / deploy / health check).
 2. `validate` failing means the code itself has a problem — fix it locally (`npm run lint`, `npm run typecheck`, `npm run build` inside `apps/learning` reproduce the same checks) and push again.
-3. `deploy` failing on `vercel pull`/`vercel build`/`vercel deploy` almost always means a missing/incorrect secret (`VERCEL_TOKEN`/`VERCEL_ORG_ID`/`VERCEL_PROJECT_ID`) — re-check the GitHub Secrets above.
+3. `deploy` failing on `vercel pull`/`vercel build`/`vercel deploy` almost always means a missing/incorrect secret (`LEARN_VERCEL_TOKEN`/`VERCEL_ORG_ID`/`VERCEL_PROJECT_ID`) — re-check the GitHub Secrets above.
 4. Health check failing means the app built and deployed but didn't serve `200` on `/` or `/login` — check the Vercel deployment's own Runtime Logs (dashboard → Deployments → the deployment → Logs) for the actual server error.
 
 ### Note: Vercel Deployment Protection (SSO) is on for this team
