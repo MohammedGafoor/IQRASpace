@@ -1,0 +1,115 @@
+name: CI/CD (Landing)
+
+# apps/landing is the plain static page that owns the domain root
+# (ARCHITECTURE.md §8 — apps/quran owns only /quran) and rewrites
+# /quran/* to apps/quran's own deployment (Next.js Multi-Zones). Fully
+# independent of ci.yml (apps/web) and ci-quran.yml (apps/quran) — a
+# change to one app never triggers or blocks another's pipeline.
+#
+# No lint/typecheck applies — there's no framework/build tooling here on
+# purpose (a single static HTML page, per the "no unnecessary
+# infrastructure" deployment objective). `validate` still runs a real,
+# if minimal, check: HTML must actually be valid and vercel.json must be
+# valid JSON, so a broken edit fails CI instead of silently deploying.
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "apps/landing/**"
+      - ".github/workflows/ci-landing.yml"
+  pull_request:
+    branches: [main]
+    paths:
+      - "apps/landing/**"
+      - ".github/workflows/ci-landing.yml"
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+defaults:
+  run:
+    working-directory: apps/landing
+
+jobs:
+  validate:
+    name: Validate HTML & config
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20.x"
+
+      - name: Validate vercel.json is valid JSON
+        run: node -e "JSON.parse(require('fs').readFileSync('vercel.json','utf8')); console.log('vercel.json OK')"
+
+      - name: Validate index.html
+        run: npx --yes html-validate index.html
+
+  deploy:
+    name: Deploy to Vercel (production)
+    needs: validate
+    if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    environment:
+      name: vercel-landing
+      url: ${{ steps.deploy.outputs.url }}
+    env:
+      VERCEL_ORG_ID: ${{ secrets.LANDING_VERCEL_ORG_ID }}
+      VERCEL_PROJECT_ID: ${{ secrets.LANDING_VERCEL_PROJECT_ID }}
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Install Vercel CLI
+        run: npm install --global vercel@latest
+
+      - name: Pull Vercel project settings
+        run: vercel pull --yes --environment=production --token="${{ secrets.LANDING_VERCEL_TOKEN }}"
+
+      - name: Build via Vercel
+        run: vercel build --prod --token="${{ secrets.LANDING_VERCEL_TOKEN }}"
+
+      - name: Deploy prebuilt output to Vercel
+        id: deploy
+        run: |
+          url=$(vercel deploy --prebuilt --prod --token="${{ secrets.LANDING_VERCEL_TOKEN }}")
+          echo "Deployed: $url"
+          echo "url=$url" >> "$GITHUB_OUTPUT"
+
+      # Same Deployment Protection caveat as ci-quran.yml — switch to the
+      # stable <project>.vercel.app alias if this team has it on too.
+      - name: Health check
+        run: |
+          set -e
+          for path in "/" "/robots.txt" "/sitemap.xml"; do
+            code=$(curl -s -o /dev/null -w "%{http_code}" "${{ steps.deploy.outputs.url }}$path")
+            echo "$path -> HTTP $code"
+            if [ "$code" != "200" ]; then
+              echo "::error::Health check failed for $path (HTTP $code)"
+              exit 1
+            fi
+          done
+
+      - name: Deployment summary
+        if: always()
+        run: |
+          {
+            echo "## Deployment Summary"
+            echo ""
+            echo "| Field | Value |"
+            echo "|---|---|"
+            echo "| Status | ${{ job.status }} |"
+            echo "| Commit | \`${{ github.sha }}\` |"
+            echo "| Branch | \`${{ github.ref_name }}\` |"
+            echo "| Run | #${{ github.run_number }} (run id ${{ github.run_id }}) |"
+            echo "| Triggered by | ${{ github.actor }} |"
+            echo "| Timestamp (UTC) | $(date -u +'%Y-%m-%d %H:%M:%S') |"
+            echo "| Deployment URL | ${{ steps.deploy.outputs.url }} |"
+            echo "| Public URL | https://iqraspace.org |"
+          } >> "$GITHUB_STEP_SUMMARY"

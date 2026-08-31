@@ -1,0 +1,583 @@
+{
+  "syncedAt": "2026-08-31T05:21:16.105Z",
+  "chapter": {
+    "id": 71,
+    "revelation_place": "makkah",
+    "revelation_order": 71,
+    "bismillah_pre": true,
+    "name_simple": "Nuh",
+    "name_complex": "Nūĥ",
+    "name_arabic": "نوح",
+    "verses_count": 28,
+    "pages": [
+      570,
+      571
+    ],
+    "translated_name": {
+      "language_name": "english",
+      "name": "Noah"
+    }
+  },
+  "verses": [
+    {
+      "id": 5420,
+      "verse_number": 1,
+      "verse_key": "71:1",
+      "hizb_number": 57,
+      "rub_el_hizb_number": 228,
+      "ruku_number": 506,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": " إِنَّآ أَرْسَلْنَا نُوحًا إِلَىٰ قَوْمِهِۦٓ أَنْ أَنذِرْ قَوْمَكَ مِن قَبْلِ أَن يَأْتِيَهُمْ عَذَابٌ أَلِيمٌ",
+      "page_number": 570,
+      "juz_number": 29,
+      "translations": [
+        {
+          "id": 407123,
+          "resource_id": 85,
+          "text": "We sent Noah to his people: ‘Warn your people, before a painful punishment comes to them.’"
+        }
+      ]
+    },
+    {
+      "id": 5421,
+      "verse_number": 2,
+      "verse_key": "71:2",
+      "hizb_number": 57,
+      "rub_el_hizb_number": 228,
+      "ruku_number": 506,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "قَالَ يَـٰقَوْمِ إِنِّى لَكُمْ نَذِيرٌ مُّبِينٌ",
+      "page_number": 570,
+      "juz_number": 29,
+      "translations": [
+        {
+          "id": 407124,
+          "resource_id": 85,
+          "text": "And so he said, ‘My people, I am here to warn you plainly."
+        }
+      ]
+    },
+    {
+      "id": 5422,
+      "verse_number": 3,
+      "verse_key": "71:3",
+      "hizb_number": 57,
+      "rub_el_hizb_number": 228,
+      "ruku_number": 506,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "أَنِ ٱعْبُدُوا۟ ٱللَّهَ وَٱتَّقُوهُ وَأَطِيعُونِ",
+      "page_number": 570,
+      "juz_number": 29,
+      "translations": [
+        {
+          "id": 407125,
+          "resource_id": 85,
+          "text": "Serve God, be mindful of Him and obey me."
+        }
+      ]
+    },
+    {
+      "id": 5423,
+      "verse_number": 4,
+      "verse_key": "71:4",
+      "hizb_number": 57,
+      "rub_el_hizb_number": 228,
+      "ruku_number": 506,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "يَغْفِرْ لَكُم مِّن ذُنُوبِكُمْ وَيُؤَخِّرْكُمْ إِلَىٰٓ أَجَلٍ مُّسَمًّى ۚ إِنَّ أَجَلَ ٱللَّهِ إِذَا جَآءَ لَا يُؤَخَّرُ ۖ لَوْ كُنتُمْ تَعْلَمُونَ",
+      "page_number": 570,
+      "juz_number": 29,
+      "translations": [
+        {
+          "id": 407126,
+          "resource_id": 85,
+          "text": "He will forgive you your sins and spare you until your appointed time––when God’s appointed time arrives it cannot be postponed. If only you understood!’"
+        }
+      ]
+    },
+    {
+      "id": 5424,
+      "verse_number": 5,
+      "verse_key": "71:5",
+      "hizb_number": 57,
+      "rub_el_hizb_number": 228,
+      "ruku_number": 506,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "قَالَ رَبِّ إِنِّى دَعَوْتُ قَوْمِى لَيْلًا وَنَهَارًا",
+      "page_number": 570,
+      "juz_number": 29,
+      "translations": [
+        {
+          "id": 407127,
+          "resource_id": 85,
+          "text": "He said, ‘My Lord, I have called my people night and day,"
+        }
+      ]
+    },
+    {
+      "id": 5425,
+      "verse_number": 6,
+      "verse_key": "71:6",
+      "hizb_number": 57,
+      "rub_el_hizb_number": 228,
+      "ruku_number": 506,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "فَلَمْ يَزِدْهُمْ دُعَآءِىٓ إِلَّا فِرَارًا",
+      "page_number": 570,
+      "juz_number": 29,
+      "translations": [
+        {
+          "id": 407128,
+          "resource_id": 85,
+          "text": "but the more I call them, the further they run away:"
+        }
+      ]
+    },
+    {
+      "id": 5426,
+      "verse_number": 7,
+      "verse_key": "71:7",
+      "hizb_number": 57,
+      "rub_el_hizb_number": 228,
+      "ruku_number": 506,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "وَإِنِّى كُلَّمَا دَعَوْتُهُمْ لِتَغْفِرَ لَهُمْ جَعَلُوٓا۟ أَصَـٰبِعَهُمْ فِىٓ ءَاذَانِهِمْ وَٱسْتَغْشَوْا۟ ثِيَابَهُمْ وَأَصَرُّوا۟ وَٱسْتَكْبَرُوا۟ ٱسْتِكْبَارًا",
+      "page_number": 570,
+      "juz_number": 29,
+      "translations": [
+        {
+          "id": 407129,
+          "resource_id": 85,
+          "text": "every time I call them, so that You may forgive them, they thrust their fingers into their ears, cover their heads with their garments, persist in their rejection, and grow more insolent and arrogant."
+        }
+      ]
+    },
+    {
+      "id": 5427,
+      "verse_number": 8,
+      "verse_key": "71:8",
+      "hizb_number": 57,
+      "rub_el_hizb_number": 228,
+      "ruku_number": 506,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "ثُمَّ إِنِّى دَعَوْتُهُمْ جِهَارًا",
+      "page_number": 570,
+      "juz_number": 29,
+      "translations": [
+        {
+          "id": 407130,
+          "resource_id": 85,
+          "text": "I have tried calling them openly."
+        }
+      ]
+    },
+    {
+      "id": 5428,
+      "verse_number": 9,
+      "verse_key": "71:9",
+      "hizb_number": 57,
+      "rub_el_hizb_number": 228,
+      "ruku_number": 506,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "ثُمَّ إِنِّىٓ أَعْلَنتُ لَهُمْ وَأَسْرَرْتُ لَهُمْ إِسْرَارًا",
+      "page_number": 570,
+      "juz_number": 29,
+      "translations": [
+        {
+          "id": 407131,
+          "resource_id": 85,
+          "text": "I have tried preaching to them in public and speaking to them in private."
+        }
+      ]
+    },
+    {
+      "id": 5429,
+      "verse_number": 10,
+      "verse_key": "71:10",
+      "hizb_number": 57,
+      "rub_el_hizb_number": 228,
+      "ruku_number": 506,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "فَقُلْتُ ٱسْتَغْفِرُوا۟ رَبَّكُمْ إِنَّهُۥ كَانَ غَفَّارًا",
+      "page_number": 570,
+      "juz_number": 29,
+      "translations": [
+        {
+          "id": 407132,
+          "resource_id": 85,
+          "text": "I said, “Ask forgiveness of your Lord: He is ever forgiving."
+        }
+      ]
+    },
+    {
+      "id": 5430,
+      "verse_number": 11,
+      "verse_key": "71:11",
+      "hizb_number": 57,
+      "rub_el_hizb_number": 228,
+      "ruku_number": 506,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "يُرْسِلِ ٱلسَّمَآءَ عَلَيْكُم مِّدْرَارًا",
+      "page_number": 571,
+      "juz_number": 29,
+      "translations": [
+        {
+          "id": 407133,
+          "resource_id": 85,
+          "text": "He will send down abundant rain from the sky for you;"
+        }
+      ]
+    },
+    {
+      "id": 5431,
+      "verse_number": 12,
+      "verse_key": "71:12",
+      "hizb_number": 57,
+      "rub_el_hizb_number": 228,
+      "ruku_number": 506,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "وَيُمْدِدْكُم بِأَمْوَٰلٍ وَبَنِينَ وَيَجْعَل لَّكُمْ جَنَّـٰتٍ وَيَجْعَل لَّكُمْ أَنْهَـٰرًا",
+      "page_number": 571,
+      "juz_number": 29,
+      "translations": [
+        {
+          "id": 407134,
+          "resource_id": 85,
+          "text": "He will give you wealth and sons; He will provide you with gardens and rivers."
+        }
+      ]
+    },
+    {
+      "id": 5432,
+      "verse_number": 13,
+      "verse_key": "71:13",
+      "hizb_number": 57,
+      "rub_el_hizb_number": 228,
+      "ruku_number": 506,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "مَّا لَكُمْ لَا تَرْجُونَ لِلَّهِ وَقَارًا",
+      "page_number": 571,
+      "juz_number": 29,
+      "translations": [
+        {
+          "id": 407135,
+          "resource_id": 85,
+          "text": "What is the matter with you? Why will you not fear God’s majesty,"
+        }
+      ]
+    },
+    {
+      "id": 5433,
+      "verse_number": 14,
+      "verse_key": "71:14",
+      "hizb_number": 57,
+      "rub_el_hizb_number": 228,
+      "ruku_number": 506,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "وَقَدْ خَلَقَكُمْ أَطْوَارًا",
+      "page_number": 571,
+      "juz_number": 29,
+      "translations": [
+        {
+          "id": 407136,
+          "resource_id": 85,
+          "text": "when He has created you stage by stage?"
+        }
+      ]
+    },
+    {
+      "id": 5434,
+      "verse_number": 15,
+      "verse_key": "71:15",
+      "hizb_number": 57,
+      "rub_el_hizb_number": 228,
+      "ruku_number": 506,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "أَلَمْ تَرَوْا۟ كَيْفَ خَلَقَ ٱللَّهُ سَبْعَ سَمَـٰوَٰتٍ طِبَاقًا",
+      "page_number": 571,
+      "juz_number": 29,
+      "translations": [
+        {
+          "id": 407137,
+          "resource_id": 85,
+          "text": "Have you ever wondered how God created seven heavens, one above the other,"
+        }
+      ]
+    },
+    {
+      "id": 5435,
+      "verse_number": 16,
+      "verse_key": "71:16",
+      "hizb_number": 57,
+      "rub_el_hizb_number": 228,
+      "ruku_number": 506,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "وَجَعَلَ ٱلْقَمَرَ فِيهِنَّ نُورًا وَجَعَلَ ٱلشَّمْسَ سِرَاجًا",
+      "page_number": 571,
+      "juz_number": 29,
+      "translations": [
+        {
+          "id": 407138,
+          "resource_id": 85,
+          "text": "placed the moon as a light in them and the sun as a lamp,"
+        }
+      ]
+    },
+    {
+      "id": 5436,
+      "verse_number": 17,
+      "verse_key": "71:17",
+      "hizb_number": 57,
+      "rub_el_hizb_number": 228,
+      "ruku_number": 506,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "وَٱللَّهُ أَنۢبَتَكُم مِّنَ ٱلْأَرْضِ نَبَاتًا",
+      "page_number": 571,
+      "juz_number": 29,
+      "translations": [
+        {
+          "id": 407139,
+          "resource_id": 85,
+          "text": "how God made you spring forth from the earth like a plant,"
+        }
+      ]
+    },
+    {
+      "id": 5437,
+      "verse_number": 18,
+      "verse_key": "71:18",
+      "hizb_number": 57,
+      "rub_el_hizb_number": 228,
+      "ruku_number": 506,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "ثُمَّ يُعِيدُكُمْ فِيهَا وَيُخْرِجُكُمْ إِخْرَاجًا",
+      "page_number": 571,
+      "juz_number": 29,
+      "translations": [
+        {
+          "id": 407140,
+          "resource_id": 85,
+          "text": "how He will return you into it and then bring you out again,"
+        }
+      ]
+    },
+    {
+      "id": 5438,
+      "verse_number": 19,
+      "verse_key": "71:19",
+      "hizb_number": 57,
+      "rub_el_hizb_number": 228,
+      "ruku_number": 506,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "وَٱللَّهُ جَعَلَ لَكُمُ ٱلْأَرْضَ بِسَاطًا",
+      "page_number": 571,
+      "juz_number": 29,
+      "translations": [
+        {
+          "id": 407141,
+          "resource_id": 85,
+          "text": "and how He has spread the Earth out for you"
+        }
+      ]
+    },
+    {
+      "id": 5439,
+      "verse_number": 20,
+      "verse_key": "71:20",
+      "hizb_number": 57,
+      "rub_el_hizb_number": 228,
+      "ruku_number": 506,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "لِّتَسْلُكُوا۟ مِنْهَا سُبُلًا فِجَاجًا",
+      "page_number": 571,
+      "juz_number": 29,
+      "translations": [
+        {
+          "id": 407142,
+          "resource_id": 85,
+          "text": "to walk along its spacious paths?” ’"
+        }
+      ]
+    },
+    {
+      "id": 5440,
+      "verse_number": 21,
+      "verse_key": "71:21",
+      "hizb_number": 57,
+      "rub_el_hizb_number": 228,
+      "ruku_number": 507,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "قَالَ نُوحٌ رَّبِّ إِنَّهُمْ عَصَوْنِى وَٱتَّبَعُوا۟ مَن لَّمْ يَزِدْهُ مَالُهُۥ وَوَلَدُهُۥٓ إِلَّا خَسَارًا",
+      "page_number": 571,
+      "juz_number": 29,
+      "translations": [
+        {
+          "id": 407143,
+          "resource_id": 85,
+          "text": "Noah said, ‘My Lord, they have disobeyed me and followed those whose riches and children only increase their ruin;"
+        }
+      ]
+    },
+    {
+      "id": 5441,
+      "verse_number": 22,
+      "verse_key": "71:22",
+      "hizb_number": 57,
+      "rub_el_hizb_number": 228,
+      "ruku_number": 507,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "وَمَكَرُوا۟ مَكْرًا كُبَّارًا",
+      "page_number": 571,
+      "juz_number": 29,
+      "translations": [
+        {
+          "id": 407144,
+          "resource_id": 85,
+          "text": "who have made a grand plan,"
+        }
+      ]
+    },
+    {
+      "id": 5442,
+      "verse_number": 23,
+      "verse_key": "71:23",
+      "hizb_number": 57,
+      "rub_el_hizb_number": 228,
+      "ruku_number": 507,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "وَقَالُوا۟ لَا تَذَرُنَّ ءَالِهَتَكُمْ وَلَا تَذَرُنَّ وَدًّا وَلَا سُوَاعًا وَلَا يَغُوثَ وَيَعُوقَ وَنَسْرًا",
+      "page_number": 571,
+      "juz_number": 29,
+      "translations": [
+        {
+          "id": 407145,
+          "resource_id": 85,
+          "text": "saying, “Do not renounce your gods! Do not renounce Wadd, Suwa, Yaghuth, Yauq, or Nasr!”"
+        }
+      ]
+    },
+    {
+      "id": 5443,
+      "verse_number": 24,
+      "verse_key": "71:24",
+      "hizb_number": 57,
+      "rub_el_hizb_number": 228,
+      "ruku_number": 507,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "وَقَدْ أَضَلُّوا۟ كَثِيرًا ۖ وَلَا تَزِدِ ٱلظَّـٰلِمِينَ إِلَّا ضَلَـٰلًا",
+      "page_number": 571,
+      "juz_number": 29,
+      "translations": [
+        {
+          "id": 407146,
+          "resource_id": 85,
+          "text": "They have led many astray. Lord, bring nothing but destruction down on the evildoers!’"
+        }
+      ]
+    },
+    {
+      "id": 5444,
+      "verse_number": 25,
+      "verse_key": "71:25",
+      "hizb_number": 57,
+      "rub_el_hizb_number": 228,
+      "ruku_number": 507,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "مِّمَّا خَطِيٓـَٔـٰتِهِمْ أُغْرِقُوا۟ فَأُدْخِلُوا۟ نَارًا فَلَمْ يَجِدُوا۟ لَهُم مِّن دُونِ ٱللَّهِ أَنصَارًا",
+      "page_number": 571,
+      "juz_number": 29,
+      "translations": [
+        {
+          "id": 407147,
+          "resource_id": 85,
+          "text": "They were drowned and sent to Hell for their evildoings: they found no one to help them against God."
+        }
+      ]
+    },
+    {
+      "id": 5445,
+      "verse_number": 26,
+      "verse_key": "71:26",
+      "hizb_number": 57,
+      "rub_el_hizb_number": 228,
+      "ruku_number": 507,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "وَقَالَ نُوحٌ رَّبِّ لَا تَذَرْ عَلَى ٱلْأَرْضِ مِنَ ٱلْكَـٰفِرِينَ دَيَّارًا",
+      "page_number": 571,
+      "juz_number": 29,
+      "translations": [
+        {
+          "id": 407148,
+          "resource_id": 85,
+          "text": "And Noah said, ‘Lord, do not leave any of the disbelievers on the earth-"
+        }
+      ]
+    },
+    {
+      "id": 5446,
+      "verse_number": 27,
+      "verse_key": "71:27",
+      "hizb_number": 57,
+      "rub_el_hizb_number": 228,
+      "ruku_number": 507,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "إِنَّكَ إِن تَذَرْهُمْ يُضِلُّوا۟ عِبَادَكَ وَلَا يَلِدُوٓا۟ إِلَّا فَاجِرًا كَفَّارًا",
+      "page_number": 571,
+      "juz_number": 29,
+      "translations": [
+        {
+          "id": 407149,
+          "resource_id": 85,
+          "text": "if you leave them they will lead Your servants astray and beget only sinners and disbelievers-"
+        }
+      ]
+    },
+    {
+      "id": 5447,
+      "verse_number": 28,
+      "verse_key": "71:28",
+      "hizb_number": 57,
+      "rub_el_hizb_number": 228,
+      "ruku_number": 507,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "رَّبِّ ٱغْفِرْ لِى وَلِوَٰلِدَىَّ وَلِمَن دَخَلَ بَيْتِىَ مُؤْمِنًا وَلِلْمُؤْمِنِينَ وَٱلْمُؤْمِنَـٰتِ وَلَا تَزِدِ ٱلظَّـٰلِمِينَ إِلَّا تَبَارًۢا",
+      "page_number": 571,
+      "juz_number": 29,
+      "translations": [
+        {
+          "id": 407150,
+          "resource_id": 85,
+          "text": "Lord, forgive me, my parents, and whoever enters my house as a believer. Forgive believing men and women but bring nothing but ruin down on the evildoers!’"
+        }
+      ]
+    }
+  ]
+}

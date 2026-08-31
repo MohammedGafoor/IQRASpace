@@ -1,0 +1,183 @@
+{
+  "syncedAt": "2026-08-31T05:21:29.369Z",
+  "chapter": {
+    "id": 102,
+    "revelation_place": "makkah",
+    "revelation_order": 16,
+    "bismillah_pre": true,
+    "name_simple": "At-Takathur",
+    "name_complex": "At-Takāthur",
+    "name_arabic": "التكاثر",
+    "verses_count": 8,
+    "pages": [
+      600,
+      600
+    ],
+    "translated_name": {
+      "language_name": "english",
+      "name": "The Rivalry in world increase"
+    }
+  },
+  "verses": [
+    {
+      "id": 6169,
+      "verse_number": 1,
+      "verse_key": "102:1",
+      "hizb_number": 60,
+      "rub_el_hizb_number": 240,
+      "ruku_number": 546,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": " أَلْهَىٰكُمُ ٱلتَّكَاثُرُ",
+      "page_number": 600,
+      "juz_number": 30,
+      "translations": [
+        {
+          "id": 407872,
+          "resource_id": 85,
+          "text": "Striving for more distracts you"
+        }
+      ]
+    },
+    {
+      "id": 6170,
+      "verse_number": 2,
+      "verse_key": "102:2",
+      "hizb_number": 60,
+      "rub_el_hizb_number": 240,
+      "ruku_number": 546,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "حَتَّىٰ زُرْتُمُ ٱلْمَقَابِرَ",
+      "page_number": 600,
+      "juz_number": 30,
+      "translations": [
+        {
+          "id": 407873,
+          "resource_id": 85,
+          "text": "until you go into your graves."
+        }
+      ]
+    },
+    {
+      "id": 6171,
+      "verse_number": 3,
+      "verse_key": "102:3",
+      "hizb_number": 60,
+      "rub_el_hizb_number": 240,
+      "ruku_number": 546,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "كَلَّا سَوْفَ تَعْلَمُونَ",
+      "page_number": 600,
+      "juz_number": 30,
+      "translations": [
+        {
+          "id": 407874,
+          "resource_id": 85,
+          "text": "No indeed! You will come to know."
+        }
+      ]
+    },
+    {
+      "id": 6172,
+      "verse_number": 4,
+      "verse_key": "102:4",
+      "hizb_number": 60,
+      "rub_el_hizb_number": 240,
+      "ruku_number": 546,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "ثُمَّ كَلَّا سَوْفَ تَعْلَمُونَ",
+      "page_number": 600,
+      "juz_number": 30,
+      "translations": [
+        {
+          "id": 407875,
+          "resource_id": 85,
+          "text": "No indeed! In the end you will come to know."
+        }
+      ]
+    },
+    {
+      "id": 6173,
+      "verse_number": 5,
+      "verse_key": "102:5",
+      "hizb_number": 60,
+      "rub_el_hizb_number": 240,
+      "ruku_number": 546,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "كَلَّا لَوْ تَعْلَمُونَ عِلْمَ ٱلْيَقِينِ",
+      "page_number": 600,
+      "juz_number": 30,
+      "translations": [
+        {
+          "id": 407876,
+          "resource_id": 85,
+          "text": "No indeed! If only you knew for certain."
+        }
+      ]
+    },
+    {
+      "id": 6174,
+      "verse_number": 6,
+      "verse_key": "102:6",
+      "hizb_number": 60,
+      "rub_el_hizb_number": 240,
+      "ruku_number": 546,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "لَتَرَوُنَّ ٱلْجَحِيمَ",
+      "page_number": 600,
+      "juz_number": 30,
+      "translations": [
+        {
+          "id": 407877,
+          "resource_id": 85,
+          "text": "You will most definitely see Hellfire,"
+        }
+      ]
+    },
+    {
+      "id": 6175,
+      "verse_number": 7,
+      "verse_key": "102:7",
+      "hizb_number": 60,
+      "rub_el_hizb_number": 240,
+      "ruku_number": 546,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "ثُمَّ لَتَرَوُنَّهَا عَيْنَ ٱلْيَقِينِ",
+      "page_number": 600,
+      "juz_number": 30,
+      "translations": [
+        {
+          "id": 407878,
+          "resource_id": 85,
+          "text": "you will see it with the eye of certainty."
+        }
+      ]
+    },
+    {
+      "id": 6176,
+      "verse_number": 8,
+      "verse_key": "102:8",
+      "hizb_number": 60,
+      "rub_el_hizb_number": 240,
+      "ruku_number": 546,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "ثُمَّ لَتُسْـَٔلُنَّ يَوْمَئِذٍ عَنِ ٱلنَّعِيمِ",
+      "page_number": 600,
+      "juz_number": 30,
+      "translations": [
+        {
+          "id": 407879,
+          "resource_id": 85,
+          "text": "On that Day, you will be asked about your pleasures."
+        }
+      ]
+    }
+  ]
+}

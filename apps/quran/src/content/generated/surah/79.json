@@ -1,0 +1,943 @@
+{
+  "syncedAt": "2026-08-31T05:21:19.790Z",
+  "chapter": {
+    "id": 79,
+    "revelation_place": "makkah",
+    "revelation_order": 81,
+    "bismillah_pre": true,
+    "name_simple": "An-Nazi'at",
+    "name_complex": "An-Nāzi`āt",
+    "name_arabic": "النازعات",
+    "verses_count": 46,
+    "pages": [
+      583,
+      584
+    ],
+    "translated_name": {
+      "language_name": "english",
+      "name": "Those who drag forth"
+    }
+  },
+  "verses": [
+    {
+      "id": 5713,
+      "verse_number": 1,
+      "verse_key": "79:1",
+      "hizb_number": 59,
+      "rub_el_hizb_number": 233,
+      "ruku_number": 522,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": " وَٱلنَّـٰزِعَـٰتِ غَرْقًا",
+      "page_number": 583,
+      "juz_number": 30,
+      "translations": [
+        {
+          "id": 407416,
+          "resource_id": 85,
+          "text": "By the forceful chargers"
+        }
+      ]
+    },
+    {
+      "id": 5714,
+      "verse_number": 2,
+      "verse_key": "79:2",
+      "hizb_number": 59,
+      "rub_el_hizb_number": 233,
+      "ruku_number": 522,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "وَٱلنَّـٰشِطَـٰتِ نَشْطًا",
+      "page_number": 583,
+      "juz_number": 30,
+      "translations": [
+        {
+          "id": 407417,
+          "resource_id": 85,
+          "text": "raring to go,"
+        }
+      ]
+    },
+    {
+      "id": 5715,
+      "verse_number": 3,
+      "verse_key": "79:3",
+      "hizb_number": 59,
+      "rub_el_hizb_number": 233,
+      "ruku_number": 522,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "وَٱلسَّـٰبِحَـٰتِ سَبْحًا",
+      "page_number": 583,
+      "juz_number": 30,
+      "translations": [
+        {
+          "id": 407418,
+          "resource_id": 85,
+          "text": "sweeping ahead at full stretch,"
+        }
+      ]
+    },
+    {
+      "id": 5716,
+      "verse_number": 4,
+      "verse_key": "79:4",
+      "hizb_number": 59,
+      "rub_el_hizb_number": 233,
+      "ruku_number": 522,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "فَٱلسَّـٰبِقَـٰتِ سَبْقًا",
+      "page_number": 583,
+      "juz_number": 30,
+      "translations": [
+        {
+          "id": 407419,
+          "resource_id": 85,
+          "text": "overtaking swiftly"
+        }
+      ]
+    },
+    {
+      "id": 5717,
+      "verse_number": 5,
+      "verse_key": "79:5",
+      "hizb_number": 59,
+      "rub_el_hizb_number": 233,
+      "ruku_number": 522,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "فَٱلْمُدَبِّرَٰتِ أَمْرًا",
+      "page_number": 583,
+      "juz_number": 30,
+      "translations": [
+        {
+          "id": 407420,
+          "resource_id": 85,
+          "text": "to bring the matter to an end,"
+        }
+      ]
+    },
+    {
+      "id": 5718,
+      "verse_number": 6,
+      "verse_key": "79:6",
+      "hizb_number": 59,
+      "rub_el_hizb_number": 233,
+      "ruku_number": 522,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "يَوْمَ تَرْجُفُ ٱلرَّاجِفَةُ",
+      "page_number": 583,
+      "juz_number": 30,
+      "translations": [
+        {
+          "id": 407421,
+          "resource_id": 85,
+          "text": "on the Day when the blast reverberates"
+        }
+      ]
+    },
+    {
+      "id": 5719,
+      "verse_number": 7,
+      "verse_key": "79:7",
+      "hizb_number": 59,
+      "rub_el_hizb_number": 233,
+      "ruku_number": 522,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "تَتْبَعُهَا ٱلرَّادِفَةُ",
+      "page_number": 583,
+      "juz_number": 30,
+      "translations": [
+        {
+          "id": 407422,
+          "resource_id": 85,
+          "text": "and the second blast follows,"
+        }
+      ]
+    },
+    {
+      "id": 5720,
+      "verse_number": 8,
+      "verse_key": "79:8",
+      "hizb_number": 59,
+      "rub_el_hizb_number": 233,
+      "ruku_number": 522,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "قُلُوبٌ يَوْمَئِذٍ وَاجِفَةٌ",
+      "page_number": 583,
+      "juz_number": 30,
+      "translations": [
+        {
+          "id": 407423,
+          "resource_id": 85,
+          "text": "hearts will tremble"
+        }
+      ]
+    },
+    {
+      "id": 5721,
+      "verse_number": 9,
+      "verse_key": "79:9",
+      "hizb_number": 59,
+      "rub_el_hizb_number": 233,
+      "ruku_number": 522,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "أَبْصَـٰرُهَا خَـٰشِعَةٌ",
+      "page_number": 583,
+      "juz_number": 30,
+      "translations": [
+        {
+          "id": 407424,
+          "resource_id": 85,
+          "text": "and eyes will be downcast."
+        }
+      ]
+    },
+    {
+      "id": 5722,
+      "verse_number": 10,
+      "verse_key": "79:10",
+      "hizb_number": 59,
+      "rub_el_hizb_number": 233,
+      "ruku_number": 522,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "يَقُولُونَ أَءِنَّا لَمَرْدُودُونَ فِى ٱلْحَافِرَةِ",
+      "page_number": 583,
+      "juz_number": 30,
+      "translations": [
+        {
+          "id": 407425,
+          "resource_id": 85,
+          "text": "They say, ‘What? shall we be brought back to life,"
+        }
+      ]
+    },
+    {
+      "id": 5723,
+      "verse_number": 11,
+      "verse_key": "79:11",
+      "hizb_number": 59,
+      "rub_el_hizb_number": 233,
+      "ruku_number": 522,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "أَءِذَا كُنَّا عِظَـٰمًا نَّخِرَةً",
+      "page_number": 583,
+      "juz_number": 30,
+      "translations": [
+        {
+          "id": 407426,
+          "resource_id": 85,
+          "text": "after we have turned into decayed bones?’ and they say,"
+        }
+      ]
+    },
+    {
+      "id": 5724,
+      "verse_number": 12,
+      "verse_key": "79:12",
+      "hizb_number": 59,
+      "rub_el_hizb_number": 233,
+      "ruku_number": 522,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "قَالُوا۟ تِلْكَ إِذًا كَرَّةٌ خَاسِرَةٌ",
+      "page_number": 583,
+      "juz_number": 30,
+      "translations": [
+        {
+          "id": 407427,
+          "resource_id": 85,
+          "text": "‘Such a return is impossible!’"
+        }
+      ]
+    },
+    {
+      "id": 5725,
+      "verse_number": 13,
+      "verse_key": "79:13",
+      "hizb_number": 59,
+      "rub_el_hizb_number": 233,
+      "ruku_number": 522,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "فَإِنَّمَا هِىَ زَجْرَةٌ وَٰحِدَةٌ",
+      "page_number": 583,
+      "juz_number": 30,
+      "translations": [
+        {
+          "id": 407428,
+          "resource_id": 85,
+          "text": "But all it will take is a single blast,"
+        }
+      ]
+    },
+    {
+      "id": 5726,
+      "verse_number": 14,
+      "verse_key": "79:14",
+      "hizb_number": 59,
+      "rub_el_hizb_number": 233,
+      "ruku_number": 522,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "فَإِذَا هُم بِٱلسَّاهِرَةِ",
+      "page_number": 583,
+      "juz_number": 30,
+      "translations": [
+        {
+          "id": 407429,
+          "resource_id": 85,
+          "text": "and they will be back above ground."
+        }
+      ]
+    },
+    {
+      "id": 5727,
+      "verse_number": 15,
+      "verse_key": "79:15",
+      "hizb_number": 59,
+      "rub_el_hizb_number": 233,
+      "ruku_number": 522,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "هَلْ أَتَىٰكَ حَدِيثُ مُوسَىٰٓ",
+      "page_number": 583,
+      "juz_number": 30,
+      "translations": [
+        {
+          "id": 407430,
+          "resource_id": 85,
+          "text": "Have you [Prophet] heard the story of Moses?"
+        }
+      ]
+    },
+    {
+      "id": 5728,
+      "verse_number": 16,
+      "verse_key": "79:16",
+      "hizb_number": 59,
+      "rub_el_hizb_number": 233,
+      "ruku_number": 522,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "إِذْ نَادَىٰهُ رَبُّهُۥ بِٱلْوَادِ ٱلْمُقَدَّسِ طُوًى",
+      "page_number": 584,
+      "juz_number": 30,
+      "translations": [
+        {
+          "id": 407431,
+          "resource_id": 85,
+          "text": "His Lord called out to him in the sacred valley of Tuwa:"
+        }
+      ]
+    },
+    {
+      "id": 5729,
+      "verse_number": 17,
+      "verse_key": "79:17",
+      "hizb_number": 59,
+      "rub_el_hizb_number": 233,
+      "ruku_number": 522,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "ٱذْهَبْ إِلَىٰ فِرْعَوْنَ إِنَّهُۥ طَغَىٰ",
+      "page_number": 584,
+      "juz_number": 30,
+      "translations": [
+        {
+          "id": 407432,
+          "resource_id": 85,
+          "text": "‘Go to Pharaoh, for he has exceeded all bounds,"
+        }
+      ]
+    },
+    {
+      "id": 5730,
+      "verse_number": 18,
+      "verse_key": "79:18",
+      "hizb_number": 59,
+      "rub_el_hizb_number": 233,
+      "ruku_number": 522,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "فَقُلْ هَل لَّكَ إِلَىٰٓ أَن تَزَكَّىٰ",
+      "page_number": 584,
+      "juz_number": 30,
+      "translations": [
+        {
+          "id": 407433,
+          "resource_id": 85,
+          "text": "and ask him, “Do you want to purify yourself [of sin]?"
+        }
+      ]
+    },
+    {
+      "id": 5731,
+      "verse_number": 19,
+      "verse_key": "79:19",
+      "hizb_number": 59,
+      "rub_el_hizb_number": 233,
+      "ruku_number": 522,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "وَأَهْدِيَكَ إِلَىٰ رَبِّكَ فَتَخْشَىٰ",
+      "page_number": 584,
+      "juz_number": 30,
+      "translations": [
+        {
+          "id": 407434,
+          "resource_id": 85,
+          "text": "Do you want me to guide you to your Lord, so that you may hold Him in awe?” ’"
+        }
+      ]
+    },
+    {
+      "id": 5732,
+      "verse_number": 20,
+      "verse_key": "79:20",
+      "hizb_number": 59,
+      "rub_el_hizb_number": 233,
+      "ruku_number": 522,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "فَأَرَىٰهُ ٱلْـَٔايَةَ ٱلْكُبْرَىٰ",
+      "page_number": 584,
+      "juz_number": 30,
+      "translations": [
+        {
+          "id": 407435,
+          "resource_id": 85,
+          "text": "Moses showed him the great sign,"
+        }
+      ]
+    },
+    {
+      "id": 5733,
+      "verse_number": 21,
+      "verse_key": "79:21",
+      "hizb_number": 59,
+      "rub_el_hizb_number": 233,
+      "ruku_number": 522,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "فَكَذَّبَ وَعَصَىٰ",
+      "page_number": 584,
+      "juz_number": 30,
+      "translations": [
+        {
+          "id": 407436,
+          "resource_id": 85,
+          "text": "but he denied it and refused [the faith]."
+        }
+      ]
+    },
+    {
+      "id": 5734,
+      "verse_number": 22,
+      "verse_key": "79:22",
+      "hizb_number": 59,
+      "rub_el_hizb_number": 233,
+      "ruku_number": 522,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "ثُمَّ أَدْبَرَ يَسْعَىٰ",
+      "page_number": 584,
+      "juz_number": 30,
+      "translations": [
+        {
+          "id": 407437,
+          "resource_id": 85,
+          "text": "He turned away and hastily"
+        }
+      ]
+    },
+    {
+      "id": 5735,
+      "verse_number": 23,
+      "verse_key": "79:23",
+      "hizb_number": 59,
+      "rub_el_hizb_number": 233,
+      "ruku_number": 522,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "فَحَشَرَ فَنَادَىٰ",
+      "page_number": 584,
+      "juz_number": 30,
+      "translations": [
+        {
+          "id": 407438,
+          "resource_id": 85,
+          "text": "gathered his people, proclaiming,"
+        }
+      ]
+    },
+    {
+      "id": 5736,
+      "verse_number": 24,
+      "verse_key": "79:24",
+      "hizb_number": 59,
+      "rub_el_hizb_number": 233,
+      "ruku_number": 522,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "فَقَالَ أَنَا۠ رَبُّكُمُ ٱلْأَعْلَىٰ",
+      "page_number": 584,
+      "juz_number": 30,
+      "translations": [
+        {
+          "id": 407439,
+          "resource_id": 85,
+          "text": "‘I am your supreme lord,’"
+        }
+      ]
+    },
+    {
+      "id": 5737,
+      "verse_number": 25,
+      "verse_key": "79:25",
+      "hizb_number": 59,
+      "rub_el_hizb_number": 233,
+      "ruku_number": 522,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "فَأَخَذَهُ ٱللَّهُ نَكَالَ ٱلْـَٔاخِرَةِ وَٱلْأُولَىٰٓ",
+      "page_number": 584,
+      "juz_number": 30,
+      "translations": [
+        {
+          "id": 407440,
+          "resource_id": 85,
+          "text": "so God condemned him to punishment in the life to come as well as in this life:"
+        }
+      ]
+    },
+    {
+      "id": 5738,
+      "verse_number": 26,
+      "verse_key": "79:26",
+      "hizb_number": 59,
+      "rub_el_hizb_number": 233,
+      "ruku_number": 522,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "إِنَّ فِى ذَٰلِكَ لَعِبْرَةً لِّمَن يَخْشَىٰٓ",
+      "page_number": 584,
+      "juz_number": 30,
+      "translations": [
+        {
+          "id": 407441,
+          "resource_id": 85,
+          "text": "there truly is a lesson in this for anyone who stands in awe of God."
+        }
+      ]
+    },
+    {
+      "id": 5739,
+      "verse_number": 27,
+      "verse_key": "79:27",
+      "hizb_number": 59,
+      "rub_el_hizb_number": 233,
+      "ruku_number": 523,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "ءَأَنتُمْ أَشَدُّ خَلْقًا أَمِ ٱلسَّمَآءُ ۚ بَنَىٰهَا",
+      "page_number": 584,
+      "juz_number": 30,
+      "translations": [
+        {
+          "id": 407442,
+          "resource_id": 85,
+          "text": "Which is harder to create: you people or the sky that He built,"
+        }
+      ]
+    },
+    {
+      "id": 5740,
+      "verse_number": 28,
+      "verse_key": "79:28",
+      "hizb_number": 59,
+      "rub_el_hizb_number": 233,
+      "ruku_number": 523,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "رَفَعَ سَمْكَهَا فَسَوَّىٰهَا",
+      "page_number": 584,
+      "juz_number": 30,
+      "translations": [
+        {
+          "id": 407443,
+          "resource_id": 85,
+          "text": "raising it high and perfecting it,"
+        }
+      ]
+    },
+    {
+      "id": 5741,
+      "verse_number": 29,
+      "verse_key": "79:29",
+      "hizb_number": 59,
+      "rub_el_hizb_number": 233,
+      "ruku_number": 523,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "وَأَغْطَشَ لَيْلَهَا وَأَخْرَجَ ضُحَىٰهَا",
+      "page_number": 584,
+      "juz_number": 30,
+      "translations": [
+        {
+          "id": 407444,
+          "resource_id": 85,
+          "text": "giving darkness to its night and bringing out its morning brightness,"
+        }
+      ]
+    },
+    {
+      "id": 5742,
+      "verse_number": 30,
+      "verse_key": "79:30",
+      "hizb_number": 59,
+      "rub_el_hizb_number": 233,
+      "ruku_number": 523,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "وَٱلْأَرْضَ بَعْدَ ذَٰلِكَ دَحَىٰهَآ",
+      "page_number": 584,
+      "juz_number": 30,
+      "translations": [
+        {
+          "id": 407445,
+          "resource_id": 85,
+          "text": "and the earth, too, He spread out,"
+        }
+      ]
+    },
+    {
+      "id": 5743,
+      "verse_number": 31,
+      "verse_key": "79:31",
+      "hizb_number": 59,
+      "rub_el_hizb_number": 233,
+      "ruku_number": 523,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "أَخْرَجَ مِنْهَا مَآءَهَا وَمَرْعَىٰهَا",
+      "page_number": 584,
+      "juz_number": 30,
+      "translations": [
+        {
+          "id": 407446,
+          "resource_id": 85,
+          "text": "bringing waters and pastures out of it,"
+        }
+      ]
+    },
+    {
+      "id": 5744,
+      "verse_number": 32,
+      "verse_key": "79:32",
+      "hizb_number": 59,
+      "rub_el_hizb_number": 233,
+      "ruku_number": 523,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "وَٱلْجِبَالَ أَرْسَىٰهَا",
+      "page_number": 584,
+      "juz_number": 30,
+      "translations": [
+        {
+          "id": 407447,
+          "resource_id": 85,
+          "text": "and setting firm mountains [in it]"
+        }
+      ]
+    },
+    {
+      "id": 5745,
+      "verse_number": 33,
+      "verse_key": "79:33",
+      "hizb_number": 59,
+      "rub_el_hizb_number": 233,
+      "ruku_number": 523,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "مَتَـٰعًا لَّكُمْ وَلِأَنْعَـٰمِكُمْ",
+      "page_number": 584,
+      "juz_number": 30,
+      "translations": [
+        {
+          "id": 407448,
+          "resource_id": 85,
+          "text": "for you and your animals to enjoy?"
+        }
+      ]
+    },
+    {
+      "id": 5746,
+      "verse_number": 34,
+      "verse_key": "79:34",
+      "hizb_number": 59,
+      "rub_el_hizb_number": 233,
+      "ruku_number": 523,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "فَإِذَا جَآءَتِ ٱلطَّآمَّةُ ٱلْكُبْرَىٰ",
+      "page_number": 584,
+      "juz_number": 30,
+      "translations": [
+        {
+          "id": 407449,
+          "resource_id": 85,
+          "text": "When the great overwhelming event arrives"
+        }
+      ]
+    },
+    {
+      "id": 5747,
+      "verse_number": 35,
+      "verse_key": "79:35",
+      "hizb_number": 59,
+      "rub_el_hizb_number": 233,
+      "ruku_number": 523,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "يَوْمَ يَتَذَكَّرُ ٱلْإِنسَـٰنُ مَا سَعَىٰ",
+      "page_number": 584,
+      "juz_number": 30,
+      "translations": [
+        {
+          "id": 407450,
+          "resource_id": 85,
+          "text": "on the Day that man remembers what he has done"
+        }
+      ]
+    },
+    {
+      "id": 5748,
+      "verse_number": 36,
+      "verse_key": "79:36",
+      "hizb_number": 59,
+      "rub_el_hizb_number": 233,
+      "ruku_number": 523,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "وَبُرِّزَتِ ٱلْجَحِيمُ لِمَن يَرَىٰ",
+      "page_number": 584,
+      "juz_number": 30,
+      "translations": [
+        {
+          "id": 407451,
+          "resource_id": 85,
+          "text": "and Hell is there for all to see,"
+        }
+      ]
+    },
+    {
+      "id": 5749,
+      "verse_number": 37,
+      "verse_key": "79:37",
+      "hizb_number": 59,
+      "rub_el_hizb_number": 233,
+      "ruku_number": 523,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "فَأَمَّا مَن طَغَىٰ",
+      "page_number": 584,
+      "juz_number": 30,
+      "translations": [
+        {
+          "id": 407452,
+          "resource_id": 85,
+          "text": "for anyone who has transgressed"
+        }
+      ]
+    },
+    {
+      "id": 5750,
+      "verse_number": 38,
+      "verse_key": "79:38",
+      "hizb_number": 59,
+      "rub_el_hizb_number": 233,
+      "ruku_number": 523,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "وَءَاثَرَ ٱلْحَيَوٰةَ ٱلدُّنْيَا",
+      "page_number": 584,
+      "juz_number": 30,
+      "translations": [
+        {
+          "id": 407453,
+          "resource_id": 85,
+          "text": "and preferred the present life"
+        }
+      ]
+    },
+    {
+      "id": 5751,
+      "verse_number": 39,
+      "verse_key": "79:39",
+      "hizb_number": 59,
+      "rub_el_hizb_number": 233,
+      "ruku_number": 523,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "فَإِنَّ ٱلْجَحِيمَ هِىَ ٱلْمَأْوَىٰ",
+      "page_number": 584,
+      "juz_number": 30,
+      "translations": [
+        {
+          "id": 407454,
+          "resource_id": 85,
+          "text": "Hell will be home;"
+        }
+      ]
+    },
+    {
+      "id": 5752,
+      "verse_number": 40,
+      "verse_key": "79:40",
+      "hizb_number": 59,
+      "rub_el_hizb_number": 233,
+      "ruku_number": 523,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "وَأَمَّا مَنْ خَافَ مَقَامَ رَبِّهِۦ وَنَهَى ٱلنَّفْسَ عَنِ ٱلْهَوَىٰ",
+      "page_number": 584,
+      "juz_number": 30,
+      "translations": [
+        {
+          "id": 407455,
+          "resource_id": 85,
+          "text": "for anyone who feared the meeting with his Lord and restrained himself from base desires,"
+        }
+      ]
+    },
+    {
+      "id": 5753,
+      "verse_number": 41,
+      "verse_key": "79:41",
+      "hizb_number": 59,
+      "rub_el_hizb_number": 233,
+      "ruku_number": 523,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "فَإِنَّ ٱلْجَنَّةَ هِىَ ٱلْمَأْوَىٰ",
+      "page_number": 584,
+      "juz_number": 30,
+      "translations": [
+        {
+          "id": 407456,
+          "resource_id": 85,
+          "text": "Paradise will be home."
+        }
+      ]
+    },
+    {
+      "id": 5754,
+      "verse_number": 42,
+      "verse_key": "79:42",
+      "hizb_number": 59,
+      "rub_el_hizb_number": 233,
+      "ruku_number": 523,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "يَسْـَٔلُونَكَ عَنِ ٱلسَّاعَةِ أَيَّانَ مُرْسَىٰهَا",
+      "page_number": 584,
+      "juz_number": 30,
+      "translations": [
+        {
+          "id": 407457,
+          "resource_id": 85,
+          "text": "They ask you [Prophet] about the Hour,"
+        }
+      ]
+    },
+    {
+      "id": 5755,
+      "verse_number": 43,
+      "verse_key": "79:43",
+      "hizb_number": 59,
+      "rub_el_hizb_number": 233,
+      "ruku_number": 523,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "فِيمَ أَنتَ مِن ذِكْرَىٰهَآ",
+      "page_number": 584,
+      "juz_number": 30,
+      "translations": [
+        {
+          "id": 407458,
+          "resource_id": 85,
+          "text": "saying, ‘When will it arrive?’, but how can you tell [them that]?"
+        }
+      ]
+    },
+    {
+      "id": 5756,
+      "verse_number": 44,
+      "verse_key": "79:44",
+      "hizb_number": 59,
+      "rub_el_hizb_number": 233,
+      "ruku_number": 523,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "إِلَىٰ رَبِّكَ مُنتَهَىٰهَآ",
+      "page_number": 584,
+      "juz_number": 30,
+      "translations": [
+        {
+          "id": 407459,
+          "resource_id": 85,
+          "text": "Its time is known only to your Lord;"
+        }
+      ]
+    },
+    {
+      "id": 5757,
+      "verse_number": 45,
+      "verse_key": "79:45",
+      "hizb_number": 59,
+      "rub_el_hizb_number": 233,
+      "ruku_number": 523,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "إِنَّمَآ أَنتَ مُنذِرُ مَن يَخْشَىٰهَا",
+      "page_number": 584,
+      "juz_number": 30,
+      "translations": [
+        {
+          "id": 407460,
+          "resource_id": 85,
+          "text": "you are only sent to warn those who fear it."
+        }
+      ]
+    },
+    {
+      "id": 5758,
+      "verse_number": 46,
+      "verse_key": "79:46",
+      "hizb_number": 59,
+      "rub_el_hizb_number": 233,
+      "ruku_number": 523,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "كَأَنَّهُمْ يَوْمَ يَرَوْنَهَا لَمْ يَلْبَثُوٓا۟ إِلَّا عَشِيَّةً أَوْ ضُحَىٰهَا",
+      "page_number": 584,
+      "juz_number": 30,
+      "translations": [
+        {
+          "id": 407461,
+          "resource_id": 85,
+          "text": "On the Day they see it, it will seem they lingered [in this life] an evening [at most,] or its morning."
+        }
+      ]
+    }
+  ]
+}

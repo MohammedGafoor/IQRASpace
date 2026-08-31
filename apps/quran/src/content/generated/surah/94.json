@@ -1,0 +1,183 @@
+{
+  "syncedAt": "2026-08-31T05:21:26.028Z",
+  "chapter": {
+    "id": 94,
+    "revelation_place": "makkah",
+    "revelation_order": 12,
+    "bismillah_pre": true,
+    "name_simple": "Ash-Sharh",
+    "name_complex": "Ash-Sharĥ",
+    "name_arabic": "الشرح",
+    "verses_count": 8,
+    "pages": [
+      596,
+      596
+    ],
+    "translated_name": {
+      "language_name": "english",
+      "name": "The Relief"
+    }
+  },
+  "verses": [
+    {
+      "id": 6091,
+      "verse_number": 1,
+      "verse_key": "94:1",
+      "hizb_number": 60,
+      "rub_el_hizb_number": 239,
+      "ruku_number": 538,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": " أَلَمْ نَشْرَحْ لَكَ صَدْرَكَ",
+      "page_number": 596,
+      "juz_number": 30,
+      "translations": [
+        {
+          "id": 407794,
+          "resource_id": 85,
+          "text": "Did We not relieve your heart for you [Prophet],"
+        }
+      ]
+    },
+    {
+      "id": 6092,
+      "verse_number": 2,
+      "verse_key": "94:2",
+      "hizb_number": 60,
+      "rub_el_hizb_number": 239,
+      "ruku_number": 538,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "وَوَضَعْنَا عَنكَ وِزْرَكَ",
+      "page_number": 596,
+      "juz_number": 30,
+      "translations": [
+        {
+          "id": 407795,
+          "resource_id": 85,
+          "text": "and remove the burden"
+        }
+      ]
+    },
+    {
+      "id": 6093,
+      "verse_number": 3,
+      "verse_key": "94:3",
+      "hizb_number": 60,
+      "rub_el_hizb_number": 239,
+      "ruku_number": 538,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "ٱلَّذِىٓ أَنقَضَ ظَهْرَكَ",
+      "page_number": 596,
+      "juz_number": 30,
+      "translations": [
+        {
+          "id": 407796,
+          "resource_id": 85,
+          "text": "that weighed so heavily on your back,"
+        }
+      ]
+    },
+    {
+      "id": 6094,
+      "verse_number": 4,
+      "verse_key": "94:4",
+      "hizb_number": 60,
+      "rub_el_hizb_number": 239,
+      "ruku_number": 538,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "وَرَفَعْنَا لَكَ ذِكْرَكَ",
+      "page_number": 596,
+      "juz_number": 30,
+      "translations": [
+        {
+          "id": 407797,
+          "resource_id": 85,
+          "text": "and raise your reputation high?"
+        }
+      ]
+    },
+    {
+      "id": 6095,
+      "verse_number": 5,
+      "verse_key": "94:5",
+      "hizb_number": 60,
+      "rub_el_hizb_number": 239,
+      "ruku_number": 538,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "فَإِنَّ مَعَ ٱلْعُسْرِ يُسْرًا",
+      "page_number": 596,
+      "juz_number": 30,
+      "translations": [
+        {
+          "id": 407798,
+          "resource_id": 85,
+          "text": "So truly where there is hardship there is also ease;"
+        }
+      ]
+    },
+    {
+      "id": 6096,
+      "verse_number": 6,
+      "verse_key": "94:6",
+      "hizb_number": 60,
+      "rub_el_hizb_number": 239,
+      "ruku_number": 538,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "إِنَّ مَعَ ٱلْعُسْرِ يُسْرًا",
+      "page_number": 596,
+      "juz_number": 30,
+      "translations": [
+        {
+          "id": 407799,
+          "resource_id": 85,
+          "text": "truly where there is hardship there is also ease."
+        }
+      ]
+    },
+    {
+      "id": 6097,
+      "verse_number": 7,
+      "verse_key": "94:7",
+      "hizb_number": 60,
+      "rub_el_hizb_number": 239,
+      "ruku_number": 538,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "فَإِذَا فَرَغْتَ فَٱنصَبْ",
+      "page_number": 596,
+      "juz_number": 30,
+      "translations": [
+        {
+          "id": 407800,
+          "resource_id": 85,
+          "text": "The moment you are freed [of one task] work on,"
+        }
+      ]
+    },
+    {
+      "id": 6098,
+      "verse_number": 8,
+      "verse_key": "94:8",
+      "hizb_number": 60,
+      "rub_el_hizb_number": 239,
+      "ruku_number": 538,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "وَإِلَىٰ رَبِّكَ فَٱرْغَب",
+      "page_number": 596,
+      "juz_number": 30,
+      "translations": [
+        {
+          "id": 407801,
+          "resource_id": 85,
+          "text": "and turn to your Lord for everything."
+        }
+      ]
+    }
+  ]
+}

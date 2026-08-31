@@ -1,0 +1,83 @@
+{
+  "syncedAt": "2026-08-31T05:21:31.859Z",
+  "chapter": {
+    "id": 108,
+    "revelation_place": "makkah",
+    "revelation_order": 15,
+    "bismillah_pre": true,
+    "name_simple": "Al-Kawthar",
+    "name_complex": "Al-Kawthar",
+    "name_arabic": "الكوثر",
+    "verses_count": 3,
+    "pages": [
+      602,
+      602
+    ],
+    "translated_name": {
+      "language_name": "english",
+      "name": "The Abundance"
+    }
+  },
+  "verses": [
+    {
+      "id": 6205,
+      "verse_number": 1,
+      "verse_key": "108:1",
+      "hizb_number": 60,
+      "rub_el_hizb_number": 240,
+      "ruku_number": 552,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": " إِنَّآ أَعْطَيْنَـٰكَ ٱلْكَوْثَرَ",
+      "page_number": 602,
+      "juz_number": 30,
+      "translations": [
+        {
+          "id": 407908,
+          "resource_id": 85,
+          "text": "We have truly given abundance to you [Prophet]––"
+        }
+      ]
+    },
+    {
+      "id": 6206,
+      "verse_number": 2,
+      "verse_key": "108:2",
+      "hizb_number": 60,
+      "rub_el_hizb_number": 240,
+      "ruku_number": 552,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "فَصَلِّ لِرَبِّكَ وَٱنْحَرْ",
+      "page_number": 602,
+      "juz_number": 30,
+      "translations": [
+        {
+          "id": 407909,
+          "resource_id": 85,
+          "text": "so pray to your Lord and make your sacrifice to Him alone––"
+        }
+      ]
+    },
+    {
+      "id": 6207,
+      "verse_number": 3,
+      "verse_key": "108:3",
+      "hizb_number": 60,
+      "rub_el_hizb_number": 240,
+      "ruku_number": 552,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "إِنَّ شَانِئَكَ هُوَ ٱلْأَبْتَرُ",
+      "page_number": 602,
+      "juz_number": 30,
+      "translations": [
+        {
+          "id": 407910,
+          "resource_id": 85,
+          "text": "it is the one who hates you who has been cut off."
+        }
+      ]
+    }
+  ]
+}

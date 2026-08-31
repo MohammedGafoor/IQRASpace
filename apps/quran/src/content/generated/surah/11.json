@@ -1,0 +1,2483 @@
+{
+  "syncedAt": "2026-08-31T05:20:30.135Z",
+  "chapter": {
+    "id": 11,
+    "revelation_place": "makkah",
+    "revelation_order": 52,
+    "bismillah_pre": true,
+    "name_simple": "Hud",
+    "name_complex": "Hūd",
+    "name_arabic": "هود",
+    "verses_count": 123,
+    "pages": [
+      221,
+      235
+    ],
+    "translated_name": {
+      "language_name": "english",
+      "name": "Hud"
+    }
+  },
+  "verses": [
+    {
+      "id": 1474,
+      "verse_number": 1,
+      "verse_key": "11:1",
+      "hizb_number": 22,
+      "rub_el_hizb_number": 88,
+      "ruku_number": 183,
+      "manzil_number": 3,
+      "sajdah_number": null,
+      "text_uthmani": " الٓر ۚ كِتَـٰبٌ أُحْكِمَتْ ءَايَـٰتُهُۥ ثُمَّ فُصِّلَتْ مِن لَّدُنْ حَكِيمٍ خَبِيرٍ",
+      "page_number": 221,
+      "juz_number": 11,
+      "translations": [
+        {
+          "id": 403177,
+          "resource_id": 85,
+          "text": "Alif Lam Ra [This is] a Scripture whose verses are perfected, then set out clearly, from One who is all wise, all aware."
+        }
+      ]
+    },
+    {
+      "id": 1475,
+      "verse_number": 2,
+      "verse_key": "11:2",
+      "hizb_number": 22,
+      "rub_el_hizb_number": 88,
+      "ruku_number": 183,
+      "manzil_number": 3,
+      "sajdah_number": null,
+      "text_uthmani": "أَلَّا تَعْبُدُوٓا۟ إِلَّا ٱللَّهَ ۚ إِنَّنِى لَكُم مِّنْهُ نَذِيرٌ وَبَشِيرٌ",
+      "page_number": 221,
+      "juz_number": 11,
+      "translations": [
+        {
+          "id": 403178,
+          "resource_id": 85,
+          "text": "[Say, Prophet], ‘Worship no one but God. I am sent to you from Him to warn and to give good news."
+        }
+      ]
+    },
+    {
+      "id": 1476,
+      "verse_number": 3,
+      "verse_key": "11:3",
+      "hizb_number": 22,
+      "rub_el_hizb_number": 88,
+      "ruku_number": 183,
+      "manzil_number": 3,
+      "sajdah_number": null,
+      "text_uthmani": "وَأَنِ ٱسْتَغْفِرُوا۟ رَبَّكُمْ ثُمَّ تُوبُوٓا۟ إِلَيْهِ يُمَتِّعْكُم مَّتَـٰعًا حَسَنًا إِلَىٰٓ أَجَلٍ مُّسَمًّى وَيُؤْتِ كُلَّ ذِى فَضْلٍ فَضْلَهُۥ ۖ وَإِن تَوَلَّوْا۟ فَإِنِّىٓ أَخَافُ عَلَيْكُمْ عَذَابَ يَوْمٍ كَبِيرٍ",
+      "page_number": 221,
+      "juz_number": 11,
+      "translations": [
+        {
+          "id": 403179,
+          "resource_id": 85,
+          "text": "Ask your Lord for forgiveness, then turn back to Him. He will grant you wholesome enjoyment until an appointed time, and give His grace to everyone who has merit. But if you turn away, I fear you will have torment on a terrible Day:"
+        }
+      ]
+    },
+    {
+      "id": 1477,
+      "verse_number": 4,
+      "verse_key": "11:4",
+      "hizb_number": 22,
+      "rub_el_hizb_number": 88,
+      "ruku_number": 183,
+      "manzil_number": 3,
+      "sajdah_number": null,
+      "text_uthmani": "إِلَى ٱللَّهِ مَرْجِعُكُمْ ۖ وَهُوَ عَلَىٰ كُلِّ شَىْءٍ قَدِيرٌ",
+      "page_number": 221,
+      "juz_number": 11,
+      "translations": [
+        {
+          "id": 403180,
+          "resource_id": 85,
+          "text": "it is to God that you will all return, and He has power over everything.’"
+        }
+      ]
+    },
+    {
+      "id": 1478,
+      "verse_number": 5,
+      "verse_key": "11:5",
+      "hizb_number": 22,
+      "rub_el_hizb_number": 88,
+      "ruku_number": 183,
+      "manzil_number": 3,
+      "sajdah_number": null,
+      "text_uthmani": "أَلَآ إِنَّهُمْ يَثْنُونَ صُدُورَهُمْ لِيَسْتَخْفُوا۟ مِنْهُ ۚ أَلَا حِينَ يَسْتَغْشُونَ ثِيَابَهُمْ يَعْلَمُ مَا يُسِرُّونَ وَمَا يُعْلِنُونَ ۚ إِنَّهُۥ عَلِيمٌۢ بِذَاتِ ٱلصُّدُورِ",
+      "page_number": 221,
+      "juz_number": 11,
+      "translations": [
+        {
+          "id": 403181,
+          "resource_id": 85,
+          "text": "See how they [the disbelievers] wrap themselves up, to hide their feelings from Him. But even when they cover themselves with their clothes, He knows what they conceal and what they reveal: He knows well the innermost secrets of the heart."
+        }
+      ]
+    },
+    {
+      "id": 1479,
+      "verse_number": 6,
+      "verse_key": "11:6",
+      "hizb_number": 23,
+      "rub_el_hizb_number": 89,
+      "ruku_number": 183,
+      "manzil_number": 3,
+      "sajdah_number": null,
+      "text_uthmani": "۞ وَمَا مِن دَآبَّةٍ فِى ٱلْأَرْضِ إِلَّا عَلَى ٱللَّهِ رِزْقُهَا وَيَعْلَمُ مُسْتَقَرَّهَا وَمُسْتَوْدَعَهَا ۚ كُلٌّ فِى كِتَـٰبٍ مُّبِينٍ",
+      "page_number": 222,
+      "juz_number": 12,
+      "translations": [
+        {
+          "id": 403182,
+          "resource_id": 85,
+          "text": "There is not a creature that moves on earth whose provision is not His concern. He knows where it lives and its [final] resting place: it is all [there] in a clear record."
+        }
+      ]
+    },
+    {
+      "id": 1480,
+      "verse_number": 7,
+      "verse_key": "11:7",
+      "hizb_number": 23,
+      "rub_el_hizb_number": 89,
+      "ruku_number": 183,
+      "manzil_number": 3,
+      "sajdah_number": null,
+      "text_uthmani": "وَهُوَ ٱلَّذِى خَلَقَ ٱلسَّمَـٰوَٰتِ وَٱلْأَرْضَ فِى سِتَّةِ أَيَّامٍ وَكَانَ عَرْشُهُۥ عَلَى ٱلْمَآءِ لِيَبْلُوَكُمْ أَيُّكُمْ أَحْسَنُ عَمَلًا ۗ وَلَئِن قُلْتَ إِنَّكُم مَّبْعُوثُونَ مِنۢ بَعْدِ ٱلْمَوْتِ لَيَقُولَنَّ ٱلَّذِينَ كَفَرُوٓا۟ إِنْ هَـٰذَآ إِلَّا سِحْرٌ مُّبِينٌ",
+      "page_number": 222,
+      "juz_number": 12,
+      "translations": [
+        {
+          "id": 403183,
+          "resource_id": 85,
+          "text": "It is He who created the heavens and the earth in six Days––His rule extends over the waters too––so as to test which of you does best. Yet [Prophet], if you say to them, ‘You will be resurrected after death,’ the disbelievers are sure to answer, ‘This is clearly nothing but sorcery.’"
+        }
+      ]
+    },
+    {
+      "id": 1481,
+      "verse_number": 8,
+      "verse_key": "11:8",
+      "hizb_number": 23,
+      "rub_el_hizb_number": 89,
+      "ruku_number": 183,
+      "manzil_number": 3,
+      "sajdah_number": null,
+      "text_uthmani": "وَلَئِنْ أَخَّرْنَا عَنْهُمُ ٱلْعَذَابَ إِلَىٰٓ أُمَّةٍ مَّعْدُودَةٍ لَّيَقُولُنَّ مَا يَحْبِسُهُۥٓ ۗ أَلَا يَوْمَ يَأْتِيهِمْ لَيْسَ مَصْرُوفًا عَنْهُمْ وَحَاقَ بِهِم مَّا كَانُوا۟ بِهِۦ يَسْتَهْزِءُونَ",
+      "page_number": 222,
+      "juz_number": 12,
+      "translations": [
+        {
+          "id": 403184,
+          "resource_id": 85,
+          "text": "If We defer their punishment for a determined time, they are sure to say, ‘What is holding it back?’ But on the Day it comes upon them, nothing will divert it from them; what they mocked will be all around them."
+        }
+      ]
+    },
+    {
+      "id": 1482,
+      "verse_number": 9,
+      "verse_key": "11:9",
+      "hizb_number": 23,
+      "rub_el_hizb_number": 89,
+      "ruku_number": 184,
+      "manzil_number": 3,
+      "sajdah_number": null,
+      "text_uthmani": "وَلَئِنْ أَذَقْنَا ٱلْإِنسَـٰنَ مِنَّا رَحْمَةً ثُمَّ نَزَعْنَـٰهَا مِنْهُ إِنَّهُۥ لَيَـُٔوسٌ كَفُورٌ",
+      "page_number": 222,
+      "juz_number": 12,
+      "translations": [
+        {
+          "id": 403185,
+          "resource_id": 85,
+          "text": "How desperate and ungrateful man becomes when We let him taste Our mercy and then withhold it!"
+        }
+      ]
+    },
+    {
+      "id": 1483,
+      "verse_number": 10,
+      "verse_key": "11:10",
+      "hizb_number": 23,
+      "rub_el_hizb_number": 89,
+      "ruku_number": 184,
+      "manzil_number": 3,
+      "sajdah_number": null,
+      "text_uthmani": "وَلَئِنْ أَذَقْنَـٰهُ نَعْمَآءَ بَعْدَ ضَرَّآءَ مَسَّتْهُ لَيَقُولَنَّ ذَهَبَ ٱلسَّيِّـَٔاتُ عَنِّىٓ ۚ إِنَّهُۥ لَفَرِحٌ فَخُورٌ",
+      "page_number": 222,
+      "juz_number": 12,
+      "translations": [
+        {
+          "id": 403186,
+          "resource_id": 85,
+          "text": "And if We let him taste mercy after some harm has touched him, he is sure to say, ‘Misfortune has gone away from me.’ He becomes exultant and boastful."
+        }
+      ]
+    },
+    {
+      "id": 1484,
+      "verse_number": 11,
+      "verse_key": "11:11",
+      "hizb_number": 23,
+      "rub_el_hizb_number": 89,
+      "ruku_number": 184,
+      "manzil_number": 3,
+      "sajdah_number": null,
+      "text_uthmani": "إِلَّا ٱلَّذِينَ صَبَرُوا۟ وَعَمِلُوا۟ ٱلصَّـٰلِحَـٰتِ أُو۟لَـٰٓئِكَ لَهُم مَّغْفِرَةٌ وَأَجْرٌ كَبِيرٌ",
+      "page_number": 222,
+      "juz_number": 12,
+      "translations": [
+        {
+          "id": 403187,
+          "resource_id": 85,
+          "text": "Not so those who are steadfast and do good deeds: they will have forgiveness and a great reward."
+        }
+      ]
+    },
+    {
+      "id": 1485,
+      "verse_number": 12,
+      "verse_key": "11:12",
+      "hizb_number": 23,
+      "rub_el_hizb_number": 89,
+      "ruku_number": 184,
+      "manzil_number": 3,
+      "sajdah_number": null,
+      "text_uthmani": "فَلَعَلَّكَ تَارِكٌۢ بَعْضَ مَا يُوحَىٰٓ إِلَيْكَ وَضَآئِقٌۢ بِهِۦ صَدْرُكَ أَن يَقُولُوا۟ لَوْلَآ أُنزِلَ عَلَيْهِ كَنزٌ أَوْ جَآءَ مَعَهُۥ مَلَكٌ ۚ إِنَّمَآ أَنتَ نَذِيرٌ ۚ وَٱللَّهُ عَلَىٰ كُلِّ شَىْءٍ وَكِيلٌ",
+      "page_number": 222,
+      "juz_number": 12,
+      "translations": [
+        {
+          "id": 403188,
+          "resource_id": 85,
+          "text": "So [Prophet] are you going to abandon some part of what is revealed to you, and let your heart be oppressed by it, because they say, ‘Why is no treasure sent down to him? Why has no angel come with him?’? You are only there to warn; it is God who is in charge of everything."
+        }
+      ]
+    },
+    {
+      "id": 1486,
+      "verse_number": 13,
+      "verse_key": "11:13",
+      "hizb_number": 23,
+      "rub_el_hizb_number": 89,
+      "ruku_number": 184,
+      "manzil_number": 3,
+      "sajdah_number": null,
+      "text_uthmani": "أَمْ يَقُولُونَ ٱفْتَرَىٰهُ ۖ قُلْ فَأْتُوا۟ بِعَشْرِ سُوَرٍ مِّثْلِهِۦ مُفْتَرَيَـٰتٍ وَٱدْعُوا۟ مَنِ ٱسْتَطَعْتُم مِّن دُونِ ٱللَّهِ إِن كُنتُمْ صَـٰدِقِينَ",
+      "page_number": 223,
+      "juz_number": 12,
+      "translations": [
+        {
+          "id": 403189,
+          "resource_id": 85,
+          "text": "If they say, ‘He has invented it himself,’ say, ‘Then produce ten invented suras like it, and call in whoever you can beside God, if you are truthful.’"
+        }
+      ]
+    },
+    {
+      "id": 1487,
+      "verse_number": 14,
+      "verse_key": "11:14",
+      "hizb_number": 23,
+      "rub_el_hizb_number": 89,
+      "ruku_number": 184,
+      "manzil_number": 3,
+      "sajdah_number": null,
+      "text_uthmani": "فَإِلَّمْ يَسْتَجِيبُوا۟ لَكُمْ فَٱعْلَمُوٓا۟ أَنَّمَآ أُنزِلَ بِعِلْمِ ٱللَّهِ وَأَن لَّآ إِلَـٰهَ إِلَّا هُوَ ۖ فَهَلْ أَنتُم مُّسْلِمُونَ",
+      "page_number": 223,
+      "juz_number": 12,
+      "translations": [
+        {
+          "id": 403190,
+          "resource_id": 85,
+          "text": "If they do not answer you, then you will all know that it is sent down containing knowledge from God, and that there is no god but Him. Then will you submit to Him?"
+        }
+      ]
+    },
+    {
+      "id": 1488,
+      "verse_number": 15,
+      "verse_key": "11:15",
+      "hizb_number": 23,
+      "rub_el_hizb_number": 89,
+      "ruku_number": 184,
+      "manzil_number": 3,
+      "sajdah_number": null,
+      "text_uthmani": "مَن كَانَ يُرِيدُ ٱلْحَيَوٰةَ ٱلدُّنْيَا وَزِينَتَهَا نُوَفِّ إِلَيْهِمْ أَعْمَـٰلَهُمْ فِيهَا وَهُمْ فِيهَا لَا يُبْخَسُونَ",
+      "page_number": 223,
+      "juz_number": 12,
+      "translations": [
+        {
+          "id": 403191,
+          "resource_id": 85,
+          "text": "If any desire [only] the life of this world with all its finery, We shall repay them in full in this life for their deeds- they will be given no less-"
+        }
+      ]
+    },
+    {
+      "id": 1489,
+      "verse_number": 16,
+      "verse_key": "11:16",
+      "hizb_number": 23,
+      "rub_el_hizb_number": 89,
+      "ruku_number": 184,
+      "manzil_number": 3,
+      "sajdah_number": null,
+      "text_uthmani": "أُو۟لَـٰٓئِكَ ٱلَّذِينَ لَيْسَ لَهُمْ فِى ٱلْـَٔاخِرَةِ إِلَّا ٱلنَّارُ ۖ وَحَبِطَ مَا صَنَعُوا۟ فِيهَا وَبَـٰطِلٌ مَّا كَانُوا۟ يَعْمَلُونَ",
+      "page_number": 223,
+      "juz_number": 12,
+      "translations": [
+        {
+          "id": 403192,
+          "resource_id": 85,
+          "text": "but such people will have nothing in the Hereafter but the Fire: their work here will be fruitless and their deeds futile."
+        }
+      ]
+    },
+    {
+      "id": 1490,
+      "verse_number": 17,
+      "verse_key": "11:17",
+      "hizb_number": 23,
+      "rub_el_hizb_number": 89,
+      "ruku_number": 184,
+      "manzil_number": 3,
+      "sajdah_number": null,
+      "text_uthmani": "أَفَمَن كَانَ عَلَىٰ بَيِّنَةٍ مِّن رَّبِّهِۦ وَيَتْلُوهُ شَاهِدٌ مِّنْهُ وَمِن قَبْلِهِۦ كِتَـٰبُ مُوسَىٰٓ إِمَامًا وَرَحْمَةً ۚ أُو۟لَـٰٓئِكَ يُؤْمِنُونَ بِهِۦ ۚ وَمَن يَكْفُرْ بِهِۦ مِنَ ٱلْأَحْزَابِ فَٱلنَّارُ مَوْعِدُهُۥ ۚ فَلَا تَكُ فِى مِرْيَةٍ مِّنْهُ ۚ إِنَّهُ ٱلْحَقُّ مِن رَّبِّكَ وَلَـٰكِنَّ أَكْثَرَ ٱلنَّاسِ لَا يُؤْمِنُونَ",
+      "page_number": 223,
+      "juz_number": 12,
+      "translations": [
+        {
+          "id": 403193,
+          "resource_id": 85,
+          "text": "Can they be compared to those who have clear proof from their Lord, recited by a witness from Him, and before it the Book of Moses, as a guide and mercy? These people believe in it, whereas those groups that deny its truth are promised the Fire. So have no doubt about it [Prophet]: it is the Truth from your Lord, though most people do not believe so."
+        }
+      ]
+    },
+    {
+      "id": 1491,
+      "verse_number": 18,
+      "verse_key": "11:18",
+      "hizb_number": 23,
+      "rub_el_hizb_number": 89,
+      "ruku_number": 184,
+      "manzil_number": 3,
+      "sajdah_number": null,
+      "text_uthmani": "وَمَنْ أَظْلَمُ مِمَّنِ ٱفْتَرَىٰ عَلَى ٱللَّهِ كَذِبًا ۚ أُو۟لَـٰٓئِكَ يُعْرَضُونَ عَلَىٰ رَبِّهِمْ وَيَقُولُ ٱلْأَشْهَـٰدُ هَـٰٓؤُلَآءِ ٱلَّذِينَ كَذَبُوا۟ عَلَىٰ رَبِّهِمْ ۚ أَلَا لَعْنَةُ ٱللَّهِ عَلَى ٱلظَّـٰلِمِينَ",
+      "page_number": 223,
+      "juz_number": 12,
+      "translations": [
+        {
+          "id": 403194,
+          "resource_id": 85,
+          "text": "Who could do more wrong than someone who invents lies about God? Such people will be brought before their Lord, and the witnesses will say, ‘These are the ones that lied about their Lord.’ God’s rejection is the due of those who do such wrong,"
+        }
+      ]
+    },
+    {
+      "id": 1492,
+      "verse_number": 19,
+      "verse_key": "11:19",
+      "hizb_number": 23,
+      "rub_el_hizb_number": 89,
+      "ruku_number": 184,
+      "manzil_number": 3,
+      "sajdah_number": null,
+      "text_uthmani": "ٱلَّذِينَ يَصُدُّونَ عَن سَبِيلِ ٱللَّهِ وَيَبْغُونَهَا عِوَجًا وَهُم بِٱلْـَٔاخِرَةِ هُمْ كَـٰفِرُونَ",
+      "page_number": 223,
+      "juz_number": 12,
+      "translations": [
+        {
+          "id": 403195,
+          "resource_id": 85,
+          "text": "who hinder others from God’s path, trying to make it crooked, and deny the life to come."
+        }
+      ]
+    },
+    {
+      "id": 1493,
+      "verse_number": 20,
+      "verse_key": "11:20",
+      "hizb_number": 23,
+      "rub_el_hizb_number": 89,
+      "ruku_number": 184,
+      "manzil_number": 3,
+      "sajdah_number": null,
+      "text_uthmani": "أُو۟لَـٰٓئِكَ لَمْ يَكُونُوا۟ مُعْجِزِينَ فِى ٱلْأَرْضِ وَمَا كَانَ لَهُم مِّن دُونِ ٱللَّهِ مِنْ أَوْلِيَآءَ ۘ يُضَـٰعَفُ لَهُمُ ٱلْعَذَابُ ۚ مَا كَانُوا۟ يَسْتَطِيعُونَ ٱلسَّمْعَ وَمَا كَانُوا۟ يُبْصِرُونَ",
+      "page_number": 224,
+      "juz_number": 12,
+      "translations": [
+        {
+          "id": 403196,
+          "resource_id": 85,
+          "text": "They will not escape on earth, and there will be no one other than God to protect them. Their punishment will be doubled. They could not hear, and they did not see."
+        }
+      ]
+    },
+    {
+      "id": 1494,
+      "verse_number": 21,
+      "verse_key": "11:21",
+      "hizb_number": 23,
+      "rub_el_hizb_number": 89,
+      "ruku_number": 184,
+      "manzil_number": 3,
+      "sajdah_number": null,
+      "text_uthmani": "أُو۟لَـٰٓئِكَ ٱلَّذِينَ خَسِرُوٓا۟ أَنفُسَهُمْ وَضَلَّ عَنْهُم مَّا كَانُوا۟ يَفْتَرُونَ",
+      "page_number": 224,
+      "juz_number": 12,
+      "translations": [
+        {
+          "id": 403197,
+          "resource_id": 85,
+          "text": "It is they who will have lost their souls, and what they invented will have deserted them."
+        }
+      ]
+    },
+    {
+      "id": 1495,
+      "verse_number": 22,
+      "verse_key": "11:22",
+      "hizb_number": 23,
+      "rub_el_hizb_number": 89,
+      "ruku_number": 184,
+      "manzil_number": 3,
+      "sajdah_number": null,
+      "text_uthmani": "لَا جَرَمَ أَنَّهُمْ فِى ٱلْـَٔاخِرَةِ هُمُ ٱلْأَخْسَرُونَ",
+      "page_number": 224,
+      "juz_number": 12,
+      "translations": [
+        {
+          "id": 403198,
+          "resource_id": 85,
+          "text": "There is no doubt they will be the ones to lose most in the life to come."
+        }
+      ]
+    },
+    {
+      "id": 1496,
+      "verse_number": 23,
+      "verse_key": "11:23",
+      "hizb_number": 23,
+      "rub_el_hizb_number": 89,
+      "ruku_number": 184,
+      "manzil_number": 3,
+      "sajdah_number": null,
+      "text_uthmani": "إِنَّ ٱلَّذِينَ ءَامَنُوا۟ وَعَمِلُوا۟ ٱلصَّـٰلِحَـٰتِ وَأَخْبَتُوٓا۟ إِلَىٰ رَبِّهِمْ أُو۟لَـٰٓئِكَ أَصْحَـٰبُ ٱلْجَنَّةِ ۖ هُمْ فِيهَا خَـٰلِدُونَ",
+      "page_number": 224,
+      "juz_number": 12,
+      "translations": [
+        {
+          "id": 403199,
+          "resource_id": 85,
+          "text": "But those who believed, did good deeds, and humbled themselves before their Lord will be companions in Paradise and there they will stay."
+        }
+      ]
+    },
+    {
+      "id": 1497,
+      "verse_number": 24,
+      "verse_key": "11:24",
+      "hizb_number": 23,
+      "rub_el_hizb_number": 90,
+      "ruku_number": 184,
+      "manzil_number": 3,
+      "sajdah_number": null,
+      "text_uthmani": "۞ مَثَلُ ٱلْفَرِيقَيْنِ كَٱلْأَعْمَىٰ وَٱلْأَصَمِّ وَٱلْبَصِيرِ وَٱلسَّمِيعِ ۚ هَلْ يَسْتَوِيَانِ مَثَلًا ۚ أَفَلَا تَذَكَّرُونَ",
+      "page_number": 224,
+      "juz_number": 12,
+      "translations": [
+        {
+          "id": 403200,
+          "resource_id": 85,
+          "text": "These two groups are like the blind and the deaf as compared with those who can see and hear well: can they be alike? How can you not take heed?"
+        }
+      ]
+    },
+    {
+      "id": 1498,
+      "verse_number": 25,
+      "verse_key": "11:25",
+      "hizb_number": 23,
+      "rub_el_hizb_number": 90,
+      "ruku_number": 185,
+      "manzil_number": 3,
+      "sajdah_number": null,
+      "text_uthmani": "وَلَقَدْ أَرْسَلْنَا نُوحًا إِلَىٰ قَوْمِهِۦٓ إِنِّى لَكُمْ نَذِيرٌ مُّبِينٌ",
+      "page_number": 224,
+      "juz_number": 12,
+      "translations": [
+        {
+          "id": 403201,
+          "resource_id": 85,
+          "text": "We sent Noah to his people to say, ‘I have come to you to give a clear warning:"
+        }
+      ]
+    },
+    {
+      "id": 1499,
+      "verse_number": 26,
+      "verse_key": "11:26",
+      "hizb_number": 23,
+      "rub_el_hizb_number": 90,
+      "ruku_number": 185,
+      "manzil_number": 3,
+      "sajdah_number": null,
+      "text_uthmani": "أَن لَّا تَعْبُدُوٓا۟ إِلَّا ٱللَّهَ ۖ إِنِّىٓ أَخَافُ عَلَيْكُمْ عَذَابَ يَوْمٍ أَلِيمٍ",
+      "page_number": 224,
+      "juz_number": 12,
+      "translations": [
+        {
+          "id": 403202,
+          "resource_id": 85,
+          "text": "worship no one but God. I fear you will have torment on a painful Day.’"
+        }
+      ]
+    },
+    {
+      "id": 1500,
+      "verse_number": 27,
+      "verse_key": "11:27",
+      "hizb_number": 23,
+      "rub_el_hizb_number": 90,
+      "ruku_number": 185,
+      "manzil_number": 3,
+      "sajdah_number": null,
+      "text_uthmani": "فَقَالَ ٱلْمَلَأُ ٱلَّذِينَ كَفَرُوا۟ مِن قَوْمِهِۦ مَا نَرَىٰكَ إِلَّا بَشَرًا مِّثْلَنَا وَمَا نَرَىٰكَ ٱتَّبَعَكَ إِلَّا ٱلَّذِينَ هُمْ أَرَاذِلُنَا بَادِىَ ٱلرَّأْىِ وَمَا نَرَىٰ لَكُمْ عَلَيْنَا مِن فَضْلٍۭ بَلْ نَظُنُّكُمْ كَـٰذِبِينَ",
+      "page_number": 224,
+      "juz_number": 12,
+      "translations": [
+        {
+          "id": 403203,
+          "resource_id": 85,
+          "text": "But the prominent disbelievers among his people said, ‘We can see that you are nothing but a mortal like ourselves, and it is clear to see that only the vilest among us follow you. We cannot see how you are any better than we are. In fact, we think you are a liar.’"
+        }
+      ]
+    },
+    {
+      "id": 1501,
+      "verse_number": 28,
+      "verse_key": "11:28",
+      "hizb_number": 23,
+      "rub_el_hizb_number": 90,
+      "ruku_number": 185,
+      "manzil_number": 3,
+      "sajdah_number": null,
+      "text_uthmani": "قَالَ يَـٰقَوْمِ أَرَءَيْتُمْ إِن كُنتُ عَلَىٰ بَيِّنَةٍ مِّن رَّبِّى وَءَاتَىٰنِى رَحْمَةً مِّنْ عِندِهِۦ فَعُمِّيَتْ عَلَيْكُمْ أَنُلْزِمُكُمُوهَا وَأَنتُمْ لَهَا كَـٰرِهُونَ",
+      "page_number": 224,
+      "juz_number": 12,
+      "translations": [
+        {
+          "id": 403204,
+          "resource_id": 85,
+          "text": "He said, ‘My people, think: if I did have a clear sign from my Lord, and He had given me grace of His own, though it was hidden from you, could we force you to accept it against your will?"
+        }
+      ]
+    },
+    {
+      "id": 1502,
+      "verse_number": 29,
+      "verse_key": "11:29",
+      "hizb_number": 23,
+      "rub_el_hizb_number": 90,
+      "ruku_number": 185,
+      "manzil_number": 3,
+      "sajdah_number": null,
+      "text_uthmani": "وَيَـٰقَوْمِ لَآ أَسْـَٔلُكُمْ عَلَيْهِ مَالًا ۖ إِنْ أَجْرِىَ إِلَّا عَلَى ٱللَّهِ ۚ وَمَآ أَنَا۠ بِطَارِدِ ٱلَّذِينَ ءَامَنُوٓا۟ ۚ إِنَّهُم مُّلَـٰقُوا۟ رَبِّهِمْ وَلَـٰكِنِّىٓ أَرَىٰكُمْ قَوْمًا تَجْهَلُونَ",
+      "page_number": 225,
+      "juz_number": 12,
+      "translations": [
+        {
+          "id": 403205,
+          "resource_id": 85,
+          "text": "My people, I ask no reward for it from you; my reward comes only from God. I will not drive away the faithful: they are sure to meet their Lord. I can see you are foolish."
+        }
+      ]
+    },
+    {
+      "id": 1503,
+      "verse_number": 30,
+      "verse_key": "11:30",
+      "hizb_number": 23,
+      "rub_el_hizb_number": 90,
+      "ruku_number": 185,
+      "manzil_number": 3,
+      "sajdah_number": null,
+      "text_uthmani": "وَيَـٰقَوْمِ مَن يَنصُرُنِى مِنَ ٱللَّهِ إِن طَرَدتُّهُمْ ۚ أَفَلَا تَذَكَّرُونَ",
+      "page_number": 225,
+      "juz_number": 12,
+      "translations": [
+        {
+          "id": 403206,
+          "resource_id": 85,
+          "text": "My people, who could help me against God if I drove the faithful away? Will you not take heed?"
+        }
+      ]
+    },
+    {
+      "id": 1504,
+      "verse_number": 31,
+      "verse_key": "11:31",
+      "hizb_number": 23,
+      "rub_el_hizb_number": 90,
+      "ruku_number": 185,
+      "manzil_number": 3,
+      "sajdah_number": null,
+      "text_uthmani": "وَلَآ أَقُولُ لَكُمْ عِندِى خَزَآئِنُ ٱللَّهِ وَلَآ أَعْلَمُ ٱلْغَيْبَ وَلَآ أَقُولُ إِنِّى مَلَكٌ وَلَآ أَقُولُ لِلَّذِينَ تَزْدَرِىٓ أَعْيُنُكُمْ لَن يُؤْتِيَهُمُ ٱللَّهُ خَيْرًا ۖ ٱللَّهُ أَعْلَمُ بِمَا فِىٓ أَنفُسِهِمْ ۖ إِنِّىٓ إِذًا لَّمِنَ ٱلظَّـٰلِمِينَ",
+      "page_number": 225,
+      "juz_number": 12,
+      "translations": [
+        {
+          "id": 403207,
+          "resource_id": 85,
+          "text": "I am not telling you that I hold God’s treasures, or have any knowledge of what is hidden, or that I am an angel. Nor do I say that God will not grant any good to those who are despised in your eyes: God Himself knows best what is in their souls. If I did this I would be one of the wrongdoers.’"
+        }
+      ]
+    },
+    {
+      "id": 1505,
+      "verse_number": 32,
+      "verse_key": "11:32",
+      "hizb_number": 23,
+      "rub_el_hizb_number": 90,
+      "ruku_number": 185,
+      "manzil_number": 3,
+      "sajdah_number": null,
+      "text_uthmani": "قَالُوا۟ يَـٰنُوحُ قَدْ جَـٰدَلْتَنَا فَأَكْثَرْتَ جِدَٰلَنَا فَأْتِنَا بِمَا تَعِدُنَآ إِن كُنتَ مِنَ ٱلصَّـٰدِقِينَ",
+      "page_number": 225,
+      "juz_number": 12,
+      "translations": [
+        {
+          "id": 403208,
+          "resource_id": 85,
+          "text": "They said, ‘Noah! You have argued with us for too long. Bring down on us the punishment you threaten us with, if you are telling the truth.’"
+        }
+      ]
+    },
+    {
+      "id": 1506,
+      "verse_number": 33,
+      "verse_key": "11:33",
+      "hizb_number": 23,
+      "rub_el_hizb_number": 90,
+      "ruku_number": 185,
+      "manzil_number": 3,
+      "sajdah_number": null,
+      "text_uthmani": "قَالَ إِنَّمَا يَأْتِيكُم بِهِ ٱللَّهُ إِن شَآءَ وَمَآ أَنتُم بِمُعْجِزِينَ",
+      "page_number": 225,
+      "juz_number": 12,
+      "translations": [
+        {
+          "id": 403209,
+          "resource_id": 85,
+          "text": "He said, ‘It is God who will bring it down, if He wishes, and you will not be able to escape."
+        }
+      ]
+    },
+    {
+      "id": 1507,
+      "verse_number": 34,
+      "verse_key": "11:34",
+      "hizb_number": 23,
+      "rub_el_hizb_number": 90,
+      "ruku_number": 185,
+      "manzil_number": 3,
+      "sajdah_number": null,
+      "text_uthmani": "وَلَا يَنفَعُكُمْ نُصْحِىٓ إِنْ أَرَدتُّ أَنْ أَنصَحَ لَكُمْ إِن كَانَ ٱللَّهُ يُرِيدُ أَن يُغْوِيَكُمْ ۚ هُوَ رَبُّكُمْ وَإِلَيْهِ تُرْجَعُونَ",
+      "page_number": 225,
+      "juz_number": 12,
+      "translations": [
+        {
+          "id": 403210,
+          "resource_id": 85,
+          "text": "My advice will be no use to you if God wishes to leave you to your delusions: He is your Lord and to Him you will be returned.’"
+        }
+      ]
+    },
+    {
+      "id": 1508,
+      "verse_number": 35,
+      "verse_key": "11:35",
+      "hizb_number": 23,
+      "rub_el_hizb_number": 90,
+      "ruku_number": 185,
+      "manzil_number": 3,
+      "sajdah_number": null,
+      "text_uthmani": "أَمْ يَقُولُونَ ٱفْتَرَىٰهُ ۖ قُلْ إِنِ ٱفْتَرَيْتُهُۥ فَعَلَىَّ إِجْرَامِى وَأَنَا۠ بَرِىٓءٌ مِّمَّا تُجْرِمُونَ",
+      "page_number": 225,
+      "juz_number": 12,
+      "translations": [
+        {
+          "id": 403211,
+          "resource_id": 85,
+          "text": "If [these disbelievers] say, ‘He has made this up,’ say [Muhammad], ‘If I have made this up, I am responsible for my own crime, but I am innocent of the crimes you commit.’"
+        }
+      ]
+    },
+    {
+      "id": 1509,
+      "verse_number": 36,
+      "verse_key": "11:36",
+      "hizb_number": 23,
+      "rub_el_hizb_number": 90,
+      "ruku_number": 186,
+      "manzil_number": 3,
+      "sajdah_number": null,
+      "text_uthmani": "وَأُوحِىَ إِلَىٰ نُوحٍ أَنَّهُۥ لَن يُؤْمِنَ مِن قَوْمِكَ إِلَّا مَن قَدْ ءَامَنَ فَلَا تَبْتَئِسْ بِمَا كَانُوا۟ يَفْعَلُونَ",
+      "page_number": 225,
+      "juz_number": 12,
+      "translations": [
+        {
+          "id": 403212,
+          "resource_id": 85,
+          "text": "It was revealed to Noah, ‘None of your people will believe, other than those who have already done so, so do not be distressed by what they do."
+        }
+      ]
+    },
+    {
+      "id": 1510,
+      "verse_number": 37,
+      "verse_key": "11:37",
+      "hizb_number": 23,
+      "rub_el_hizb_number": 90,
+      "ruku_number": 186,
+      "manzil_number": 3,
+      "sajdah_number": null,
+      "text_uthmani": "وَٱصْنَعِ ٱلْفُلْكَ بِأَعْيُنِنَا وَوَحْيِنَا وَلَا تُخَـٰطِبْنِى فِى ٱلَّذِينَ ظَلَمُوٓا۟ ۚ إِنَّهُم مُّغْرَقُونَ",
+      "page_number": 225,
+      "juz_number": 12,
+      "translations": [
+        {
+          "id": 403213,
+          "resource_id": 85,
+          "text": "Build the Ark under Our [watchful] eyes and with Our inspiration. Do not plead with Me for those who have done evil- they will be drowned.’"
+        }
+      ]
+    },
+    {
+      "id": 1511,
+      "verse_number": 38,
+      "verse_key": "11:38",
+      "hizb_number": 23,
+      "rub_el_hizb_number": 90,
+      "ruku_number": 186,
+      "manzil_number": 3,
+      "sajdah_number": null,
+      "text_uthmani": "وَيَصْنَعُ ٱلْفُلْكَ وَكُلَّمَا مَرَّ عَلَيْهِ مَلَأٌ مِّن قَوْمِهِۦ سَخِرُوا۟ مِنْهُ ۚ قَالَ إِن تَسْخَرُوا۟ مِنَّا فَإِنَّا نَسْخَرُ مِنكُمْ كَمَا تَسْخَرُونَ",
+      "page_number": 226,
+      "juz_number": 12,
+      "translations": [
+        {
+          "id": 403214,
+          "resource_id": 85,
+          "text": "So he began to build the Ark, and whenever leaders of his people passed by, they laughed at him. He said, ‘You may scorn us now, but we will come to scorn you:"
+        }
+      ]
+    },
+    {
+      "id": 1512,
+      "verse_number": 39,
+      "verse_key": "11:39",
+      "hizb_number": 23,
+      "rub_el_hizb_number": 90,
+      "ruku_number": 186,
+      "manzil_number": 3,
+      "sajdah_number": null,
+      "text_uthmani": "فَسَوْفَ تَعْلَمُونَ مَن يَأْتِيهِ عَذَابٌ يُخْزِيهِ وَيَحِلُّ عَلَيْهِ عَذَابٌ مُّقِيمٌ",
+      "page_number": 226,
+      "juz_number": 12,
+      "translations": [
+        {
+          "id": 403215,
+          "resource_id": 85,
+          "text": "you will find out who will receive a humiliating punishment, and on whom a lasting suffering will descend.’"
+        }
+      ]
+    },
+    {
+      "id": 1513,
+      "verse_number": 40,
+      "verse_key": "11:40",
+      "hizb_number": 23,
+      "rub_el_hizb_number": 90,
+      "ruku_number": 186,
+      "manzil_number": 3,
+      "sajdah_number": null,
+      "text_uthmani": "حَتَّىٰٓ إِذَا جَآءَ أَمْرُنَا وَفَارَ ٱلتَّنُّورُ قُلْنَا ٱحْمِلْ فِيهَا مِن كُلٍّ زَوْجَيْنِ ٱثْنَيْنِ وَأَهْلَكَ إِلَّا مَن سَبَقَ عَلَيْهِ ٱلْقَوْلُ وَمَنْ ءَامَنَ ۚ وَمَآ ءَامَنَ مَعَهُۥٓ إِلَّا قَلِيلٌ",
+      "page_number": 226,
+      "juz_number": 12,
+      "translations": [
+        {
+          "id": 403216,
+          "resource_id": 85,
+          "text": "When Our command came, and water gushed up out of the earth, We said, ‘Place on board this Ark a pair of each species, and your own family- except those against whom the sentence has already been passed- and those who have believed,’ though only a few believed with him."
+        }
+      ]
+    },
+    {
+      "id": 1514,
+      "verse_number": 41,
+      "verse_key": "11:41",
+      "hizb_number": 23,
+      "rub_el_hizb_number": 91,
+      "ruku_number": 186,
+      "manzil_number": 3,
+      "sajdah_number": null,
+      "text_uthmani": "۞ وَقَالَ ٱرْكَبُوا۟ فِيهَا بِسْمِ ٱللَّهِ مَجْر۪ىٰهَا وَمُرْسَىٰهَآ ۚ إِنَّ رَبِّى لَغَفُورٌ رَّحِيمٌ",
+      "page_number": 226,
+      "juz_number": 12,
+      "translations": [
+        {
+          "id": 403217,
+          "resource_id": 85,
+          "text": "He said, ‘Board the Ark. In the name of God it shall sail and anchor. My God is most forgiving and merciful.’"
+        }
+      ]
+    },
+    {
+      "id": 1515,
+      "verse_number": 42,
+      "verse_key": "11:42",
+      "hizb_number": 23,
+      "rub_el_hizb_number": 91,
+      "ruku_number": 186,
+      "manzil_number": 3,
+      "sajdah_number": null,
+      "text_uthmani": "وَهِىَ تَجْرِى بِهِمْ فِى مَوْجٍ كَٱلْجِبَالِ وَنَادَىٰ نُوحٌ ٱبْنَهُۥ وَكَانَ فِى مَعْزِلٍ يَـٰبُنَىَّ ٱرْكَب مَّعَنَا وَلَا تَكُن مَّعَ ٱلْكَـٰفِرِينَ",
+      "page_number": 226,
+      "juz_number": 12,
+      "translations": [
+        {
+          "id": 403218,
+          "resource_id": 85,
+          "text": "It sailed with them on waves like mountains, and Noah called out to his son, who stayed behind, ‘Come aboard with us, my son, do not stay with the disbelievers.’"
+        }
+      ]
+    },
+    {
+      "id": 1516,
+      "verse_number": 43,
+      "verse_key": "11:43",
+      "hizb_number": 23,
+      "rub_el_hizb_number": 91,
+      "ruku_number": 186,
+      "manzil_number": 3,
+      "sajdah_number": null,
+      "text_uthmani": "قَالَ سَـَٔاوِىٓ إِلَىٰ جَبَلٍ يَعْصِمُنِى مِنَ ٱلْمَآءِ ۚ قَالَ لَا عَاصِمَ ٱلْيَوْمَ مِنْ أَمْرِ ٱللَّهِ إِلَّا مَن رَّحِمَ ۚ وَحَالَ بَيْنَهُمَا ٱلْمَوْجُ فَكَانَ مِنَ ٱلْمُغْرَقِينَ",
+      "page_number": 226,
+      "juz_number": 12,
+      "translations": [
+        {
+          "id": 403219,
+          "resource_id": 85,
+          "text": "But he replied, ‘I will seek refuge on a mountain to save me from the water.’ Noah said, ‘Today there is no refuge from God’s command, except for those on whom He has mercy.’ The waves cut them off from each other and he was among the drowned."
+        }
+      ]
+    },
+    {
+      "id": 1517,
+      "verse_number": 44,
+      "verse_key": "11:44",
+      "hizb_number": 23,
+      "rub_el_hizb_number": 91,
+      "ruku_number": 186,
+      "manzil_number": 3,
+      "sajdah_number": null,
+      "text_uthmani": "وَقِيلَ يَـٰٓأَرْضُ ٱبْلَعِى مَآءَكِ وَيَـٰسَمَآءُ أَقْلِعِى وَغِيضَ ٱلْمَآءُ وَقُضِىَ ٱلْأَمْرُ وَٱسْتَوَتْ عَلَى ٱلْجُودِىِّ ۖ وَقِيلَ بُعْدًا لِّلْقَوْمِ ٱلظَّـٰلِمِينَ",
+      "page_number": 226,
+      "juz_number": 12,
+      "translations": [
+        {
+          "id": 403220,
+          "resource_id": 85,
+          "text": "Then it was said, ‘Earth, swallow up your water, and sky, hold back,’ and the water subsided, the command was fulfilled. The Ark settled on Mount Judi, and it was said, ‘Gone are those evildoing people!’"
+        }
+      ]
+    },
+    {
+      "id": 1518,
+      "verse_number": 45,
+      "verse_key": "11:45",
+      "hizb_number": 23,
+      "rub_el_hizb_number": 91,
+      "ruku_number": 186,
+      "manzil_number": 3,
+      "sajdah_number": null,
+      "text_uthmani": "وَنَادَىٰ نُوحٌ رَّبَّهُۥ فَقَالَ رَبِّ إِنَّ ٱبْنِى مِنْ أَهْلِى وَإِنَّ وَعْدَكَ ٱلْحَقُّ وَأَنتَ أَحْكَمُ ٱلْحَـٰكِمِينَ",
+      "page_number": 226,
+      "juz_number": 12,
+      "translations": [
+        {
+          "id": 403221,
+          "resource_id": 85,
+          "text": "Noah called out to his Lord, saying, ‘My Lord, my son was one of my family, though Your promise is true, and You are the most just of all judges.’"
+        }
+      ]
+    },
+    {
+      "id": 1519,
+      "verse_number": 46,
+      "verse_key": "11:46",
+      "hizb_number": 23,
+      "rub_el_hizb_number": 91,
+      "ruku_number": 186,
+      "manzil_number": 3,
+      "sajdah_number": null,
+      "text_uthmani": "قَالَ يَـٰنُوحُ إِنَّهُۥ لَيْسَ مِنْ أَهْلِكَ ۖ إِنَّهُۥ عَمَلٌ غَيْرُ صَـٰلِحٍ ۖ فَلَا تَسْـَٔلْنِ مَا لَيْسَ لَكَ بِهِۦ عِلْمٌ ۖ إِنِّىٓ أَعِظُكَ أَن تَكُونَ مِنَ ٱلْجَـٰهِلِينَ",
+      "page_number": 227,
+      "juz_number": 12,
+      "translations": [
+        {
+          "id": 403222,
+          "resource_id": 85,
+          "text": "God said, ‘Noah, he was not one of your family. What he did was not right. Do not ask Me for things you know nothing about. I am warning you not to be foolish.’"
+        }
+      ]
+    },
+    {
+      "id": 1520,
+      "verse_number": 47,
+      "verse_key": "11:47",
+      "hizb_number": 23,
+      "rub_el_hizb_number": 91,
+      "ruku_number": 186,
+      "manzil_number": 3,
+      "sajdah_number": null,
+      "text_uthmani": "قَالَ رَبِّ إِنِّىٓ أَعُوذُ بِكَ أَنْ أَسْـَٔلَكَ مَا لَيْسَ لِى بِهِۦ عِلْمٌ ۖ وَإِلَّا تَغْفِرْ لِى وَتَرْحَمْنِىٓ أَكُن مِّنَ ٱلْخَـٰسِرِينَ",
+      "page_number": 227,
+      "juz_number": 12,
+      "translations": [
+        {
+          "id": 403223,
+          "resource_id": 85,
+          "text": "He said, ‘My Lord, I take refuge with You from asking for things I know nothing about. If You do not forgive me, and have mercy on me, I shall be one of the losers.’"
+        }
+      ]
+    },
+    {
+      "id": 1521,
+      "verse_number": 48,
+      "verse_key": "11:48",
+      "hizb_number": 23,
+      "rub_el_hizb_number": 91,
+      "ruku_number": 186,
+      "manzil_number": 3,
+      "sajdah_number": null,
+      "text_uthmani": "قِيلَ يَـٰنُوحُ ٱهْبِطْ بِسَلَـٰمٍ مِّنَّا وَبَرَكَـٰتٍ عَلَيْكَ وَعَلَىٰٓ أُمَمٍ مِّمَّن مَّعَكَ ۚ وَأُمَمٌ سَنُمَتِّعُهُمْ ثُمَّ يَمَسُّهُم مِّنَّا عَذَابٌ أَلِيمٌ",
+      "page_number": 227,
+      "juz_number": 12,
+      "translations": [
+        {
+          "id": 403224,
+          "resource_id": 85,
+          "text": "And it was said, ‘Noah, descend in peace from Us, with blessings on you and on some of the communities that will spring from those who are with you. There will be others We will allow to enjoy life for a time, but then a painful punishment from Us will afflict them.’"
+        }
+      ]
+    },
+    {
+      "id": 1522,
+      "verse_number": 49,
+      "verse_key": "11:49",
+      "hizb_number": 23,
+      "rub_el_hizb_number": 91,
+      "ruku_number": 186,
+      "manzil_number": 3,
+      "sajdah_number": null,
+      "text_uthmani": "تِلْكَ مِنْ أَنۢبَآءِ ٱلْغَيْبِ نُوحِيهَآ إِلَيْكَ ۖ مَا كُنتَ تَعْلَمُهَآ أَنتَ وَلَا قَوْمُكَ مِن قَبْلِ هَـٰذَا ۖ فَٱصْبِرْ ۖ إِنَّ ٱلْعَـٰقِبَةَ لِلْمُتَّقِينَ",
+      "page_number": 227,
+      "juz_number": 12,
+      "translations": [
+        {
+          "id": 403225,
+          "resource_id": 85,
+          "text": "These accounts are part of what was beyond your knowledge [Muhammad]. We revealed them to you. Neither you nor your people knew them before now, so be patient: the future belongs to those who are aware of God."
+        }
+      ]
+    },
+    {
+      "id": 1523,
+      "verse_number": 50,
+      "verse_key": "11:50",
+      "hizb_number": 23,
+      "rub_el_hizb_number": 91,
+      "ruku_number": 187,
+      "manzil_number": 3,
+      "sajdah_number": null,
+      "text_uthmani": "وَإِلَىٰ عَادٍ أَخَاهُمْ هُودًا ۚ قَالَ يَـٰقَوْمِ ٱعْبُدُوا۟ ٱللَّهَ مَا لَكُم مِّنْ إِلَـٰهٍ غَيْرُهُۥٓ ۖ إِنْ أَنتُمْ إِلَّا مُفْتَرُونَ",
+      "page_number": 227,
+      "juz_number": 12,
+      "translations": [
+        {
+          "id": 403226,
+          "resource_id": 85,
+          "text": "To the Ad, We sent their brother, Hud. He said, ‘My people, worship God. You have no god other than Him; you are only making up lies."
+        }
+      ]
+    },
+    {
+      "id": 1524,
+      "verse_number": 51,
+      "verse_key": "11:51",
+      "hizb_number": 23,
+      "rub_el_hizb_number": 91,
+      "ruku_number": 187,
+      "manzil_number": 3,
+      "sajdah_number": null,
+      "text_uthmani": "يَـٰقَوْمِ لَآ أَسْـَٔلُكُمْ عَلَيْهِ أَجْرًا ۖ إِنْ أَجْرِىَ إِلَّا عَلَى ٱلَّذِى فَطَرَنِىٓ ۚ أَفَلَا تَعْقِلُونَ",
+      "page_number": 227,
+      "juz_number": 12,
+      "translations": [
+        {
+          "id": 403227,
+          "resource_id": 85,
+          "text": "I ask no reward from you, my people; my reward comes only from Him who created me. Why do you not use your reason?"
+        }
+      ]
+    },
+    {
+      "id": 1525,
+      "verse_number": 52,
+      "verse_key": "11:52",
+      "hizb_number": 23,
+      "rub_el_hizb_number": 91,
+      "ruku_number": 187,
+      "manzil_number": 3,
+      "sajdah_number": null,
+      "text_uthmani": "وَيَـٰقَوْمِ ٱسْتَغْفِرُوا۟ رَبَّكُمْ ثُمَّ تُوبُوٓا۟ إِلَيْهِ يُرْسِلِ ٱلسَّمَآءَ عَلَيْكُم مِّدْرَارًا وَيَزِدْكُمْ قُوَّةً إِلَىٰ قُوَّتِكُمْ وَلَا تَتَوَلَّوْا۟ مُجْرِمِينَ",
+      "page_number": 227,
+      "juz_number": 12,
+      "translations": [
+        {
+          "id": 403228,
+          "resource_id": 85,
+          "text": "My people, ask forgiveness from your Lord, and return to Him. He will send down for you rain in abundance from the sky, and give you extra strength. Do not turn away and be lost in your sins.’"
+        }
+      ]
+    },
+    {
+      "id": 1526,
+      "verse_number": 53,
+      "verse_key": "11:53",
+      "hizb_number": 23,
+      "rub_el_hizb_number": 91,
+      "ruku_number": 187,
+      "manzil_number": 3,
+      "sajdah_number": null,
+      "text_uthmani": "قَالُوا۟ يَـٰهُودُ مَا جِئْتَنَا بِبَيِّنَةٍ وَمَا نَحْنُ بِتَارِكِىٓ ءَالِهَتِنَا عَن قَوْلِكَ وَمَا نَحْنُ لَكَ بِمُؤْمِنِينَ",
+      "page_number": 227,
+      "juz_number": 12,
+      "translations": [
+        {
+          "id": 403229,
+          "resource_id": 85,
+          "text": "They replied, ‘Hud, you have not brought us any clear evidence. We will not forsake our gods on the strength of your word alone, nor will we believe in you."
+        }
+      ]
+    },
+    {
+      "id": 1527,
+      "verse_number": 54,
+      "verse_key": "11:54",
+      "hizb_number": 23,
+      "rub_el_hizb_number": 91,
+      "ruku_number": 187,
+      "manzil_number": 3,
+      "sajdah_number": null,
+      "text_uthmani": "إِن نَّقُولُ إِلَّا ٱعْتَرَىٰكَ بَعْضُ ءَالِهَتِنَا بِسُوٓءٍ ۗ قَالَ إِنِّىٓ أُشْهِدُ ٱللَّهَ وَٱشْهَدُوٓا۟ أَنِّى بَرِىٓءٌ مِّمَّا تُشْرِكُونَ",
+      "page_number": 228,
+      "juz_number": 12,
+      "translations": [
+        {
+          "id": 403230,
+          "resource_id": 85,
+          "text": "All we can say is that one of our gods may have inflicted some harm on you.’ He said, ‘I call God to witness, and you too are my witnesses, that I disown those you set up as partners with God."
+        }
+      ]
+    },
+    {
+      "id": 1528,
+      "verse_number": 55,
+      "verse_key": "11:55",
+      "hizb_number": 23,
+      "rub_el_hizb_number": 91,
+      "ruku_number": 187,
+      "manzil_number": 3,
+      "sajdah_number": null,
+      "text_uthmani": "مِن دُونِهِۦ ۖ فَكِيدُونِى جَمِيعًا ثُمَّ لَا تُنظِرُونِ",
+      "page_number": 228,
+      "juz_number": 12,
+      "translations": [
+        {
+          "id": 403231,
+          "resource_id": 85,
+          "text": "So plot against me, all of you, and give me no respite."
+        }
+      ]
+    },
+    {
+      "id": 1529,
+      "verse_number": 56,
+      "verse_key": "11:56",
+      "hizb_number": 23,
+      "rub_el_hizb_number": 91,
+      "ruku_number": 187,
+      "manzil_number": 3,
+      "sajdah_number": null,
+      "text_uthmani": "إِنِّى تَوَكَّلْتُ عَلَى ٱللَّهِ رَبِّى وَرَبِّكُم ۚ مَّا مِن دَآبَّةٍ إِلَّا هُوَ ءَاخِذٌۢ بِنَاصِيَتِهَآ ۚ إِنَّ رَبِّى عَلَىٰ صِرَٰطٍ مُّسْتَقِيمٍ",
+      "page_number": 228,
+      "juz_number": 12,
+      "translations": [
+        {
+          "id": 403232,
+          "resource_id": 85,
+          "text": "I put my trust in God, my Lord and your Lord. There is no moving creature which He does not control. My Lord’s way is straight."
+        }
+      ]
+    },
+    {
+      "id": 1530,
+      "verse_number": 57,
+      "verse_key": "11:57",
+      "hizb_number": 23,
+      "rub_el_hizb_number": 91,
+      "ruku_number": 187,
+      "manzil_number": 3,
+      "sajdah_number": null,
+      "text_uthmani": "فَإِن تَوَلَّوْا۟ فَقَدْ أَبْلَغْتُكُم مَّآ أُرْسِلْتُ بِهِۦٓ إِلَيْكُمْ ۚ وَيَسْتَخْلِفُ رَبِّى قَوْمًا غَيْرَكُمْ وَلَا تَضُرُّونَهُۥ شَيْـًٔا ۚ إِنَّ رَبِّى عَلَىٰ كُلِّ شَىْءٍ حَفِيظٌ",
+      "page_number": 228,
+      "juz_number": 12,
+      "translations": [
+        {
+          "id": 403233,
+          "resource_id": 85,
+          "text": "But if you turn away, then I have conveyed the message with which I was sent to you, and my Lord will bring along another people in your place. You cannot do Him any harm: it is my Lord who protects everything.’"
+        }
+      ]
+    },
+    {
+      "id": 1531,
+      "verse_number": 58,
+      "verse_key": "11:58",
+      "hizb_number": 23,
+      "rub_el_hizb_number": 91,
+      "ruku_number": 187,
+      "manzil_number": 3,
+      "sajdah_number": null,
+      "text_uthmani": "وَلَمَّا جَآءَ أَمْرُنَا نَجَّيْنَا هُودًا وَٱلَّذِينَ ءَامَنُوا۟ مَعَهُۥ بِرَحْمَةٍ مِّنَّا وَنَجَّيْنَـٰهُم مِّنْ عَذَابٍ غَلِيظٍ",
+      "page_number": 228,
+      "juz_number": 12,
+      "translations": [
+        {
+          "id": 403234,
+          "resource_id": 85,
+          "text": "And so, when Our judgement came to pass, by Our grace We saved Hud and his fellow believers. We saved them from a severe punishment."
+        }
+      ]
+    },
+    {
+      "id": 1532,
+      "verse_number": 59,
+      "verse_key": "11:59",
+      "hizb_number": 23,
+      "rub_el_hizb_number": 91,
+      "ruku_number": 187,
+      "manzil_number": 3,
+      "sajdah_number": null,
+      "text_uthmani": "وَتِلْكَ عَادٌ ۖ جَحَدُوا۟ بِـَٔايَـٰتِ رَبِّهِمْ وَعَصَوْا۟ رُسُلَهُۥ وَٱتَّبَعُوٓا۟ أَمْرَ كُلِّ جَبَّارٍ عَنِيدٍ",
+      "page_number": 228,
+      "juz_number": 12,
+      "translations": [
+        {
+          "id": 403235,
+          "resource_id": 85,
+          "text": "These were the Ad: they rejected their Lord’s signs, disobeyed His messengers, and followed the command of every obstinate tyrant."
+        }
+      ]
+    },
+    {
+      "id": 1533,
+      "verse_number": 60,
+      "verse_key": "11:60",
+      "hizb_number": 23,
+      "rub_el_hizb_number": 91,
+      "ruku_number": 187,
+      "manzil_number": 3,
+      "sajdah_number": null,
+      "text_uthmani": "وَأُتْبِعُوا۟ فِى هَـٰذِهِ ٱلدُّنْيَا لَعْنَةً وَيَوْمَ ٱلْقِيَـٰمَةِ ۗ أَلَآ إِنَّ عَادًا كَفَرُوا۟ رَبَّهُمْ ۗ أَلَا بُعْدًا لِّعَادٍ قَوْمِ هُودٍ",
+      "page_number": 228,
+      "juz_number": 12,
+      "translations": [
+        {
+          "id": 403236,
+          "resource_id": 85,
+          "text": "They were rejected in this life and so they shall be on the Day of Judgement. Yes, the 'Ad denied their Lord- so away with the Ad, the people of Hud!"
+        }
+      ]
+    },
+    {
+      "id": 1534,
+      "verse_number": 61,
+      "verse_key": "11:61",
+      "hizb_number": 23,
+      "rub_el_hizb_number": 92,
+      "ruku_number": 188,
+      "manzil_number": 3,
+      "sajdah_number": null,
+      "text_uthmani": "۞ وَإِلَىٰ ثَمُودَ أَخَاهُمْ صَـٰلِحًا ۚ قَالَ يَـٰقَوْمِ ٱعْبُدُوا۟ ٱللَّهَ مَا لَكُم مِّنْ إِلَـٰهٍ غَيْرُهُۥ ۖ هُوَ أَنشَأَكُم مِّنَ ٱلْأَرْضِ وَٱسْتَعْمَرَكُمْ فِيهَا فَٱسْتَغْفِرُوهُ ثُمَّ تُوبُوٓا۟ إِلَيْهِ ۚ إِنَّ رَبِّى قَرِيبٌ مُّجِيبٌ",
+      "page_number": 228,
+      "juz_number": 12,
+      "translations": [
+        {
+          "id": 403237,
+          "resource_id": 85,
+          "text": "To the Thamud, We sent their brother, Salih. He said, ‘My people, worship God. You have no god other than Him. It was He who brought you into being from the earth and made you inhabit it, so ask forgiveness from Him, and turn back to Him: my Lord is near, and ready to answer.’"
+        }
+      ]
+    },
+    {
+      "id": 1535,
+      "verse_number": 62,
+      "verse_key": "11:62",
+      "hizb_number": 23,
+      "rub_el_hizb_number": 92,
+      "ruku_number": 188,
+      "manzil_number": 3,
+      "sajdah_number": null,
+      "text_uthmani": "قَالُوا۟ يَـٰصَـٰلِحُ قَدْ كُنتَ فِينَا مَرْجُوًّا قَبْلَ هَـٰذَآ ۖ أَتَنْهَىٰنَآ أَن نَّعْبُدَ مَا يَعْبُدُ ءَابَآؤُنَا وَإِنَّنَا لَفِى شَكٍّ مِّمَّا تَدْعُونَآ إِلَيْهِ مُرِيبٍ",
+      "page_number": 228,
+      "juz_number": 12,
+      "translations": [
+        {
+          "id": 403238,
+          "resource_id": 85,
+          "text": "They said, ‘Salih, We used to have such great hope in you. Will you forbid us to worship what our fathers worshipped? We are in grave doubt about what you are asking us to do.’"
+        }
+      ]
+    },
+    {
+      "id": 1536,
+      "verse_number": 63,
+      "verse_key": "11:63",
+      "hizb_number": 23,
+      "rub_el_hizb_number": 92,
+      "ruku_number": 188,
+      "manzil_number": 3,
+      "sajdah_number": null,
+      "text_uthmani": "قَالَ يَـٰقَوْمِ أَرَءَيْتُمْ إِن كُنتُ عَلَىٰ بَيِّنَةٍ مِّن رَّبِّى وَءَاتَىٰنِى مِنْهُ رَحْمَةً فَمَن يَنصُرُنِى مِنَ ٱللَّهِ إِنْ عَصَيْتُهُۥ ۖ فَمَا تَزِيدُونَنِى غَيْرَ تَخْسِيرٍ",
+      "page_number": 229,
+      "juz_number": 12,
+      "translations": [
+        {
+          "id": 403239,
+          "resource_id": 85,
+          "text": "He said, ‘My people, just think: if I did have clear proof from my Lord, and if He had given me mercy of His own, who could protect me from God if I disobeyed Him? You would only make my loss greater."
+        }
+      ]
+    },
+    {
+      "id": 1537,
+      "verse_number": 64,
+      "verse_key": "11:64",
+      "hizb_number": 23,
+      "rub_el_hizb_number": 92,
+      "ruku_number": 188,
+      "manzil_number": 3,
+      "sajdah_number": null,
+      "text_uthmani": "وَيَـٰقَوْمِ هَـٰذِهِۦ نَاقَةُ ٱللَّهِ لَكُمْ ءَايَةً فَذَرُوهَا تَأْكُلْ فِىٓ أَرْضِ ٱللَّهِ وَلَا تَمَسُّوهَا بِسُوٓءٍ فَيَأْخُذَكُمْ عَذَابٌ قَرِيبٌ",
+      "page_number": 229,
+      "juz_number": 12,
+      "translations": [
+        {
+          "id": 403240,
+          "resource_id": 85,
+          "text": "My people, this camel belongs to God, a sign for you, so leave it to pasture on God’s earth and do not harm it, or you will soon be punished.’"
+        }
+      ]
+    },
+    {
+      "id": 1538,
+      "verse_number": 65,
+      "verse_key": "11:65",
+      "hizb_number": 23,
+      "rub_el_hizb_number": 92,
+      "ruku_number": 188,
+      "manzil_number": 3,
+      "sajdah_number": null,
+      "text_uthmani": "فَعَقَرُوهَا فَقَالَ تَمَتَّعُوا۟ فِى دَارِكُمْ ثَلَـٰثَةَ أَيَّامٍ ۖ ذَٰلِكَ وَعْدٌ غَيْرُ مَكْذُوبٍ",
+      "page_number": 229,
+      "juz_number": 12,
+      "translations": [
+        {
+          "id": 403241,
+          "resource_id": 85,
+          "text": "But they hamstrung it, so he said, ‘Enjoy life for another three days:"
+        }
+      ]
+    },
+    {
+      "id": 1539,
+      "verse_number": 66,
+      "verse_key": "11:66",
+      "hizb_number": 23,
+      "rub_el_hizb_number": 92,
+      "ruku_number": 188,
+      "manzil_number": 3,
+      "sajdah_number": null,
+      "text_uthmani": "فَلَمَّا جَآءَ أَمْرُنَا نَجَّيْنَا صَـٰلِحًا وَٱلَّذِينَ ءَامَنُوا۟ مَعَهُۥ بِرَحْمَةٍ مِّنَّا وَمِنْ خِزْىِ يَوْمِئِذٍ ۗ إِنَّ رَبَّكَ هُوَ ٱلْقَوِىُّ ٱلْعَزِيزُ",
+      "page_number": 229,
+      "juz_number": 12,
+      "translations": [
+        {
+          "id": 403242,
+          "resource_id": 85,
+          "text": "this warning will not prove false.’ And so, when Our command was fulfilled, by Our mercy We saved Salih and his fellow believers from the disgrace of that day. [Prophet], it is your Lord who is the Strong, the Mighty One."
+        }
+      ]
+    },
+    {
+      "id": 1540,
+      "verse_number": 67,
+      "verse_key": "11:67",
+      "hizb_number": 23,
+      "rub_el_hizb_number": 92,
+      "ruku_number": 188,
+      "manzil_number": 3,
+      "sajdah_number": null,
+      "text_uthmani": "وَأَخَذَ ٱلَّذِينَ ظَلَمُوا۟ ٱلصَّيْحَةُ فَأَصْبَحُوا۟ فِى دِيَـٰرِهِمْ جَـٰثِمِينَ",
+      "page_number": 229,
+      "juz_number": 12,
+      "translations": [
+        {
+          "id": 403243,
+          "resource_id": 85,
+          "text": "The blast struck the evildoers and they lay dead in their homes,"
+        }
+      ]
+    },
+    {
+      "id": 1541,
+      "verse_number": 68,
+      "verse_key": "11:68",
+      "hizb_number": 23,
+      "rub_el_hizb_number": 92,
+      "ruku_number": 188,
+      "manzil_number": 3,
+      "sajdah_number": null,
+      "text_uthmani": "كَأَن لَّمْ يَغْنَوْا۟ فِيهَآ ۗ أَلَآ إِنَّ ثَمُودَا۟ كَفَرُوا۟ رَبَّهُمْ ۗ أَلَا بُعْدًا لِّثَمُودَ",
+      "page_number": 229,
+      "juz_number": 12,
+      "translations": [
+        {
+          "id": 403244,
+          "resource_id": 85,
+          "text": "as though they had never lived and flourished there. Yes, the Thamud denied their Lord- so away with the Thamud!"
+        }
+      ]
+    },
+    {
+      "id": 1542,
+      "verse_number": 69,
+      "verse_key": "11:69",
+      "hizb_number": 23,
+      "rub_el_hizb_number": 92,
+      "ruku_number": 189,
+      "manzil_number": 3,
+      "sajdah_number": null,
+      "text_uthmani": "وَلَقَدْ جَآءَتْ رُسُلُنَآ إِبْرَٰهِيمَ بِٱلْبُشْرَىٰ قَالُوا۟ سَلَـٰمًا ۖ قَالَ سَلَـٰمٌ ۖ فَمَا لَبِثَ أَن جَآءَ بِعِجْلٍ حَنِيذٍ",
+      "page_number": 229,
+      "juz_number": 12,
+      "translations": [
+        {
+          "id": 403245,
+          "resource_id": 85,
+          "text": "To Abraham Our messengers brought good news. They said, ‘Peace.’ He answered, ‘Peace,’ and without delay he brought in a roasted calf."
+        }
+      ]
+    },
+    {
+      "id": 1543,
+      "verse_number": 70,
+      "verse_key": "11:70",
+      "hizb_number": 23,
+      "rub_el_hizb_number": 92,
+      "ruku_number": 189,
+      "manzil_number": 3,
+      "sajdah_number": null,
+      "text_uthmani": "فَلَمَّا رَءَآ أَيْدِيَهُمْ لَا تَصِلُ إِلَيْهِ نَكِرَهُمْ وَأَوْجَسَ مِنْهُمْ خِيفَةً ۚ قَالُوا۟ لَا تَخَفْ إِنَّآ أُرْسِلْنَآ إِلَىٰ قَوْمِ لُوطٍ",
+      "page_number": 229,
+      "juz_number": 12,
+      "translations": [
+        {
+          "id": 403246,
+          "resource_id": 85,
+          "text": "When he saw that their hands did not reach towards the meal, he found this strange and became afraid of them. But they said, ‘Do not be afraid. We have been sent against the people of Lot.’"
+        }
+      ]
+    },
+    {
+      "id": 1544,
+      "verse_number": 71,
+      "verse_key": "11:71",
+      "hizb_number": 23,
+      "rub_el_hizb_number": 92,
+      "ruku_number": 189,
+      "manzil_number": 3,
+      "sajdah_number": null,
+      "text_uthmani": "وَٱمْرَأَتُهُۥ قَآئِمَةٌ فَضَحِكَتْ فَبَشَّرْنَـٰهَا بِإِسْحَـٰقَ وَمِن وَرَآءِ إِسْحَـٰقَ يَعْقُوبَ",
+      "page_number": 229,
+      "juz_number": 12,
+      "translations": [
+        {
+          "id": 403247,
+          "resource_id": 85,
+          "text": "His wife was standing [nearby] and laughed. We gave her good news of Isaac and, after him, of Jacob."
+        }
+      ]
+    },
+    {
+      "id": 1545,
+      "verse_number": 72,
+      "verse_key": "11:72",
+      "hizb_number": 23,
+      "rub_el_hizb_number": 92,
+      "ruku_number": 189,
+      "manzil_number": 3,
+      "sajdah_number": null,
+      "text_uthmani": "قَالَتْ يَـٰوَيْلَتَىٰٓ ءَأَلِدُ وَأَنَا۠ عَجُوزٌ وَهَـٰذَا بَعْلِى شَيْخًا ۖ إِنَّ هَـٰذَا لَشَىْءٌ عَجِيبٌ",
+      "page_number": 230,
+      "juz_number": 12,
+      "translations": [
+        {
+          "id": 403248,
+          "resource_id": 85,
+          "text": "She said, ‘Alas for me! How am I to bear a child when I am an old woman, and my husband here is an old man? That would be a strange thing!’"
+        }
+      ]
+    },
+    {
+      "id": 1546,
+      "verse_number": 73,
+      "verse_key": "11:73",
+      "hizb_number": 23,
+      "rub_el_hizb_number": 92,
+      "ruku_number": 189,
+      "manzil_number": 3,
+      "sajdah_number": null,
+      "text_uthmani": "قَالُوٓا۟ أَتَعْجَبِينَ مِنْ أَمْرِ ٱللَّهِ ۖ رَحْمَتُ ٱللَّهِ وَبَرَكَـٰتُهُۥ عَلَيْكُمْ أَهْلَ ٱلْبَيْتِ ۚ إِنَّهُۥ حَمِيدٌ مَّجِيدٌ",
+      "page_number": 230,
+      "juz_number": 12,
+      "translations": [
+        {
+          "id": 403249,
+          "resource_id": 85,
+          "text": "They said, ‘Are you astonished at what God ordains? The grace of God and His blessings be upon you, people of this house! For He is worthy of all praise and glory.’"
+        }
+      ]
+    },
+    {
+      "id": 1547,
+      "verse_number": 74,
+      "verse_key": "11:74",
+      "hizb_number": 23,
+      "rub_el_hizb_number": 92,
+      "ruku_number": 189,
+      "manzil_number": 3,
+      "sajdah_number": null,
+      "text_uthmani": "فَلَمَّا ذَهَبَ عَنْ إِبْرَٰهِيمَ ٱلرَّوْعُ وَجَآءَتْهُ ٱلْبُشْرَىٰ يُجَـٰدِلُنَا فِى قَوْمِ لُوطٍ",
+      "page_number": 230,
+      "juz_number": 12,
+      "translations": [
+        {
+          "id": 403250,
+          "resource_id": 85,
+          "text": "Then, when the fear left Abraham and the good news came to him, he pleaded with Us for Lot’s people,"
+        }
+      ]
+    },
+    {
+      "id": 1548,
+      "verse_number": 75,
+      "verse_key": "11:75",
+      "hizb_number": 23,
+      "rub_el_hizb_number": 92,
+      "ruku_number": 189,
+      "manzil_number": 3,
+      "sajdah_number": null,
+      "text_uthmani": "إِنَّ إِبْرَٰهِيمَ لَحَلِيمٌ أَوَّٰهٌ مُّنِيبٌ",
+      "page_number": 230,
+      "juz_number": 12,
+      "translations": [
+        {
+          "id": 403251,
+          "resource_id": 85,
+          "text": "for Abraham was forbearing, tender-hearted, and devout."
+        }
+      ]
+    },
+    {
+      "id": 1549,
+      "verse_number": 76,
+      "verse_key": "11:76",
+      "hizb_number": 23,
+      "rub_el_hizb_number": 92,
+      "ruku_number": 189,
+      "manzil_number": 3,
+      "sajdah_number": null,
+      "text_uthmani": "يَـٰٓإِبْرَٰهِيمُ أَعْرِضْ عَنْ هَـٰذَآ ۖ إِنَّهُۥ قَدْ جَآءَ أَمْرُ رَبِّكَ ۖ وَإِنَّهُمْ ءَاتِيهِمْ عَذَابٌ غَيْرُ مَرْدُودٍ",
+      "page_number": 230,
+      "juz_number": 12,
+      "translations": [
+        {
+          "id": 403252,
+          "resource_id": 85,
+          "text": "‘Abraham, cease your pleading: what your Lord has ordained has come about; punishment is coming to them, which cannot be turned back.’"
+        }
+      ]
+    },
+    {
+      "id": 1550,
+      "verse_number": 77,
+      "verse_key": "11:77",
+      "hizb_number": 23,
+      "rub_el_hizb_number": 92,
+      "ruku_number": 189,
+      "manzil_number": 3,
+      "sajdah_number": null,
+      "text_uthmani": "وَلَمَّا جَآءَتْ رُسُلُنَا لُوطًا سِىٓءَ بِهِمْ وَضَاقَ بِهِمْ ذَرْعًا وَقَالَ هَـٰذَا يَوْمٌ عَصِيبٌ",
+      "page_number": 230,
+      "juz_number": 12,
+      "translations": [
+        {
+          "id": 403253,
+          "resource_id": 85,
+          "text": "And when Our messengers came to Lot, he was anxious for them, feeling powerless to protect them, and said, ‘This is a truly terrible day!’"
+        }
+      ]
+    },
+    {
+      "id": 1551,
+      "verse_number": 78,
+      "verse_key": "11:78",
+      "hizb_number": 23,
+      "rub_el_hizb_number": 92,
+      "ruku_number": 189,
+      "manzil_number": 3,
+      "sajdah_number": null,
+      "text_uthmani": "وَجَآءَهُۥ قَوْمُهُۥ يُهْرَعُونَ إِلَيْهِ وَمِن قَبْلُ كَانُوا۟ يَعْمَلُونَ ٱلسَّيِّـَٔاتِ ۚ قَالَ يَـٰقَوْمِ هَـٰٓؤُلَآءِ بَنَاتِى هُنَّ أَطْهَرُ لَكُمْ ۖ فَٱتَّقُوا۟ ٱللَّهَ وَلَا تُخْزُونِ فِى ضَيْفِىٓ ۖ أَلَيْسَ مِنكُمْ رَجُلٌ رَّشِيدٌ",
+      "page_number": 230,
+      "juz_number": 12,
+      "translations": [
+        {
+          "id": 403254,
+          "resource_id": 85,
+          "text": "His people came rushing towards him; they used to commit foul deeds. He said, ‘My people, here are my daughters.They are more wholesome for you, so have some fear of God and do not disgrace me with my guests. Is there not a single right-minded man among you?’"
+        }
+      ]
+    },
+    {
+      "id": 1552,
+      "verse_number": 79,
+      "verse_key": "11:79",
+      "hizb_number": 23,
+      "rub_el_hizb_number": 92,
+      "ruku_number": 189,
+      "manzil_number": 3,
+      "sajdah_number": null,
+      "text_uthmani": "قَالُوا۟ لَقَدْ عَلِمْتَ مَا لَنَا فِى بَنَاتِكَ مِنْ حَقٍّ وَإِنَّكَ لَتَعْلَمُ مَا نُرِيدُ",
+      "page_number": 230,
+      "juz_number": 12,
+      "translations": [
+        {
+          "id": 403255,
+          "resource_id": 85,
+          "text": "They said, ‘You know very well that we have no right to your daughters. You know very well what we want.’"
+        }
+      ]
+    },
+    {
+      "id": 1553,
+      "verse_number": 80,
+      "verse_key": "11:80",
+      "hizb_number": 23,
+      "rub_el_hizb_number": 92,
+      "ruku_number": 189,
+      "manzil_number": 3,
+      "sajdah_number": null,
+      "text_uthmani": "قَالَ لَوْ أَنَّ لِى بِكُمْ قُوَّةً أَوْ ءَاوِىٓ إِلَىٰ رُكْنٍ شَدِيدٍ",
+      "page_number": 230,
+      "juz_number": 12,
+      "translations": [
+        {
+          "id": 403256,
+          "resource_id": 85,
+          "text": "He said, ‘If only I had the strength to stop you or could rely on strong support!’"
+        }
+      ]
+    },
+    {
+      "id": 1554,
+      "verse_number": 81,
+      "verse_key": "11:81",
+      "hizb_number": 23,
+      "rub_el_hizb_number": 92,
+      "ruku_number": 189,
+      "manzil_number": 3,
+      "sajdah_number": null,
+      "text_uthmani": "قَالُوا۟ يَـٰلُوطُ إِنَّا رُسُلُ رَبِّكَ لَن يَصِلُوٓا۟ إِلَيْكَ ۖ فَأَسْرِ بِأَهْلِكَ بِقِطْعٍ مِّنَ ٱلَّيْلِ وَلَا يَلْتَفِتْ مِنكُمْ أَحَدٌ إِلَّا ٱمْرَأَتَكَ ۖ إِنَّهُۥ مُصِيبُهَا مَآ أَصَابَهُمْ ۚ إِنَّ مَوْعِدَهُمُ ٱلصُّبْحُ ۚ أَلَيْسَ ٱلصُّبْحُ بِقَرِيبٍ",
+      "page_number": 230,
+      "juz_number": 12,
+      "translations": [
+        {
+          "id": 403257,
+          "resource_id": 85,
+          "text": "They [the messengers] said, ‘Lot, we are your Lord’s messengers. They will not reach you. Leave with your household in the dead of night, and let none of you turn back. Only your wife will suffer the fate that befalls the others. Their appointed time is the morning: is the morning not near?’"
+        }
+      ]
+    },
+    {
+      "id": 1555,
+      "verse_number": 82,
+      "verse_key": "11:82",
+      "hizb_number": 23,
+      "rub_el_hizb_number": 92,
+      "ruku_number": 189,
+      "manzil_number": 3,
+      "sajdah_number": null,
+      "text_uthmani": "فَلَمَّا جَآءَ أَمْرُنَا جَعَلْنَا عَـٰلِيَهَا سَافِلَهَا وَأَمْطَرْنَا عَلَيْهَا حِجَارَةً مِّن سِجِّيلٍ مَّنضُودٍ",
+      "page_number": 231,
+      "juz_number": 12,
+      "translations": [
+        {
+          "id": 403258,
+          "resource_id": 85,
+          "text": "And so when what We had ordained came about, We turned their town upside down and rained down stones of baked clay on it, layer upon layer,"
+        }
+      ]
+    },
+    {
+      "id": 1556,
+      "verse_number": 83,
+      "verse_key": "11:83",
+      "hizb_number": 23,
+      "rub_el_hizb_number": 92,
+      "ruku_number": 189,
+      "manzil_number": 3,
+      "sajdah_number": null,
+      "text_uthmani": "مُّسَوَّمَةً عِندَ رَبِّكَ ۖ وَمَا هِىَ مِنَ ٱلظَّـٰلِمِينَ بِبَعِيدٍ",
+      "page_number": 231,
+      "juz_number": 12,
+      "translations": [
+        {
+          "id": 403259,
+          "resource_id": 85,
+          "text": "marked from your Lord. It is not far from the evildoers."
+        }
+      ]
+    },
+    {
+      "id": 1557,
+      "verse_number": 84,
+      "verse_key": "11:84",
+      "hizb_number": 24,
+      "rub_el_hizb_number": 93,
+      "ruku_number": 190,
+      "manzil_number": 3,
+      "sajdah_number": null,
+      "text_uthmani": "۞ وَإِلَىٰ مَدْيَنَ أَخَاهُمْ شُعَيْبًا ۚ قَالَ يَـٰقَوْمِ ٱعْبُدُوا۟ ٱللَّهَ مَا لَكُم مِّنْ إِلَـٰهٍ غَيْرُهُۥ ۖ وَلَا تَنقُصُوا۟ ٱلْمِكْيَالَ وَٱلْمِيزَانَ ۚ إِنِّىٓ أَرَىٰكُم بِخَيْرٍ وَإِنِّىٓ أَخَافُ عَلَيْكُمْ عَذَابَ يَوْمٍ مُّحِيطٍ",
+      "page_number": 231,
+      "juz_number": 12,
+      "translations": [
+        {
+          "id": 403260,
+          "resource_id": 85,
+          "text": "And to Midian, We sent their brother Shuayb. He said, ‘My people, worship God. You have no god other than Him. Do not give short measure nor short weight. I see you are prospering, but I fear you will have torment on an overwhelming Day."
+        }
+      ]
+    },
+    {
+      "id": 1558,
+      "verse_number": 85,
+      "verse_key": "11:85",
+      "hizb_number": 24,
+      "rub_el_hizb_number": 93,
+      "ruku_number": 190,
+      "manzil_number": 3,
+      "sajdah_number": null,
+      "text_uthmani": "وَيَـٰقَوْمِ أَوْفُوا۟ ٱلْمِكْيَالَ وَٱلْمِيزَانَ بِٱلْقِسْطِ ۖ وَلَا تَبْخَسُوا۟ ٱلنَّاسَ أَشْيَآءَهُمْ وَلَا تَعْثَوْا۟ فِى ٱلْأَرْضِ مُفْسِدِينَ",
+      "page_number": 231,
+      "juz_number": 12,
+      "translations": [
+        {
+          "id": 403261,
+          "resource_id": 85,
+          "text": "My people, in fairness, give full measure and weight. Do not withhold from people things that are rightly theirs, and do not spread corruption in the land."
+        }
+      ]
+    },
+    {
+      "id": 1559,
+      "verse_number": 86,
+      "verse_key": "11:86",
+      "hizb_number": 24,
+      "rub_el_hizb_number": 93,
+      "ruku_number": 190,
+      "manzil_number": 3,
+      "sajdah_number": null,
+      "text_uthmani": "بَقِيَّتُ ٱللَّهِ خَيْرٌ لَّكُمْ إِن كُنتُم مُّؤْمِنِينَ ۚ وَمَآ أَنَا۠ عَلَيْكُم بِحَفِيظٍ",
+      "page_number": 231,
+      "juz_number": 12,
+      "translations": [
+        {
+          "id": 403262,
+          "resource_id": 85,
+          "text": "What lasts with God is best for you, if you are believers: I am not your keeper.’"
+        }
+      ]
+    },
+    {
+      "id": 1560,
+      "verse_number": 87,
+      "verse_key": "11:87",
+      "hizb_number": 24,
+      "rub_el_hizb_number": 93,
+      "ruku_number": 190,
+      "manzil_number": 3,
+      "sajdah_number": null,
+      "text_uthmani": "قَالُوا۟ يَـٰشُعَيْبُ أَصَلَوٰتُكَ تَأْمُرُكَ أَن نَّتْرُكَ مَا يَعْبُدُ ءَابَآؤُنَآ أَوْ أَن نَّفْعَلَ فِىٓ أَمْوَٰلِنَا مَا نَشَـٰٓؤُا۟ ۖ إِنَّكَ لَأَنتَ ٱلْحَلِيمُ ٱلرَّشِيدُ",
+      "page_number": 231,
+      "juz_number": 12,
+      "translations": [
+        {
+          "id": 403263,
+          "resource_id": 85,
+          "text": "They said, ‘Shuayb, does your prayer tell you that we should abandon what our forefathers worshipped and refrain from doing whatever we please with our own property? Indeed you are a tolerant and sensible man.’"
+        }
+      ]
+    },
+    {
+      "id": 1561,
+      "verse_number": 88,
+      "verse_key": "11:88",
+      "hizb_number": 24,
+      "rub_el_hizb_number": 93,
+      "ruku_number": 190,
+      "manzil_number": 3,
+      "sajdah_number": null,
+      "text_uthmani": "قَالَ يَـٰقَوْمِ أَرَءَيْتُمْ إِن كُنتُ عَلَىٰ بَيِّنَةٍ مِّن رَّبِّى وَرَزَقَنِى مِنْهُ رِزْقًا حَسَنًا ۚ وَمَآ أُرِيدُ أَنْ أُخَالِفَكُمْ إِلَىٰ مَآ أَنْهَىٰكُمْ عَنْهُ ۚ إِنْ أُرِيدُ إِلَّا ٱلْإِصْلَـٰحَ مَا ٱسْتَطَعْتُ ۚ وَمَا تَوْفِيقِىٓ إِلَّا بِٱللَّهِ ۚ عَلَيْهِ تَوَكَّلْتُ وَإِلَيْهِ أُنِيبُ",
+      "page_number": 231,
+      "juz_number": 12,
+      "translations": [
+        {
+          "id": 403264,
+          "resource_id": 85,
+          "text": "He answered, ‘My people, can you not see? What if I am acting on clear evidence from my Lord? He Himself has given me good provision: I do not want to do what I am forbidding you to do, I only want to put things right as far as I can. I cannot succeed without God’s help: I trust in Him, and always turn to Him."
+        }
+      ]
+    },
+    {
+      "id": 1562,
+      "verse_number": 89,
+      "verse_key": "11:89",
+      "hizb_number": 24,
+      "rub_el_hizb_number": 93,
+      "ruku_number": 190,
+      "manzil_number": 3,
+      "sajdah_number": null,
+      "text_uthmani": "وَيَـٰقَوْمِ لَا يَجْرِمَنَّكُمْ شِقَاقِىٓ أَن يُصِيبَكُم مِّثْلُ مَآ أَصَابَ قَوْمَ نُوحٍ أَوْ قَوْمَ هُودٍ أَوْ قَوْمَ صَـٰلِحٍ ۚ وَمَا قَوْمُ لُوطٍ مِّنكُم بِبَعِيدٍ",
+      "page_number": 232,
+      "juz_number": 12,
+      "translations": [
+        {
+          "id": 403265,
+          "resource_id": 85,
+          "text": "My people, do not let your opposition to me bring upon you a similar fate to the peoples of Noah or Hud or Salih; the people of Lot are not far away from you."
+        }
+      ]
+    },
+    {
+      "id": 1563,
+      "verse_number": 90,
+      "verse_key": "11:90",
+      "hizb_number": 24,
+      "rub_el_hizb_number": 93,
+      "ruku_number": 190,
+      "manzil_number": 3,
+      "sajdah_number": null,
+      "text_uthmani": "وَٱسْتَغْفِرُوا۟ رَبَّكُمْ ثُمَّ تُوبُوٓا۟ إِلَيْهِ ۚ إِنَّ رَبِّى رَحِيمٌ وَدُودٌ",
+      "page_number": 232,
+      "juz_number": 12,
+      "translations": [
+        {
+          "id": 403266,
+          "resource_id": 85,
+          "text": "Ask forgiveness from your Lord, and turn to Him in repentance: my Lord is merciful and most loving.’"
+        }
+      ]
+    },
+    {
+      "id": 1564,
+      "verse_number": 91,
+      "verse_key": "11:91",
+      "hizb_number": 24,
+      "rub_el_hizb_number": 93,
+      "ruku_number": 190,
+      "manzil_number": 3,
+      "sajdah_number": null,
+      "text_uthmani": "قَالُوا۟ يَـٰشُعَيْبُ مَا نَفْقَهُ كَثِيرًا مِّمَّا تَقُولُ وَإِنَّا لَنَرَىٰكَ فِينَا ضَعِيفًا ۖ وَلَوْلَا رَهْطُكَ لَرَجَمْنَـٰكَ ۖ وَمَآ أَنتَ عَلَيْنَا بِعَزِيزٍ",
+      "page_number": 232,
+      "juz_number": 12,
+      "translations": [
+        {
+          "id": 403267,
+          "resource_id": 85,
+          "text": "They said, ‘Shuayb, we do not understand much of what you say, and we find you very weak in our midst. But for your family, we would have stoned you, for you have no great status among us.’"
+        }
+      ]
+    },
+    {
+      "id": 1565,
+      "verse_number": 92,
+      "verse_key": "11:92",
+      "hizb_number": 24,
+      "rub_el_hizb_number": 93,
+      "ruku_number": 190,
+      "manzil_number": 3,
+      "sajdah_number": null,
+      "text_uthmani": "قَالَ يَـٰقَوْمِ أَرَهْطِىٓ أَعَزُّ عَلَيْكُم مِّنَ ٱللَّهِ وَٱتَّخَذْتُمُوهُ وَرَآءَكُمْ ظِهْرِيًّا ۖ إِنَّ رَبِّى بِمَا تَعْمَلُونَ مُحِيطٌ",
+      "page_number": 232,
+      "juz_number": 12,
+      "translations": [
+        {
+          "id": 403268,
+          "resource_id": 85,
+          "text": "He said, ‘My people, is my family stronger in your estimation than God? And have you put Him behind you? My Lord surrounds everything you do."
+        }
+      ]
+    },
+    {
+      "id": 1566,
+      "verse_number": 93,
+      "verse_key": "11:93",
+      "hizb_number": 24,
+      "rub_el_hizb_number": 93,
+      "ruku_number": 190,
+      "manzil_number": 3,
+      "sajdah_number": null,
+      "text_uthmani": "وَيَـٰقَوْمِ ٱعْمَلُوا۟ عَلَىٰ مَكَانَتِكُمْ إِنِّى عَـٰمِلٌ ۖ سَوْفَ تَعْلَمُونَ مَن يَأْتِيهِ عَذَابٌ يُخْزِيهِ وَمَنْ هُوَ كَـٰذِبٌ ۖ وَٱرْتَقِبُوٓا۟ إِنِّى مَعَكُمْ رَقِيبٌ",
+      "page_number": 232,
+      "juz_number": 12,
+      "translations": [
+        {
+          "id": 403269,
+          "resource_id": 85,
+          "text": "My people, do whatever is within your power, and I will do likewise. Soon you will know who will receive a disgraceful punishment and who is a liar. Watch out, and so will I.’"
+        }
+      ]
+    },
+    {
+      "id": 1567,
+      "verse_number": 94,
+      "verse_key": "11:94",
+      "hizb_number": 24,
+      "rub_el_hizb_number": 93,
+      "ruku_number": 190,
+      "manzil_number": 3,
+      "sajdah_number": null,
+      "text_uthmani": "وَلَمَّا جَآءَ أَمْرُنَا نَجَّيْنَا شُعَيْبًا وَٱلَّذِينَ ءَامَنُوا۟ مَعَهُۥ بِرَحْمَةٍ مِّنَّا وَأَخَذَتِ ٱلَّذِينَ ظَلَمُوا۟ ٱلصَّيْحَةُ فَأَصْبَحُوا۟ فِى دِيَـٰرِهِمْ جَـٰثِمِينَ",
+      "page_number": 232,
+      "juz_number": 12,
+      "translations": [
+        {
+          "id": 403270,
+          "resource_id": 85,
+          "text": "When what We had ordained came about, in Our mercy We saved Shuayb and his fellow believers, but a mighty blast struck the wrongdoers. By morning they lay dead in their homes,"
+        }
+      ]
+    },
+    {
+      "id": 1568,
+      "verse_number": 95,
+      "verse_key": "11:95",
+      "hizb_number": 24,
+      "rub_el_hizb_number": 93,
+      "ruku_number": 190,
+      "manzil_number": 3,
+      "sajdah_number": null,
+      "text_uthmani": "كَأَن لَّمْ يَغْنَوْا۟ فِيهَآ ۗ أَلَا بُعْدًا لِّمَدْيَنَ كَمَا بَعِدَتْ ثَمُودُ",
+      "page_number": 232,
+      "juz_number": 12,
+      "translations": [
+        {
+          "id": 403271,
+          "resource_id": 85,
+          "text": "as if they had never lived and flourished there. Yes, away with the people of Midian, just like the Thamud!"
+        }
+      ]
+    },
+    {
+      "id": 1569,
+      "verse_number": 96,
+      "verse_key": "11:96",
+      "hizb_number": 24,
+      "rub_el_hizb_number": 93,
+      "ruku_number": 191,
+      "manzil_number": 3,
+      "sajdah_number": null,
+      "text_uthmani": "وَلَقَدْ أَرْسَلْنَا مُوسَىٰ بِـَٔايَـٰتِنَا وَسُلْطَـٰنٍ مُّبِينٍ",
+      "page_number": 232,
+      "juz_number": 12,
+      "translations": [
+        {
+          "id": 403272,
+          "resource_id": 85,
+          "text": "We also sent Moses, with Our signs and clear authority,"
+        }
+      ]
+    },
+    {
+      "id": 1570,
+      "verse_number": 97,
+      "verse_key": "11:97",
+      "hizb_number": 24,
+      "rub_el_hizb_number": 93,
+      "ruku_number": 191,
+      "manzil_number": 3,
+      "sajdah_number": null,
+      "text_uthmani": "إِلَىٰ فِرْعَوْنَ وَمَلَإِي۟هِۦ فَٱتَّبَعُوٓا۟ أَمْرَ فِرْعَوْنَ ۖ وَمَآ أَمْرُ فِرْعَوْنَ بِرَشِيدٍ",
+      "page_number": 232,
+      "juz_number": 12,
+      "translations": [
+        {
+          "id": 403273,
+          "resource_id": 85,
+          "text": "to Pharaoh and his supporters, but they followed Pharaoh’s orders, and Pharaoh’s orders were misguided."
+        }
+      ]
+    },
+    {
+      "id": 1571,
+      "verse_number": 98,
+      "verse_key": "11:98",
+      "hizb_number": 24,
+      "rub_el_hizb_number": 93,
+      "ruku_number": 191,
+      "manzil_number": 3,
+      "sajdah_number": null,
+      "text_uthmani": "يَقْدُمُ قَوْمَهُۥ يَوْمَ ٱلْقِيَـٰمَةِ فَأَوْرَدَهُمُ ٱلنَّارَ ۖ وَبِئْسَ ٱلْوِرْدُ ٱلْمَوْرُودُ",
+      "page_number": 233,
+      "juz_number": 12,
+      "translations": [
+        {
+          "id": 403274,
+          "resource_id": 85,
+          "text": "He will be at the forefront of his people on the Day of Resurrection, leading them down towards the Fire. What a foul drinking place to be led to!"
+        }
+      ]
+    },
+    {
+      "id": 1572,
+      "verse_number": 99,
+      "verse_key": "11:99",
+      "hizb_number": 24,
+      "rub_el_hizb_number": 93,
+      "ruku_number": 191,
+      "manzil_number": 3,
+      "sajdah_number": null,
+      "text_uthmani": "وَأُتْبِعُوا۟ فِى هَـٰذِهِۦ لَعْنَةً وَيَوْمَ ٱلْقِيَـٰمَةِ ۚ بِئْسَ ٱلرِّفْدُ ٱلْمَرْفُودُ",
+      "page_number": 233,
+      "juz_number": 12,
+      "translations": [
+        {
+          "id": 403275,
+          "resource_id": 85,
+          "text": "They were pursued by God’s rejection in this life and will be on the Day of Resurrection, too. What a foul gift to be given!"
+        }
+      ]
+    },
+    {
+      "id": 1573,
+      "verse_number": 100,
+      "verse_key": "11:100",
+      "hizb_number": 24,
+      "rub_el_hizb_number": 93,
+      "ruku_number": 191,
+      "manzil_number": 3,
+      "sajdah_number": null,
+      "text_uthmani": "ذَٰلِكَ مِنْ أَنۢبَآءِ ٱلْقُرَىٰ نَقُصُّهُۥ عَلَيْكَ ۖ مِنْهَا قَآئِمٌ وَحَصِيدٌ",
+      "page_number": 233,
+      "juz_number": 12,
+      "translations": [
+        {
+          "id": 403276,
+          "resource_id": 85,
+          "text": "We relate to you [Muhammad] such accounts of earlier towns: some of them are still standing; some have been mown down;"
+        }
+      ]
+    },
+    {
+      "id": 1574,
+      "verse_number": 101,
+      "verse_key": "11:101",
+      "hizb_number": 24,
+      "rub_el_hizb_number": 93,
+      "ruku_number": 191,
+      "manzil_number": 3,
+      "sajdah_number": null,
+      "text_uthmani": "وَمَا ظَلَمْنَـٰهُمْ وَلَـٰكِن ظَلَمُوٓا۟ أَنفُسَهُمْ ۖ فَمَآ أَغْنَتْ عَنْهُمْ ءَالِهَتُهُمُ ٱلَّتِى يَدْعُونَ مِن دُونِ ٱللَّهِ مِن شَىْءٍ لَّمَّا جَآءَ أَمْرُ رَبِّكَ ۖ وَمَا زَادُوهُمْ غَيْرَ تَتْبِيبٍ",
+      "page_number": 233,
+      "juz_number": 12,
+      "translations": [
+        {
+          "id": 403277,
+          "resource_id": 85,
+          "text": "We did not wrong them; they wronged themselves. Their gods, which they called on beside God, were no use to them when what your Lord had ordained came about; they only increased their ruin."
+        }
+      ]
+    },
+    {
+      "id": 1575,
+      "verse_number": 102,
+      "verse_key": "11:102",
+      "hizb_number": 24,
+      "rub_el_hizb_number": 93,
+      "ruku_number": 191,
+      "manzil_number": 3,
+      "sajdah_number": null,
+      "text_uthmani": "وَكَذَٰلِكَ أَخْذُ رَبِّكَ إِذَآ أَخَذَ ٱلْقُرَىٰ وَهِىَ ظَـٰلِمَةٌ ۚ إِنَّ أَخْذَهُۥٓ أَلِيمٌ شَدِيدٌ",
+      "page_number": 233,
+      "juz_number": 12,
+      "translations": [
+        {
+          "id": 403278,
+          "resource_id": 85,
+          "text": "Such is the punishment of your Lord for towns in the midst of their sins: His punishment is terrible and severe."
+        }
+      ]
+    },
+    {
+      "id": 1576,
+      "verse_number": 103,
+      "verse_key": "11:103",
+      "hizb_number": 24,
+      "rub_el_hizb_number": 93,
+      "ruku_number": 191,
+      "manzil_number": 3,
+      "sajdah_number": null,
+      "text_uthmani": "إِنَّ فِى ذَٰلِكَ لَـَٔايَةً لِّمَنْ خَافَ عَذَابَ ٱلْـَٔاخِرَةِ ۚ ذَٰلِكَ يَوْمٌ مَّجْمُوعٌ لَّهُ ٱلنَّاسُ وَذَٰلِكَ يَوْمٌ مَّشْهُودٌ",
+      "page_number": 233,
+      "juz_number": 12,
+      "translations": [
+        {
+          "id": 403279,
+          "resource_id": 85,
+          "text": "There truly is a sign in this for anyone who fears the punishment of the Hereafter. That is a Day in which all people will be gathered together, a Day for all to see."
+        }
+      ]
+    },
+    {
+      "id": 1577,
+      "verse_number": 104,
+      "verse_key": "11:104",
+      "hizb_number": 24,
+      "rub_el_hizb_number": 93,
+      "ruku_number": 191,
+      "manzil_number": 3,
+      "sajdah_number": null,
+      "text_uthmani": "وَمَا نُؤَخِّرُهُۥٓ إِلَّا لِأَجَلٍ مَّعْدُودٍ",
+      "page_number": 233,
+      "juz_number": 12,
+      "translations": [
+        {
+          "id": 403280,
+          "resource_id": 85,
+          "text": "We are delaying it only for a specified period,"
+        }
+      ]
+    },
+    {
+      "id": 1578,
+      "verse_number": 105,
+      "verse_key": "11:105",
+      "hizb_number": 24,
+      "rub_el_hizb_number": 93,
+      "ruku_number": 191,
+      "manzil_number": 3,
+      "sajdah_number": null,
+      "text_uthmani": "يَوْمَ يَأْتِ لَا تَكَلَّمُ نَفْسٌ إِلَّا بِإِذْنِهِۦ ۚ فَمِنْهُمْ شَقِىٌّ وَسَعِيدٌ",
+      "page_number": 233,
+      "juz_number": 12,
+      "translations": [
+        {
+          "id": 403281,
+          "resource_id": 85,
+          "text": "and when that Day comes, no soul will speak except by His permission, and some of them will be wretched and some happy."
+        }
+      ]
+    },
+    {
+      "id": 1579,
+      "verse_number": 106,
+      "verse_key": "11:106",
+      "hizb_number": 24,
+      "rub_el_hizb_number": 93,
+      "ruku_number": 191,
+      "manzil_number": 3,
+      "sajdah_number": null,
+      "text_uthmani": "فَأَمَّا ٱلَّذِينَ شَقُوا۟ فَفِى ٱلنَّارِ لَهُمْ فِيهَا زَفِيرٌ وَشَهِيقٌ",
+      "page_number": 233,
+      "juz_number": 12,
+      "translations": [
+        {
+          "id": 403282,
+          "resource_id": 85,
+          "text": "The wretched ones will be in the Fire, sighing and groaning,"
+        }
+      ]
+    },
+    {
+      "id": 1580,
+      "verse_number": 107,
+      "verse_key": "11:107",
+      "hizb_number": 24,
+      "rub_el_hizb_number": 93,
+      "ruku_number": 191,
+      "manzil_number": 3,
+      "sajdah_number": null,
+      "text_uthmani": "خَـٰلِدِينَ فِيهَا مَا دَامَتِ ٱلسَّمَـٰوَٰتُ وَٱلْأَرْضُ إِلَّا مَا شَآءَ رَبُّكَ ۚ إِنَّ رَبَّكَ فَعَّالٌ لِّمَا يُرِيدُ",
+      "page_number": 233,
+      "juz_number": 12,
+      "translations": [
+        {
+          "id": 403283,
+          "resource_id": 85,
+          "text": "there to remain for as long as the heavens and earth endure, unless your Lord wills otherwise: your Lord carries out whatever He wills."
+        }
+      ]
+    },
+    {
+      "id": 1581,
+      "verse_number": 108,
+      "verse_key": "11:108",
+      "hizb_number": 24,
+      "rub_el_hizb_number": 94,
+      "ruku_number": 191,
+      "manzil_number": 3,
+      "sajdah_number": null,
+      "text_uthmani": "۞ وَأَمَّا ٱلَّذِينَ سُعِدُوا۟ فَفِى ٱلْجَنَّةِ خَـٰلِدِينَ فِيهَا مَا دَامَتِ ٱلسَّمَـٰوَٰتُ وَٱلْأَرْضُ إِلَّا مَا شَآءَ رَبُّكَ ۖ عَطَآءً غَيْرَ مَجْذُوذٍ",
+      "page_number": 233,
+      "juz_number": 12,
+      "translations": [
+        {
+          "id": 403284,
+          "resource_id": 85,
+          "text": "As for those who have been blessed, they will be in Paradise, there to remain as long as the heavens and earth endure, unless your Lord wills otherwise- an unceasing gift."
+        }
+      ]
+    },
+    {
+      "id": 1582,
+      "verse_number": 109,
+      "verse_key": "11:109",
+      "hizb_number": 24,
+      "rub_el_hizb_number": 94,
+      "ruku_number": 191,
+      "manzil_number": 3,
+      "sajdah_number": null,
+      "text_uthmani": "فَلَا تَكُ فِى مِرْيَةٍ مِّمَّا يَعْبُدُ هَـٰٓؤُلَآءِ ۚ مَا يَعْبُدُونَ إِلَّا كَمَا يَعْبُدُ ءَابَآؤُهُم مِّن قَبْلُ ۚ وَإِنَّا لَمُوَفُّوهُمْ نَصِيبَهُمْ غَيْرَ مَنقُوصٍ",
+      "page_number": 234,
+      "juz_number": 12,
+      "translations": [
+        {
+          "id": 403285,
+          "resource_id": 85,
+          "text": "[Prophet], have no doubt about what these people worship: it is merely what their fathers worshipped before them, and We shall certainly give them their share in full, without any reduction."
+        }
+      ]
+    },
+    {
+      "id": 1583,
+      "verse_number": 110,
+      "verse_key": "11:110",
+      "hizb_number": 24,
+      "rub_el_hizb_number": 94,
+      "ruku_number": 192,
+      "manzil_number": 3,
+      "sajdah_number": null,
+      "text_uthmani": "وَلَقَدْ ءَاتَيْنَا مُوسَى ٱلْكِتَـٰبَ فَٱخْتُلِفَ فِيهِ ۚ وَلَوْلَا كَلِمَةٌ سَبَقَتْ مِن رَّبِّكَ لَقُضِىَ بَيْنَهُمْ ۚ وَإِنَّهُمْ لَفِى شَكٍّ مِّنْهُ مُرِيبٍ",
+      "page_number": 234,
+      "juz_number": 12,
+      "translations": [
+        {
+          "id": 403286,
+          "resource_id": 85,
+          "text": "We gave Moses the Scripture before you, but differences arose about it and if it had not been for a prior word from your Lord, a decision would already have been made between them, though they are in grave doubt about it."
+        }
+      ]
+    },
+    {
+      "id": 1584,
+      "verse_number": 111,
+      "verse_key": "11:111",
+      "hizb_number": 24,
+      "rub_el_hizb_number": 94,
+      "ruku_number": 192,
+      "manzil_number": 3,
+      "sajdah_number": null,
+      "text_uthmani": "وَإِنَّ كُلًّا لَّمَّا لَيُوَفِّيَنَّهُمْ رَبُّكَ أَعْمَـٰلَهُمْ ۚ إِنَّهُۥ بِمَا يَعْمَلُونَ خَبِيرٌ",
+      "page_number": 234,
+      "juz_number": 12,
+      "translations": [
+        {
+          "id": 403287,
+          "resource_id": 85,
+          "text": "Your Lord will give everyone full due for whatever they have done: He is aware of everything they do."
+        }
+      ]
+    },
+    {
+      "id": 1585,
+      "verse_number": 112,
+      "verse_key": "11:112",
+      "hizb_number": 24,
+      "rub_el_hizb_number": 94,
+      "ruku_number": 192,
+      "manzil_number": 3,
+      "sajdah_number": null,
+      "text_uthmani": "فَٱسْتَقِمْ كَمَآ أُمِرْتَ وَمَن تَابَ مَعَكَ وَلَا تَطْغَوْا۟ ۚ إِنَّهُۥ بِمَا تَعْمَلُونَ بَصِيرٌ",
+      "page_number": 234,
+      "juz_number": 12,
+      "translations": [
+        {
+          "id": 403288,
+          "resource_id": 85,
+          "text": "So keep to the right course as you have been commanded, together with those who have turned to God with you. Do not overstep the limits, for He sees everything you do."
+        }
+      ]
+    },
+    {
+      "id": 1586,
+      "verse_number": 113,
+      "verse_key": "11:113",
+      "hizb_number": 24,
+      "rub_el_hizb_number": 94,
+      "ruku_number": 192,
+      "manzil_number": 3,
+      "sajdah_number": null,
+      "text_uthmani": "وَلَا تَرْكَنُوٓا۟ إِلَى ٱلَّذِينَ ظَلَمُوا۟ فَتَمَسَّكُمُ ٱلنَّارُ وَمَا لَكُم مِّن دُونِ ٱللَّهِ مِنْ أَوْلِيَآءَ ثُمَّ لَا تُنصَرُونَ",
+      "page_number": 234,
+      "juz_number": 12,
+      "translations": [
+        {
+          "id": 403289,
+          "resource_id": 85,
+          "text": "Do not rely on those who do evil, or the Fire may touch you, and then you will have no one to protect you from God, nor will you be helped."
+        }
+      ]
+    },
+    {
+      "id": 1587,
+      "verse_number": 114,
+      "verse_key": "11:114",
+      "hizb_number": 24,
+      "rub_el_hizb_number": 94,
+      "ruku_number": 192,
+      "manzil_number": 3,
+      "sajdah_number": null,
+      "text_uthmani": "وَأَقِمِ ٱلصَّلَوٰةَ طَرَفَىِ ٱلنَّهَارِ وَزُلَفًا مِّنَ ٱلَّيْلِ ۚ إِنَّ ٱلْحَسَنَـٰتِ يُذْهِبْنَ ٱلسَّيِّـَٔاتِ ۚ ذَٰلِكَ ذِكْرَىٰ لِلذَّٰكِرِينَ",
+      "page_number": 234,
+      "juz_number": 12,
+      "translations": [
+        {
+          "id": 403290,
+          "resource_id": 85,
+          "text": "[Prophet], keep up the prayer at both ends of the day, and during parts of the night, for good things drive bad away- this is a reminder for those who are aware."
+        }
+      ]
+    },
+    {
+      "id": 1588,
+      "verse_number": 115,
+      "verse_key": "11:115",
+      "hizb_number": 24,
+      "rub_el_hizb_number": 94,
+      "ruku_number": 192,
+      "manzil_number": 3,
+      "sajdah_number": null,
+      "text_uthmani": "وَٱصْبِرْ فَإِنَّ ٱللَّهَ لَا يُضِيعُ أَجْرَ ٱلْمُحْسِنِينَ",
+      "page_number": 234,
+      "juz_number": 12,
+      "translations": [
+        {
+          "id": 403291,
+          "resource_id": 85,
+          "text": "Be steadfast: God does not let the rewards of those who do good go to waste."
+        }
+      ]
+    },
+    {
+      "id": 1589,
+      "verse_number": 116,
+      "verse_key": "11:116",
+      "hizb_number": 24,
+      "rub_el_hizb_number": 94,
+      "ruku_number": 192,
+      "manzil_number": 3,
+      "sajdah_number": null,
+      "text_uthmani": "فَلَوْلَا كَانَ مِنَ ٱلْقُرُونِ مِن قَبْلِكُمْ أُو۟لُوا۟ بَقِيَّةٍ يَنْهَوْنَ عَنِ ٱلْفَسَادِ فِى ٱلْأَرْضِ إِلَّا قَلِيلًا مِّمَّنْ أَنجَيْنَا مِنْهُمْ ۗ وَٱتَّبَعَ ٱلَّذِينَ ظَلَمُوا۟ مَآ أُتْرِفُوا۟ فِيهِ وَكَانُوا۟ مُجْرِمِينَ",
+      "page_number": 234,
+      "juz_number": 12,
+      "translations": [
+        {
+          "id": 403292,
+          "resource_id": 85,
+          "text": "If only there had been, among the generations before your time, people with a rem-nant of good sense, to forbid corruption on the earth! We saved only a few of them, while the unjust pursued the enjoyment of plenty, and persisted in sin."
+        }
+      ]
+    },
+    {
+      "id": 1590,
+      "verse_number": 117,
+      "verse_key": "11:117",
+      "hizb_number": 24,
+      "rub_el_hizb_number": 94,
+      "ruku_number": 192,
+      "manzil_number": 3,
+      "sajdah_number": null,
+      "text_uthmani": "وَمَا كَانَ رَبُّكَ لِيُهْلِكَ ٱلْقُرَىٰ بِظُلْمٍ وَأَهْلُهَا مُصْلِحُونَ",
+      "page_number": 234,
+      "juz_number": 12,
+      "translations": [
+        {
+          "id": 403293,
+          "resource_id": 85,
+          "text": "Your Lord would not destroy any town without cause if its people were acting righteously."
+        }
+      ]
+    },
+    {
+      "id": 1591,
+      "verse_number": 118,
+      "verse_key": "11:118",
+      "hizb_number": 24,
+      "rub_el_hizb_number": 94,
+      "ruku_number": 192,
+      "manzil_number": 3,
+      "sajdah_number": null,
+      "text_uthmani": "وَلَوْ شَآءَ رَبُّكَ لَجَعَلَ ٱلنَّاسَ أُمَّةً وَٰحِدَةً ۖ وَلَا يَزَالُونَ مُخْتَلِفِينَ",
+      "page_number": 235,
+      "juz_number": 12,
+      "translations": [
+        {
+          "id": 403294,
+          "resource_id": 85,
+          "text": "If your Lord had pleased, He would have made all people a single community, but they continue to have their differences-"
+        }
+      ]
+    },
+    {
+      "id": 1592,
+      "verse_number": 119,
+      "verse_key": "11:119",
+      "hizb_number": 24,
+      "rub_el_hizb_number": 94,
+      "ruku_number": 192,
+      "manzil_number": 3,
+      "sajdah_number": null,
+      "text_uthmani": "إِلَّا مَن رَّحِمَ رَبُّكَ ۚ وَلِذَٰلِكَ خَلَقَهُمْ ۗ وَتَمَّتْ كَلِمَةُ رَبِّكَ لَأَمْلَأَنَّ جَهَنَّمَ مِنَ ٱلْجِنَّةِ وَٱلنَّاسِ أَجْمَعِينَ",
+      "page_number": 235,
+      "juz_number": 12,
+      "translations": [
+        {
+          "id": 403295,
+          "resource_id": 85,
+          "text": "except those on whom your Lord has mercy- for He created them to be this way, and the word of your Lord is final: ‘I shall definitely fill Hell with both jinn and men.’"
+        }
+      ]
+    },
+    {
+      "id": 1593,
+      "verse_number": 120,
+      "verse_key": "11:120",
+      "hizb_number": 24,
+      "rub_el_hizb_number": 94,
+      "ruku_number": 192,
+      "manzil_number": 3,
+      "sajdah_number": null,
+      "text_uthmani": "وَكُلًّا نَّقُصُّ عَلَيْكَ مِنْ أَنۢبَآءِ ٱلرُّسُلِ مَا نُثَبِّتُ بِهِۦ فُؤَادَكَ ۚ وَجَآءَكَ فِى هَـٰذِهِ ٱلْحَقُّ وَمَوْعِظَةٌ وَذِكْرَىٰ لِلْمُؤْمِنِينَ",
+      "page_number": 235,
+      "juz_number": 12,
+      "translations": [
+        {
+          "id": 403296,
+          "resource_id": 85,
+          "text": "So [Muhammad], We have told you the stories of the prophets to make your heart firm and in these accounts truth has come to you, as well as lessons and reminders for the believers."
+        }
+      ]
+    },
+    {
+      "id": 1594,
+      "verse_number": 121,
+      "verse_key": "11:121",
+      "hizb_number": 24,
+      "rub_el_hizb_number": 94,
+      "ruku_number": 192,
+      "manzil_number": 3,
+      "sajdah_number": null,
+      "text_uthmani": "وَقُل لِّلَّذِينَ لَا يُؤْمِنُونَ ٱعْمَلُوا۟ عَلَىٰ مَكَانَتِكُمْ إِنَّا عَـٰمِلُونَ",
+      "page_number": 235,
+      "juz_number": 12,
+      "translations": [
+        {
+          "id": 403297,
+          "resource_id": 85,
+          "text": "Say to those who do not believe, ‘Do whatever you can: we too are doing what we can,’"
+        }
+      ]
+    },
+    {
+      "id": 1595,
+      "verse_number": 122,
+      "verse_key": "11:122",
+      "hizb_number": 24,
+      "rub_el_hizb_number": 94,
+      "ruku_number": 192,
+      "manzil_number": 3,
+      "sajdah_number": null,
+      "text_uthmani": "وَٱنتَظِرُوٓا۟ إِنَّا مُنتَظِرُونَ",
+      "page_number": 235,
+      "juz_number": 12,
+      "translations": [
+        {
+          "id": 403298,
+          "resource_id": 85,
+          "text": "and ‘Wait: we too are waiting.’"
+        }
+      ]
+    },
+    {
+      "id": 1596,
+      "verse_number": 123,
+      "verse_key": "11:123",
+      "hizb_number": 24,
+      "rub_el_hizb_number": 94,
+      "ruku_number": 192,
+      "manzil_number": 3,
+      "sajdah_number": null,
+      "text_uthmani": "وَلِلَّهِ غَيْبُ ٱلسَّمَـٰوَٰتِ وَٱلْأَرْضِ وَإِلَيْهِ يُرْجَعُ ٱلْأَمْرُ كُلُّهُۥ فَٱعْبُدْهُ وَتَوَكَّلْ عَلَيْهِ ۚ وَمَا رَبُّكَ بِغَـٰفِلٍ عَمَّا تَعْمَلُونَ",
+      "page_number": 235,
+      "juz_number": 12,
+      "translations": [
+        {
+          "id": 403299,
+          "resource_id": 85,
+          "text": "All that is hidden in the heavens and earth belongs to God, and all authority goes back to Him. So [Prophet], worship Him, and put your trust in Him: your Lord is never unaware of what you [people] are doing."
+        }
+      ]
+    }
+  ]
+}

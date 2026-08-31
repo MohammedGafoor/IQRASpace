@@ -1,0 +1,83 @@
+{
+  "syncedAt": "2026-08-31T05:21:29.775Z",
+  "chapter": {
+    "id": 103,
+    "revelation_place": "makkah",
+    "revelation_order": 13,
+    "bismillah_pre": true,
+    "name_simple": "Al-'Asr",
+    "name_complex": "Al-`Aşr",
+    "name_arabic": "العصر",
+    "verses_count": 3,
+    "pages": [
+      601,
+      601
+    ],
+    "translated_name": {
+      "language_name": "english",
+      "name": "The Declining Day"
+    }
+  },
+  "verses": [
+    {
+      "id": 6177,
+      "verse_number": 1,
+      "verse_key": "103:1",
+      "hizb_number": 60,
+      "rub_el_hizb_number": 240,
+      "ruku_number": 547,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": " وَٱلْعَصْرِ",
+      "page_number": 601,
+      "juz_number": 30,
+      "translations": [
+        {
+          "id": 407880,
+          "resource_id": 85,
+          "text": "By the declining day,"
+        }
+      ]
+    },
+    {
+      "id": 6178,
+      "verse_number": 2,
+      "verse_key": "103:2",
+      "hizb_number": 60,
+      "rub_el_hizb_number": 240,
+      "ruku_number": 547,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "إِنَّ ٱلْإِنسَـٰنَ لَفِى خُسْرٍ",
+      "page_number": 601,
+      "juz_number": 30,
+      "translations": [
+        {
+          "id": 407881,
+          "resource_id": 85,
+          "text": "man is [deep] in loss,"
+        }
+      ]
+    },
+    {
+      "id": 6179,
+      "verse_number": 3,
+      "verse_key": "103:3",
+      "hizb_number": 60,
+      "rub_el_hizb_number": 240,
+      "ruku_number": 547,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "إِلَّا ٱلَّذِينَ ءَامَنُوا۟ وَعَمِلُوا۟ ٱلصَّـٰلِحَـٰتِ وَتَوَاصَوْا۟ بِٱلْحَقِّ وَتَوَاصَوْا۟ بِٱلصَّبْرِ",
+      "page_number": 601,
+      "juz_number": 30,
+      "translations": [
+        {
+          "id": 407882,
+          "resource_id": 85,
+          "text": "except for those who believe, do good deeds, urge one another to the truth, and urge one another to steadfastness."
+        }
+      ]
+    }
+  ]
+}

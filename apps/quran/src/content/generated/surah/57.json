@@ -1,0 +1,603 @@
+{
+  "syncedAt": "2026-08-31T05:21:09.256Z",
+  "chapter": {
+    "id": 57,
+    "revelation_place": "madinah",
+    "revelation_order": 94,
+    "bismillah_pre": true,
+    "name_simple": "Al-Hadid",
+    "name_complex": "Al-Ĥadīd",
+    "name_arabic": "الحديد",
+    "verses_count": 29,
+    "pages": [
+      537,
+      541
+    ],
+    "translated_name": {
+      "language_name": "english",
+      "name": "The Iron"
+    }
+  },
+  "verses": [
+    {
+      "id": 5076,
+      "verse_number": 1,
+      "verse_key": "57:1",
+      "hizb_number": 54,
+      "rub_el_hizb_number": 215,
+      "ruku_number": 474,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": " سَبَّحَ لِلَّهِ مَا فِى ٱلسَّمَـٰوَٰتِ وَٱلْأَرْضِ ۖ وَهُوَ ٱلْعَزِيزُ ٱلْحَكِيمُ",
+      "page_number": 537,
+      "juz_number": 27,
+      "translations": [
+        {
+          "id": 406779,
+          "resource_id": 85,
+          "text": "Everything in the heavens and earth glorifies God––He is the Almighty, the Wise."
+        }
+      ]
+    },
+    {
+      "id": 5077,
+      "verse_number": 2,
+      "verse_key": "57:2",
+      "hizb_number": 54,
+      "rub_el_hizb_number": 215,
+      "ruku_number": 474,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "لَهُۥ مُلْكُ ٱلسَّمَـٰوَٰتِ وَٱلْأَرْضِ ۖ يُحْىِۦ وَيُمِيتُ ۖ وَهُوَ عَلَىٰ كُلِّ شَىْءٍ قَدِيرٌ",
+      "page_number": 537,
+      "juz_number": 27,
+      "translations": [
+        {
+          "id": 406780,
+          "resource_id": 85,
+          "text": "Control of the heavens and earth belongs to Him; He gives life and death; He has power over all things."
+        }
+      ]
+    },
+    {
+      "id": 5078,
+      "verse_number": 3,
+      "verse_key": "57:3",
+      "hizb_number": 54,
+      "rub_el_hizb_number": 215,
+      "ruku_number": 474,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "هُوَ ٱلْأَوَّلُ وَٱلْـَٔاخِرُ وَٱلظَّـٰهِرُ وَٱلْبَاطِنُ ۖ وَهُوَ بِكُلِّ شَىْءٍ عَلِيمٌ",
+      "page_number": 537,
+      "juz_number": 27,
+      "translations": [
+        {
+          "id": 406781,
+          "resource_id": 85,
+          "text": "He is the First and the Last; the Outer and the Inner; He has knowledge of all things."
+        }
+      ]
+    },
+    {
+      "id": 5079,
+      "verse_number": 4,
+      "verse_key": "57:4",
+      "hizb_number": 54,
+      "rub_el_hizb_number": 215,
+      "ruku_number": 474,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "هُوَ ٱلَّذِى خَلَقَ ٱلسَّمَـٰوَٰتِ وَٱلْأَرْضَ فِى سِتَّةِ أَيَّامٍ ثُمَّ ٱسْتَوَىٰ عَلَى ٱلْعَرْشِ ۚ يَعْلَمُ مَا يَلِجُ فِى ٱلْأَرْضِ وَمَا يَخْرُجُ مِنْهَا وَمَا يَنزِلُ مِنَ ٱلسَّمَآءِ وَمَا يَعْرُجُ فِيهَا ۖ وَهُوَ مَعَكُمْ أَيْنَ مَا كُنتُمْ ۚ وَٱللَّهُ بِمَا تَعْمَلُونَ بَصِيرٌ",
+      "page_number": 538,
+      "juz_number": 27,
+      "translations": [
+        {
+          "id": 406782,
+          "resource_id": 85,
+          "text": "It was He who created the heavens and earth in six Days and then established Himself on the throne. He knows what enters the earth and what comes out of it; what descends from the sky and what ascends to it. He is with you wherever you are; He sees all that you do;"
+        }
+      ]
+    },
+    {
+      "id": 5080,
+      "verse_number": 5,
+      "verse_key": "57:5",
+      "hizb_number": 54,
+      "rub_el_hizb_number": 215,
+      "ruku_number": 474,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "لَّهُۥ مُلْكُ ٱلسَّمَـٰوَٰتِ وَٱلْأَرْضِ ۚ وَإِلَى ٱللَّهِ تُرْجَعُ ٱلْأُمُورُ",
+      "page_number": 538,
+      "juz_number": 27,
+      "translations": [
+        {
+          "id": 406783,
+          "resource_id": 85,
+          "text": "control of the heavens and earth belongs to Him. Everything is brought back to God."
+        }
+      ]
+    },
+    {
+      "id": 5081,
+      "verse_number": 6,
+      "verse_key": "57:6",
+      "hizb_number": 54,
+      "rub_el_hizb_number": 215,
+      "ruku_number": 474,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "يُولِجُ ٱلَّيْلَ فِى ٱلنَّهَارِ وَيُولِجُ ٱلنَّهَارَ فِى ٱلَّيْلِ ۚ وَهُوَ عَلِيمٌۢ بِذَاتِ ٱلصُّدُورِ",
+      "page_number": 538,
+      "juz_number": 27,
+      "translations": [
+        {
+          "id": 406784,
+          "resource_id": 85,
+          "text": "He makes night merge into day and day into night. He knows what is in every heart."
+        }
+      ]
+    },
+    {
+      "id": 5082,
+      "verse_number": 7,
+      "verse_key": "57:7",
+      "hizb_number": 54,
+      "rub_el_hizb_number": 215,
+      "ruku_number": 474,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "ءَامِنُوا۟ بِٱللَّهِ وَرَسُولِهِۦ وَأَنفِقُوا۟ مِمَّا جَعَلَكُم مُّسْتَخْلَفِينَ فِيهِ ۖ فَٱلَّذِينَ ءَامَنُوا۟ مِنكُمْ وَأَنفَقُوا۟ لَهُمْ أَجْرٌ كَبِيرٌ",
+      "page_number": 538,
+      "juz_number": 27,
+      "translations": [
+        {
+          "id": 406785,
+          "resource_id": 85,
+          "text": "Believe in God and His Messenger, and give out of what He has made pass down to you: those of you who believe and give will have a great reward."
+        }
+      ]
+    },
+    {
+      "id": 5083,
+      "verse_number": 8,
+      "verse_key": "57:8",
+      "hizb_number": 54,
+      "rub_el_hizb_number": 215,
+      "ruku_number": 474,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "وَمَا لَكُمْ لَا تُؤْمِنُونَ بِٱللَّهِ ۙ وَٱلرَّسُولُ يَدْعُوكُمْ لِتُؤْمِنُوا۟ بِرَبِّكُمْ وَقَدْ أَخَذَ مِيثَـٰقَكُمْ إِن كُنتُم مُّؤْمِنِينَ",
+      "page_number": 538,
+      "juz_number": 27,
+      "translations": [
+        {
+          "id": 406786,
+          "resource_id": 85,
+          "text": "Why should you not believe in God when the Mes-senger calls you to believe in your Lord, and He has already made a pledge with you, if you have faith?"
+        }
+      ]
+    },
+    {
+      "id": 5084,
+      "verse_number": 9,
+      "verse_key": "57:9",
+      "hizb_number": 54,
+      "rub_el_hizb_number": 215,
+      "ruku_number": 474,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "هُوَ ٱلَّذِى يُنَزِّلُ عَلَىٰ عَبْدِهِۦٓ ءَايَـٰتٍۭ بَيِّنَـٰتٍ لِّيُخْرِجَكُم مِّنَ ٱلظُّلُمَـٰتِ إِلَى ٱلنُّورِ ۚ وَإِنَّ ٱللَّهَ بِكُمْ لَرَءُوفٌ رَّحِيمٌ",
+      "page_number": 538,
+      "juz_number": 27,
+      "translations": [
+        {
+          "id": 406787,
+          "resource_id": 85,
+          "text": "It is He who has sent down clear revelations to His Servant, so that He may bring you from the depths of darkness into light; God is truly kind and merciful to you."
+        }
+      ]
+    },
+    {
+      "id": 5085,
+      "verse_number": 10,
+      "verse_key": "57:10",
+      "hizb_number": 54,
+      "rub_el_hizb_number": 215,
+      "ruku_number": 474,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "وَمَا لَكُمْ أَلَّا تُنفِقُوا۟ فِى سَبِيلِ ٱللَّهِ وَلِلَّهِ مِيرَٰثُ ٱلسَّمَـٰوَٰتِ وَٱلْأَرْضِ ۚ لَا يَسْتَوِى مِنكُم مَّنْ أَنفَقَ مِن قَبْلِ ٱلْفَتْحِ وَقَـٰتَلَ ۚ أُو۟لَـٰٓئِكَ أَعْظَمُ دَرَجَةً مِّنَ ٱلَّذِينَ أَنفَقُوا۟ مِنۢ بَعْدُ وَقَـٰتَلُوا۟ ۚ وَكُلًّا وَعَدَ ٱللَّهُ ٱلْحُسْنَىٰ ۚ وَٱللَّهُ بِمَا تَعْمَلُونَ خَبِيرٌ",
+      "page_number": 538,
+      "juz_number": 27,
+      "translations": [
+        {
+          "id": 406788,
+          "resource_id": 85,
+          "text": "Why should you not give for God’s cause when God alone will inherit what is in the heavens and earth? Those who gave and fought before the triumph are not like others: they are greater in rank than those who gave and fought afterwards. But God has promised a good reward to all of them: God is fully aware of all that you do."
+        }
+      ]
+    },
+    {
+      "id": 5086,
+      "verse_number": 11,
+      "verse_key": "57:11",
+      "hizb_number": 54,
+      "rub_el_hizb_number": 215,
+      "ruku_number": 475,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "مَّن ذَا ٱلَّذِى يُقْرِضُ ٱللَّهَ قَرْضًا حَسَنًا فَيُضَـٰعِفَهُۥ لَهُۥ وَلَهُۥٓ أَجْرٌ كَرِيمٌ",
+      "page_number": 538,
+      "juz_number": 27,
+      "translations": [
+        {
+          "id": 406789,
+          "resource_id": 85,
+          "text": "Who will make God a good loan? He will double it for him and reward him generously."
+        }
+      ]
+    },
+    {
+      "id": 5087,
+      "verse_number": 12,
+      "verse_key": "57:12",
+      "hizb_number": 54,
+      "rub_el_hizb_number": 215,
+      "ruku_number": 475,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "يَوْمَ تَرَى ٱلْمُؤْمِنِينَ وَٱلْمُؤْمِنَـٰتِ يَسْعَىٰ نُورُهُم بَيْنَ أَيْدِيهِمْ وَبِأَيْمَـٰنِهِم بُشْرَىٰكُمُ ٱلْيَوْمَ جَنَّـٰتٌ تَجْرِى مِن تَحْتِهَا ٱلْأَنْهَـٰرُ خَـٰلِدِينَ فِيهَا ۚ ذَٰلِكَ هُوَ ٱلْفَوْزُ ٱلْعَظِيمُ",
+      "page_number": 539,
+      "juz_number": 27,
+      "translations": [
+        {
+          "id": 406790,
+          "resource_id": 85,
+          "text": "On the Day when you [Prophet] see the believers, both men and women, with their light streaming out ahead of them and to their right, [they will be told], ‘The good news for you today is that there are Gardens graced with flowing streams where you will stay: that is truly the supreme triumph!’"
+        }
+      ]
+    },
+    {
+      "id": 5088,
+      "verse_number": 13,
+      "verse_key": "57:13",
+      "hizb_number": 54,
+      "rub_el_hizb_number": 215,
+      "ruku_number": 475,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "يَوْمَ يَقُولُ ٱلْمُنَـٰفِقُونَ وَٱلْمُنَـٰفِقَـٰتُ لِلَّذِينَ ءَامَنُوا۟ ٱنظُرُونَا نَقْتَبِسْ مِن نُّورِكُمْ قِيلَ ٱرْجِعُوا۟ وَرَآءَكُمْ فَٱلْتَمِسُوا۟ نُورًا فَضُرِبَ بَيْنَهُم بِسُورٍ لَّهُۥ بَابٌۢ بَاطِنُهُۥ فِيهِ ٱلرَّحْمَةُ وَظَـٰهِرُهُۥ مِن قِبَلِهِ ٱلْعَذَابُ",
+      "page_number": 539,
+      "juz_number": 27,
+      "translations": [
+        {
+          "id": 406791,
+          "resource_id": 85,
+          "text": "On the same Day, the hypocrites, both men and women, will say to the believers, ‘Wait for us! Let us have some of your light!’ They will be told, ‘Go back and look for a light.’ A wall with a door will be erected between them: inside it lies mercy, outside lies torment."
+        }
+      ]
+    },
+    {
+      "id": 5089,
+      "verse_number": 14,
+      "verse_key": "57:14",
+      "hizb_number": 54,
+      "rub_el_hizb_number": 215,
+      "ruku_number": 475,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "يُنَادُونَهُمْ أَلَمْ نَكُن مَّعَكُمْ ۖ قَالُوا۟ بَلَىٰ وَلَـٰكِنَّكُمْ فَتَنتُمْ أَنفُسَكُمْ وَتَرَبَّصْتُمْ وَٱرْتَبْتُمْ وَغَرَّتْكُمُ ٱلْأَمَانِىُّ حَتَّىٰ جَآءَ أَمْرُ ٱللَّهِ وَغَرَّكُم بِٱللَّهِ ٱلْغَرُورُ",
+      "page_number": 539,
+      "juz_number": 27,
+      "translations": [
+        {
+          "id": 406792,
+          "resource_id": 85,
+          "text": "The hypocrites will call out to the believers, ‘Were we not with you?’ They will reply, ‘Yes. But you allowed yourselves to be tempted, you were hesitant, doubtful, deceived by false hopes until God’s command came- the Deceiver tricked you about God."
+        }
+      ]
+    },
+    {
+      "id": 5090,
+      "verse_number": 15,
+      "verse_key": "57:15",
+      "hizb_number": 54,
+      "rub_el_hizb_number": 215,
+      "ruku_number": 475,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "فَٱلْيَوْمَ لَا يُؤْخَذُ مِنكُمْ فِدْيَةٌ وَلَا مِنَ ٱلَّذِينَ كَفَرُوا۟ ۚ مَأْوَىٰكُمُ ٱلنَّارُ ۖ هِىَ مَوْلَىٰكُمْ ۖ وَبِئْسَ ٱلْمَصِيرُ",
+      "page_number": 539,
+      "juz_number": 27,
+      "translations": [
+        {
+          "id": 406793,
+          "resource_id": 85,
+          "text": "Today no ransom will be accepted from you or from the disbelievers: your home is the Fire- that is where you belong––a miserable destination!’"
+        }
+      ]
+    },
+    {
+      "id": 5091,
+      "verse_number": 16,
+      "verse_key": "57:16",
+      "hizb_number": 54,
+      "rub_el_hizb_number": 216,
+      "ruku_number": 475,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "۞ أَلَمْ يَأْنِ لِلَّذِينَ ءَامَنُوٓا۟ أَن تَخْشَعَ قُلُوبُهُمْ لِذِكْرِ ٱللَّهِ وَمَا نَزَلَ مِنَ ٱلْحَقِّ وَلَا يَكُونُوا۟ كَٱلَّذِينَ أُوتُوا۟ ٱلْكِتَـٰبَ مِن قَبْلُ فَطَالَ عَلَيْهِمُ ٱلْأَمَدُ فَقَسَتْ قُلُوبُهُمْ ۖ وَكَثِيرٌ مِّنْهُمْ فَـٰسِقُونَ",
+      "page_number": 539,
+      "juz_number": 27,
+      "translations": [
+        {
+          "id": 406794,
+          "resource_id": 85,
+          "text": "Is it not time for believers to humble their hearts to the remembrance of God and the Truth that has been revealed, and not to be like those who received the Scripture before them, whose time was extended but whose hearts hardened and many of whom were lawbreakers?"
+        }
+      ]
+    },
+    {
+      "id": 5092,
+      "verse_number": 17,
+      "verse_key": "57:17",
+      "hizb_number": 54,
+      "rub_el_hizb_number": 216,
+      "ruku_number": 475,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "ٱعْلَمُوٓا۟ أَنَّ ٱللَّهَ يُحْىِ ٱلْأَرْضَ بَعْدَ مَوْتِهَا ۚ قَدْ بَيَّنَّا لَكُمُ ٱلْـَٔايَـٰتِ لَعَلَّكُمْ تَعْقِلُونَ",
+      "page_number": 539,
+      "juz_number": 27,
+      "translations": [
+        {
+          "id": 406795,
+          "resource_id": 85,
+          "text": "Remember that God revives the earth after it dies; We have made Our revelation clear to you so that you may use your reason."
+        }
+      ]
+    },
+    {
+      "id": 5093,
+      "verse_number": 18,
+      "verse_key": "57:18",
+      "hizb_number": 54,
+      "rub_el_hizb_number": 216,
+      "ruku_number": 475,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "إِنَّ ٱلْمُصَّدِّقِينَ وَٱلْمُصَّدِّقَـٰتِ وَأَقْرَضُوا۟ ٱللَّهَ قَرْضًا حَسَنًا يُضَـٰعَفُ لَهُمْ وَلَهُمْ أَجْرٌ كَرِيمٌ",
+      "page_number": 539,
+      "juz_number": 27,
+      "translations": [
+        {
+          "id": 406796,
+          "resource_id": 85,
+          "text": "Charitable men and women who make a good loan to God will have it doubled and have a generous reward."
+        }
+      ]
+    },
+    {
+      "id": 5094,
+      "verse_number": 19,
+      "verse_key": "57:19",
+      "hizb_number": 54,
+      "rub_el_hizb_number": 216,
+      "ruku_number": 475,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "وَٱلَّذِينَ ءَامَنُوا۟ بِٱللَّهِ وَرُسُلِهِۦٓ أُو۟لَـٰٓئِكَ هُمُ ٱلصِّدِّيقُونَ ۖ وَٱلشُّهَدَآءُ عِندَ رَبِّهِمْ لَهُمْ أَجْرُهُمْ وَنُورُهُمْ ۖ وَٱلَّذِينَ كَفَرُوا۟ وَكَذَّبُوا۟ بِـَٔايَـٰتِنَآ أُو۟لَـٰٓئِكَ أَصْحَـٰبُ ٱلْجَحِيمِ",
+      "page_number": 540,
+      "juz_number": 27,
+      "translations": [
+        {
+          "id": 406797,
+          "resource_id": 85,
+          "text": "Those who believe in God and His messengers are the truthful ones who will bear witness before their Lord: they will have their reward and their light. But those who disbelieve and deny Our revelations are the inhabitants of Hell."
+        }
+      ]
+    },
+    {
+      "id": 5095,
+      "verse_number": 20,
+      "verse_key": "57:20",
+      "hizb_number": 54,
+      "rub_el_hizb_number": 216,
+      "ruku_number": 476,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "ٱعْلَمُوٓا۟ أَنَّمَا ٱلْحَيَوٰةُ ٱلدُّنْيَا لَعِبٌ وَلَهْوٌ وَزِينَةٌ وَتَفَاخُرٌۢ بَيْنَكُمْ وَتَكَاثُرٌ فِى ٱلْأَمْوَٰلِ وَٱلْأَوْلَـٰدِ ۖ كَمَثَلِ غَيْثٍ أَعْجَبَ ٱلْكُفَّارَ نَبَاتُهُۥ ثُمَّ يَهِيجُ فَتَرَىٰهُ مُصْفَرًّا ثُمَّ يَكُونُ حُطَـٰمًا ۖ وَفِى ٱلْـَٔاخِرَةِ عَذَابٌ شَدِيدٌ وَمَغْفِرَةٌ مِّنَ ٱللَّهِ وَرِضْوَٰنٌ ۚ وَمَا ٱلْحَيَوٰةُ ٱلدُّنْيَآ إِلَّا مَتَـٰعُ ٱلْغُرُورِ",
+      "page_number": 540,
+      "juz_number": 27,
+      "translations": [
+        {
+          "id": 406798,
+          "resource_id": 85,
+          "text": "Bear in mind that the present life is just a game, a diversion, an attraction, a cause of boasting among you, of rivalry in wealth and children. It is like plants that spring up after the rain: their growth at first delights the sowers, but then you see them wither away, turn yellow, and become stubble. There is terrible punishment in the next life as well as forgiveness and approval from God; the life of this world is only an illusory pleasure."
+        }
+      ]
+    },
+    {
+      "id": 5096,
+      "verse_number": 21,
+      "verse_key": "57:21",
+      "hizb_number": 54,
+      "rub_el_hizb_number": 216,
+      "ruku_number": 476,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "سَابِقُوٓا۟ إِلَىٰ مَغْفِرَةٍ مِّن رَّبِّكُمْ وَجَنَّةٍ عَرْضُهَا كَعَرْضِ ٱلسَّمَآءِ وَٱلْأَرْضِ أُعِدَّتْ لِلَّذِينَ ءَامَنُوا۟ بِٱللَّهِ وَرُسُلِهِۦ ۚ ذَٰلِكَ فَضْلُ ٱللَّهِ يُؤْتِيهِ مَن يَشَآءُ ۚ وَٱللَّهُ ذُو ٱلْفَضْلِ ٱلْعَظِيمِ",
+      "page_number": 540,
+      "juz_number": 27,
+      "translations": [
+        {
+          "id": 406799,
+          "resource_id": 85,
+          "text": "So race for your Lord’s forgiveness and a Garden as wide as the heavens and earth, prepared for those who believe in God and His messengers: that is God’s bounty, which He bestows on whoever He pleases. God’s bounty is infinite."
+        }
+      ]
+    },
+    {
+      "id": 5097,
+      "verse_number": 22,
+      "verse_key": "57:22",
+      "hizb_number": 54,
+      "rub_el_hizb_number": 216,
+      "ruku_number": 476,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "مَآ أَصَابَ مِن مُّصِيبَةٍ فِى ٱلْأَرْضِ وَلَا فِىٓ أَنفُسِكُمْ إِلَّا فِى كِتَـٰبٍ مِّن قَبْلِ أَن نَّبْرَأَهَآ ۚ إِنَّ ذَٰلِكَ عَلَى ٱللَّهِ يَسِيرٌ",
+      "page_number": 540,
+      "juz_number": 27,
+      "translations": [
+        {
+          "id": 406800,
+          "resource_id": 85,
+          "text": "No misfortune can happen, either in the earth or in yourselves, that was not set down in writing before We brought it into being- that is easy for God-"
+        }
+      ]
+    },
+    {
+      "id": 5098,
+      "verse_number": 23,
+      "verse_key": "57:23",
+      "hizb_number": 54,
+      "rub_el_hizb_number": 216,
+      "ruku_number": 476,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "لِّكَيْلَا تَأْسَوْا۟ عَلَىٰ مَا فَاتَكُمْ وَلَا تَفْرَحُوا۟ بِمَآ ءَاتَىٰكُمْ ۗ وَٱللَّهُ لَا يُحِبُّ كُلَّ مُخْتَالٍ فَخُورٍ",
+      "page_number": 540,
+      "juz_number": 27,
+      "translations": [
+        {
+          "id": 406801,
+          "resource_id": 85,
+          "text": "so you need not grieve for what you miss or gloat over what you gain. God does not love the conceited, the boastful,"
+        }
+      ]
+    },
+    {
+      "id": 5099,
+      "verse_number": 24,
+      "verse_key": "57:24",
+      "hizb_number": 54,
+      "rub_el_hizb_number": 216,
+      "ruku_number": 476,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "ٱلَّذِينَ يَبْخَلُونَ وَيَأْمُرُونَ ٱلنَّاسَ بِٱلْبُخْلِ ۗ وَمَن يَتَوَلَّ فَإِنَّ ٱللَّهَ هُوَ ٱلْغَنِىُّ ٱلْحَمِيدُ",
+      "page_number": 540,
+      "juz_number": 27,
+      "translations": [
+        {
+          "id": 406802,
+          "resource_id": 85,
+          "text": "those who are miserly, and who tell other people to be miserly. If anyone turns away, remember that God is self-sufficient and worthy of praise."
+        }
+      ]
+    },
+    {
+      "id": 5100,
+      "verse_number": 25,
+      "verse_key": "57:25",
+      "hizb_number": 54,
+      "rub_el_hizb_number": 216,
+      "ruku_number": 476,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "لَقَدْ أَرْسَلْنَا رُسُلَنَا بِٱلْبَيِّنَـٰتِ وَأَنزَلْنَا مَعَهُمُ ٱلْكِتَـٰبَ وَٱلْمِيزَانَ لِيَقُومَ ٱلنَّاسُ بِٱلْقِسْطِ ۖ وَأَنزَلْنَا ٱلْحَدِيدَ فِيهِ بَأْسٌ شَدِيدٌ وَمَنَـٰفِعُ لِلنَّاسِ وَلِيَعْلَمَ ٱللَّهُ مَن يَنصُرُهُۥ وَرُسُلَهُۥ بِٱلْغَيْبِ ۚ إِنَّ ٱللَّهَ قَوِىٌّ عَزِيزٌ",
+      "page_number": 541,
+      "juz_number": 27,
+      "translations": [
+        {
+          "id": 406803,
+          "resource_id": 85,
+          "text": "We sent Our messengers with clear signs, the Scripture and the Balance, so that people could uphold justice: We also sent iron, with its mighty strength and many uses for mankind, so that God could mark out those who would help Him and His messengers though they cannot see Him. Truly God is powerful, almighty."
+        }
+      ]
+    },
+    {
+      "id": 5101,
+      "verse_number": 26,
+      "verse_key": "57:26",
+      "hizb_number": 54,
+      "rub_el_hizb_number": 216,
+      "ruku_number": 477,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "وَلَقَدْ أَرْسَلْنَا نُوحًا وَإِبْرَٰهِيمَ وَجَعَلْنَا فِى ذُرِّيَّتِهِمَا ٱلنُّبُوَّةَ وَٱلْكِتَـٰبَ ۖ فَمِنْهُم مُّهْتَدٍ ۖ وَكَثِيرٌ مِّنْهُمْ فَـٰسِقُونَ",
+      "page_number": 541,
+      "juz_number": 27,
+      "translations": [
+        {
+          "id": 406804,
+          "resource_id": 85,
+          "text": "We sent Noah and Abraham, and gave prophethood and scripture to their offspring: among them there were some who were rightly guided, but many were lawbreakers."
+        }
+      ]
+    },
+    {
+      "id": 5102,
+      "verse_number": 27,
+      "verse_key": "57:27",
+      "hizb_number": 54,
+      "rub_el_hizb_number": 216,
+      "ruku_number": 477,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "ثُمَّ قَفَّيْنَا عَلَىٰٓ ءَاثَـٰرِهِم بِرُسُلِنَا وَقَفَّيْنَا بِعِيسَى ٱبْنِ مَرْيَمَ وَءَاتَيْنَـٰهُ ٱلْإِنجِيلَ وَجَعَلْنَا فِى قُلُوبِ ٱلَّذِينَ ٱتَّبَعُوهُ رَأْفَةً وَرَحْمَةً وَرَهْبَانِيَّةً ٱبْتَدَعُوهَا مَا كَتَبْنَـٰهَا عَلَيْهِمْ إِلَّا ٱبْتِغَآءَ رِضْوَٰنِ ٱللَّهِ فَمَا رَعَوْهَا حَقَّ رِعَايَتِهَا ۖ فَـَٔاتَيْنَا ٱلَّذِينَ ءَامَنُوا۟ مِنْهُمْ أَجْرَهُمْ ۖ وَكَثِيرٌ مِّنْهُمْ فَـٰسِقُونَ",
+      "page_number": 541,
+      "juz_number": 27,
+      "translations": [
+        {
+          "id": 406805,
+          "resource_id": 85,
+          "text": "We sent other messengers to follow in their footsteps. After those We sent Jesus, son of Mary: We gave him the Gospel and put compassion and mercy into the hearts of his followers. But monasticism was something they invented- We did not ordain it for them- only to seek God’s pleasure, and even so, they did not observe it properly. So We gave a reward to those of them who believed, but many of them were lawbreakers."
+        }
+      ]
+    },
+    {
+      "id": 5103,
+      "verse_number": 28,
+      "verse_key": "57:28",
+      "hizb_number": 54,
+      "rub_el_hizb_number": 216,
+      "ruku_number": 477,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "يَـٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُوا۟ ٱتَّقُوا۟ ٱللَّهَ وَءَامِنُوا۟ بِرَسُولِهِۦ يُؤْتِكُمْ كِفْلَيْنِ مِن رَّحْمَتِهِۦ وَيَجْعَل لَّكُمْ نُورًا تَمْشُونَ بِهِۦ وَيَغْفِرْ لَكُمْ ۚ وَٱللَّهُ غَفُورٌ رَّحِيمٌ",
+      "page_number": 541,
+      "juz_number": 27,
+      "translations": [
+        {
+          "id": 406806,
+          "resource_id": 85,
+          "text": "Believers, be mindful of God and have faith in His Messenger: He will give you a double share of His mercy; He will provide a light to help you walk; He will forgive you- God is most forgiving, most merciful."
+        }
+      ]
+    },
+    {
+      "id": 5104,
+      "verse_number": 29,
+      "verse_key": "57:29",
+      "hizb_number": 54,
+      "rub_el_hizb_number": 216,
+      "ruku_number": 477,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "لِّئَلَّا يَعْلَمَ أَهْلُ ٱلْكِتَـٰبِ أَلَّا يَقْدِرُونَ عَلَىٰ شَىْءٍ مِّن فَضْلِ ٱللَّهِ ۙ وَأَنَّ ٱلْفَضْلَ بِيَدِ ٱللَّهِ يُؤْتِيهِ مَن يَشَآءُ ۚ وَٱللَّهُ ذُو ٱلْفَضْلِ ٱلْعَظِيمِ",
+      "page_number": 541,
+      "juz_number": 27,
+      "translations": [
+        {
+          "id": 406807,
+          "resource_id": 85,
+          "text": "The People of the Book should know that they have no power over any of God’s grace and that grace is in the hand of God alone: He gives it to whoever He will. God’s grace is truly immense."
+        }
+      ]
+    }
+  ]
+}

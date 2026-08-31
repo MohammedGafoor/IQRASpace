@@ -1,0 +1,543 @@
+{
+  "syncedAt": "2026-08-31T05:21:23.544Z",
+  "chapter": {
+    "id": 88,
+    "revelation_place": "makkah",
+    "revelation_order": 68,
+    "bismillah_pre": true,
+    "name_simple": "Al-Ghashiyah",
+    "name_complex": "Al-Ghāshiyah",
+    "name_arabic": "الغاشية",
+    "verses_count": 26,
+    "pages": [
+      592,
+      592
+    ],
+    "translated_name": {
+      "language_name": "english",
+      "name": "The Overwhelming"
+    }
+  },
+  "verses": [
+    {
+      "id": 5968,
+      "verse_number": 1,
+      "verse_key": "88:1",
+      "hizb_number": 60,
+      "rub_el_hizb_number": 237,
+      "ruku_number": 532,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": " هَلْ أَتَىٰكَ حَدِيثُ ٱلْغَـٰشِيَةِ",
+      "page_number": 592,
+      "juz_number": 30,
+      "translations": [
+        {
+          "id": 407671,
+          "resource_id": 85,
+          "text": "Have you heard tell [Prophet] about the Overwhelming Event?"
+        }
+      ]
+    },
+    {
+      "id": 5969,
+      "verse_number": 2,
+      "verse_key": "88:2",
+      "hizb_number": 60,
+      "rub_el_hizb_number": 237,
+      "ruku_number": 532,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "وُجُوهٌ يَوْمَئِذٍ خَـٰشِعَةٌ",
+      "page_number": 592,
+      "juz_number": 30,
+      "translations": [
+        {
+          "id": 407672,
+          "resource_id": 85,
+          "text": "On that Day, there will be downcast faces,"
+        }
+      ]
+    },
+    {
+      "id": 5970,
+      "verse_number": 3,
+      "verse_key": "88:3",
+      "hizb_number": 60,
+      "rub_el_hizb_number": 237,
+      "ruku_number": 532,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "عَامِلَةٌ نَّاصِبَةٌ",
+      "page_number": 592,
+      "juz_number": 30,
+      "translations": [
+        {
+          "id": 407673,
+          "resource_id": 85,
+          "text": "toiling and weary,"
+        }
+      ]
+    },
+    {
+      "id": 5971,
+      "verse_number": 4,
+      "verse_key": "88:4",
+      "hizb_number": 60,
+      "rub_el_hizb_number": 237,
+      "ruku_number": 532,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "تَصْلَىٰ نَارًا حَامِيَةً",
+      "page_number": 592,
+      "juz_number": 30,
+      "translations": [
+        {
+          "id": 407674,
+          "resource_id": 85,
+          "text": "as they enter the blazing Fire"
+        }
+      ]
+    },
+    {
+      "id": 5972,
+      "verse_number": 5,
+      "verse_key": "88:5",
+      "hizb_number": 60,
+      "rub_el_hizb_number": 237,
+      "ruku_number": 532,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "تُسْقَىٰ مِنْ عَيْنٍ ءَانِيَةٍ",
+      "page_number": 592,
+      "juz_number": 30,
+      "translations": [
+        {
+          "id": 407675,
+          "resource_id": 85,
+          "text": "and are forced to drink from a boiling spring,"
+        }
+      ]
+    },
+    {
+      "id": 5973,
+      "verse_number": 6,
+      "verse_key": "88:6",
+      "hizb_number": 60,
+      "rub_el_hizb_number": 237,
+      "ruku_number": 532,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "لَّيْسَ لَهُمْ طَعَامٌ إِلَّا مِن ضَرِيعٍ",
+      "page_number": 592,
+      "juz_number": 30,
+      "translations": [
+        {
+          "id": 407676,
+          "resource_id": 85,
+          "text": "with no food for them except bitter dry thorns"
+        }
+      ]
+    },
+    {
+      "id": 5974,
+      "verse_number": 7,
+      "verse_key": "88:7",
+      "hizb_number": 60,
+      "rub_el_hizb_number": 237,
+      "ruku_number": 532,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "لَّا يُسْمِنُ وَلَا يُغْنِى مِن جُوعٍ",
+      "page_number": 592,
+      "juz_number": 30,
+      "translations": [
+        {
+          "id": 407677,
+          "resource_id": 85,
+          "text": "that neither nourish nor satisfy hunger."
+        }
+      ]
+    },
+    {
+      "id": 5975,
+      "verse_number": 8,
+      "verse_key": "88:8",
+      "hizb_number": 60,
+      "rub_el_hizb_number": 237,
+      "ruku_number": 532,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "وُجُوهٌ يَوْمَئِذٍ نَّاعِمَةٌ",
+      "page_number": 592,
+      "juz_number": 30,
+      "translations": [
+        {
+          "id": 407678,
+          "resource_id": 85,
+          "text": "On that Day there will also be faces radiant with bliss,"
+        }
+      ]
+    },
+    {
+      "id": 5976,
+      "verse_number": 9,
+      "verse_key": "88:9",
+      "hizb_number": 60,
+      "rub_el_hizb_number": 237,
+      "ruku_number": 532,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "لِّسَعْيِهَا رَاضِيَةٌ",
+      "page_number": 592,
+      "juz_number": 30,
+      "translations": [
+        {
+          "id": 407679,
+          "resource_id": 85,
+          "text": "well pleased with their labour,"
+        }
+      ]
+    },
+    {
+      "id": 5977,
+      "verse_number": 10,
+      "verse_key": "88:10",
+      "hizb_number": 60,
+      "rub_el_hizb_number": 237,
+      "ruku_number": 532,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "فِى جَنَّةٍ عَالِيَةٍ",
+      "page_number": 592,
+      "juz_number": 30,
+      "translations": [
+        {
+          "id": 407680,
+          "resource_id": 85,
+          "text": "in a lofty garden,"
+        }
+      ]
+    },
+    {
+      "id": 5978,
+      "verse_number": 11,
+      "verse_key": "88:11",
+      "hizb_number": 60,
+      "rub_el_hizb_number": 237,
+      "ruku_number": 532,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "لَّا تَسْمَعُ فِيهَا لَـٰغِيَةً",
+      "page_number": 592,
+      "juz_number": 30,
+      "translations": [
+        {
+          "id": 407681,
+          "resource_id": 85,
+          "text": "where they will hear no idle talk,"
+        }
+      ]
+    },
+    {
+      "id": 5979,
+      "verse_number": 12,
+      "verse_key": "88:12",
+      "hizb_number": 60,
+      "rub_el_hizb_number": 237,
+      "ruku_number": 532,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "فِيهَا عَيْنٌ جَارِيَةٌ",
+      "page_number": 592,
+      "juz_number": 30,
+      "translations": [
+        {
+          "id": 407682,
+          "resource_id": 85,
+          "text": "with a flowing spring,"
+        }
+      ]
+    },
+    {
+      "id": 5980,
+      "verse_number": 13,
+      "verse_key": "88:13",
+      "hizb_number": 60,
+      "rub_el_hizb_number": 237,
+      "ruku_number": 532,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "فِيهَا سُرُرٌ مَّرْفُوعَةٌ",
+      "page_number": 592,
+      "juz_number": 30,
+      "translations": [
+        {
+          "id": 407683,
+          "resource_id": 85,
+          "text": "raised couches,"
+        }
+      ]
+    },
+    {
+      "id": 5981,
+      "verse_number": 14,
+      "verse_key": "88:14",
+      "hizb_number": 60,
+      "rub_el_hizb_number": 237,
+      "ruku_number": 532,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "وَأَكْوَابٌ مَّوْضُوعَةٌ",
+      "page_number": 592,
+      "juz_number": 30,
+      "translations": [
+        {
+          "id": 407684,
+          "resource_id": 85,
+          "text": "goblets placed before them,"
+        }
+      ]
+    },
+    {
+      "id": 5982,
+      "verse_number": 15,
+      "verse_key": "88:15",
+      "hizb_number": 60,
+      "rub_el_hizb_number": 237,
+      "ruku_number": 532,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "وَنَمَارِقُ مَصْفُوفَةٌ",
+      "page_number": 592,
+      "juz_number": 30,
+      "translations": [
+        {
+          "id": 407685,
+          "resource_id": 85,
+          "text": "cushions set in rows,"
+        }
+      ]
+    },
+    {
+      "id": 5983,
+      "verse_number": 16,
+      "verse_key": "88:16",
+      "hizb_number": 60,
+      "rub_el_hizb_number": 237,
+      "ruku_number": 532,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "وَزَرَابِىُّ مَبْثُوثَةٌ",
+      "page_number": 592,
+      "juz_number": 30,
+      "translations": [
+        {
+          "id": 407686,
+          "resource_id": 85,
+          "text": "and carpets spread."
+        }
+      ]
+    },
+    {
+      "id": 5984,
+      "verse_number": 17,
+      "verse_key": "88:17",
+      "hizb_number": 60,
+      "rub_el_hizb_number": 237,
+      "ruku_number": 532,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "أَفَلَا يَنظُرُونَ إِلَى ٱلْإِبِلِ كَيْفَ خُلِقَتْ",
+      "page_number": 592,
+      "juz_number": 30,
+      "translations": [
+        {
+          "id": 407687,
+          "resource_id": 85,
+          "text": "Do the disbelievers not see how rain clouds are formed <sup foot_note=77646>1</sup>"
+        }
+      ]
+    },
+    {
+      "id": 5985,
+      "verse_number": 18,
+      "verse_key": "88:18",
+      "hizb_number": 60,
+      "rub_el_hizb_number": 237,
+      "ruku_number": 532,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "وَإِلَى ٱلسَّمَآءِ كَيْفَ رُفِعَتْ",
+      "page_number": 592,
+      "juz_number": 30,
+      "translations": [
+        {
+          "id": 407688,
+          "resource_id": 85,
+          "text": "how the heavens are lifted,"
+        }
+      ]
+    },
+    {
+      "id": 5986,
+      "verse_number": 19,
+      "verse_key": "88:19",
+      "hizb_number": 60,
+      "rub_el_hizb_number": 237,
+      "ruku_number": 532,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "وَإِلَى ٱلْجِبَالِ كَيْفَ نُصِبَتْ",
+      "page_number": 592,
+      "juz_number": 30,
+      "translations": [
+        {
+          "id": 407689,
+          "resource_id": 85,
+          "text": "how the mountains are raised high,"
+        }
+      ]
+    },
+    {
+      "id": 5987,
+      "verse_number": 20,
+      "verse_key": "88:20",
+      "hizb_number": 60,
+      "rub_el_hizb_number": 237,
+      "ruku_number": 532,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "وَإِلَى ٱلْأَرْضِ كَيْفَ سُطِحَتْ",
+      "page_number": 592,
+      "juz_number": 30,
+      "translations": [
+        {
+          "id": 407690,
+          "resource_id": 85,
+          "text": "how the earth is spread out?"
+        }
+      ]
+    },
+    {
+      "id": 5988,
+      "verse_number": 21,
+      "verse_key": "88:21",
+      "hizb_number": 60,
+      "rub_el_hizb_number": 237,
+      "ruku_number": 532,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "فَذَكِّرْ إِنَّمَآ أَنتَ مُذَكِّرٌ",
+      "page_number": 592,
+      "juz_number": 30,
+      "translations": [
+        {
+          "id": 407691,
+          "resource_id": 85,
+          "text": "So [Prophet] warn them: your only task is to give warning,"
+        }
+      ]
+    },
+    {
+      "id": 5989,
+      "verse_number": 22,
+      "verse_key": "88:22",
+      "hizb_number": 60,
+      "rub_el_hizb_number": 237,
+      "ruku_number": 532,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "لَّسْتَ عَلَيْهِم بِمُصَيْطِرٍ",
+      "page_number": 592,
+      "juz_number": 30,
+      "translations": [
+        {
+          "id": 407692,
+          "resource_id": 85,
+          "text": "you are not there to control them."
+        }
+      ]
+    },
+    {
+      "id": 5990,
+      "verse_number": 23,
+      "verse_key": "88:23",
+      "hizb_number": 60,
+      "rub_el_hizb_number": 237,
+      "ruku_number": 532,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "إِلَّا مَن تَوَلَّىٰ وَكَفَرَ",
+      "page_number": 592,
+      "juz_number": 30,
+      "translations": [
+        {
+          "id": 407693,
+          "resource_id": 85,
+          "text": "As for those who turn away and disbelieve,"
+        }
+      ]
+    },
+    {
+      "id": 5991,
+      "verse_number": 24,
+      "verse_key": "88:24",
+      "hizb_number": 60,
+      "rub_el_hizb_number": 237,
+      "ruku_number": 532,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "فَيُعَذِّبُهُ ٱللَّهُ ٱلْعَذَابَ ٱلْأَكْبَرَ",
+      "page_number": 592,
+      "juz_number": 30,
+      "translations": [
+        {
+          "id": 407694,
+          "resource_id": 85,
+          "text": "God will inflict the greatest torment upon them."
+        }
+      ]
+    },
+    {
+      "id": 5992,
+      "verse_number": 25,
+      "verse_key": "88:25",
+      "hizb_number": 60,
+      "rub_el_hizb_number": 237,
+      "ruku_number": 532,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "إِنَّ إِلَيْنَآ إِيَابَهُمْ",
+      "page_number": 592,
+      "juz_number": 30,
+      "translations": [
+        {
+          "id": 407695,
+          "resource_id": 85,
+          "text": "It is to Us they will return,"
+        }
+      ]
+    },
+    {
+      "id": 5993,
+      "verse_number": 26,
+      "verse_key": "88:26",
+      "hizb_number": 60,
+      "rub_el_hizb_number": 237,
+      "ruku_number": 532,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "ثُمَّ إِنَّ عَلَيْنَا حِسَابَهُم",
+      "page_number": 592,
+      "juz_number": 30,
+      "translations": [
+        {
+          "id": 407696,
+          "resource_id": 85,
+          "text": "and then it is for Us to call them to account."
+        }
+      ]
+    }
+  ]
+}

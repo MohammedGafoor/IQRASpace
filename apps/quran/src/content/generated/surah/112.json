@@ -1,0 +1,103 @@
+{
+  "syncedAt": "2026-08-31T05:21:33.510Z",
+  "chapter": {
+    "id": 112,
+    "revelation_place": "makkah",
+    "revelation_order": 22,
+    "bismillah_pre": true,
+    "name_simple": "Al-Ikhlas",
+    "name_complex": "Al-'Ikhlāş",
+    "name_arabic": "الإخلاص",
+    "verses_count": 4,
+    "pages": [
+      604,
+      604
+    ],
+    "translated_name": {
+      "language_name": "english",
+      "name": "The Sincerity"
+    }
+  },
+  "verses": [
+    {
+      "id": 6222,
+      "verse_number": 1,
+      "verse_key": "112:1",
+      "hizb_number": 60,
+      "rub_el_hizb_number": 240,
+      "ruku_number": 556,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": " قُلْ هُوَ ٱللَّهُ أَحَدٌ",
+      "page_number": 604,
+      "juz_number": 30,
+      "translations": [
+        {
+          "id": 407925,
+          "resource_id": 85,
+          "text": "Say, ‘He is God the One,"
+        }
+      ]
+    },
+    {
+      "id": 6223,
+      "verse_number": 2,
+      "verse_key": "112:2",
+      "hizb_number": 60,
+      "rub_el_hizb_number": 240,
+      "ruku_number": 556,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "ٱللَّهُ ٱلصَّمَدُ",
+      "page_number": 604,
+      "juz_number": 30,
+      "translations": [
+        {
+          "id": 407926,
+          "resource_id": 85,
+          "text": "God the eternal."
+        }
+      ]
+    },
+    {
+      "id": 6224,
+      "verse_number": 3,
+      "verse_key": "112:3",
+      "hizb_number": 60,
+      "rub_el_hizb_number": 240,
+      "ruku_number": 556,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "لَمْ يَلِدْ وَلَمْ يُولَدْ",
+      "page_number": 604,
+      "juz_number": 30,
+      "translations": [
+        {
+          "id": 407927,
+          "resource_id": 85,
+          "text": "He begot no one nor was He begotten."
+        }
+      ]
+    },
+    {
+      "id": 6225,
+      "verse_number": 4,
+      "verse_key": "112:4",
+      "hizb_number": 60,
+      "rub_el_hizb_number": 240,
+      "ruku_number": 556,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "وَلَمْ يَكُن لَّهُۥ كُفُوًا أَحَدٌۢ",
+      "page_number": 604,
+      "juz_number": 30,
+      "translations": [
+        {
+          "id": 407928,
+          "resource_id": 85,
+          "text": "No one is comparable to Him.’"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,643 @@
+{
+  "syncedAt": "2026-08-31T05:21:18.592Z",
+  "chapter": {
+    "id": 76,
+    "revelation_place": "madinah",
+    "revelation_order": 98,
+    "bismillah_pre": true,
+    "name_simple": "Al-Insan",
+    "name_complex": "Al-'Insān",
+    "name_arabic": "الانسان",
+    "verses_count": 31,
+    "pages": [
+      578,
+      580
+    ],
+    "translated_name": {
+      "language_name": "english",
+      "name": "The Man"
+    }
+  },
+  "verses": [
+    {
+      "id": 5592,
+      "verse_number": 1,
+      "verse_key": "76:1",
+      "hizb_number": 58,
+      "rub_el_hizb_number": 231,
+      "ruku_number": 516,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": " هَلْ أَتَىٰ عَلَى ٱلْإِنسَـٰنِ حِينٌ مِّنَ ٱلدَّهْرِ لَمْ يَكُن شَيْـًٔا مَّذْكُورًا",
+      "page_number": 578,
+      "juz_number": 29,
+      "translations": [
+        {
+          "id": 407295,
+          "resource_id": 85,
+          "text": "Was there not a period of time when man was nothing to speak of ?"
+        }
+      ]
+    },
+    {
+      "id": 5593,
+      "verse_number": 2,
+      "verse_key": "76:2",
+      "hizb_number": 58,
+      "rub_el_hizb_number": 231,
+      "ruku_number": 516,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "إِنَّا خَلَقْنَا ٱلْإِنسَـٰنَ مِن نُّطْفَةٍ أَمْشَاجٍ نَّبْتَلِيهِ فَجَعَلْنَـٰهُ سَمِيعًۢا بَصِيرًا",
+      "page_number": 578,
+      "juz_number": 29,
+      "translations": [
+        {
+          "id": 407296,
+          "resource_id": 85,
+          "text": "We created man from a drop of mingled fluid to put him to the test; We gave him hearing and sight;"
+        }
+      ]
+    },
+    {
+      "id": 5594,
+      "verse_number": 3,
+      "verse_key": "76:3",
+      "hizb_number": 58,
+      "rub_el_hizb_number": 231,
+      "ruku_number": 516,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "إِنَّا هَدَيْنَـٰهُ ٱلسَّبِيلَ إِمَّا شَاكِرًا وَإِمَّا كَفُورًا",
+      "page_number": 578,
+      "juz_number": 29,
+      "translations": [
+        {
+          "id": 407297,
+          "resource_id": 85,
+          "text": "We guided him to the right path, whether he was grateful or not."
+        }
+      ]
+    },
+    {
+      "id": 5595,
+      "verse_number": 4,
+      "verse_key": "76:4",
+      "hizb_number": 58,
+      "rub_el_hizb_number": 231,
+      "ruku_number": 516,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "إِنَّآ أَعْتَدْنَا لِلْكَـٰفِرِينَ سَلَـٰسِلَا۟ وَأَغْلَـٰلًا وَسَعِيرًا",
+      "page_number": 578,
+      "juz_number": 29,
+      "translations": [
+        {
+          "id": 407298,
+          "resource_id": 85,
+          "text": "We have prepared chains, iron collars, and blazing Fire for the disbelievers, but"
+        }
+      ]
+    },
+    {
+      "id": 5596,
+      "verse_number": 5,
+      "verse_key": "76:5",
+      "hizb_number": 58,
+      "rub_el_hizb_number": 231,
+      "ruku_number": 516,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "إِنَّ ٱلْأَبْرَارَ يَشْرَبُونَ مِن كَأْسٍ كَانَ مِزَاجُهَا كَافُورًا",
+      "page_number": 578,
+      "juz_number": 29,
+      "translations": [
+        {
+          "id": 407299,
+          "resource_id": 85,
+          "text": "the righteous will have a drink mixed with kafur,"
+        }
+      ]
+    },
+    {
+      "id": 5597,
+      "verse_number": 6,
+      "verse_key": "76:6",
+      "hizb_number": 58,
+      "rub_el_hizb_number": 231,
+      "ruku_number": 516,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "عَيْنًا يَشْرَبُ بِهَا عِبَادُ ٱللَّهِ يُفَجِّرُونَهَا تَفْجِيرًا",
+      "page_number": 579,
+      "juz_number": 29,
+      "translations": [
+        {
+          "id": 407300,
+          "resource_id": 85,
+          "text": "a spring for God’s servants, which flows abundantly at their wish."
+        }
+      ]
+    },
+    {
+      "id": 5598,
+      "verse_number": 7,
+      "verse_key": "76:7",
+      "hizb_number": 58,
+      "rub_el_hizb_number": 231,
+      "ruku_number": 516,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "يُوفُونَ بِٱلنَّذْرِ وَيَخَافُونَ يَوْمًا كَانَ شَرُّهُۥ مُسْتَطِيرًا",
+      "page_number": 579,
+      "juz_number": 29,
+      "translations": [
+        {
+          "id": 407301,
+          "resource_id": 85,
+          "text": "They fulfil their vows; they fear a day of widespread woes;"
+        }
+      ]
+    },
+    {
+      "id": 5599,
+      "verse_number": 8,
+      "verse_key": "76:8",
+      "hizb_number": 58,
+      "rub_el_hizb_number": 231,
+      "ruku_number": 516,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "وَيُطْعِمُونَ ٱلطَّعَامَ عَلَىٰ حُبِّهِۦ مِسْكِينًا وَيَتِيمًا وَأَسِيرًا",
+      "page_number": 579,
+      "juz_number": 29,
+      "translations": [
+        {
+          "id": 407302,
+          "resource_id": 85,
+          "text": "they give food to the poor, the orphan, and the captive, though they love it themselves,"
+        }
+      ]
+    },
+    {
+      "id": 5600,
+      "verse_number": 9,
+      "verse_key": "76:9",
+      "hizb_number": 58,
+      "rub_el_hizb_number": 231,
+      "ruku_number": 516,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "إِنَّمَا نُطْعِمُكُمْ لِوَجْهِ ٱللَّهِ لَا نُرِيدُ مِنكُمْ جَزَآءً وَلَا شُكُورًا",
+      "page_number": 579,
+      "juz_number": 29,
+      "translations": [
+        {
+          "id": 407303,
+          "resource_id": 85,
+          "text": "saying, ‘We feed you for the sake of God alone: We seek neither recompense nor thanks from you."
+        }
+      ]
+    },
+    {
+      "id": 5601,
+      "verse_number": 10,
+      "verse_key": "76:10",
+      "hizb_number": 58,
+      "rub_el_hizb_number": 231,
+      "ruku_number": 516,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "إِنَّا نَخَافُ مِن رَّبِّنَا يَوْمًا عَبُوسًا قَمْطَرِيرًا",
+      "page_number": 579,
+      "juz_number": 29,
+      "translations": [
+        {
+          "id": 407304,
+          "resource_id": 85,
+          "text": "We fear the Day of our Lord––a woefully grim Day.’"
+        }
+      ]
+    },
+    {
+      "id": 5602,
+      "verse_number": 11,
+      "verse_key": "76:11",
+      "hizb_number": 58,
+      "rub_el_hizb_number": 231,
+      "ruku_number": 516,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "فَوَقَىٰهُمُ ٱللَّهُ شَرَّ ذَٰلِكَ ٱلْيَوْمِ وَلَقَّىٰهُمْ نَضْرَةً وَسُرُورًا",
+      "page_number": 579,
+      "juz_number": 29,
+      "translations": [
+        {
+          "id": 407305,
+          "resource_id": 85,
+          "text": "So God will save them from the woes of that Day, give them radiance and gladness,"
+        }
+      ]
+    },
+    {
+      "id": 5603,
+      "verse_number": 12,
+      "verse_key": "76:12",
+      "hizb_number": 58,
+      "rub_el_hizb_number": 231,
+      "ruku_number": 516,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "وَجَزَىٰهُم بِمَا صَبَرُوا۟ جَنَّةً وَحَرِيرًا",
+      "page_number": 579,
+      "juz_number": 29,
+      "translations": [
+        {
+          "id": 407306,
+          "resource_id": 85,
+          "text": "and reward them, for their steadfastness, with a Garden and silken robes."
+        }
+      ]
+    },
+    {
+      "id": 5604,
+      "verse_number": 13,
+      "verse_key": "76:13",
+      "hizb_number": 58,
+      "rub_el_hizb_number": 231,
+      "ruku_number": 516,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "مُّتَّكِـِٔينَ فِيهَا عَلَى ٱلْأَرَآئِكِ ۖ لَا يَرَوْنَ فِيهَا شَمْسًا وَلَا زَمْهَرِيرًا",
+      "page_number": 579,
+      "juz_number": 29,
+      "translations": [
+        {
+          "id": 407307,
+          "resource_id": 85,
+          "text": "They will sit on couches, feeling neither scorching heat nor biting cold,"
+        }
+      ]
+    },
+    {
+      "id": 5605,
+      "verse_number": 14,
+      "verse_key": "76:14",
+      "hizb_number": 58,
+      "rub_el_hizb_number": 231,
+      "ruku_number": 516,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "وَدَانِيَةً عَلَيْهِمْ ظِلَـٰلُهَا وَذُلِّلَتْ قُطُوفُهَا تَذْلِيلًا",
+      "page_number": 579,
+      "juz_number": 29,
+      "translations": [
+        {
+          "id": 407308,
+          "resource_id": 85,
+          "text": "with shady [branches] spread above them and clusters of fruit hanging close at hand."
+        }
+      ]
+    },
+    {
+      "id": 5606,
+      "verse_number": 15,
+      "verse_key": "76:15",
+      "hizb_number": 58,
+      "rub_el_hizb_number": 231,
+      "ruku_number": 516,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "وَيُطَافُ عَلَيْهِم بِـَٔانِيَةٍ مِّن فِضَّةٍ وَأَكْوَابٍ كَانَتْ قَوَارِيرَا۠",
+      "page_number": 579,
+      "juz_number": 29,
+      "translations": [
+        {
+          "id": 407309,
+          "resource_id": 85,
+          "text": "They will be served with silver plates"
+        }
+      ]
+    },
+    {
+      "id": 5607,
+      "verse_number": 16,
+      "verse_key": "76:16",
+      "hizb_number": 58,
+      "rub_el_hizb_number": 231,
+      "ruku_number": 516,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "قَوَارِيرَا۟ مِن فِضَّةٍ قَدَّرُوهَا تَقْدِيرًا",
+      "page_number": 579,
+      "juz_number": 29,
+      "translations": [
+        {
+          "id": 407310,
+          "resource_id": 85,
+          "text": "and gleaming silver goblets according to their fancy,"
+        }
+      ]
+    },
+    {
+      "id": 5608,
+      "verse_number": 17,
+      "verse_key": "76:17",
+      "hizb_number": 58,
+      "rub_el_hizb_number": 231,
+      "ruku_number": 516,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "وَيُسْقَوْنَ فِيهَا كَأْسًا كَانَ مِزَاجُهَا زَنجَبِيلًا",
+      "page_number": 579,
+      "juz_number": 29,
+      "translations": [
+        {
+          "id": 407311,
+          "resource_id": 85,
+          "text": "and they will be given a drink infused with ginger"
+        }
+      ]
+    },
+    {
+      "id": 5609,
+      "verse_number": 18,
+      "verse_key": "76:18",
+      "hizb_number": 58,
+      "rub_el_hizb_number": 231,
+      "ruku_number": 516,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "عَيْنًا فِيهَا تُسَمَّىٰ سَلْسَبِيلًا",
+      "page_number": 579,
+      "juz_number": 29,
+      "translations": [
+        {
+          "id": 407312,
+          "resource_id": 85,
+          "text": "from a spring called Salsabil."
+        }
+      ]
+    },
+    {
+      "id": 5610,
+      "verse_number": 19,
+      "verse_key": "76:19",
+      "hizb_number": 58,
+      "rub_el_hizb_number": 232,
+      "ruku_number": 516,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "۞ وَيَطُوفُ عَلَيْهِمْ وِلْدَٰنٌ مُّخَلَّدُونَ إِذَا رَأَيْتَهُمْ حَسِبْتَهُمْ لُؤْلُؤًا مَّنثُورًا",
+      "page_number": 579,
+      "juz_number": 29,
+      "translations": [
+        {
+          "id": 407313,
+          "resource_id": 85,
+          "text": "Everlasting youths will attend them––if you could see them, you would think they were scattered pearls––"
+        }
+      ]
+    },
+    {
+      "id": 5611,
+      "verse_number": 20,
+      "verse_key": "76:20",
+      "hizb_number": 58,
+      "rub_el_hizb_number": 232,
+      "ruku_number": 516,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "وَإِذَا رَأَيْتَ ثَمَّ رَأَيْتَ نَعِيمًا وَمُلْكًا كَبِيرًا",
+      "page_number": 579,
+      "juz_number": 29,
+      "translations": [
+        {
+          "id": 407314,
+          "resource_id": 85,
+          "text": "and if you were to look around, you would see bliss and great wealth:"
+        }
+      ]
+    },
+    {
+      "id": 5612,
+      "verse_number": 21,
+      "verse_key": "76:21",
+      "hizb_number": 58,
+      "rub_el_hizb_number": 232,
+      "ruku_number": 516,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "عَـٰلِيَهُمْ ثِيَابُ سُندُسٍ خُضْرٌ وَإِسْتَبْرَقٌ ۖ وَحُلُّوٓا۟ أَسَاوِرَ مِن فِضَّةٍ وَسَقَىٰهُمْ رَبُّهُمْ شَرَابًا طَهُورًا",
+      "page_number": 579,
+      "juz_number": 29,
+      "translations": [
+        {
+          "id": 407315,
+          "resource_id": 85,
+          "text": "they will wear garments of green silk and brocade; they will be adorned with silver bracelets; their Lord will give them a pure drink."
+        }
+      ]
+    },
+    {
+      "id": 5613,
+      "verse_number": 22,
+      "verse_key": "76:22",
+      "hizb_number": 58,
+      "rub_el_hizb_number": 232,
+      "ruku_number": 516,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "إِنَّ هَـٰذَا كَانَ لَكُمْ جَزَآءً وَكَانَ سَعْيُكُم مَّشْكُورًا",
+      "page_number": 579,
+      "juz_number": 29,
+      "translations": [
+        {
+          "id": 407316,
+          "resource_id": 85,
+          "text": "[It will be said], ‘This is your reward. Your endeavours are appreciated.’"
+        }
+      ]
+    },
+    {
+      "id": 5614,
+      "verse_number": 23,
+      "verse_key": "76:23",
+      "hizb_number": 58,
+      "rub_el_hizb_number": 232,
+      "ruku_number": 517,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "إِنَّا نَحْنُ نَزَّلْنَا عَلَيْكَ ٱلْقُرْءَانَ تَنزِيلًا",
+      "page_number": 579,
+      "juz_number": 29,
+      "translations": [
+        {
+          "id": 407317,
+          "resource_id": 85,
+          "text": "We Ourself have sent down this Quran to you [Prophet] in gradual revelation."
+        }
+      ]
+    },
+    {
+      "id": 5615,
+      "verse_number": 24,
+      "verse_key": "76:24",
+      "hizb_number": 58,
+      "rub_el_hizb_number": 232,
+      "ruku_number": 517,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "فَٱصْبِرْ لِحُكْمِ رَبِّكَ وَلَا تُطِعْ مِنْهُمْ ءَاثِمًا أَوْ كَفُورًا",
+      "page_number": 579,
+      "juz_number": 29,
+      "translations": [
+        {
+          "id": 407318,
+          "resource_id": 85,
+          "text": "Await your Lord’s Judgement with patience; do not yield to any of these sinners or disbelievers;"
+        }
+      ]
+    },
+    {
+      "id": 5616,
+      "verse_number": 25,
+      "verse_key": "76:25",
+      "hizb_number": 58,
+      "rub_el_hizb_number": 232,
+      "ruku_number": 517,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "وَٱذْكُرِ ٱسْمَ رَبِّكَ بُكْرَةً وَأَصِيلًا",
+      "page_number": 579,
+      "juz_number": 29,
+      "translations": [
+        {
+          "id": 407319,
+          "resource_id": 85,
+          "text": "remember the name of your Lord at dawn and in the evening;"
+        }
+      ]
+    },
+    {
+      "id": 5617,
+      "verse_number": 26,
+      "verse_key": "76:26",
+      "hizb_number": 58,
+      "rub_el_hizb_number": 232,
+      "ruku_number": 517,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "وَمِنَ ٱلَّيْلِ فَٱسْجُدْ لَهُۥ وَسَبِّحْهُ لَيْلًا طَوِيلًا",
+      "page_number": 580,
+      "juz_number": 29,
+      "translations": [
+        {
+          "id": 407320,
+          "resource_id": 85,
+          "text": "bow down before Him, and glorify Him at length by night."
+        }
+      ]
+    },
+    {
+      "id": 5618,
+      "verse_number": 27,
+      "verse_key": "76:27",
+      "hizb_number": 58,
+      "rub_el_hizb_number": 232,
+      "ruku_number": 517,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "إِنَّ هَـٰٓؤُلَآءِ يُحِبُّونَ ٱلْعَاجِلَةَ وَيَذَرُونَ وَرَآءَهُمْ يَوْمًا ثَقِيلًا",
+      "page_number": 580,
+      "juz_number": 29,
+      "translations": [
+        {
+          "id": 407321,
+          "resource_id": 85,
+          "text": "These people love the fleeting life. They put aside [all thoughts of] a Heavy Day."
+        }
+      ]
+    },
+    {
+      "id": 5619,
+      "verse_number": 28,
+      "verse_key": "76:28",
+      "hizb_number": 58,
+      "rub_el_hizb_number": 232,
+      "ruku_number": 517,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "نَّحْنُ خَلَقْنَـٰهُمْ وَشَدَدْنَآ أَسْرَهُمْ ۖ وَإِذَا شِئْنَا بَدَّلْنَآ أَمْثَـٰلَهُمْ تَبْدِيلًا",
+      "page_number": 580,
+      "juz_number": 29,
+      "translations": [
+        {
+          "id": 407322,
+          "resource_id": 85,
+          "text": "Yet We created them; We strengthened their constitution; if We please, We can replace such people completely."
+        }
+      ]
+    },
+    {
+      "id": 5620,
+      "verse_number": 29,
+      "verse_key": "76:29",
+      "hizb_number": 58,
+      "rub_el_hizb_number": 232,
+      "ruku_number": 517,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "إِنَّ هَـٰذِهِۦ تَذْكِرَةٌ ۖ فَمَن شَآءَ ٱتَّخَذَ إِلَىٰ رَبِّهِۦ سَبِيلًا",
+      "page_number": 580,
+      "juz_number": 29,
+      "translations": [
+        {
+          "id": 407323,
+          "resource_id": 85,
+          "text": "This is a reminder. Let whoever wishes, take the way to his Lord."
+        }
+      ]
+    },
+    {
+      "id": 5621,
+      "verse_number": 30,
+      "verse_key": "76:30",
+      "hizb_number": 58,
+      "rub_el_hizb_number": 232,
+      "ruku_number": 517,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "وَمَا تَشَآءُونَ إِلَّآ أَن يَشَآءَ ٱللَّهُ ۚ إِنَّ ٱللَّهَ كَانَ عَلِيمًا حَكِيمًا",
+      "page_number": 580,
+      "juz_number": 29,
+      "translations": [
+        {
+          "id": 407324,
+          "resource_id": 85,
+          "text": "But you will only wish to do so if God wills- God is all knowing, all wise-"
+        }
+      ]
+    },
+    {
+      "id": 5622,
+      "verse_number": 31,
+      "verse_key": "76:31",
+      "hizb_number": 58,
+      "rub_el_hizb_number": 232,
+      "ruku_number": 517,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "يُدْخِلُ مَن يَشَآءُ فِى رَحْمَتِهِۦ ۚ وَٱلظَّـٰلِمِينَ أَعَدَّ لَهُمْ عَذَابًا أَلِيمًۢا",
+      "page_number": 580,
+      "juz_number": 29,
+      "translations": [
+        {
+          "id": 407325,
+          "resource_id": 85,
+          "text": "He admits whoever He will into His Mercy and has prepared a painful torment for the disbelievers."
+        }
+      ]
+    }
+  ]
+}

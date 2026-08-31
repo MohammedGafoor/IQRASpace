@@ -1,0 +1,303 @@
+{
+  "syncedAt": "2026-08-31T05:21:10.910Z",
+  "chapter": {
+    "id": 61,
+    "revelation_place": "madinah",
+    "revelation_order": 109,
+    "bismillah_pre": true,
+    "name_simple": "As-Saf",
+    "name_complex": "Aş-Şaf",
+    "name_arabic": "الصف",
+    "verses_count": 14,
+    "pages": [
+      551,
+      552
+    ],
+    "translated_name": {
+      "language_name": "english",
+      "name": "The Ranks"
+    }
+  },
+  "verses": [
+    {
+      "id": 5164,
+      "verse_number": 1,
+      "verse_key": "61:1",
+      "hizb_number": 55,
+      "rub_el_hizb_number": 220,
+      "ruku_number": 486,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": " سَبَّحَ لِلَّهِ مَا فِى ٱلسَّمَـٰوَٰتِ وَمَا فِى ٱلْأَرْضِ ۖ وَهُوَ ٱلْعَزِيزُ ٱلْحَكِيمُ",
+      "page_number": 551,
+      "juz_number": 28,
+      "translations": [
+        {
+          "id": 406867,
+          "resource_id": 85,
+          "text": "Everything in the heavens and earth glorifies God––He is the Almighty, the Wise."
+        }
+      ]
+    },
+    {
+      "id": 5165,
+      "verse_number": 2,
+      "verse_key": "61:2",
+      "hizb_number": 55,
+      "rub_el_hizb_number": 220,
+      "ruku_number": 486,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "يَـٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُوا۟ لِمَ تَقُولُونَ مَا لَا تَفْعَلُونَ",
+      "page_number": 551,
+      "juz_number": 28,
+      "translations": [
+        {
+          "id": 406868,
+          "resource_id": 85,
+          "text": "You who believe, why do you say things and then do not do them?"
+        }
+      ]
+    },
+    {
+      "id": 5166,
+      "verse_number": 3,
+      "verse_key": "61:3",
+      "hizb_number": 55,
+      "rub_el_hizb_number": 220,
+      "ruku_number": 486,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "كَبُرَ مَقْتًا عِندَ ٱللَّهِ أَن تَقُولُوا۟ مَا لَا تَفْعَلُونَ",
+      "page_number": 551,
+      "juz_number": 28,
+      "translations": [
+        {
+          "id": 406869,
+          "resource_id": 85,
+          "text": "It is most hateful to God that you say things and then do not do them;"
+        }
+      ]
+    },
+    {
+      "id": 5167,
+      "verse_number": 4,
+      "verse_key": "61:4",
+      "hizb_number": 55,
+      "rub_el_hizb_number": 220,
+      "ruku_number": 486,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "إِنَّ ٱللَّهَ يُحِبُّ ٱلَّذِينَ يُقَـٰتِلُونَ فِى سَبِيلِهِۦ صَفًّا كَأَنَّهُم بُنْيَـٰنٌ مَّرْصُوصٌ",
+      "page_number": 551,
+      "juz_number": 28,
+      "translations": [
+        {
+          "id": 406870,
+          "resource_id": 85,
+          "text": "God truly loves those who fight in solid lines for His cause, like a well-compacted wall."
+        }
+      ]
+    },
+    {
+      "id": 5168,
+      "verse_number": 5,
+      "verse_key": "61:5",
+      "hizb_number": 55,
+      "rub_el_hizb_number": 220,
+      "ruku_number": 486,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "وَإِذْ قَالَ مُوسَىٰ لِقَوْمِهِۦ يَـٰقَوْمِ لِمَ تُؤْذُونَنِى وَقَد تَّعْلَمُونَ أَنِّى رَسُولُ ٱللَّهِ إِلَيْكُمْ ۖ فَلَمَّا زَاغُوٓا۟ أَزَاغَ ٱللَّهُ قُلُوبَهُمْ ۚ وَٱللَّهُ لَا يَهْدِى ٱلْقَوْمَ ٱلْفَـٰسِقِينَ",
+      "page_number": 551,
+      "juz_number": 28,
+      "translations": [
+        {
+          "id": 406871,
+          "resource_id": 85,
+          "text": "Moses said to his people, ‘My people, why do you hurt me when you know that I am sent to you by God?’ When they went astray, God left their hearts to stray: God does not guide rebellious people."
+        }
+      ]
+    },
+    {
+      "id": 5169,
+      "verse_number": 6,
+      "verse_key": "61:6",
+      "hizb_number": 55,
+      "rub_el_hizb_number": 220,
+      "ruku_number": 486,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "وَإِذْ قَالَ عِيسَى ٱبْنُ مَرْيَمَ يَـٰبَنِىٓ إِسْرَٰٓءِيلَ إِنِّى رَسُولُ ٱللَّهِ إِلَيْكُم مُّصَدِّقًا لِّمَا بَيْنَ يَدَىَّ مِنَ ٱلتَّوْرَىٰةِ وَمُبَشِّرًۢا بِرَسُولٍ يَأْتِى مِنۢ بَعْدِى ٱسْمُهُۥٓ أَحْمَدُ ۖ فَلَمَّا جَآءَهُم بِٱلْبَيِّنَـٰتِ قَالُوا۟ هَـٰذَا سِحْرٌ مُّبِينٌ",
+      "page_number": 552,
+      "juz_number": 28,
+      "translations": [
+        {
+          "id": 406872,
+          "resource_id": 85,
+          "text": "Jesus, son of Mary, said, ‘Children of Israel, I am sent to you by God, confirming the Torah that came before me and bringing good news of a messenger to follow me whose name will be Ahmad.’ Yet when he came to them with clear signs, they said, ‘This is obviously sorcery.’"
+        }
+      ]
+    },
+    {
+      "id": 5170,
+      "verse_number": 7,
+      "verse_key": "61:7",
+      "hizb_number": 55,
+      "rub_el_hizb_number": 220,
+      "ruku_number": 486,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "وَمَنْ أَظْلَمُ مِمَّنِ ٱفْتَرَىٰ عَلَى ٱللَّهِ ٱلْكَذِبَ وَهُوَ يُدْعَىٰٓ إِلَى ٱلْإِسْلَـٰمِ ۚ وَٱللَّهُ لَا يَهْدِى ٱلْقَوْمَ ٱلظَّـٰلِمِينَ",
+      "page_number": 552,
+      "juz_number": 28,
+      "translations": [
+        {
+          "id": 406873,
+          "resource_id": 85,
+          "text": "Who could be more wrong than someone who invents lies against God when called to submit to Him? God does not guide the wrongdoers:"
+        }
+      ]
+    },
+    {
+      "id": 5171,
+      "verse_number": 8,
+      "verse_key": "61:8",
+      "hizb_number": 55,
+      "rub_el_hizb_number": 220,
+      "ruku_number": 486,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "يُرِيدُونَ لِيُطْفِـُٔوا۟ نُورَ ٱللَّهِ بِأَفْوَٰهِهِمْ وَٱللَّهُ مُتِمُّ نُورِهِۦ وَلَوْ كَرِهَ ٱلْكَـٰفِرُونَ",
+      "page_number": 552,
+      "juz_number": 28,
+      "translations": [
+        {
+          "id": 406874,
+          "resource_id": 85,
+          "text": "they wish to put His light out with their mouths. But He will perfect His light, even though the disbelievers hate it;"
+        }
+      ]
+    },
+    {
+      "id": 5172,
+      "verse_number": 9,
+      "verse_key": "61:9",
+      "hizb_number": 55,
+      "rub_el_hizb_number": 220,
+      "ruku_number": 486,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "هُوَ ٱلَّذِىٓ أَرْسَلَ رَسُولَهُۥ بِٱلْهُدَىٰ وَدِينِ ٱلْحَقِّ لِيُظْهِرَهُۥ عَلَى ٱلدِّينِ كُلِّهِۦ وَلَوْ كَرِهَ ٱلْمُشْرِكُونَ",
+      "page_number": 552,
+      "juz_number": 28,
+      "translations": [
+        {
+          "id": 406875,
+          "resource_id": 85,
+          "text": "it is He who sent His Messenger with guidance and the religion of truth to show that it is above all [other] religions, even though the idolaters hate it."
+        }
+      ]
+    },
+    {
+      "id": 5173,
+      "verse_number": 10,
+      "verse_key": "61:10",
+      "hizb_number": 55,
+      "rub_el_hizb_number": 220,
+      "ruku_number": 487,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "يَـٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُوا۟ هَلْ أَدُلُّكُمْ عَلَىٰ تِجَـٰرَةٍ تُنجِيكُم مِّنْ عَذَابٍ أَلِيمٍ",
+      "page_number": 552,
+      "juz_number": 28,
+      "translations": [
+        {
+          "id": 406876,
+          "resource_id": 85,
+          "text": "You who believe, shall I show you a bargain that will save you from painful torment?"
+        }
+      ]
+    },
+    {
+      "id": 5174,
+      "verse_number": 11,
+      "verse_key": "61:11",
+      "hizb_number": 55,
+      "rub_el_hizb_number": 220,
+      "ruku_number": 487,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "تُؤْمِنُونَ بِٱللَّهِ وَرَسُولِهِۦ وَتُجَـٰهِدُونَ فِى سَبِيلِ ٱللَّهِ بِأَمْوَٰلِكُمْ وَأَنفُسِكُمْ ۚ ذَٰلِكُمْ خَيْرٌ لَّكُمْ إِن كُنتُمْ تَعْلَمُونَ",
+      "page_number": 552,
+      "juz_number": 28,
+      "translations": [
+        {
+          "id": 406877,
+          "resource_id": 85,
+          "text": "Have faith in God and His Messenger and struggle for His cause with your possessions and your persons––that is better for you, if only you knew-"
+        }
+      ]
+    },
+    {
+      "id": 5175,
+      "verse_number": 12,
+      "verse_key": "61:12",
+      "hizb_number": 55,
+      "rub_el_hizb_number": 220,
+      "ruku_number": 487,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "يَغْفِرْ لَكُمْ ذُنُوبَكُمْ وَيُدْخِلْكُمْ جَنَّـٰتٍ تَجْرِى مِن تَحْتِهَا ٱلْأَنْهَـٰرُ وَمَسَـٰكِنَ طَيِّبَةً فِى جَنَّـٰتِ عَدْنٍ ۚ ذَٰلِكَ ٱلْفَوْزُ ٱلْعَظِيمُ",
+      "page_number": 552,
+      "juz_number": 28,
+      "translations": [
+        {
+          "id": 406878,
+          "resource_id": 85,
+          "text": "and He will forgive your sins, admit you into Gardens graced with flowing streams, into pleasant dwellings in the Gardens of Eternity. That is the supreme triumph."
+        }
+      ]
+    },
+    {
+      "id": 5176,
+      "verse_number": 13,
+      "verse_key": "61:13",
+      "hizb_number": 55,
+      "rub_el_hizb_number": 220,
+      "ruku_number": 487,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "وَأُخْرَىٰ تُحِبُّونَهَا ۖ نَصْرٌ مِّنَ ٱللَّهِ وَفَتْحٌ قَرِيبٌ ۗ وَبَشِّرِ ٱلْمُؤْمِنِينَ",
+      "page_number": 552,
+      "juz_number": 28,
+      "translations": [
+        {
+          "id": 406879,
+          "resource_id": 85,
+          "text": "And He will give you something else that will really please you: His help and an imminent breakthrough. [Prophet], give the faithful the good news."
+        }
+      ]
+    },
+    {
+      "id": 5177,
+      "verse_number": 14,
+      "verse_key": "61:14",
+      "hizb_number": 55,
+      "rub_el_hizb_number": 220,
+      "ruku_number": 487,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "يَـٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُوا۟ كُونُوٓا۟ أَنصَارَ ٱللَّهِ كَمَا قَالَ عِيسَى ٱبْنُ مَرْيَمَ لِلْحَوَارِيِّـۧنَ مَنْ أَنصَارِىٓ إِلَى ٱللَّهِ ۖ قَالَ ٱلْحَوَارِيُّونَ نَحْنُ أَنصَارُ ٱللَّهِ ۖ فَـَٔامَنَت طَّآئِفَةٌ مِّنۢ بَنِىٓ إِسْرَٰٓءِيلَ وَكَفَرَت طَّآئِفَةٌ ۖ فَأَيَّدْنَا ٱلَّذِينَ ءَامَنُوا۟ عَلَىٰ عَدُوِّهِمْ فَأَصْبَحُوا۟ ظَـٰهِرِينَ",
+      "page_number": 552,
+      "juz_number": 28,
+      "translations": [
+        {
+          "id": 406880,
+          "resource_id": 85,
+          "text": "You who believe, be God’s helpers. As Jesus, son of Mary, said to the disciples, ‘Who will come with me to help God?’ The disciples said, ‘We shall be God’s helpers.’ Some of the Children of Israel believed and some disbelieved: We supported the believers against their enemy and they were the ones who came out on top."
+        }
+      ]
+    }
+  ]
+}

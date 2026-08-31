@@ -1,0 +1,163 @@
+{
+  "syncedAt": "2026-08-31T05:21:31.440Z",
+  "chapter": {
+    "id": 107,
+    "revelation_place": "makkah",
+    "revelation_order": 17,
+    "bismillah_pre": true,
+    "name_simple": "Al-Ma'un",
+    "name_complex": "Al-Mā`ūn",
+    "name_arabic": "الماعون",
+    "verses_count": 7,
+    "pages": [
+      602,
+      602
+    ],
+    "translated_name": {
+      "language_name": "english",
+      "name": "The Small kindnesses"
+    }
+  },
+  "verses": [
+    {
+      "id": 6198,
+      "verse_number": 1,
+      "verse_key": "107:1",
+      "hizb_number": 60,
+      "rub_el_hizb_number": 240,
+      "ruku_number": 551,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": " أَرَءَيْتَ ٱلَّذِى يُكَذِّبُ بِٱلدِّينِ",
+      "page_number": 602,
+      "juz_number": 30,
+      "translations": [
+        {
+          "id": 407901,
+          "resource_id": 85,
+          "text": "[Prophet], have you considered the person who denies the Judgement?"
+        }
+      ]
+    },
+    {
+      "id": 6199,
+      "verse_number": 2,
+      "verse_key": "107:2",
+      "hizb_number": 60,
+      "rub_el_hizb_number": 240,
+      "ruku_number": 551,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "فَذَٰلِكَ ٱلَّذِى يَدُعُّ ٱلْيَتِيمَ",
+      "page_number": 602,
+      "juz_number": 30,
+      "translations": [
+        {
+          "id": 407902,
+          "resource_id": 85,
+          "text": "It is he who pushes aside the orphan"
+        }
+      ]
+    },
+    {
+      "id": 6200,
+      "verse_number": 3,
+      "verse_key": "107:3",
+      "hizb_number": 60,
+      "rub_el_hizb_number": 240,
+      "ruku_number": 551,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "وَلَا يَحُضُّ عَلَىٰ طَعَامِ ٱلْمِسْكِينِ",
+      "page_number": 602,
+      "juz_number": 30,
+      "translations": [
+        {
+          "id": 407903,
+          "resource_id": 85,
+          "text": "and does not urge others to feed the needy."
+        }
+      ]
+    },
+    {
+      "id": 6201,
+      "verse_number": 4,
+      "verse_key": "107:4",
+      "hizb_number": 60,
+      "rub_el_hizb_number": 240,
+      "ruku_number": 551,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "فَوَيْلٌ لِّلْمُصَلِّينَ",
+      "page_number": 602,
+      "juz_number": 30,
+      "translations": [
+        {
+          "id": 407904,
+          "resource_id": 85,
+          "text": "So woe to those who pray"
+        }
+      ]
+    },
+    {
+      "id": 6202,
+      "verse_number": 5,
+      "verse_key": "107:5",
+      "hizb_number": 60,
+      "rub_el_hizb_number": 240,
+      "ruku_number": 551,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "ٱلَّذِينَ هُمْ عَن صَلَاتِهِمْ سَاهُونَ",
+      "page_number": 602,
+      "juz_number": 30,
+      "translations": [
+        {
+          "id": 407905,
+          "resource_id": 85,
+          "text": "but are heedless of their prayer;"
+        }
+      ]
+    },
+    {
+      "id": 6203,
+      "verse_number": 6,
+      "verse_key": "107:6",
+      "hizb_number": 60,
+      "rub_el_hizb_number": 240,
+      "ruku_number": 551,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "ٱلَّذِينَ هُمْ يُرَآءُونَ",
+      "page_number": 602,
+      "juz_number": 30,
+      "translations": [
+        {
+          "id": 407906,
+          "resource_id": 85,
+          "text": "those who are all show"
+        }
+      ]
+    },
+    {
+      "id": 6204,
+      "verse_number": 7,
+      "verse_key": "107:7",
+      "hizb_number": 60,
+      "rub_el_hizb_number": 240,
+      "ruku_number": 551,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "وَيَمْنَعُونَ ٱلْمَاعُونَ",
+      "page_number": 602,
+      "juz_number": 30,
+      "translations": [
+        {
+          "id": 407907,
+          "resource_id": 85,
+          "text": "and forbid common kindnesses."
+        }
+      ]
+    }
+  ]
+}

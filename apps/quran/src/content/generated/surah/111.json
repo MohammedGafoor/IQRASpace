@@ -1,0 +1,123 @@
+{
+  "syncedAt": "2026-08-31T05:21:33.100Z",
+  "chapter": {
+    "id": 111,
+    "revelation_place": "makkah",
+    "revelation_order": 6,
+    "bismillah_pre": true,
+    "name_simple": "Al-Masad",
+    "name_complex": "Al-Masad",
+    "name_arabic": "المسد",
+    "verses_count": 5,
+    "pages": [
+      603,
+      603
+    ],
+    "translated_name": {
+      "language_name": "english",
+      "name": "The Palm Fiber"
+    }
+  },
+  "verses": [
+    {
+      "id": 6217,
+      "verse_number": 1,
+      "verse_key": "111:1",
+      "hizb_number": 60,
+      "rub_el_hizb_number": 240,
+      "ruku_number": 555,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": " تَبَّتْ يَدَآ أَبِى لَهَبٍ وَتَبَّ",
+      "page_number": 603,
+      "juz_number": 30,
+      "translations": [
+        {
+          "id": 407920,
+          "resource_id": 85,
+          "text": "May the hands of Abu Lahab be ruined! May he be ruined too!"
+        }
+      ]
+    },
+    {
+      "id": 6218,
+      "verse_number": 2,
+      "verse_key": "111:2",
+      "hizb_number": 60,
+      "rub_el_hizb_number": 240,
+      "ruku_number": 555,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "مَآ أَغْنَىٰ عَنْهُ مَالُهُۥ وَمَا كَسَبَ",
+      "page_number": 603,
+      "juz_number": 30,
+      "translations": [
+        {
+          "id": 407921,
+          "resource_id": 85,
+          "text": "Neither his wealth nor his gains will help him:"
+        }
+      ]
+    },
+    {
+      "id": 6219,
+      "verse_number": 3,
+      "verse_key": "111:3",
+      "hizb_number": 60,
+      "rub_el_hizb_number": 240,
+      "ruku_number": 555,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "سَيَصْلَىٰ نَارًا ذَاتَ لَهَبٍ",
+      "page_number": 603,
+      "juz_number": 30,
+      "translations": [
+        {
+          "id": 407922,
+          "resource_id": 85,
+          "text": "he will burn in the Flaming Fire––"
+        }
+      ]
+    },
+    {
+      "id": 6220,
+      "verse_number": 4,
+      "verse_key": "111:4",
+      "hizb_number": 60,
+      "rub_el_hizb_number": 240,
+      "ruku_number": 555,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "وَٱمْرَأَتُهُۥ حَمَّالَةَ ٱلْحَطَبِ",
+      "page_number": 603,
+      "juz_number": 30,
+      "translations": [
+        {
+          "id": 407923,
+          "resource_id": 85,
+          "text": "and so will his wife, the firewood-carrier,"
+        }
+      ]
+    },
+    {
+      "id": 6221,
+      "verse_number": 5,
+      "verse_key": "111:5",
+      "hizb_number": 60,
+      "rub_el_hizb_number": 240,
+      "ruku_number": 555,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "فِى جِيدِهَا حَبْلٌ مِّن مَّسَدٍۭ",
+      "page_number": 603,
+      "juz_number": 30,
+      "translations": [
+        {
+          "id": 407924,
+          "resource_id": 85,
+          "text": "with a palm-fibre rope around her neck."
+        }
+      ]
+    }
+  ]
+}

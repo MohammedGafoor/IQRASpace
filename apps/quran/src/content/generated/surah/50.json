@@ -1,0 +1,923 @@
+{
+  "syncedAt": "2026-08-31T05:21:04.308Z",
+  "chapter": {
+    "id": 50,
+    "revelation_place": "makkah",
+    "revelation_order": 34,
+    "bismillah_pre": true,
+    "name_simple": "Qaf",
+    "name_complex": "Qāf",
+    "name_arabic": "ق",
+    "verses_count": 45,
+    "pages": [
+      518,
+      520
+    ],
+    "translated_name": {
+      "language_name": "english",
+      "name": "The Letter \"Qaf\""
+    }
+  },
+  "verses": [
+    {
+      "id": 4631,
+      "verse_number": 1,
+      "verse_key": "50:1",
+      "hizb_number": 52,
+      "rub_el_hizb_number": 207,
+      "ruku_number": 454,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": " قٓ ۚ وَٱلْقُرْءَانِ ٱلْمَجِيدِ",
+      "page_number": 518,
+      "juz_number": 26,
+      "translations": [
+        {
+          "id": 406334,
+          "resource_id": 85,
+          "text": "Qaf By the glorious Quran!"
+        }
+      ]
+    },
+    {
+      "id": 4632,
+      "verse_number": 2,
+      "verse_key": "50:2",
+      "hizb_number": 52,
+      "rub_el_hizb_number": 207,
+      "ruku_number": 454,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "بَلْ عَجِبُوٓا۟ أَن جَآءَهُم مُّنذِرٌ مِّنْهُمْ فَقَالَ ٱلْكَـٰفِرُونَ هَـٰذَا شَىْءٌ عَجِيبٌ",
+      "page_number": 518,
+      "juz_number": 26,
+      "translations": [
+        {
+          "id": 406335,
+          "resource_id": 85,
+          "text": "But the disbelievers are amazed that a warner has come from among them and they say, ‘How strange!"
+        }
+      ]
+    },
+    {
+      "id": 4633,
+      "verse_number": 3,
+      "verse_key": "50:3",
+      "hizb_number": 52,
+      "rub_el_hizb_number": 207,
+      "ruku_number": 454,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "أَءِذَا مِتْنَا وَكُنَّا تُرَابًا ۖ ذَٰلِكَ رَجْعٌۢ بَعِيدٌ",
+      "page_number": 518,
+      "juz_number": 26,
+      "translations": [
+        {
+          "id": 406336,
+          "resource_id": 85,
+          "text": "To come back [to life] after we have died and become dust? That is too farfetched.’"
+        }
+      ]
+    },
+    {
+      "id": 4634,
+      "verse_number": 4,
+      "verse_key": "50:4",
+      "hizb_number": 52,
+      "rub_el_hizb_number": 207,
+      "ruku_number": 454,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "قَدْ عَلِمْنَا مَا تَنقُصُ ٱلْأَرْضُ مِنْهُمْ ۖ وَعِندَنَا كِتَـٰبٌ حَفِيظٌۢ",
+      "page_number": 518,
+      "juz_number": 26,
+      "translations": [
+        {
+          "id": 406337,
+          "resource_id": 85,
+          "text": "We know very well what the earth takes away from them: We keep a comprehensive record."
+        }
+      ]
+    },
+    {
+      "id": 4635,
+      "verse_number": 5,
+      "verse_key": "50:5",
+      "hizb_number": 52,
+      "rub_el_hizb_number": 207,
+      "ruku_number": 454,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "بَلْ كَذَّبُوا۟ بِٱلْحَقِّ لَمَّا جَآءَهُمْ فَهُمْ فِىٓ أَمْرٍ مَّرِيجٍ",
+      "page_number": 518,
+      "juz_number": 26,
+      "translations": [
+        {
+          "id": 406338,
+          "resource_id": 85,
+          "text": "But the disbelievers deny the truth when it comes to them; they are in a state of confusion."
+        }
+      ]
+    },
+    {
+      "id": 4636,
+      "verse_number": 6,
+      "verse_key": "50:6",
+      "hizb_number": 52,
+      "rub_el_hizb_number": 207,
+      "ruku_number": 454,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "أَفَلَمْ يَنظُرُوٓا۟ إِلَى ٱلسَّمَآءِ فَوْقَهُمْ كَيْفَ بَنَيْنَـٰهَا وَزَيَّنَّـٰهَا وَمَا لَهَا مِن فُرُوجٍ",
+      "page_number": 518,
+      "juz_number": 26,
+      "translations": [
+        {
+          "id": 406339,
+          "resource_id": 85,
+          "text": "Do they not see the sky above them––how We have built and adorned it, with no rifts in it;"
+        }
+      ]
+    },
+    {
+      "id": 4637,
+      "verse_number": 7,
+      "verse_key": "50:7",
+      "hizb_number": 52,
+      "rub_el_hizb_number": 207,
+      "ruku_number": 454,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "وَٱلْأَرْضَ مَدَدْنَـٰهَا وَأَلْقَيْنَا فِيهَا رَوَٰسِىَ وَأَنۢبَتْنَا فِيهَا مِن كُلِّ زَوْجٍۭ بَهِيجٍ",
+      "page_number": 518,
+      "juz_number": 26,
+      "translations": [
+        {
+          "id": 406340,
+          "resource_id": 85,
+          "text": "how We spread out the earth and put solid mountains on it, and caused every kind of joyous plant to grow in it,"
+        }
+      ]
+    },
+    {
+      "id": 4638,
+      "verse_number": 8,
+      "verse_key": "50:8",
+      "hizb_number": 52,
+      "rub_el_hizb_number": 207,
+      "ruku_number": 454,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "تَبْصِرَةً وَذِكْرَىٰ لِكُلِّ عَبْدٍ مُّنِيبٍ",
+      "page_number": 518,
+      "juz_number": 26,
+      "translations": [
+        {
+          "id": 406341,
+          "resource_id": 85,
+          "text": "as a lesson and reminder for every servant who turns to God;"
+        }
+      ]
+    },
+    {
+      "id": 4639,
+      "verse_number": 9,
+      "verse_key": "50:9",
+      "hizb_number": 52,
+      "rub_el_hizb_number": 207,
+      "ruku_number": 454,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "وَنَزَّلْنَا مِنَ ٱلسَّمَآءِ مَآءً مُّبَـٰرَكًا فَأَنۢبَتْنَا بِهِۦ جَنَّـٰتٍ وَحَبَّ ٱلْحَصِيدِ",
+      "page_number": 518,
+      "juz_number": 26,
+      "translations": [
+        {
+          "id": 406342,
+          "resource_id": 85,
+          "text": "and how We send blessed water down from the sky and grow with it gardens, the harvest grain,"
+        }
+      ]
+    },
+    {
+      "id": 4640,
+      "verse_number": 10,
+      "verse_key": "50:10",
+      "hizb_number": 52,
+      "rub_el_hizb_number": 207,
+      "ruku_number": 454,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "وَٱلنَّخْلَ بَاسِقَـٰتٍ لَّهَا طَلْعٌ نَّضِيدٌ",
+      "page_number": 518,
+      "juz_number": 26,
+      "translations": [
+        {
+          "id": 406343,
+          "resource_id": 85,
+          "text": "and tall palm trees laden with clusters of dates,"
+        }
+      ]
+    },
+    {
+      "id": 4641,
+      "verse_number": 11,
+      "verse_key": "50:11",
+      "hizb_number": 52,
+      "rub_el_hizb_number": 207,
+      "ruku_number": 454,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "رِّزْقًا لِّلْعِبَادِ ۖ وَأَحْيَيْنَا بِهِۦ بَلْدَةً مَّيْتًا ۚ كَذَٰلِكَ ٱلْخُرُوجُ",
+      "page_number": 518,
+      "juz_number": 26,
+      "translations": [
+        {
+          "id": 406344,
+          "resource_id": 85,
+          "text": "as a provision for everyone; how with water We give [new] life to a land that is dead? This is how the dead will emerge [from their graves]."
+        }
+      ]
+    },
+    {
+      "id": 4642,
+      "verse_number": 12,
+      "verse_key": "50:12",
+      "hizb_number": 52,
+      "rub_el_hizb_number": 207,
+      "ruku_number": 454,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "كَذَّبَتْ قَبْلَهُمْ قَوْمُ نُوحٍ وَأَصْحَـٰبُ ٱلرَّسِّ وَثَمُودُ",
+      "page_number": 518,
+      "juz_number": 26,
+      "translations": [
+        {
+          "id": 406345,
+          "resource_id": 85,
+          "text": "The people of Noah disbelieved long before these disbelievers, as did the people of Rass, Thamud,"
+        }
+      ]
+    },
+    {
+      "id": 4643,
+      "verse_number": 13,
+      "verse_key": "50:13",
+      "hizb_number": 52,
+      "rub_el_hizb_number": 207,
+      "ruku_number": 454,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "وَعَادٌ وَفِرْعَوْنُ وَإِخْوَٰنُ لُوطٍ",
+      "page_number": 518,
+      "juz_number": 26,
+      "translations": [
+        {
+          "id": 406346,
+          "resource_id": 85,
+          "text": "Ad, Pharaoh, and the brothers of Lot,"
+        }
+      ]
+    },
+    {
+      "id": 4644,
+      "verse_number": 14,
+      "verse_key": "50:14",
+      "hizb_number": 52,
+      "rub_el_hizb_number": 207,
+      "ruku_number": 454,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "وَأَصْحَـٰبُ ٱلْأَيْكَةِ وَقَوْمُ تُبَّعٍ ۚ كُلٌّ كَذَّبَ ٱلرُّسُلَ فَحَقَّ وَعِيدِ",
+      "page_number": 518,
+      "juz_number": 26,
+      "translations": [
+        {
+          "id": 406347,
+          "resource_id": 85,
+          "text": "the Forest-Dwellers, Tubba: all of these people disbelieved their messengers, and so My warning was realized."
+        }
+      ]
+    },
+    {
+      "id": 4645,
+      "verse_number": 15,
+      "verse_key": "50:15",
+      "hizb_number": 52,
+      "rub_el_hizb_number": 207,
+      "ruku_number": 454,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "أَفَعَيِينَا بِٱلْخَلْقِ ٱلْأَوَّلِ ۚ بَلْ هُمْ فِى لَبْسٍ مِّنْ خَلْقٍ جَدِيدٍ",
+      "page_number": 518,
+      "juz_number": 26,
+      "translations": [
+        {
+          "id": 406348,
+          "resource_id": 85,
+          "text": "So were We incapable of the first creation? No indeed! Yet they doubt a second creation."
+        }
+      ]
+    },
+    {
+      "id": 4646,
+      "verse_number": 16,
+      "verse_key": "50:16",
+      "hizb_number": 52,
+      "rub_el_hizb_number": 207,
+      "ruku_number": 455,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "وَلَقَدْ خَلَقْنَا ٱلْإِنسَـٰنَ وَنَعْلَمُ مَا تُوَسْوِسُ بِهِۦ نَفْسُهُۥ ۖ وَنَحْنُ أَقْرَبُ إِلَيْهِ مِنْ حَبْلِ ٱلْوَرِيدِ",
+      "page_number": 519,
+      "juz_number": 26,
+      "translations": [
+        {
+          "id": 406349,
+          "resource_id": 85,
+          "text": "We created man––We know what his soul whispers to him: We are closer to him than his jugular vein––"
+        }
+      ]
+    },
+    {
+      "id": 4647,
+      "verse_number": 17,
+      "verse_key": "50:17",
+      "hizb_number": 52,
+      "rub_el_hizb_number": 207,
+      "ruku_number": 455,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "إِذْ يَتَلَقَّى ٱلْمُتَلَقِّيَانِ عَنِ ٱلْيَمِينِ وَعَنِ ٱلشِّمَالِ قَعِيدٌ",
+      "page_number": 519,
+      "juz_number": 26,
+      "translations": [
+        {
+          "id": 406350,
+          "resource_id": 85,
+          "text": "with two receptors set to record, one on his right side and one on his left:"
+        }
+      ]
+    },
+    {
+      "id": 4648,
+      "verse_number": 18,
+      "verse_key": "50:18",
+      "hizb_number": 52,
+      "rub_el_hizb_number": 207,
+      "ruku_number": 455,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "مَّا يَلْفِظُ مِن قَوْلٍ إِلَّا لَدَيْهِ رَقِيبٌ عَتِيدٌ",
+      "page_number": 519,
+      "juz_number": 26,
+      "translations": [
+        {
+          "id": 406351,
+          "resource_id": 85,
+          "text": "he does not utter a single word without an ever-present watcher."
+        }
+      ]
+    },
+    {
+      "id": 4649,
+      "verse_number": 19,
+      "verse_key": "50:19",
+      "hizb_number": 52,
+      "rub_el_hizb_number": 207,
+      "ruku_number": 455,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "وَجَآءَتْ سَكْرَةُ ٱلْمَوْتِ بِٱلْحَقِّ ۖ ذَٰلِكَ مَا كُنتَ مِنْهُ تَحِيدُ",
+      "page_number": 519,
+      "juz_number": 26,
+      "translations": [
+        {
+          "id": 406352,
+          "resource_id": 85,
+          "text": "The trance of death will bring the Truth with it: ‘This is what you tried to escape.’"
+        }
+      ]
+    },
+    {
+      "id": 4650,
+      "verse_number": 20,
+      "verse_key": "50:20",
+      "hizb_number": 52,
+      "rub_el_hizb_number": 207,
+      "ruku_number": 455,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "وَنُفِخَ فِى ٱلصُّورِ ۚ ذَٰلِكَ يَوْمُ ٱلْوَعِيدِ",
+      "page_number": 519,
+      "juz_number": 26,
+      "translations": [
+        {
+          "id": 406353,
+          "resource_id": 85,
+          "text": "The Trumpet will be sounded: ‘This is the Day [you were] warned of.’"
+        }
+      ]
+    },
+    {
+      "id": 4651,
+      "verse_number": 21,
+      "verse_key": "50:21",
+      "hizb_number": 52,
+      "rub_el_hizb_number": 207,
+      "ruku_number": 455,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "وَجَآءَتْ كُلُّ نَفْسٍ مَّعَهَا سَآئِقٌ وَشَهِيدٌ",
+      "page_number": 519,
+      "juz_number": 26,
+      "translations": [
+        {
+          "id": 406354,
+          "resource_id": 85,
+          "text": "Each person will arrive attended by an [angel] to drive him on and another to bear witness:"
+        }
+      ]
+    },
+    {
+      "id": 4652,
+      "verse_number": 22,
+      "verse_key": "50:22",
+      "hizb_number": 52,
+      "rub_el_hizb_number": 207,
+      "ruku_number": 455,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "لَّقَدْ كُنتَ فِى غَفْلَةٍ مِّنْ هَـٰذَا فَكَشَفْنَا عَنكَ غِطَآءَكَ فَبَصَرُكَ ٱلْيَوْمَ حَدِيدٌ",
+      "page_number": 519,
+      "juz_number": 26,
+      "translations": [
+        {
+          "id": 406355,
+          "resource_id": 85,
+          "text": "‘You paid no attention to this [Day]; but today We have removed your veil and your sight is sharp.’"
+        }
+      ]
+    },
+    {
+      "id": 4653,
+      "verse_number": 23,
+      "verse_key": "50:23",
+      "hizb_number": 52,
+      "rub_el_hizb_number": 207,
+      "ruku_number": 455,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "وَقَالَ قَرِينُهُۥ هَـٰذَا مَا لَدَىَّ عَتِيدٌ",
+      "page_number": 519,
+      "juz_number": 26,
+      "translations": [
+        {
+          "id": 406356,
+          "resource_id": 85,
+          "text": "The person’s attendant will say, ‘Here is what I have prepared’-"
+        }
+      ]
+    },
+    {
+      "id": 4654,
+      "verse_number": 24,
+      "verse_key": "50:24",
+      "hizb_number": 52,
+      "rub_el_hizb_number": 207,
+      "ruku_number": 455,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "أَلْقِيَا فِى جَهَنَّمَ كُلَّ كَفَّارٍ عَنِيدٍ",
+      "page_number": 519,
+      "juz_number": 26,
+      "translations": [
+        {
+          "id": 406357,
+          "resource_id": 85,
+          "text": "‘Hurl every obstinate disbeliever into Hell,"
+        }
+      ]
+    },
+    {
+      "id": 4655,
+      "verse_number": 25,
+      "verse_key": "50:25",
+      "hizb_number": 52,
+      "rub_el_hizb_number": 207,
+      "ruku_number": 455,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "مَّنَّاعٍ لِّلْخَيْرِ مُعْتَدٍ مُّرِيبٍ",
+      "page_number": 519,
+      "juz_number": 26,
+      "translations": [
+        {
+          "id": 406358,
+          "resource_id": 85,
+          "text": "everyone who hindered good, was aggressive, caused others to doubt,"
+        }
+      ]
+    },
+    {
+      "id": 4656,
+      "verse_number": 26,
+      "verse_key": "50:26",
+      "hizb_number": 52,
+      "rub_el_hizb_number": 207,
+      "ruku_number": 455,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "ٱلَّذِى جَعَلَ مَعَ ٱللَّهِ إِلَـٰهًا ءَاخَرَ فَأَلْقِيَاهُ فِى ٱلْعَذَابِ ٱلشَّدِيدِ",
+      "page_number": 519,
+      "juz_number": 26,
+      "translations": [
+        {
+          "id": 406359,
+          "resource_id": 85,
+          "text": "and set up other gods alongside God. Hurl him into severe punishment!’-"
+        }
+      ]
+    },
+    {
+      "id": 4657,
+      "verse_number": 27,
+      "verse_key": "50:27",
+      "hizb_number": 52,
+      "rub_el_hizb_number": 208,
+      "ruku_number": 455,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "۞ قَالَ قَرِينُهُۥ رَبَّنَا مَآ أَطْغَيْتُهُۥ وَلَـٰكِن كَانَ فِى ضَلَـٰلٍۭ بَعِيدٍ",
+      "page_number": 519,
+      "juz_number": 26,
+      "translations": [
+        {
+          "id": 406360,
+          "resource_id": 85,
+          "text": "and his [evil] companion will say, ‘Lord, I did not make him transgress; he had already gone far astray himself.’"
+        }
+      ]
+    },
+    {
+      "id": 4658,
+      "verse_number": 28,
+      "verse_key": "50:28",
+      "hizb_number": 52,
+      "rub_el_hizb_number": 208,
+      "ruku_number": 455,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "قَالَ لَا تَخْتَصِمُوا۟ لَدَىَّ وَقَدْ قَدَّمْتُ إِلَيْكُم بِٱلْوَعِيدِ",
+      "page_number": 519,
+      "juz_number": 26,
+      "translations": [
+        {
+          "id": 406361,
+          "resource_id": 85,
+          "text": "God will say, ‘Do not argue in My presence. I sent you a warning"
+        }
+      ]
+    },
+    {
+      "id": 4659,
+      "verse_number": 29,
+      "verse_key": "50:29",
+      "hizb_number": 52,
+      "rub_el_hizb_number": 208,
+      "ruku_number": 455,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "مَا يُبَدَّلُ ٱلْقَوْلُ لَدَىَّ وَمَآ أَنَا۠ بِظَلَّـٰمٍ لِّلْعَبِيدِ",
+      "page_number": 519,
+      "juz_number": 26,
+      "translations": [
+        {
+          "id": 406362,
+          "resource_id": 85,
+          "text": "and My word cannot be changed: I am not unjust to any creature.’"
+        }
+      ]
+    },
+    {
+      "id": 4660,
+      "verse_number": 30,
+      "verse_key": "50:30",
+      "hizb_number": 52,
+      "rub_el_hizb_number": 208,
+      "ruku_number": 456,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "يَوْمَ نَقُولُ لِجَهَنَّمَ هَلِ ٱمْتَلَأْتِ وَتَقُولُ هَلْ مِن مَّزِيدٍ",
+      "page_number": 519,
+      "juz_number": 26,
+      "translations": [
+        {
+          "id": 406363,
+          "resource_id": 85,
+          "text": "We shall say to Hell on that day, ‘Are you full?’ and it will reply, ‘Are there no more?’"
+        }
+      ]
+    },
+    {
+      "id": 4661,
+      "verse_number": 31,
+      "verse_key": "50:31",
+      "hizb_number": 52,
+      "rub_el_hizb_number": 208,
+      "ruku_number": 456,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "وَأُزْلِفَتِ ٱلْجَنَّةُ لِلْمُتَّقِينَ غَيْرَ بَعِيدٍ",
+      "page_number": 519,
+      "juz_number": 26,
+      "translations": [
+        {
+          "id": 406364,
+          "resource_id": 85,
+          "text": "But Paradise will be brought close to the righteous and will no longer be distant:"
+        }
+      ]
+    },
+    {
+      "id": 4662,
+      "verse_number": 32,
+      "verse_key": "50:32",
+      "hizb_number": 52,
+      "rub_el_hizb_number": 208,
+      "ruku_number": 456,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "هَـٰذَا مَا تُوعَدُونَ لِكُلِّ أَوَّابٍ حَفِيظٍ",
+      "page_number": 519,
+      "juz_number": 26,
+      "translations": [
+        {
+          "id": 406365,
+          "resource_id": 85,
+          "text": "‘This is what you were promised––this is for everyone who turned often to God and kept Him in mind,"
+        }
+      ]
+    },
+    {
+      "id": 4663,
+      "verse_number": 33,
+      "verse_key": "50:33",
+      "hizb_number": 52,
+      "rub_el_hizb_number": 208,
+      "ruku_number": 456,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "مَّنْ خَشِىَ ٱلرَّحْمَـٰنَ بِٱلْغَيْبِ وَجَآءَ بِقَلْبٍ مُّنِيبٍ",
+      "page_number": 519,
+      "juz_number": 26,
+      "translations": [
+        {
+          "id": 406366,
+          "resource_id": 85,
+          "text": "who held the Most Gracious in awe, though He is unseen, who comes before Him with a heart turned to Him in devotion-"
+        }
+      ]
+    },
+    {
+      "id": 4664,
+      "verse_number": 34,
+      "verse_key": "50:34",
+      "hizb_number": 52,
+      "rub_el_hizb_number": 208,
+      "ruku_number": 456,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "ٱدْخُلُوهَا بِسَلَـٰمٍ ۖ ذَٰلِكَ يَوْمُ ٱلْخُلُودِ",
+      "page_number": 519,
+      "juz_number": 26,
+      "translations": [
+        {
+          "id": 406367,
+          "resource_id": 85,
+          "text": "so enter it in peace. This is the Day of everlasting Life.’"
+        }
+      ]
+    },
+    {
+      "id": 4665,
+      "verse_number": 35,
+      "verse_key": "50:35",
+      "hizb_number": 52,
+      "rub_el_hizb_number": 208,
+      "ruku_number": 456,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "لَهُم مَّا يَشَآءُونَ فِيهَا وَلَدَيْنَا مَزِيدٌ",
+      "page_number": 519,
+      "juz_number": 26,
+      "translations": [
+        {
+          "id": 406368,
+          "resource_id": 85,
+          "text": "They will have all that they wish for there, and We have more for them."
+        }
+      ]
+    },
+    {
+      "id": 4666,
+      "verse_number": 36,
+      "verse_key": "50:36",
+      "hizb_number": 52,
+      "rub_el_hizb_number": 208,
+      "ruku_number": 456,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "وَكَمْ أَهْلَكْنَا قَبْلَهُم مِّن قَرْنٍ هُمْ أَشَدُّ مِنْهُم بَطْشًا فَنَقَّبُوا۟ فِى ٱلْبِلَـٰدِ هَلْ مِن مَّحِيصٍ",
+      "page_number": 520,
+      "juz_number": 26,
+      "translations": [
+        {
+          "id": 406369,
+          "resource_id": 85,
+          "text": "We have destroyed even mightier generations before these disbelievers, who travelled through [many] lands- was there any escape?"
+        }
+      ]
+    },
+    {
+      "id": 4667,
+      "verse_number": 37,
+      "verse_key": "50:37",
+      "hizb_number": 52,
+      "rub_el_hizb_number": 208,
+      "ruku_number": 456,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "إِنَّ فِى ذَٰلِكَ لَذِكْرَىٰ لِمَن كَانَ لَهُۥ قَلْبٌ أَوْ أَلْقَى ٱلسَّمْعَ وَهُوَ شَهِيدٌ",
+      "page_number": 520,
+      "juz_number": 26,
+      "translations": [
+        {
+          "id": 406370,
+          "resource_id": 85,
+          "text": "There truly is a reminder in this for whoever has a heart, whoever listens attentively."
+        }
+      ]
+    },
+    {
+      "id": 4668,
+      "verse_number": 38,
+      "verse_key": "50:38",
+      "hizb_number": 52,
+      "rub_el_hizb_number": 208,
+      "ruku_number": 456,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "وَلَقَدْ خَلَقْنَا ٱلسَّمَـٰوَٰتِ وَٱلْأَرْضَ وَمَا بَيْنَهُمَا فِى سِتَّةِ أَيَّامٍ وَمَا مَسَّنَا مِن لُّغُوبٍ",
+      "page_number": 520,
+      "juz_number": 26,
+      "translations": [
+        {
+          "id": 406371,
+          "resource_id": 85,
+          "text": "We created the heavens, the earth, and everything between, in six Days without tiring."
+        }
+      ]
+    },
+    {
+      "id": 4669,
+      "verse_number": 39,
+      "verse_key": "50:39",
+      "hizb_number": 52,
+      "rub_el_hizb_number": 208,
+      "ruku_number": 456,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "فَٱصْبِرْ عَلَىٰ مَا يَقُولُونَ وَسَبِّحْ بِحَمْدِ رَبِّكَ قَبْلَ طُلُوعِ ٱلشَّمْسِ وَقَبْلَ ٱلْغُرُوبِ",
+      "page_number": 520,
+      "juz_number": 26,
+      "translations": [
+        {
+          "id": 406372,
+          "resource_id": 85,
+          "text": "So [Prophet], bear everything they say with patience; celebrate the praise of your Lord before the rising and setting of the sun;"
+        }
+      ]
+    },
+    {
+      "id": 4670,
+      "verse_number": 40,
+      "verse_key": "50:40",
+      "hizb_number": 52,
+      "rub_el_hizb_number": 208,
+      "ruku_number": 456,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "وَمِنَ ٱلَّيْلِ فَسَبِّحْهُ وَأَدْبَـٰرَ ٱلسُّجُودِ",
+      "page_number": 520,
+      "juz_number": 26,
+      "translations": [
+        {
+          "id": 406373,
+          "resource_id": 85,
+          "text": "proclaim His praise in the night and at the end of every prayer;"
+        }
+      ]
+    },
+    {
+      "id": 4671,
+      "verse_number": 41,
+      "verse_key": "50:41",
+      "hizb_number": 52,
+      "rub_el_hizb_number": 208,
+      "ruku_number": 456,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "وَٱسْتَمِعْ يَوْمَ يُنَادِ ٱلْمُنَادِ مِن مَّكَانٍ قَرِيبٍ",
+      "page_number": 520,
+      "juz_number": 26,
+      "translations": [
+        {
+          "id": 406374,
+          "resource_id": 85,
+          "text": "listen out for the Day when the caller will call from a nearby place."
+        }
+      ]
+    },
+    {
+      "id": 4672,
+      "verse_number": 42,
+      "verse_key": "50:42",
+      "hizb_number": 52,
+      "rub_el_hizb_number": 208,
+      "ruku_number": 456,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "يَوْمَ يَسْمَعُونَ ٱلصَّيْحَةَ بِٱلْحَقِّ ۚ ذَٰلِكَ يَوْمُ ٱلْخُرُوجِ",
+      "page_number": 520,
+      "juz_number": 26,
+      "translations": [
+        {
+          "id": 406375,
+          "resource_id": 85,
+          "text": "They will come out [from their graves] on that Day, the Day when they hear the mighty blast in reality."
+        }
+      ]
+    },
+    {
+      "id": 4673,
+      "verse_number": 43,
+      "verse_key": "50:43",
+      "hizb_number": 52,
+      "rub_el_hizb_number": 208,
+      "ruku_number": 456,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "إِنَّا نَحْنُ نُحْىِۦ وَنُمِيتُ وَإِلَيْنَا ٱلْمَصِيرُ",
+      "page_number": 520,
+      "juz_number": 26,
+      "translations": [
+        {
+          "id": 406376,
+          "resource_id": 85,
+          "text": "It is We who give life and death; the final return will be to Us"
+        }
+      ]
+    },
+    {
+      "id": 4674,
+      "verse_number": 44,
+      "verse_key": "50:44",
+      "hizb_number": 52,
+      "rub_el_hizb_number": 208,
+      "ruku_number": 456,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "يَوْمَ تَشَقَّقُ ٱلْأَرْضُ عَنْهُمْ سِرَاعًا ۚ ذَٰلِكَ حَشْرٌ عَلَيْنَا يَسِيرٌ",
+      "page_number": 520,
+      "juz_number": 26,
+      "translations": [
+        {
+          "id": 406377,
+          "resource_id": 85,
+          "text": "on the Day when the earth will be torn apart, letting them rush out- that gathering will be easy for Us."
+        }
+      ]
+    },
+    {
+      "id": 4675,
+      "verse_number": 45,
+      "verse_key": "50:45",
+      "hizb_number": 52,
+      "rub_el_hizb_number": 208,
+      "ruku_number": 456,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "نَّحْنُ أَعْلَمُ بِمَا يَقُولُونَ ۖ وَمَآ أَنتَ عَلَيْهِم بِجَبَّارٍ ۖ فَذَكِّرْ بِٱلْقُرْءَانِ مَن يَخَافُ وَعِيدِ",
+      "page_number": 520,
+      "juz_number": 26,
+      "translations": [
+        {
+          "id": 406378,
+          "resource_id": 85,
+          "text": "We know best what the disbelievers say. You [Prophet] are not there to force them, so remind, with this Quran, those who fear My warning."
+        }
+      ]
+    }
+  ]
+}

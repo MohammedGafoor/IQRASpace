@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>IqraSpace</title>
+  <meta name="description" content="IqraSpace — a free, non-commercial ecosystem for learning the Quran. Read. Listen. Learn. Reflect.">
+  <link rel="canonical" href="https://iqraspace.org/">
+  <link rel="icon" href="/favicon.png" type="image/png">
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+
+  <!-- Open Graph / social preview -->
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="IqraSpace">
+  <meta property="og:title" content="IqraSpace">
+  <meta property="og:description" content="A free, non-commercial ecosystem for learning the Quran. Read. Listen. Learn. Reflect.">
+  <meta property="og:url" content="https://iqraspace.org/">
+  <meta property="og:image" content="https://iqraspace.org/favicon.png">
+  <meta name="twitter:card" content="summary">
+
+  <style>
+    :root {
+      --color-bg: #faf7f0;
+      --color-surface: #ffffff;
+      --color-text: #1f2a24;
+      --color-text-muted: #5b6b62;
+      --color-primary: #0f5c4f;
+      --color-primary-contrast: #ffffff;
+      --color-accent-text: #8a6420;
+      --color-border: #e4ddcc;
+      --color-focus-ring: #0f5c4f;
+      color-scheme: light;
+    }
+
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --color-bg: #101512;
+        --color-surface: #17201b;
+        --color-text: #eef1ee;
+        --color-text-muted: #a3b0a8;
+        --color-primary: #3ba98e;
+        --color-primary-contrast: #0a1210;
+        --color-accent-text: #d3a55c;
+        --color-border: #2a352e;
+        --color-focus-ring: #3ba98e;
+        color-scheme: dark;
+      }
+    }
+
+    * { box-sizing: border-box; }
+
+    html, body {
+      margin: 0;
+      padding: 0;
+      background: var(--color-bg);
+      color: var(--color-text);
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", system-ui, sans-serif;
+      min-height: 100%;
+    }
+
+    body {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+      padding: 1.5rem;
+    }
+
+    main {
+      max-width: 34rem;
+      width: 100%;
+      text-align: center;
+    }
+
+    .mark {
+      width: 6rem;
+      height: 6rem;
+      border-radius: 1.25rem;
+      margin: 0 auto 1.5rem;
+      display: block;
+    }
+
+    .wordmark {
+      font-size: clamp(2rem, 7vw, 2.75rem);
+      font-weight: 600;
+      letter-spacing: 0.04em;
+      margin: 0 0 0.5rem;
+    }
+    .wordmark .iqra { color: var(--color-primary); }
+    .wordmark .space { color: var(--color-accent-text); }
+
+    .tagline {
+      margin: 0 0 2rem;
+      color: var(--color-text-muted);
+      font-size: 1.05rem;
+    }
+
+    .cta {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+      background: var(--color-primary);
+      color: var(--color-primary-contrast);
+      text-decoration: none;
+      font-weight: 600;
+      font-size: 1.05rem;
+      padding: 0.85rem 1.75rem;
+      border-radius: 0.6rem;
+    }
+    .cta:focus-visible {
+      outline: 3px solid var(--color-focus-ring);
+      outline-offset: 2px;
+    }
+
+    footer {
+      margin-top: 3rem;
+      color: var(--color-text-muted);
+      font-size: 0.85rem;
+    }
+
+    @media (prefers-reduced-motion: no-preference) {
+      .cta { transition: transform 0.15s ease; }
+      .cta:hover { transform: translateY(-1px); }
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <img class="mark" src="/apple-touch-icon.png" alt="" width="96" height="96">
+    <h1 class="wordmark"><span class="iqra">IQRA</span><span class="space">SPACE</span></h1>
+    <p class="tagline">Read. Listen. Learn. Reflect. A free, non-commercial home for learning the Quran.</p>
+
+    <a class="cta" href="/quran">
+      Open the Quran Reader
+      <span aria-hidden="true">&rarr;</span>
+    </a>
+
+    <footer>
+      <p>&copy; IqraSpace. A Sadaqah Jariyah project — free, ad-free, always.</p>
+    </footer>
+  </main>
+</body>
+</html>

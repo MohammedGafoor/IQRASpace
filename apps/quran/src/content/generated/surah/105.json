@@ -1,0 +1,123 @@
+{
+  "syncedAt": "2026-08-31T05:21:30.609Z",
+  "chapter": {
+    "id": 105,
+    "revelation_place": "makkah",
+    "revelation_order": 19,
+    "bismillah_pre": true,
+    "name_simple": "Al-Fil",
+    "name_complex": "Al-Fīl",
+    "name_arabic": "الفيل",
+    "verses_count": 5,
+    "pages": [
+      601,
+      601
+    ],
+    "translated_name": {
+      "language_name": "english",
+      "name": "The Elephant"
+    }
+  },
+  "verses": [
+    {
+      "id": 6189,
+      "verse_number": 1,
+      "verse_key": "105:1",
+      "hizb_number": 60,
+      "rub_el_hizb_number": 240,
+      "ruku_number": 549,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": " أَلَمْ تَرَ كَيْفَ فَعَلَ رَبُّكَ بِأَصْحَـٰبِ ٱلْفِيلِ",
+      "page_number": 601,
+      "juz_number": 30,
+      "translations": [
+        {
+          "id": 407892,
+          "resource_id": 85,
+          "text": "Do you [Prophet] not see how your Lord dealt with the army of the elephant?"
+        }
+      ]
+    },
+    {
+      "id": 6190,
+      "verse_number": 2,
+      "verse_key": "105:2",
+      "hizb_number": 60,
+      "rub_el_hizb_number": 240,
+      "ruku_number": 549,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "أَلَمْ يَجْعَلْ كَيْدَهُمْ فِى تَضْلِيلٍ",
+      "page_number": 601,
+      "juz_number": 30,
+      "translations": [
+        {
+          "id": 407893,
+          "resource_id": 85,
+          "text": "Did He not utterly confound their plans?"
+        }
+      ]
+    },
+    {
+      "id": 6191,
+      "verse_number": 3,
+      "verse_key": "105:3",
+      "hizb_number": 60,
+      "rub_el_hizb_number": 240,
+      "ruku_number": 549,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "وَأَرْسَلَ عَلَيْهِمْ طَيْرًا أَبَابِيلَ",
+      "page_number": 601,
+      "juz_number": 30,
+      "translations": [
+        {
+          "id": 407894,
+          "resource_id": 85,
+          "text": "He sent ranks of birds against them,"
+        }
+      ]
+    },
+    {
+      "id": 6192,
+      "verse_number": 4,
+      "verse_key": "105:4",
+      "hizb_number": 60,
+      "rub_el_hizb_number": 240,
+      "ruku_number": 549,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "تَرْمِيهِم بِحِجَارَةٍ مِّن سِجِّيلٍ",
+      "page_number": 601,
+      "juz_number": 30,
+      "translations": [
+        {
+          "id": 407895,
+          "resource_id": 85,
+          "text": "pelting them with pellets of hard-baked clay:"
+        }
+      ]
+    },
+    {
+      "id": 6193,
+      "verse_number": 5,
+      "verse_key": "105:5",
+      "hizb_number": 60,
+      "rub_el_hizb_number": 240,
+      "ruku_number": 549,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "فَجَعَلَهُمْ كَعَصْفٍ مَّأْكُولٍۭ",
+      "page_number": 601,
+      "juz_number": 30,
+      "translations": [
+        {
+          "id": 407896,
+          "resource_id": 85,
+          "text": "He made them [like] cropped stubble."
+        }
+      ]
+    }
+  ]
+}

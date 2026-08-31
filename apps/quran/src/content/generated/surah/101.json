@@ -1,0 +1,243 @@
+{
+  "syncedAt": "2026-08-31T05:21:28.960Z",
+  "chapter": {
+    "id": 101,
+    "revelation_place": "makkah",
+    "revelation_order": 30,
+    "bismillah_pre": true,
+    "name_simple": "Al-Qari'ah",
+    "name_complex": "Al-Qāri`ah",
+    "name_arabic": "القارعة",
+    "verses_count": 11,
+    "pages": [
+      600,
+      600
+    ],
+    "translated_name": {
+      "language_name": "english",
+      "name": "The Calamity"
+    }
+  },
+  "verses": [
+    {
+      "id": 6158,
+      "verse_number": 1,
+      "verse_key": "101:1",
+      "hizb_number": 60,
+      "rub_el_hizb_number": 240,
+      "ruku_number": 545,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": " ٱلْقَارِعَةُ",
+      "page_number": 600,
+      "juz_number": 30,
+      "translations": [
+        {
+          "id": 407861,
+          "resource_id": 85,
+          "text": "The Crashing Blow!"
+        }
+      ]
+    },
+    {
+      "id": 6159,
+      "verse_number": 2,
+      "verse_key": "101:2",
+      "hizb_number": 60,
+      "rub_el_hizb_number": 240,
+      "ruku_number": 545,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "مَا ٱلْقَارِعَةُ",
+      "page_number": 600,
+      "juz_number": 30,
+      "translations": [
+        {
+          "id": 407862,
+          "resource_id": 85,
+          "text": "What is the Crashing Blow?"
+        }
+      ]
+    },
+    {
+      "id": 6160,
+      "verse_number": 3,
+      "verse_key": "101:3",
+      "hizb_number": 60,
+      "rub_el_hizb_number": 240,
+      "ruku_number": 545,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "وَمَآ أَدْرَىٰكَ مَا ٱلْقَارِعَةُ",
+      "page_number": 600,
+      "juz_number": 30,
+      "translations": [
+        {
+          "id": 407863,
+          "resource_id": 85,
+          "text": "What will explain to you what the Crashing Blow is?"
+        }
+      ]
+    },
+    {
+      "id": 6161,
+      "verse_number": 4,
+      "verse_key": "101:4",
+      "hizb_number": 60,
+      "rub_el_hizb_number": 240,
+      "ruku_number": 545,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "يَوْمَ يَكُونُ ٱلنَّاسُ كَٱلْفَرَاشِ ٱلْمَبْثُوثِ",
+      "page_number": 600,
+      "juz_number": 30,
+      "translations": [
+        {
+          "id": 407864,
+          "resource_id": 85,
+          "text": "On a Day when people will be like scattered moths"
+        }
+      ]
+    },
+    {
+      "id": 6162,
+      "verse_number": 5,
+      "verse_key": "101:5",
+      "hizb_number": 60,
+      "rub_el_hizb_number": 240,
+      "ruku_number": 545,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "وَتَكُونُ ٱلْجِبَالُ كَٱلْعِهْنِ ٱلْمَنفُوشِ",
+      "page_number": 600,
+      "juz_number": 30,
+      "translations": [
+        {
+          "id": 407865,
+          "resource_id": 85,
+          "text": "and the mountains like tufts of wool,"
+        }
+      ]
+    },
+    {
+      "id": 6163,
+      "verse_number": 6,
+      "verse_key": "101:6",
+      "hizb_number": 60,
+      "rub_el_hizb_number": 240,
+      "ruku_number": 545,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "فَأَمَّا مَن ثَقُلَتْ مَوَٰزِينُهُۥ",
+      "page_number": 600,
+      "juz_number": 30,
+      "translations": [
+        {
+          "id": 407866,
+          "resource_id": 85,
+          "text": "the one whose good deeds are heavy on the scales"
+        }
+      ]
+    },
+    {
+      "id": 6164,
+      "verse_number": 7,
+      "verse_key": "101:7",
+      "hizb_number": 60,
+      "rub_el_hizb_number": 240,
+      "ruku_number": 545,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "فَهُوَ فِى عِيشَةٍ رَّاضِيَةٍ",
+      "page_number": 600,
+      "juz_number": 30,
+      "translations": [
+        {
+          "id": 407867,
+          "resource_id": 85,
+          "text": "will have a pleasant life,"
+        }
+      ]
+    },
+    {
+      "id": 6165,
+      "verse_number": 8,
+      "verse_key": "101:8",
+      "hizb_number": 60,
+      "rub_el_hizb_number": 240,
+      "ruku_number": 545,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "وَأَمَّا مَنْ خَفَّتْ مَوَٰزِينُهُۥ",
+      "page_number": 600,
+      "juz_number": 30,
+      "translations": [
+        {
+          "id": 407868,
+          "resource_id": 85,
+          "text": "but the one whose good deeds are light"
+        }
+      ]
+    },
+    {
+      "id": 6166,
+      "verse_number": 9,
+      "verse_key": "101:9",
+      "hizb_number": 60,
+      "rub_el_hizb_number": 240,
+      "ruku_number": 545,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "فَأُمُّهُۥ هَاوِيَةٌ",
+      "page_number": 600,
+      "juz_number": 30,
+      "translations": [
+        {
+          "id": 407869,
+          "resource_id": 85,
+          "text": "will have the Bottomless Pit for his home––"
+        }
+      ]
+    },
+    {
+      "id": 6167,
+      "verse_number": 10,
+      "verse_key": "101:10",
+      "hizb_number": 60,
+      "rub_el_hizb_number": 240,
+      "ruku_number": 545,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "وَمَآ أَدْرَىٰكَ مَا هِيَهْ",
+      "page_number": 600,
+      "juz_number": 30,
+      "translations": [
+        {
+          "id": 407870,
+          "resource_id": 85,
+          "text": "what will explain to you what that is?––"
+        }
+      ]
+    },
+    {
+      "id": 6168,
+      "verse_number": 11,
+      "verse_key": "101:11",
+      "hizb_number": 60,
+      "rub_el_hizb_number": 240,
+      "ruku_number": 545,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "نَارٌ حَامِيَةٌۢ",
+      "page_number": 600,
+      "juz_number": 30,
+      "translations": [
+        {
+          "id": 407871,
+          "resource_id": 85,
+          "text": "a blazing fire."
+        }
+      ]
+    }
+  ]
+}

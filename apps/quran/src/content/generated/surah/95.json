@@ -1,0 +1,183 @@
+{
+  "syncedAt": "2026-08-31T05:21:26.442Z",
+  "chapter": {
+    "id": 95,
+    "revelation_place": "makkah",
+    "revelation_order": 28,
+    "bismillah_pre": true,
+    "name_simple": "At-Tin",
+    "name_complex": "At-Tīn",
+    "name_arabic": "التين",
+    "verses_count": 8,
+    "pages": [
+      597,
+      597
+    ],
+    "translated_name": {
+      "language_name": "english",
+      "name": "The Fig"
+    }
+  },
+  "verses": [
+    {
+      "id": 6099,
+      "verse_number": 1,
+      "verse_key": "95:1",
+      "hizb_number": 60,
+      "rub_el_hizb_number": 239,
+      "ruku_number": 539,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "وَٱلتِّينِ وَٱلزَّيْتُونِ",
+      "page_number": 597,
+      "juz_number": 30,
+      "translations": [
+        {
+          "id": 407802,
+          "resource_id": 85,
+          "text": "By the fig, by the olive,"
+        }
+      ]
+    },
+    {
+      "id": 6100,
+      "verse_number": 2,
+      "verse_key": "95:2",
+      "hizb_number": 60,
+      "rub_el_hizb_number": 239,
+      "ruku_number": 539,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "وَطُورِ سِينِينَ",
+      "page_number": 597,
+      "juz_number": 30,
+      "translations": [
+        {
+          "id": 407803,
+          "resource_id": 85,
+          "text": "by Mount Sinai,"
+        }
+      ]
+    },
+    {
+      "id": 6101,
+      "verse_number": 3,
+      "verse_key": "95:3",
+      "hizb_number": 60,
+      "rub_el_hizb_number": 239,
+      "ruku_number": 539,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "وَهَـٰذَا ٱلْبَلَدِ ٱلْأَمِينِ",
+      "page_number": 597,
+      "juz_number": 30,
+      "translations": [
+        {
+          "id": 407804,
+          "resource_id": 85,
+          "text": "by this safe town,"
+        }
+      ]
+    },
+    {
+      "id": 6102,
+      "verse_number": 4,
+      "verse_key": "95:4",
+      "hizb_number": 60,
+      "rub_el_hizb_number": 239,
+      "ruku_number": 539,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "لَقَدْ خَلَقْنَا ٱلْإِنسَـٰنَ فِىٓ أَحْسَنِ تَقْوِيمٍ",
+      "page_number": 597,
+      "juz_number": 30,
+      "translations": [
+        {
+          "id": 407805,
+          "resource_id": 85,
+          "text": "We create man in the finest state"
+        }
+      ]
+    },
+    {
+      "id": 6103,
+      "verse_number": 5,
+      "verse_key": "95:5",
+      "hizb_number": 60,
+      "rub_el_hizb_number": 239,
+      "ruku_number": 539,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "ثُمَّ رَدَدْنَـٰهُ أَسْفَلَ سَـٰفِلِينَ",
+      "page_number": 597,
+      "juz_number": 30,
+      "translations": [
+        {
+          "id": 407806,
+          "resource_id": 85,
+          "text": "then reduce him to the lowest of the low,"
+        }
+      ]
+    },
+    {
+      "id": 6104,
+      "verse_number": 6,
+      "verse_key": "95:6",
+      "hizb_number": 60,
+      "rub_el_hizb_number": 239,
+      "ruku_number": 539,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "إِلَّا ٱلَّذِينَ ءَامَنُوا۟ وَعَمِلُوا۟ ٱلصَّـٰلِحَـٰتِ فَلَهُمْ أَجْرٌ غَيْرُ مَمْنُونٍ",
+      "page_number": 597,
+      "juz_number": 30,
+      "translations": [
+        {
+          "id": 407807,
+          "resource_id": 85,
+          "text": "except those who believe and do good deeds–– they will have an unfailing reward."
+        }
+      ]
+    },
+    {
+      "id": 6105,
+      "verse_number": 7,
+      "verse_key": "95:7",
+      "hizb_number": 60,
+      "rub_el_hizb_number": 239,
+      "ruku_number": 539,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "فَمَا يُكَذِّبُكَ بَعْدُ بِٱلدِّينِ",
+      "page_number": 597,
+      "juz_number": 30,
+      "translations": [
+        {
+          "id": 407808,
+          "resource_id": 85,
+          "text": "After this, what makes you [man] deny the Judgement?"
+        }
+      ]
+    },
+    {
+      "id": 6106,
+      "verse_number": 8,
+      "verse_key": "95:8",
+      "hizb_number": 60,
+      "rub_el_hizb_number": 239,
+      "ruku_number": 539,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "أَلَيْسَ ٱللَّهُ بِأَحْكَمِ ٱلْحَـٰكِمِينَ",
+      "page_number": 597,
+      "juz_number": 30,
+      "translations": [
+        {
+          "id": 407809,
+          "resource_id": 85,
+          "text": "Is God not the most decisive of judges?"
+        }
+      ]
+    }
+  ]
+}

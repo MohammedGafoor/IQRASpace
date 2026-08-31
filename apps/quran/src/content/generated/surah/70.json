@@ -1,0 +1,903 @@
+{
+  "syncedAt": "2026-08-31T05:21:15.689Z",
+  "chapter": {
+    "id": 70,
+    "revelation_place": "makkah",
+    "revelation_order": 79,
+    "bismillah_pre": true,
+    "name_simple": "Al-Ma'arij",
+    "name_complex": "Al-Ma`ārij",
+    "name_arabic": "المعارج",
+    "verses_count": 44,
+    "pages": [
+      568,
+      570
+    ],
+    "translated_name": {
+      "language_name": "english",
+      "name": "The Ascending Stairways"
+    }
+  },
+  "verses": [
+    {
+      "id": 5376,
+      "verse_number": 1,
+      "verse_key": "70:1",
+      "hizb_number": 57,
+      "rub_el_hizb_number": 227,
+      "ruku_number": 504,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": " سَأَلَ سَآئِلٌۢ بِعَذَابٍ وَاقِعٍ",
+      "page_number": 568,
+      "juz_number": 29,
+      "translations": [
+        {
+          "id": 407079,
+          "resource_id": 85,
+          "text": "A man [mockingly] demanded the punishment."
+        }
+      ]
+    },
+    {
+      "id": 5377,
+      "verse_number": 2,
+      "verse_key": "70:2",
+      "hizb_number": 57,
+      "rub_el_hizb_number": 227,
+      "ruku_number": 504,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "لِّلْكَـٰفِرِينَ لَيْسَ لَهُۥ دَافِعٌ",
+      "page_number": 568,
+      "juz_number": 29,
+      "translations": [
+        {
+          "id": 407080,
+          "resource_id": 85,
+          "text": "It will fall on the disbelievers––none can deflect it––"
+        }
+      ]
+    },
+    {
+      "id": 5378,
+      "verse_number": 3,
+      "verse_key": "70:3",
+      "hizb_number": 57,
+      "rub_el_hizb_number": 227,
+      "ruku_number": 504,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "مِّنَ ٱللَّهِ ذِى ٱلْمَعَارِجِ",
+      "page_number": 568,
+      "juz_number": 29,
+      "translations": [
+        {
+          "id": 407081,
+          "resource_id": 85,
+          "text": "from God, the Lord of the Ways of Ascent,"
+        }
+      ]
+    },
+    {
+      "id": 5379,
+      "verse_number": 4,
+      "verse_key": "70:4",
+      "hizb_number": 57,
+      "rub_el_hizb_number": 227,
+      "ruku_number": 504,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "تَعْرُجُ ٱلْمَلَـٰٓئِكَةُ وَٱلرُّوحُ إِلَيْهِ فِى يَوْمٍ كَانَ مِقْدَارُهُۥ خَمْسِينَ أَلْفَ سَنَةٍ",
+      "page_number": 568,
+      "juz_number": 29,
+      "translations": [
+        {
+          "id": 407082,
+          "resource_id": 85,
+          "text": "by which the angels and the Spirit ascend to Him, on a Day whose length is fifty thousand years."
+        }
+      ]
+    },
+    {
+      "id": 5380,
+      "verse_number": 5,
+      "verse_key": "70:5",
+      "hizb_number": 57,
+      "rub_el_hizb_number": 227,
+      "ruku_number": 504,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "فَٱصْبِرْ صَبْرًا جَمِيلًا",
+      "page_number": 568,
+      "juz_number": 29,
+      "translations": [
+        {
+          "id": 407083,
+          "resource_id": 85,
+          "text": "So be patient, [Prophet], as befits you."
+        }
+      ]
+    },
+    {
+      "id": 5381,
+      "verse_number": 6,
+      "verse_key": "70:6",
+      "hizb_number": 57,
+      "rub_el_hizb_number": 227,
+      "ruku_number": 504,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "إِنَّهُمْ يَرَوْنَهُۥ بَعِيدًا",
+      "page_number": 568,
+      "juz_number": 29,
+      "translations": [
+        {
+          "id": 407084,
+          "resource_id": 85,
+          "text": "The disbelievers think it is distant,"
+        }
+      ]
+    },
+    {
+      "id": 5382,
+      "verse_number": 7,
+      "verse_key": "70:7",
+      "hizb_number": 57,
+      "rub_el_hizb_number": 227,
+      "ruku_number": 504,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "وَنَرَىٰهُ قَرِيبًا",
+      "page_number": 568,
+      "juz_number": 29,
+      "translations": [
+        {
+          "id": 407085,
+          "resource_id": 85,
+          "text": "but We know it to be close."
+        }
+      ]
+    },
+    {
+      "id": 5383,
+      "verse_number": 8,
+      "verse_key": "70:8",
+      "hizb_number": 57,
+      "rub_el_hizb_number": 227,
+      "ruku_number": 504,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "يَوْمَ تَكُونُ ٱلسَّمَآءُ كَٱلْمُهْلِ",
+      "page_number": 568,
+      "juz_number": 29,
+      "translations": [
+        {
+          "id": 407086,
+          "resource_id": 85,
+          "text": "On a Day when the heavens will be like molten brass"
+        }
+      ]
+    },
+    {
+      "id": 5384,
+      "verse_number": 9,
+      "verse_key": "70:9",
+      "hizb_number": 57,
+      "rub_el_hizb_number": 227,
+      "ruku_number": 504,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "وَتَكُونُ ٱلْجِبَالُ كَٱلْعِهْنِ",
+      "page_number": 568,
+      "juz_number": 29,
+      "translations": [
+        {
+          "id": 407087,
+          "resource_id": 85,
+          "text": "and the mountains like tufts of wool,"
+        }
+      ]
+    },
+    {
+      "id": 5385,
+      "verse_number": 10,
+      "verse_key": "70:10",
+      "hizb_number": 57,
+      "rub_el_hizb_number": 227,
+      "ruku_number": 504,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "وَلَا يَسْـَٔلُ حَمِيمٌ حَمِيمًا",
+      "page_number": 568,
+      "juz_number": 29,
+      "translations": [
+        {
+          "id": 407088,
+          "resource_id": 85,
+          "text": "when no friend will ask about his friend,"
+        }
+      ]
+    },
+    {
+      "id": 5386,
+      "verse_number": 11,
+      "verse_key": "70:11",
+      "hizb_number": 57,
+      "rub_el_hizb_number": 227,
+      "ruku_number": 504,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "يُبَصَّرُونَهُمْ ۚ يَوَدُّ ٱلْمُجْرِمُ لَوْ يَفْتَدِى مِنْ عَذَابِ يَوْمِئِذٍۭ بِبَنِيهِ",
+      "page_number": 569,
+      "juz_number": 29,
+      "translations": [
+        {
+          "id": 407089,
+          "resource_id": 85,
+          "text": "even when they are within sight of one another. The guilty person will wish he could save himself from the suffering of that Day by sacrificing his sons,"
+        }
+      ]
+    },
+    {
+      "id": 5387,
+      "verse_number": 12,
+      "verse_key": "70:12",
+      "hizb_number": 57,
+      "rub_el_hizb_number": 227,
+      "ruku_number": 504,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "وَصَـٰحِبَتِهِۦ وَأَخِيهِ",
+      "page_number": 569,
+      "juz_number": 29,
+      "translations": [
+        {
+          "id": 407090,
+          "resource_id": 85,
+          "text": "his spouse, his brother,"
+        }
+      ]
+    },
+    {
+      "id": 5388,
+      "verse_number": 13,
+      "verse_key": "70:13",
+      "hizb_number": 57,
+      "rub_el_hizb_number": 227,
+      "ruku_number": 504,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "وَفَصِيلَتِهِ ٱلَّتِى تُـْٔوِيهِ",
+      "page_number": 569,
+      "juz_number": 29,
+      "translations": [
+        {
+          "id": 407091,
+          "resource_id": 85,
+          "text": "the kinsfolk who gave him shelter,"
+        }
+      ]
+    },
+    {
+      "id": 5389,
+      "verse_number": 14,
+      "verse_key": "70:14",
+      "hizb_number": 57,
+      "rub_el_hizb_number": 227,
+      "ruku_number": 504,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "وَمَن فِى ٱلْأَرْضِ جَمِيعًا ثُمَّ يُنجِيهِ",
+      "page_number": 569,
+      "juz_number": 29,
+      "translations": [
+        {
+          "id": 407092,
+          "resource_id": 85,
+          "text": "and everyone on earth, if it could save him."
+        }
+      ]
+    },
+    {
+      "id": 5390,
+      "verse_number": 15,
+      "verse_key": "70:15",
+      "hizb_number": 57,
+      "rub_el_hizb_number": 227,
+      "ruku_number": 504,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "كَلَّآ ۖ إِنَّهَا لَظَىٰ",
+      "page_number": 569,
+      "juz_number": 29,
+      "translations": [
+        {
+          "id": 407093,
+          "resource_id": 85,
+          "text": "But no! There is a raging flame"
+        }
+      ]
+    },
+    {
+      "id": 5391,
+      "verse_number": 16,
+      "verse_key": "70:16",
+      "hizb_number": 57,
+      "rub_el_hizb_number": 227,
+      "ruku_number": 504,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "نَزَّاعَةً لِّلشَّوَىٰ",
+      "page_number": 569,
+      "juz_number": 29,
+      "translations": [
+        {
+          "id": 407094,
+          "resource_id": 85,
+          "text": "that strips away the skin,"
+        }
+      ]
+    },
+    {
+      "id": 5392,
+      "verse_number": 17,
+      "verse_key": "70:17",
+      "hizb_number": 57,
+      "rub_el_hizb_number": 227,
+      "ruku_number": 504,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "تَدْعُوا۟ مَنْ أَدْبَرَ وَتَوَلَّىٰ",
+      "page_number": 569,
+      "juz_number": 29,
+      "translations": [
+        {
+          "id": 407095,
+          "resource_id": 85,
+          "text": "and it will claim everyone who rejects the truth, turns away,"
+        }
+      ]
+    },
+    {
+      "id": 5393,
+      "verse_number": 18,
+      "verse_key": "70:18",
+      "hizb_number": 57,
+      "rub_el_hizb_number": 227,
+      "ruku_number": 504,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "وَجَمَعَ فَأَوْعَىٰٓ",
+      "page_number": 569,
+      "juz_number": 29,
+      "translations": [
+        {
+          "id": 407096,
+          "resource_id": 85,
+          "text": "amasses wealth and hoards it."
+        }
+      ]
+    },
+    {
+      "id": 5394,
+      "verse_number": 19,
+      "verse_key": "70:19",
+      "hizb_number": 57,
+      "rub_el_hizb_number": 228,
+      "ruku_number": 504,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "۞ إِنَّ ٱلْإِنسَـٰنَ خُلِقَ هَلُوعًا",
+      "page_number": 569,
+      "juz_number": 29,
+      "translations": [
+        {
+          "id": 407097,
+          "resource_id": 85,
+          "text": "Man was truly created anxious:"
+        }
+      ]
+    },
+    {
+      "id": 5395,
+      "verse_number": 20,
+      "verse_key": "70:20",
+      "hizb_number": 57,
+      "rub_el_hizb_number": 228,
+      "ruku_number": 504,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "إِذَا مَسَّهُ ٱلشَّرُّ جَزُوعًا",
+      "page_number": 569,
+      "juz_number": 29,
+      "translations": [
+        {
+          "id": 407098,
+          "resource_id": 85,
+          "text": "he is fretful when misfortune touches him,"
+        }
+      ]
+    },
+    {
+      "id": 5396,
+      "verse_number": 21,
+      "verse_key": "70:21",
+      "hizb_number": 57,
+      "rub_el_hizb_number": 228,
+      "ruku_number": 504,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "وَإِذَا مَسَّهُ ٱلْخَيْرُ مَنُوعًا",
+      "page_number": 569,
+      "juz_number": 29,
+      "translations": [
+        {
+          "id": 407099,
+          "resource_id": 85,
+          "text": "but tight-fisted when good fortune comes his way."
+        }
+      ]
+    },
+    {
+      "id": 5397,
+      "verse_number": 22,
+      "verse_key": "70:22",
+      "hizb_number": 57,
+      "rub_el_hizb_number": 228,
+      "ruku_number": 504,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "إِلَّا ٱلْمُصَلِّينَ",
+      "page_number": 569,
+      "juz_number": 29,
+      "translations": [
+        {
+          "id": 407100,
+          "resource_id": 85,
+          "text": "Not so those who pray"
+        }
+      ]
+    },
+    {
+      "id": 5398,
+      "verse_number": 23,
+      "verse_key": "70:23",
+      "hizb_number": 57,
+      "rub_el_hizb_number": 228,
+      "ruku_number": 504,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "ٱلَّذِينَ هُمْ عَلَىٰ صَلَاتِهِمْ دَآئِمُونَ",
+      "page_number": 569,
+      "juz_number": 29,
+      "translations": [
+        {
+          "id": 407101,
+          "resource_id": 85,
+          "text": "and are constant in their prayers;"
+        }
+      ]
+    },
+    {
+      "id": 5399,
+      "verse_number": 24,
+      "verse_key": "70:24",
+      "hizb_number": 57,
+      "rub_el_hizb_number": 228,
+      "ruku_number": 504,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "وَٱلَّذِينَ فِىٓ أَمْوَٰلِهِمْ حَقٌّ مَّعْلُومٌ",
+      "page_number": 569,
+      "juz_number": 29,
+      "translations": [
+        {
+          "id": 407102,
+          "resource_id": 85,
+          "text": "who give a due share of their wealth"
+        }
+      ]
+    },
+    {
+      "id": 5400,
+      "verse_number": 25,
+      "verse_key": "70:25",
+      "hizb_number": 57,
+      "rub_el_hizb_number": 228,
+      "ruku_number": 504,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "لِّلسَّآئِلِ وَٱلْمَحْرُومِ",
+      "page_number": 569,
+      "juz_number": 29,
+      "translations": [
+        {
+          "id": 407103,
+          "resource_id": 85,
+          "text": "to beggars and the deprived;"
+        }
+      ]
+    },
+    {
+      "id": 5401,
+      "verse_number": 26,
+      "verse_key": "70:26",
+      "hizb_number": 57,
+      "rub_el_hizb_number": 228,
+      "ruku_number": 504,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "وَٱلَّذِينَ يُصَدِّقُونَ بِيَوْمِ ٱلدِّينِ",
+      "page_number": 569,
+      "juz_number": 29,
+      "translations": [
+        {
+          "id": 407104,
+          "resource_id": 85,
+          "text": "who believe in the Day of Judgement"
+        }
+      ]
+    },
+    {
+      "id": 5402,
+      "verse_number": 27,
+      "verse_key": "70:27",
+      "hizb_number": 57,
+      "rub_el_hizb_number": 228,
+      "ruku_number": 504,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "وَٱلَّذِينَ هُم مِّنْ عَذَابِ رَبِّهِم مُّشْفِقُونَ",
+      "page_number": 569,
+      "juz_number": 29,
+      "translations": [
+        {
+          "id": 407105,
+          "resource_id": 85,
+          "text": "and fear the punishment of their Lord––"
+        }
+      ]
+    },
+    {
+      "id": 5403,
+      "verse_number": 28,
+      "verse_key": "70:28",
+      "hizb_number": 57,
+      "rub_el_hizb_number": 228,
+      "ruku_number": 504,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "إِنَّ عَذَابَ رَبِّهِمْ غَيْرُ مَأْمُونٍ",
+      "page_number": 569,
+      "juz_number": 29,
+      "translations": [
+        {
+          "id": 407106,
+          "resource_id": 85,
+          "text": "none may feel wholly secure from it––"
+        }
+      ]
+    },
+    {
+      "id": 5404,
+      "verse_number": 29,
+      "verse_key": "70:29",
+      "hizb_number": 57,
+      "rub_el_hizb_number": 228,
+      "ruku_number": 504,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "وَٱلَّذِينَ هُمْ لِفُرُوجِهِمْ حَـٰفِظُونَ",
+      "page_number": 569,
+      "juz_number": 29,
+      "translations": [
+        {
+          "id": 407107,
+          "resource_id": 85,
+          "text": "who guard their chastity"
+        }
+      ]
+    },
+    {
+      "id": 5405,
+      "verse_number": 30,
+      "verse_key": "70:30",
+      "hizb_number": 57,
+      "rub_el_hizb_number": 228,
+      "ruku_number": 504,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "إِلَّا عَلَىٰٓ أَزْوَٰجِهِمْ أَوْ مَا مَلَكَتْ أَيْمَـٰنُهُمْ فَإِنَّهُمْ غَيْرُ مَلُومِينَ",
+      "page_number": 569,
+      "juz_number": 29,
+      "translations": [
+        {
+          "id": 407108,
+          "resource_id": 85,
+          "text": "from all but their spouses or their slave-girls––there is no blame attached to [relations with] these,"
+        }
+      ]
+    },
+    {
+      "id": 5406,
+      "verse_number": 31,
+      "verse_key": "70:31",
+      "hizb_number": 57,
+      "rub_el_hizb_number": 228,
+      "ruku_number": 504,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "فَمَنِ ٱبْتَغَىٰ وَرَآءَ ذَٰلِكَ فَأُو۟لَـٰٓئِكَ هُمُ ٱلْعَادُونَ",
+      "page_number": 569,
+      "juz_number": 29,
+      "translations": [
+        {
+          "id": 407109,
+          "resource_id": 85,
+          "text": "but those whose desires exceed this limit are truly transgressors––"
+        }
+      ]
+    },
+    {
+      "id": 5407,
+      "verse_number": 32,
+      "verse_key": "70:32",
+      "hizb_number": 57,
+      "rub_el_hizb_number": 228,
+      "ruku_number": 504,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "وَٱلَّذِينَ هُمْ لِأَمَـٰنَـٰتِهِمْ وَعَهْدِهِمْ رَٰعُونَ",
+      "page_number": 569,
+      "juz_number": 29,
+      "translations": [
+        {
+          "id": 407110,
+          "resource_id": 85,
+          "text": "who are faithful to their trusts and their pledges;"
+        }
+      ]
+    },
+    {
+      "id": 5408,
+      "verse_number": 33,
+      "verse_key": "70:33",
+      "hizb_number": 57,
+      "rub_el_hizb_number": 228,
+      "ruku_number": 504,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "وَٱلَّذِينَ هُم بِشَهَـٰدَٰتِهِمْ قَآئِمُونَ",
+      "page_number": 569,
+      "juz_number": 29,
+      "translations": [
+        {
+          "id": 407111,
+          "resource_id": 85,
+          "text": "who give honest testimony"
+        }
+      ]
+    },
+    {
+      "id": 5409,
+      "verse_number": 34,
+      "verse_key": "70:34",
+      "hizb_number": 57,
+      "rub_el_hizb_number": 228,
+      "ruku_number": 504,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "وَٱلَّذِينَ هُمْ عَلَىٰ صَلَاتِهِمْ يُحَافِظُونَ",
+      "page_number": 569,
+      "juz_number": 29,
+      "translations": [
+        {
+          "id": 407112,
+          "resource_id": 85,
+          "text": "and are steadfast in their prayers."
+        }
+      ]
+    },
+    {
+      "id": 5410,
+      "verse_number": 35,
+      "verse_key": "70:35",
+      "hizb_number": 57,
+      "rub_el_hizb_number": 228,
+      "ruku_number": 504,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "أُو۟لَـٰٓئِكَ فِى جَنَّـٰتٍ مُّكْرَمُونَ",
+      "page_number": 569,
+      "juz_number": 29,
+      "translations": [
+        {
+          "id": 407113,
+          "resource_id": 85,
+          "text": "They will be honoured in Gardens of bliss."
+        }
+      ]
+    },
+    {
+      "id": 5411,
+      "verse_number": 36,
+      "verse_key": "70:36",
+      "hizb_number": 57,
+      "rub_el_hizb_number": 228,
+      "ruku_number": 505,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "فَمَالِ ٱلَّذِينَ كَفَرُوا۟ قِبَلَكَ مُهْطِعِينَ",
+      "page_number": 569,
+      "juz_number": 29,
+      "translations": [
+        {
+          "id": 407114,
+          "resource_id": 85,
+          "text": "What is wrong with the disbelievers? Why do they rush to peer at you [Prophet],"
+        }
+      ]
+    },
+    {
+      "id": 5412,
+      "verse_number": 37,
+      "verse_key": "70:37",
+      "hizb_number": 57,
+      "rub_el_hizb_number": 228,
+      "ruku_number": 505,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "عَنِ ٱلْيَمِينِ وَعَنِ ٱلشِّمَالِ عِزِينَ",
+      "page_number": 569,
+      "juz_number": 29,
+      "translations": [
+        {
+          "id": 407115,
+          "resource_id": 85,
+          "text": "from right and left, in crowds?"
+        }
+      ]
+    },
+    {
+      "id": 5413,
+      "verse_number": 38,
+      "verse_key": "70:38",
+      "hizb_number": 57,
+      "rub_el_hizb_number": 228,
+      "ruku_number": 505,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "أَيَطْمَعُ كُلُّ ٱمْرِئٍ مِّنْهُمْ أَن يُدْخَلَ جَنَّةَ نَعِيمٍ",
+      "page_number": 569,
+      "juz_number": 29,
+      "translations": [
+        {
+          "id": 407116,
+          "resource_id": 85,
+          "text": "Does every one of them expect to enter a Garden of bliss?"
+        }
+      ]
+    },
+    {
+      "id": 5414,
+      "verse_number": 39,
+      "verse_key": "70:39",
+      "hizb_number": 57,
+      "rub_el_hizb_number": 228,
+      "ruku_number": 505,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "كَلَّآ ۖ إِنَّا خَلَقْنَـٰهُم مِّمَّا يَعْلَمُونَ",
+      "page_number": 569,
+      "juz_number": 29,
+      "translations": [
+        {
+          "id": 407117,
+          "resource_id": 85,
+          "text": "No! We created them from the substance they know,"
+        }
+      ]
+    },
+    {
+      "id": 5415,
+      "verse_number": 40,
+      "verse_key": "70:40",
+      "hizb_number": 57,
+      "rub_el_hizb_number": 228,
+      "ruku_number": 505,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "فَلَآ أُقْسِمُ بِرَبِّ ٱلْمَشَـٰرِقِ وَٱلْمَغَـٰرِبِ إِنَّا لَقَـٰدِرُونَ",
+      "page_number": 570,
+      "juz_number": 29,
+      "translations": [
+        {
+          "id": 407118,
+          "resource_id": 85,
+          "text": "and, by the Lord of every sunrise and sunset, We have the power"
+        }
+      ]
+    },
+    {
+      "id": 5416,
+      "verse_number": 41,
+      "verse_key": "70:41",
+      "hizb_number": 57,
+      "rub_el_hizb_number": 228,
+      "ruku_number": 505,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "عَلَىٰٓ أَن نُّبَدِّلَ خَيْرًا مِّنْهُمْ وَمَا نَحْنُ بِمَسْبُوقِينَ",
+      "page_number": 570,
+      "juz_number": 29,
+      "translations": [
+        {
+          "id": 407119,
+          "resource_id": 85,
+          "text": "to substitute for them others better than they are- nothing can prevent Us from doing this."
+        }
+      ]
+    },
+    {
+      "id": 5417,
+      "verse_number": 42,
+      "verse_key": "70:42",
+      "hizb_number": 57,
+      "rub_el_hizb_number": 228,
+      "ruku_number": 505,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "فَذَرْهُمْ يَخُوضُوا۟ وَيَلْعَبُوا۟ حَتَّىٰ يُلَـٰقُوا۟ يَوْمَهُمُ ٱلَّذِى يُوعَدُونَ",
+      "page_number": 570,
+      "juz_number": 29,
+      "translations": [
+        {
+          "id": 407120,
+          "resource_id": 85,
+          "text": "So leave them to wallow in idle talk, until they come face to face with their promised Day,"
+        }
+      ]
+    },
+    {
+      "id": 5418,
+      "verse_number": 43,
+      "verse_key": "70:43",
+      "hizb_number": 57,
+      "rub_el_hizb_number": 228,
+      "ruku_number": 505,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "يَوْمَ يَخْرُجُونَ مِنَ ٱلْأَجْدَاثِ سِرَاعًا كَأَنَّهُمْ إِلَىٰ نُصُبٍ يُوفِضُونَ",
+      "page_number": 570,
+      "juz_number": 29,
+      "translations": [
+        {
+          "id": 407121,
+          "resource_id": 85,
+          "text": "the Day they will rush out of their graves as if rallying to a flag,"
+        }
+      ]
+    },
+    {
+      "id": 5419,
+      "verse_number": 44,
+      "verse_key": "70:44",
+      "hizb_number": 57,
+      "rub_el_hizb_number": 228,
+      "ruku_number": 505,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "خَـٰشِعَةً أَبْصَـٰرُهُمْ تَرْهَقُهُمْ ذِلَّةٌ ۚ ذَٰلِكَ ٱلْيَوْمُ ٱلَّذِى كَانُوا۟ يُوعَدُونَ",
+      "page_number": 570,
+      "juz_number": 29,
+      "translations": [
+        {
+          "id": 407122,
+          "resource_id": 85,
+          "text": "eyes downcast and covered in shame: that is the Day of which they were warned."
+        }
+      ]
+    }
+  ]
+}

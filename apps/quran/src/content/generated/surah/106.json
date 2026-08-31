@@ -1,0 +1,103 @@
+{
+  "syncedAt": "2026-08-31T05:21:31.025Z",
+  "chapter": {
+    "id": 106,
+    "revelation_place": "makkah",
+    "revelation_order": 29,
+    "bismillah_pre": true,
+    "name_simple": "Quraysh",
+    "name_complex": "Quraysh",
+    "name_arabic": "قريش",
+    "verses_count": 4,
+    "pages": [
+      602,
+      602
+    ],
+    "translated_name": {
+      "language_name": "english",
+      "name": "Quraysh"
+    }
+  },
+  "verses": [
+    {
+      "id": 6194,
+      "verse_number": 1,
+      "verse_key": "106:1",
+      "hizb_number": 60,
+      "rub_el_hizb_number": 240,
+      "ruku_number": 550,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": " لِإِيلَـٰفِ قُرَيْشٍ",
+      "page_number": 602,
+      "juz_number": 30,
+      "translations": [
+        {
+          "id": 407897,
+          "resource_id": 85,
+          "text": "[He did this] to make the Quraysh feel secure,"
+        }
+      ]
+    },
+    {
+      "id": 6195,
+      "verse_number": 2,
+      "verse_key": "106:2",
+      "hizb_number": 60,
+      "rub_el_hizb_number": 240,
+      "ruku_number": 550,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "إِۦلَـٰفِهِمْ رِحْلَةَ ٱلشِّتَآءِ وَٱلصَّيْفِ",
+      "page_number": 602,
+      "juz_number": 30,
+      "translations": [
+        {
+          "id": 407898,
+          "resource_id": 85,
+          "text": "secure in their winter and summer journeys."
+        }
+      ]
+    },
+    {
+      "id": 6196,
+      "verse_number": 3,
+      "verse_key": "106:3",
+      "hizb_number": 60,
+      "rub_el_hizb_number": 240,
+      "ruku_number": 550,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "فَلْيَعْبُدُوا۟ رَبَّ هَـٰذَا ٱلْبَيْتِ",
+      "page_number": 602,
+      "juz_number": 30,
+      "translations": [
+        {
+          "id": 407899,
+          "resource_id": 85,
+          "text": "So let them worship the Lord of this House:"
+        }
+      ]
+    },
+    {
+      "id": 6197,
+      "verse_number": 4,
+      "verse_key": "106:4",
+      "hizb_number": 60,
+      "rub_el_hizb_number": 240,
+      "ruku_number": 550,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "ٱلَّذِىٓ أَطْعَمَهُم مِّن جُوعٍ وَءَامَنَهُم مِّنْ خَوْفٍۭ",
+      "page_number": 602,
+      "juz_number": 30,
+      "translations": [
+        {
+          "id": 407900,
+          "resource_id": 85,
+          "text": "who provides them with food to ward off hunger, safety to ward off fear."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,523 @@
+{
+  "syncedAt": "2026-08-31T05:21:21.877Z",
+  "chapter": {
+    "id": 84,
+    "revelation_place": "makkah",
+    "revelation_order": 83,
+    "bismillah_pre": true,
+    "name_simple": "Al-Inshiqaq",
+    "name_complex": "Al-'Inshiqāq",
+    "name_arabic": "الإنشقاق",
+    "verses_count": 25,
+    "pages": [
+      589,
+      589
+    ],
+    "translated_name": {
+      "language_name": "english",
+      "name": "The Sundering"
+    }
+  },
+  "verses": [
+    {
+      "id": 5885,
+      "verse_number": 1,
+      "verse_key": "84:1",
+      "hizb_number": 59,
+      "rub_el_hizb_number": 236,
+      "ruku_number": 528,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": " إِذَا ٱلسَّمَآءُ ٱنشَقَّتْ",
+      "page_number": 589,
+      "juz_number": 30,
+      "translations": [
+        {
+          "id": 407588,
+          "resource_id": 85,
+          "text": "When the sky is ripped apart,"
+        }
+      ]
+    },
+    {
+      "id": 5886,
+      "verse_number": 2,
+      "verse_key": "84:2",
+      "hizb_number": 59,
+      "rub_el_hizb_number": 236,
+      "ruku_number": 528,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "وَأَذِنَتْ لِرَبِّهَا وَحُقَّتْ",
+      "page_number": 589,
+      "juz_number": 30,
+      "translations": [
+        {
+          "id": 407589,
+          "resource_id": 85,
+          "text": "obeying its Lord as it rightly must,"
+        }
+      ]
+    },
+    {
+      "id": 5887,
+      "verse_number": 3,
+      "verse_key": "84:3",
+      "hizb_number": 59,
+      "rub_el_hizb_number": 236,
+      "ruku_number": 528,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "وَإِذَا ٱلْأَرْضُ مُدَّتْ",
+      "page_number": 589,
+      "juz_number": 30,
+      "translations": [
+        {
+          "id": 407590,
+          "resource_id": 85,
+          "text": "when the earth is levelled out,"
+        }
+      ]
+    },
+    {
+      "id": 5888,
+      "verse_number": 4,
+      "verse_key": "84:4",
+      "hizb_number": 59,
+      "rub_el_hizb_number": 236,
+      "ruku_number": 528,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "وَأَلْقَتْ مَا فِيهَا وَتَخَلَّتْ",
+      "page_number": 589,
+      "juz_number": 30,
+      "translations": [
+        {
+          "id": 407591,
+          "resource_id": 85,
+          "text": "casts out its contents, and becomes empty,"
+        }
+      ]
+    },
+    {
+      "id": 5889,
+      "verse_number": 5,
+      "verse_key": "84:5",
+      "hizb_number": 59,
+      "rub_el_hizb_number": 236,
+      "ruku_number": 528,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "وَأَذِنَتْ لِرَبِّهَا وَحُقَّتْ",
+      "page_number": 589,
+      "juz_number": 30,
+      "translations": [
+        {
+          "id": 407592,
+          "resource_id": 85,
+          "text": "obeying its Lord as it rightly must,"
+        }
+      ]
+    },
+    {
+      "id": 5890,
+      "verse_number": 6,
+      "verse_key": "84:6",
+      "hizb_number": 59,
+      "rub_el_hizb_number": 236,
+      "ruku_number": 528,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "يَـٰٓأَيُّهَا ٱلْإِنسَـٰنُ إِنَّكَ كَادِحٌ إِلَىٰ رَبِّكَ كَدْحًا فَمُلَـٰقِيهِ",
+      "page_number": 589,
+      "juz_number": 30,
+      "translations": [
+        {
+          "id": 407593,
+          "resource_id": 85,
+          "text": "you humans, toiling laboriously towards your Lord, will meet Him:"
+        }
+      ]
+    },
+    {
+      "id": 5891,
+      "verse_number": 7,
+      "verse_key": "84:7",
+      "hizb_number": 59,
+      "rub_el_hizb_number": 236,
+      "ruku_number": 528,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "فَأَمَّا مَنْ أُوتِىَ كِتَـٰبَهُۥ بِيَمِينِهِۦ",
+      "page_number": 589,
+      "juz_number": 30,
+      "translations": [
+        {
+          "id": 407594,
+          "resource_id": 85,
+          "text": "whoever is given his record in his right hand"
+        }
+      ]
+    },
+    {
+      "id": 5892,
+      "verse_number": 8,
+      "verse_key": "84:8",
+      "hizb_number": 59,
+      "rub_el_hizb_number": 236,
+      "ruku_number": 528,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "فَسَوْفَ يُحَاسَبُ حِسَابًا يَسِيرًا",
+      "page_number": 589,
+      "juz_number": 30,
+      "translations": [
+        {
+          "id": 407595,
+          "resource_id": 85,
+          "text": "will have an easy reckoning"
+        }
+      ]
+    },
+    {
+      "id": 5893,
+      "verse_number": 9,
+      "verse_key": "84:9",
+      "hizb_number": 59,
+      "rub_el_hizb_number": 236,
+      "ruku_number": 528,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "وَيَنقَلِبُ إِلَىٰٓ أَهْلِهِۦ مَسْرُورًا",
+      "page_number": 589,
+      "juz_number": 30,
+      "translations": [
+        {
+          "id": 407596,
+          "resource_id": 85,
+          "text": "and return to his people well pleased,"
+        }
+      ]
+    },
+    {
+      "id": 5894,
+      "verse_number": 10,
+      "verse_key": "84:10",
+      "hizb_number": 59,
+      "rub_el_hizb_number": 236,
+      "ruku_number": 528,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "وَأَمَّا مَنْ أُوتِىَ كِتَـٰبَهُۥ وَرَآءَ ظَهْرِهِۦ",
+      "page_number": 589,
+      "juz_number": 30,
+      "translations": [
+        {
+          "id": 407597,
+          "resource_id": 85,
+          "text": "but whoever is given his record from behind his back"
+        }
+      ]
+    },
+    {
+      "id": 5895,
+      "verse_number": 11,
+      "verse_key": "84:11",
+      "hizb_number": 59,
+      "rub_el_hizb_number": 236,
+      "ruku_number": 528,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "فَسَوْفَ يَدْعُوا۟ ثُبُورًا",
+      "page_number": 589,
+      "juz_number": 30,
+      "translations": [
+        {
+          "id": 407598,
+          "resource_id": 85,
+          "text": "will cry out for destruction––"
+        }
+      ]
+    },
+    {
+      "id": 5896,
+      "verse_number": 12,
+      "verse_key": "84:12",
+      "hizb_number": 59,
+      "rub_el_hizb_number": 236,
+      "ruku_number": 528,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "وَيَصْلَىٰ سَعِيرًا",
+      "page_number": 589,
+      "juz_number": 30,
+      "translations": [
+        {
+          "id": 407599,
+          "resource_id": 85,
+          "text": "he will burn in the blazing Fire."
+        }
+      ]
+    },
+    {
+      "id": 5897,
+      "verse_number": 13,
+      "verse_key": "84:13",
+      "hizb_number": 59,
+      "rub_el_hizb_number": 236,
+      "ruku_number": 528,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "إِنَّهُۥ كَانَ فِىٓ أَهْلِهِۦ مَسْرُورًا",
+      "page_number": 589,
+      "juz_number": 30,
+      "translations": [
+        {
+          "id": 407600,
+          "resource_id": 85,
+          "text": "He used to live among his people well pleased."
+        }
+      ]
+    },
+    {
+      "id": 5898,
+      "verse_number": 14,
+      "verse_key": "84:14",
+      "hizb_number": 59,
+      "rub_el_hizb_number": 236,
+      "ruku_number": 528,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "إِنَّهُۥ ظَنَّ أَن لَّن يَحُورَ",
+      "page_number": 589,
+      "juz_number": 30,
+      "translations": [
+        {
+          "id": 407601,
+          "resource_id": 85,
+          "text": "He thought he would never return [to his Lord]––"
+        }
+      ]
+    },
+    {
+      "id": 5899,
+      "verse_number": 15,
+      "verse_key": "84:15",
+      "hizb_number": 59,
+      "rub_el_hizb_number": 236,
+      "ruku_number": 528,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "بَلَىٰٓ إِنَّ رَبَّهُۥ كَانَ بِهِۦ بَصِيرًا",
+      "page_number": 589,
+      "juz_number": 30,
+      "translations": [
+        {
+          "id": 407602,
+          "resource_id": 85,
+          "text": "indeed he will! His Lord was watching him."
+        }
+      ]
+    },
+    {
+      "id": 5900,
+      "verse_number": 16,
+      "verse_key": "84:16",
+      "hizb_number": 59,
+      "rub_el_hizb_number": 236,
+      "ruku_number": 528,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "فَلَآ أُقْسِمُ بِٱلشَّفَقِ",
+      "page_number": 589,
+      "juz_number": 30,
+      "translations": [
+        {
+          "id": 407603,
+          "resource_id": 85,
+          "text": "I swear by the glow of sunset,"
+        }
+      ]
+    },
+    {
+      "id": 5901,
+      "verse_number": 17,
+      "verse_key": "84:17",
+      "hizb_number": 59,
+      "rub_el_hizb_number": 236,
+      "ruku_number": 528,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "وَٱلَّيْلِ وَمَا وَسَقَ",
+      "page_number": 589,
+      "juz_number": 30,
+      "translations": [
+        {
+          "id": 407604,
+          "resource_id": 85,
+          "text": "by the night and what it covers,"
+        }
+      ]
+    },
+    {
+      "id": 5902,
+      "verse_number": 18,
+      "verse_key": "84:18",
+      "hizb_number": 59,
+      "rub_el_hizb_number": 236,
+      "ruku_number": 528,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "وَٱلْقَمَرِ إِذَا ٱتَّسَقَ",
+      "page_number": 589,
+      "juz_number": 30,
+      "translations": [
+        {
+          "id": 407605,
+          "resource_id": 85,
+          "text": "by the full moon,"
+        }
+      ]
+    },
+    {
+      "id": 5903,
+      "verse_number": 19,
+      "verse_key": "84:19",
+      "hizb_number": 59,
+      "rub_el_hizb_number": 236,
+      "ruku_number": 528,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "لَتَرْكَبُنَّ طَبَقًا عَن طَبَقٍ",
+      "page_number": 589,
+      "juz_number": 30,
+      "translations": [
+        {
+          "id": 407606,
+          "resource_id": 85,
+          "text": "you will progress from stage to stage."
+        }
+      ]
+    },
+    {
+      "id": 5904,
+      "verse_number": 20,
+      "verse_key": "84:20",
+      "hizb_number": 59,
+      "rub_el_hizb_number": 236,
+      "ruku_number": 528,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "فَمَا لَهُمْ لَا يُؤْمِنُونَ",
+      "page_number": 589,
+      "juz_number": 30,
+      "translations": [
+        {
+          "id": 407607,
+          "resource_id": 85,
+          "text": "So why do they not believe?"
+        }
+      ]
+    },
+    {
+      "id": 5905,
+      "verse_number": 21,
+      "verse_key": "84:21",
+      "hizb_number": 59,
+      "rub_el_hizb_number": 236,
+      "ruku_number": 528,
+      "manzil_number": 7,
+      "sajdah_number": 13,
+      "text_uthmani": "وَإِذَا قُرِئَ عَلَيْهِمُ ٱلْقُرْءَانُ لَا يَسْجُدُونَ ۩",
+      "page_number": 589,
+      "juz_number": 30,
+      "translations": [
+        {
+          "id": 407608,
+          "resource_id": 85,
+          "text": "Why, when the Quran is read to them, do they not prostrate themselves [to God]?"
+        }
+      ]
+    },
+    {
+      "id": 5906,
+      "verse_number": 22,
+      "verse_key": "84:22",
+      "hizb_number": 59,
+      "rub_el_hizb_number": 236,
+      "ruku_number": 528,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "بَلِ ٱلَّذِينَ كَفَرُوا۟ يُكَذِّبُونَ",
+      "page_number": 589,
+      "juz_number": 30,
+      "translations": [
+        {
+          "id": 407609,
+          "resource_id": 85,
+          "text": "No! The disbelievers reject the Quran––"
+        }
+      ]
+    },
+    {
+      "id": 5907,
+      "verse_number": 23,
+      "verse_key": "84:23",
+      "hizb_number": 59,
+      "rub_el_hizb_number": 236,
+      "ruku_number": 528,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "وَٱللَّهُ أَعْلَمُ بِمَا يُوعُونَ",
+      "page_number": 589,
+      "juz_number": 30,
+      "translations": [
+        {
+          "id": 407610,
+          "resource_id": 85,
+          "text": "God knows best what they keep hidden inside––"
+        }
+      ]
+    },
+    {
+      "id": 5908,
+      "verse_number": 24,
+      "verse_key": "84:24",
+      "hizb_number": 59,
+      "rub_el_hizb_number": 236,
+      "ruku_number": 528,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "فَبَشِّرْهُم بِعَذَابٍ أَلِيمٍ",
+      "page_number": 589,
+      "juz_number": 30,
+      "translations": [
+        {
+          "id": 407611,
+          "resource_id": 85,
+          "text": "so give them news of a painful torment."
+        }
+      ]
+    },
+    {
+      "id": 5909,
+      "verse_number": 25,
+      "verse_key": "84:25",
+      "hizb_number": 59,
+      "rub_el_hizb_number": 236,
+      "ruku_number": 528,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "إِلَّا ٱلَّذِينَ ءَامَنُوا۟ وَعَمِلُوا۟ ٱلصَّـٰلِحَـٰتِ لَهُمْ أَجْرٌ غَيْرُ مَمْنُونٍۭ",
+      "page_number": 589,
+      "juz_number": 30,
+      "translations": [
+        {
+          "id": 407612,
+          "resource_id": 85,
+          "text": "But those who believe and do good deeds will have a never-ending reward."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,323 @@
+{
+  "syncedAt": "2026-08-31T05:21:24.792Z",
+  "chapter": {
+    "id": 91,
+    "revelation_place": "makkah",
+    "revelation_order": 26,
+    "bismillah_pre": true,
+    "name_simple": "Ash-Shams",
+    "name_complex": "Ash-Shams",
+    "name_arabic": "الشمس",
+    "verses_count": 15,
+    "pages": [
+      595,
+      595
+    ],
+    "translated_name": {
+      "language_name": "english",
+      "name": "The Sun"
+    }
+  },
+  "verses": [
+    {
+      "id": 6044,
+      "verse_number": 1,
+      "verse_key": "91:1",
+      "hizb_number": 60,
+      "rub_el_hizb_number": 238,
+      "ruku_number": 535,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": " وَٱلشَّمْسِ وَضُحَىٰهَا",
+      "page_number": 595,
+      "juz_number": 30,
+      "translations": [
+        {
+          "id": 407747,
+          "resource_id": 85,
+          "text": "By the sun in its morning brightness"
+        }
+      ]
+    },
+    {
+      "id": 6045,
+      "verse_number": 2,
+      "verse_key": "91:2",
+      "hizb_number": 60,
+      "rub_el_hizb_number": 238,
+      "ruku_number": 535,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "وَٱلْقَمَرِ إِذَا تَلَىٰهَا",
+      "page_number": 595,
+      "juz_number": 30,
+      "translations": [
+        {
+          "id": 407748,
+          "resource_id": 85,
+          "text": "and by the moon as it follows it,"
+        }
+      ]
+    },
+    {
+      "id": 6046,
+      "verse_number": 3,
+      "verse_key": "91:3",
+      "hizb_number": 60,
+      "rub_el_hizb_number": 238,
+      "ruku_number": 535,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "وَٱلنَّهَارِ إِذَا جَلَّىٰهَا",
+      "page_number": 595,
+      "juz_number": 30,
+      "translations": [
+        {
+          "id": 407749,
+          "resource_id": 85,
+          "text": "by the day as it displays the sun’s glory"
+        }
+      ]
+    },
+    {
+      "id": 6047,
+      "verse_number": 4,
+      "verse_key": "91:4",
+      "hizb_number": 60,
+      "rub_el_hizb_number": 238,
+      "ruku_number": 535,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "وَٱلَّيْلِ إِذَا يَغْشَىٰهَا",
+      "page_number": 595,
+      "juz_number": 30,
+      "translations": [
+        {
+          "id": 407750,
+          "resource_id": 85,
+          "text": "and by the night as it conceals it,"
+        }
+      ]
+    },
+    {
+      "id": 6048,
+      "verse_number": 5,
+      "verse_key": "91:5",
+      "hizb_number": 60,
+      "rub_el_hizb_number": 238,
+      "ruku_number": 535,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "وَٱلسَّمَآءِ وَمَا بَنَىٰهَا",
+      "page_number": 595,
+      "juz_number": 30,
+      "translations": [
+        {
+          "id": 407751,
+          "resource_id": 85,
+          "text": "by the sky and how He built it"
+        }
+      ]
+    },
+    {
+      "id": 6049,
+      "verse_number": 6,
+      "verse_key": "91:6",
+      "hizb_number": 60,
+      "rub_el_hizb_number": 238,
+      "ruku_number": 535,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "وَٱلْأَرْضِ وَمَا طَحَىٰهَا",
+      "page_number": 595,
+      "juz_number": 30,
+      "translations": [
+        {
+          "id": 407752,
+          "resource_id": 85,
+          "text": "and by the earth and how He spread it,"
+        }
+      ]
+    },
+    {
+      "id": 6050,
+      "verse_number": 7,
+      "verse_key": "91:7",
+      "hizb_number": 60,
+      "rub_el_hizb_number": 238,
+      "ruku_number": 535,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "وَنَفْسٍ وَمَا سَوَّىٰهَا",
+      "page_number": 595,
+      "juz_number": 30,
+      "translations": [
+        {
+          "id": 407753,
+          "resource_id": 85,
+          "text": "by the soul and how He formed it"
+        }
+      ]
+    },
+    {
+      "id": 6051,
+      "verse_number": 8,
+      "verse_key": "91:8",
+      "hizb_number": 60,
+      "rub_el_hizb_number": 238,
+      "ruku_number": 535,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "فَأَلْهَمَهَا فُجُورَهَا وَتَقْوَىٰهَا",
+      "page_number": 595,
+      "juz_number": 30,
+      "translations": [
+        {
+          "id": 407754,
+          "resource_id": 85,
+          "text": "and inspired it [to know] its own rebellion and piety!"
+        }
+      ]
+    },
+    {
+      "id": 6052,
+      "verse_number": 9,
+      "verse_key": "91:9",
+      "hizb_number": 60,
+      "rub_el_hizb_number": 238,
+      "ruku_number": 535,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "قَدْ أَفْلَحَ مَن زَكَّىٰهَا",
+      "page_number": 595,
+      "juz_number": 30,
+      "translations": [
+        {
+          "id": 407755,
+          "resource_id": 85,
+          "text": "The one who purifies his soul succeeds"
+        }
+      ]
+    },
+    {
+      "id": 6053,
+      "verse_number": 10,
+      "verse_key": "91:10",
+      "hizb_number": 60,
+      "rub_el_hizb_number": 238,
+      "ruku_number": 535,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "وَقَدْ خَابَ مَن دَسَّىٰهَا",
+      "page_number": 595,
+      "juz_number": 30,
+      "translations": [
+        {
+          "id": 407756,
+          "resource_id": 85,
+          "text": "and the one who corrupts it fails."
+        }
+      ]
+    },
+    {
+      "id": 6054,
+      "verse_number": 11,
+      "verse_key": "91:11",
+      "hizb_number": 60,
+      "rub_el_hizb_number": 238,
+      "ruku_number": 535,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "كَذَّبَتْ ثَمُودُ بِطَغْوَىٰهَآ",
+      "page_number": 595,
+      "juz_number": 30,
+      "translations": [
+        {
+          "id": 407757,
+          "resource_id": 85,
+          "text": "In their arrogant cruelty, the people of Thamud called [their messenger] a liar,"
+        }
+      ]
+    },
+    {
+      "id": 6055,
+      "verse_number": 12,
+      "verse_key": "91:12",
+      "hizb_number": 60,
+      "rub_el_hizb_number": 238,
+      "ruku_number": 535,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "إِذِ ٱنۢبَعَثَ أَشْقَىٰهَا",
+      "page_number": 595,
+      "juz_number": 30,
+      "translations": [
+        {
+          "id": 407758,
+          "resource_id": 85,
+          "text": "when the most wicked man among them rose [against him]."
+        }
+      ]
+    },
+    {
+      "id": 6056,
+      "verse_number": 13,
+      "verse_key": "91:13",
+      "hizb_number": 60,
+      "rub_el_hizb_number": 238,
+      "ruku_number": 535,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "فَقَالَ لَهُمْ رَسُولُ ٱللَّهِ نَاقَةَ ٱللَّهِ وَسُقْيَـٰهَا",
+      "page_number": 595,
+      "juz_number": 30,
+      "translations": [
+        {
+          "id": 407759,
+          "resource_id": 85,
+          "text": "The messenger of God said to them, ‘[Leave] God’s camel to drink,’"
+        }
+      ]
+    },
+    {
+      "id": 6057,
+      "verse_number": 14,
+      "verse_key": "91:14",
+      "hizb_number": 60,
+      "rub_el_hizb_number": 238,
+      "ruku_number": 535,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "فَكَذَّبُوهُ فَعَقَرُوهَا فَدَمْدَمَ عَلَيْهِمْ رَبُّهُم بِذَنۢبِهِمْ فَسَوَّىٰهَا",
+      "page_number": 595,
+      "juz_number": 30,
+      "translations": [
+        {
+          "id": 407760,
+          "resource_id": 85,
+          "text": "but they called him a liar and hamstrung her. Their Lord destroyed them for their crime and levelled them."
+        }
+      ]
+    },
+    {
+      "id": 6058,
+      "verse_number": 15,
+      "verse_key": "91:15",
+      "hizb_number": 60,
+      "rub_el_hizb_number": 238,
+      "ruku_number": 535,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "وَلَا يَخَافُ عُقْبَـٰهَا",
+      "page_number": 595,
+      "juz_number": 30,
+      "translations": [
+        {
+          "id": 407761,
+          "resource_id": 85,
+          "text": "He did not hesitate to punish them."
+        }
+      ]
+    }
+  ]
+}

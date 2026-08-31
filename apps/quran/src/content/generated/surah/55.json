@@ -1,0 +1,1583 @@
+{
+  "syncedAt": "2026-08-31T05:21:07.978Z",
+  "chapter": {
+    "id": 55,
+    "revelation_place": "madinah",
+    "revelation_order": 97,
+    "bismillah_pre": true,
+    "name_simple": "Ar-Rahman",
+    "name_complex": "Ar-Raĥmān",
+    "name_arabic": "الرحمن",
+    "verses_count": 78,
+    "pages": [
+      531,
+      534
+    ],
+    "translated_name": {
+      "language_name": "english",
+      "name": "The Beneficent"
+    }
+  },
+  "verses": [
+    {
+      "id": 4902,
+      "verse_number": 1,
+      "verse_key": "55:1",
+      "hizb_number": 54,
+      "rub_el_hizb_number": 213,
+      "ruku_number": 468,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": " ٱلرَّحْمَـٰنُ",
+      "page_number": 531,
+      "juz_number": 27,
+      "translations": [
+        {
+          "id": 406605,
+          "resource_id": 85,
+          "text": "It is the Lord of Mercy"
+        }
+      ]
+    },
+    {
+      "id": 4903,
+      "verse_number": 2,
+      "verse_key": "55:2",
+      "hizb_number": 54,
+      "rub_el_hizb_number": 213,
+      "ruku_number": 468,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "عَلَّمَ ٱلْقُرْءَانَ",
+      "page_number": 531,
+      "juz_number": 27,
+      "translations": [
+        {
+          "id": 406606,
+          "resource_id": 85,
+          "text": "who taught the Quran."
+        }
+      ]
+    },
+    {
+      "id": 4904,
+      "verse_number": 3,
+      "verse_key": "55:3",
+      "hizb_number": 54,
+      "rub_el_hizb_number": 213,
+      "ruku_number": 468,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "خَلَقَ ٱلْإِنسَـٰنَ",
+      "page_number": 531,
+      "juz_number": 27,
+      "translations": [
+        {
+          "id": 406607,
+          "resource_id": 85,
+          "text": "He created man"
+        }
+      ]
+    },
+    {
+      "id": 4905,
+      "verse_number": 4,
+      "verse_key": "55:4",
+      "hizb_number": 54,
+      "rub_el_hizb_number": 213,
+      "ruku_number": 468,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "عَلَّمَهُ ٱلْبَيَانَ",
+      "page_number": 531,
+      "juz_number": 27,
+      "translations": [
+        {
+          "id": 406608,
+          "resource_id": 85,
+          "text": "and taught him to communicate."
+        }
+      ]
+    },
+    {
+      "id": 4906,
+      "verse_number": 5,
+      "verse_key": "55:5",
+      "hizb_number": 54,
+      "rub_el_hizb_number": 213,
+      "ruku_number": 468,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "ٱلشَّمْسُ وَٱلْقَمَرُ بِحُسْبَانٍ",
+      "page_number": 531,
+      "juz_number": 27,
+      "translations": [
+        {
+          "id": 406609,
+          "resource_id": 85,
+          "text": "The sun and the moon follow their calculated courses;"
+        }
+      ]
+    },
+    {
+      "id": 4907,
+      "verse_number": 6,
+      "verse_key": "55:6",
+      "hizb_number": 54,
+      "rub_el_hizb_number": 213,
+      "ruku_number": 468,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "وَٱلنَّجْمُ وَٱلشَّجَرُ يَسْجُدَانِ",
+      "page_number": 531,
+      "juz_number": 27,
+      "translations": [
+        {
+          "id": 406610,
+          "resource_id": 85,
+          "text": "the plants and the trees submit to His designs;"
+        }
+      ]
+    },
+    {
+      "id": 4908,
+      "verse_number": 7,
+      "verse_key": "55:7",
+      "hizb_number": 54,
+      "rub_el_hizb_number": 213,
+      "ruku_number": 468,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "وَٱلسَّمَآءَ رَفَعَهَا وَوَضَعَ ٱلْمِيزَانَ",
+      "page_number": 531,
+      "juz_number": 27,
+      "translations": [
+        {
+          "id": 406611,
+          "resource_id": 85,
+          "text": "He has raised up the sky. He has set the balance"
+        }
+      ]
+    },
+    {
+      "id": 4909,
+      "verse_number": 8,
+      "verse_key": "55:8",
+      "hizb_number": 54,
+      "rub_el_hizb_number": 213,
+      "ruku_number": 468,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "أَلَّا تَطْغَوْا۟ فِى ٱلْمِيزَانِ",
+      "page_number": 531,
+      "juz_number": 27,
+      "translations": [
+        {
+          "id": 406612,
+          "resource_id": 85,
+          "text": "so that you may not exceed in the balance:"
+        }
+      ]
+    },
+    {
+      "id": 4910,
+      "verse_number": 9,
+      "verse_key": "55:9",
+      "hizb_number": 54,
+      "rub_el_hizb_number": 213,
+      "ruku_number": 468,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "وَأَقِيمُوا۟ ٱلْوَزْنَ بِٱلْقِسْطِ وَلَا تُخْسِرُوا۟ ٱلْمِيزَانَ",
+      "page_number": 531,
+      "juz_number": 27,
+      "translations": [
+        {
+          "id": 406613,
+          "resource_id": 85,
+          "text": "weigh with justice and do not fall short in the balance."
+        }
+      ]
+    },
+    {
+      "id": 4911,
+      "verse_number": 10,
+      "verse_key": "55:10",
+      "hizb_number": 54,
+      "rub_el_hizb_number": 213,
+      "ruku_number": 468,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "وَٱلْأَرْضَ وَضَعَهَا لِلْأَنَامِ",
+      "page_number": 531,
+      "juz_number": 27,
+      "translations": [
+        {
+          "id": 406614,
+          "resource_id": 85,
+          "text": "He set down the Earth for His creatures,"
+        }
+      ]
+    },
+    {
+      "id": 4912,
+      "verse_number": 11,
+      "verse_key": "55:11",
+      "hizb_number": 54,
+      "rub_el_hizb_number": 213,
+      "ruku_number": 468,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "فِيهَا فَـٰكِهَةٌ وَٱلنَّخْلُ ذَاتُ ٱلْأَكْمَامِ",
+      "page_number": 531,
+      "juz_number": 27,
+      "translations": [
+        {
+          "id": 406615,
+          "resource_id": 85,
+          "text": "with its fruits, its palm trees with sheathed clusters,"
+        }
+      ]
+    },
+    {
+      "id": 4913,
+      "verse_number": 12,
+      "verse_key": "55:12",
+      "hizb_number": 54,
+      "rub_el_hizb_number": 213,
+      "ruku_number": 468,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "وَٱلْحَبُّ ذُو ٱلْعَصْفِ وَٱلرَّيْحَانُ",
+      "page_number": 531,
+      "juz_number": 27,
+      "translations": [
+        {
+          "id": 406616,
+          "resource_id": 85,
+          "text": "its husked grain, its fragrant plants."
+        }
+      ]
+    },
+    {
+      "id": 4914,
+      "verse_number": 13,
+      "verse_key": "55:13",
+      "hizb_number": 54,
+      "rub_el_hizb_number": 213,
+      "ruku_number": 468,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "فَبِأَىِّ ءَالَآءِ رَبِّكُمَا تُكَذِّبَانِ",
+      "page_number": 531,
+      "juz_number": 27,
+      "translations": [
+        {
+          "id": 406617,
+          "resource_id": 85,
+          "text": "Which, then, of your Lord’s blessings do you both deny?"
+        }
+      ]
+    },
+    {
+      "id": 4915,
+      "verse_number": 14,
+      "verse_key": "55:14",
+      "hizb_number": 54,
+      "rub_el_hizb_number": 213,
+      "ruku_number": 468,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "خَلَقَ ٱلْإِنسَـٰنَ مِن صَلْصَـٰلٍ كَٱلْفَخَّارِ",
+      "page_number": 531,
+      "juz_number": 27,
+      "translations": [
+        {
+          "id": 406618,
+          "resource_id": 85,
+          "text": "He created mankind out of dried clay, like pottery,"
+        }
+      ]
+    },
+    {
+      "id": 4916,
+      "verse_number": 15,
+      "verse_key": "55:15",
+      "hizb_number": 54,
+      "rub_el_hizb_number": 213,
+      "ruku_number": 468,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "وَخَلَقَ ٱلْجَآنَّ مِن مَّارِجٍ مِّن نَّارٍ",
+      "page_number": 531,
+      "juz_number": 27,
+      "translations": [
+        {
+          "id": 406619,
+          "resource_id": 85,
+          "text": "the jinn out of smokeless fire."
+        }
+      ]
+    },
+    {
+      "id": 4917,
+      "verse_number": 16,
+      "verse_key": "55:16",
+      "hizb_number": 54,
+      "rub_el_hizb_number": 213,
+      "ruku_number": 468,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "فَبِأَىِّ ءَالَآءِ رَبِّكُمَا تُكَذِّبَانِ",
+      "page_number": 531,
+      "juz_number": 27,
+      "translations": [
+        {
+          "id": 406620,
+          "resource_id": 85,
+          "text": "Which, then, of your Lord’s blessings do you both deny?"
+        }
+      ]
+    },
+    {
+      "id": 4918,
+      "verse_number": 17,
+      "verse_key": "55:17",
+      "hizb_number": 54,
+      "rub_el_hizb_number": 213,
+      "ruku_number": 468,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "رَبُّ ٱلْمَشْرِقَيْنِ وَرَبُّ ٱلْمَغْرِبَيْنِ",
+      "page_number": 532,
+      "juz_number": 27,
+      "translations": [
+        {
+          "id": 406621,
+          "resource_id": 85,
+          "text": "He is Lord of the two risings and Lord of the two settings."
+        }
+      ]
+    },
+    {
+      "id": 4919,
+      "verse_number": 18,
+      "verse_key": "55:18",
+      "hizb_number": 54,
+      "rub_el_hizb_number": 213,
+      "ruku_number": 468,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "فَبِأَىِّ ءَالَآءِ رَبِّكُمَا تُكَذِّبَانِ",
+      "page_number": 532,
+      "juz_number": 27,
+      "translations": [
+        {
+          "id": 406622,
+          "resource_id": 85,
+          "text": "Which, then, of your Lord’s blessings do you both deny?"
+        }
+      ]
+    },
+    {
+      "id": 4920,
+      "verse_number": 19,
+      "verse_key": "55:19",
+      "hizb_number": 54,
+      "rub_el_hizb_number": 213,
+      "ruku_number": 468,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "مَرَجَ ٱلْبَحْرَيْنِ يَلْتَقِيَانِ",
+      "page_number": 532,
+      "juz_number": 27,
+      "translations": [
+        {
+          "id": 406623,
+          "resource_id": 85,
+          "text": "He released the two bodies of [fresh and salt] water. They meet,"
+        }
+      ]
+    },
+    {
+      "id": 4921,
+      "verse_number": 20,
+      "verse_key": "55:20",
+      "hizb_number": 54,
+      "rub_el_hizb_number": 213,
+      "ruku_number": 468,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "بَيْنَهُمَا بَرْزَخٌ لَّا يَبْغِيَانِ",
+      "page_number": 532,
+      "juz_number": 27,
+      "translations": [
+        {
+          "id": 406624,
+          "resource_id": 85,
+          "text": "yet there is a barrier between them they do not cross."
+        }
+      ]
+    },
+    {
+      "id": 4922,
+      "verse_number": 21,
+      "verse_key": "55:21",
+      "hizb_number": 54,
+      "rub_el_hizb_number": 213,
+      "ruku_number": 468,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "فَبِأَىِّ ءَالَآءِ رَبِّكُمَا تُكَذِّبَانِ",
+      "page_number": 532,
+      "juz_number": 27,
+      "translations": [
+        {
+          "id": 406625,
+          "resource_id": 85,
+          "text": "Which, then, of your Lord’s blessings do you both deny?"
+        }
+      ]
+    },
+    {
+      "id": 4923,
+      "verse_number": 22,
+      "verse_key": "55:22",
+      "hizb_number": 54,
+      "rub_el_hizb_number": 213,
+      "ruku_number": 468,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "يَخْرُجُ مِنْهُمَا ٱللُّؤْلُؤُ وَٱلْمَرْجَانُ",
+      "page_number": 532,
+      "juz_number": 27,
+      "translations": [
+        {
+          "id": 406626,
+          "resource_id": 85,
+          "text": "Pearls come forth from them: large ones, and small, brilliant ones."
+        }
+      ]
+    },
+    {
+      "id": 4924,
+      "verse_number": 23,
+      "verse_key": "55:23",
+      "hizb_number": 54,
+      "rub_el_hizb_number": 213,
+      "ruku_number": 468,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "فَبِأَىِّ ءَالَآءِ رَبِّكُمَا تُكَذِّبَانِ",
+      "page_number": 532,
+      "juz_number": 27,
+      "translations": [
+        {
+          "id": 406627,
+          "resource_id": 85,
+          "text": "Which, then, of your Lord’s blessings do you both deny?"
+        }
+      ]
+    },
+    {
+      "id": 4925,
+      "verse_number": 24,
+      "verse_key": "55:24",
+      "hizb_number": 54,
+      "rub_el_hizb_number": 213,
+      "ruku_number": 468,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "وَلَهُ ٱلْجَوَارِ ٱلْمُنشَـَٔاتُ فِى ٱلْبَحْرِ كَٱلْأَعْلَـٰمِ",
+      "page_number": 532,
+      "juz_number": 27,
+      "translations": [
+        {
+          "id": 406628,
+          "resource_id": 85,
+          "text": "His are the moving ships that float, high as mountains, on the sea."
+        }
+      ]
+    },
+    {
+      "id": 4926,
+      "verse_number": 25,
+      "verse_key": "55:25",
+      "hizb_number": 54,
+      "rub_el_hizb_number": 213,
+      "ruku_number": 468,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "فَبِأَىِّ ءَالَآءِ رَبِّكُمَا تُكَذِّبَانِ",
+      "page_number": 532,
+      "juz_number": 27,
+      "translations": [
+        {
+          "id": 406629,
+          "resource_id": 85,
+          "text": "Which, then, of your Lord’s blessings do you both deny?"
+        }
+      ]
+    },
+    {
+      "id": 4927,
+      "verse_number": 26,
+      "verse_key": "55:26",
+      "hizb_number": 54,
+      "rub_el_hizb_number": 213,
+      "ruku_number": 469,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "كُلُّ مَنْ عَلَيْهَا فَانٍ",
+      "page_number": 532,
+      "juz_number": 27,
+      "translations": [
+        {
+          "id": 406630,
+          "resource_id": 85,
+          "text": "Everyone on earth perishes;"
+        }
+      ]
+    },
+    {
+      "id": 4928,
+      "verse_number": 27,
+      "verse_key": "55:27",
+      "hizb_number": 54,
+      "rub_el_hizb_number": 213,
+      "ruku_number": 469,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "وَيَبْقَىٰ وَجْهُ رَبِّكَ ذُو ٱلْجَلَـٰلِ وَٱلْإِكْرَامِ",
+      "page_number": 532,
+      "juz_number": 27,
+      "translations": [
+        {
+          "id": 406631,
+          "resource_id": 85,
+          "text": "all that remains is the Face of your Lord, full of majesty, bestowing honour."
+        }
+      ]
+    },
+    {
+      "id": 4929,
+      "verse_number": 28,
+      "verse_key": "55:28",
+      "hizb_number": 54,
+      "rub_el_hizb_number": 213,
+      "ruku_number": 469,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "فَبِأَىِّ ءَالَآءِ رَبِّكُمَا تُكَذِّبَانِ",
+      "page_number": 532,
+      "juz_number": 27,
+      "translations": [
+        {
+          "id": 406632,
+          "resource_id": 85,
+          "text": "Which, then, of your Lord’s blessings do you both deny?"
+        }
+      ]
+    },
+    {
+      "id": 4930,
+      "verse_number": 29,
+      "verse_key": "55:29",
+      "hizb_number": 54,
+      "rub_el_hizb_number": 213,
+      "ruku_number": 469,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "يَسْـَٔلُهُۥ مَن فِى ٱلسَّمَـٰوَٰتِ وَٱلْأَرْضِ ۚ كُلَّ يَوْمٍ هُوَ فِى شَأْنٍ",
+      "page_number": 532,
+      "juz_number": 27,
+      "translations": [
+        {
+          "id": 406633,
+          "resource_id": 85,
+          "text": "Everyone in heaven and earth entreats Him; every day He is at work."
+        }
+      ]
+    },
+    {
+      "id": 4931,
+      "verse_number": 30,
+      "verse_key": "55:30",
+      "hizb_number": 54,
+      "rub_el_hizb_number": 213,
+      "ruku_number": 469,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "فَبِأَىِّ ءَالَآءِ رَبِّكُمَا تُكَذِّبَانِ",
+      "page_number": 532,
+      "juz_number": 27,
+      "translations": [
+        {
+          "id": 406634,
+          "resource_id": 85,
+          "text": "Which, then, of your Lord’s blessings do you both deny?"
+        }
+      ]
+    },
+    {
+      "id": 4932,
+      "verse_number": 31,
+      "verse_key": "55:31",
+      "hizb_number": 54,
+      "rub_el_hizb_number": 213,
+      "ruku_number": 469,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "سَنَفْرُغُ لَكُمْ أَيُّهَ ٱلثَّقَلَانِ",
+      "page_number": 532,
+      "juz_number": 27,
+      "translations": [
+        {
+          "id": 406635,
+          "resource_id": 85,
+          "text": "We shall attend to you two huge armies [of jinn and mankind]."
+        }
+      ]
+    },
+    {
+      "id": 4933,
+      "verse_number": 32,
+      "verse_key": "55:32",
+      "hizb_number": 54,
+      "rub_el_hizb_number": 213,
+      "ruku_number": 469,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "فَبِأَىِّ ءَالَآءِ رَبِّكُمَا تُكَذِّبَانِ",
+      "page_number": 532,
+      "juz_number": 27,
+      "translations": [
+        {
+          "id": 406636,
+          "resource_id": 85,
+          "text": "Which, then, of your Lord’s blessings do you both deny?"
+        }
+      ]
+    },
+    {
+      "id": 4934,
+      "verse_number": 33,
+      "verse_key": "55:33",
+      "hizb_number": 54,
+      "rub_el_hizb_number": 213,
+      "ruku_number": 469,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "يَـٰمَعْشَرَ ٱلْجِنِّ وَٱلْإِنسِ إِنِ ٱسْتَطَعْتُمْ أَن تَنفُذُوا۟ مِنْ أَقْطَارِ ٱلسَّمَـٰوَٰتِ وَٱلْأَرْضِ فَٱنفُذُوا۟ ۚ لَا تَنفُذُونَ إِلَّا بِسُلْطَـٰنٍ",
+      "page_number": 532,
+      "juz_number": 27,
+      "translations": [
+        {
+          "id": 406637,
+          "resource_id": 85,
+          "text": "Jinn and mankind, if you can pass beyond the regions of heaven and earth, then do so: you will not pass without Our authority."
+        }
+      ]
+    },
+    {
+      "id": 4935,
+      "verse_number": 34,
+      "verse_key": "55:34",
+      "hizb_number": 54,
+      "rub_el_hizb_number": 213,
+      "ruku_number": 469,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "فَبِأَىِّ ءَالَآءِ رَبِّكُمَا تُكَذِّبَانِ",
+      "page_number": 532,
+      "juz_number": 27,
+      "translations": [
+        {
+          "id": 406638,
+          "resource_id": 85,
+          "text": "Which, then, of your Lord’s blessings do you both deny?"
+        }
+      ]
+    },
+    {
+      "id": 4936,
+      "verse_number": 35,
+      "verse_key": "55:35",
+      "hizb_number": 54,
+      "rub_el_hizb_number": 213,
+      "ruku_number": 469,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "يُرْسَلُ عَلَيْكُمَا شُوَاظٌ مِّن نَّارٍ وَنُحَاسٌ فَلَا تَنتَصِرَانِ",
+      "page_number": 532,
+      "juz_number": 27,
+      "translations": [
+        {
+          "id": 406639,
+          "resource_id": 85,
+          "text": "A flash of fire and smoke will be released upon you and no one will come to your aid."
+        }
+      ]
+    },
+    {
+      "id": 4937,
+      "verse_number": 36,
+      "verse_key": "55:36",
+      "hizb_number": 54,
+      "rub_el_hizb_number": 213,
+      "ruku_number": 469,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "فَبِأَىِّ ءَالَآءِ رَبِّكُمَا تُكَذِّبَانِ",
+      "page_number": 532,
+      "juz_number": 27,
+      "translations": [
+        {
+          "id": 406640,
+          "resource_id": 85,
+          "text": "Which, then, of your Lord’s blessings do you both deny?"
+        }
+      ]
+    },
+    {
+      "id": 4938,
+      "verse_number": 37,
+      "verse_key": "55:37",
+      "hizb_number": 54,
+      "rub_el_hizb_number": 213,
+      "ruku_number": 469,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "فَإِذَا ٱنشَقَّتِ ٱلسَّمَآءُ فَكَانَتْ وَرْدَةً كَٱلدِّهَانِ",
+      "page_number": 532,
+      "juz_number": 27,
+      "translations": [
+        {
+          "id": 406641,
+          "resource_id": 85,
+          "text": "When the sky is torn apart and turns crimson, like red hide."
+        }
+      ]
+    },
+    {
+      "id": 4939,
+      "verse_number": 38,
+      "verse_key": "55:38",
+      "hizb_number": 54,
+      "rub_el_hizb_number": 213,
+      "ruku_number": 469,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "فَبِأَىِّ ءَالَآءِ رَبِّكُمَا تُكَذِّبَانِ",
+      "page_number": 532,
+      "juz_number": 27,
+      "translations": [
+        {
+          "id": 406642,
+          "resource_id": 85,
+          "text": "Which, then, of your Lord’s blessings do you both deny?"
+        }
+      ]
+    },
+    {
+      "id": 4940,
+      "verse_number": 39,
+      "verse_key": "55:39",
+      "hizb_number": 54,
+      "rub_el_hizb_number": 213,
+      "ruku_number": 469,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "فَيَوْمَئِذٍ لَّا يُسْـَٔلُ عَن ذَنۢبِهِۦٓ إِنسٌ وَلَا جَآنٌّ",
+      "page_number": 532,
+      "juz_number": 27,
+      "translations": [
+        {
+          "id": 406643,
+          "resource_id": 85,
+          "text": "On that Day neither mankind nor jinn will be asked about their sins."
+        }
+      ]
+    },
+    {
+      "id": 4941,
+      "verse_number": 40,
+      "verse_key": "55:40",
+      "hizb_number": 54,
+      "rub_el_hizb_number": 213,
+      "ruku_number": 469,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "فَبِأَىِّ ءَالَآءِ رَبِّكُمَا تُكَذِّبَانِ",
+      "page_number": 532,
+      "juz_number": 27,
+      "translations": [
+        {
+          "id": 406644,
+          "resource_id": 85,
+          "text": "Which, then, of your Lord’s blessings do you both deny?"
+        }
+      ]
+    },
+    {
+      "id": 4942,
+      "verse_number": 41,
+      "verse_key": "55:41",
+      "hizb_number": 54,
+      "rub_el_hizb_number": 213,
+      "ruku_number": 469,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "يُعْرَفُ ٱلْمُجْرِمُونَ بِسِيمَـٰهُمْ فَيُؤْخَذُ بِٱلنَّوَٰصِى وَٱلْأَقْدَامِ",
+      "page_number": 533,
+      "juz_number": 27,
+      "translations": [
+        {
+          "id": 406645,
+          "resource_id": 85,
+          "text": "The guilty will be known by their mark and will be seized by their foreheads and their feet."
+        }
+      ]
+    },
+    {
+      "id": 4943,
+      "verse_number": 42,
+      "verse_key": "55:42",
+      "hizb_number": 54,
+      "rub_el_hizb_number": 213,
+      "ruku_number": 469,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "فَبِأَىِّ ءَالَآءِ رَبِّكُمَا تُكَذِّبَانِ",
+      "page_number": 533,
+      "juz_number": 27,
+      "translations": [
+        {
+          "id": 406646,
+          "resource_id": 85,
+          "text": "Which, then, of your Lord’s blessings do you both deny?"
+        }
+      ]
+    },
+    {
+      "id": 4944,
+      "verse_number": 43,
+      "verse_key": "55:43",
+      "hizb_number": 54,
+      "rub_el_hizb_number": 213,
+      "ruku_number": 469,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "هَـٰذِهِۦ جَهَنَّمُ ٱلَّتِى يُكَذِّبُ بِهَا ٱلْمُجْرِمُونَ",
+      "page_number": 533,
+      "juz_number": 27,
+      "translations": [
+        {
+          "id": 406647,
+          "resource_id": 85,
+          "text": "This is the Hell the guilty deny,"
+        }
+      ]
+    },
+    {
+      "id": 4945,
+      "verse_number": 44,
+      "verse_key": "55:44",
+      "hizb_number": 54,
+      "rub_el_hizb_number": 213,
+      "ruku_number": 469,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "يَطُوفُونَ بَيْنَهَا وَبَيْنَ حَمِيمٍ ءَانٍ",
+      "page_number": 533,
+      "juz_number": 27,
+      "translations": [
+        {
+          "id": 406648,
+          "resource_id": 85,
+          "text": "but they will go round between its flames and scalding water."
+        }
+      ]
+    },
+    {
+      "id": 4946,
+      "verse_number": 45,
+      "verse_key": "55:45",
+      "hizb_number": 54,
+      "rub_el_hizb_number": 213,
+      "ruku_number": 469,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "فَبِأَىِّ ءَالَآءِ رَبِّكُمَا تُكَذِّبَانِ",
+      "page_number": 533,
+      "juz_number": 27,
+      "translations": [
+        {
+          "id": 406649,
+          "resource_id": 85,
+          "text": "Which, then, of your Lord’s blessings do you both deny?"
+        }
+      ]
+    },
+    {
+      "id": 4947,
+      "verse_number": 46,
+      "verse_key": "55:46",
+      "hizb_number": 54,
+      "rub_el_hizb_number": 213,
+      "ruku_number": 470,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "وَلِمَنْ خَافَ مَقَامَ رَبِّهِۦ جَنَّتَانِ",
+      "page_number": 533,
+      "juz_number": 27,
+      "translations": [
+        {
+          "id": 406650,
+          "resource_id": 85,
+          "text": "For those who fear [the time when they will] stand before their Lord there are two gardens."
+        }
+      ]
+    },
+    {
+      "id": 4948,
+      "verse_number": 47,
+      "verse_key": "55:47",
+      "hizb_number": 54,
+      "rub_el_hizb_number": 213,
+      "ruku_number": 470,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "فَبِأَىِّ ءَالَآءِ رَبِّكُمَا تُكَذِّبَانِ",
+      "page_number": 533,
+      "juz_number": 27,
+      "translations": [
+        {
+          "id": 406651,
+          "resource_id": 85,
+          "text": "Which, then, of your Lord’s blessings do you both deny?"
+        }
+      ]
+    },
+    {
+      "id": 4949,
+      "verse_number": 48,
+      "verse_key": "55:48",
+      "hizb_number": 54,
+      "rub_el_hizb_number": 213,
+      "ruku_number": 470,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "ذَوَاتَآ أَفْنَانٍ",
+      "page_number": 533,
+      "juz_number": 27,
+      "translations": [
+        {
+          "id": 406652,
+          "resource_id": 85,
+          "text": "With shading branches."
+        }
+      ]
+    },
+    {
+      "id": 4950,
+      "verse_number": 49,
+      "verse_key": "55:49",
+      "hizb_number": 54,
+      "rub_el_hizb_number": 213,
+      "ruku_number": 470,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "فَبِأَىِّ ءَالَآءِ رَبِّكُمَا تُكَذِّبَانِ",
+      "page_number": 533,
+      "juz_number": 27,
+      "translations": [
+        {
+          "id": 406653,
+          "resource_id": 85,
+          "text": "Which, then, of your Lord’s blessings do you both deny?"
+        }
+      ]
+    },
+    {
+      "id": 4951,
+      "verse_number": 50,
+      "verse_key": "55:50",
+      "hizb_number": 54,
+      "rub_el_hizb_number": 213,
+      "ruku_number": 470,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "فِيهِمَا عَيْنَانِ تَجْرِيَانِ",
+      "page_number": 533,
+      "juz_number": 27,
+      "translations": [
+        {
+          "id": 406654,
+          "resource_id": 85,
+          "text": "With a pair of flowing springs."
+        }
+      ]
+    },
+    {
+      "id": 4952,
+      "verse_number": 51,
+      "verse_key": "55:51",
+      "hizb_number": 54,
+      "rub_el_hizb_number": 213,
+      "ruku_number": 470,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "فَبِأَىِّ ءَالَآءِ رَبِّكُمَا تُكَذِّبَانِ",
+      "page_number": 533,
+      "juz_number": 27,
+      "translations": [
+        {
+          "id": 406655,
+          "resource_id": 85,
+          "text": "Which, then, of your Lord’s blessings do you both deny?"
+        }
+      ]
+    },
+    {
+      "id": 4953,
+      "verse_number": 52,
+      "verse_key": "55:52",
+      "hizb_number": 54,
+      "rub_el_hizb_number": 213,
+      "ruku_number": 470,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "فِيهِمَا مِن كُلِّ فَـٰكِهَةٍ زَوْجَانِ",
+      "page_number": 533,
+      "juz_number": 27,
+      "translations": [
+        {
+          "id": 406656,
+          "resource_id": 85,
+          "text": "With every kind of fruit in pairs."
+        }
+      ]
+    },
+    {
+      "id": 4954,
+      "verse_number": 53,
+      "verse_key": "55:53",
+      "hizb_number": 54,
+      "rub_el_hizb_number": 213,
+      "ruku_number": 470,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "فَبِأَىِّ ءَالَآءِ رَبِّكُمَا تُكَذِّبَانِ",
+      "page_number": 533,
+      "juz_number": 27,
+      "translations": [
+        {
+          "id": 406657,
+          "resource_id": 85,
+          "text": "Which, then, of your Lord’s blessings do you both deny?"
+        }
+      ]
+    },
+    {
+      "id": 4955,
+      "verse_number": 54,
+      "verse_key": "55:54",
+      "hizb_number": 54,
+      "rub_el_hizb_number": 213,
+      "ruku_number": 470,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "مُتَّكِـِٔينَ عَلَىٰ فُرُشٍۭ بَطَآئِنُهَا مِنْ إِسْتَبْرَقٍ ۚ وَجَنَى ٱلْجَنَّتَيْنِ دَانٍ",
+      "page_number": 533,
+      "juz_number": 27,
+      "translations": [
+        {
+          "id": 406658,
+          "resource_id": 85,
+          "text": "They will sit on couches upholstered with brocade, the fruit of both gardens within easy reach."
+        }
+      ]
+    },
+    {
+      "id": 4956,
+      "verse_number": 55,
+      "verse_key": "55:55",
+      "hizb_number": 54,
+      "rub_el_hizb_number": 213,
+      "ruku_number": 470,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "فَبِأَىِّ ءَالَآءِ رَبِّكُمَا تُكَذِّبَانِ",
+      "page_number": 533,
+      "juz_number": 27,
+      "translations": [
+        {
+          "id": 406659,
+          "resource_id": 85,
+          "text": "Which, then, of your Lord’s blessings do you both deny?"
+        }
+      ]
+    },
+    {
+      "id": 4957,
+      "verse_number": 56,
+      "verse_key": "55:56",
+      "hizb_number": 54,
+      "rub_el_hizb_number": 213,
+      "ruku_number": 470,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "فِيهِنَّ قَـٰصِرَٰتُ ٱلطَّرْفِ لَمْ يَطْمِثْهُنَّ إِنسٌ قَبْلَهُمْ وَلَا جَآنٌّ",
+      "page_number": 533,
+      "juz_number": 27,
+      "translations": [
+        {
+          "id": 406660,
+          "resource_id": 85,
+          "text": "There will be maidens restraining their glances, untouched beforehand by man or jinn."
+        }
+      ]
+    },
+    {
+      "id": 4958,
+      "verse_number": 57,
+      "verse_key": "55:57",
+      "hizb_number": 54,
+      "rub_el_hizb_number": 213,
+      "ruku_number": 470,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "فَبِأَىِّ ءَالَآءِ رَبِّكُمَا تُكَذِّبَانِ",
+      "page_number": 533,
+      "juz_number": 27,
+      "translations": [
+        {
+          "id": 406661,
+          "resource_id": 85,
+          "text": "Which, then, of your Lord’s blessings do you both deny?"
+        }
+      ]
+    },
+    {
+      "id": 4959,
+      "verse_number": 58,
+      "verse_key": "55:58",
+      "hizb_number": 54,
+      "rub_el_hizb_number": 213,
+      "ruku_number": 470,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "كَأَنَّهُنَّ ٱلْيَاقُوتُ وَٱلْمَرْجَانُ",
+      "page_number": 533,
+      "juz_number": 27,
+      "translations": [
+        {
+          "id": 406662,
+          "resource_id": 85,
+          "text": "Like rubies and brilliant pearls."
+        }
+      ]
+    },
+    {
+      "id": 4960,
+      "verse_number": 59,
+      "verse_key": "55:59",
+      "hizb_number": 54,
+      "rub_el_hizb_number": 213,
+      "ruku_number": 470,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "فَبِأَىِّ ءَالَآءِ رَبِّكُمَا تُكَذِّبَانِ",
+      "page_number": 533,
+      "juz_number": 27,
+      "translations": [
+        {
+          "id": 406663,
+          "resource_id": 85,
+          "text": "Which, then, of your Lord’s blessings do you both deny?"
+        }
+      ]
+    },
+    {
+      "id": 4961,
+      "verse_number": 60,
+      "verse_key": "55:60",
+      "hizb_number": 54,
+      "rub_el_hizb_number": 213,
+      "ruku_number": 470,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "هَلْ جَزَآءُ ٱلْإِحْسَـٰنِ إِلَّا ٱلْإِحْسَـٰنُ",
+      "page_number": 533,
+      "juz_number": 27,
+      "translations": [
+        {
+          "id": 406664,
+          "resource_id": 85,
+          "text": "Shall the reward of good be anything but good?"
+        }
+      ]
+    },
+    {
+      "id": 4962,
+      "verse_number": 61,
+      "verse_key": "55:61",
+      "hizb_number": 54,
+      "rub_el_hizb_number": 213,
+      "ruku_number": 470,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "فَبِأَىِّ ءَالَآءِ رَبِّكُمَا تُكَذِّبَانِ",
+      "page_number": 533,
+      "juz_number": 27,
+      "translations": [
+        {
+          "id": 406665,
+          "resource_id": 85,
+          "text": "Which, then, of your Lord’s blessings do you both deny?"
+        }
+      ]
+    },
+    {
+      "id": 4963,
+      "verse_number": 62,
+      "verse_key": "55:62",
+      "hizb_number": 54,
+      "rub_el_hizb_number": 213,
+      "ruku_number": 470,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "وَمِن دُونِهِمَا جَنَّتَانِ",
+      "page_number": 533,
+      "juz_number": 27,
+      "translations": [
+        {
+          "id": 406666,
+          "resource_id": 85,
+          "text": "There are two other gardens below these two."
+        }
+      ]
+    },
+    {
+      "id": 4964,
+      "verse_number": 63,
+      "verse_key": "55:63",
+      "hizb_number": 54,
+      "rub_el_hizb_number": 213,
+      "ruku_number": 470,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "فَبِأَىِّ ءَالَآءِ رَبِّكُمَا تُكَذِّبَانِ",
+      "page_number": 533,
+      "juz_number": 27,
+      "translations": [
+        {
+          "id": 406667,
+          "resource_id": 85,
+          "text": "Which, then, of your Lord’s blessings do you both deny?"
+        }
+      ]
+    },
+    {
+      "id": 4965,
+      "verse_number": 64,
+      "verse_key": "55:64",
+      "hizb_number": 54,
+      "rub_el_hizb_number": 213,
+      "ruku_number": 470,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "مُدْهَآمَّتَانِ",
+      "page_number": 533,
+      "juz_number": 27,
+      "translations": [
+        {
+          "id": 406668,
+          "resource_id": 85,
+          "text": "Both of deepest green."
+        }
+      ]
+    },
+    {
+      "id": 4966,
+      "verse_number": 65,
+      "verse_key": "55:65",
+      "hizb_number": 54,
+      "rub_el_hizb_number": 213,
+      "ruku_number": 470,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "فَبِأَىِّ ءَالَآءِ رَبِّكُمَا تُكَذِّبَانِ",
+      "page_number": 533,
+      "juz_number": 27,
+      "translations": [
+        {
+          "id": 406669,
+          "resource_id": 85,
+          "text": "Which, then, of your Lord’s blessings do you both deny?"
+        }
+      ]
+    },
+    {
+      "id": 4967,
+      "verse_number": 66,
+      "verse_key": "55:66",
+      "hizb_number": 54,
+      "rub_el_hizb_number": 213,
+      "ruku_number": 470,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "فِيهِمَا عَيْنَانِ نَضَّاخَتَانِ",
+      "page_number": 533,
+      "juz_number": 27,
+      "translations": [
+        {
+          "id": 406670,
+          "resource_id": 85,
+          "text": "With a pair of gushing springs."
+        }
+      ]
+    },
+    {
+      "id": 4968,
+      "verse_number": 67,
+      "verse_key": "55:67",
+      "hizb_number": 54,
+      "rub_el_hizb_number": 213,
+      "ruku_number": 470,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "فَبِأَىِّ ءَالَآءِ رَبِّكُمَا تُكَذِّبَانِ",
+      "page_number": 533,
+      "juz_number": 27,
+      "translations": [
+        {
+          "id": 406671,
+          "resource_id": 85,
+          "text": "Which, then, of your Lord’s blessings do you both deny?"
+        }
+      ]
+    },
+    {
+      "id": 4969,
+      "verse_number": 68,
+      "verse_key": "55:68",
+      "hizb_number": 54,
+      "rub_el_hizb_number": 213,
+      "ruku_number": 470,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "فِيهِمَا فَـٰكِهَةٌ وَنَخْلٌ وَرُمَّانٌ",
+      "page_number": 534,
+      "juz_number": 27,
+      "translations": [
+        {
+          "id": 406672,
+          "resource_id": 85,
+          "text": "With fruits- date palms and pomegranate trees."
+        }
+      ]
+    },
+    {
+      "id": 4970,
+      "verse_number": 69,
+      "verse_key": "55:69",
+      "hizb_number": 54,
+      "rub_el_hizb_number": 213,
+      "ruku_number": 470,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "فَبِأَىِّ ءَالَآءِ رَبِّكُمَا تُكَذِّبَانِ",
+      "page_number": 534,
+      "juz_number": 27,
+      "translations": [
+        {
+          "id": 406673,
+          "resource_id": 85,
+          "text": "Which, then, of your Lord’s blessings do you both deny?"
+        }
+      ]
+    },
+    {
+      "id": 4971,
+      "verse_number": 70,
+      "verse_key": "55:70",
+      "hizb_number": 54,
+      "rub_el_hizb_number": 213,
+      "ruku_number": 470,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "فِيهِنَّ خَيْرَٰتٌ حِسَانٌ",
+      "page_number": 534,
+      "juz_number": 27,
+      "translations": [
+        {
+          "id": 406674,
+          "resource_id": 85,
+          "text": "There are good-natured, beautiful maidens."
+        }
+      ]
+    },
+    {
+      "id": 4972,
+      "verse_number": 71,
+      "verse_key": "55:71",
+      "hizb_number": 54,
+      "rub_el_hizb_number": 213,
+      "ruku_number": 470,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "فَبِأَىِّ ءَالَآءِ رَبِّكُمَا تُكَذِّبَانِ",
+      "page_number": 534,
+      "juz_number": 27,
+      "translations": [
+        {
+          "id": 406675,
+          "resource_id": 85,
+          "text": "Which, then, of your Lord’s blessings do you both deny?"
+        }
+      ]
+    },
+    {
+      "id": 4973,
+      "verse_number": 72,
+      "verse_key": "55:72",
+      "hizb_number": 54,
+      "rub_el_hizb_number": 213,
+      "ruku_number": 470,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "حُورٌ مَّقْصُورَٰتٌ فِى ٱلْخِيَامِ",
+      "page_number": 534,
+      "juz_number": 27,
+      "translations": [
+        {
+          "id": 406676,
+          "resource_id": 85,
+          "text": "Dark-eyed, sheltered in pavilions."
+        }
+      ]
+    },
+    {
+      "id": 4974,
+      "verse_number": 73,
+      "verse_key": "55:73",
+      "hizb_number": 54,
+      "rub_el_hizb_number": 213,
+      "ruku_number": 470,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "فَبِأَىِّ ءَالَآءِ رَبِّكُمَا تُكَذِّبَانِ",
+      "page_number": 534,
+      "juz_number": 27,
+      "translations": [
+        {
+          "id": 406677,
+          "resource_id": 85,
+          "text": "Which, then, of your Lord’s blessings do you both deny?"
+        }
+      ]
+    },
+    {
+      "id": 4975,
+      "verse_number": 74,
+      "verse_key": "55:74",
+      "hizb_number": 54,
+      "rub_el_hizb_number": 213,
+      "ruku_number": 470,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "لَمْ يَطْمِثْهُنَّ إِنسٌ قَبْلَهُمْ وَلَا جَآنٌّ",
+      "page_number": 534,
+      "juz_number": 27,
+      "translations": [
+        {
+          "id": 406678,
+          "resource_id": 85,
+          "text": "Untouched beforehand by man or jinn."
+        }
+      ]
+    },
+    {
+      "id": 4976,
+      "verse_number": 75,
+      "verse_key": "55:75",
+      "hizb_number": 54,
+      "rub_el_hizb_number": 213,
+      "ruku_number": 470,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "فَبِأَىِّ ءَالَآءِ رَبِّكُمَا تُكَذِّبَانِ",
+      "page_number": 534,
+      "juz_number": 27,
+      "translations": [
+        {
+          "id": 406679,
+          "resource_id": 85,
+          "text": "Which, then, of your Lord’s blessings do you both deny?"
+        }
+      ]
+    },
+    {
+      "id": 4977,
+      "verse_number": 76,
+      "verse_key": "55:76",
+      "hizb_number": 54,
+      "rub_el_hizb_number": 213,
+      "ruku_number": 470,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "مُتَّكِـِٔينَ عَلَىٰ رَفْرَفٍ خُضْرٍ وَعَبْقَرِىٍّ حِسَانٍ",
+      "page_number": 534,
+      "juz_number": 27,
+      "translations": [
+        {
+          "id": 406680,
+          "resource_id": 85,
+          "text": "They will all sit on green cushions and fine carpets."
+        }
+      ]
+    },
+    {
+      "id": 4978,
+      "verse_number": 77,
+      "verse_key": "55:77",
+      "hizb_number": 54,
+      "rub_el_hizb_number": 213,
+      "ruku_number": 470,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "فَبِأَىِّ ءَالَآءِ رَبِّكُمَا تُكَذِّبَانِ",
+      "page_number": 534,
+      "juz_number": 27,
+      "translations": [
+        {
+          "id": 406681,
+          "resource_id": 85,
+          "text": "Which, then, of your Lord’s blessings do you both deny?"
+        }
+      ]
+    },
+    {
+      "id": 4979,
+      "verse_number": 78,
+      "verse_key": "55:78",
+      "hizb_number": 54,
+      "rub_el_hizb_number": 213,
+      "ruku_number": 470,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "تَبَـٰرَكَ ٱسْمُ رَبِّكَ ذِى ٱلْجَلَـٰلِ وَٱلْإِكْرَامِ",
+      "page_number": 534,
+      "juz_number": 27,
+      "translations": [
+        {
+          "id": 406682,
+          "resource_id": 85,
+          "text": "Blessed is the name of your Lord, full of majesty, bestowing honour."
+        }
+      ]
+    }
+  ]
+}

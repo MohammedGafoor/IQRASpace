@@ -1,0 +1,583 @@
+{
+  "syncedAt": "2026-08-31T05:21:16.507Z",
+  "chapter": {
+    "id": 72,
+    "revelation_place": "makkah",
+    "revelation_order": 40,
+    "bismillah_pre": true,
+    "name_simple": "Al-Jinn",
+    "name_complex": "Al-Jinn",
+    "name_arabic": "الجن",
+    "verses_count": 28,
+    "pages": [
+      572,
+      573
+    ],
+    "translated_name": {
+      "language_name": "english",
+      "name": "The Jinn"
+    }
+  },
+  "verses": [
+    {
+      "id": 5448,
+      "verse_number": 1,
+      "verse_key": "72:1",
+      "hizb_number": 58,
+      "rub_el_hizb_number": 229,
+      "ruku_number": 508,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": " قُلْ أُوحِىَ إِلَىَّ أَنَّهُ ٱسْتَمَعَ نَفَرٌ مِّنَ ٱلْجِنِّ فَقَالُوٓا۟ إِنَّا سَمِعْنَا قُرْءَانًا عَجَبًا",
+      "page_number": 572,
+      "juz_number": 29,
+      "translations": [
+        {
+          "id": 407151,
+          "resource_id": 85,
+          "text": "Say [Prophet], ‘It has been revealed to me that a group of jinn once listened in and said, “We have heard a wondrous Quran,"
+        }
+      ]
+    },
+    {
+      "id": 5449,
+      "verse_number": 2,
+      "verse_key": "72:2",
+      "hizb_number": 58,
+      "rub_el_hizb_number": 229,
+      "ruku_number": 508,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "يَهْدِىٓ إِلَى ٱلرُّشْدِ فَـَٔامَنَّا بِهِۦ ۖ وَلَن نُّشْرِكَ بِرَبِّنَآ أَحَدًا",
+      "page_number": 572,
+      "juz_number": 29,
+      "translations": [
+        {
+          "id": 407152,
+          "resource_id": 85,
+          "text": "that gives guidance to the right path, and we have come to believe it––We shall never set up partners with our Lord––"
+        }
+      ]
+    },
+    {
+      "id": 5450,
+      "verse_number": 3,
+      "verse_key": "72:3",
+      "hizb_number": 58,
+      "rub_el_hizb_number": 229,
+      "ruku_number": 508,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "وَأَنَّهُۥ تَعَـٰلَىٰ جَدُّ رَبِّنَا مَا ٱتَّخَذَ صَـٰحِبَةً وَلَا وَلَدًا",
+      "page_number": 572,
+      "juz_number": 29,
+      "translations": [
+        {
+          "id": 407153,
+          "resource_id": 85,
+          "text": "and that He––exalted be the glory of our Lord!––has neither spouse nor child."
+        }
+      ]
+    },
+    {
+      "id": 5451,
+      "verse_number": 4,
+      "verse_key": "72:4",
+      "hizb_number": 58,
+      "rub_el_hizb_number": 229,
+      "ruku_number": 508,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "وَأَنَّهُۥ كَانَ يَقُولُ سَفِيهُنَا عَلَى ٱللَّهِ شَطَطًا",
+      "page_number": 572,
+      "juz_number": 29,
+      "translations": [
+        {
+          "id": 407154,
+          "resource_id": 85,
+          "text": "Outrageous things have been said about God by the foolish among us,"
+        }
+      ]
+    },
+    {
+      "id": 5452,
+      "verse_number": 5,
+      "verse_key": "72:5",
+      "hizb_number": 58,
+      "rub_el_hizb_number": 229,
+      "ruku_number": 508,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "وَأَنَّا ظَنَنَّآ أَن لَّن تَقُولَ ٱلْإِنسُ وَٱلْجِنُّ عَلَى ٱللَّهِ كَذِبًا",
+      "page_number": 572,
+      "juz_number": 29,
+      "translations": [
+        {
+          "id": 407155,
+          "resource_id": 85,
+          "text": "although we had thought that no man or jinn would [dare to] tell a lie about Him."
+        }
+      ]
+    },
+    {
+      "id": 5453,
+      "verse_number": 6,
+      "verse_key": "72:6",
+      "hizb_number": 58,
+      "rub_el_hizb_number": 229,
+      "ruku_number": 508,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "وَأَنَّهُۥ كَانَ رِجَالٌ مِّنَ ٱلْإِنسِ يَعُوذُونَ بِرِجَالٍ مِّنَ ٱلْجِنِّ فَزَادُوهُمْ رَهَقًا",
+      "page_number": 572,
+      "juz_number": 29,
+      "translations": [
+        {
+          "id": 407156,
+          "resource_id": 85,
+          "text": "Men have sought refuge with the jinn in the past, but they only misguided them further."
+        }
+      ]
+    },
+    {
+      "id": 5454,
+      "verse_number": 7,
+      "verse_key": "72:7",
+      "hizb_number": 58,
+      "rub_el_hizb_number": 229,
+      "ruku_number": 508,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "وَأَنَّهُمْ ظَنُّوا۟ كَمَا ظَنَنتُمْ أَن لَّن يَبْعَثَ ٱللَّهُ أَحَدًا",
+      "page_number": 572,
+      "juz_number": 29,
+      "translations": [
+        {
+          "id": 407157,
+          "resource_id": 85,
+          "text": "They thought, as you did, that God would never raise anyone from the dead."
+        }
+      ]
+    },
+    {
+      "id": 5455,
+      "verse_number": 8,
+      "verse_key": "72:8",
+      "hizb_number": 58,
+      "rub_el_hizb_number": 229,
+      "ruku_number": 508,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "وَأَنَّا لَمَسْنَا ٱلسَّمَآءَ فَوَجَدْنَـٰهَا مُلِئَتْ حَرَسًا شَدِيدًا وَشُهُبًا",
+      "page_number": 572,
+      "juz_number": 29,
+      "translations": [
+        {
+          "id": 407158,
+          "resource_id": 85,
+          "text": "We tried to reach heaven, but discovered it to be full of stern guards and shooting stars––"
+        }
+      ]
+    },
+    {
+      "id": 5456,
+      "verse_number": 9,
+      "verse_key": "72:9",
+      "hizb_number": 58,
+      "rub_el_hizb_number": 229,
+      "ruku_number": 508,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "وَأَنَّا كُنَّا نَقْعُدُ مِنْهَا مَقَـٰعِدَ لِلسَّمْعِ ۖ فَمَن يَسْتَمِعِ ٱلْـَٔانَ يَجِدْ لَهُۥ شِهَابًا رَّصَدًا",
+      "page_number": 572,
+      "juz_number": 29,
+      "translations": [
+        {
+          "id": 407159,
+          "resource_id": 85,
+          "text": "we used to sit in places there, listening, but anyone trying to listen now will find a shooting star lying in wait for him––"
+        }
+      ]
+    },
+    {
+      "id": 5457,
+      "verse_number": 10,
+      "verse_key": "72:10",
+      "hizb_number": 58,
+      "rub_el_hizb_number": 229,
+      "ruku_number": 508,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "وَأَنَّا لَا نَدْرِىٓ أَشَرٌّ أُرِيدَ بِمَن فِى ٱلْأَرْضِ أَمْ أَرَادَ بِهِمْ رَبُّهُمْ رَشَدًا",
+      "page_number": 572,
+      "juz_number": 29,
+      "translations": [
+        {
+          "id": 407160,
+          "resource_id": 85,
+          "text": "[so now] we do not know whether those who live on earth are due for misfortune, or whether their Lord intends to guide them."
+        }
+      ]
+    },
+    {
+      "id": 5458,
+      "verse_number": 11,
+      "verse_key": "72:11",
+      "hizb_number": 58,
+      "rub_el_hizb_number": 229,
+      "ruku_number": 508,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "وَأَنَّا مِنَّا ٱلصَّـٰلِحُونَ وَمِنَّا دُونَ ذَٰلِكَ ۖ كُنَّا طَرَآئِقَ قِدَدًا",
+      "page_number": 572,
+      "juz_number": 29,
+      "translations": [
+        {
+          "id": 407161,
+          "resource_id": 85,
+          "text": "Some of us are righteous and others less so: we follow different paths."
+        }
+      ]
+    },
+    {
+      "id": 5459,
+      "verse_number": 12,
+      "verse_key": "72:12",
+      "hizb_number": 58,
+      "rub_el_hizb_number": 229,
+      "ruku_number": 508,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "وَأَنَّا ظَنَنَّآ أَن لَّن نُّعْجِزَ ٱللَّهَ فِى ٱلْأَرْضِ وَلَن نُّعْجِزَهُۥ هَرَبًا",
+      "page_number": 572,
+      "juz_number": 29,
+      "translations": [
+        {
+          "id": 407162,
+          "resource_id": 85,
+          "text": "We know we can never frustrate God on earth; we can never escape Him."
+        }
+      ]
+    },
+    {
+      "id": 5460,
+      "verse_number": 13,
+      "verse_key": "72:13",
+      "hizb_number": 58,
+      "rub_el_hizb_number": 229,
+      "ruku_number": 508,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "وَأَنَّا لَمَّا سَمِعْنَا ٱلْهُدَىٰٓ ءَامَنَّا بِهِۦ ۖ فَمَن يُؤْمِنۢ بِرَبِّهِۦ فَلَا يَخَافُ بَخْسًا وَلَا رَهَقًا",
+      "page_number": 572,
+      "juz_number": 29,
+      "translations": [
+        {
+          "id": 407163,
+          "resource_id": 85,
+          "text": "When we heard the guidance we came to believe: whoever believes in his Lord need fear no loss nor injustice."
+        }
+      ]
+    },
+    {
+      "id": 5461,
+      "verse_number": 14,
+      "verse_key": "72:14",
+      "hizb_number": 58,
+      "rub_el_hizb_number": 229,
+      "ruku_number": 508,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "وَأَنَّا مِنَّا ٱلْمُسْلِمُونَ وَمِنَّا ٱلْقَـٰسِطُونَ ۖ فَمَنْ أَسْلَمَ فَأُو۟لَـٰٓئِكَ تَحَرَّوْا۟ رَشَدًا",
+      "page_number": 573,
+      "juz_number": 29,
+      "translations": [
+        {
+          "id": 407164,
+          "resource_id": 85,
+          "text": "Some of us submit to Him and others go the wrong way: those who submit to God have found wise guidance,"
+        }
+      ]
+    },
+    {
+      "id": 5462,
+      "verse_number": 15,
+      "verse_key": "72:15",
+      "hizb_number": 58,
+      "rub_el_hizb_number": 229,
+      "ruku_number": 508,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "وَأَمَّا ٱلْقَـٰسِطُونَ فَكَانُوا۟ لِجَهَنَّمَ حَطَبًا",
+      "page_number": 573,
+      "juz_number": 29,
+      "translations": [
+        {
+          "id": 407165,
+          "resource_id": 85,
+          "text": "but those who go wrong will be fuel for Hellfire.” ’"
+        }
+      ]
+    },
+    {
+      "id": 5463,
+      "verse_number": 16,
+      "verse_key": "72:16",
+      "hizb_number": 58,
+      "rub_el_hizb_number": 229,
+      "ruku_number": 508,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "وَأَلَّوِ ٱسْتَقَـٰمُوا۟ عَلَى ٱلطَّرِيقَةِ لَأَسْقَيْنَـٰهُم مَّآءً غَدَقًا",
+      "page_number": 573,
+      "juz_number": 29,
+      "translations": [
+        {
+          "id": 407166,
+          "resource_id": 85,
+          "text": "If they had taken to the right way, We would have given them abundant water to drink-"
+        }
+      ]
+    },
+    {
+      "id": 5464,
+      "verse_number": 17,
+      "verse_key": "72:17",
+      "hizb_number": 58,
+      "rub_el_hizb_number": 229,
+      "ruku_number": 508,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "لِّنَفْتِنَهُمْ فِيهِ ۚ وَمَن يُعْرِضْ عَن ذِكْرِ رَبِّهِۦ يَسْلُكْهُ عَذَابًا صَعَدًا",
+      "page_number": 573,
+      "juz_number": 29,
+      "translations": [
+        {
+          "id": 407167,
+          "resource_id": 85,
+          "text": "a test for them––but anyone who turns away from his Lord’s Revelation will be sent by Him to spiralling torment."
+        }
+      ]
+    },
+    {
+      "id": 5465,
+      "verse_number": 18,
+      "verse_key": "72:18",
+      "hizb_number": 58,
+      "rub_el_hizb_number": 229,
+      "ruku_number": 508,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "وَأَنَّ ٱلْمَسَـٰجِدَ لِلَّهِ فَلَا تَدْعُوا۟ مَعَ ٱللَّهِ أَحَدًا",
+      "page_number": 573,
+      "juz_number": 29,
+      "translations": [
+        {
+          "id": 407168,
+          "resource_id": 85,
+          "text": "Places of worship are for God alone- so do not pray to anyone other than God-"
+        }
+      ]
+    },
+    {
+      "id": 5466,
+      "verse_number": 19,
+      "verse_key": "72:19",
+      "hizb_number": 58,
+      "rub_el_hizb_number": 229,
+      "ruku_number": 508,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "وَأَنَّهُۥ لَمَّا قَامَ عَبْدُ ٱللَّهِ يَدْعُوهُ كَادُوا۟ يَكُونُونَ عَلَيْهِ لِبَدًا",
+      "page_number": 573,
+      "juz_number": 29,
+      "translations": [
+        {
+          "id": 407169,
+          "resource_id": 85,
+          "text": "yet when God’s Servant stood up to pray to Him, they pressed in on him."
+        }
+      ]
+    },
+    {
+      "id": 5467,
+      "verse_number": 20,
+      "verse_key": "72:20",
+      "hizb_number": 58,
+      "rub_el_hizb_number": 229,
+      "ruku_number": 509,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "قُلْ إِنَّمَآ أَدْعُوا۟ رَبِّى وَلَآ أُشْرِكُ بِهِۦٓ أَحَدًا",
+      "page_number": 573,
+      "juz_number": 29,
+      "translations": [
+        {
+          "id": 407170,
+          "resource_id": 85,
+          "text": "Say, ‘I pray to my Lord alone; I set up no partner with Him.’"
+        }
+      ]
+    },
+    {
+      "id": 5468,
+      "verse_number": 21,
+      "verse_key": "72:21",
+      "hizb_number": 58,
+      "rub_el_hizb_number": 229,
+      "ruku_number": 509,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "قُلْ إِنِّى لَآ أَمْلِكُ لَكُمْ ضَرًّا وَلَا رَشَدًا",
+      "page_number": 573,
+      "juz_number": 29,
+      "translations": [
+        {
+          "id": 407171,
+          "resource_id": 85,
+          "text": "Say, ‘I have no control over any harm or good that may befall you.’"
+        }
+      ]
+    },
+    {
+      "id": 5469,
+      "verse_number": 22,
+      "verse_key": "72:22",
+      "hizb_number": 58,
+      "rub_el_hizb_number": 229,
+      "ruku_number": 509,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "قُلْ إِنِّى لَن يُجِيرَنِى مِنَ ٱللَّهِ أَحَدٌ وَلَنْ أَجِدَ مِن دُونِهِۦ مُلْتَحَدًا",
+      "page_number": 573,
+      "juz_number": 29,
+      "translations": [
+        {
+          "id": 407172,
+          "resource_id": 85,
+          "text": "Say, ‘No one can protect me from God: I have no refuge except in Him."
+        }
+      ]
+    },
+    {
+      "id": 5470,
+      "verse_number": 23,
+      "verse_key": "72:23",
+      "hizb_number": 58,
+      "rub_el_hizb_number": 229,
+      "ruku_number": 509,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "إِلَّا بَلَـٰغًا مِّنَ ٱللَّهِ وَرِسَـٰلَـٰتِهِۦ ۚ وَمَن يَعْصِ ٱللَّهَ وَرَسُولَهُۥ فَإِنَّ لَهُۥ نَارَ جَهَنَّمَ خَـٰلِدِينَ فِيهَآ أَبَدًا",
+      "page_number": 573,
+      "juz_number": 29,
+      "translations": [
+        {
+          "id": 407173,
+          "resource_id": 85,
+          "text": "I only deliver [what I receive] from God- only His messages.’ Whoever disobeys God and His Messenger will have Hell’s Fire as his permanent home:"
+        }
+      ]
+    },
+    {
+      "id": 5471,
+      "verse_number": 24,
+      "verse_key": "72:24",
+      "hizb_number": 58,
+      "rub_el_hizb_number": 229,
+      "ruku_number": 509,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "حَتَّىٰٓ إِذَا رَأَوْا۟ مَا يُوعَدُونَ فَسَيَعْلَمُونَ مَنْ أَضْعَفُ نَاصِرًا وَأَقَلُّ عَدَدًا",
+      "page_number": 573,
+      "juz_number": 29,
+      "translations": [
+        {
+          "id": 407174,
+          "resource_id": 85,
+          "text": "when they are confronted by what they have been warned about, they will realize who has the weaker protector and the smaller number."
+        }
+      ]
+    },
+    {
+      "id": 5472,
+      "verse_number": 25,
+      "verse_key": "72:25",
+      "hizb_number": 58,
+      "rub_el_hizb_number": 229,
+      "ruku_number": 509,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "قُلْ إِنْ أَدْرِىٓ أَقَرِيبٌ مَّا تُوعَدُونَ أَمْ يَجْعَلُ لَهُۥ رَبِّىٓ أَمَدًا",
+      "page_number": 573,
+      "juz_number": 29,
+      "translations": [
+        {
+          "id": 407175,
+          "resource_id": 85,
+          "text": "Say, ‘I do not know whether what you have been warned about is near, or whether a distant time has been appointed for it by my Lord.’"
+        }
+      ]
+    },
+    {
+      "id": 5473,
+      "verse_number": 26,
+      "verse_key": "72:26",
+      "hizb_number": 58,
+      "rub_el_hizb_number": 229,
+      "ruku_number": 509,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "عَـٰلِمُ ٱلْغَيْبِ فَلَا يُظْهِرُ عَلَىٰ غَيْبِهِۦٓ أَحَدًا",
+      "page_number": 573,
+      "juz_number": 29,
+      "translations": [
+        {
+          "id": 407176,
+          "resource_id": 85,
+          "text": "He is the One who knows what is hidden."
+        }
+      ]
+    },
+    {
+      "id": 5474,
+      "verse_number": 27,
+      "verse_key": "72:27",
+      "hizb_number": 58,
+      "rub_el_hizb_number": 229,
+      "ruku_number": 509,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "إِلَّا مَنِ ٱرْتَضَىٰ مِن رَّسُولٍ فَإِنَّهُۥ يَسْلُكُ مِنۢ بَيْنِ يَدَيْهِ وَمِنْ خَلْفِهِۦ رَصَدًا",
+      "page_number": 573,
+      "juz_number": 29,
+      "translations": [
+        {
+          "id": 407177,
+          "resource_id": 85,
+          "text": "He does not disclose it except to a messenger of His choosing. He sends watchers to go in front and behind"
+        }
+      ]
+    },
+    {
+      "id": 5475,
+      "verse_number": 28,
+      "verse_key": "72:28",
+      "hizb_number": 58,
+      "rub_el_hizb_number": 229,
+      "ruku_number": 509,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "لِّيَعْلَمَ أَن قَدْ أَبْلَغُوا۟ رِسَـٰلَـٰتِ رَبِّهِمْ وَأَحَاطَ بِمَا لَدَيْهِمْ وَأَحْصَىٰ كُلَّ شَىْءٍ عَدَدًۢا",
+      "page_number": 573,
+      "juz_number": 29,
+      "translations": [
+        {
+          "id": 407178,
+          "resource_id": 85,
+          "text": "to ensure that each of His messengers delivers his Lord’s message: He knows all about them, and He takes account of everything."
+        }
+      ]
+    }
+  ]
+}

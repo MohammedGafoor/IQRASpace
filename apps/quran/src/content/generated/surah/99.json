@@ -1,0 +1,183 @@
+{
+  "syncedAt": "2026-08-31T05:21:28.114Z",
+  "chapter": {
+    "id": 99,
+    "revelation_place": "madinah",
+    "revelation_order": 93,
+    "bismillah_pre": true,
+    "name_simple": "Az-Zalzalah",
+    "name_complex": "Az-Zalzalah",
+    "name_arabic": "الزلزلة",
+    "verses_count": 8,
+    "pages": [
+      599,
+      599
+    ],
+    "translated_name": {
+      "language_name": "english",
+      "name": "The Earthquake"
+    }
+  },
+  "verses": [
+    {
+      "id": 6139,
+      "verse_number": 1,
+      "verse_key": "99:1",
+      "hizb_number": 60,
+      "rub_el_hizb_number": 239,
+      "ruku_number": 543,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": " إِذَا زُلْزِلَتِ ٱلْأَرْضُ زِلْزَالَهَا",
+      "page_number": 599,
+      "juz_number": 30,
+      "translations": [
+        {
+          "id": 407842,
+          "resource_id": 85,
+          "text": "When the earth is shaken violently in its [last] quaking,"
+        }
+      ]
+    },
+    {
+      "id": 6140,
+      "verse_number": 2,
+      "verse_key": "99:2",
+      "hizb_number": 60,
+      "rub_el_hizb_number": 239,
+      "ruku_number": 543,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "وَأَخْرَجَتِ ٱلْأَرْضُ أَثْقَالَهَا",
+      "page_number": 599,
+      "juz_number": 30,
+      "translations": [
+        {
+          "id": 407843,
+          "resource_id": 85,
+          "text": "when the earth throws out its burdens,"
+        }
+      ]
+    },
+    {
+      "id": 6141,
+      "verse_number": 3,
+      "verse_key": "99:3",
+      "hizb_number": 60,
+      "rub_el_hizb_number": 239,
+      "ruku_number": 543,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "وَقَالَ ٱلْإِنسَـٰنُ مَا لَهَا",
+      "page_number": 599,
+      "juz_number": 30,
+      "translations": [
+        {
+          "id": 407844,
+          "resource_id": 85,
+          "text": "when man cries, ‘What is happening to it?’;"
+        }
+      ]
+    },
+    {
+      "id": 6142,
+      "verse_number": 4,
+      "verse_key": "99:4",
+      "hizb_number": 60,
+      "rub_el_hizb_number": 239,
+      "ruku_number": 543,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "يَوْمَئِذٍ تُحَدِّثُ أَخْبَارَهَا",
+      "page_number": 599,
+      "juz_number": 30,
+      "translations": [
+        {
+          "id": 407845,
+          "resource_id": 85,
+          "text": "on that Day, it will tell all"
+        }
+      ]
+    },
+    {
+      "id": 6143,
+      "verse_number": 5,
+      "verse_key": "99:5",
+      "hizb_number": 60,
+      "rub_el_hizb_number": 239,
+      "ruku_number": 543,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "بِأَنَّ رَبَّكَ أَوْحَىٰ لَهَا",
+      "page_number": 599,
+      "juz_number": 30,
+      "translations": [
+        {
+          "id": 407846,
+          "resource_id": 85,
+          "text": "because your Lord will inspire it [to do so]."
+        }
+      ]
+    },
+    {
+      "id": 6144,
+      "verse_number": 6,
+      "verse_key": "99:6",
+      "hizb_number": 60,
+      "rub_el_hizb_number": 239,
+      "ruku_number": 543,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "يَوْمَئِذٍ يَصْدُرُ ٱلنَّاسُ أَشْتَاتًا لِّيُرَوْا۟ أَعْمَـٰلَهُمْ",
+      "page_number": 599,
+      "juz_number": 30,
+      "translations": [
+        {
+          "id": 407847,
+          "resource_id": 85,
+          "text": "On that Day, people will come forward in separate groups to be shown their deeds:"
+        }
+      ]
+    },
+    {
+      "id": 6145,
+      "verse_number": 7,
+      "verse_key": "99:7",
+      "hizb_number": 60,
+      "rub_el_hizb_number": 239,
+      "ruku_number": 543,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "فَمَن يَعْمَلْ مِثْقَالَ ذَرَّةٍ خَيْرًا يَرَهُۥ",
+      "page_number": 599,
+      "juz_number": 30,
+      "translations": [
+        {
+          "id": 407848,
+          "resource_id": 85,
+          "text": "whoever has done an atom’s-weight of good will see it,"
+        }
+      ]
+    },
+    {
+      "id": 6146,
+      "verse_number": 8,
+      "verse_key": "99:8",
+      "hizb_number": 60,
+      "rub_el_hizb_number": 239,
+      "ruku_number": 543,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "وَمَن يَعْمَلْ مِثْقَالَ ذَرَّةٍ شَرًّا يَرَهُۥ",
+      "page_number": 599,
+      "juz_number": 30,
+      "translations": [
+        {
+          "id": 407849,
+          "resource_id": 85,
+          "text": "but whoever has done an atom’s-weight of evil will see that."
+        }
+      ]
+    }
+  ]
+}

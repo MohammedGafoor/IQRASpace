@@ -1,0 +1,243 @@
+{
+  "syncedAt": "2026-08-31T05:21:11.872Z",
+  "chapter": {
+    "id": 63,
+    "revelation_place": "madinah",
+    "revelation_order": 104,
+    "bismillah_pre": true,
+    "name_simple": "Al-Munafiqun",
+    "name_complex": "Al-Munāfiqūn",
+    "name_arabic": "المنافقون",
+    "verses_count": 11,
+    "pages": [
+      554,
+      555
+    ],
+    "translated_name": {
+      "language_name": "english",
+      "name": "The Hypocrites"
+    }
+  },
+  "verses": [
+    {
+      "id": 5189,
+      "verse_number": 1,
+      "verse_key": "63:1",
+      "hizb_number": 56,
+      "rub_el_hizb_number": 221,
+      "ruku_number": 490,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": " إِذَا جَآءَكَ ٱلْمُنَـٰفِقُونَ قَالُوا۟ نَشْهَدُ إِنَّكَ لَرَسُولُ ٱللَّهِ ۗ وَٱللَّهُ يَعْلَمُ إِنَّكَ لَرَسُولُهُۥ وَٱللَّهُ يَشْهَدُ إِنَّ ٱلْمُنَـٰفِقِينَ لَكَـٰذِبُونَ",
+      "page_number": 554,
+      "juz_number": 28,
+      "translations": [
+        {
+          "id": 406892,
+          "resource_id": 85,
+          "text": "When the hypocrites come to you [Prophet], they say, ‘We bear witness that you are the Messenger of God.’ God knows that you truly are His Messenger and He bears witness that the hypocrites are liars––"
+        }
+      ]
+    },
+    {
+      "id": 5190,
+      "verse_number": 2,
+      "verse_key": "63:2",
+      "hizb_number": 56,
+      "rub_el_hizb_number": 221,
+      "ruku_number": 490,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "ٱتَّخَذُوٓا۟ أَيْمَـٰنَهُمْ جُنَّةً فَصَدُّوا۟ عَن سَبِيلِ ٱللَّهِ ۚ إِنَّهُمْ سَآءَ مَا كَانُوا۟ يَعْمَلُونَ",
+      "page_number": 554,
+      "juz_number": 28,
+      "translations": [
+        {
+          "id": 406893,
+          "resource_id": 85,
+          "text": "they use their oaths as a cover and so bar others from God’s way: what they have been doing is truly evil––"
+        }
+      ]
+    },
+    {
+      "id": 5191,
+      "verse_number": 3,
+      "verse_key": "63:3",
+      "hizb_number": 56,
+      "rub_el_hizb_number": 221,
+      "ruku_number": 490,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "ذَٰلِكَ بِأَنَّهُمْ ءَامَنُوا۟ ثُمَّ كَفَرُوا۟ فَطُبِعَ عَلَىٰ قُلُوبِهِمْ فَهُمْ لَا يَفْقَهُونَ",
+      "page_number": 554,
+      "juz_number": 28,
+      "translations": [
+        {
+          "id": 406894,
+          "resource_id": 85,
+          "text": "because they professed faith and then rejected it, so their hearts have been sealed and they do not understand."
+        }
+      ]
+    },
+    {
+      "id": 5192,
+      "verse_number": 4,
+      "verse_key": "63:4",
+      "hizb_number": 56,
+      "rub_el_hizb_number": 222,
+      "ruku_number": 490,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "۞ وَإِذَا رَأَيْتَهُمْ تُعْجِبُكَ أَجْسَامُهُمْ ۖ وَإِن يَقُولُوا۟ تَسْمَعْ لِقَوْلِهِمْ ۖ كَأَنَّهُمْ خُشُبٌ مُّسَنَّدَةٌ ۖ يَحْسَبُونَ كُلَّ صَيْحَةٍ عَلَيْهِمْ ۚ هُمُ ٱلْعَدُوُّ فَٱحْذَرْهُمْ ۚ قَـٰتَلَهُمُ ٱللَّهُ ۖ أَنَّىٰ يُؤْفَكُونَ",
+      "page_number": 554,
+      "juz_number": 28,
+      "translations": [
+        {
+          "id": 406895,
+          "resource_id": 85,
+          "text": "When you see them [Prophet], their outward appearance pleases you; when they speak, you listen to what they say. But they are like propped-up tim-bers––they think every cry they hear is against them––and they are the enemy. Beware of them. May God confound them! How devious they are!"
+        }
+      ]
+    },
+    {
+      "id": 5193,
+      "verse_number": 5,
+      "verse_key": "63:5",
+      "hizb_number": 56,
+      "rub_el_hizb_number": 222,
+      "ruku_number": 490,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "وَإِذَا قِيلَ لَهُمْ تَعَالَوْا۟ يَسْتَغْفِرْ لَكُمْ رَسُولُ ٱللَّهِ لَوَّوْا۟ رُءُوسَهُمْ وَرَأَيْتَهُمْ يَصُدُّونَ وَهُم مُّسْتَكْبِرُونَ",
+      "page_number": 555,
+      "juz_number": 28,
+      "translations": [
+        {
+          "id": 406896,
+          "resource_id": 85,
+          "text": "They turn their heads away in disdain when they are told, ‘Come, so that the Messenger of God may ask forgiveness for you,’ and you see them walking away arrogantly."
+        }
+      ]
+    },
+    {
+      "id": 5194,
+      "verse_number": 6,
+      "verse_key": "63:6",
+      "hizb_number": 56,
+      "rub_el_hizb_number": 222,
+      "ruku_number": 490,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "سَوَآءٌ عَلَيْهِمْ أَسْتَغْفَرْتَ لَهُمْ أَمْ لَمْ تَسْتَغْفِرْ لَهُمْ لَن يَغْفِرَ ٱللَّهُ لَهُمْ ۚ إِنَّ ٱللَّهَ لَا يَهْدِى ٱلْقَوْمَ ٱلْفَـٰسِقِينَ",
+      "page_number": 555,
+      "juz_number": 28,
+      "translations": [
+        {
+          "id": 406897,
+          "resource_id": 85,
+          "text": "It makes no difference whether you ask forgiveness for them or not, God will not forgive them: God does not guide such treacherous people."
+        }
+      ]
+    },
+    {
+      "id": 5195,
+      "verse_number": 7,
+      "verse_key": "63:7",
+      "hizb_number": 56,
+      "rub_el_hizb_number": 222,
+      "ruku_number": 490,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "هُمُ ٱلَّذِينَ يَقُولُونَ لَا تُنفِقُوا۟ عَلَىٰ مَنْ عِندَ رَسُولِ ٱللَّهِ حَتَّىٰ يَنفَضُّوا۟ ۗ وَلِلَّهِ خَزَآئِنُ ٱلسَّمَـٰوَٰتِ وَٱلْأَرْضِ وَلَـٰكِنَّ ٱلْمُنَـٰفِقِينَ لَا يَفْقَهُونَ",
+      "page_number": 555,
+      "juz_number": 28,
+      "translations": [
+        {
+          "id": 406898,
+          "resource_id": 85,
+          "text": "They are the ones who say, ‘Give nothing to those who follow God’s Messenger, until they abandon him’, but to God belong the treasures of the heavens and earth, though the hypocrites do not understand this."
+        }
+      ]
+    },
+    {
+      "id": 5196,
+      "verse_number": 8,
+      "verse_key": "63:8",
+      "hizb_number": 56,
+      "rub_el_hizb_number": 222,
+      "ruku_number": 490,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "يَقُولُونَ لَئِن رَّجَعْنَآ إِلَى ٱلْمَدِينَةِ لَيُخْرِجَنَّ ٱلْأَعَزُّ مِنْهَا ٱلْأَذَلَّ ۚ وَلِلَّهِ ٱلْعِزَّةُ وَلِرَسُولِهِۦ وَلِلْمُؤْمِنِينَ وَلَـٰكِنَّ ٱلْمُنَـٰفِقِينَ لَا يَعْلَمُونَ",
+      "page_number": 555,
+      "juz_number": 28,
+      "translations": [
+        {
+          "id": 406899,
+          "resource_id": 85,
+          "text": "They say, ‘Once we return to Medina the powerful will drive out the weak,’ but power belongs to God, to His Messenger, and to the believers, though the hypocrites do not know this."
+        }
+      ]
+    },
+    {
+      "id": 5197,
+      "verse_number": 9,
+      "verse_key": "63:9",
+      "hizb_number": 56,
+      "rub_el_hizb_number": 222,
+      "ruku_number": 491,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "يَـٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُوا۟ لَا تُلْهِكُمْ أَمْوَٰلُكُمْ وَلَآ أَوْلَـٰدُكُمْ عَن ذِكْرِ ٱللَّهِ ۚ وَمَن يَفْعَلْ ذَٰلِكَ فَأُو۟لَـٰٓئِكَ هُمُ ٱلْخَـٰسِرُونَ",
+      "page_number": 555,
+      "juz_number": 28,
+      "translations": [
+        {
+          "id": 406900,
+          "resource_id": 85,
+          "text": "Believers, do not let your wealth and your children distract you from remembering God: those who do so will be the ones who lose."
+        }
+      ]
+    },
+    {
+      "id": 5198,
+      "verse_number": 10,
+      "verse_key": "63:10",
+      "hizb_number": 56,
+      "rub_el_hizb_number": 222,
+      "ruku_number": 491,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "وَأَنفِقُوا۟ مِن مَّا رَزَقْنَـٰكُم مِّن قَبْلِ أَن يَأْتِىَ أَحَدَكُمُ ٱلْمَوْتُ فَيَقُولَ رَبِّ لَوْلَآ أَخَّرْتَنِىٓ إِلَىٰٓ أَجَلٍ قَرِيبٍ فَأَصَّدَّقَ وَأَكُن مِّنَ ٱلصَّـٰلِحِينَ",
+      "page_number": 555,
+      "juz_number": 28,
+      "translations": [
+        {
+          "id": 406901,
+          "resource_id": 85,
+          "text": "Give out of what We have provided for you, before death comes to one of you and he says, ‘My Lord, if You would only reprieve me for a little while, I would give in charity and become one of the righteous.’"
+        }
+      ]
+    },
+    {
+      "id": 5199,
+      "verse_number": 11,
+      "verse_key": "63:11",
+      "hizb_number": 56,
+      "rub_el_hizb_number": 222,
+      "ruku_number": 491,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "وَلَن يُؤَخِّرَ ٱللَّهُ نَفْسًا إِذَا جَآءَ أَجَلُهَا ۚ وَٱللَّهُ خَبِيرٌۢ بِمَا تَعْمَلُونَ",
+      "page_number": 555,
+      "juz_number": 28,
+      "translations": [
+        {
+          "id": 406902,
+          "resource_id": 85,
+          "text": "God does not reprieve a soul when its turn comes: God is fully aware of what you do."
+        }
+      ]
+    }
+  ]
+}

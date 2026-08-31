@@ -1,0 +1,1123 @@
+{
+  "syncedAt": "2026-08-31T05:21:07.159Z",
+  "chapter": {
+    "id": 54,
+    "revelation_place": "makkah",
+    "revelation_order": 37,
+    "bismillah_pre": true,
+    "name_simple": "Al-Qamar",
+    "name_complex": "Al-Qamar",
+    "name_arabic": "القمر",
+    "verses_count": 55,
+    "pages": [
+      528,
+      531
+    ],
+    "translated_name": {
+      "language_name": "english",
+      "name": "The Moon"
+    }
+  },
+  "verses": [
+    {
+      "id": 4847,
+      "verse_number": 1,
+      "verse_key": "54:1",
+      "hizb_number": 53,
+      "rub_el_hizb_number": 211,
+      "ruku_number": 465,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": " ٱقْتَرَبَتِ ٱلسَّاعَةُ وَٱنشَقَّ ٱلْقَمَرُ",
+      "page_number": 528,
+      "juz_number": 27,
+      "translations": [
+        {
+          "id": 406550,
+          "resource_id": 85,
+          "text": "The Hour draws near; the moon is split in two."
+        }
+      ]
+    },
+    {
+      "id": 4848,
+      "verse_number": 2,
+      "verse_key": "54:2",
+      "hizb_number": 53,
+      "rub_el_hizb_number": 211,
+      "ruku_number": 465,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "وَإِن يَرَوْا۟ ءَايَةً يُعْرِضُوا۟ وَيَقُولُوا۟ سِحْرٌ مُّسْتَمِرٌّ",
+      "page_number": 528,
+      "juz_number": 27,
+      "translations": [
+        {
+          "id": 406551,
+          "resource_id": 85,
+          "text": "Whenever the disbelievers see a sign, they turn away and say, ‘Same old sorcery!’"
+        }
+      ]
+    },
+    {
+      "id": 4849,
+      "verse_number": 3,
+      "verse_key": "54:3",
+      "hizb_number": 53,
+      "rub_el_hizb_number": 211,
+      "ruku_number": 465,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "وَكَذَّبُوا۟ وَٱتَّبَعُوٓا۟ أَهْوَآءَهُمْ ۚ وَكُلُّ أَمْرٍ مُّسْتَقِرٌّ",
+      "page_number": 528,
+      "juz_number": 27,
+      "translations": [
+        {
+          "id": 406552,
+          "resource_id": 85,
+          "text": "They reject the truth and follow their own desires––everything is recorded––"
+        }
+      ]
+    },
+    {
+      "id": 4850,
+      "verse_number": 4,
+      "verse_key": "54:4",
+      "hizb_number": 53,
+      "rub_el_hizb_number": 211,
+      "ruku_number": 465,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "وَلَقَدْ جَآءَهُم مِّنَ ٱلْأَنۢبَآءِ مَا فِيهِ مُزْدَجَرٌ",
+      "page_number": 528,
+      "juz_number": 27,
+      "translations": [
+        {
+          "id": 406553,
+          "resource_id": 85,
+          "text": "although warning tales that should have restrained them have come down to them––"
+        }
+      ]
+    },
+    {
+      "id": 4851,
+      "verse_number": 5,
+      "verse_key": "54:5",
+      "hizb_number": 53,
+      "rub_el_hizb_number": 211,
+      "ruku_number": 465,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "حِكْمَةٌۢ بَـٰلِغَةٌ ۖ فَمَا تُغْنِ ٱلنُّذُرُ",
+      "page_number": 528,
+      "juz_number": 27,
+      "translations": [
+        {
+          "id": 406554,
+          "resource_id": 85,
+          "text": "farreaching wisdom––but these warnings do not help:"
+        }
+      ]
+    },
+    {
+      "id": 4852,
+      "verse_number": 6,
+      "verse_key": "54:6",
+      "hizb_number": 53,
+      "rub_el_hizb_number": 211,
+      "ruku_number": 465,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "فَتَوَلَّ عَنْهُمْ ۘ يَوْمَ يَدْعُ ٱلدَّاعِ إِلَىٰ شَىْءٍ نُّكُرٍ",
+      "page_number": 528,
+      "juz_number": 27,
+      "translations": [
+        {
+          "id": 406555,
+          "resource_id": 85,
+          "text": "so [Prophet] turn away from them. On the Day the Summoner will summon them to a horrific event,"
+        }
+      ]
+    },
+    {
+      "id": 4853,
+      "verse_number": 7,
+      "verse_key": "54:7",
+      "hizb_number": 53,
+      "rub_el_hizb_number": 211,
+      "ruku_number": 465,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "خُشَّعًا أَبْصَـٰرُهُمْ يَخْرُجُونَ مِنَ ٱلْأَجْدَاثِ كَأَنَّهُمْ جَرَادٌ مُّنتَشِرٌ",
+      "page_number": 529,
+      "juz_number": 27,
+      "translations": [
+        {
+          "id": 406556,
+          "resource_id": 85,
+          "text": "eyes downcast, they will come out of their graves like swarming locusts"
+        }
+      ]
+    },
+    {
+      "id": 4854,
+      "verse_number": 8,
+      "verse_key": "54:8",
+      "hizb_number": 53,
+      "rub_el_hizb_number": 211,
+      "ruku_number": 465,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "مُّهْطِعِينَ إِلَى ٱلدَّاعِ ۖ يَقُولُ ٱلْكَـٰفِرُونَ هَـٰذَا يَوْمٌ عَسِرٌ",
+      "page_number": 529,
+      "juz_number": 27,
+      "translations": [
+        {
+          "id": 406557,
+          "resource_id": 85,
+          "text": "rushing towards the Summoner. The disbelievers will cry, ‘This is a stern day!’"
+        }
+      ]
+    },
+    {
+      "id": 4855,
+      "verse_number": 9,
+      "verse_key": "54:9",
+      "hizb_number": 53,
+      "rub_el_hizb_number": 212,
+      "ruku_number": 465,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "۞ كَذَّبَتْ قَبْلَهُمْ قَوْمُ نُوحٍ فَكَذَّبُوا۟ عَبْدَنَا وَقَالُوا۟ مَجْنُونٌ وَٱزْدُجِرَ",
+      "page_number": 529,
+      "juz_number": 27,
+      "translations": [
+        {
+          "id": 406558,
+          "resource_id": 85,
+          "text": "The people of Noah rejected the truth before them: they rejected Our servant, saying, ‘He is mad!’ Noah was rebuked,"
+        }
+      ]
+    },
+    {
+      "id": 4856,
+      "verse_number": 10,
+      "verse_key": "54:10",
+      "hizb_number": 53,
+      "rub_el_hizb_number": 212,
+      "ruku_number": 465,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "فَدَعَا رَبَّهُۥٓ أَنِّى مَغْلُوبٌ فَٱنتَصِرْ",
+      "page_number": 529,
+      "juz_number": 27,
+      "translations": [
+        {
+          "id": 406559,
+          "resource_id": 85,
+          "text": "and so he called upon his Lord, ‘I am defeated: help me!’"
+        }
+      ]
+    },
+    {
+      "id": 4857,
+      "verse_number": 11,
+      "verse_key": "54:11",
+      "hizb_number": 53,
+      "rub_el_hizb_number": 212,
+      "ruku_number": 465,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "فَفَتَحْنَآ أَبْوَٰبَ ٱلسَّمَآءِ بِمَآءٍ مُّنْهَمِرٍ",
+      "page_number": 529,
+      "juz_number": 27,
+      "translations": [
+        {
+          "id": 406560,
+          "resource_id": 85,
+          "text": "So We opened the gates of the sky with torrential water,"
+        }
+      ]
+    },
+    {
+      "id": 4858,
+      "verse_number": 12,
+      "verse_key": "54:12",
+      "hizb_number": 53,
+      "rub_el_hizb_number": 212,
+      "ruku_number": 465,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "وَفَجَّرْنَا ٱلْأَرْضَ عُيُونًا فَٱلْتَقَى ٱلْمَآءُ عَلَىٰٓ أَمْرٍ قَدْ قُدِرَ",
+      "page_number": 529,
+      "juz_number": 27,
+      "translations": [
+        {
+          "id": 406561,
+          "resource_id": 85,
+          "text": "burst the earth with gushing springs: the waters met for a preordained purpose."
+        }
+      ]
+    },
+    {
+      "id": 4859,
+      "verse_number": 13,
+      "verse_key": "54:13",
+      "hizb_number": 53,
+      "rub_el_hizb_number": 212,
+      "ruku_number": 465,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "وَحَمَلْنَـٰهُ عَلَىٰ ذَاتِ أَلْوَٰحٍ وَدُسُرٍ",
+      "page_number": 529,
+      "juz_number": 27,
+      "translations": [
+        {
+          "id": 406562,
+          "resource_id": 85,
+          "text": "We carried him along on a vessel of planks and nails"
+        }
+      ]
+    },
+    {
+      "id": 4860,
+      "verse_number": 14,
+      "verse_key": "54:14",
+      "hizb_number": 53,
+      "rub_el_hizb_number": 212,
+      "ruku_number": 465,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "تَجْرِى بِأَعْيُنِنَا جَزَآءً لِّمَن كَانَ كُفِرَ",
+      "page_number": 529,
+      "juz_number": 27,
+      "translations": [
+        {
+          "id": 406563,
+          "resource_id": 85,
+          "text": "that floated under Our watchful eye, a reward for the one who had been rejected."
+        }
+      ]
+    },
+    {
+      "id": 4861,
+      "verse_number": 15,
+      "verse_key": "54:15",
+      "hizb_number": 53,
+      "rub_el_hizb_number": 212,
+      "ruku_number": 465,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "وَلَقَد تَّرَكْنَـٰهَآ ءَايَةً فَهَلْ مِن مُّدَّكِرٍ",
+      "page_number": 529,
+      "juz_number": 27,
+      "translations": [
+        {
+          "id": 406564,
+          "resource_id": 85,
+          "text": "We have left this as a sign: will anyone take heed?"
+        }
+      ]
+    },
+    {
+      "id": 4862,
+      "verse_number": 16,
+      "verse_key": "54:16",
+      "hizb_number": 53,
+      "rub_el_hizb_number": 212,
+      "ruku_number": 465,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "فَكَيْفَ كَانَ عَذَابِى وَنُذُرِ",
+      "page_number": 529,
+      "juz_number": 27,
+      "translations": [
+        {
+          "id": 406565,
+          "resource_id": 85,
+          "text": "How [terrible] was My punishment and [the fulfilment of] My warnings!"
+        }
+      ]
+    },
+    {
+      "id": 4863,
+      "verse_number": 17,
+      "verse_key": "54:17",
+      "hizb_number": 53,
+      "rub_el_hizb_number": 212,
+      "ruku_number": 465,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "وَلَقَدْ يَسَّرْنَا ٱلْقُرْءَانَ لِلذِّكْرِ فَهَلْ مِن مُّدَّكِرٍ",
+      "page_number": 529,
+      "juz_number": 27,
+      "translations": [
+        {
+          "id": 406566,
+          "resource_id": 85,
+          "text": "We have made it easy to learn lessons from the Quran: will anyone take heed?"
+        }
+      ]
+    },
+    {
+      "id": 4864,
+      "verse_number": 18,
+      "verse_key": "54:18",
+      "hizb_number": 53,
+      "rub_el_hizb_number": 212,
+      "ruku_number": 465,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "كَذَّبَتْ عَادٌ فَكَيْفَ كَانَ عَذَابِى وَنُذُرِ",
+      "page_number": 529,
+      "juz_number": 27,
+      "translations": [
+        {
+          "id": 406567,
+          "resource_id": 85,
+          "text": "The people of 'Ad also rejected the truth. How [terrible] was My punishment and [the fulfilment of] My warnings!"
+        }
+      ]
+    },
+    {
+      "id": 4865,
+      "verse_number": 19,
+      "verse_key": "54:19",
+      "hizb_number": 53,
+      "rub_el_hizb_number": 212,
+      "ruku_number": 465,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "إِنَّآ أَرْسَلْنَا عَلَيْهِمْ رِيحًا صَرْصَرًا فِى يَوْمِ نَحْسٍ مُّسْتَمِرٍّ",
+      "page_number": 529,
+      "juz_number": 27,
+      "translations": [
+        {
+          "id": 406568,
+          "resource_id": 85,
+          "text": "We released a howling wind against them on a day of terrible disaster;"
+        }
+      ]
+    },
+    {
+      "id": 4866,
+      "verse_number": 20,
+      "verse_key": "54:20",
+      "hizb_number": 53,
+      "rub_el_hizb_number": 212,
+      "ruku_number": 465,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "تَنزِعُ ٱلنَّاسَ كَأَنَّهُمْ أَعْجَازُ نَخْلٍ مُّنقَعِرٍ",
+      "page_number": 529,
+      "juz_number": 27,
+      "translations": [
+        {
+          "id": 406569,
+          "resource_id": 85,
+          "text": "it swept people away like uprooted palm trunks."
+        }
+      ]
+    },
+    {
+      "id": 4867,
+      "verse_number": 21,
+      "verse_key": "54:21",
+      "hizb_number": 53,
+      "rub_el_hizb_number": 212,
+      "ruku_number": 465,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "فَكَيْفَ كَانَ عَذَابِى وَنُذُرِ",
+      "page_number": 529,
+      "juz_number": 27,
+      "translations": [
+        {
+          "id": 406570,
+          "resource_id": 85,
+          "text": "How [terrible] was My punishment and [the fulfilment of] My warnings!"
+        }
+      ]
+    },
+    {
+      "id": 4868,
+      "verse_number": 22,
+      "verse_key": "54:22",
+      "hizb_number": 53,
+      "rub_el_hizb_number": 212,
+      "ruku_number": 465,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "وَلَقَدْ يَسَّرْنَا ٱلْقُرْءَانَ لِلذِّكْرِ فَهَلْ مِن مُّدَّكِرٍ",
+      "page_number": 529,
+      "juz_number": 27,
+      "translations": [
+        {
+          "id": 406571,
+          "resource_id": 85,
+          "text": "We have made it easy to learn lessons from the Quran: will anyone take heed?"
+        }
+      ]
+    },
+    {
+      "id": 4869,
+      "verse_number": 23,
+      "verse_key": "54:23",
+      "hizb_number": 53,
+      "rub_el_hizb_number": 212,
+      "ruku_number": 466,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "كَذَّبَتْ ثَمُودُ بِٱلنُّذُرِ",
+      "page_number": 529,
+      "juz_number": 27,
+      "translations": [
+        {
+          "id": 406572,
+          "resource_id": 85,
+          "text": "The people of Thamud also rejected the warnings:"
+        }
+      ]
+    },
+    {
+      "id": 4870,
+      "verse_number": 24,
+      "verse_key": "54:24",
+      "hizb_number": 53,
+      "rub_el_hizb_number": 212,
+      "ruku_number": 466,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "فَقَالُوٓا۟ أَبَشَرًا مِّنَّا وَٰحِدًا نَّتَّبِعُهُۥٓ إِنَّآ إِذًا لَّفِى ضَلَـٰلٍ وَسُعُرٍ",
+      "page_number": 529,
+      "juz_number": 27,
+      "translations": [
+        {
+          "id": 406573,
+          "resource_id": 85,
+          "text": "they said, ‘What? A man? Why should we follow a lone man from amongst ourselves? That would be misguided; quite insane!"
+        }
+      ]
+    },
+    {
+      "id": 4871,
+      "verse_number": 25,
+      "verse_key": "54:25",
+      "hizb_number": 53,
+      "rub_el_hizb_number": 212,
+      "ruku_number": 466,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "أَءُلْقِىَ ٱلذِّكْرُ عَلَيْهِ مِنۢ بَيْنِنَا بَلْ هُوَ كَذَّابٌ أَشِرٌ",
+      "page_number": 529,
+      "juz_number": 27,
+      "translations": [
+        {
+          "id": 406574,
+          "resource_id": 85,
+          "text": "Would a mes-sage be given to him alone out of all of us? No, he is an insolent liar!’"
+        }
+      ]
+    },
+    {
+      "id": 4872,
+      "verse_number": 26,
+      "verse_key": "54:26",
+      "hizb_number": 53,
+      "rub_el_hizb_number": 212,
+      "ruku_number": 466,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "سَيَعْلَمُونَ غَدًا مَّنِ ٱلْكَذَّابُ ٱلْأَشِرُ",
+      "page_number": 529,
+      "juz_number": 27,
+      "translations": [
+        {
+          "id": 406575,
+          "resource_id": 85,
+          "text": "‘Tomorrow they will know who is the insolent liar,"
+        }
+      ]
+    },
+    {
+      "id": 4873,
+      "verse_number": 27,
+      "verse_key": "54:27",
+      "hizb_number": 53,
+      "rub_el_hizb_number": 212,
+      "ruku_number": 466,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "إِنَّا مُرْسِلُوا۟ ٱلنَّاقَةِ فِتْنَةً لَّهُمْ فَٱرْتَقِبْهُمْ وَٱصْطَبِرْ",
+      "page_number": 529,
+      "juz_number": 27,
+      "translations": [
+        {
+          "id": 406576,
+          "resource_id": 85,
+          "text": "for We shall send them a she-camel to test them: so watch them [Salih] and be patient."
+        }
+      ]
+    },
+    {
+      "id": 4874,
+      "verse_number": 28,
+      "verse_key": "54:28",
+      "hizb_number": 53,
+      "rub_el_hizb_number": 212,
+      "ruku_number": 466,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "وَنَبِّئْهُمْ أَنَّ ٱلْمَآءَ قِسْمَةٌۢ بَيْنَهُمْ ۖ كُلُّ شِرْبٍ مُّحْتَضَرٌ",
+      "page_number": 530,
+      "juz_number": 27,
+      "translations": [
+        {
+          "id": 406577,
+          "resource_id": 85,
+          "text": "Tell them the water is to be shared between them: each one should drink in turn.’"
+        }
+      ]
+    },
+    {
+      "id": 4875,
+      "verse_number": 29,
+      "verse_key": "54:29",
+      "hizb_number": 53,
+      "rub_el_hizb_number": 212,
+      "ruku_number": 466,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "فَنَادَوْا۟ صَاحِبَهُمْ فَتَعَاطَىٰ فَعَقَرَ",
+      "page_number": 530,
+      "juz_number": 27,
+      "translations": [
+        {
+          "id": 406578,
+          "resource_id": 85,
+          "text": "But they called their companion, who took a sword and hamstrung the camel."
+        }
+      ]
+    },
+    {
+      "id": 4876,
+      "verse_number": 30,
+      "verse_key": "54:30",
+      "hizb_number": 53,
+      "rub_el_hizb_number": 212,
+      "ruku_number": 466,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "فَكَيْفَ كَانَ عَذَابِى وَنُذُرِ",
+      "page_number": 530,
+      "juz_number": 27,
+      "translations": [
+        {
+          "id": 406579,
+          "resource_id": 85,
+          "text": "How [terrible] was My punishment and [the fulfilment of] My warnings!"
+        }
+      ]
+    },
+    {
+      "id": 4877,
+      "verse_number": 31,
+      "verse_key": "54:31",
+      "hizb_number": 53,
+      "rub_el_hizb_number": 212,
+      "ruku_number": 466,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "إِنَّآ أَرْسَلْنَا عَلَيْهِمْ صَيْحَةً وَٰحِدَةً فَكَانُوا۟ كَهَشِيمِ ٱلْمُحْتَظِرِ",
+      "page_number": 530,
+      "juz_number": 27,
+      "translations": [
+        {
+          "id": 406580,
+          "resource_id": 85,
+          "text": "We released a single mighty blast against them and they ended up like a fencemaker’s dry sticks."
+        }
+      ]
+    },
+    {
+      "id": 4878,
+      "verse_number": 32,
+      "verse_key": "54:32",
+      "hizb_number": 53,
+      "rub_el_hizb_number": 212,
+      "ruku_number": 466,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "وَلَقَدْ يَسَّرْنَا ٱلْقُرْءَانَ لِلذِّكْرِ فَهَلْ مِن مُّدَّكِرٍ",
+      "page_number": 530,
+      "juz_number": 27,
+      "translations": [
+        {
+          "id": 406581,
+          "resource_id": 85,
+          "text": "We have made it easy to learn lessons from the Quran: will anyone take heed?"
+        }
+      ]
+    },
+    {
+      "id": 4879,
+      "verse_number": 33,
+      "verse_key": "54:33",
+      "hizb_number": 53,
+      "rub_el_hizb_number": 212,
+      "ruku_number": 466,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "كَذَّبَتْ قَوْمُ لُوطٍۭ بِٱلنُّذُرِ",
+      "page_number": 530,
+      "juz_number": 27,
+      "translations": [
+        {
+          "id": 406582,
+          "resource_id": 85,
+          "text": "The people of Lot rejected the warnings."
+        }
+      ]
+    },
+    {
+      "id": 4880,
+      "verse_number": 34,
+      "verse_key": "54:34",
+      "hizb_number": 53,
+      "rub_el_hizb_number": 212,
+      "ruku_number": 466,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "إِنَّآ أَرْسَلْنَا عَلَيْهِمْ حَاصِبًا إِلَّآ ءَالَ لُوطٍ ۖ نَّجَّيْنَـٰهُم بِسَحَرٍ",
+      "page_number": 530,
+      "juz_number": 27,
+      "translations": [
+        {
+          "id": 406583,
+          "resource_id": 85,
+          "text": "We released a stonebearing wind against them, all except the family of Lot. We saved them before dawn"
+        }
+      ]
+    },
+    {
+      "id": 4881,
+      "verse_number": 35,
+      "verse_key": "54:35",
+      "hizb_number": 53,
+      "rub_el_hizb_number": 212,
+      "ruku_number": 466,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "نِّعْمَةً مِّنْ عِندِنَا ۚ كَذَٰلِكَ نَجْزِى مَن شَكَرَ",
+      "page_number": 530,
+      "juz_number": 27,
+      "translations": [
+        {
+          "id": 406584,
+          "resource_id": 85,
+          "text": "as a favour from Us: this is how We reward the thankful."
+        }
+      ]
+    },
+    {
+      "id": 4882,
+      "verse_number": 36,
+      "verse_key": "54:36",
+      "hizb_number": 53,
+      "rub_el_hizb_number": 212,
+      "ruku_number": 466,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "وَلَقَدْ أَنذَرَهُم بَطْشَتَنَا فَتَمَارَوْا۟ بِٱلنُّذُرِ",
+      "page_number": 530,
+      "juz_number": 27,
+      "translations": [
+        {
+          "id": 406585,
+          "resource_id": 85,
+          "text": "He warned them of Our onslaught, but they dismissed the warning-"
+        }
+      ]
+    },
+    {
+      "id": 4883,
+      "verse_number": 37,
+      "verse_key": "54:37",
+      "hizb_number": 53,
+      "rub_el_hizb_number": 212,
+      "ruku_number": 466,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "وَلَقَدْ رَٰوَدُوهُ عَن ضَيْفِهِۦ فَطَمَسْنَآ أَعْيُنَهُمْ فَذُوقُوا۟ عَذَابِى وَنُذُرِ",
+      "page_number": 530,
+      "juz_number": 27,
+      "translations": [
+        {
+          "id": 406586,
+          "resource_id": 85,
+          "text": "they even demanded his guests from him- so We sealed their eyes- ‘ Taste My [terrible] punishment and [the fulfilment of] My warnings!’-"
+        }
+      ]
+    },
+    {
+      "id": 4884,
+      "verse_number": 38,
+      "verse_key": "54:38",
+      "hizb_number": 53,
+      "rub_el_hizb_number": 212,
+      "ruku_number": 466,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "وَلَقَدْ صَبَّحَهُم بُكْرَةً عَذَابٌ مُّسْتَقِرٌّ",
+      "page_number": 530,
+      "juz_number": 27,
+      "translations": [
+        {
+          "id": 406587,
+          "resource_id": 85,
+          "text": "and early in the morning a punishment seized them that still remains-"
+        }
+      ]
+    },
+    {
+      "id": 4885,
+      "verse_number": 39,
+      "verse_key": "54:39",
+      "hizb_number": 53,
+      "rub_el_hizb_number": 212,
+      "ruku_number": 466,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "فَذُوقُوا۟ عَذَابِى وَنُذُرِ",
+      "page_number": 530,
+      "juz_number": 27,
+      "translations": [
+        {
+          "id": 406588,
+          "resource_id": 85,
+          "text": "‘Taste My [terrible] punishment and [the fulfilment of] My warnings!’"
+        }
+      ]
+    },
+    {
+      "id": 4886,
+      "verse_number": 40,
+      "verse_key": "54:40",
+      "hizb_number": 53,
+      "rub_el_hizb_number": 212,
+      "ruku_number": 466,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "وَلَقَدْ يَسَّرْنَا ٱلْقُرْءَانَ لِلذِّكْرِ فَهَلْ مِن مُّدَّكِرٍ",
+      "page_number": 530,
+      "juz_number": 27,
+      "translations": [
+        {
+          "id": 406589,
+          "resource_id": 85,
+          "text": "We have made it easy to learn lessons from the Quran: will anyone take heed?"
+        }
+      ]
+    },
+    {
+      "id": 4887,
+      "verse_number": 41,
+      "verse_key": "54:41",
+      "hizb_number": 53,
+      "rub_el_hizb_number": 212,
+      "ruku_number": 467,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "وَلَقَدْ جَآءَ ءَالَ فِرْعَوْنَ ٱلنُّذُرُ",
+      "page_number": 530,
+      "juz_number": 27,
+      "translations": [
+        {
+          "id": 406590,
+          "resource_id": 85,
+          "text": "The people of Pharaoh also received warnings."
+        }
+      ]
+    },
+    {
+      "id": 4888,
+      "verse_number": 42,
+      "verse_key": "54:42",
+      "hizb_number": 53,
+      "rub_el_hizb_number": 212,
+      "ruku_number": 467,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "كَذَّبُوا۟ بِـَٔايَـٰتِنَا كُلِّهَا فَأَخَذْنَـٰهُمْ أَخْذَ عَزِيزٍ مُّقْتَدِرٍ",
+      "page_number": 530,
+      "juz_number": 27,
+      "translations": [
+        {
+          "id": 406591,
+          "resource_id": 85,
+          "text": "They rejected all Our signs so We seized them with all Our might and power."
+        }
+      ]
+    },
+    {
+      "id": 4889,
+      "verse_number": 43,
+      "verse_key": "54:43",
+      "hizb_number": 53,
+      "rub_el_hizb_number": 212,
+      "ruku_number": 467,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "أَكُفَّارُكُمْ خَيْرٌ مِّنْ أُو۟لَـٰٓئِكُمْ أَمْ لَكُم بَرَآءَةٌ فِى ٱلزُّبُرِ",
+      "page_number": 530,
+      "juz_number": 27,
+      "translations": [
+        {
+          "id": 406592,
+          "resource_id": 85,
+          "text": "‘Are your disbelievers any better than these? Were you given an exemption in the Scripture?’"
+        }
+      ]
+    },
+    {
+      "id": 4890,
+      "verse_number": 44,
+      "verse_key": "54:44",
+      "hizb_number": 53,
+      "rub_el_hizb_number": 212,
+      "ruku_number": 467,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "أَمْ يَقُولُونَ نَحْنُ جَمِيعٌ مُّنتَصِرٌ",
+      "page_number": 530,
+      "juz_number": 27,
+      "translations": [
+        {
+          "id": 406593,
+          "resource_id": 85,
+          "text": "Do they perhaps say, ‘We are a great army and we shall be victorious’?"
+        }
+      ]
+    },
+    {
+      "id": 4891,
+      "verse_number": 45,
+      "verse_key": "54:45",
+      "hizb_number": 53,
+      "rub_el_hizb_number": 212,
+      "ruku_number": 467,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "سَيُهْزَمُ ٱلْجَمْعُ وَيُوَلُّونَ ٱلدُّبُرَ",
+      "page_number": 530,
+      "juz_number": 27,
+      "translations": [
+        {
+          "id": 406594,
+          "resource_id": 85,
+          "text": "Their forces will be routed and they will turn tail and flee."
+        }
+      ]
+    },
+    {
+      "id": 4892,
+      "verse_number": 46,
+      "verse_key": "54:46",
+      "hizb_number": 53,
+      "rub_el_hizb_number": 212,
+      "ruku_number": 467,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "بَلِ ٱلسَّاعَةُ مَوْعِدُهُمْ وَٱلسَّاعَةُ أَدْهَىٰ وَأَمَرُّ",
+      "page_number": 530,
+      "juz_number": 27,
+      "translations": [
+        {
+          "id": 406595,
+          "resource_id": 85,
+          "text": "But the Hour is their appointed time- the Hour is more severe and bitter:"
+        }
+      ]
+    },
+    {
+      "id": 4893,
+      "verse_number": 47,
+      "verse_key": "54:47",
+      "hizb_number": 53,
+      "rub_el_hizb_number": 212,
+      "ruku_number": 467,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "إِنَّ ٱلْمُجْرِمِينَ فِى ضَلَـٰلٍ وَسُعُرٍ",
+      "page_number": 530,
+      "juz_number": 27,
+      "translations": [
+        {
+          "id": 406596,
+          "resource_id": 85,
+          "text": "truly the wicked are misguided and quite insane––"
+        }
+      ]
+    },
+    {
+      "id": 4894,
+      "verse_number": 48,
+      "verse_key": "54:48",
+      "hizb_number": 53,
+      "rub_el_hizb_number": 212,
+      "ruku_number": 467,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "يَوْمَ يُسْحَبُونَ فِى ٱلنَّارِ عَلَىٰ وُجُوهِهِمْ ذُوقُوا۟ مَسَّ سَقَرَ",
+      "page_number": 530,
+      "juz_number": 27,
+      "translations": [
+        {
+          "id": 406597,
+          "resource_id": 85,
+          "text": "on the Day when they are dragged on their faces in Hell. ‘Feel the touch of Hell.’"
+        }
+      ]
+    },
+    {
+      "id": 4895,
+      "verse_number": 49,
+      "verse_key": "54:49",
+      "hizb_number": 53,
+      "rub_el_hizb_number": 212,
+      "ruku_number": 467,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "إِنَّا كُلَّ شَىْءٍ خَلَقْنَـٰهُ بِقَدَرٍ",
+      "page_number": 530,
+      "juz_number": 27,
+      "translations": [
+        {
+          "id": 406598,
+          "resource_id": 85,
+          "text": "We have created all things in due measure;"
+        }
+      ]
+    },
+    {
+      "id": 4896,
+      "verse_number": 50,
+      "verse_key": "54:50",
+      "hizb_number": 53,
+      "rub_el_hizb_number": 212,
+      "ruku_number": 467,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "وَمَآ أَمْرُنَآ إِلَّا وَٰحِدَةٌ كَلَمْحٍۭ بِٱلْبَصَرِ",
+      "page_number": 531,
+      "juz_number": 27,
+      "translations": [
+        {
+          "id": 406599,
+          "resource_id": 85,
+          "text": "when We ordain something it happens at once, in the blink of an eye;"
+        }
+      ]
+    },
+    {
+      "id": 4897,
+      "verse_number": 51,
+      "verse_key": "54:51",
+      "hizb_number": 53,
+      "rub_el_hizb_number": 212,
+      "ruku_number": 467,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "وَلَقَدْ أَهْلَكْنَآ أَشْيَاعَكُمْ فَهَلْ مِن مُّدَّكِرٍ",
+      "page_number": 531,
+      "juz_number": 27,
+      "translations": [
+        {
+          "id": 406600,
+          "resource_id": 85,
+          "text": "We have destroyed the likes of you in the past. Will anyone take heed?"
+        }
+      ]
+    },
+    {
+      "id": 4898,
+      "verse_number": 52,
+      "verse_key": "54:52",
+      "hizb_number": 53,
+      "rub_el_hizb_number": 212,
+      "ruku_number": 467,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "وَكُلُّ شَىْءٍ فَعَلُوهُ فِى ٱلزُّبُرِ",
+      "page_number": 531,
+      "juz_number": 27,
+      "translations": [
+        {
+          "id": 406601,
+          "resource_id": 85,
+          "text": "Everything they do is noted in their records:"
+        }
+      ]
+    },
+    {
+      "id": 4899,
+      "verse_number": 53,
+      "verse_key": "54:53",
+      "hizb_number": 53,
+      "rub_el_hizb_number": 212,
+      "ruku_number": 467,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "وَكُلُّ صَغِيرٍ وَكَبِيرٍ مُّسْتَطَرٌ",
+      "page_number": 531,
+      "juz_number": 27,
+      "translations": [
+        {
+          "id": 406602,
+          "resource_id": 85,
+          "text": "every action, great or small, is recorded."
+        }
+      ]
+    },
+    {
+      "id": 4900,
+      "verse_number": 54,
+      "verse_key": "54:54",
+      "hizb_number": 53,
+      "rub_el_hizb_number": 212,
+      "ruku_number": 467,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "إِنَّ ٱلْمُتَّقِينَ فِى جَنَّـٰتٍ وَنَهَرٍ",
+      "page_number": 531,
+      "juz_number": 27,
+      "translations": [
+        {
+          "id": 406603,
+          "resource_id": 85,
+          "text": "The righteous will live securely among Gardens and rivers,"
+        }
+      ]
+    },
+    {
+      "id": 4901,
+      "verse_number": 55,
+      "verse_key": "54:55",
+      "hizb_number": 53,
+      "rub_el_hizb_number": 212,
+      "ruku_number": 467,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "فِى مَقْعَدِ صِدْقٍ عِندَ مَلِيكٍ مُّقْتَدِرٍۭ",
+      "page_number": 531,
+      "juz_number": 27,
+      "translations": [
+        {
+          "id": 406604,
+          "resource_id": 85,
+          "text": "secure in the presence of an all-powerful Sovereign."
+        }
+      ]
+    }
+  ]
+}

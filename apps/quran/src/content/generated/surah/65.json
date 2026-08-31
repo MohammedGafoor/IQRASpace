@@ -1,0 +1,263 @@
+{
+  "syncedAt": "2026-08-31T05:21:12.710Z",
+  "chapter": {
+    "id": 65,
+    "revelation_place": "madinah",
+    "revelation_order": 99,
+    "bismillah_pre": true,
+    "name_simple": "At-Talaq",
+    "name_complex": "Aţ-Ţalāq",
+    "name_arabic": "الطلاق",
+    "verses_count": 12,
+    "pages": [
+      558,
+      559
+    ],
+    "translated_name": {
+      "language_name": "english",
+      "name": "The Divorce"
+    }
+  },
+  "verses": [
+    {
+      "id": 5218,
+      "verse_number": 1,
+      "verse_key": "65:1",
+      "hizb_number": 56,
+      "rub_el_hizb_number": 223,
+      "ruku_number": 494,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": " يَـٰٓأَيُّهَا ٱلنَّبِىُّ إِذَا طَلَّقْتُمُ ٱلنِّسَآءَ فَطَلِّقُوهُنَّ لِعِدَّتِهِنَّ وَأَحْصُوا۟ ٱلْعِدَّةَ ۖ وَٱتَّقُوا۟ ٱللَّهَ رَبَّكُمْ ۖ لَا تُخْرِجُوهُنَّ مِنۢ بُيُوتِهِنَّ وَلَا يَخْرُجْنَ إِلَّآ أَن يَأْتِينَ بِفَـٰحِشَةٍ مُّبَيِّنَةٍ ۚ وَتِلْكَ حُدُودُ ٱللَّهِ ۚ وَمَن يَتَعَدَّ حُدُودَ ٱللَّهِ فَقَدْ ظَلَمَ نَفْسَهُۥ ۚ لَا تَدْرِى لَعَلَّ ٱللَّهَ يُحْدِثُ بَعْدَ ذَٰلِكَ أَمْرًا",
+      "page_number": 558,
+      "juz_number": 28,
+      "translations": [
+        {
+          "id": 406921,
+          "resource_id": 85,
+          "text": "Prophet, when any of you intend to divorce women, do so at a time when their prescribed waiting period can properly start, and calculate the period carefully: be mindful of God, your Lord. Do not drive them out of their homes––nor should they themselves leave––unless they commit a flagrant indecency. These are the limits set by God–– whoever oversteps God’s limits wrongs his own soul––for you cannot know what new situation God may perhaps bring about."
+        }
+      ]
+    },
+    {
+      "id": 5219,
+      "verse_number": 2,
+      "verse_key": "65:2",
+      "hizb_number": 56,
+      "rub_el_hizb_number": 223,
+      "ruku_number": 494,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "فَإِذَا بَلَغْنَ أَجَلَهُنَّ فَأَمْسِكُوهُنَّ بِمَعْرُوفٍ أَوْ فَارِقُوهُنَّ بِمَعْرُوفٍ وَأَشْهِدُوا۟ ذَوَىْ عَدْلٍ مِّنكُمْ وَأَقِيمُوا۟ ٱلشَّهَـٰدَةَ لِلَّهِ ۚ ذَٰلِكُمْ يُوعَظُ بِهِۦ مَن كَانَ يُؤْمِنُ بِٱللَّهِ وَٱلْيَوْمِ ٱلْـَٔاخِرِ ۚ وَمَن يَتَّقِ ٱللَّهَ يَجْعَل لَّهُۥ مَخْرَجًا",
+      "page_number": 558,
+      "juz_number": 28,
+      "translations": [
+        {
+          "id": 406922,
+          "resource_id": 85,
+          "text": "When they have completed their appointed term, either keep them honourably, or part with them honourably. Call two just witnesses from your people and establish witness for the sake of God. Anyone who believes in God and the Last Day should heed this: God will find a way out for those who are mindful of Him,"
+        }
+      ]
+    },
+    {
+      "id": 5220,
+      "verse_number": 3,
+      "verse_key": "65:3",
+      "hizb_number": 56,
+      "rub_el_hizb_number": 223,
+      "ruku_number": 494,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "وَيَرْزُقْهُ مِنْ حَيْثُ لَا يَحْتَسِبُ ۚ وَمَن يَتَوَكَّلْ عَلَى ٱللَّهِ فَهُوَ حَسْبُهُۥٓ ۚ إِنَّ ٱللَّهَ بَـٰلِغُ أَمْرِهِۦ ۚ قَدْ جَعَلَ ٱللَّهُ لِكُلِّ شَىْءٍ قَدْرًا",
+      "page_number": 558,
+      "juz_number": 28,
+      "translations": [
+        {
+          "id": 406923,
+          "resource_id": 85,
+          "text": "and will provide for them from an unexpected source; God will be enough for those who put their trust in Him. God achieves His purpose; God has set a due measure for everything."
+        }
+      ]
+    },
+    {
+      "id": 5221,
+      "verse_number": 4,
+      "verse_key": "65:4",
+      "hizb_number": 56,
+      "rub_el_hizb_number": 223,
+      "ruku_number": 494,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "وَٱلَّـٰٓـِٔى يَئِسْنَ مِنَ ٱلْمَحِيضِ مِن نِّسَآئِكُمْ إِنِ ٱرْتَبْتُمْ فَعِدَّتُهُنَّ ثَلَـٰثَةُ أَشْهُرٍ وَٱلَّـٰٓـِٔى لَمْ يَحِضْنَ ۚ وَأُو۟لَـٰتُ ٱلْأَحْمَالِ أَجَلُهُنَّ أَن يَضَعْنَ حَمْلَهُنَّ ۚ وَمَن يَتَّقِ ٱللَّهَ يَجْعَل لَّهُۥ مِنْ أَمْرِهِۦ يُسْرًا",
+      "page_number": 558,
+      "juz_number": 28,
+      "translations": [
+        {
+          "id": 406924,
+          "resource_id": 85,
+          "text": "If you are in doubt, the period of waiting will be three months for those women who have ceased menstruating and for those who have not [yet] menstruated; the waiting period of those who are pregnant will be until they deliver their burden: God makes things easy for those who are mindful of Him."
+        }
+      ]
+    },
+    {
+      "id": 5222,
+      "verse_number": 5,
+      "verse_key": "65:5",
+      "hizb_number": 56,
+      "rub_el_hizb_number": 223,
+      "ruku_number": 494,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "ذَٰلِكَ أَمْرُ ٱللَّهِ أَنزَلَهُۥٓ إِلَيْكُمْ ۚ وَمَن يَتَّقِ ٱللَّهَ يُكَفِّرْ عَنْهُ سَيِّـَٔاتِهِۦ وَيُعْظِمْ لَهُۥٓ أَجْرًا",
+      "page_number": 558,
+      "juz_number": 28,
+      "translations": [
+        {
+          "id": 406925,
+          "resource_id": 85,
+          "text": "This is God’s command, which He has sent down to you. God will wipe out the sinful deeds and increase the rewards of anyone who is mindful of Him."
+        }
+      ]
+    },
+    {
+      "id": 5223,
+      "verse_number": 6,
+      "verse_key": "65:6",
+      "hizb_number": 56,
+      "rub_el_hizb_number": 223,
+      "ruku_number": 494,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "أَسْكِنُوهُنَّ مِنْ حَيْثُ سَكَنتُم مِّن وُجْدِكُمْ وَلَا تُضَآرُّوهُنَّ لِتُضَيِّقُوا۟ عَلَيْهِنَّ ۚ وَإِن كُنَّ أُو۟لَـٰتِ حَمْلٍ فَأَنفِقُوا۟ عَلَيْهِنَّ حَتَّىٰ يَضَعْنَ حَمْلَهُنَّ ۚ فَإِنْ أَرْضَعْنَ لَكُمْ فَـَٔاتُوهُنَّ أُجُورَهُنَّ ۖ وَأْتَمِرُوا۟ بَيْنَكُم بِمَعْرُوفٍ ۖ وَإِن تَعَاسَرْتُمْ فَسَتُرْضِعُ لَهُۥٓ أُخْرَىٰ",
+      "page_number": 559,
+      "juz_number": 28,
+      "translations": [
+        {
+          "id": 406926,
+          "resource_id": 85,
+          "text": "House the wives you are divorcing according to your means, wherever you house yourselves, and do not harass them so as to make their lives difficult. If they are pregnant, maintain them until they are delivered of their burdens; if they suckle your infants, pay them for it. Consult together in a good way- if you make difficulties for one another, another woman may suckle the child for the father––"
+        }
+      ]
+    },
+    {
+      "id": 5224,
+      "verse_number": 7,
+      "verse_key": "65:7",
+      "hizb_number": 56,
+      "rub_el_hizb_number": 223,
+      "ruku_number": 494,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "لِيُنفِقْ ذُو سَعَةٍ مِّن سَعَتِهِۦ ۖ وَمَن قُدِرَ عَلَيْهِ رِزْقُهُۥ فَلْيُنفِقْ مِمَّآ ءَاتَىٰهُ ٱللَّهُ ۚ لَا يُكَلِّفُ ٱللَّهُ نَفْسًا إِلَّا مَآ ءَاتَىٰهَا ۚ سَيَجْعَلُ ٱللَّهُ بَعْدَ عُسْرٍ يُسْرًا",
+      "page_number": 559,
+      "juz_number": 28,
+      "translations": [
+        {
+          "id": 406927,
+          "resource_id": 85,
+          "text": "and let the wealthy man spend according to his wealth. But let him whose provision is restricted spend according to what God has given him: God does not burden any soul with more than He has given it- after hardship, God will bring ease."
+        }
+      ]
+    },
+    {
+      "id": 5225,
+      "verse_number": 8,
+      "verse_key": "65:8",
+      "hizb_number": 56,
+      "rub_el_hizb_number": 223,
+      "ruku_number": 495,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "وَكَأَيِّن مِّن قَرْيَةٍ عَتَتْ عَنْ أَمْرِ رَبِّهَا وَرُسُلِهِۦ فَحَاسَبْنَـٰهَا حِسَابًا شَدِيدًا وَعَذَّبْنَـٰهَا عَذَابًا نُّكْرًا",
+      "page_number": 559,
+      "juz_number": 28,
+      "translations": [
+        {
+          "id": 406928,
+          "resource_id": 85,
+          "text": "Many a town that insolently opposed the command of its Lord and His messengers We have brought sternly to account: We punished them severely"
+        }
+      ]
+    },
+    {
+      "id": 5226,
+      "verse_number": 9,
+      "verse_key": "65:9",
+      "hizb_number": 56,
+      "rub_el_hizb_number": 223,
+      "ruku_number": 495,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "فَذَاقَتْ وَبَالَ أَمْرِهَا وَكَانَ عَـٰقِبَةُ أَمْرِهَا خُسْرًا",
+      "page_number": 559,
+      "juz_number": 28,
+      "translations": [
+        {
+          "id": 406929,
+          "resource_id": 85,
+          "text": "to make them taste the ill effect of their conduct- the result of their conduct was ruin."
+        }
+      ]
+    },
+    {
+      "id": 5227,
+      "verse_number": 10,
+      "verse_key": "65:10",
+      "hizb_number": 56,
+      "rub_el_hizb_number": 223,
+      "ruku_number": 495,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "أَعَدَّ ٱللَّهُ لَهُمْ عَذَابًا شَدِيدًا ۖ فَٱتَّقُوا۟ ٱللَّهَ يَـٰٓأُو۟لِى ٱلْأَلْبَـٰبِ ٱلَّذِينَ ءَامَنُوا۟ ۚ قَدْ أَنزَلَ ٱللَّهُ إِلَيْكُمْ ذِكْرًا",
+      "page_number": 559,
+      "juz_number": 28,
+      "translations": [
+        {
+          "id": 406930,
+          "resource_id": 85,
+          "text": "God has prepared a severe torment for them. So, you who have understanding, you who believe, beware of God. He has sent you the Quran"
+        }
+      ]
+    },
+    {
+      "id": 5228,
+      "verse_number": 11,
+      "verse_key": "65:11",
+      "hizb_number": 56,
+      "rub_el_hizb_number": 223,
+      "ruku_number": 495,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "رَّسُولًا يَتْلُوا۟ عَلَيْكُمْ ءَايَـٰتِ ٱللَّهِ مُبَيِّنَـٰتٍ لِّيُخْرِجَ ٱلَّذِينَ ءَامَنُوا۟ وَعَمِلُوا۟ ٱلصَّـٰلِحَـٰتِ مِنَ ٱلظُّلُمَـٰتِ إِلَى ٱلنُّورِ ۚ وَمَن يُؤْمِنۢ بِٱللَّهِ وَيَعْمَلْ صَـٰلِحًا يُدْخِلْهُ جَنَّـٰتٍ تَجْرِى مِن تَحْتِهَا ٱلْأَنْهَـٰرُ خَـٰلِدِينَ فِيهَآ أَبَدًا ۖ قَدْ أَحْسَنَ ٱللَّهُ لَهُۥ رِزْقًا",
+      "page_number": 559,
+      "juz_number": 28,
+      "translations": [
+        {
+          "id": 406931,
+          "resource_id": 85,
+          "text": "and a messenger- reciting to you God’s revelations that make things clear- to bring those who believe and do righteous deeds from darkness into light. God will admit those who believe in Him and do righteous deeds into Gardens graced with flowing streams, where they will remain for ever––He has made good provision for them."
+        }
+      ]
+    },
+    {
+      "id": 5229,
+      "verse_number": 12,
+      "verse_key": "65:12",
+      "hizb_number": 56,
+      "rub_el_hizb_number": 223,
+      "ruku_number": 495,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "ٱللَّهُ ٱلَّذِى خَلَقَ سَبْعَ سَمَـٰوَٰتٍ وَمِنَ ٱلْأَرْضِ مِثْلَهُنَّ يَتَنَزَّلُ ٱلْأَمْرُ بَيْنَهُنَّ لِتَعْلَمُوٓا۟ أَنَّ ٱللَّهَ عَلَىٰ كُلِّ شَىْءٍ قَدِيرٌ وَأَنَّ ٱللَّهَ قَدْ أَحَاطَ بِكُلِّ شَىْءٍ عِلْمًۢا",
+      "page_number": 559,
+      "juz_number": 28,
+      "translations": [
+        {
+          "id": 406932,
+          "resource_id": 85,
+          "text": "It is God who created seven heavens and a similar [number] of earths. His command descends throughout them. So you should realize that He has power over all things and that His knowledge encompasses everything."
+        }
+      ]
+    }
+  ]
+}

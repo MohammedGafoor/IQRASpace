@@ -1,0 +1,1263 @@
+{
+  "syncedAt": "2026-08-31T05:21:06.330Z",
+  "chapter": {
+    "id": 53,
+    "revelation_place": "makkah",
+    "revelation_order": 23,
+    "bismillah_pre": true,
+    "name_simple": "An-Najm",
+    "name_complex": "An-Najm",
+    "name_arabic": "النجم",
+    "verses_count": 62,
+    "pages": [
+      526,
+      528
+    ],
+    "translated_name": {
+      "language_name": "english",
+      "name": "The Star"
+    }
+  },
+  "verses": [
+    {
+      "id": 4785,
+      "verse_number": 1,
+      "verse_key": "53:1",
+      "hizb_number": 53,
+      "rub_el_hizb_number": 210,
+      "ruku_number": 462,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": " وَٱلنَّجْمِ إِذَا هَوَىٰ",
+      "page_number": 526,
+      "juz_number": 27,
+      "translations": [
+        {
+          "id": 406488,
+          "resource_id": 85,
+          "text": "By the star when it sets!"
+        }
+      ]
+    },
+    {
+      "id": 4786,
+      "verse_number": 2,
+      "verse_key": "53:2",
+      "hizb_number": 53,
+      "rub_el_hizb_number": 210,
+      "ruku_number": 462,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "مَا ضَلَّ صَاحِبُكُمْ وَمَا غَوَىٰ",
+      "page_number": 526,
+      "juz_number": 27,
+      "translations": [
+        {
+          "id": 406489,
+          "resource_id": 85,
+          "text": "Your companion has not strayed; he is not deluded;"
+        }
+      ]
+    },
+    {
+      "id": 4787,
+      "verse_number": 3,
+      "verse_key": "53:3",
+      "hizb_number": 53,
+      "rub_el_hizb_number": 210,
+      "ruku_number": 462,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "وَمَا يَنطِقُ عَنِ ٱلْهَوَىٰٓ",
+      "page_number": 526,
+      "juz_number": 27,
+      "translations": [
+        {
+          "id": 406490,
+          "resource_id": 85,
+          "text": "he does not speak from his own desire."
+        }
+      ]
+    },
+    {
+      "id": 4788,
+      "verse_number": 4,
+      "verse_key": "53:4",
+      "hizb_number": 53,
+      "rub_el_hizb_number": 210,
+      "ruku_number": 462,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "إِنْ هُوَ إِلَّا وَحْىٌ يُوحَىٰ",
+      "page_number": 526,
+      "juz_number": 27,
+      "translations": [
+        {
+          "id": 406491,
+          "resource_id": 85,
+          "text": "The Quran is nothing less than a revelation that is sent to him."
+        }
+      ]
+    },
+    {
+      "id": 4789,
+      "verse_number": 5,
+      "verse_key": "53:5",
+      "hizb_number": 53,
+      "rub_el_hizb_number": 210,
+      "ruku_number": 462,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "عَلَّمَهُۥ شَدِيدُ ٱلْقُوَىٰ",
+      "page_number": 526,
+      "juz_number": 27,
+      "translations": [
+        {
+          "id": 406492,
+          "resource_id": 85,
+          "text": "It was taught to him by [an angel] with mighty powers"
+        }
+      ]
+    },
+    {
+      "id": 4790,
+      "verse_number": 6,
+      "verse_key": "53:6",
+      "hizb_number": 53,
+      "rub_el_hizb_number": 210,
+      "ruku_number": 462,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "ذُو مِرَّةٍ فَٱسْتَوَىٰ",
+      "page_number": 526,
+      "juz_number": 27,
+      "translations": [
+        {
+          "id": 406493,
+          "resource_id": 85,
+          "text": "and great strength, who stood"
+        }
+      ]
+    },
+    {
+      "id": 4791,
+      "verse_number": 7,
+      "verse_key": "53:7",
+      "hizb_number": 53,
+      "rub_el_hizb_number": 210,
+      "ruku_number": 462,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "وَهُوَ بِٱلْأُفُقِ ٱلْأَعْلَىٰ",
+      "page_number": 526,
+      "juz_number": 27,
+      "translations": [
+        {
+          "id": 406494,
+          "resource_id": 85,
+          "text": "on the highest horizon"
+        }
+      ]
+    },
+    {
+      "id": 4792,
+      "verse_number": 8,
+      "verse_key": "53:8",
+      "hizb_number": 53,
+      "rub_el_hizb_number": 210,
+      "ruku_number": 462,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "ثُمَّ دَنَا فَتَدَلَّىٰ",
+      "page_number": 526,
+      "juz_number": 27,
+      "translations": [
+        {
+          "id": 406495,
+          "resource_id": 85,
+          "text": "and then approached––coming down"
+        }
+      ]
+    },
+    {
+      "id": 4793,
+      "verse_number": 9,
+      "verse_key": "53:9",
+      "hizb_number": 53,
+      "rub_el_hizb_number": 210,
+      "ruku_number": 462,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "فَكَانَ قَابَ قَوْسَيْنِ أَوْ أَدْنَىٰ",
+      "page_number": 526,
+      "juz_number": 27,
+      "translations": [
+        {
+          "id": 406496,
+          "resource_id": 85,
+          "text": "until he was two bow-lengths away or even closer––"
+        }
+      ]
+    },
+    {
+      "id": 4794,
+      "verse_number": 10,
+      "verse_key": "53:10",
+      "hizb_number": 53,
+      "rub_el_hizb_number": 210,
+      "ruku_number": 462,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "فَأَوْحَىٰٓ إِلَىٰ عَبْدِهِۦ مَآ أَوْحَىٰ",
+      "page_number": 526,
+      "juz_number": 27,
+      "translations": [
+        {
+          "id": 406497,
+          "resource_id": 85,
+          "text": "and revealed to God’s servant what He revealed."
+        }
+      ]
+    },
+    {
+      "id": 4795,
+      "verse_number": 11,
+      "verse_key": "53:11",
+      "hizb_number": 53,
+      "rub_el_hizb_number": 210,
+      "ruku_number": 462,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "مَا كَذَبَ ٱلْفُؤَادُ مَا رَأَىٰٓ",
+      "page_number": 526,
+      "juz_number": 27,
+      "translations": [
+        {
+          "id": 406498,
+          "resource_id": 85,
+          "text": "[The Prophet’s] own heart did not distort what he saw."
+        }
+      ]
+    },
+    {
+      "id": 4796,
+      "verse_number": 12,
+      "verse_key": "53:12",
+      "hizb_number": 53,
+      "rub_el_hizb_number": 210,
+      "ruku_number": 462,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "أَفَتُمَـٰرُونَهُۥ عَلَىٰ مَا يَرَىٰ",
+      "page_number": 526,
+      "juz_number": 27,
+      "translations": [
+        {
+          "id": 406499,
+          "resource_id": 85,
+          "text": "Are you going to dispute with him what he saw with his own eyes?"
+        }
+      ]
+    },
+    {
+      "id": 4797,
+      "verse_number": 13,
+      "verse_key": "53:13",
+      "hizb_number": 53,
+      "rub_el_hizb_number": 210,
+      "ruku_number": 462,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "وَلَقَدْ رَءَاهُ نَزْلَةً أُخْرَىٰ",
+      "page_number": 526,
+      "juz_number": 27,
+      "translations": [
+        {
+          "id": 406500,
+          "resource_id": 85,
+          "text": "A second time he saw him:"
+        }
+      ]
+    },
+    {
+      "id": 4798,
+      "verse_number": 14,
+      "verse_key": "53:14",
+      "hizb_number": 53,
+      "rub_el_hizb_number": 210,
+      "ruku_number": 462,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "عِندَ سِدْرَةِ ٱلْمُنتَهَىٰ",
+      "page_number": 526,
+      "juz_number": 27,
+      "translations": [
+        {
+          "id": 406501,
+          "resource_id": 85,
+          "text": "by the lote tree beyond which none may pass"
+        }
+      ]
+    },
+    {
+      "id": 4799,
+      "verse_number": 15,
+      "verse_key": "53:15",
+      "hizb_number": 53,
+      "rub_el_hizb_number": 210,
+      "ruku_number": 462,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "عِندَهَا جَنَّةُ ٱلْمَأْوَىٰٓ",
+      "page_number": 526,
+      "juz_number": 27,
+      "translations": [
+        {
+          "id": 406502,
+          "resource_id": 85,
+          "text": "near the Garden of Restfulness,"
+        }
+      ]
+    },
+    {
+      "id": 4800,
+      "verse_number": 16,
+      "verse_key": "53:16",
+      "hizb_number": 53,
+      "rub_el_hizb_number": 210,
+      "ruku_number": 462,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "إِذْ يَغْشَى ٱلسِّدْرَةَ مَا يَغْشَىٰ",
+      "page_number": 526,
+      "juz_number": 27,
+      "translations": [
+        {
+          "id": 406503,
+          "resource_id": 85,
+          "text": "when the tree was covered in nameless [splendour]."
+        }
+      ]
+    },
+    {
+      "id": 4801,
+      "verse_number": 17,
+      "verse_key": "53:17",
+      "hizb_number": 53,
+      "rub_el_hizb_number": 210,
+      "ruku_number": 462,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "مَا زَاغَ ٱلْبَصَرُ وَمَا طَغَىٰ",
+      "page_number": 526,
+      "juz_number": 27,
+      "translations": [
+        {
+          "id": 406504,
+          "resource_id": 85,
+          "text": "His sight never wavered, nor was it too bold,"
+        }
+      ]
+    },
+    {
+      "id": 4802,
+      "verse_number": 18,
+      "verse_key": "53:18",
+      "hizb_number": 53,
+      "rub_el_hizb_number": 210,
+      "ruku_number": 462,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "لَقَدْ رَأَىٰ مِنْ ءَايَـٰتِ رَبِّهِ ٱلْكُبْرَىٰٓ",
+      "page_number": 526,
+      "juz_number": 27,
+      "translations": [
+        {
+          "id": 406505,
+          "resource_id": 85,
+          "text": "and he saw some of the greatest signs of his Lord."
+        }
+      ]
+    },
+    {
+      "id": 4803,
+      "verse_number": 19,
+      "verse_key": "53:19",
+      "hizb_number": 53,
+      "rub_el_hizb_number": 210,
+      "ruku_number": 462,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "أَفَرَءَيْتُمُ ٱللَّـٰتَ وَٱلْعُزَّىٰ",
+      "page_number": 526,
+      "juz_number": 27,
+      "translations": [
+        {
+          "id": 406506,
+          "resource_id": 85,
+          "text": "[Disbelievers], consider al-Lat and al-Uzza,"
+        }
+      ]
+    },
+    {
+      "id": 4804,
+      "verse_number": 20,
+      "verse_key": "53:20",
+      "hizb_number": 53,
+      "rub_el_hizb_number": 210,
+      "ruku_number": 462,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "وَمَنَوٰةَ ٱلثَّالِثَةَ ٱلْأُخْرَىٰٓ",
+      "page_number": 526,
+      "juz_number": 27,
+      "translations": [
+        {
+          "id": 406507,
+          "resource_id": 85,
+          "text": "and the third one, Manat––"
+        }
+      ]
+    },
+    {
+      "id": 4805,
+      "verse_number": 21,
+      "verse_key": "53:21",
+      "hizb_number": 53,
+      "rub_el_hizb_number": 210,
+      "ruku_number": 462,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "أَلَكُمُ ٱلذَّكَرُ وَلَهُ ٱلْأُنثَىٰ",
+      "page_number": 526,
+      "juz_number": 27,
+      "translations": [
+        {
+          "id": 406508,
+          "resource_id": 85,
+          "text": "are you to have the male and He the female?"
+        }
+      ]
+    },
+    {
+      "id": 4806,
+      "verse_number": 22,
+      "verse_key": "53:22",
+      "hizb_number": 53,
+      "rub_el_hizb_number": 210,
+      "ruku_number": 462,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "تِلْكَ إِذًا قِسْمَةٌ ضِيزَىٰٓ",
+      "page_number": 526,
+      "juz_number": 27,
+      "translations": [
+        {
+          "id": 406509,
+          "resource_id": 85,
+          "text": "That would be a most unjust distribution!––"
+        }
+      ]
+    },
+    {
+      "id": 4807,
+      "verse_number": 23,
+      "verse_key": "53:23",
+      "hizb_number": 53,
+      "rub_el_hizb_number": 210,
+      "ruku_number": 462,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "إِنْ هِىَ إِلَّآ أَسْمَآءٌ سَمَّيْتُمُوهَآ أَنتُمْ وَءَابَآؤُكُم مَّآ أَنزَلَ ٱللَّهُ بِهَا مِن سُلْطَـٰنٍ ۚ إِن يَتَّبِعُونَ إِلَّا ٱلظَّنَّ وَمَا تَهْوَى ٱلْأَنفُسُ ۖ وَلَقَدْ جَآءَهُم مِّن رَّبِّهِمُ ٱلْهُدَىٰٓ",
+      "page_number": 526,
+      "juz_number": 27,
+      "translations": [
+        {
+          "id": 406510,
+          "resource_id": 85,
+          "text": "these are nothing but names you have invented yourselves, you and your forefathers. God has sent no authority for them. These people merely follow guesswork and the whims of their souls, even though guidance has come to them from their Lord."
+        }
+      ]
+    },
+    {
+      "id": 4808,
+      "verse_number": 24,
+      "verse_key": "53:24",
+      "hizb_number": 53,
+      "rub_el_hizb_number": 210,
+      "ruku_number": 462,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "أَمْ لِلْإِنسَـٰنِ مَا تَمَنَّىٰ",
+      "page_number": 526,
+      "juz_number": 27,
+      "translations": [
+        {
+          "id": 406511,
+          "resource_id": 85,
+          "text": "Is man to have everything he wishes for,"
+        }
+      ]
+    },
+    {
+      "id": 4809,
+      "verse_number": 25,
+      "verse_key": "53:25",
+      "hizb_number": 53,
+      "rub_el_hizb_number": 210,
+      "ruku_number": 462,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "فَلِلَّهِ ٱلْـَٔاخِرَةُ وَٱلْأُولَىٰ",
+      "page_number": 526,
+      "juz_number": 27,
+      "translations": [
+        {
+          "id": 406512,
+          "resource_id": 85,
+          "text": "when the present life and the life to come belong only to God?"
+        }
+      ]
+    },
+    {
+      "id": 4810,
+      "verse_number": 26,
+      "verse_key": "53:26",
+      "hizb_number": 53,
+      "rub_el_hizb_number": 211,
+      "ruku_number": 463,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "۞ وَكَم مِّن مَّلَكٍ فِى ٱلسَّمَـٰوَٰتِ لَا تُغْنِى شَفَـٰعَتُهُمْ شَيْـًٔا إِلَّا مِنۢ بَعْدِ أَن يَأْذَنَ ٱللَّهُ لِمَن يَشَآءُ وَيَرْضَىٰٓ",
+      "page_number": 526,
+      "juz_number": 27,
+      "translations": [
+        {
+          "id": 406513,
+          "resource_id": 85,
+          "text": "There are many angels in heaven whose intercession will be of no use until God gives permission to those He will, whose words He will accept."
+        }
+      ]
+    },
+    {
+      "id": 4811,
+      "verse_number": 27,
+      "verse_key": "53:27",
+      "hizb_number": 53,
+      "rub_el_hizb_number": 211,
+      "ruku_number": 463,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "إِنَّ ٱلَّذِينَ لَا يُؤْمِنُونَ بِٱلْـَٔاخِرَةِ لَيُسَمُّونَ ٱلْمَلَـٰٓئِكَةَ تَسْمِيَةَ ٱلْأُنثَىٰ",
+      "page_number": 527,
+      "juz_number": 27,
+      "translations": [
+        {
+          "id": 406514,
+          "resource_id": 85,
+          "text": "Those who deny the life to come give the angels female names."
+        }
+      ]
+    },
+    {
+      "id": 4812,
+      "verse_number": 28,
+      "verse_key": "53:28",
+      "hizb_number": 53,
+      "rub_el_hizb_number": 211,
+      "ruku_number": 463,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "وَمَا لَهُم بِهِۦ مِنْ عِلْمٍ ۖ إِن يَتَّبِعُونَ إِلَّا ٱلظَّنَّ ۖ وَإِنَّ ٱلظَّنَّ لَا يُغْنِى مِنَ ٱلْحَقِّ شَيْـًٔا",
+      "page_number": 527,
+      "juz_number": 27,
+      "translations": [
+        {
+          "id": 406515,
+          "resource_id": 85,
+          "text": "They have no knowledge to base this on: they merely follow guesswork. Guesswork is of no value against the Truth."
+        }
+      ]
+    },
+    {
+      "id": 4813,
+      "verse_number": 29,
+      "verse_key": "53:29",
+      "hizb_number": 53,
+      "rub_el_hizb_number": 211,
+      "ruku_number": 463,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "فَأَعْرِضْ عَن مَّن تَوَلَّىٰ عَن ذِكْرِنَا وَلَمْ يُرِدْ إِلَّا ٱلْحَيَوٰةَ ٱلدُّنْيَا",
+      "page_number": 527,
+      "juz_number": 27,
+      "translations": [
+        {
+          "id": 406516,
+          "resource_id": 85,
+          "text": "So [Prophet] ignore those who turn away from Our revelation, who want only the life of this world."
+        }
+      ]
+    },
+    {
+      "id": 4814,
+      "verse_number": 30,
+      "verse_key": "53:30",
+      "hizb_number": 53,
+      "rub_el_hizb_number": 211,
+      "ruku_number": 463,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "ذَٰلِكَ مَبْلَغُهُم مِّنَ ٱلْعِلْمِ ۚ إِنَّ رَبَّكَ هُوَ أَعْلَمُ بِمَن ضَلَّ عَن سَبِيلِهِۦ وَهُوَ أَعْلَمُ بِمَنِ ٱهْتَدَىٰ",
+      "page_number": 527,
+      "juz_number": 27,
+      "translations": [
+        {
+          "id": 406517,
+          "resource_id": 85,
+          "text": "Their knowledge does not go beyond that. Your Lord knows best who strays from His path and who follows guidance."
+        }
+      ]
+    },
+    {
+      "id": 4815,
+      "verse_number": 31,
+      "verse_key": "53:31",
+      "hizb_number": 53,
+      "rub_el_hizb_number": 211,
+      "ruku_number": 463,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "وَلِلَّهِ مَا فِى ٱلسَّمَـٰوَٰتِ وَمَا فِى ٱلْأَرْضِ لِيَجْزِىَ ٱلَّذِينَ أَسَـٰٓـُٔوا۟ بِمَا عَمِلُوا۟ وَيَجْزِىَ ٱلَّذِينَ أَحْسَنُوا۟ بِٱلْحُسْنَى",
+      "page_number": 527,
+      "juz_number": 27,
+      "translations": [
+        {
+          "id": 406518,
+          "resource_id": 85,
+          "text": "Everything in the heavens and earth belongs to God. He will repay those who do evil according to their deeds, and reward, with what is best, those who do good."
+        }
+      ]
+    },
+    {
+      "id": 4816,
+      "verse_number": 32,
+      "verse_key": "53:32",
+      "hizb_number": 53,
+      "rub_el_hizb_number": 211,
+      "ruku_number": 463,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "ٱلَّذِينَ يَجْتَنِبُونَ كَبَـٰٓئِرَ ٱلْإِثْمِ وَٱلْفَوَٰحِشَ إِلَّا ٱللَّمَمَ ۚ إِنَّ رَبَّكَ وَٰسِعُ ٱلْمَغْفِرَةِ ۚ هُوَ أَعْلَمُ بِكُمْ إِذْ أَنشَأَكُم مِّنَ ٱلْأَرْضِ وَإِذْ أَنتُمْ أَجِنَّةٌ فِى بُطُونِ أُمَّهَـٰتِكُمْ ۖ فَلَا تُزَكُّوٓا۟ أَنفُسَكُمْ ۖ هُوَ أَعْلَمُ بِمَنِ ٱتَّقَىٰٓ",
+      "page_number": 527,
+      "juz_number": 27,
+      "translations": [
+        {
+          "id": 406519,
+          "resource_id": 85,
+          "text": "As for those who avoid grave sins and foul acts, though they may commit small sins, your Lord is ample in forgiveness. He has been aware of you from the time He produced you from the earth and from your hiding places in your mothers’ wombs, so do not assert your own goodness:He knows best who is mindful of Him."
+        }
+      ]
+    },
+    {
+      "id": 4817,
+      "verse_number": 33,
+      "verse_key": "53:33",
+      "hizb_number": 53,
+      "rub_el_hizb_number": 211,
+      "ruku_number": 464,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "أَفَرَءَيْتَ ٱلَّذِى تَوَلَّىٰ",
+      "page_number": 527,
+      "juz_number": 27,
+      "translations": [
+        {
+          "id": 406520,
+          "resource_id": 85,
+          "text": "[Prophet], consider that man who turned away:"
+        }
+      ]
+    },
+    {
+      "id": 4818,
+      "verse_number": 34,
+      "verse_key": "53:34",
+      "hizb_number": 53,
+      "rub_el_hizb_number": 211,
+      "ruku_number": 464,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "وَأَعْطَىٰ قَلِيلًا وَأَكْدَىٰٓ",
+      "page_number": 527,
+      "juz_number": 27,
+      "translations": [
+        {
+          "id": 406521,
+          "resource_id": 85,
+          "text": "he only gave a little and then he stopped."
+        }
+      ]
+    },
+    {
+      "id": 4819,
+      "verse_number": 35,
+      "verse_key": "53:35",
+      "hizb_number": 53,
+      "rub_el_hizb_number": 211,
+      "ruku_number": 464,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "أَعِندَهُۥ عِلْمُ ٱلْغَيْبِ فَهُوَ يَرَىٰٓ",
+      "page_number": 527,
+      "juz_number": 27,
+      "translations": [
+        {
+          "id": 406522,
+          "resource_id": 85,
+          "text": "Does he have knowledge of the Unseen? Can he see [the Hereafter]?"
+        }
+      ]
+    },
+    {
+      "id": 4820,
+      "verse_number": 36,
+      "verse_key": "53:36",
+      "hizb_number": 53,
+      "rub_el_hizb_number": 211,
+      "ruku_number": 464,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "أَمْ لَمْ يُنَبَّأْ بِمَا فِى صُحُفِ مُوسَىٰ",
+      "page_number": 527,
+      "juz_number": 27,
+      "translations": [
+        {
+          "id": 406523,
+          "resource_id": 85,
+          "text": "Has he not been told what was written in the Scriptures of Moses"
+        }
+      ]
+    },
+    {
+      "id": 4821,
+      "verse_number": 37,
+      "verse_key": "53:37",
+      "hizb_number": 53,
+      "rub_el_hizb_number": 211,
+      "ruku_number": 464,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "وَإِبْرَٰهِيمَ ٱلَّذِى وَفَّىٰٓ",
+      "page_number": 527,
+      "juz_number": 27,
+      "translations": [
+        {
+          "id": 406524,
+          "resource_id": 85,
+          "text": "and of Abraham, who fulfilled his duty:"
+        }
+      ]
+    },
+    {
+      "id": 4822,
+      "verse_number": 38,
+      "verse_key": "53:38",
+      "hizb_number": 53,
+      "rub_el_hizb_number": 211,
+      "ruku_number": 464,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "أَلَّا تَزِرُ وَازِرَةٌ وِزْرَ أُخْرَىٰ",
+      "page_number": 527,
+      "juz_number": 27,
+      "translations": [
+        {
+          "id": 406525,
+          "resource_id": 85,
+          "text": "that no soul shall bear the burden of another;"
+        }
+      ]
+    },
+    {
+      "id": 4823,
+      "verse_number": 39,
+      "verse_key": "53:39",
+      "hizb_number": 53,
+      "rub_el_hizb_number": 211,
+      "ruku_number": 464,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "وَأَن لَّيْسَ لِلْإِنسَـٰنِ إِلَّا مَا سَعَىٰ",
+      "page_number": 527,
+      "juz_number": 27,
+      "translations": [
+        {
+          "id": 406526,
+          "resource_id": 85,
+          "text": "that man will only have what he has worked towards;"
+        }
+      ]
+    },
+    {
+      "id": 4824,
+      "verse_number": 40,
+      "verse_key": "53:40",
+      "hizb_number": 53,
+      "rub_el_hizb_number": 211,
+      "ruku_number": 464,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "وَأَنَّ سَعْيَهُۥ سَوْفَ يُرَىٰ",
+      "page_number": 527,
+      "juz_number": 27,
+      "translations": [
+        {
+          "id": 406527,
+          "resource_id": 85,
+          "text": "that his labour will be seen"
+        }
+      ]
+    },
+    {
+      "id": 4825,
+      "verse_number": 41,
+      "verse_key": "53:41",
+      "hizb_number": 53,
+      "rub_el_hizb_number": 211,
+      "ruku_number": 464,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "ثُمَّ يُجْزَىٰهُ ٱلْجَزَآءَ ٱلْأَوْفَىٰ",
+      "page_number": 527,
+      "juz_number": 27,
+      "translations": [
+        {
+          "id": 406528,
+          "resource_id": 85,
+          "text": "and that in the end he will be repaid in full for it;"
+        }
+      ]
+    },
+    {
+      "id": 4826,
+      "verse_number": 42,
+      "verse_key": "53:42",
+      "hizb_number": 53,
+      "rub_el_hizb_number": 211,
+      "ruku_number": 464,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "وَأَنَّ إِلَىٰ رَبِّكَ ٱلْمُنتَهَىٰ",
+      "page_number": 527,
+      "juz_number": 27,
+      "translations": [
+        {
+          "id": 406529,
+          "resource_id": 85,
+          "text": "that the final goal is your Lord;"
+        }
+      ]
+    },
+    {
+      "id": 4827,
+      "verse_number": 43,
+      "verse_key": "53:43",
+      "hizb_number": 53,
+      "rub_el_hizb_number": 211,
+      "ruku_number": 464,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "وَأَنَّهُۥ هُوَ أَضْحَكَ وَأَبْكَىٰ",
+      "page_number": 527,
+      "juz_number": 27,
+      "translations": [
+        {
+          "id": 406530,
+          "resource_id": 85,
+          "text": "that it is He who makes people laugh and weep;"
+        }
+      ]
+    },
+    {
+      "id": 4828,
+      "verse_number": 44,
+      "verse_key": "53:44",
+      "hizb_number": 53,
+      "rub_el_hizb_number": 211,
+      "ruku_number": 464,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "وَأَنَّهُۥ هُوَ أَمَاتَ وَأَحْيَا",
+      "page_number": 527,
+      "juz_number": 27,
+      "translations": [
+        {
+          "id": 406531,
+          "resource_id": 85,
+          "text": "that it is He who gives death and life;"
+        }
+      ]
+    },
+    {
+      "id": 4829,
+      "verse_number": 45,
+      "verse_key": "53:45",
+      "hizb_number": 53,
+      "rub_el_hizb_number": 211,
+      "ruku_number": 464,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "وَأَنَّهُۥ خَلَقَ ٱلزَّوْجَيْنِ ٱلذَّكَرَ وَٱلْأُنثَىٰ",
+      "page_number": 528,
+      "juz_number": 27,
+      "translations": [
+        {
+          "id": 406532,
+          "resource_id": 85,
+          "text": "that He Himself created the two sexes, male and female,"
+        }
+      ]
+    },
+    {
+      "id": 4830,
+      "verse_number": 46,
+      "verse_key": "53:46",
+      "hizb_number": 53,
+      "rub_el_hizb_number": 211,
+      "ruku_number": 464,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "مِن نُّطْفَةٍ إِذَا تُمْنَىٰ",
+      "page_number": 528,
+      "juz_number": 27,
+      "translations": [
+        {
+          "id": 406533,
+          "resource_id": 85,
+          "text": "from an ejected drop of sperm;"
+        }
+      ]
+    },
+    {
+      "id": 4831,
+      "verse_number": 47,
+      "verse_key": "53:47",
+      "hizb_number": 53,
+      "rub_el_hizb_number": 211,
+      "ruku_number": 464,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "وَأَنَّ عَلَيْهِ ٱلنَّشْأَةَ ٱلْأُخْرَىٰ",
+      "page_number": 528,
+      "juz_number": 27,
+      "translations": [
+        {
+          "id": 406534,
+          "resource_id": 85,
+          "text": "that He will undertake the second Creation;"
+        }
+      ]
+    },
+    {
+      "id": 4832,
+      "verse_number": 48,
+      "verse_key": "53:48",
+      "hizb_number": 53,
+      "rub_el_hizb_number": 211,
+      "ruku_number": 464,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "وَأَنَّهُۥ هُوَ أَغْنَىٰ وَأَقْنَىٰ",
+      "page_number": 528,
+      "juz_number": 27,
+      "translations": [
+        {
+          "id": 406535,
+          "resource_id": 85,
+          "text": "that it is He who gives wealth and possessions;"
+        }
+      ]
+    },
+    {
+      "id": 4833,
+      "verse_number": 49,
+      "verse_key": "53:49",
+      "hizb_number": 53,
+      "rub_el_hizb_number": 211,
+      "ruku_number": 464,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "وَأَنَّهُۥ هُوَ رَبُّ ٱلشِّعْرَىٰ",
+      "page_number": 528,
+      "juz_number": 27,
+      "translations": [
+        {
+          "id": 406536,
+          "resource_id": 85,
+          "text": "that He is the Lord of Sirius;"
+        }
+      ]
+    },
+    {
+      "id": 4834,
+      "verse_number": 50,
+      "verse_key": "53:50",
+      "hizb_number": 53,
+      "rub_el_hizb_number": 211,
+      "ruku_number": 464,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "وَأَنَّهُۥٓ أَهْلَكَ عَادًا ٱلْأُولَىٰ",
+      "page_number": 528,
+      "juz_number": 27,
+      "translations": [
+        {
+          "id": 406537,
+          "resource_id": 85,
+          "text": "that it was He who destroyed, in their entirety, ancient 'Ad"
+        }
+      ]
+    },
+    {
+      "id": 4835,
+      "verse_number": 51,
+      "verse_key": "53:51",
+      "hizb_number": 53,
+      "rub_el_hizb_number": 211,
+      "ruku_number": 464,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "وَثَمُودَا۟ فَمَآ أَبْقَىٰ",
+      "page_number": 528,
+      "juz_number": 27,
+      "translations": [
+        {
+          "id": 406538,
+          "resource_id": 85,
+          "text": "and Thamud,"
+        }
+      ]
+    },
+    {
+      "id": 4836,
+      "verse_number": 52,
+      "verse_key": "53:52",
+      "hizb_number": 53,
+      "rub_el_hizb_number": 211,
+      "ruku_number": 464,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "وَقَوْمَ نُوحٍ مِّن قَبْلُ ۖ إِنَّهُمْ كَانُوا۟ هُمْ أَظْلَمَ وَأَطْغَىٰ",
+      "page_number": 528,
+      "juz_number": 27,
+      "translations": [
+        {
+          "id": 406539,
+          "resource_id": 85,
+          "text": "and before them the people of Noah who were even more unjust and insolent;"
+        }
+      ]
+    },
+    {
+      "id": 4837,
+      "verse_number": 53,
+      "verse_key": "53:53",
+      "hizb_number": 53,
+      "rub_el_hizb_number": 211,
+      "ruku_number": 464,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "وَٱلْمُؤْتَفِكَةَ أَهْوَىٰ",
+      "page_number": 528,
+      "juz_number": 27,
+      "translations": [
+        {
+          "id": 406540,
+          "resource_id": 85,
+          "text": "that it was He who brought down the ruined cities"
+        }
+      ]
+    },
+    {
+      "id": 4838,
+      "verse_number": 54,
+      "verse_key": "53:54",
+      "hizb_number": 53,
+      "rub_el_hizb_number": 211,
+      "ruku_number": 464,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "فَغَشَّىٰهَا مَا غَشَّىٰ",
+      "page_number": 528,
+      "juz_number": 27,
+      "translations": [
+        {
+          "id": 406541,
+          "resource_id": 85,
+          "text": "and enveloped them in the punishment He ordained for them?"
+        }
+      ]
+    },
+    {
+      "id": 4839,
+      "verse_number": 55,
+      "verse_key": "53:55",
+      "hizb_number": 53,
+      "rub_el_hizb_number": 211,
+      "ruku_number": 464,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "فَبِأَىِّ ءَالَآءِ رَبِّكَ تَتَمَارَىٰ",
+      "page_number": 528,
+      "juz_number": 27,
+      "translations": [
+        {
+          "id": 406542,
+          "resource_id": 85,
+          "text": "Which then of your Lord’s blessings do you deny?"
+        }
+      ]
+    },
+    {
+      "id": 4840,
+      "verse_number": 56,
+      "verse_key": "53:56",
+      "hizb_number": 53,
+      "rub_el_hizb_number": 211,
+      "ruku_number": 464,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "هَـٰذَا نَذِيرٌ مِّنَ ٱلنُّذُرِ ٱلْأُولَىٰٓ",
+      "page_number": 528,
+      "juz_number": 27,
+      "translations": [
+        {
+          "id": 406543,
+          "resource_id": 85,
+          "text": "This is a warning just like the warnings sent in former times."
+        }
+      ]
+    },
+    {
+      "id": 4841,
+      "verse_number": 57,
+      "verse_key": "53:57",
+      "hizb_number": 53,
+      "rub_el_hizb_number": 211,
+      "ruku_number": 464,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "أَزِفَتِ ٱلْـَٔازِفَةُ",
+      "page_number": 528,
+      "juz_number": 27,
+      "translations": [
+        {
+          "id": 406544,
+          "resource_id": 85,
+          "text": "The imminent Hour draws near"
+        }
+      ]
+    },
+    {
+      "id": 4842,
+      "verse_number": 58,
+      "verse_key": "53:58",
+      "hizb_number": 53,
+      "rub_el_hizb_number": 211,
+      "ruku_number": 464,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "لَيْسَ لَهَا مِن دُونِ ٱللَّهِ كَاشِفَةٌ",
+      "page_number": 528,
+      "juz_number": 27,
+      "translations": [
+        {
+          "id": 406545,
+          "resource_id": 85,
+          "text": "and only God can disclose it."
+        }
+      ]
+    },
+    {
+      "id": 4843,
+      "verse_number": 59,
+      "verse_key": "53:59",
+      "hizb_number": 53,
+      "rub_el_hizb_number": 211,
+      "ruku_number": 464,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "أَفَمِنْ هَـٰذَا ٱلْحَدِيثِ تَعْجَبُونَ",
+      "page_number": 528,
+      "juz_number": 27,
+      "translations": [
+        {
+          "id": 406546,
+          "resource_id": 85,
+          "text": "Do you [people] marvel at this?"
+        }
+      ]
+    },
+    {
+      "id": 4844,
+      "verse_number": 60,
+      "verse_key": "53:60",
+      "hizb_number": 53,
+      "rub_el_hizb_number": 211,
+      "ruku_number": 464,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "وَتَضْحَكُونَ وَلَا تَبْكُونَ",
+      "page_number": 528,
+      "juz_number": 27,
+      "translations": [
+        {
+          "id": 406547,
+          "resource_id": 85,
+          "text": "Why do you laugh instead of weeping?"
+        }
+      ]
+    },
+    {
+      "id": 4845,
+      "verse_number": 61,
+      "verse_key": "53:61",
+      "hizb_number": 53,
+      "rub_el_hizb_number": 211,
+      "ruku_number": 464,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "وَأَنتُمْ سَـٰمِدُونَ",
+      "page_number": 528,
+      "juz_number": 27,
+      "translations": [
+        {
+          "id": 406548,
+          "resource_id": 85,
+          "text": "Why do you pay no heed?"
+        }
+      ]
+    },
+    {
+      "id": 4846,
+      "verse_number": 62,
+      "verse_key": "53:62",
+      "hizb_number": 53,
+      "rub_el_hizb_number": 211,
+      "ruku_number": 464,
+      "manzil_number": 7,
+      "sajdah_number": 12,
+      "text_uthmani": "فَٱسْجُدُوا۟ لِلَّهِ وَٱعْبُدُوا۟ ۩",
+      "page_number": 528,
+      "juz_number": 27,
+      "translations": [
+        {
+          "id": 406549,
+          "resource_id": 85,
+          "text": "Bow down before God and worship."
+        }
+      ]
+    }
+  ]
+}

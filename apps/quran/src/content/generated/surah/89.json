@@ -1,0 +1,623 @@
+{
+  "syncedAt": "2026-08-31T05:21:23.960Z",
+  "chapter": {
+    "id": 89,
+    "revelation_place": "makkah",
+    "revelation_order": 10,
+    "bismillah_pre": true,
+    "name_simple": "Al-Fajr",
+    "name_complex": "Al-Fajr",
+    "name_arabic": "الفجر",
+    "verses_count": 30,
+    "pages": [
+      593,
+      594
+    ],
+    "translated_name": {
+      "language_name": "english",
+      "name": "The Dawn"
+    }
+  },
+  "verses": [
+    {
+      "id": 5994,
+      "verse_number": 1,
+      "verse_key": "89:1",
+      "hizb_number": 60,
+      "rub_el_hizb_number": 237,
+      "ruku_number": 533,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": " وَٱلْفَجْرِ",
+      "page_number": 593,
+      "juz_number": 30,
+      "translations": [
+        {
+          "id": 407697,
+          "resource_id": 85,
+          "text": "By the Daybreak,"
+        }
+      ]
+    },
+    {
+      "id": 5995,
+      "verse_number": 2,
+      "verse_key": "89:2",
+      "hizb_number": 60,
+      "rub_el_hizb_number": 237,
+      "ruku_number": 533,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "وَلَيَالٍ عَشْرٍ",
+      "page_number": 593,
+      "juz_number": 30,
+      "translations": [
+        {
+          "id": 407698,
+          "resource_id": 85,
+          "text": "by the Ten Nights,"
+        }
+      ]
+    },
+    {
+      "id": 5996,
+      "verse_number": 3,
+      "verse_key": "89:3",
+      "hizb_number": 60,
+      "rub_el_hizb_number": 237,
+      "ruku_number": 533,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "وَٱلشَّفْعِ وَٱلْوَتْرِ",
+      "page_number": 593,
+      "juz_number": 30,
+      "translations": [
+        {
+          "id": 407699,
+          "resource_id": 85,
+          "text": "by the even and the odd,"
+        }
+      ]
+    },
+    {
+      "id": 5997,
+      "verse_number": 4,
+      "verse_key": "89:4",
+      "hizb_number": 60,
+      "rub_el_hizb_number": 237,
+      "ruku_number": 533,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "وَٱلَّيْلِ إِذَا يَسْرِ",
+      "page_number": 593,
+      "juz_number": 30,
+      "translations": [
+        {
+          "id": 407700,
+          "resource_id": 85,
+          "text": "by the passing night––"
+        }
+      ]
+    },
+    {
+      "id": 5998,
+      "verse_number": 5,
+      "verse_key": "89:5",
+      "hizb_number": 60,
+      "rub_el_hizb_number": 237,
+      "ruku_number": 533,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "هَلْ فِى ذَٰلِكَ قَسَمٌ لِّذِى حِجْرٍ",
+      "page_number": 593,
+      "juz_number": 30,
+      "translations": [
+        {
+          "id": 407701,
+          "resource_id": 85,
+          "text": "is this oath strong enough for a rational person?"
+        }
+      ]
+    },
+    {
+      "id": 5999,
+      "verse_number": 6,
+      "verse_key": "89:6",
+      "hizb_number": 60,
+      "rub_el_hizb_number": 237,
+      "ruku_number": 533,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "أَلَمْ تَرَ كَيْفَ فَعَلَ رَبُّكَ بِعَادٍ",
+      "page_number": 593,
+      "juz_number": 30,
+      "translations": [
+        {
+          "id": 407702,
+          "resource_id": 85,
+          "text": "Have you [Prophet] considered how your Lord dealt with [the people] of 'Ad,"
+        }
+      ]
+    },
+    {
+      "id": 6000,
+      "verse_number": 7,
+      "verse_key": "89:7",
+      "hizb_number": 60,
+      "rub_el_hizb_number": 237,
+      "ruku_number": 533,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "إِرَمَ ذَاتِ ٱلْعِمَادِ",
+      "page_number": 593,
+      "juz_number": 30,
+      "translations": [
+        {
+          "id": 407703,
+          "resource_id": 85,
+          "text": "of Iram, [the city] of lofty pillars,"
+        }
+      ]
+    },
+    {
+      "id": 6001,
+      "verse_number": 8,
+      "verse_key": "89:8",
+      "hizb_number": 60,
+      "rub_el_hizb_number": 237,
+      "ruku_number": 533,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "ٱلَّتِى لَمْ يُخْلَقْ مِثْلُهَا فِى ٱلْبِلَـٰدِ",
+      "page_number": 593,
+      "juz_number": 30,
+      "translations": [
+        {
+          "id": 407704,
+          "resource_id": 85,
+          "text": "whose like has never been made in any land,"
+        }
+      ]
+    },
+    {
+      "id": 6002,
+      "verse_number": 9,
+      "verse_key": "89:9",
+      "hizb_number": 60,
+      "rub_el_hizb_number": 237,
+      "ruku_number": 533,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "وَثَمُودَ ٱلَّذِينَ جَابُوا۟ ٱلصَّخْرَ بِٱلْوَادِ",
+      "page_number": 593,
+      "juz_number": 30,
+      "translations": [
+        {
+          "id": 407705,
+          "resource_id": 85,
+          "text": "and the Thamud, who hewed into the rocks in the valley,"
+        }
+      ]
+    },
+    {
+      "id": 6003,
+      "verse_number": 10,
+      "verse_key": "89:10",
+      "hizb_number": 60,
+      "rub_el_hizb_number": 237,
+      "ruku_number": 533,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "وَفِرْعَوْنَ ذِى ٱلْأَوْتَادِ",
+      "page_number": 593,
+      "juz_number": 30,
+      "translations": [
+        {
+          "id": 407706,
+          "resource_id": 85,
+          "text": "and the mighty and powerful Pharaoh?"
+        }
+      ]
+    },
+    {
+      "id": 6004,
+      "verse_number": 11,
+      "verse_key": "89:11",
+      "hizb_number": 60,
+      "rub_el_hizb_number": 237,
+      "ruku_number": 533,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "ٱلَّذِينَ طَغَوْا۟ فِى ٱلْبِلَـٰدِ",
+      "page_number": 593,
+      "juz_number": 30,
+      "translations": [
+        {
+          "id": 407707,
+          "resource_id": 85,
+          "text": "All of them committed excesses in their lands,"
+        }
+      ]
+    },
+    {
+      "id": 6005,
+      "verse_number": 12,
+      "verse_key": "89:12",
+      "hizb_number": 60,
+      "rub_el_hizb_number": 237,
+      "ruku_number": 533,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "فَأَكْثَرُوا۟ فِيهَا ٱلْفَسَادَ",
+      "page_number": 593,
+      "juz_number": 30,
+      "translations": [
+        {
+          "id": 407708,
+          "resource_id": 85,
+          "text": "and spread corruption there:"
+        }
+      ]
+    },
+    {
+      "id": 6006,
+      "verse_number": 13,
+      "verse_key": "89:13",
+      "hizb_number": 60,
+      "rub_el_hizb_number": 237,
+      "ruku_number": 533,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "فَصَبَّ عَلَيْهِمْ رَبُّكَ سَوْطَ عَذَابٍ",
+      "page_number": 593,
+      "juz_number": 30,
+      "translations": [
+        {
+          "id": 407709,
+          "resource_id": 85,
+          "text": "your Lord let a scourge of punishment loose on them."
+        }
+      ]
+    },
+    {
+      "id": 6007,
+      "verse_number": 14,
+      "verse_key": "89:14",
+      "hizb_number": 60,
+      "rub_el_hizb_number": 237,
+      "ruku_number": 533,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "إِنَّ رَبَّكَ لَبِٱلْمِرْصَادِ",
+      "page_number": 593,
+      "juz_number": 30,
+      "translations": [
+        {
+          "id": 407710,
+          "resource_id": 85,
+          "text": "Your Lord is always watchful."
+        }
+      ]
+    },
+    {
+      "id": 6008,
+      "verse_number": 15,
+      "verse_key": "89:15",
+      "hizb_number": 60,
+      "rub_el_hizb_number": 237,
+      "ruku_number": 533,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "فَأَمَّا ٱلْإِنسَـٰنُ إِذَا مَا ٱبْتَلَىٰهُ رَبُّهُۥ فَأَكْرَمَهُۥ وَنَعَّمَهُۥ فَيَقُولُ رَبِّىٓ أَكْرَمَنِ",
+      "page_number": 593,
+      "juz_number": 30,
+      "translations": [
+        {
+          "id": 407711,
+          "resource_id": 85,
+          "text": "[The nature of] man is that, when his Lord tries him through honour and blessings, he says, ‘My Lord has honoured me,’"
+        }
+      ]
+    },
+    {
+      "id": 6009,
+      "verse_number": 16,
+      "verse_key": "89:16",
+      "hizb_number": 60,
+      "rub_el_hizb_number": 237,
+      "ruku_number": 533,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "وَأَمَّآ إِذَا مَا ٱبْتَلَىٰهُ فَقَدَرَ عَلَيْهِ رِزْقَهُۥ فَيَقُولُ رَبِّىٓ أَهَـٰنَنِ",
+      "page_number": 593,
+      "juz_number": 30,
+      "translations": [
+        {
+          "id": 407712,
+          "resource_id": 85,
+          "text": "but when He tries him through the restriction of his provision, he says, ‘My Lord has humiliated me.’"
+        }
+      ]
+    },
+    {
+      "id": 6010,
+      "verse_number": 17,
+      "verse_key": "89:17",
+      "hizb_number": 60,
+      "rub_el_hizb_number": 237,
+      "ruku_number": 533,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "كَلَّا ۖ بَل لَّا تُكْرِمُونَ ٱلْيَتِيمَ",
+      "page_number": 593,
+      "juz_number": 30,
+      "translations": [
+        {
+          "id": 407713,
+          "resource_id": 85,
+          "text": "No indeed! You [people] do not honour orphans,"
+        }
+      ]
+    },
+    {
+      "id": 6011,
+      "verse_number": 18,
+      "verse_key": "89:18",
+      "hizb_number": 60,
+      "rub_el_hizb_number": 237,
+      "ruku_number": 533,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "وَلَا تَحَـٰٓضُّونَ عَلَىٰ طَعَامِ ٱلْمِسْكِينِ",
+      "page_number": 593,
+      "juz_number": 30,
+      "translations": [
+        {
+          "id": 407714,
+          "resource_id": 85,
+          "text": "you do not urge one another to feed the poor,"
+        }
+      ]
+    },
+    {
+      "id": 6012,
+      "verse_number": 19,
+      "verse_key": "89:19",
+      "hizb_number": 60,
+      "rub_el_hizb_number": 237,
+      "ruku_number": 533,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "وَتَأْكُلُونَ ٱلتُّرَاثَ أَكْلًا لَّمًّا",
+      "page_number": 593,
+      "juz_number": 30,
+      "translations": [
+        {
+          "id": 407715,
+          "resource_id": 85,
+          "text": "you consume inheritance greedily,"
+        }
+      ]
+    },
+    {
+      "id": 6013,
+      "verse_number": 20,
+      "verse_key": "89:20",
+      "hizb_number": 60,
+      "rub_el_hizb_number": 237,
+      "ruku_number": 533,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "وَتُحِبُّونَ ٱلْمَالَ حُبًّا جَمًّا",
+      "page_number": 593,
+      "juz_number": 30,
+      "translations": [
+        {
+          "id": 407716,
+          "resource_id": 85,
+          "text": "and you love wealth with a passion."
+        }
+      ]
+    },
+    {
+      "id": 6014,
+      "verse_number": 21,
+      "verse_key": "89:21",
+      "hizb_number": 60,
+      "rub_el_hizb_number": 237,
+      "ruku_number": 533,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "كَلَّآ إِذَا دُكَّتِ ٱلْأَرْضُ دَكًّا دَكًّا",
+      "page_number": 593,
+      "juz_number": 30,
+      "translations": [
+        {
+          "id": 407717,
+          "resource_id": 85,
+          "text": "No indeed! When the earth is pounded to dust, pounded and pounded,"
+        }
+      ]
+    },
+    {
+      "id": 6015,
+      "verse_number": 22,
+      "verse_key": "89:22",
+      "hizb_number": 60,
+      "rub_el_hizb_number": 237,
+      "ruku_number": 533,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "وَجَآءَ رَبُّكَ وَٱلْمَلَكُ صَفًّا صَفًّا",
+      "page_number": 593,
+      "juz_number": 30,
+      "translations": [
+        {
+          "id": 407718,
+          "resource_id": 85,
+          "text": "when your Lord comes with the angels, rank upon rank,"
+        }
+      ]
+    },
+    {
+      "id": 6016,
+      "verse_number": 23,
+      "verse_key": "89:23",
+      "hizb_number": 60,
+      "rub_el_hizb_number": 237,
+      "ruku_number": 533,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "وَجِا۟ىٓءَ يَوْمَئِذٍۭ بِجَهَنَّمَ ۚ يَوْمَئِذٍ يَتَذَكَّرُ ٱلْإِنسَـٰنُ وَأَنَّىٰ لَهُ ٱلذِّكْرَىٰ",
+      "page_number": 593,
+      "juz_number": 30,
+      "translations": [
+        {
+          "id": 407719,
+          "resource_id": 85,
+          "text": "when Hell is that Day brought near- on that Day man will take heed, but what good will that be to him then?"
+        }
+      ]
+    },
+    {
+      "id": 6017,
+      "verse_number": 24,
+      "verse_key": "89:24",
+      "hizb_number": 60,
+      "rub_el_hizb_number": 237,
+      "ruku_number": 533,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "يَقُولُ يَـٰلَيْتَنِى قَدَّمْتُ لِحَيَاتِى",
+      "page_number": 594,
+      "juz_number": 30,
+      "translations": [
+        {
+          "id": 407720,
+          "resource_id": 85,
+          "text": "He will say, ‘Would that I had provided for this life to come!’"
+        }
+      ]
+    },
+    {
+      "id": 6018,
+      "verse_number": 25,
+      "verse_key": "89:25",
+      "hizb_number": 60,
+      "rub_el_hizb_number": 237,
+      "ruku_number": 533,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "فَيَوْمَئِذٍ لَّا يُعَذِّبُ عَذَابَهُۥٓ أَحَدٌ",
+      "page_number": 594,
+      "juz_number": 30,
+      "translations": [
+        {
+          "id": 407721,
+          "resource_id": 85,
+          "text": "On that Day, no one will punish as He punishes,"
+        }
+      ]
+    },
+    {
+      "id": 6019,
+      "verse_number": 26,
+      "verse_key": "89:26",
+      "hizb_number": 60,
+      "rub_el_hizb_number": 237,
+      "ruku_number": 533,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "وَلَا يُوثِقُ وَثَاقَهُۥٓ أَحَدٌ",
+      "page_number": 594,
+      "juz_number": 30,
+      "translations": [
+        {
+          "id": 407722,
+          "resource_id": 85,
+          "text": "and no one will bind as He binds."
+        }
+      ]
+    },
+    {
+      "id": 6020,
+      "verse_number": 27,
+      "verse_key": "89:27",
+      "hizb_number": 60,
+      "rub_el_hizb_number": 237,
+      "ruku_number": 533,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "يَـٰٓأَيَّتُهَا ٱلنَّفْسُ ٱلْمُطْمَئِنَّةُ",
+      "page_number": 594,
+      "juz_number": 30,
+      "translations": [
+        {
+          "id": 407723,
+          "resource_id": 85,
+          "text": "‘[But] you, soul at peace:"
+        }
+      ]
+    },
+    {
+      "id": 6021,
+      "verse_number": 28,
+      "verse_key": "89:28",
+      "hizb_number": 60,
+      "rub_el_hizb_number": 237,
+      "ruku_number": 533,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "ٱرْجِعِىٓ إِلَىٰ رَبِّكِ رَاضِيَةً مَّرْضِيَّةً",
+      "page_number": 594,
+      "juz_number": 30,
+      "translations": [
+        {
+          "id": 407724,
+          "resource_id": 85,
+          "text": "return to your Lord well pleased and well pleasing;"
+        }
+      ]
+    },
+    {
+      "id": 6022,
+      "verse_number": 29,
+      "verse_key": "89:29",
+      "hizb_number": 60,
+      "rub_el_hizb_number": 237,
+      "ruku_number": 533,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "فَٱدْخُلِى فِى عِبَـٰدِى",
+      "page_number": 594,
+      "juz_number": 30,
+      "translations": [
+        {
+          "id": 407725,
+          "resource_id": 85,
+          "text": "go in among My servants;"
+        }
+      ]
+    },
+    {
+      "id": 6023,
+      "verse_number": 30,
+      "verse_key": "89:30",
+      "hizb_number": 60,
+      "rub_el_hizb_number": 237,
+      "ruku_number": 533,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "وَٱدْخُلِى جَنَّتِى",
+      "page_number": 594,
+      "juz_number": 30,
+      "translations": [
+        {
+          "id": 407726,
+          "resource_id": 85,
+          "text": "and into My Garden.’"
+        }
+      ]
+    }
+  ]
+}

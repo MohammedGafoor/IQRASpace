@@ -1,0 +1,10 @@
+User-agent: *
+Allow: /
+
+# The full page-level sitemap (all Surah/Juz/Mushaf-page URLs) is owned
+# by apps/quran, not this landing zone (ARCHITECTURE.md §8 — that app
+# owns everything under /quran, this one owns only the root). Both
+# sitemaps are listed here since robots.txt only lives at the true
+# domain root.
+Sitemap: https://iqraspace.org/sitemap.xml
+Sitemap: https://iqraspace.org/quran/sitemap.xml

@@ -1,0 +1,363 @@
+{
+  "syncedAt": "2026-08-31T05:21:22.695Z",
+  "chapter": {
+    "id": 86,
+    "revelation_place": "makkah",
+    "revelation_order": 36,
+    "bismillah_pre": true,
+    "name_simple": "At-Tariq",
+    "name_complex": "Aţ-Ţāriq",
+    "name_arabic": "الطارق",
+    "verses_count": 17,
+    "pages": [
+      591,
+      591
+    ],
+    "translated_name": {
+      "language_name": "english",
+      "name": "The Nightcommer"
+    }
+  },
+  "verses": [
+    {
+      "id": 5932,
+      "verse_number": 1,
+      "verse_key": "86:1",
+      "hizb_number": 59,
+      "rub_el_hizb_number": 236,
+      "ruku_number": 530,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": " وَٱلسَّمَآءِ وَٱلطَّارِقِ",
+      "page_number": 591,
+      "juz_number": 30,
+      "translations": [
+        {
+          "id": 407635,
+          "resource_id": 85,
+          "text": "By the sky and the night-comer––"
+        }
+      ]
+    },
+    {
+      "id": 5933,
+      "verse_number": 2,
+      "verse_key": "86:2",
+      "hizb_number": 59,
+      "rub_el_hizb_number": 236,
+      "ruku_number": 530,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "وَمَآ أَدْرَىٰكَ مَا ٱلطَّارِقُ",
+      "page_number": 591,
+      "juz_number": 30,
+      "translations": [
+        {
+          "id": 407636,
+          "resource_id": 85,
+          "text": "What will explain to you what the night-comer is?"
+        }
+      ]
+    },
+    {
+      "id": 5934,
+      "verse_number": 3,
+      "verse_key": "86:3",
+      "hizb_number": 59,
+      "rub_el_hizb_number": 236,
+      "ruku_number": 530,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "ٱلنَّجْمُ ٱلثَّاقِبُ",
+      "page_number": 591,
+      "juz_number": 30,
+      "translations": [
+        {
+          "id": 407637,
+          "resource_id": 85,
+          "text": "The piercing star––"
+        }
+      ]
+    },
+    {
+      "id": 5935,
+      "verse_number": 4,
+      "verse_key": "86:4",
+      "hizb_number": 59,
+      "rub_el_hizb_number": 236,
+      "ruku_number": 530,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "إِن كُلُّ نَفْسٍ لَّمَّا عَلَيْهَا حَافِظٌ",
+      "page_number": 591,
+      "juz_number": 30,
+      "translations": [
+        {
+          "id": 407638,
+          "resource_id": 85,
+          "text": "there is a watcher over every soul."
+        }
+      ]
+    },
+    {
+      "id": 5936,
+      "verse_number": 5,
+      "verse_key": "86:5",
+      "hizb_number": 59,
+      "rub_el_hizb_number": 236,
+      "ruku_number": 530,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "فَلْيَنظُرِ ٱلْإِنسَـٰنُ مِمَّ خُلِقَ",
+      "page_number": 591,
+      "juz_number": 30,
+      "translations": [
+        {
+          "id": 407639,
+          "resource_id": 85,
+          "text": "Man should reflect on what he was created from."
+        }
+      ]
+    },
+    {
+      "id": 5937,
+      "verse_number": 6,
+      "verse_key": "86:6",
+      "hizb_number": 59,
+      "rub_el_hizb_number": 236,
+      "ruku_number": 530,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "خُلِقَ مِن مَّآءٍ دَافِقٍ",
+      "page_number": 591,
+      "juz_number": 30,
+      "translations": [
+        {
+          "id": 407640,
+          "resource_id": 85,
+          "text": "He is created from spurting fluid,"
+        }
+      ]
+    },
+    {
+      "id": 5938,
+      "verse_number": 7,
+      "verse_key": "86:7",
+      "hizb_number": 59,
+      "rub_el_hizb_number": 236,
+      "ruku_number": 530,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "يَخْرُجُ مِنۢ بَيْنِ ٱلصُّلْبِ وَٱلتَّرَآئِبِ",
+      "page_number": 591,
+      "juz_number": 30,
+      "translations": [
+        {
+          "id": 407641,
+          "resource_id": 85,
+          "text": "then he emerges from between the backbone and breastbone:"
+        }
+      ]
+    },
+    {
+      "id": 5939,
+      "verse_number": 8,
+      "verse_key": "86:8",
+      "hizb_number": 59,
+      "rub_el_hizb_number": 236,
+      "ruku_number": 530,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "إِنَّهُۥ عَلَىٰ رَجْعِهِۦ لَقَادِرٌ",
+      "page_number": 591,
+      "juz_number": 30,
+      "translations": [
+        {
+          "id": 407642,
+          "resource_id": 85,
+          "text": "God is certainly able to bring him back to life."
+        }
+      ]
+    },
+    {
+      "id": 5940,
+      "verse_number": 9,
+      "verse_key": "86:9",
+      "hizb_number": 59,
+      "rub_el_hizb_number": 236,
+      "ruku_number": 530,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "يَوْمَ تُبْلَى ٱلسَّرَآئِرُ",
+      "page_number": 591,
+      "juz_number": 30,
+      "translations": [
+        {
+          "id": 407643,
+          "resource_id": 85,
+          "text": "On the Day when secrets are laid bare"
+        }
+      ]
+    },
+    {
+      "id": 5941,
+      "verse_number": 10,
+      "verse_key": "86:10",
+      "hizb_number": 59,
+      "rub_el_hizb_number": 236,
+      "ruku_number": 530,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "فَمَا لَهُۥ مِن قُوَّةٍ وَلَا نَاصِرٍ",
+      "page_number": 591,
+      "juz_number": 30,
+      "translations": [
+        {
+          "id": 407644,
+          "resource_id": 85,
+          "text": "he will have no power and no one to help him."
+        }
+      ]
+    },
+    {
+      "id": 5942,
+      "verse_number": 11,
+      "verse_key": "86:11",
+      "hizb_number": 59,
+      "rub_el_hizb_number": 236,
+      "ruku_number": 530,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "وَٱلسَّمَآءِ ذَاتِ ٱلرَّجْعِ",
+      "page_number": 591,
+      "juz_number": 30,
+      "translations": [
+        {
+          "id": 407645,
+          "resource_id": 85,
+          "text": "By the sky and its recurring rain,"
+        }
+      ]
+    },
+    {
+      "id": 5943,
+      "verse_number": 12,
+      "verse_key": "86:12",
+      "hizb_number": 59,
+      "rub_el_hizb_number": 236,
+      "ruku_number": 530,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "وَٱلْأَرْضِ ذَاتِ ٱلصَّدْعِ",
+      "page_number": 591,
+      "juz_number": 30,
+      "translations": [
+        {
+          "id": 407646,
+          "resource_id": 85,
+          "text": "by the earth that cracks open!"
+        }
+      ]
+    },
+    {
+      "id": 5944,
+      "verse_number": 13,
+      "verse_key": "86:13",
+      "hizb_number": 59,
+      "rub_el_hizb_number": 236,
+      "ruku_number": 530,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "إِنَّهُۥ لَقَوْلٌ فَصْلٌ",
+      "page_number": 591,
+      "juz_number": 30,
+      "translations": [
+        {
+          "id": 407647,
+          "resource_id": 85,
+          "text": "This is truly a decisive statement;"
+        }
+      ]
+    },
+    {
+      "id": 5945,
+      "verse_number": 14,
+      "verse_key": "86:14",
+      "hizb_number": 59,
+      "rub_el_hizb_number": 236,
+      "ruku_number": 530,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "وَمَا هُوَ بِٱلْهَزْلِ",
+      "page_number": 591,
+      "juz_number": 30,
+      "translations": [
+        {
+          "id": 407648,
+          "resource_id": 85,
+          "text": "it is not something to be taken lightly."
+        }
+      ]
+    },
+    {
+      "id": 5946,
+      "verse_number": 15,
+      "verse_key": "86:15",
+      "hizb_number": 59,
+      "rub_el_hizb_number": 236,
+      "ruku_number": 530,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "إِنَّهُمْ يَكِيدُونَ كَيْدًا",
+      "page_number": 591,
+      "juz_number": 30,
+      "translations": [
+        {
+          "id": 407649,
+          "resource_id": 85,
+          "text": "They plot and scheme,"
+        }
+      ]
+    },
+    {
+      "id": 5947,
+      "verse_number": 16,
+      "verse_key": "86:16",
+      "hizb_number": 59,
+      "rub_el_hizb_number": 236,
+      "ruku_number": 530,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "وَأَكِيدُ كَيْدًا",
+      "page_number": 591,
+      "juz_number": 30,
+      "translations": [
+        {
+          "id": 407650,
+          "resource_id": 85,
+          "text": "but so do I:"
+        }
+      ]
+    },
+    {
+      "id": 5948,
+      "verse_number": 17,
+      "verse_key": "86:17",
+      "hizb_number": 59,
+      "rub_el_hizb_number": 236,
+      "ruku_number": 530,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "فَمَهِّلِ ٱلْكَـٰفِرِينَ أَمْهِلْهُمْ رُوَيْدًۢا",
+      "page_number": 591,
+      "juz_number": 30,
+      "translations": [
+        {
+          "id": 407651,
+          "resource_id": 85,
+          "text": "[Prophet], let the disbelievers be, let them be for a while."
+        }
+      ]
+    }
+  ]
+}

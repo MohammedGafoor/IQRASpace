@@ -1,0 +1,143 @@
+{
+  "syncedAt": "2026-08-31T05:21:32.260Z",
+  "chapter": {
+    "id": 109,
+    "revelation_place": "makkah",
+    "revelation_order": 18,
+    "bismillah_pre": true,
+    "name_simple": "Al-Kafirun",
+    "name_complex": "Al-Kāfirūn",
+    "name_arabic": "الكافرون",
+    "verses_count": 6,
+    "pages": [
+      603,
+      603
+    ],
+    "translated_name": {
+      "language_name": "english",
+      "name": "The Disbelievers"
+    }
+  },
+  "verses": [
+    {
+      "id": 6208,
+      "verse_number": 1,
+      "verse_key": "109:1",
+      "hizb_number": 60,
+      "rub_el_hizb_number": 240,
+      "ruku_number": 553,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": " قُلْ يَـٰٓأَيُّهَا ٱلْكَـٰفِرُونَ",
+      "page_number": 603,
+      "juz_number": 30,
+      "translations": [
+        {
+          "id": 407911,
+          "resource_id": 85,
+          "text": "Say [Prophet], ‘Disbelievers:"
+        }
+      ]
+    },
+    {
+      "id": 6209,
+      "verse_number": 2,
+      "verse_key": "109:2",
+      "hizb_number": 60,
+      "rub_el_hizb_number": 240,
+      "ruku_number": 553,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "لَآ أَعْبُدُ مَا تَعْبُدُونَ",
+      "page_number": 603,
+      "juz_number": 30,
+      "translations": [
+        {
+          "id": 407912,
+          "resource_id": 85,
+          "text": "I do not worship what you worship,"
+        }
+      ]
+    },
+    {
+      "id": 6210,
+      "verse_number": 3,
+      "verse_key": "109:3",
+      "hizb_number": 60,
+      "rub_el_hizb_number": 240,
+      "ruku_number": 553,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "وَلَآ أَنتُمْ عَـٰبِدُونَ مَآ أَعْبُدُ",
+      "page_number": 603,
+      "juz_number": 30,
+      "translations": [
+        {
+          "id": 407913,
+          "resource_id": 85,
+          "text": "you do not worship what I worship,"
+        }
+      ]
+    },
+    {
+      "id": 6211,
+      "verse_number": 4,
+      "verse_key": "109:4",
+      "hizb_number": 60,
+      "rub_el_hizb_number": 240,
+      "ruku_number": 553,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "وَلَآ أَنَا۠ عَابِدٌ مَّا عَبَدتُّمْ",
+      "page_number": 603,
+      "juz_number": 30,
+      "translations": [
+        {
+          "id": 407914,
+          "resource_id": 85,
+          "text": "I will never worship what you worship,"
+        }
+      ]
+    },
+    {
+      "id": 6212,
+      "verse_number": 5,
+      "verse_key": "109:5",
+      "hizb_number": 60,
+      "rub_el_hizb_number": 240,
+      "ruku_number": 553,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "وَلَآ أَنتُمْ عَـٰبِدُونَ مَآ أَعْبُدُ",
+      "page_number": 603,
+      "juz_number": 30,
+      "translations": [
+        {
+          "id": 407915,
+          "resource_id": 85,
+          "text": "you will never worship what I worship:"
+        }
+      ]
+    },
+    {
+      "id": 6213,
+      "verse_number": 6,
+      "verse_key": "109:6",
+      "hizb_number": 60,
+      "rub_el_hizb_number": 240,
+      "ruku_number": 553,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "لَكُمْ دِينُكُمْ وَلِىَ دِينِ",
+      "page_number": 603,
+      "juz_number": 30,
+      "translations": [
+        {
+          "id": 407916,
+          "resource_id": 85,
+          "text": "you have your religion and I have mine.’"
+        }
+      ]
+    }
+  ]
+}

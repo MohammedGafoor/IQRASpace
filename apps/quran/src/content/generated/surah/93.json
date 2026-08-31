@@ -1,0 +1,243 @@
+{
+  "syncedAt": "2026-08-31T05:21:25.628Z",
+  "chapter": {
+    "id": 93,
+    "revelation_place": "makkah",
+    "revelation_order": 11,
+    "bismillah_pre": true,
+    "name_simple": "Ad-Duhaa",
+    "name_complex": "Ađ-Đuĥaá",
+    "name_arabic": "الضحى",
+    "verses_count": 11,
+    "pages": [
+      596,
+      596
+    ],
+    "translated_name": {
+      "language_name": "english",
+      "name": "The Morning Hours"
+    }
+  },
+  "verses": [
+    {
+      "id": 6080,
+      "verse_number": 1,
+      "verse_key": "93:1",
+      "hizb_number": 60,
+      "rub_el_hizb_number": 238,
+      "ruku_number": 537,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": " وَٱلضُّحَىٰ",
+      "page_number": 596,
+      "juz_number": 30,
+      "translations": [
+        {
+          "id": 407783,
+          "resource_id": 85,
+          "text": "By the morning brightness"
+        }
+      ]
+    },
+    {
+      "id": 6081,
+      "verse_number": 2,
+      "verse_key": "93:2",
+      "hizb_number": 60,
+      "rub_el_hizb_number": 238,
+      "ruku_number": 537,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "وَٱلَّيْلِ إِذَا سَجَىٰ",
+      "page_number": 596,
+      "juz_number": 30,
+      "translations": [
+        {
+          "id": 407784,
+          "resource_id": 85,
+          "text": "and by the night when it grows still,"
+        }
+      ]
+    },
+    {
+      "id": 6082,
+      "verse_number": 3,
+      "verse_key": "93:3",
+      "hizb_number": 60,
+      "rub_el_hizb_number": 238,
+      "ruku_number": 537,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "مَا وَدَّعَكَ رَبُّكَ وَمَا قَلَىٰ",
+      "page_number": 596,
+      "juz_number": 30,
+      "translations": [
+        {
+          "id": 407785,
+          "resource_id": 85,
+          "text": "your Lord has not forsaken you [Prophet], nor does He hate you,"
+        }
+      ]
+    },
+    {
+      "id": 6083,
+      "verse_number": 4,
+      "verse_key": "93:4",
+      "hizb_number": 60,
+      "rub_el_hizb_number": 238,
+      "ruku_number": 537,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "وَلَلْـَٔاخِرَةُ خَيْرٌ لَّكَ مِنَ ٱلْأُولَىٰ",
+      "page_number": 596,
+      "juz_number": 30,
+      "translations": [
+        {
+          "id": 407786,
+          "resource_id": 85,
+          "text": "and the future will be better for you than the past;"
+        }
+      ]
+    },
+    {
+      "id": 6084,
+      "verse_number": 5,
+      "verse_key": "93:5",
+      "hizb_number": 60,
+      "rub_el_hizb_number": 238,
+      "ruku_number": 537,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "وَلَسَوْفَ يُعْطِيكَ رَبُّكَ فَتَرْضَىٰٓ",
+      "page_number": 596,
+      "juz_number": 30,
+      "translations": [
+        {
+          "id": 407787,
+          "resource_id": 85,
+          "text": "your Lord is sure to give you so much that you will be well satisfied."
+        }
+      ]
+    },
+    {
+      "id": 6085,
+      "verse_number": 6,
+      "verse_key": "93:6",
+      "hizb_number": 60,
+      "rub_el_hizb_number": 238,
+      "ruku_number": 537,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "أَلَمْ يَجِدْكَ يَتِيمًا فَـَٔاوَىٰ",
+      "page_number": 596,
+      "juz_number": 30,
+      "translations": [
+        {
+          "id": 407788,
+          "resource_id": 85,
+          "text": "Did He not find you an orphan and shelter you?"
+        }
+      ]
+    },
+    {
+      "id": 6086,
+      "verse_number": 7,
+      "verse_key": "93:7",
+      "hizb_number": 60,
+      "rub_el_hizb_number": 238,
+      "ruku_number": 537,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "وَوَجَدَكَ ضَآلًّا فَهَدَىٰ",
+      "page_number": 596,
+      "juz_number": 30,
+      "translations": [
+        {
+          "id": 407789,
+          "resource_id": 85,
+          "text": "Did He not find you lost and guide you?"
+        }
+      ]
+    },
+    {
+      "id": 6087,
+      "verse_number": 8,
+      "verse_key": "93:8",
+      "hizb_number": 60,
+      "rub_el_hizb_number": 238,
+      "ruku_number": 537,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "وَوَجَدَكَ عَآئِلًا فَأَغْنَىٰ",
+      "page_number": 596,
+      "juz_number": 30,
+      "translations": [
+        {
+          "id": 407790,
+          "resource_id": 85,
+          "text": "Did He not find you in need and make you self-sufficient?"
+        }
+      ]
+    },
+    {
+      "id": 6088,
+      "verse_number": 9,
+      "verse_key": "93:9",
+      "hizb_number": 60,
+      "rub_el_hizb_number": 238,
+      "ruku_number": 537,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "فَأَمَّا ٱلْيَتِيمَ فَلَا تَقْهَرْ",
+      "page_number": 596,
+      "juz_number": 30,
+      "translations": [
+        {
+          "id": 407791,
+          "resource_id": 85,
+          "text": "So do not be harsh with the orphan"
+        }
+      ]
+    },
+    {
+      "id": 6089,
+      "verse_number": 10,
+      "verse_key": "93:10",
+      "hizb_number": 60,
+      "rub_el_hizb_number": 238,
+      "ruku_number": 537,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "وَأَمَّا ٱلسَّآئِلَ فَلَا تَنْهَرْ",
+      "page_number": 596,
+      "juz_number": 30,
+      "translations": [
+        {
+          "id": 407792,
+          "resource_id": 85,
+          "text": "and do not chide the one who asks for help;"
+        }
+      ]
+    },
+    {
+      "id": 6090,
+      "verse_number": 11,
+      "verse_key": "93:11",
+      "hizb_number": 60,
+      "rub_el_hizb_number": 238,
+      "ruku_number": 537,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "وَأَمَّا بِنِعْمَةِ رَبِّكَ فَحَدِّثْ",
+      "page_number": 596,
+      "juz_number": 30,
+      "translations": [
+        {
+          "id": 407793,
+          "resource_id": 85,
+          "text": "talk about the blessings of your Lord."
+        }
+      ]
+    }
+  ]
+}
