@@ -1,6 +1,8 @@
 # IqraSpace Quran — Production Deployment
 
-Status: **deployed to Vercel, DNS pending.** Both apps are live and verified working on their `*.vercel.app` aliases, including the full Multi-Zones stitch (`https://iqraspace-landing.vercel.app/quran` correctly proxies to the `apps/quran` deployment). `iqraspace.org` itself is added to the `apps/landing` Vercel project but **not yet resolving** — the domain's DNS is hosted at Cloudflare and doesn't point at Vercel yet. See "DNS — action required" below; that's the one remaining step before `https://iqraspace.org` goes live.
+Status: **deployed to Vercel, CI/CD verified end-to-end, DNS pending.** Both apps are live and verified working on their `*.vercel.app` aliases, including the full Multi-Zones stitch (`https://iqraspace-landing.vercel.app/quran` correctly proxies to the `apps/quran` deployment). All 6 GitHub Actions secrets are set and a real `git push` → `validate` → `deploy` → `health check` run has succeeded for both `ci-quran.yml` and `ci-landing.yml` — the automated pipeline described below is no longer aspirational, it's confirmed working. `iqraspace.org` itself is added to the `apps/landing` Vercel project but **not yet resolving** — the domain's DNS is hosted at Cloudflare and doesn't point at Vercel yet. See "DNS — action required" below; that's the one remaining step before `https://iqraspace.org` goes live.
+
+Two real bugs were found and fixed getting CI green (both were **local Vercel CLI build-packaging quirks, not app bugs** — see their `git log` commits and the inline comments in each workflow for full detail): `apps/quran`'s prebuilt flow failed lambda-tracing on legitimate SSG routes; `apps/landing`'s prebuilt flow served `/robots.txt` correctly but 404'd on `/` from the same deploy. Both workflows now use `vercel deploy --prod` (remote build) instead of the local `vercel build`/`--prebuilt` flow `apps/web`'s `ci.yml` uses — deliberately different from that proven pattern, not an oversight. Do not reintroduce the prebuilt flow without confirming upstream has actually fixed this.
 
 ## Architecture
 
@@ -72,22 +74,22 @@ Full purpose/detail for every variable lives in `apps/quran/.env.local.example` 
 
 Once added, Vercel auto-verifies (an email confirms it) and issues HTTPS certificates for both `iqraspace.org` and `www.iqraspace.org` automatically — no separate certificate step. Re-run `vercel domains inspect iqraspace.org` to confirm the warning clears.
 
-## GitHub Actions secrets required
+## GitHub Actions secrets — set and verified working
 
-Neither workflow's `deploy` job can run until these repository secrets exist (GitHub → Settings → Secrets and variables → Actions → New repository secret). None are printed in workflow logs. `validate` runs fine without them (already confirmed green on GitHub Actions).
+All 6 are set (GitHub → Settings → Secrets and variables → Actions) and a real `push` → `deploy` → `health check` run has succeeded end-to-end for both workflows (2026-08-31).
 
 | Secret | Used by | Value |
 |---|---|---|
-| `LANDING_VERCEL_TOKEN` | `ci-landing.yml` | A Vercel API token for the `shaga2` team (vercel.com/account/tokens) — generate a fresh one for CI use, don't reuse a personal interactive-session token |
+| `LANDING_VERCEL_TOKEN` | `ci-landing.yml` | A Vercel API token for the `shaga2` team |
 | `LANDING_VERCEL_ORG_ID` | `ci-landing.yml` | `team_FXkdH5PjVawG5qfuheLlST0K` |
 | `LANDING_VERCEL_PROJECT_ID` | `ci-landing.yml` | `prj_lnlOOiPb0xuraZDGnGEPWMPvpTr1` |
-| `QURAN_VERCEL_TOKEN` | `ci-quran.yml` | Same Vercel team token as above (or a separate one — either works, both projects are in `shaga2`) |
+| `QURAN_VERCEL_TOKEN` | `ci-quran.yml` | Same Vercel team token as above (both projects are in `shaga2`) |
 | `QURAN_VERCEL_ORG_ID` | `ci-quran.yml` | `team_FXkdH5PjVawG5qfuheLlST0K` |
 | `QURAN_VERCEL_PROJECT_ID` | `ci-quran.yml` | `prj_Xoa0J8m5m1gsijkBKI3IUDCKipR5` |
 
 Deliberately **not** GitHub secrets: `NEXT_PUBLIC_SUPABASE_URL`/`_ANON_KEY`, `QURAN_FOUNDATION_PROD_*`, `NEXT_BASE_PATH` — these live only in the Vercel dashboard's Environment Variables for the `apps/quran` project (already set, see table above), following the same pattern `apps/web`'s pipeline already uses.
 
-**Security note:** the Vercel token used to set all of the above up during this session was pasted directly into chat rather than passed via the local-file method originally requested — meaning it's present in this session's conversation history/logs. It still works and nothing here was left in a broken state because of it, but treat it as exposed: **rotate it** (vercel.com/account/tokens → revoke, generate a new one) once you've copied whatever you still need from it, and generate the CI tokens above fresh rather than reusing it.
+**Security note:** during this session, a Vercel token, then a GitHub PAT, then a second Vercel token were each pasted directly into chat rather than passed via the local-file method requested — meaning all three are present in this session's conversation history/logs, even though only the values were ever written to local files, never echoed back out. Nothing was left broken because of it, but **all three should be rotated/revoked** once you've confirmed everything above still works after doing so: the original interactive Vercel token, the GitHub PAT (github.com/settings/tokens), and the `LANDING_VERCEL_TOKEN`/`QURAN_VERCEL_TOKEN` value itself (generate a new Vercel token, update both GitHub secrets to the new value, then revoke the old one).
 
 ## Deployment process (CI/CD)
 
@@ -96,13 +98,13 @@ git push origin main
         ↓
 GitHub Actions — path-filtered, only the app(s) that actually changed run
         ↓
-  ci-landing.yml: validate (HTML/JSON check) → deploy (Vercel CLI, prebuilt, prod) → health check
+  ci-landing.yml: validate (HTML/JSON check) → deploy (Vercel CLI, remote build, prod) → health check
   ci-quran.yml:   validate (lint/typecheck/build) → deploy (Vercel CLI, remote build, prod) → health check
         ↓
 https://iqraspace.org (apps/landing)  +  https://iqraspace.org/quran (apps/quran, via the rewrite)
 ```
 
-A pull request against `main` runs only each affected app's `validate` job — nothing deploys until merged. Pushing directly to `main` (small team) triggers the same sequence without a PR. **Not yet exercised end-to-end**: both `deploy` jobs are currently blocked on the GitHub secrets above — everything documented as "live" in this file was deployed manually from this session via the Vercel CLI to unblock going live now; the next real code change pushed to `main` will be the first one to actually flow through the automated pipeline once the secrets are added.
+A pull request against `main` runs only each affected app's `validate` job — nothing deploys until merged. Pushing directly to `main` (small team) triggers the same sequence without a PR. **Verified working end-to-end** (2026-08-31): commit `a057b35`'s push through both `ci-quran.yml` and `ci-landing.yml` ran validate → deploy → health check successfully, with no manual intervention beyond the secrets already being in place. This is the same pipeline any future `git push` to `main` will go through.
 
 ### One-time setup already done
 
@@ -113,8 +115,24 @@ A pull request against `main` runs only each affected app's `validate` job — n
 ### One-time setup still required (only the project owner can do this)
 
 1. **DNS** — add the two Cloudflare A records above (this is what's blocking `https://iqraspace.org` from resolving right now).
-2. **GitHub secrets** — add the six secrets above, so `git push` alone deploys from now on instead of the manual CLI steps this session used.
-3. Rotate the Vercel token per the security note above.
+2. Rotate the three tokens per the security note above.
+3. Once DNS resolves, run the manual responsive/cross-browser spot-check below — this sandbox has no headless browser, so it's real signal this pass couldn't produce itself.
+
+### Manual responsive / cross-browser spot-check (do this once DNS resolves)
+
+This sandbox has no headless browser, so this is the one verification step in the whole deployment that genuinely needs a human with a real browser — static analysis (below) is supporting evidence, not a substitute. At each width, open `https://iqraspace.org` and `https://iqraspace.org/quran/surah/2` (a long Surah — Al-Baqarah — exercises the reader more than the short homepage):
+
+| Width | Device class | What to check |
+|---|---|---|
+| 320px | Smallest phone | Header/nav doesn't overlap or clip; no horizontal scrollbar anywhere |
+| 375px, 390px, 430px | Modern phones | Reader controls (font/theme/width toolbar) remain tappable, don't overlap the Arabic text; RTL Arabic block and LTR translation both readable side-by-side or stacked without overflow |
+| 768px | Tablet | Layout transitions cleanly from mobile to wider — no leftover mobile-only nav artifacts, no premature desktop-width assumptions |
+| 1024px, 1280px | Small/laptop desktop | Reader stays centered at its max-width (doesn't stretch full-bleed and hurt line length); footer stays at the bottom, not stranded mid-page |
+| 1440px, 1920px | Large desktop | Same centered max-width holds; verify nothing looks sparse/broken on very wide viewports |
+
+At any two widths (e.g. 390px and 1280px), also check: theme toggle (light/dark) actually switches and persists on reload; a bookmark set on the reader survives a refresh; browser back/forward after navigating Surah → Juz → back lands correctly; and the browser console has zero errors (CSP violations would show here first if the header policy is ever too strict for a future change).
+
+**What this session verified without a browser** (real signal, not a substitute for the above): `curl`-based checks confirm correct `lang="en" dir="ltr"` on the shell with `dir="rtl"` on Arabic verse blocks, a `viewport` meta tag, working `prefers-color-scheme: dark` CSS, and no CSP/header errors on any fetched route. The codebase uses fluid CSS (`clamp()` for type scale, CSS Grid `minmax()/auto-fill` for the Mushaf-page grid, `max-width` for line length) rather than fixed breakpoints, consistent with the automated 8-breakpoint axe-core pass already recorded in `PROJECT-STATUS.md` (0 violations) from Phase 1 development.
 
 ### Rollback
 
