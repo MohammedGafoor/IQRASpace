@@ -95,6 +95,14 @@
       font-size: 1.05rem;
     }
 
+    .cta-group {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 0.85rem;
+      margin-bottom: 2rem;
+    }
+
     .cta {
       display: inline-flex;
       align-items: center;
@@ -106,6 +114,12 @@
       font-size: 1.05rem;
       padding: 0.85rem 1.75rem;
       border-radius: 0.6rem;
+    }
+    .cta.secondary {
+      background: transparent;
+      color: var(--color-primary);
+      border: 2px solid var(--color-primary);
+      padding: calc(0.85rem - 2px) calc(1.75rem - 2px);
     }
     .cta:focus-visible {
       outline: 3px solid var(--color-focus-ring);
@@ -130,10 +144,16 @@
     <h1 class="wordmark"><span class="iqra">IQRA</span><span class="space">SPACE</span></h1>
     <p class="tagline">Read. Listen. Learn. Reflect. A free, non-commercial home for learning the Quran.</p>
 
-    <a class="cta" href="/quran">
-      Open the Quran Reader
-      <span aria-hidden="true">&rarr;</span>
-    </a>
+    <div class="cta-group">
+      <a class="cta" href="/quran">
+        Open the Quran Reader
+        <span aria-hidden="true">&rarr;</span>
+      </a>
+      <a class="cta secondary" href="/learning">
+        Go to Learning
+        <span aria-hidden="true">&rarr;</span>
+      </a>
+    </div>
 
     <footer>
       <p>&copy; IqraSpace. A Sadaqah Jariyah project — free, ad-free, always.</p>

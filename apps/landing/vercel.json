@@ -5,7 +5,7 @@
 
   "headers": [
     {
-      "source": "/((?!quran).*)",
+      "source": "/((?!quran|learning).*)",
       "headers": [
         { "key": "X-Content-Type-Options", "value": "nosniff" },
         { "key": "X-Frame-Options", "value": "DENY" },
@@ -27,6 +27,14 @@
     {
       "source": "/quran/:path*",
       "destination": "https://iqraspace-quran.vercel.app/quran/:path*"
+    },
+    {
+      "source": "/learning",
+      "destination": "https://iqraspace.vercel.app/learning"
+    },
+    {
+      "source": "/learning/:path*",
+      "destination": "https://iqraspace.vercel.app/learning/:path*"
     }
   ]
 }
