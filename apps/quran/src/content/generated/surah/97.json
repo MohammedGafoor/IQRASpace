@@ -1,5 +1,5 @@
 {
-  "syncedAt": "2026-08-31T05:21:27.276Z",
+  "syncedAt": "2026-08-31T09:57:53.937Z",
   "chapter": {
     "id": 97,
     "revelation_place": "makkah",
@@ -36,6 +36,11 @@
           "id": 407829,
           "resource_id": 85,
           "text": "We sent it down on the Night of Glory."
+        },
+        {
+          "id": 1550563,
+          "resource_id": 831,
+          "text": "Humne is (Quran) ko shab-e-qadr mei nazil kiya hai"
         }
       ]
     },
@@ -56,6 +61,11 @@
           "id": 407830,
           "resource_id": 85,
           "text": "What will explain to you what that Night of Glory is?"
+        },
+        {
+          "id": 1550564,
+          "resource_id": 831,
+          "text": "Aur tum kya jano kay shab-e-qadr kya hai"
         }
       ]
     },
@@ -76,6 +86,11 @@
           "id": 407831,
           "resource_id": 85,
           "text": "The Night of Glory is better than a thousand months;"
+        },
+        {
+          "id": 1550565,
+          "resource_id": 831,
+          "text": "Shab-e-qadr hazar mahino se zyada behtar hai"
         }
       ]
     },
@@ -96,6 +111,11 @@
           "id": 407832,
           "resource_id": 85,
           "text": "on that night the angels and the Spirit descend again and again with their Lord’s permission on every task;"
+        },
+        {
+          "id": 1550566,
+          "resource_id": 831,
+          "text": "Farishtey aur rooh(Jibrael) us mein apne Rubb ke izn(permission) se har hukm le kar utarte hai"
         }
       ]
     },
@@ -116,6 +136,11 @@
           "id": 407833,
           "resource_id": 85,
           "text": "[there is] peace that night until the break of dawn."
+        },
+        {
+          "id": 1550567,
+          "resource_id": 831,
+          "text": "Woh raat sarasar salamati hai tulu e fajr tak"
         }
       ]
     }

@@ -1,5 +1,5 @@
 {
-  "syncedAt": "2026-08-31T05:21:30.609Z",
+  "syncedAt": "2026-08-31T09:57:57.239Z",
   "chapter": {
     "id": 105,
     "revelation_place": "makkah",
@@ -36,6 +36,11 @@
           "id": 407892,
           "resource_id": 85,
           "text": "Do you [Prophet] not see how your Lord dealt with the army of the elephant?"
+        },
+        {
+          "id": 1550626,
+          "resource_id": 831,
+          "text": "Tumne dekha nahin ke tumhare Rubb ne haathi walon ke saath kya kiya"
         }
       ]
     },
@@ -56,6 +61,11 @@
           "id": 407893,
           "resource_id": 85,
           "text": "Did He not utterly confound their plans?"
+        },
+        {
+          "id": 1550627,
+          "resource_id": 831,
+          "text": "Kya usne unki tadbir ko akarat nahin kar diya"
         }
       ]
     },
@@ -76,6 +86,11 @@
           "id": 407894,
           "resource_id": 85,
           "text": "He sent ranks of birds against them,"
+        },
+        {
+          "id": 1550628,
+          "resource_id": 831,
+          "text": "Aur un par parindo ke jhund ke jhund bhej diye"
         }
       ]
     },
@@ -96,6 +111,11 @@
           "id": 407895,
           "resource_id": 85,
           "text": "pelting them with pellets of hard-baked clay:"
+        },
+        {
+          "id": 1550629,
+          "resource_id": 831,
+          "text": "Jo un par pakey huey mitti ke patthar phenk rahey thay"
         }
       ]
     },
@@ -116,6 +136,11 @@
           "id": 407896,
           "resource_id": 85,
           "text": "He made them [like] cropped stubble."
+        },
+        {
+          "id": 1550630,
+          "resource_id": 831,
+          "text": "Phir un ka yeh haal kar diya jaise janwaron ka khaya hua bhoosa"
         }
       ]
     }

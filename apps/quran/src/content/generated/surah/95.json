@@ -1,5 +1,5 @@
 {
-  "syncedAt": "2026-08-31T05:21:26.442Z",
+  "syncedAt": "2026-08-31T09:57:53.112Z",
   "chapter": {
     "id": 95,
     "revelation_place": "makkah",
@@ -36,6 +36,11 @@
           "id": 407802,
           "resource_id": 85,
           "text": "By the fig, by the olive,"
+        },
+        {
+          "id": 1550536,
+          "resource_id": 831,
+          "text": "Kasam hai Injir(fig) ki aur Zaitun ki"
         }
       ]
     },
@@ -56,6 +61,11 @@
           "id": 407803,
           "resource_id": 85,
           "text": "by Mount Sinai,"
+        },
+        {
+          "id": 1550537,
+          "resource_id": 831,
+          "text": "Aur Tur-e-sina (Mount Sinai)"
         }
       ]
     },
@@ -76,6 +86,11 @@
           "id": 407804,
           "resource_id": 85,
           "text": "by this safe town,"
+        },
+        {
+          "id": 1550538,
+          "resource_id": 831,
+          "text": "Aur is pur-aman shehar (Makkah) ki"
         }
       ]
     },
@@ -96,6 +111,11 @@
           "id": 407805,
           "resource_id": 85,
           "text": "We create man in the finest state"
+        },
+        {
+          "id": 1550539,
+          "resource_id": 831,
+          "text": "Humne Insan ko behtarin saakht par paida kiya"
         }
       ]
     },
@@ -116,6 +136,11 @@
           "id": 407806,
           "resource_id": 85,
           "text": "then reduce him to the lowest of the low,"
+        },
+        {
+          "id": 1550540,
+          "resource_id": 831,
+          "text": "Phir usey ulta pher kar humne sab neechon se neech kar diya"
         }
       ]
     },
@@ -136,6 +161,11 @@
           "id": 407807,
           "resource_id": 85,
           "text": "except those who believe and do good deeds–– they will have an unfailing reward."
+        },
+        {
+          "id": 1550541,
+          "resource_id": 831,
+          "text": "Siwaye un logon ke jo iman laye aur neik amal karte rahey kay unke liye kabhi khatam na hone wala ajar hai"
         }
       ]
     },
@@ -156,6 +186,11 @@
           "id": 407808,
           "resource_id": 85,
           "text": "After this, what makes you [man] deny the Judgement?"
+        },
+        {
+          "id": 1550542,
+          "resource_id": 831,
+          "text": "Pas (aey nabi) iske baad kaun jaza o saza ke maamle mei tumko jhutla sakta hai"
         }
       ]
     },
@@ -176,6 +211,11 @@
           "id": 407809,
           "resource_id": 85,
           "text": "Is God not the most decisive of judges?"
+        },
+        {
+          "id": 1550543,
+          "resource_id": 831,
+          "text": "Kya Allah sab hakimon se bada hakim nahin hai"
         }
       ]
     }

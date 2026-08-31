@@ -1,5 +1,5 @@
 {
-  "syncedAt": "2026-08-31T05:21:31.440Z",
+  "syncedAt": "2026-08-31T09:57:58.071Z",
   "chapter": {
     "id": 107,
     "revelation_place": "makkah",
@@ -36,6 +36,11 @@
           "id": 407901,
           "resource_id": 85,
           "text": "[Prophet], have you considered the person who denies the Judgement?"
+        },
+        {
+          "id": 1550635,
+          "resource_id": 831,
+          "text": "Tum ne dekha us shaks ko jo aakhirat ki jaza va saza ko jhutlata hai"
         }
       ]
     },
@@ -56,6 +61,11 @@
           "id": 407902,
           "resource_id": 85,
           "text": "It is he who pushes aside the orphan"
+        },
+        {
+          "id": 1550636,
+          "resource_id": 831,
+          "text": "Wahi to hai jo yateem ko dhakkey deta hai"
         }
       ]
     },
@@ -76,6 +86,11 @@
           "id": 407903,
           "resource_id": 85,
           "text": "and does not urge others to feed the needy."
+        },
+        {
+          "id": 1550637,
+          "resource_id": 831,
+          "text": "Aur miskeen ka khana dene par nahin uksata"
         }
       ]
     },
@@ -96,6 +111,11 @@
           "id": 407904,
           "resource_id": 85,
           "text": "So woe to those who pray"
+        },
+        {
+          "id": 1550638,
+          "resource_id": 831,
+          "text": "Phir tabahi hai un namaz padhne walon ke liye"
         }
       ]
     },
@@ -116,6 +136,11 @@
           "id": 407905,
           "resource_id": 85,
           "text": "but are heedless of their prayer;"
+        },
+        {
+          "id": 1550639,
+          "resource_id": 831,
+          "text": "Jo apni namaz se gaflat barat-tey hain"
         }
       ]
     },
@@ -136,6 +161,11 @@
           "id": 407906,
           "resource_id": 85,
           "text": "those who are all show"
+        },
+        {
+          "id": 1550640,
+          "resource_id": 831,
+          "text": "Jo riya-kaari(dikhawa) karte hai"
         }
       ]
     },
@@ -156,6 +186,11 @@
           "id": 407907,
           "resource_id": 85,
           "text": "and forbid common kindnesses."
+        },
+        {
+          "id": 1550641,
+          "resource_id": 831,
+          "text": "Aur maamuli zarurat ki cheezen (logon ko) dene se gurez karte hai"
         }
       ]
     }

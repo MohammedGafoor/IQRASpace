@@ -1,5 +1,5 @@
 {
-  "syncedAt": "2026-08-31T05:21:33.943Z",
+  "syncedAt": "2026-08-31T09:58:00.584Z",
   "chapter": {
     "id": 113,
     "revelation_place": "makkah",
@@ -36,6 +36,11 @@
           "id": 407929,
           "resource_id": 85,
           "text": "Say [Prophet], ‘I seek refuge with the Lord of daybreak"
+        },
+        {
+          "id": 1550663,
+          "resource_id": 831,
+          "text": "Kaho main panaah maangta hoon subah ke Rubb ki"
         }
       ]
     },
@@ -56,6 +61,11 @@
           "id": 407930,
           "resource_id": 85,
           "text": "against the harm in what He has created,"
+        },
+        {
+          "id": 1550664,
+          "resource_id": 831,
+          "text": "Har us cheez ke shar se jo usne paida ki hai"
         }
       ]
     },
@@ -76,6 +86,11 @@
           "id": 407931,
           "resource_id": 85,
           "text": "the harm in the night when darkness gathers,"
+        },
+        {
+          "id": 1550665,
+          "resource_id": 831,
+          "text": "Aur raat ki tareeki ke sharr se jab ke woh chaa jaye"
         }
       ]
     },
@@ -96,6 +111,11 @@
           "id": 407932,
           "resource_id": 85,
           "text": "the harm in witches when they blow on knots,"
+        },
+        {
+          "id": 1550666,
+          "resource_id": 831,
+          "text": "Aur girhon mein phoonkne walon (ya waliyon) ke sharr se"
         }
       ]
     },
@@ -116,6 +136,11 @@
           "id": 407933,
           "resource_id": 85,
           "text": "the harm in the envier when he envies.’"
+        },
+        {
+          "id": 1550667,
+          "resource_id": 831,
+          "text": "Aur hasid(envies) ke sharr se jab ke woh hasad(envy) karey"
         }
       ]
     }

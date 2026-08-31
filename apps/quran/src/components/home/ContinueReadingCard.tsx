@@ -17,21 +17,24 @@ type Props = {
  */
 export function ContinueReadingCard({ chapters }: Props) {
   const [position, setPosition] = useState<ReadingPosition | null>(null);
-  const [checked, setChecked] = useState(false);
 
   useEffect(() => {
     async function hydrate() {
       const loaded = loadLastPosition();
       await Promise.resolve(); // satisfies react-hooks/set-state-in-effect
       setPosition(loaded);
-      setChecked(true);
     }
     hydrate();
   }, []);
 
-  // Avoid flashing "Start Reading" before localStorage has been checked.
-  if (!checked) return null;
-
+  // Server-rendered HTML (and the client's very first render, before the
+  // effect above runs) always has no known last position — rendering
+  // "Start Reading" for that case, same as a genuinely first-time visitor,
+  // means the home page's primary CTA is a real link in the initial HTML
+  // (works with JS disabled/slow, crawlable, no flash-of-missing-button)
+  // rather than something that only appears after hydration completes.
+  // It's corrected to "Continue Reading" a moment later for returning
+  // visitors once localStorage has actually been read.
   if (!position) {
     const first = chapters[0];
     return (

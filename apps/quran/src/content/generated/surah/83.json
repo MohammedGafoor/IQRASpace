@@ -1,5 +1,5 @@
 {
-  "syncedAt": "2026-08-31T05:21:21.445Z",
+  "syncedAt": "2026-08-31T09:57:47.991Z",
   "chapter": {
     "id": 83,
     "revelation_place": "makkah",
@@ -36,6 +36,11 @@
           "id": 407552,
           "resource_id": 85,
           "text": "Woe to those who give short measure,"
+        },
+        {
+          "id": 1550286,
+          "resource_id": 831,
+          "text": "Tabahi hai dandi maarne walon ke liye"
         }
       ]
     },
@@ -56,6 +61,11 @@
           "id": 407553,
           "resource_id": 85,
           "text": "who demand of other people full measure for themselves,"
+        },
+        {
+          "id": 1550287,
+          "resource_id": 831,
+          "text": "Jinka haal yeh hai ke jab logon se letey hai to pura pura letey hai"
         }
       ]
     },
@@ -76,6 +86,11 @@
           "id": 407554,
           "resource_id": 85,
           "text": "but give less than they should when it is they who weigh or measure for others!"
+        },
+        {
+          "id": 1550288,
+          "resource_id": 831,
+          "text": "Aur jab unko naap kar ya toal kar dete hai to unhein ghata dete hai"
         }
       ]
     },
@@ -96,6 +111,11 @@
           "id": 407555,
           "resource_id": 85,
           "text": "Do these people not realize that they will be raised up"
+        },
+        {
+          "id": 1550289,
+          "resource_id": 831,
+          "text": "Kya yeh log nahin samajhte ke ek badey din"
         }
       ]
     },
@@ -116,6 +136,11 @@
           "id": 407556,
           "resource_id": 85,
           "text": "on a mighty Day,"
+        },
+        {
+          "id": 1550290,
+          "resource_id": 831,
+          "text": "Yeh utha kar laaye jaaney waley hain"
         }
       ]
     },
@@ -136,6 +161,11 @@
           "id": 407557,
           "resource_id": 85,
           "text": "a Day when everyone will stand before the Lord of the Worlds?"
+        },
+        {
+          "id": 1550291,
+          "resource_id": 831,
+          "text": "Uss din jabke sab log Rabb-ul-Aalamin ke samney khadey hongey"
         }
       ]
     },
@@ -156,6 +186,11 @@
           "id": 407558,
           "resource_id": 85,
           "text": "No indeed! The list of the wicked is in Sijjin––"
+        },
+        {
+          "id": 1550292,
+          "resource_id": 831,
+          "text": "Hargiz nahin, yaqeenan badkaaron ka naam-e- aamal qaid-khane ke daftar mei hai"
         }
       ]
     },
@@ -176,6 +211,11 @@
           "id": 407559,
           "resource_id": 85,
           "text": "what will explain to you what Sijjin is?––"
+        },
+        {
+          "id": 1550293,
+          "resource_id": 831,
+          "text": "Aur tumhey kya maloom ke woh qaid-khaney ka daftar kya hai"
         }
       ]
     },
@@ -196,6 +236,11 @@
           "id": 407560,
           "resource_id": 85,
           "text": "a clearly numbered list."
+        },
+        {
+          "id": 1550294,
+          "resource_id": 831,
+          "text": "Ek kitaab hai likhi hui"
         }
       ]
     },
@@ -216,6 +261,11 @@
           "id": 407561,
           "resource_id": 85,
           "text": "Woe on that day to the deniers,"
+        },
+        {
+          "id": 1550295,
+          "resource_id": 831,
+          "text": "Tabahi hai us roz jhutlane walon ke liye"
         }
       ]
     },
@@ -236,6 +286,11 @@
           "id": 407562,
           "resource_id": 85,
           "text": "those who deny the Day of Judgement!"
+        },
+        {
+          "id": 1550296,
+          "resource_id": 831,
+          "text": "Jo roz-e-jaza ko jhutlatay hain"
         }
       ]
     },
@@ -256,6 +311,11 @@
           "id": 407563,
           "resource_id": 85,
           "text": "Only the evil aggressor denies it:"
+        },
+        {
+          "id": 1550297,
+          "resource_id": 831,
+          "text": "Aur usey nahin jhutlata magar har woh shaks jo hadd se guzar janey wala bad-amal hai"
         }
       ]
     },
@@ -276,6 +336,11 @@
           "id": 407564,
           "resource_id": 85,
           "text": "when Our revelations are recited to him, he says, ‘Ancient fables!’"
+        },
+        {
+          "id": 1550298,
+          "resource_id": 831,
+          "text": "Usey jab hamari ayaat sunayi jaati hain to kehta hai yeh to agley waqton ki kahaniyan hai"
         }
       ]
     },
@@ -296,6 +361,11 @@
           "id": 407565,
           "resource_id": 85,
           "text": "No indeed! Their hearts are encrusted with what they have done."
+        },
+        {
+          "id": 1550299,
+          "resource_id": 831,
+          "text": "Hargiz nahin, balke darasal in logon ke dilon par inke burey aamal ka zang(rust) chadh gaya hai"
         }
       ]
     },
@@ -316,6 +386,11 @@
           "id": 407566,
           "resource_id": 85,
           "text": "No indeed! On that Day they will be screened off from their Lord,"
+        },
+        {
+          "id": 1550300,
+          "resource_id": 831,
+          "text": "Hargiz nahin bil yaqeen us roz yeh apne Rubb ki deed(deedar) se mehroom rakhey jayenge"
         }
       ]
     },
@@ -336,6 +411,11 @@
           "id": 407567,
           "resource_id": 85,
           "text": "they will burn in Hell,"
+        },
+        {
+          "id": 1550301,
+          "resource_id": 831,
+          "text": "Phir yeh jahannum mein jaa padenge"
         }
       ]
     },
@@ -356,6 +436,11 @@
           "id": 407568,
           "resource_id": 85,
           "text": "and they will be told, ‘This is what you called a lie.’"
+        },
+        {
+          "id": 1550302,
+          "resource_id": 831,
+          "text": "Phir insey kaha jayega ke yeh wahi cheez hai jisey tum jhutlaya karte thay"
         }
       ]
     },
@@ -376,6 +461,11 @@
           "id": 407569,
           "resource_id": 85,
           "text": "No indeed! The list of the truly good is in 'Illiyyin––"
+        },
+        {
+          "id": 1550303,
+          "resource_id": 831,
+          "text": "Hargiz nahin, beshak neik aadmion ka naam-e-aamal buland paya logon ke daftar mein hai"
         }
       ]
     },
@@ -396,6 +486,11 @@
           "id": 407570,
           "resource_id": 85,
           "text": "what will explain to you what 'Illiyyin is?––"
+        },
+        {
+          "id": 1550304,
+          "resource_id": 831,
+          "text": "Aur tumhein kya khabar ke kya hai woh buland paya logon ka daftar"
         }
       ]
     },
@@ -416,6 +511,11 @@
           "id": 407571,
           "resource_id": 85,
           "text": "a clearly written list,"
+        },
+        {
+          "id": 1550305,
+          "resource_id": 831,
+          "text": "Ek likhi hui kitaab hai"
         }
       ]
     },
@@ -436,6 +536,11 @@
           "id": 407572,
           "resource_id": 85,
           "text": "witnessed by those brought near."
+        },
+        {
+          "id": 1550306,
+          "resource_id": 831,
+          "text": "Jiski nigeh-daasht muqarrab farishtay karte hain"
         }
       ]
     },
@@ -456,6 +561,11 @@
           "id": 407573,
           "resource_id": 85,
           "text": "The truly good will live in bliss,"
+        },
+        {
+          "id": 1550307,
+          "resource_id": 831,
+          "text": "Beshak neik log badey mazey mein hongey"
         }
       ]
     },
@@ -476,6 +586,11 @@
           "id": 407574,
           "resource_id": 85,
           "text": "seated on couches, gazing around."
+        },
+        {
+          "id": 1550308,
+          "resource_id": 831,
+          "text": "Unchi masnadon(couches) par baithay nazarey kar rahey hongey"
         }
       ]
     },
@@ -496,6 +611,11 @@
           "id": 407575,
           "resource_id": 85,
           "text": "You will recognize on their faces the radiance of bliss."
+        },
+        {
+          "id": 1550309,
+          "resource_id": 831,
+          "text": "Unke chehron par tum khushhaali ki raunak mehsoos karogey"
         }
       ]
     },
@@ -516,6 +636,11 @@
           "id": 407576,
           "resource_id": 85,
           "text": "They will be served a sealed nectar,"
+        },
+        {
+          "id": 1550310,
+          "resource_id": 831,
+          "text": "Unko nafees tareen sarband sharaab pilayi jayegi jispar mushk ki mohar(seal) lagi hogi"
         }
       ]
     },
@@ -536,6 +661,11 @@
           "id": 407577,
           "resource_id": 85,
           "text": "its seal [perfumed with] a fragrant herb––let those who strive, strive for this––"
+        },
+        {
+          "id": 1550311,
+          "resource_id": 831,
+          "text": "Jo log dusron par baazi le jana chahtey hon woh is cheez ko haasil karne mei baazi le jane ki koshish karein"
         }
       ]
     },
@@ -556,6 +686,11 @@
           "id": 407578,
           "resource_id": 85,
           "text": "mixed with the water of Tasnim,"
+        },
+        {
+          "id": 1550312,
+          "resource_id": 831,
+          "text": "Us sharaab mei tasneem ki aamezish(mixture) hogi"
         }
       ]
     },
@@ -576,6 +711,11 @@
           "id": 407579,
           "resource_id": 85,
           "text": "a spring from which those brought near will drink."
+        },
+        {
+          "id": 1550313,
+          "resource_id": 831,
+          "text": "Yeh ek chasma hai jiske paani ke saath muqarrab log sharaab piyengey"
         }
       ]
     },
@@ -596,6 +736,11 @@
           "id": 407580,
           "resource_id": 85,
           "text": "The wicked used to laugh at the believers––"
+        },
+        {
+          "id": 1550314,
+          "resource_id": 831,
+          "text": "Mujrim log duniya mein imaan laane walon ka mazaak udate thay"
         }
       ]
     },
@@ -616,6 +761,11 @@
           "id": 407581,
           "resource_id": 85,
           "text": "they would wink at one another when the believers passed by them,"
+        },
+        {
+          "id": 1550315,
+          "resource_id": 831,
+          "text": "Jab unke paas se guzarte to aankhein maar maar kar unki taraf isharey karte thay"
         }
       ]
     },
@@ -636,6 +786,11 @@
           "id": 407582,
           "resource_id": 85,
           "text": "joke about them when they got back to their own people,"
+        },
+        {
+          "id": 1550316,
+          "resource_id": 831,
+          "text": "Apne gharon ki taraf palat-tey to mazey letey huey palat-tey thay"
         }
       ]
     },
@@ -656,6 +811,11 @@
           "id": 407583,
           "resource_id": 85,
           "text": "and say, when they saw them, ‘These people are misguided,’"
+        },
+        {
+          "id": 1550317,
+          "resource_id": 831,
+          "text": "Aur jab unhein dekhte to kehte thay ke yeh behke huey log hain"
         }
       ]
     },
@@ -676,6 +836,11 @@
           "id": 407584,
           "resource_id": 85,
           "text": "though they were not sent to be their keepers-"
+        },
+        {
+          "id": 1550318,
+          "resource_id": 831,
+          "text": "Halaanke woh un par nigran banakar nahin bhejey gaye thay"
         }
       ]
     },
@@ -696,6 +861,11 @@
           "id": 407585,
           "resource_id": 85,
           "text": "so today the believers are laughing at the disbelievers"
+        },
+        {
+          "id": 1550319,
+          "resource_id": 831,
+          "text": "Aaj imaan laane waley kuffar par hans rahay hai"
         }
       ]
     },
@@ -716,6 +886,11 @@
           "id": 407586,
           "resource_id": 85,
           "text": "as they sit on couches, gazing around."
+        },
+        {
+          "id": 1550320,
+          "resource_id": 831,
+          "text": "Masnadon par baithey huey unka haal dekh rahey hain"
         }
       ]
     },
@@ -736,6 +911,11 @@
           "id": 407587,
           "resource_id": 85,
           "text": "Have the disbelievers [not] been repaid for their deeds?"
+        },
+        {
+          "id": 1550321,
+          "resource_id": 831,
+          "text": "Mil gaya na kafiron ko un harkaton ka sawab jo woh kiya karte thay"
         }
       ]
     }

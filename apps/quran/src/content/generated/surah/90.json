@@ -1,5 +1,5 @@
 {
-  "syncedAt": "2026-08-31T05:21:24.376Z",
+  "syncedAt": "2026-08-31T09:57:50.999Z",
   "chapter": {
     "id": 90,
     "revelation_place": "makkah",
@@ -36,6 +36,11 @@
           "id": 407727,
           "resource_id": 85,
           "text": "I swear by this city––"
+        },
+        {
+          "id": 1550461,
+          "resource_id": 831,
+          "text": "Nahin mai kasam khata hoon is shehar(city) ki"
         }
       ]
     },
@@ -56,6 +61,11 @@
           "id": 407728,
           "resource_id": 85,
           "text": "and you [Prophet] are an inhabitant of this city––"
+        },
+        {
+          "id": 1550462,
+          "resource_id": 831,
+          "text": "Aur haal yeh hai ke (Aey nabi) is shehar mein tumko halal kar liya gaya hai"
         }
       ]
     },
@@ -76,6 +86,11 @@
           "id": 407729,
           "resource_id": 85,
           "text": "[I swear] by parent and offspring,"
+        },
+        {
+          "id": 1550463,
+          "resource_id": 831,
+          "text": "Aur kasam khata hoon baap(Adam) ki aur us aulad ki jo ussey paida hui"
         }
       ]
     },
@@ -96,6 +111,11 @@
           "id": 407730,
           "resource_id": 85,
           "text": "that We have created man for toil and trial."
+        },
+        {
+          "id": 1550464,
+          "resource_id": 831,
+          "text": "Dar haqeeqat humne Insan ko mushakkat mein paida kiya hai"
         }
       ]
     },
@@ -116,6 +136,11 @@
           "id": 407731,
           "resource_id": 85,
           "text": "Does he think that no one will have power over him?"
+        },
+        {
+          "id": 1550465,
+          "resource_id": 831,
+          "text": "Kya usne yeh samajh rakhha hai kay uspar koi qaabu na paa sakega"
         }
       ]
     },
@@ -136,6 +161,11 @@
           "id": 407732,
           "resource_id": 85,
           "text": "‘I have squandered great wealth,’ he says."
+        },
+        {
+          "id": 1550466,
+          "resource_id": 831,
+          "text": "Kehta hai ke maine dhairon maal udaa diya"
         }
       ]
     },
@@ -156,6 +186,11 @@
           "id": 407733,
           "resource_id": 85,
           "text": "Does he think no one observes him?"
+        },
+        {
+          "id": 1550467,
+          "resource_id": 831,
+          "text": "Kya woh samajhta hai kay kisi ne usko nahin dekha"
         }
       ]
     },
@@ -176,6 +211,11 @@
           "id": 407734,
           "resource_id": 85,
           "text": "Did We not give him eyes,"
+        },
+        {
+          "id": 1550468,
+          "resource_id": 831,
+          "text": "Kya humne usey do aankhein"
         }
       ]
     },
@@ -196,6 +236,11 @@
           "id": 407735,
           "resource_id": 85,
           "text": "a tongue, lips,"
+        },
+        {
+          "id": 1550469,
+          "resource_id": 831,
+          "text": "Aur ek zubaan aur do honth nahin diye"
         }
       ]
     },
@@ -216,6 +261,11 @@
           "id": 407736,
           "resource_id": 85,
           "text": "and point out to him the two clear ways [of good and evil]?"
+        },
+        {
+          "id": 1550470,
+          "resource_id": 831,
+          "text": "Aur dono numayan raste usey (nahin) dikha diye"
         }
       ]
     },
@@ -236,6 +286,11 @@
           "id": 407737,
           "resource_id": 85,
           "text": "Yet he has not attempted the steep path."
+        },
+        {
+          "id": 1550471,
+          "resource_id": 831,
+          "text": "Magar usne dushwar guzar ghati(steep) se guzarne ki himmat na ki"
         }
       ]
     },
@@ -256,6 +311,11 @@
           "id": 407738,
           "resource_id": 85,
           "text": "What will explain to you what the steep path is?"
+        },
+        {
+          "id": 1550472,
+          "resource_id": 831,
+          "text": "Aur tum kya jaano kay kya hai woh dushwar guzar ghaati"
         }
       ]
     },
@@ -276,6 +336,11 @@
           "id": 407739,
           "resource_id": 85,
           "text": "It is to free a slave,"
+        },
+        {
+          "id": 1550473,
+          "resource_id": 831,
+          "text": "Kisi gardan ko gulami se chudana"
         }
       ]
     },
@@ -296,6 +361,11 @@
           "id": 407740,
           "resource_id": 85,
           "text": "to feed at a time of hunger"
+        },
+        {
+          "id": 1550474,
+          "resource_id": 831,
+          "text": "Ya faake ke din"
         }
       ]
     },
@@ -316,6 +386,11 @@
           "id": 407741,
           "resource_id": 85,
           "text": "an orphaned relative"
+        },
+        {
+          "id": 1550475,
+          "resource_id": 831,
+          "text": "kisi qareebi yateem"
         }
       ]
     },
@@ -336,6 +411,11 @@
           "id": 407742,
           "resource_id": 85,
           "text": "or a poor person in distress,"
+        },
+        {
+          "id": 1550476,
+          "resource_id": 831,
+          "text": "Ya khaak nasheen miskeen ko khana khilana"
         }
       ]
     },
@@ -356,6 +436,11 @@
           "id": 407743,
           "resource_id": 85,
           "text": "and to be one of those who believe and urge one another to steadfastness and compassion."
+        },
+        {
+          "id": 1550477,
+          "resource_id": 831,
+          "text": "Phir (iske saath yeh kay) aadmi un logon mein shamil ho jo imaan laye aur jinhon ne ek dusrey ko sabr aur (khalq-e-khuda par) raham ki talqeen ki"
         }
       ]
     },
@@ -376,6 +461,11 @@
           "id": 407744,
           "resource_id": 85,
           "text": "Those who do this will be on the right-hand side,"
+        },
+        {
+          "id": 1550478,
+          "resource_id": 831,
+          "text": "Yeh log hain dayein baazu(right hand) waley"
         }
       ]
     },
@@ -396,6 +486,11 @@
           "id": 407745,
           "resource_id": 85,
           "text": "but those who disbelieve in Our revelations will be on the left-hand side,"
+        },
+        {
+          "id": 1550479,
+          "resource_id": 831,
+          "text": "Aur jinhon ne hamari aayat ko mann-ney se inkar kiya woh bayen bazu(left hand) waley hain"
         }
       ]
     },
@@ -416,6 +511,11 @@
           "id": 407746,
           "resource_id": 85,
           "text": "and the Fire will close in on them."
+        },
+        {
+          "id": 1550480,
+          "resource_id": 831,
+          "text": "Un par aag chaayi hui hogi"
         }
       ]
     }

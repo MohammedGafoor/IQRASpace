@@ -1,5 +1,5 @@
 {
-  "syncedAt": "2026-08-31T05:21:03.889Z",
+  "syncedAt": "2026-08-31T09:57:29.999Z",
   "chapter": {
     "id": 49,
     "revelation_place": "madinah",
@@ -36,6 +36,11 @@
           "id": 406316,
           "resource_id": 85,
           "text": "Believers, do not push yourselves forward in the presence of God and His Messenger––be mindful of God: He hears and knows all––"
+        },
+        {
+          "id": 1549050,
+          "resource_id": 831,
+          "text": "Aey logon jo imaan laye ho, Allah aur uske Rasool ke aagey pesh qadmi na karo aur Allah se daro, Allah sab kuch sunne aur jaanne wala hai"
         }
       ]
     },
@@ -56,6 +61,11 @@
           "id": 406317,
           "resource_id": 85,
           "text": "believers, do not raise your voices above the Prophet’s, do not raise your voice when speaking to him as you do to one another, or your [good] deeds may be cancelled out without you knowing."
+        },
+        {
+          "id": 1549051,
+          "resource_id": 831,
+          "text": "Aey logon jo imaan laaye ho, apni aawaz Nabi ki awaaz se buland na karo, aur na Nabi ke saath unchi aawaz se baat kiya karo jis tarah tum aapas mein ek dusre se karte ho, kahin aisa na ho ke tumhara kiya karaya sab gharat ho jaye( deeds become vain) aur tumhein khabar bhi na ho"
         }
       ]
     },
@@ -76,6 +86,11 @@
           "id": 406318,
           "resource_id": 85,
           "text": "It is those who lower their voices in the presence of God’s Messenger whose hearts God has proved to be aware––they will have forgiveness, and a great reward––"
+        },
+        {
+          "id": 1549052,
+          "resource_id": 831,
+          "text": "Jo log Rasool-e-khuda ke huzoor baat karte huey apni aawaz pastt rakhte hain woh dar haqeeqat wahi log hai jinke dilon ko Allah ne takwa ke liye jaanch liya hai. Unke liye magfirat hai aur ajr-e- azeem"
         }
       ]
     },
@@ -96,6 +111,11 @@
           "id": 406319,
           "resource_id": 85,
           "text": "but most of those who shout to you [Prophet] from outside your private rooms lack understanding."
+        },
+        {
+          "id": 1549053,
+          "resource_id": 831,
+          "text": "Aey Nabi, jo log tumhein hujron(apartments) ke bahar se pukarte hain unmein se aksar be-aqal hain"
         }
       ]
     },
@@ -116,6 +136,11 @@
           "id": 406320,
           "resource_id": 85,
           "text": "It would have been better for them if they had waited patiently for you to come out to them but God is all forgiving and merciful."
+        },
+        {
+          "id": 1549054,
+          "resource_id": 831,
+          "text": "Agar woh tumhare baramad honay tak sabr karte to unhi ke liye behtar tha, Allah darguzar karne wala aur Raheem hai"
         }
       ]
     },
@@ -136,6 +161,11 @@
           "id": 406321,
           "resource_id": 85,
           "text": "Believers, if a troublemaker brings you news, check it first, in case you wrong others unwittingly and later regret what you have done,"
+        },
+        {
+          "id": 1549055,
+          "resource_id": 831,
+          "text": "Aey logon jo imaan laaye ho, agar koi faasiq tumhare paas koi khabar lekar aaye to tehqeek kar liya karo, kahin aisa na ho ke tum kisi giroh ko nadanishta(unwittingly) nuksaan pahuncha baitho aur phir apne kiye par pashemaan ho"
         }
       ]
     },
@@ -156,6 +186,11 @@
           "id": 406322,
           "resource_id": 85,
           "text": "and be aware that it is God’s Messenger who is among you: in many matters you would certainly suffer if he were to follow your wishes. God has endeared faith to you and made it beautiful to your hearts; He has made disbelief, mischief, and disobedience hateful to you. It is people like this who are rightly guided"
+        },
+        {
+          "id": 1549056,
+          "resource_id": 831,
+          "text": "Khoob jaan rakkho ke tumhare darmiyaan Allah ka Rasool maujood hai. Agar woh bahut se maamelaat mein tumhari baat maan liya kare, to tum khud hi mushkilaat mein mubtala ho jao. Magar Allah ne tumko imaan ki muhabbat di aur usko tumhare liye dil pasand bana diya, aur kufr-o-fusuk aur nafarmani se tumko mutanaffir(abhorrent) kar diya"
         }
       ]
     },
@@ -176,6 +211,11 @@
           "id": 406323,
           "resource_id": 85,
           "text": "through God’s favour and blessing: God is all knowing and all wise."
+        },
+        {
+          "id": 1549057,
+          "resource_id": 831,
+          "text": "Aisey hi log Allah ke fazal o ehsaan se raast-ro hain aur Allah Aleem-o-Hakeem(All-Knowing, All-Wise) hai"
         }
       ]
     },
@@ -196,6 +236,11 @@
           "id": 406324,
           "resource_id": 85,
           "text": "If two groups of the believers fight, you [believers] should try to reconcile them; if one of them is [clearly] oppressing the other, fight the oppressors until they submit to God’s command, then make a just and even-handed reconciliation between the two of them: God loves those who are even-handed."
+        },
+        {
+          "id": 1549058,
+          "resource_id": 831,
+          "text": "Aur agar ehle imaan mein se do giroh aapas mein ladh jayein, to unke darmiyan sulah (peace) karao. Phir agar unmein se ek giroh dusre giroh se zyadati karey, to zyadati karne wale se ladho yahan tak ke woh Allah ke hukum ki taraf palat aaye. Phir agar woh palat aaye, to unke darmiyan adal ke saath sulah kara do, aur insaaf karo ke Allah insaaf karne walon ko pasand karta hai"
         }
       ]
     },
@@ -216,6 +261,11 @@
           "id": 406325,
           "resource_id": 85,
           "text": "The believers are brothers, so make peace between your two brothers and be mindful of God, so that you may be given mercy."
+        },
+        {
+          "id": 1549059,
+          "resource_id": 831,
+          "text": "Momin to ek dusre ke bhai hain, lihaza apne bhaiyon ke darmiyaan taaluqat ko durust karo aur Allah se daro, umeed hai ke tumpar reham kiya jayega"
         }
       ]
     },
@@ -236,6 +286,11 @@
           "id": 406326,
           "resource_id": 85,
           "text": "Believers, no one group of men should jeer at another, who may after all be better than them; no one group of women should jeer at another, who may after all be better than them; do not speak ill of one another; do not use offensive nicknames for one another. How bad it is to be called a mischief-maker after accepting faith! Those who do not repent of this behaviour are evildoers."
+        },
+        {
+          "id": 1549060,
+          "resource_id": 831,
+          "text": "Aey logon jo imaan laye ho, na mard dusre mardon ka mazaak udayein, ho sakta hai ke woh unse behtar hon, aur na auratein dusri auraton ka mazaak udayein, ho sakta hai ke woh unse behtar hon. Aapas mein ek dusre par taan na karo, aur na ek dusre ko burey alaqab (titles) se yaad karo. Imaan lane ke baad fisq mein naam paida karna bahut buri baat hai. Jo log is rawish se baaz na aayein wahi zalim hain"
         }
       ]
     },
@@ -256,6 +311,11 @@
           "id": 406327,
           "resource_id": 85,
           "text": "Believers, avoid making too many assumptions- some assumptions are sinful- and do not spy on one another or speak ill of people behind their backs: would any of you like to eat the flesh of your dead brother? No, you would hate it. So be mindful of God: God is ever relenting, most merciful."
+        },
+        {
+          "id": 1549061,
+          "resource_id": 831,
+          "text": "Aey logon jo imaan laaye ho, bahut gumaan (suspicion)karne se parheiz karo ke baaz gumaan (suspicion) gunaah hote hain. Tajassus (jasusi) na karo aur tum mein se koi kisi ki geebat na karey. kya tumhare andar koi aisa hai jo apne marey(dead) huey bhai ka gosht khana pasand karega? Dekho, tum khud is se gheen khate ho. Allah se daro, Allah bada tawbah qabool karne wala aur Raheem hai"
         }
       ]
     },
@@ -276,6 +336,11 @@
           "id": 406328,
           "resource_id": 85,
           "text": "People, We created you all from a single man and a single woman, and made you into races and tribes so that you should recognize one another. In God’s eyes, the most honoured of you are the ones most mindful of Him: God is all knowing, all aware."
+        },
+        {
+          "id": 1549062,
+          "resource_id": 831,
+          "text": "Logon, humne tumko ek Mard aur ek Aurat se paida kiya aur phir tumhari qaumein aur biradariyan bana di taa-ke tum ek dusre ko pehchano. Dar haqeeqat Allah ke nazdeek tum mein sab se zyada izzat wala woh hai jo tumhare andar sab se zyada parheizgaar hai. Yaqeenan Allah sab kuch jaan-ne wala aur baakhabar hai"
         }
       ]
     },
@@ -296,6 +361,11 @@
           "id": 406329,
           "resource_id": 85,
           "text": "The desert Arabs say, ‘We have faith.’ [Prophet], tell them, ‘You do not have faith. What you should say instead is, “We have submitted,” for faith has not yet entered your hearts.’ If you obey God and His Messenger, He will not diminish any of your deeds: He is most forgiving and most merciful."
+        },
+        {
+          "id": 1549063,
+          "resource_id": 831,
+          "text": "Yeh badwi (Bedouins) kehte hain ke “hum imaan laye” insey kaho: “tum imaan nahin laye, balke yun kaho ke hum muti (submissive) ho gaye” imaan abhi tumhare dilon mein daakhil nahin hua hai. Agar tum Allah aur uske Rasool ki farmabardari ikhtiyar karlo to woh tumhare amal ke ajr mein koi kami na karega.Yakeenan Allah bada darguzar karne wala aur Raheem hai"
         }
       ]
     },
@@ -316,6 +386,11 @@
           "id": 406330,
           "resource_id": 85,
           "text": "The true believers are the ones who have faith in God and His Messenger and leave all doubt behind, the ones who have struggled with their possessions and their persons in God’s way: they are the ones who are true."
+        },
+        {
+          "id": 1549064,
+          "resource_id": 831,
+          "text": "Haqeeqat mein to momin woh hain jo Allah aur uske Rasool par imaan laye phir unhon ne koi shakk na kiya aur apne jaano aur maalon se Allah ki raah mein jihad kiya, wahi sacchey log hain"
         }
       ]
     },
@@ -336,6 +411,11 @@
           "id": 406331,
           "resource_id": 85,
           "text": "Say, ‘Do you presume to teach God about your religion, when God knows everything in the heavens and earth, and He has full knowledge of all things?’"
+        },
+        {
+          "id": 1549065,
+          "resource_id": 831,
+          "text": "Aey Nabi, In [mudaiyaan e imaan (pretenders to faith)] se kaho, kya tum Allah ko apne deen ki ittilah (apprising) de rahey ho? Halanke Allah zameen aur Aasmano ki har cheez ko jaanta hai aur woh har shay ka ilm rakhta hai"
         }
       ]
     },
@@ -356,6 +436,11 @@
           "id": 406332,
           "resource_id": 85,
           "text": "They think they have done you [Prophet] a favour by submitting. Say, ‘Do not consider your submission a favour to me; it is God who has done you a favour, by guiding you to faith, if you are truly sincere.’"
+        },
+        {
+          "id": 1549066,
+          "resource_id": 831,
+          "text": "Yeh log tumpar ehsan jatate hain ke inhon ne Islam qabool karliya. Inse kaho apne Islam ka ehsan mujhpar na rakkho , balke Allah tumpar apna ehsan rakhta hai ke usne tumhein imaan ki hidayat di agar tum waqai apne daawa-e-imaan mein sacchey ho"
         }
       ]
     },
@@ -376,6 +461,11 @@
           "id": 406333,
           "resource_id": 85,
           "text": "God knows the secrets of the heavens and earth: He sees everything you do."
+        },
+        {
+          "id": 1549067,
+          "resource_id": 831,
+          "text": "Allah zameen aur aasmano ki har poshida(hidden) cheez ka ilm rakhta hai aur jo kuch tum karte ho woh sab uski nigaah mein hai"
         }
       ]
     }

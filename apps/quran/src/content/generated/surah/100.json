@@ -1,5 +1,5 @@
 {
-  "syncedAt": "2026-08-31T05:21:28.527Z",
+  "syncedAt": "2026-08-31T09:57:55.199Z",
   "chapter": {
     "id": 100,
     "revelation_place": "makkah",
@@ -36,6 +36,11 @@
           "id": 407850,
           "resource_id": 85,
           "text": "By the charging steeds that pant"
+        },
+        {
+          "id": 1550584,
+          "resource_id": 831,
+          "text": "Kasam hai un (ghodon) ki jo phunkare marte hue dhaudte hai"
         }
       ]
     },
@@ -56,6 +61,11 @@
           "id": 407851,
           "resource_id": 85,
           "text": "and strike sparks with their hooves,"
+        },
+        {
+          "id": 1550585,
+          "resource_id": 831,
+          "text": "Phir (apne tapon se) chingariyan jhaadte hain"
         }
       ]
     },
@@ -76,6 +86,11 @@
           "id": 407852,
           "resource_id": 85,
           "text": "who make dawn raids,"
+        },
+        {
+          "id": 1550586,
+          "resource_id": 831,
+          "text": "Phir subah sawere chapa marte hain"
         }
       ]
     },
@@ -96,6 +111,11 @@
           "id": 407853,
           "resource_id": 85,
           "text": "raising a cloud of dust,"
+        },
+        {
+          "id": 1550587,
+          "resource_id": 831,
+          "text": "Phir is mauke par gard o gubar udatey hai"
         }
       ]
     },
@@ -116,6 +136,11 @@
           "id": 407854,
           "resource_id": 85,
           "text": "and plunging into the midst of the enemy,"
+        },
+        {
+          "id": 1550588,
+          "resource_id": 831,
+          "text": "Phir isi halat mei kisi majmey ke andar ja ghustey hai"
         }
       ]
     },
@@ -136,6 +161,11 @@
           "id": 407855,
           "resource_id": 85,
           "text": "man is ungrateful to his Lord––"
+        },
+        {
+          "id": 1550589,
+          "resource_id": 831,
+          "text": "Haqiqat yeh hai ke Insan apne Rubb ka bada nashukra hai"
         }
       ]
     },
@@ -156,6 +186,11 @@
           "id": 407856,
           "resource_id": 85,
           "text": "and He is witness to this––"
+        },
+        {
+          "id": 1550590,
+          "resource_id": 831,
+          "text": "Aur woh khud is par gawah hai"
         }
       ]
     },
@@ -176,6 +211,11 @@
           "id": 407857,
           "resource_id": 85,
           "text": "he is truly excessive in his love of wealth."
+        },
+        {
+          "id": 1550591,
+          "resource_id": 831,
+          "text": "Aur woh maal-o-daulat ki muhabbat mei buri tarah mubtala hai"
         }
       ]
     },
@@ -196,6 +236,11 @@
           "id": 407858,
           "resource_id": 85,
           "text": "Does he not know that when the contents of graves burst forth,"
+        },
+        {
+          "id": 1550592,
+          "resource_id": 831,
+          "text": "To kya woh us waqt ko nahin janta jab qabron mein jo kuch (madfun) hai usey nikal liya jayega"
         }
       ]
     },
@@ -216,6 +261,11 @@
           "id": 407859,
           "resource_id": 85,
           "text": "when the secrets of hearts are uncovered, on that Day,"
+        },
+        {
+          "id": 1550593,
+          "resource_id": 831,
+          "text": "Aur seeno mein jo kuch (makhfi) hai usey baramad karke uski jaanch padtal ki jayegi"
         }
       ]
     },
@@ -236,6 +286,11 @@
           "id": 407860,
           "resource_id": 85,
           "text": "their Lord will be fully aware of them all?"
+        },
+        {
+          "id": 1550594,
+          "resource_id": 831,
+          "text": "Yaqeenan unka Rubb us roz unse khoob bakhabar hoga"
         }
       ]
     }

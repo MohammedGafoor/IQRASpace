@@ -1,5 +1,5 @@
 {
-  "syncedAt": "2026-08-31T05:21:19.027Z",
+  "syncedAt": "2026-08-31T09:57:45.421Z",
   "chapter": {
     "id": 77,
     "revelation_place": "makkah",
@@ -36,6 +36,11 @@
           "id": 407326,
           "resource_id": 85,
           "text": "By the [winds] sent forth in swift succession,"
+        },
+        {
+          "id": 1550060,
+          "resource_id": 831,
+          "text": "Kasam hai un ( hawaon) ki jo pai dar pai bheji jati hain"
         }
       ]
     },
@@ -56,6 +61,11 @@
           "id": 407327,
           "resource_id": 85,
           "text": "violently storming,"
+        },
+        {
+          "id": 1550061,
+          "resource_id": 831,
+          "text": "Phir toofani raftar se chalti hai"
         }
       ]
     },
@@ -76,6 +86,11 @@
           "id": 407328,
           "resource_id": 85,
           "text": "scattering far and wide,"
+        },
+        {
+          "id": 1550062,
+          "resource_id": 831,
+          "text": "Aur (baadalon ko) utha kar phailati hai"
         }
       ]
     },
@@ -96,6 +111,11 @@
           "id": 407329,
           "resource_id": 85,
           "text": "separating forcefully,"
+        },
+        {
+          "id": 1550063,
+          "resource_id": 831,
+          "text": "Phir (unko) phaad kar juda karti hai"
         }
       ]
     },
@@ -116,6 +136,11 @@
           "id": 407330,
           "resource_id": 85,
           "text": "delivering a reminder,"
+        },
+        {
+          "id": 1550064,
+          "resource_id": 831,
+          "text": "Phir (dilon mei khuda ki)yaad daalti hai"
         }
       ]
     },
@@ -136,6 +161,11 @@
           "id": 407331,
           "resource_id": 85,
           "text": "as a proof or a warning:"
+        },
+        {
+          "id": 1550065,
+          "resource_id": 831,
+          "text": "Uzar (justification) ke taur par ya daravey ke taur par"
         }
       ]
     },
@@ -156,6 +186,11 @@
           "id": 407332,
           "resource_id": 85,
           "text": "what you are promised will come to pass."
+        },
+        {
+          "id": 1550066,
+          "resource_id": 831,
+          "text": "Jis cheez ka tumse wada kiya ja raha hai woh zaroor waqey honay wali hai"
         }
       ]
     },
@@ -176,6 +211,11 @@
           "id": 407333,
           "resource_id": 85,
           "text": "When the stars are dimmed"
+        },
+        {
+          "id": 1550067,
+          "resource_id": 831,
+          "text": "Phir jab sitarey maand (extinguish) pad jayengey"
         }
       ]
     },
@@ -196,6 +236,11 @@
           "id": 407334,
           "resource_id": 85,
           "text": "and the sky is torn apart,"
+        },
+        {
+          "id": 1550068,
+          "resource_id": 831,
+          "text": "Aur aasmaan phaad diya jayega"
         }
       ]
     },
@@ -216,6 +261,11 @@
           "id": 407335,
           "resource_id": 85,
           "text": "when the mountains are turned to dust"
+        },
+        {
+          "id": 1550069,
+          "resource_id": 831,
+          "text": "Aur pahad dhunak daaley jayengey (blown away)"
         }
       ]
     },
@@ -236,6 +286,11 @@
           "id": 407336,
           "resource_id": 85,
           "text": "and the messengers given their appointed time––"
+        },
+        {
+          "id": 1550070,
+          "resource_id": 831,
+          "text": "Aur Rasoolon ki haziri ka waqt aa pahunchega (us roz woh cheez waqey ho jaeygi)"
         }
       ]
     },
@@ -256,6 +311,11 @@
           "id": 407337,
           "resource_id": 85,
           "text": "for what Day has all this been set?"
+        },
+        {
+          "id": 1550071,
+          "resource_id": 831,
+          "text": "Kis roz ke liye yeh kaam utha rakha gaya hai"
         }
       ]
     },
@@ -276,6 +336,11 @@
           "id": 407338,
           "resource_id": 85,
           "text": "The Day of Decision."
+        },
+        {
+          "id": 1550072,
+          "resource_id": 831,
+          "text": "Faisley ke roz ke liye"
         }
       ]
     },
@@ -296,6 +361,11 @@
           "id": 407339,
           "resource_id": 85,
           "text": "What will explain to you what the Day of Decision is?"
+        },
+        {
+          "id": 1550073,
+          "resource_id": 831,
+          "text": "Aur tumhein kya khabar ke woh faisley ka din kya hai"
         }
       ]
     },
@@ -316,6 +386,11 @@
           "id": 407340,
           "resource_id": 85,
           "text": "Woe, on that Day, to those who denied the truth!"
+        },
+        {
+          "id": 1550074,
+          "resource_id": 831,
+          "text": "Tabahi hai us din jhutlane walon ke liye"
         }
       ]
     },
@@ -336,6 +411,11 @@
           "id": 407341,
           "resource_id": 85,
           "text": "Did We not destroy the first [of them]?"
+        },
+        {
+          "id": 1550075,
+          "resource_id": 831,
+          "text": "Kya humne aglon ko halaq nahin kiya"
         }
       ]
     },
@@ -356,6 +436,11 @@
           "id": 407342,
           "resource_id": 85,
           "text": "We shall make the last follow them:"
+        },
+        {
+          "id": 1550076,
+          "resource_id": 831,
+          "text": "Phir unhi ke pichey hum baad walon ko chalta karengey"
         }
       ]
     },
@@ -376,6 +461,11 @@
           "id": 407343,
           "resource_id": 85,
           "text": "this is how We deal with the guilty."
+        },
+        {
+          "id": 1550077,
+          "resource_id": 831,
+          "text": "Mujrimo ke saath hum yahi kuch kiya karte hain"
         }
       ]
     },
@@ -396,6 +486,11 @@
           "id": 407344,
           "resource_id": 85,
           "text": "Woe, on that Day, to those who denied the truth!"
+        },
+        {
+          "id": 1550078,
+          "resource_id": 831,
+          "text": "Tabahi hai us din jhutlaney walon ke liye"
         }
       ]
     },
@@ -416,6 +511,11 @@
           "id": 407345,
           "resource_id": 85,
           "text": "Did We not make you from an underrated fluid"
+        },
+        {
+          "id": 1550079,
+          "resource_id": 831,
+          "text": "Kya humne ek hakeer pani se tumhein paida nahin kiya"
         }
       ]
     },
@@ -436,6 +536,11 @@
           "id": 407346,
           "resource_id": 85,
           "text": "which We housed in a safe lodging"
+        },
+        {
+          "id": 1550080,
+          "resource_id": 831,
+          "text": "Aur ek mukarrara muddat tak"
         }
       ]
     },
@@ -456,6 +561,11 @@
           "id": 407347,
           "resource_id": 85,
           "text": "for a determined period?"
+        },
+        {
+          "id": 1550081,
+          "resource_id": 831,
+          "text": "Usey ek mehfooz jagah thehraye rakkha"
         }
       ]
     },
@@ -476,6 +586,11 @@
           "id": 407348,
           "resource_id": 85,
           "text": "We determine [it]: how excellently We determine!"
+        },
+        {
+          "id": 1550082,
+          "resource_id": 831,
+          "text": "To dekho , hum ispar qadir thay, pas hum bahut acchi qudrat rakhne waley hain"
         }
       ]
     },
@@ -496,6 +611,11 @@
           "id": 407349,
           "resource_id": 85,
           "text": "Woe, on that Day, to those who denied the truth!"
+        },
+        {
+          "id": 1550083,
+          "resource_id": 831,
+          "text": "Tabahi hai us roz jhutlaney walon ke liye"
         }
       ]
     },
@@ -516,6 +636,11 @@
           "id": 407350,
           "resource_id": 85,
           "text": "Did We not make the earth a home"
+        },
+        {
+          "id": 1550084,
+          "resource_id": 831,
+          "text": "Kya humne zameen ko sameth kar rakhne wali nahin banaya"
         }
       ]
     },
@@ -536,6 +661,11 @@
           "id": 407351,
           "resource_id": 85,
           "text": "for the living and the dead?"
+        },
+        {
+          "id": 1550085,
+          "resource_id": 831,
+          "text": "Zindon ke liye bhi aur murdon ke liye bhi"
         }
       ]
     },
@@ -556,6 +686,11 @@
           "id": 407352,
           "resource_id": 85,
           "text": "Did We not place firm, lofty mountains on it and provide you with sweet water?"
+        },
+        {
+          "id": 1550086,
+          "resource_id": 831,
+          "text": "Aur is mein buland-o-bala pahad jamaye, Aur tumhein meetha pani pilaya"
         }
       ]
     },
@@ -576,6 +711,11 @@
           "id": 407353,
           "resource_id": 85,
           "text": "Woe, on that Day, to those who denied the truth!"
+        },
+        {
+          "id": 1550087,
+          "resource_id": 831,
+          "text": "Tabahi hai us roz jhutlaney walon ke liye"
         }
       ]
     },
@@ -596,6 +736,11 @@
           "id": 407354,
           "resource_id": 85,
           "text": "They will be told, ‘Go to that which you used to deny!"
+        },
+        {
+          "id": 1550088,
+          "resource_id": 831,
+          "text": "Chalo ab usi cheez ki taraf jisey tum jhutlaya karte thay"
         }
       ]
     },
@@ -616,6 +761,11 @@
           "id": 407355,
           "resource_id": 85,
           "text": "Go to a shadow of smoke!’ It rises in three columns;"
+        },
+        {
+          "id": 1550089,
+          "resource_id": 831,
+          "text": "Chalo us saaye ki taraf jo teen shaakhon(columns) wala hai"
         }
       ]
     },
@@ -636,6 +786,11 @@
           "id": 407356,
           "resource_id": 85,
           "text": "no shade does it give, nor relief from the flame;"
+        },
+        {
+          "id": 1550090,
+          "resource_id": 831,
+          "text": "Na thandak pahunchane wala aur na aag ki lapat se bachane wala"
         }
       ]
     },
@@ -656,6 +811,11 @@
           "id": 407357,
           "resource_id": 85,
           "text": "it shoots out sparks as large as treetrunks"
+        },
+        {
+          "id": 1550091,
+          "resource_id": 831,
+          "text": "woh aag mahal (castles/fortress) jaisi badi badi chingariyan phenkegi"
         }
       ]
     },
@@ -676,6 +836,11 @@
           "id": 407358,
           "resource_id": 85,
           "text": "and as bright as copper."
+        },
+        {
+          "id": 1550092,
+          "resource_id": 831,
+          "text": "(Jo uchalti hui yun mehsus hongi )goya ke woh zard ount (camel) hai"
         }
       ]
     },
@@ -696,6 +861,11 @@
           "id": 407359,
           "resource_id": 85,
           "text": "Woe, on that Day, to those who denied the truth!"
+        },
+        {
+          "id": 1550093,
+          "resource_id": 831,
+          "text": "Tabahi hai us roz jhutlaney walon ke liye"
         }
       ]
     },
@@ -716,6 +886,11 @@
           "id": 407360,
           "resource_id": 85,
           "text": "On that Day they will be speechless,"
+        },
+        {
+          "id": 1550094,
+          "resource_id": 831,
+          "text": "Yeh woh din hai jismein wo na kuch bolengey"
         }
       ]
     },
@@ -736,6 +911,11 @@
           "id": 407361,
           "resource_id": 85,
           "text": "and they will be given no chance to offer any excuses."
+        },
+        {
+          "id": 1550095,
+          "resource_id": 831,
+          "text": "Aur na unhein mauka diya jaeyga ke koi uzr(excuse) pesh karein"
         }
       ]
     },
@@ -756,6 +936,11 @@
           "id": 407362,
           "resource_id": 85,
           "text": "Woe, on that Day, to those who denied the truth!"
+        },
+        {
+          "id": 1550096,
+          "resource_id": 831,
+          "text": "Tabahi hai us din jhutlaney walon ke liye"
         }
       ]
     },
@@ -776,6 +961,11 @@
           "id": 407363,
           "resource_id": 85,
           "text": "[They will be told], ‘This is the Day of Decision: We have gathered you and earlier generations."
+        },
+        {
+          "id": 1550097,
+          "resource_id": 831,
+          "text": "Yeh faisley ka din hai humne tumhein aur tumse pehle guzrey huey logon ko jamaa kardiya hai"
         }
       ]
     },
@@ -796,6 +986,11 @@
           "id": 407364,
           "resource_id": 85,
           "text": "If you have any plots against Me, try them now.’"
+        },
+        {
+          "id": 1550098,
+          "resource_id": 831,
+          "text": "Ab agar koi chaal tum chal sakte ho to mere muqabley mein chal dekho"
         }
       ]
     },
@@ -816,6 +1011,11 @@
           "id": 407365,
           "resource_id": 85,
           "text": "Woe, on that Day, to those who denied the truth!"
+        },
+        {
+          "id": 1550099,
+          "resource_id": 831,
+          "text": "Tabahi hai us din jhutlaney walon ke liye"
         }
       ]
     },
@@ -836,6 +1036,11 @@
           "id": 407366,
           "resource_id": 85,
           "text": "But those who took heed of God will enjoy cool shade, springs,"
+        },
+        {
+          "id": 1550100,
+          "resource_id": 831,
+          "text": "Muttaqi log aaj saayon aur chashmon mein hai"
         }
       ]
     },
@@ -856,6 +1061,11 @@
           "id": 407367,
           "resource_id": 85,
           "text": "and any fruit they desire;"
+        },
+        {
+          "id": 1550101,
+          "resource_id": 831,
+          "text": "Aur jo phal woh chahein (unke liye hazir hai)"
         }
       ]
     },
@@ -876,6 +1086,11 @@
           "id": 407368,
           "resource_id": 85,
           "text": "[they will be told], ‘Eat and drink to your hearts’ content as a reward for your deeds:"
+        },
+        {
+          "id": 1550102,
+          "resource_id": 831,
+          "text": "Khao aur piyo mazey se apne un aamal ke siley mein jo tum karte rahey ho"
         }
       ]
     },
@@ -896,6 +1111,11 @@
           "id": 407369,
           "resource_id": 85,
           "text": "this is how We reward those who do good.’"
+        },
+        {
+          "id": 1550103,
+          "resource_id": 831,
+          "text": "Hum neik logon ko aisi hi jaza detay hain"
         }
       ]
     },
@@ -916,6 +1136,11 @@
           "id": 407370,
           "resource_id": 85,
           "text": "Woe, on that Day, to those who denied the truth!"
+        },
+        {
+          "id": 1550104,
+          "resource_id": 831,
+          "text": "Tabahi hai us roz jhutlaney walon ke liye"
         }
       ]
     },
@@ -936,6 +1161,11 @@
           "id": 407371,
           "resource_id": 85,
           "text": "[You may] eat and enjoy yourselves for a short while, evildoers that you are."
+        },
+        {
+          "id": 1550105,
+          "resource_id": 831,
+          "text": "Kha lo aur mazey karlo thodey din, haqeeqat mein tum log mujrim ho"
         }
       ]
     },
@@ -956,6 +1186,11 @@
           "id": 407372,
           "resource_id": 85,
           "text": "Woe, on that Day, to those who denied the truth!"
+        },
+        {
+          "id": 1550106,
+          "resource_id": 831,
+          "text": "Tabahi hai us roz jhutlaney walon ke liye"
         }
       ]
     },
@@ -976,6 +1211,11 @@
           "id": 407373,
           "resource_id": 85,
           "text": "When they are told, ‘Bow down in prayer,’ they do not do so."
+        },
+        {
+          "id": 1550107,
+          "resource_id": 831,
+          "text": "Jab inse kaha jata hai ke (Allah ke aagey) jhuko to nahin jhuktey"
         }
       ]
     },
@@ -996,6 +1236,11 @@
           "id": 407374,
           "resource_id": 85,
           "text": "Woe, on that Day, to those who denied the truth!"
+        },
+        {
+          "id": 1550108,
+          "resource_id": 831,
+          "text": "Tabahi hai uss roz jhutlaney walon ke liye"
         }
       ]
     },
@@ -1016,6 +1261,11 @@
           "id": 407375,
           "resource_id": 85,
           "text": "In what revelation, after this, will they believe?"
+        },
+        {
+          "id": 1550109,
+          "resource_id": 831,
+          "text": "Ab is (Quran) ke baad aur kaunsa kalaam aisa ho sakta hai jispar yeh iman layein"
         }
       ]
     }

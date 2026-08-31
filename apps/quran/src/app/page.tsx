@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import { getAllChapters } from "@/lib/content/quran";
 import { ContinueReadingCard } from "@/components/home/ContinueReadingCard";
 
@@ -46,6 +47,10 @@ export default function Home() {
       </p>
 
       <ContinueReadingCard chapters={chapters} />
+
+      <Link href="/surah" style={{ color: "var(--color-text-muted)", fontSize: "0.9rem" }}>
+        Browse all Surahs →
+      </Link>
     </div>
   );
 }

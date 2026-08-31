@@ -1,5 +1,5 @@
 {
-  "syncedAt": "2026-08-31T05:21:29.775Z",
+  "syncedAt": "2026-08-31T09:57:56.415Z",
   "chapter": {
     "id": 103,
     "revelation_place": "makkah",
@@ -36,6 +36,11 @@
           "id": 407880,
           "resource_id": 85,
           "text": "By the declining day,"
+        },
+        {
+          "id": 1550614,
+          "resource_id": 831,
+          "text": "Zamane ki qasam"
         }
       ]
     },
@@ -56,6 +61,11 @@
           "id": 407881,
           "resource_id": 85,
           "text": "man is [deep] in loss,"
+        },
+        {
+          "id": 1550615,
+          "resource_id": 831,
+          "text": "Insan dar haqeeqat badey khasarey(nuksaan) mein hai"
         }
       ]
     },
@@ -76,6 +86,11 @@
           "id": 407882,
           "resource_id": 85,
           "text": "except for those who believe, do good deeds, urge one another to the truth, and urge one another to steadfastness."
+        },
+        {
+          "id": 1550616,
+          "resource_id": 831,
+          "text": "Siwaye un logon ke jo iman laye aur neik aamal karte rahe aur ek dusrey ko haqq ki nasihat aur sabr ki talqeen karte rahe"
         }
       ]
     }

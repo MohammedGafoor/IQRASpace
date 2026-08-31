@@ -1,3 +1,5 @@
+import type { TranslationLanguageId } from "@/lib/content/translations";
+
 /**
  * Reader preferences (Readme.md §10/§11) — deliberately the same shape as
  * supabase/migrations/0001_init_schema.sql's user_preferences table, so
@@ -13,7 +15,10 @@ export type ReaderPreferences = {
   translationFontScale: number;
   lineSpacing: number;
   readingWidth: ReadingWidth;
-  translationVisible: boolean;
+  /** Which translation language(s) to show, e.g. ["english"]. Empty by
+      default — the Quran Arabic text is the thing being read; translation
+      is opt-in, not shown until a reader explicitly turns one on. */
+  enabledTranslations: TranslationLanguageId[];
 };
 
 export const DEFAULT_PREFERENCES: ReaderPreferences = {
@@ -22,7 +27,7 @@ export const DEFAULT_PREFERENCES: ReaderPreferences = {
   translationFontScale: 1,
   lineSpacing: 1,
   readingWidth: "comfortable",
-  translationVisible: true,
+  enabledTranslations: [],
 };
 
 export const FONT_SCALE_MIN = 0.75;

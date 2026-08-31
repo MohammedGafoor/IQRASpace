@@ -1,5 +1,5 @@
 {
-  "syncedAt": "2026-08-31T05:21:11.872Z",
+  "syncedAt": "2026-08-31T09:57:38.231Z",
   "chapter": {
     "id": 63,
     "revelation_place": "madinah",
@@ -36,6 +36,11 @@
           "id": 406892,
           "resource_id": 85,
           "text": "When the hypocrites come to you [Prophet], they say, ‘We bear witness that you are the Messenger of God.’ God knows that you truly are His Messenger and He bears witness that the hypocrites are liars––"
+        },
+        {
+          "id": 1549626,
+          "resource_id": 831,
+          "text": "Aey Nabi, jab yeh munafiq (hypocrites) tumhare paas aate hain to kehte hain “hum gawahi dete hain ke aap yaqeenan Allah ke Rasool hain, “haan, Allah janta hai ke tum zaroor uske Rasool ho, magar Allah gawahi deta hai ke yeh munafiq qataii jhootey hain"
         }
       ]
     },
@@ -56,6 +61,11 @@
           "id": 406893,
           "resource_id": 85,
           "text": "they use their oaths as a cover and so bar others from God’s way: what they have been doing is truly evil––"
+        },
+        {
+          "id": 1549627,
+          "resource_id": 831,
+          "text": "Inhon ne apni kasamo ko dhaal bana rakkha hai aur is tarah yeh Allah ke raste se khud rukte aur duniya ko roakte hain. Kaisi buri harkatein hain jo yeh log kar rahey hain"
         }
       ]
     },
@@ -76,6 +86,11 @@
           "id": 406894,
           "resource_id": 85,
           "text": "because they professed faith and then rejected it, so their hearts have been sealed and they do not understand."
+        },
+        {
+          "id": 1549628,
+          "resource_id": 831,
+          "text": "Yeh sab kuch is wajah se hai ke in logon ne Imaan la kar phir kufr kiya is liye inke dilon par mohar laga di gayi, ab yeh kuch nahin samajhte"
         }
       ]
     },
@@ -96,6 +111,11 @@
           "id": 406895,
           "resource_id": 85,
           "text": "When you see them [Prophet], their outward appearance pleases you; when they speak, you listen to what they say. But they are like propped-up tim-bers––they think every cry they hear is against them––and they are the enemy. Beware of them. May God confound them! How devious they are!"
+        },
+        {
+          "id": 1549629,
+          "resource_id": 831,
+          "text": "Inhein dekho to inke jussey(jism/bodies) tumhein badey shaandaar nazar aayein bolein to tum inki batein sunte reh jao, magar asal mein yeh goya lakhdi ke kunde hain(beams of timber) jo deewar ke saath chun kar rakh diye gaye hon. Har zoar ki aawaz ko yeh apne khilaf samajhte hain. Yeh pakke dushman hain insey bachh kar raho. Allah ki maar inpar yeh kidhar ultey phiraye ja rahe hain"
         }
       ]
     },
@@ -116,6 +136,11 @@
           "id": 406896,
           "resource_id": 85,
           "text": "They turn their heads away in disdain when they are told, ‘Come, so that the Messenger of God may ask forgiveness for you,’ and you see them walking away arrogantly."
+        },
+        {
+          "id": 1549630,
+          "resource_id": 831,
+          "text": "Aur jab inse kaha jata hai ke aao taa-ke Allah ka Rasool tumhare liye magfirat ki dua karey, To sar jhatakte hain aur tum dekhte ho ke woh bade ghamand ke saath aane se rukte hai"
         }
       ]
     },
@@ -136,6 +161,11 @@
           "id": 406897,
           "resource_id": 85,
           "text": "It makes no difference whether you ask forgiveness for them or not, God will not forgive them: God does not guide such treacherous people."
+        },
+        {
+          "id": 1549631,
+          "resource_id": 831,
+          "text": "Aey Nabi, tum chahe inke liye magfirat ki dua karo ya na karo, inke liye yaksan hai , Allah hargiz inhein maaf nahin karega. Allah faasik logon(transgressing folk) ko hargiz hidayat nahin deta"
         }
       ]
     },
@@ -156,6 +186,11 @@
           "id": 406898,
           "resource_id": 85,
           "text": "They are the ones who say, ‘Give nothing to those who follow God’s Messenger, until they abandon him’, but to God belong the treasures of the heavens and earth, though the hypocrites do not understand this."
+        },
+        {
+          "id": 1549632,
+          "resource_id": 831,
+          "text": "Yeh wahi log hain jo kehte hain ke Rasool ke saathiyon par kharch karna bandh kardo taa-ke yeh muntashir ho jayein. Halaanke zameen aur aasmaano ke khazano ka maalik Allah hi hai, magar yeh munafik samajhte nahin hain"
         }
       ]
     },
@@ -176,6 +211,11 @@
           "id": 406899,
           "resource_id": 85,
           "text": "They say, ‘Once we return to Medina the powerful will drive out the weak,’ but power belongs to God, to His Messenger, and to the believers, though the hypocrites do not know this."
+        },
+        {
+          "id": 1549633,
+          "resource_id": 831,
+          "text": "Yeh kehte hain ke hum medina wapas pahunch jayein to jo izzat wala hai woh zaleel ko wahan se nikal bahar karega. Halaanke izzat to Allah aur uske Rasool aur momineen ke liye hai, magar yeh munafiq jante nahin hain"
         }
       ]
     },
@@ -196,6 +236,11 @@
           "id": 406900,
           "resource_id": 85,
           "text": "Believers, do not let your wealth and your children distract you from remembering God: those who do so will be the ones who lose."
+        },
+        {
+          "id": 1549634,
+          "resource_id": 831,
+          "text": "Aey logon jo imaan laye ho , tumhare maal aur tumhari auladein tumko Allah ki yaad se gaafil na kardein. Jo log aisa karein wahi khasare (nuqsan /loss) mein rehne waley hain"
         }
       ]
     },
@@ -216,6 +261,11 @@
           "id": 406901,
           "resource_id": 85,
           "text": "Give out of what We have provided for you, before death comes to one of you and he says, ‘My Lord, if You would only reprieve me for a little while, I would give in charity and become one of the righteous.’"
+        },
+        {
+          "id": 1549635,
+          "resource_id": 831,
+          "text": "Jo rizq humne tumhein diya hai usmein se kharch karo qabl iske ke tum mein se kisi ki maut ka waqt aa jaye aur us waqt woh kahey \"Aey mere Rubb, kyun na tu nay mujhey thodi si mahulat aur de di ke main sadaqa deta aur saleh logon mein shamil ho jata”"
         }
       ]
     },
@@ -236,6 +286,11 @@
           "id": 406902,
           "resource_id": 85,
           "text": "God does not reprieve a soul when its turn comes: God is fully aware of what you do."
+        },
+        {
+          "id": 1549636,
+          "resource_id": 831,
+          "text": "Halanke jab kisi ki mahulat-e-amal puri hone ka waqt aa jata hai to Allah us ko hargiz mazeed mahulat nahin deta, aur jo kuch tum karte ho, Allah usse bakhabar hai"
         }
       ]
     }

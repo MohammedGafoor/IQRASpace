@@ -3,11 +3,15 @@
 import { useEffect, useState } from "react";
 import { loadBookmarks, toggleBookmark } from "@/lib/preferences/storage";
 import { ayahElementId } from "@/lib/reader/ayahDom";
+import { TRANSLATION_LANGUAGES, type TranslationLanguageId } from "@/lib/content/translations";
 import type { Verse } from "@/lib/content/types";
 
 type Props = {
   verse: Verse;
-  translationVisible: boolean;
+  /** Which translation language(s) to render, if any are present on this
+      verse — empty means "Arabic only" (the default; Readme.md §7's
+      "never show a translation the reader didn't ask for"). */
+  enabledTranslations: TranslationLanguageId[];
   registerRef: (el: HTMLElement | null) => void;
   /** Rendered as a heading directly above this ayah — used by Juz/Page
       views to mark where a new Surah begins mid-list (a Surah reader
@@ -16,11 +20,11 @@ type Props = {
 };
 
 /**
- * One ayah: Arabic text, verse-number badge, optional translation,
+ * One ayah: Arabic text, verse-number badge, optional translation(s),
  * bookmark toggle. Bookmarking works with no account (Readme.md §15) —
  * see lib/preferences/storage.ts.
  */
-export function AyahBlock({ verse, translationVisible, registerRef, surahHeading }: Props) {
+export function AyahBlock({ verse, enabledTranslations, registerRef, surahHeading }: Props) {
   const bookmarkKey = verse.verse_key;
   const [bookmarked, setBookmarked] = useState(false);
 
@@ -96,19 +100,29 @@ export function AyahBlock({ verse, translationVisible, registerRef, surahHeading
             {verse.text_uthmani}
           </p>
 
-          {translationVisible && verse.translations[0] && (
-            <p
-              style={{
-                fontSize: "calc(1rem * var(--reader-translation-scale))",
-                lineHeight: "calc(1.6 * var(--reader-line-spacing))",
-                color: "var(--color-text-muted)",
-                marginTop: "0.5rem",
-                marginBottom: 0,
-              }}
-            >
-              {verse.translations[0].text}
-            </p>
-          )}
+          {enabledTranslations.map((languageId) => {
+            const language = TRANSLATION_LANGUAGES.find((l) => l.id === languageId);
+            const translation = verse.translations.find((t) => t.resource_id === language?.resourceId);
+            if (!translation) return null;
+            return (
+              <p
+                key={languageId}
+                lang={languageId === "roman-urdu" ? "ur-Latn" : "en"}
+                style={{
+                  fontSize: "calc(1rem * var(--reader-translation-scale))",
+                  lineHeight: "calc(1.6 * var(--reader-line-spacing))",
+                  color: "var(--color-text-muted)",
+                  marginTop: "0.5rem",
+                  marginBottom: 0,
+                }}
+              >
+                {enabledTranslations.length > 1 && (
+                  <span style={{ fontWeight: 600, marginRight: "0.4em" }}>{language?.label}:</span>
+                )}
+                {translation.text}
+              </p>
+            );
+          })}
 
           <button
             type="button"

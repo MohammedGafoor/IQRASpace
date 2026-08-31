@@ -1,5 +1,5 @@
 {
-  "syncedAt": "2026-08-31T05:21:14.423Z",
+  "syncedAt": "2026-08-31T09:57:40.771Z",
   "chapter": {
     "id": 68,
     "revelation_place": "makkah",
@@ -36,6 +36,11 @@
           "id": 406975,
           "resource_id": 85,
           "text": "Nun By the pen! By all they write!"
+        },
+        {
+          "id": 1549709,
+          "resource_id": 831,
+          "text": "Noon, Kasam hai qalam ki aur us cheez ki jisey likhne waley likh rahey hain"
         }
       ]
     },
@@ -56,6 +61,11 @@
           "id": 406976,
           "resource_id": 85,
           "text": "Your Lord’s grace does not make you [Prophet] a madman:"
+        },
+        {
+          "id": 1549710,
+          "resource_id": 831,
+          "text": "Tum apne Rubb ke fazl se majnoon (deewane) nahin ho"
         }
       ]
     },
@@ -76,6 +86,11 @@
           "id": 406977,
           "resource_id": 85,
           "text": "you will have a never-ending reward––"
+        },
+        {
+          "id": 1549711,
+          "resource_id": 831,
+          "text": "Aur yaqeenan tumhare liye aisa ajar (reward) hai jiska silsila kabhi khatm honay wala nahin"
         }
       ]
     },
@@ -96,6 +111,11 @@
           "id": 406978,
           "resource_id": 85,
           "text": "truly you have a strong character––"
+        },
+        {
+          "id": 1549712,
+          "resource_id": 831,
+          "text": "Aur beshak tum akhlaaq ke bade martabe par ho"
         }
       ]
     },
@@ -116,6 +136,11 @@
           "id": 406979,
           "resource_id": 85,
           "text": "and soon you will see, as will they,"
+        },
+        {
+          "id": 1549713,
+          "resource_id": 831,
+          "text": "Anqareeb tum bhi dekh logey aur woh bhi dekh lenge"
         }
       ]
     },
@@ -136,6 +161,11 @@
           "id": 406980,
           "resource_id": 85,
           "text": "which of you is afflicted with madness."
+        },
+        {
+          "id": 1549714,
+          "resource_id": 831,
+          "text": "Ke tum mein se kaun junoon (madness) mein mubtala hai"
         }
       ]
     },
@@ -156,6 +186,11 @@
           "id": 406981,
           "resource_id": 85,
           "text": "Your Lord knows best who strays from His path and who is rightly guided."
+        },
+        {
+          "id": 1549715,
+          "resource_id": 831,
+          "text": "Tumhara Rubb un logon ko bhi khoob jaanta hai jo uski raah se bhatkey huey hain , aur wahi unko bhi acchi tarah jaanta hai jo raah-e-raast par hai"
         }
       ]
     },
@@ -176,6 +211,11 @@
           "id": 406982,
           "resource_id": 85,
           "text": "So do not yield to those who deny the truth––"
+        },
+        {
+          "id": 1549716,
+          "resource_id": 831,
+          "text": "Lihaza tum in jhutlane walon ke dabao mein hargiz na aao"
         }
       ]
     },
@@ -196,6 +236,11 @@
           "id": 406983,
           "resource_id": 85,
           "text": "they want you to compromise with them and then they will compromise with you––"
+        },
+        {
+          "id": 1549717,
+          "resource_id": 831,
+          "text": "yeh to chahte hain ke kuch tum mudahnat (narmi) karo to yeh bhi mudahnat (narmi) karein"
         }
       ]
     },
@@ -216,6 +261,11 @@
           "id": 406984,
           "resource_id": 85,
           "text": "do not yield to any contemptible swearer,"
+        },
+        {
+          "id": 1549718,
+          "resource_id": 831,
+          "text": "Hargiz na dabo kisi aisey shaks se jo bahut kasmein khane wala be-waqaat (worthless) aadmi hai"
         }
       ]
     },
@@ -236,6 +286,11 @@
           "id": 406985,
           "resource_id": 85,
           "text": "to any backbiter, slander-monger,"
+        },
+        {
+          "id": 1549719,
+          "resource_id": 831,
+          "text": "Taaney deta hai , chugliyan khata phirta hai (slanderer, gossip-monger)"
         }
       ]
     },
@@ -256,6 +311,11 @@
           "id": 406986,
           "resource_id": 85,
           "text": "or hinderer of good, to anyone who is sinful, aggressive,"
+        },
+        {
+          "id": 1549720,
+          "resource_id": 831,
+          "text": "Bhalayi se rokta hai , zulm-o-zyadti mein hadd se guzar janey wala hai, sakht badh-amal hai , jafa-kaar hai"
         }
       ]
     },
@@ -276,6 +336,11 @@
           "id": 406987,
           "resource_id": 85,
           "text": "coarse, and on top of all that, an imposter."
+        },
+        {
+          "id": 1549721,
+          "resource_id": 831,
+          "text": "Aur in sab uyub (aib) ke saath badh-asl (illegitimate child) hai"
         }
       ]
     },
@@ -296,6 +361,11 @@
           "id": 406988,
           "resource_id": 85,
           "text": "Just because he has wealth and sons,"
+        },
+        {
+          "id": 1549722,
+          "resource_id": 831,
+          "text": "Is bina par ke woh bahut maal-o-aulad rakhta hai"
         }
       ]
     },
@@ -316,6 +386,11 @@
           "id": 406989,
           "resource_id": 85,
           "text": "when our revelations are recited to him, he says, ‘These are just ancient fables.’"
+        },
+        {
+          "id": 1549723,
+          "resource_id": 831,
+          "text": "Jab hamari aayat usko sunayi jati hai to kehta hai yeh to agle waqton ke afsane hain"
         }
       ]
     },
@@ -336,6 +411,11 @@
           "id": 406990,
           "resource_id": 85,
           "text": "We shall brand him on the snout!"
+        },
+        {
+          "id": 1549724,
+          "resource_id": 831,
+          "text": "Ankareeb hum iski sund (snout) par daag lagayenge"
         }
       ]
     },
@@ -356,6 +436,11 @@
           "id": 406991,
           "resource_id": 85,
           "text": "We have tried them as We tried the owners of a certain garden, who swore that they would harvest its fruits in the morning"
+        },
+        {
+          "id": 1549725,
+          "resource_id": 831,
+          "text": "Humne in (ehle makkah) ko usi taraah aazmaish mein dala hai jis tarah ek baagh (garden) ke maalikon ko aazmaish mein dala tha, jab unhon ne kasam khayi ke subah sawerey zaroor apne baagh ke phal todenge"
         }
       ]
     },
@@ -376,6 +461,11 @@
           "id": 406992,
           "resource_id": 85,
           "text": "and made no allowance [for the Will of God]:"
+        },
+        {
+          "id": 1549726,
+          "resource_id": 831,
+          "text": "Aur woh koi istasna (exception) nahin kar rahey thay"
         }
       ]
     },
@@ -396,6 +486,11 @@
           "id": 406993,
           "resource_id": 85,
           "text": "a disaster from your Lord struck the garden as they slept"
+        },
+        {
+          "id": 1549727,
+          "resource_id": 831,
+          "text": "Raat ko woh soye padey thay ke tumhare Rubb ki taraf se ek balaa is baagh par phir gayi"
         }
       ]
     },
@@ -416,6 +511,11 @@
           "id": 406994,
           "resource_id": 85,
           "text": "and by morning it was stripped bare, a desolate land."
+        },
+        {
+          "id": 1549728,
+          "resource_id": 831,
+          "text": "Aur uska haal aisa ho gaya jaise kati hui fasal ho"
         }
       ]
     },
@@ -436,6 +536,11 @@
           "id": 406995,
           "resource_id": 85,
           "text": "Still they called each other at daybreak,"
+        },
+        {
+          "id": 1549729,
+          "resource_id": 831,
+          "text": "Subah un logon ne ek dusre ko pukara"
         }
       ]
     },
@@ -456,6 +561,11 @@
           "id": 406996,
           "resource_id": 85,
           "text": "‘Go early to your field if you wish to gather all its fruits,’"
+        },
+        {
+          "id": 1549730,
+          "resource_id": 831,
+          "text": "Kaha agar phal todne hai ho to sawerey sawerey apni kheti ki taraf nikal chalo"
         }
       ]
     },
@@ -476,6 +586,11 @@
           "id": 406997,
           "resource_id": 85,
           "text": "and went off, whispering,"
+        },
+        {
+          "id": 1549731,
+          "resource_id": 831,
+          "text": "Chunanchey woh chal padey aur aapas mein chupke chupke kehte jatay thay"
         }
       ]
     },
@@ -496,6 +611,11 @@
           "id": 406998,
           "resource_id": 85,
           "text": "‘Make sure no poor person enters the garden today!’––"
+        },
+        {
+          "id": 1549732,
+          "resource_id": 831,
+          "text": "Ke aaj koi miskeen tumhare paas baag mein na aane paye"
         }
       ]
     },
@@ -516,6 +636,11 @@
           "id": 406999,
           "resource_id": 85,
           "text": "they left early, bent on their purpose-"
+        },
+        {
+          "id": 1549733,
+          "resource_id": 831,
+          "text": "Woh kuch na dene ka faisla kiye huye subah sawerey jaldi jaldi is tarah wahan gaye jaise ke woh (phal todne par) qadir hain"
         }
       ]
     },
@@ -536,6 +661,11 @@
           "id": 407000,
           "resource_id": 85,
           "text": "but when they saw the garden, they said, ‘We must have lost our way!"
+        },
+        {
+          "id": 1549734,
+          "resource_id": 831,
+          "text": "Magar jab baagh ko dekha to kehne lagey “hum raasta bhool gaye hain"
         }
       ]
     },
@@ -556,6 +686,11 @@
           "id": 407001,
           "resource_id": 85,
           "text": "No- we are ruined!’"
+        },
+        {
+          "id": 1549735,
+          "resource_id": 831,
+          "text": "Nahin balke hum mehroom reh gaye”"
         }
       ]
     },
@@ -576,6 +711,11 @@
           "id": 407002,
           "resource_id": 85,
           "text": "The wisest of them said, ‘Did I not say to you, “Will you not glorify God?”’-"
+        },
+        {
+          "id": 1549736,
+          "resource_id": 831,
+          "text": "Un mein jo sab se behtar aadmi tha usne kaha “maine tumse kaha na tha ke tum tasbeeh kyun nahin karte?”"
         }
       ]
     },
@@ -596,6 +736,11 @@
           "id": 407003,
           "resource_id": 85,
           "text": "they said, ‘Glory be to God, Our Lord! Truly, we were doing wrong!’-"
+        },
+        {
+          "id": 1549737,
+          "resource_id": 831,
+          "text": "Woh pukar utthey paak hai hamara Rubb, waqayi hum gunahgaar thay"
         }
       ]
     },
@@ -616,6 +761,11 @@
           "id": 407004,
           "resource_id": 85,
           "text": "and then they turned to each other in mutual reproach."
+        },
+        {
+          "id": 1549738,
+          "resource_id": 831,
+          "text": "Phir unmein se har ek dusre ko malamat karne laga"
         }
       ]
     },
@@ -636,6 +786,11 @@
           "id": 407005,
           "resource_id": 85,
           "text": "They said, ‘Alas for us! We have done terrible wrong,"
+        },
+        {
+          "id": 1549739,
+          "resource_id": 831,
+          "text": "Akhir ko unhon ne kaha “afsos hamare haal par, beshak hum sarkash ho gaye thay"
         }
       ]
     },
@@ -656,6 +811,11 @@
           "id": 407006,
           "resource_id": 85,
           "text": "but maybe our Lord will give us something better in its place: we truly turn to Him in hope.’"
+        },
+        {
+          "id": 1549740,
+          "resource_id": 831,
+          "text": "Baeed (door) nahin ke hamara Rubb humein badle mein issey behtar baagh ata farmaye, hum apne Rubb ki taraf rujoo karte hain"
         }
       ]
     },
@@ -676,6 +836,11 @@
           "id": 407007,
           "resource_id": 85,
           "text": "Such is the punishment [in this life], but greater still is the punishment in the Hereafter, if only they knew."
+        },
+        {
+          "id": 1549741,
+          "resource_id": 831,
+          "text": "Aisa hota hai azaab aur aakhirat ka azaab issey bhi bada hai, kaash yeh log isko jaante"
         }
       ]
     },
@@ -696,6 +861,11 @@
           "id": 407008,
           "resource_id": 85,
           "text": "There will be Gardens of bliss for those who are mindful of God."
+        },
+        {
+          "id": 1549742,
+          "resource_id": 831,
+          "text": "Yaqeenan khuda-tars logon ke liye unke Rubb ke yahan niyamat bhari jannatein hain"
         }
       ]
     },
@@ -716,6 +886,11 @@
           "id": 407009,
           "resource_id": 85,
           "text": "Should We treat those who submit to Us as We treat those who do evil?"
+        },
+        {
+          "id": 1549743,
+          "resource_id": 831,
+          "text": "Kya hum farma-bardaaron ka haal mujreemon sa kardein"
         }
       ]
     },
@@ -736,6 +911,11 @@
           "id": 407010,
           "resource_id": 85,
           "text": "What is the matter with you? On what basis do you judge?"
+        },
+        {
+          "id": 1549744,
+          "resource_id": 831,
+          "text": "Tum logon ko kya ho gaya hai, tum kaise hukum lagate ho"
         }
       ]
     },
@@ -756,6 +936,11 @@
           "id": 407011,
           "resource_id": 85,
           "text": "Do you have a Scripture that tells you"
+        },
+        {
+          "id": 1549745,
+          "resource_id": 831,
+          "text": "Kya tumhare paas koi kitaab hai jismein tum yeh padhte ho"
         }
       ]
     },
@@ -776,6 +961,11 @@
           "id": 407012,
           "resource_id": 85,
           "text": "that you will be granted whatever you choose?"
+        },
+        {
+          "id": 1549746,
+          "resource_id": 831,
+          "text": "Ke tumhare liye zaroor wahan wahi kuch hai jo tum apne liye pasand karte ho"
         }
       ]
     },
@@ -796,6 +986,11 @@
           "id": 407013,
           "resource_id": 85,
           "text": "Have you received from Us solemn oaths, binding to the Day of Resurrection, that you will get whatever you yourselves decide?"
+        },
+        {
+          "id": 1549747,
+          "resource_id": 831,
+          "text": "Ya phir kya tumhare liye roz-e-qayamat tak humpar kuch ahad-o-paiman (covenant) sabit hai ke tumhein wahi kuch milega jiska tum hukum lagao"
         }
       ]
     },
@@ -816,6 +1011,11 @@
           "id": 407014,
           "resource_id": 85,
           "text": "Ask them [Prophet] which of them will guarantee this."
+        },
+        {
+          "id": 1549748,
+          "resource_id": 831,
+          "text": "Inse pucho tum mein se kaun iska zaamin (gurantee/responsible) hai"
         }
       ]
     },
@@ -836,6 +1036,11 @@
           "id": 407015,
           "resource_id": 85,
           "text": "Do they have ‘partners’ [besides God]? Let them produce their ‘partners’, if what they say is true."
+        },
+        {
+          "id": 1549749,
+          "resource_id": 831,
+          "text": "Ya phir inke thehraye huye kuch sahreek hain (jinhon ne iska zimma liya ho)?yeh baat hai to layein apne shareekon ko agar yeh sacchey hain"
         }
       ]
     },
@@ -856,6 +1061,11 @@
           "id": 407016,
           "resource_id": 85,
           "text": "On the Day when matters become dire, they will be invited to prostrate themselves but will be prevented from doing so,"
+        },
+        {
+          "id": 1549750,
+          "resource_id": 831,
+          "text": "Jis roz sakht waqt aa padega aur logon ko sajda karne ke liye bulaya jayega to yeh log sajda na kar sakenge"
         }
       ]
     },
@@ -876,6 +1086,11 @@
           "id": 407017,
           "resource_id": 85,
           "text": "and their eyes will be downcast and they will be overwhelmed with shame: they were invited to prostrate themselves when they were safe [but refused]."
+        },
+        {
+          "id": 1549751,
+          "resource_id": 831,
+          "text": "Inki nigaahein nichey hongi, zillat inpar chaa rahi hogi. Yeh jab sahi-o-saalim thay us waqt inhein sajde ke liye (bulaya jata tha) aur yeh inkar karte thay"
         }
       ]
     },
@@ -896,6 +1111,11 @@
           "id": 407018,
           "resource_id": 85,
           "text": "So [Prophet] leave those who reject this revelation to Me: We shall lead them on, step by step, in ways beyond their knowledge;"
+        },
+        {
+          "id": 1549752,
+          "resource_id": 831,
+          "text": "Pas aey Nabi, tum is kalam ke jhutlane walon ka maamla mujhpar chodh do hum aise tarike se inko batadreej tabahi ki taraf le jayenge ke inko khabar bhi na hogi"
         }
       ]
     },
@@ -916,6 +1136,11 @@
           "id": 407019,
           "resource_id": 85,
           "text": "I will allow them more time, for My plan is powerful."
+        },
+        {
+          "id": 1549753,
+          "resource_id": 831,
+          "text": "Main inki rassi daraaz kar raha hoon, meri chaal badi zabardast hai"
         }
       ]
     },
@@ -936,6 +1161,11 @@
           "id": 407020,
           "resource_id": 85,
           "text": "Do you demand some reward from them that would burden them with debt?"
+        },
+        {
+          "id": 1549754,
+          "resource_id": 831,
+          "text": "Kya tum insey koi ajar (compensation) talab kar rahey ho ke yeh is chatti ke bojh (feel burdened with debt) taley dabey ja rahe hoon"
         }
       ]
     },
@@ -956,6 +1186,11 @@
           "id": 407021,
           "resource_id": 85,
           "text": "Do they have knowledge of the unseen that enables them to write it down?"
+        },
+        {
+          "id": 1549755,
+          "resource_id": 831,
+          "text": "Kya inke paas gaib ka ilam hai jisey yeh likh rahey hon"
         }
       ]
     },
@@ -976,6 +1211,11 @@
           "id": 407022,
           "resource_id": 85,
           "text": "Wait patiently [Prophet] for your Lord’s judgement: do not be like the man in the whale who called out in distress:"
+        },
+        {
+          "id": 1549756,
+          "resource_id": 831,
+          "text": "Pas apne Rubb ka faisla saadir honay tak sabr karo aur machli wale (younis) ki tarah na ho jao, jab usne pukara tha aur woh gham se bhara hua tha"
         }
       ]
     },
@@ -996,6 +1236,11 @@
           "id": 407023,
           "resource_id": 85,
           "text": "if his Lord’s grace had not reached him, he would have been left, abandoned and blameworthy, on the barren shore,"
+        },
+        {
+          "id": 1549757,
+          "resource_id": 831,
+          "text": "Agar uske Rubb ki meharbani uske shamil-e-haal na ho jati to woh mazmoom (disgrace) hokar chatyal maidan mein phenk diya jata"
         }
       ]
     },
@@ -1016,6 +1261,11 @@
           "id": 407024,
           "resource_id": 85,
           "text": "but his Lord chose him and made him one of the Righteous."
+        },
+        {
+          "id": 1549758,
+          "resource_id": 831,
+          "text": "Aakhir-e-kaar uske Rubb ne usey barguzida (exalted) farma liya aur usey saleh bandon mein shamil kardiya"
         }
       ]
     },
@@ -1036,6 +1286,11 @@
           "id": 407025,
           "resource_id": 85,
           "text": "The disbelievers almost strike you down with their looks when they hear the Quran. They say, ‘He must be mad!’"
+        },
+        {
+          "id": 1549759,
+          "resource_id": 831,
+          "text": "Jab yeh kafir log kalam-e-nasihat (Quran) sunte hain to tumhein aisi nazaron se dekhte hain ke goya tumhare qadam ukhaad denge, Aur kehte hain ke yeh zaroor deewana hai"
         }
       ]
     },
@@ -1056,6 +1311,11 @@
           "id": 407026,
           "resource_id": 85,
           "text": "but truly it is nothing other than a Reminder for all peoples."
+        },
+        {
+          "id": 1549760,
+          "resource_id": 831,
+          "text": "Halaanke yeh to sarey jahaan walon ke liye ek naseehat hai"
         }
       ]
     }

@@ -1,5 +1,5 @@
 {
-  "syncedAt": "2026-08-31T05:21:26.859Z",
+  "syncedAt": "2026-08-31T09:57:53.530Z",
   "chapter": {
     "id": 96,
     "revelation_place": "makkah",
@@ -36,6 +36,11 @@
           "id": 407810,
           "resource_id": 85,
           "text": "Read! In the name of your Lord who created:"
+        },
+        {
+          "id": 1550544,
+          "resource_id": 831,
+          "text": "Padho (Aey Nabi) apne Rubb ke naam ke saath Jisne paida kiya"
         }
       ]
     },
@@ -56,6 +61,11 @@
           "id": 407811,
           "resource_id": 85,
           "text": "He created man from a clinging form."
+        },
+        {
+          "id": 1550545,
+          "resource_id": 831,
+          "text": "Jamey huey khoon ke ek lothdey se Insan ki takhliq ki"
         }
       ]
     },
@@ -76,6 +86,11 @@
           "id": 407812,
           "resource_id": 85,
           "text": "Read! Your Lord is the Most Bountiful One"
+        },
+        {
+          "id": 1550546,
+          "resource_id": 831,
+          "text": "Padho aur tumhara Rubb bada kareem hai"
         }
       ]
     },
@@ -96,6 +111,11 @@
           "id": 407813,
           "resource_id": 85,
           "text": "who taught by [means of] the pen,"
+        },
+        {
+          "id": 1550547,
+          "resource_id": 831,
+          "text": "jisne qalam ke zariya se ilm sikhaya"
         }
       ]
     },
@@ -116,6 +136,11 @@
           "id": 407814,
           "resource_id": 85,
           "text": "who taught man what he did not know."
+        },
+        {
+          "id": 1550548,
+          "resource_id": 831,
+          "text": "Insan ko woh ilm diya jisey woh na jaanta tha"
         }
       ]
     },
@@ -136,6 +161,11 @@
           "id": 407815,
           "resource_id": 85,
           "text": "But man exceeds all bounds"
+        },
+        {
+          "id": 1550549,
+          "resource_id": 831,
+          "text": "Hargiz nahin, Insan sarkahshi karta hai"
         }
       ]
     },
@@ -156,6 +186,11 @@
           "id": 407816,
           "resource_id": 85,
           "text": "when he thinks he is self-sufficient:"
+        },
+        {
+          "id": 1550550,
+          "resource_id": 831,
+          "text": "Is bina par ke woh apne aap ko be niyaz dekhta hai"
         }
       ]
     },
@@ -176,6 +211,11 @@
           "id": 407817,
           "resource_id": 85,
           "text": "[Prophet], all will return to your Lord."
+        },
+        {
+          "id": 1550551,
+          "resource_id": 831,
+          "text": "(halaanke) palatna yaqeenan tere Rubb hi ki taraf hai"
         }
       ]
     },
@@ -196,6 +236,11 @@
           "id": 407818,
           "resource_id": 85,
           "text": "Have you seen the man who forbids"
+        },
+        {
+          "id": 1550552,
+          "resource_id": 831,
+          "text": "Tumne dekha us shaks ko"
         }
       ]
     },
@@ -216,6 +261,11 @@
           "id": 407819,
           "resource_id": 85,
           "text": "[Our] servant to pray?"
+        },
+        {
+          "id": 1550553,
+          "resource_id": 831,
+          "text": "Jo ek banday ko mana karta hai jabke woh namaz padta ho"
         }
       ]
     },
@@ -236,6 +286,11 @@
           "id": 407820,
           "resource_id": 85,
           "text": "Have you seen whether he is rightly guided,"
+        },
+        {
+          "id": 1550554,
+          "resource_id": 831,
+          "text": "Tumhara kya khayal hai agar (woh banda) raah e raast par ho"
         }
       ]
     },
@@ -256,6 +311,11 @@
           "id": 407821,
           "resource_id": 85,
           "text": "or encourages true piety?"
+        },
+        {
+          "id": 1550555,
+          "resource_id": 831,
+          "text": "ya parhezgari ki talqeen karta ho"
         }
       ]
     },
@@ -276,6 +336,11 @@
           "id": 407822,
           "resource_id": 85,
           "text": "Have you seen whether he denies the truth and turns away from it?"
+        },
+        {
+          "id": 1550556,
+          "resource_id": 831,
+          "text": "Tumhara kya khayal hai agar (yeh mana karne wala shakhs haqq ko) jhutlata aur mooh moadta ho"
         }
       ]
     },
@@ -296,6 +361,11 @@
           "id": 407823,
           "resource_id": 85,
           "text": "Does he not realize that God sees all?"
+        },
+        {
+          "id": 1550557,
+          "resource_id": 831,
+          "text": "Kya woh nahin jaanta ke Allah dekh raha hai"
         }
       ]
     },
@@ -316,6 +386,11 @@
           "id": 407824,
           "resource_id": 85,
           "text": "No! If he does not stop, We shall drag him by his forehead––"
+        },
+        {
+          "id": 1550558,
+          "resource_id": 831,
+          "text": "Hargiz nahin agar woh baaz na aaya to hum uski peshani ke baal pakad kar usey khinchey ge"
         }
       ]
     },
@@ -336,6 +411,11 @@
           "id": 407825,
           "resource_id": 85,
           "text": "his lying, sinful forehead."
+        },
+        {
+          "id": 1550559,
+          "resource_id": 831,
+          "text": "Us peshani ko jo jhooti aur sakth khatakaar hai"
         }
       ]
     },
@@ -356,6 +436,11 @@
           "id": 407826,
           "resource_id": 85,
           "text": "Let him summon his comrades;"
+        },
+        {
+          "id": 1550560,
+          "resource_id": 831,
+          "text": "Woh bulaley apne haamiyon ki toli ko"
         }
       ]
     },
@@ -376,6 +461,11 @@
           "id": 407827,
           "resource_id": 85,
           "text": "We shall summon the guards of Hell."
+        },
+        {
+          "id": 1550561,
+          "resource_id": 831,
+          "text": "Hum bhi azaab ke farishton ko bula lengey"
         }
       ]
     },
@@ -396,6 +486,11 @@
           "id": 407828,
           "resource_id": 85,
           "text": "No! Do not obey him [Prophet]: bow down in worship and draw close."
+        },
+        {
+          "id": 1550562,
+          "resource_id": 831,
+          "text": "Hargiz nahin, uski baat na mano aur sajda karo aur (apne Rubb ka) qurb hasil karo"
         }
       ]
     }

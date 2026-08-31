@@ -1,5 +1,5 @@
 {
-  "syncedAt": "2026-08-31T05:21:10.489Z",
+  "syncedAt": "2026-08-31T09:57:36.947Z",
   "chapter": {
     "id": 60,
     "revelation_place": "madinah",
@@ -36,6 +36,11 @@
           "id": 406854,
           "resource_id": 85,
           "text": "You who believe, do not take My enemies and yours as your allies, showing them friendship when they have rejected the truth you have received, and have driven you and the Messenger out simply because you believe in God, your Lord––not if you truly emigrated in order to strive for My cause and seek My good pleasure. You secretly show them friendship––I know all you conceal and all you reveal–– but any of you who do this are straying from the right path."
+        },
+        {
+          "id": 1549588,
+          "resource_id": 831,
+          "text": "Aey logon jo iman laye ho, agar tum meri raah mein jihad karne ke liye aur meri raza-joyi ki khatir (watan chodh kar gharon se) nikle ho to mere aur apne dushmano ko dost na banao. Tum unke saath dosti ki tarah(befriend) dalte ho, halaanke jo haqq tumhare paas aaya hai usko maanne se woh inkar kar chuke hain. Aur unki ravish yeh hai ke Rasool ko aur khud tumko sirf is kasoor par jila-watan (expel) karte hain ke tum apne Rubb, Allah par iman laye ho. Tum chupa kar unko dostana paighaam bhejte ho, halaanke jo kuch tum chupa kar karte ho aur jo elania (openly) karte ho, har cheez ko mai khoob janta hoon. Jo shaks bhi tum mein se aisa karey woh yaqeenan raah-e-raast se bhatak gaya"
         }
       ]
     },
@@ -56,6 +61,11 @@
           "id": 406855,
           "resource_id": 85,
           "text": "If they gain the upper hand over you, they will revert to being your enemies and stretch out their hands and tongues to harm you; it is their dearest wish that you may renounce your faith."
+        },
+        {
+          "id": 1549589,
+          "resource_id": 831,
+          "text": "Unka rawayya to yeh hai ke agar tumpar qaabu paa jayein to tumhare saath dushmani karein aur haath aur zuban se tumhein azar (hurt) dein, woh to yeh chahte hain ke tum kisi tarah kafir ho jao"
         }
       ]
     },
@@ -76,6 +86,11 @@
           "id": 406856,
           "resource_id": 85,
           "text": "Neither your kinsfolk nor your children will be any use to you on the Day of Resurrection: He will separate you out. God sees everything you do."
+        },
+        {
+          "id": 1549590,
+          "resource_id": 831,
+          "text": "Qayamat ke din na tumhari rishtedarian kisi kaam aayengi na tumhari aulad. Us roz Allah tumhare darmiyan judaai daal dega. Aur wahi tumhare aamaal ka dekhne wala hai"
         }
       ]
     },
@@ -96,6 +111,11 @@
           "id": 406857,
           "resource_id": 85,
           "text": "You have a good example in Abraham and his companions, when they said to their people, ‘We disown you and what you worship besides God! We renounce you! Until you believe in God alone, the enmity and hatred that has arisen between us will endure!’––except when Abraham said to his father, ‘I will pray for forgiveness for you though I cannot protect you from God’––[they prayed] ‘Lord, we have put our trust in You; we turn to You; You are our final destination."
+        },
+        {
+          "id": 1549591,
+          "resource_id": 831,
+          "text": "Tum logon ke liye Ibrahim aur uske saathiyon mein ek accha namuna hai ke unhon ne apni qaum se saaf kehdiya “hum tumse aur tumhare in maboodon (deities) se jinko tum khuda ko chodh kar poojhte ho qataii bezaar hain. Humne tumse kufr kiya aur hamare aur tumhare darmiyan hamesha ke liye adawat hogayi aur bair padh gaya (enmity and hatred) jabtak tum Allah wahid par iman na lao”. Magar Ibrahim ka apne baap se yeh kehna (issey mustasna hai) ke “ Main aapke liye magfirat ki darkhwast zaroor karunga, aur Allah se aap ke liye kuch haasil kar lena mere bas mein nahin hai”. (Aur Ibrahim va ashaab-e-Ibrahim ki dua yeh thi ke) “Aey hamare Rubb, tere hi upar humne bharosa kiya aur teri hi taraf humne ruju (turn) karliya aur tere hi huzoor humein palatna hai"
         }
       ]
     },
@@ -116,6 +136,11 @@
           "id": 406858,
           "resource_id": 85,
           "text": "Lord, do not expose us to mistreatment [at the hands of] the disbelievers. Forgive us, Lord, for You are the Almighty, the All Wise.’"
+        },
+        {
+          "id": 1549592,
+          "resource_id": 831,
+          "text": "Aey hamare Rubb, humein kafiron ke liye fitna (trial/test) na bana de aur aey hamare Rubb, hamare kasooron se darguzar farma. Beshak tu hi zabardast (mighty) aur daana(wise) hai"
         }
       ]
     },
@@ -136,6 +161,11 @@
           "id": 406859,
           "resource_id": 85,
           "text": "Truly, they are a good example for you [believers] to follow, a good example for those who fear God and the Last Day. If anyone turns away, [remember] God is self-sufficing and worthy of all praise."
+        },
+        {
+          "id": 1549593,
+          "resource_id": 831,
+          "text": "Inhi logon ke tarz-e-amal mein tumhare liye aur har us shaks ke liye accha namuna (example) hai jo Allah aur roz-e-aakhir ka umeedwar ho. Issey koi munharif ho (turns away) to Allah be niyaz (All-Sufficient) aur apni zaat mein aap mahmood hai"
         }
       ]
     },
@@ -156,6 +186,11 @@
           "id": 406860,
           "resource_id": 85,
           "text": "God may still bring about affection between you and your present enemies- God is all powerful, God is most forgiving and merciful-"
+        },
+        {
+          "id": 1549594,
+          "resource_id": 831,
+          "text": "Baeed nahin ke Allah kabhi tumhare aur un logon ke darmiyaan mohabbat daal de jinse aaj tumne dushmani mol li hai. Allah badi qudrat rakhta hai aur woh gafoor-o-raheem hai"
         }
       ]
     },
@@ -176,6 +211,11 @@
           "id": 406861,
           "resource_id": 85,
           "text": "and He does not forbid you to deal kindly and justly with anyone who has not fought you for your faith or driven you out of your homes: God loves the just."
+        },
+        {
+          "id": 1549595,
+          "resource_id": 831,
+          "text": "Allah tumhein is baat se nahin roakta ke tum un logon ke saath neki aur insaaf ka bartaao karo jinhon ne deen ke maamle mein tumse jung nahin ki hai aur tumhein tumhare gharon se nahin nikala hai. Allah insaaf karne walon ko pasand karta hai"
         }
       ]
     },
@@ -196,6 +236,11 @@
           "id": 406862,
           "resource_id": 85,
           "text": "But God forbids you to take as allies those who have fought against you for your faith, driven you out of your homes, and helped others to drive you out: any of you who take them as allies will truly be wrongdoers."
+        },
+        {
+          "id": 1549596,
+          "resource_id": 831,
+          "text": "Woh tumhein jis baat se roakta hai woh to yeh hai ke tum un logon se dosti karo jinhon ne tumse deen ke maamle mein jung ki hai aur tumhein tumhare gharon se nikala hai aur tumhare ikhraaj (expulsion) mein ek dusre ki madad ki hai. Unse jo log dosti karein wahi zaalim hain"
         }
       ]
     },
@@ -216,6 +261,11 @@
           "id": 406863,
           "resource_id": 85,
           "text": "You who believe, test the believing women when they come to you as emigrants- God knows best about their faith- and if you are sure of their belief, do not send them back to the disbelievers: they are not lawful wives for them, nor are the disbelievers their lawful husbands. Give the disbelievers whatever bride-gifts they have paid- if you choose to marry them, there is no blame on you once you have paid their bride-gifts- and do not yourselves hold on to marriage ties with disbelieving women. Ask for repayment of the bride-gifts you have paid, and let the disbelievers do the same. This is God’s judgement: He judges between you, God is all knowing and wise."
+        },
+        {
+          "id": 1549597,
+          "resource_id": 831,
+          "text": "Aey logon jo iman laye ho, jab momin auratein hijrat karke tumhare paas aayein to (unke momin honay ki) jaanch padtaal karlo. Aur unke iman ki haqeeqat Allah hi behtar janta hai. Phir jab tumhein maloom ho jaye ke woh momin hain to unhein kuffar ki taraf wapas na karo. Na woh kuffar ke liye halal hain aur na kuffar unke liye halal. Unke kafir shoharon ne jo mehar unko diye thay woh unhein pher do aur unsey nikah kar lene par tumse koi gunaah nahin jabke tum unke mehar unko ada kardo. Aur tum khud bhi kafir auraton ko apne nikah mein na roakey raho, jo mehar tumne apni kafir biwiyon ko diye thay woh tum wapas maang lo aur jo mehar kafiron ne apni musalmaan biwiyon ko diye thay unhein woh wapas maang lein. Yeh Allah ka hukum hai, woh tumhare darmiyaan faisla karta hai aur Allah Aleem-o-Hakeem (all knowing-most wise) hai"
         }
       ]
     },
@@ -236,6 +286,11 @@
           "id": 406864,
           "resource_id": 85,
           "text": "If any of you have wives who leave you for the disbelievers, and if your community subsequently acquires [gains] from them, then pay those whose wives have deserted them the equivalent of whatever bride-gift they paid. Be mindful of God, in whom you believe."
+        },
+        {
+          "id": 1549598,
+          "resource_id": 831,
+          "text": "Aur agar tumhari kafir biwiyon ke meharon mein se kuch tumhein kuffar se wapas na miley aur phir tumhari naubat aaye to jin logon ki biwiyan udhar reh gayi hain unko itni rakam ada kardo jo unke diye huey meharon ke barabar ho. Aur us khuda se darte raho jispar tum iman laye ho"
         }
       ]
     },
@@ -256,6 +311,11 @@
           "id": 406865,
           "resource_id": 85,
           "text": "Prophet, when believing women come and pledge to you that they will not ascribe any partner to God, nor steal, nor commit adultery, nor kill their children, nor lie about who has fathered their children, nor disobey you in any righteous thing, then you should accept their pledge of allegiance and pray to God to forgive them: God is most forgiving and merciful."
+        },
+        {
+          "id": 1549599,
+          "resource_id": 831,
+          "text": "Aey Nabi, Jab tumhare paas momin auratein bayt (pledge) karne ke liye aayein aur is baat ka ahad karein ke woh Allah ke saath kisi cheez ko shareek na karengi, chori na karengi, zina na karengi, apni aulad ko qatal na karengi, apne haath paaon ke aage koi bohtan (calumny) ghad kar na layengi, Aur kisi amr-e-maaroof (anything known to be good) mein tumhari nafarmani na karengi, to unse bayt lelo aur unke haqq mein Allah se dua-e-magfirat karo. Yaqeenan Allah darguzar(maaf) farmane wala aur Reham karne wala hai"
         }
       ]
     },
@@ -276,6 +336,11 @@
           "id": 406866,
           "resource_id": 85,
           "text": "You who believe, do not take as allies those with whom God is angry: they despair of the life to come as the disbelievers despair of those buried in their graves."
+        },
+        {
+          "id": 1549600,
+          "resource_id": 831,
+          "text": "Aey logon jo iman laye ho, un logon ko dost na banao jinpar Allah ne gazab farmaya hai, Jo aakhirat se usi tarah mayous hain jis tarah kabaron mein padey huey kafir mayous hain"
         }
       ]
     }

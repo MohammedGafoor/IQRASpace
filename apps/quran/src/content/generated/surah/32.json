@@ -1,5 +1,5 @@
 {
-  "syncedAt": "2026-08-31T05:20:50.958Z",
+  "syncedAt": "2026-08-31T09:57:17.102Z",
   "chapter": {
     "id": 32,
     "revelation_place": "makkah",
@@ -36,6 +36,11 @@
           "id": 405207,
           "resource_id": 85,
           "text": "Alif Lam Mim"
+        },
+        {
+          "id": 1547941,
+          "resource_id": 831,
+          "text": "Alif Laam Meem"
         }
       ]
     },
@@ -56,6 +61,11 @@
           "id": 405208,
           "resource_id": 85,
           "text": "This scripture, free from all doubt, has been sent down from the Lord of the Worlds."
+        },
+        {
+          "id": 1547942,
+          "resource_id": 831,
+          "text": "Is kitaab ki tanzil (nuzul/revelation) bila shubha Rubb ul aalameen ki taraf se hai"
         }
       ]
     },
@@ -76,6 +86,11 @@
           "id": 405209,
           "resource_id": 85,
           "text": "Yet they say, ‘Muhammad has made it up.’ No indeed! It is the Truth from your Lord for you [Prophet], to warn a people who have had no one to warn them before, so that they may be guided."
+        },
+        {
+          "id": 1547943,
+          "resource_id": 831,
+          "text": "Kya yeh log kehte hain ke is shaks ne isey khud ghadh liya hai? Nahin, balke yeh haqq hai tere Rubb ki taraf se taa-ke tu mutanabbeh (warn) karey ek aisi qaum ko jiske paas tujhse pehle koi mutanabbeh (warn) karne nahin aaya. Shayad ke woh hidayat paa jayein"
         }
       ]
     },
@@ -96,6 +111,11 @@
           "id": 405210,
           "resource_id": 85,
           "text": "It is God who created the heavens and the earth and everything between them in six Days. Then He established Himself on the Throne. You [people] have no one but Him to protect you and no one to intercede for you, so why do you not take heed?"
+        },
+        {
+          "id": 1547944,
+          "resource_id": 831,
+          "text": "Woh Allah hi hai jisne aasmaano aur zameen ko aur un saari cheezon ko jo inke darmiyan hain chey (six) dino mein paida kiya aur iske baad arsh par jalwa farma hua. Uske siwa na tumhara koi haami o madadgar hai aur na koi uske aagey sifarish karne wala. Phir kya tum hosh mein na aaogey"
         }
       ]
     },
@@ -116,6 +136,11 @@
           "id": 405211,
           "resource_id": 85,
           "text": "He runs everything, from the heavens to the earth, and everything will ascend to Him in the end, on a Day that will measure a thousand years in your reckoning."
+        },
+        {
+          "id": 1547945,
+          "resource_id": 831,
+          "text": "Woh aasmaan se zameen tak duniya ke maamlaat ki tadbeer (planning) karta hai aur is tadbeer ki rudad (record) upar uske huzur jaati hai ek aisey din mein jiski miqdaar tumhare shumar se ek hazar saal hai"
         }
       ]
     },
@@ -136,6 +161,11 @@
           "id": 405212,
           "resource_id": 85,
           "text": "Such is He who knows all that is unseen as well as what is seen, the Almighty, the Merciful,"
+        },
+        {
+          "id": 1547946,
+          "resource_id": 831,
+          "text": "Wahi hai har posheeda (chupi hui) aur zaahir ka janne wala. Zabardast, aur raheem"
         }
       ]
     },
@@ -156,6 +186,11 @@
           "id": 405213,
           "resource_id": 85,
           "text": "who gave everything its perfect form. He first created man from clay,"
+        },
+        {
+          "id": 1547947,
+          "resource_id": 831,
+          "text": "Jo cheez bhi usney banayi khoob hi (acchi tarah) banayi. Usne Insaan ki takhleeq ki ibtida gaarey (mitti /clay) se ki"
         }
       ]
     },
@@ -176,6 +211,11 @@
           "id": 405214,
           "resource_id": 85,
           "text": "then made his descendants from an extract of underrated fluid."
+        },
+        {
+          "id": 1547948,
+          "resource_id": 831,
+          "text": "Phir uski nasal ek aisi saat se chalayi jo hakeer pani (fluid despised) ki tarah ka hai"
         }
       ]
     },
@@ -196,6 +236,11 @@
           "id": 405215,
           "resource_id": 85,
           "text": "Then He moulded him; He breathed from His Spirit into him; He gave you hearing, sight, and minds. How seldom you are grateful!"
+        },
+        {
+          "id": 1547949,
+          "resource_id": 831,
+          "text": "Phir usko nik-suk se durust kiya aur uske andar apni rooh phoonk di. Aur tumko kaan diye, aankhein di aur dil diye. Tum log kam hi shukar guazar hotey ho"
         }
       ]
     },
@@ -216,6 +261,11 @@
           "id": 405216,
           "resource_id": 85,
           "text": "They say, ‘What? When we have disappeared into the earth, shall we really be created anew?’ In fact, they deny the meeting with their Lord."
+        },
+        {
+          "id": 1547950,
+          "resource_id": 831,
+          "text": "Aur yeh log kehte hain: “jab hum mitti mein ral-mil chuke honge to kya hum phir naye sirey se paida kiye jayenge?” Asal baat yeh hai ke yeh apne Rubb ki mulaqaat ke munkir hain"
         }
       ]
     },
@@ -236,6 +286,11 @@
           "id": 405217,
           "resource_id": 85,
           "text": "Say, ‘The Angel of Death put in charge of you will reclaim you, and then you will be brought back to your Lord.’"
+        },
+        {
+          "id": 1547951,
+          "resource_id": 831,
+          "text": "Insey kaho “Maut ka woh farishta jo tumpar muqarrar kiya gaya hai tumko poora ka poora apne qabze mein le lega aur phir tum apne Rubb ki taraf palta laye jaoge”"
         }
       ]
     },
@@ -256,6 +311,11 @@
           "id": 405218,
           "resource_id": 85,
           "text": "[Prophet], if only you could see the wrongdoers hang their heads before their Lord: ‘Our Lord, now that we have seen and heard, send us back and we shall do good. [Now] we are convinced.’"
+        },
+        {
+          "id": 1547952,
+          "resource_id": 831,
+          "text": "Kaash tum dekho woh waqt jab yeh mujrim sar jhukaye apne Rubb ke huzur khade hongey. (Us waqt yeh keh rahe hongey) “ Aey hamare Rubb, humne khoob dekh liya aur sun liya , ab humein wapas bhej de taa-ke hum neik amal karein. Humein ab yaqeen aa gaya hai.”"
         }
       ]
     },
@@ -276,6 +336,11 @@
           "id": 405219,
           "resource_id": 85,
           "text": "‘If it had been Our will, We could certainly have given every soul its true guidance, but My words have come true. “I shall be sure to fill Hell with jinn and men together.”"
+        },
+        {
+          "id": 1547953,
+          "resource_id": 831,
+          "text": "(Jawab mein irshad hoga) “Agar hum chahte to pehle hi har nafs ko iski hidayat de detay, magar meri woh baat poori ho gayi jo maine kahi thi ke main jahannum ko Jinno aur Insano sab se bhar dunga"
         }
       ]
     },
@@ -296,6 +361,11 @@
           "id": 405220,
           "resource_id": 85,
           "text": "So since you ignored the meeting on this Day of yours, now We shall ignore you: taste the lasting suffering for all you have done.’"
+        },
+        {
+          "id": 1547954,
+          "resource_id": 831,
+          "text": "Pas ab chakkho maza apni is harakat ka ke tumne is din ki mulaqat ko faramosh kardiya. Humne bhi ab tumhein faramosh kardiya hai. Chakkho hameshgi ke azaab ka maza apne kartooton ki padash mein”"
         }
       ]
     },
@@ -316,6 +386,11 @@
           "id": 405221,
           "resource_id": 85,
           "text": "The only people who truly believe in Our messages are those who, when they are reminded of them, bow down in worship, cele-brate their Lord’s praises, and do not think themselves above this."
+        },
+        {
+          "id": 1547955,
+          "resource_id": 831,
+          "text": "Hamari aayat par to woh log iman laatey hain jinhein yeh aayat suna kar jab naseehat ki jaati hai to sajde mein gir padte hain aur apne Rubb ki hamd ke saath uski tasbeeh karte hain aur takabbur nahin karte"
         }
       ]
     },
@@ -336,6 +411,11 @@
           "id": 405222,
           "resource_id": 85,
           "text": "Their sides shun their beds in order to pray to their Lord in fear and hope; they give to others some of what We have given them."
+        },
+        {
+          "id": 1547956,
+          "resource_id": 831,
+          "text": "Unki peethein (backs) bistaron se alag rehti hain, apne Rubb ko khauf aur tamaa (umeed) ke saath pukarte hain. Aur jo kuch rizq humne unhein diya hai usmein se kharch karte hain"
         }
       ]
     },
@@ -356,6 +436,11 @@
           "id": 405223,
           "resource_id": 85,
           "text": "No soul knows what joy is kept hidden in store for them as a reward for what they have done."
+        },
+        {
+          "id": 1547957,
+          "resource_id": 831,
+          "text": "Phir jaisa kuch aankhon ki thandak ka saamaan unke aamaal ki jaza mein unke liye chupa kar rakkha gaya hai uski kisi mutanaffis (person/soul) ko khabar nahin hai"
         }
       ]
     },
@@ -376,6 +461,11 @@
           "id": 405224,
           "resource_id": 85,
           "text": "So, is someone who believes equal to someone who defies God? No, they are not equal."
+        },
+        {
+          "id": 1547958,
+          "resource_id": 831,
+          "text": "Bhala kahin yeh ho sakta hai ke jo shaks momin ho woh us shaks ki tarah ho jaye jo faasiq (nafarman/evil doer) ho? Yeh dono barabar nahin ho saktey"
         }
       ]
     },
@@ -396,6 +486,11 @@
           "id": 405225,
           "resource_id": 85,
           "text": "Those who believe and do good deeds will have Gardens awaiting them as their home and as a reward for what they have done."
+        },
+        {
+          "id": 1547959,
+          "resource_id": 831,
+          "text": "Jo log iman laye hain aur jinhon ne neik amal kiye hain unke liye to jannaton ki qayam-gahein (hospitable homes) hain. Ziyafat ke taur par unke aamal ke badle mein"
         }
       ]
     },
@@ -416,6 +511,11 @@
           "id": 405226,
           "resource_id": 85,
           "text": "As for those who defy God, their home will be the Fire. Whenever they try to escape it, they will be driven back into it, and they will be told, ‘Taste the torment of the Fire, which you persistently denied.’"
+        },
+        {
+          "id": 1547960,
+          "resource_id": 831,
+          "text": "Aur jinhon ne fisq (na-farmani) ikhtiyar kiya hai unka thikana dozakh hai.Jab kabhi woh ussey nikalna chahenge usi mein dhakail diye jayenge aur unsey kaha jayega ke chakkho ab usi aag ke azaab ka maza jisko tum jhutlaya karte thay"
         }
       ]
     },
@@ -436,6 +536,11 @@
           "id": 405227,
           "resource_id": 85,
           "text": "We shall certainly make them taste a nearer torment [in this life] prior to the greater torment, so that perhaps they may return [to the right path]."
+        },
+        {
+          "id": 1547961,
+          "resource_id": 831,
+          "text": "Us baday azaab se pehle hum isi duniya mein (kisi na kisi chote) azaab ka maza inhein chakhate rahenge. Shayad ke yeh (apne baagiyana [transgression] rawish se) baaz aa jayein"
         }
       ]
     },
@@ -456,6 +561,11 @@
           "id": 405228,
           "resource_id": 85,
           "text": "Who does more wrong than someone who, when messages from his Lord are recited to him, turns away from them? We shall inflict retribution on the guilty."
+        },
+        {
+          "id": 1547962,
+          "resource_id": 831,
+          "text": "Aur ussey bada zaalim kaun hoga jisey uske Rubb ki aayat ke zariye se naseehat ki jaye aur phir woh inse mooh pher ley.Aisey mujreemo se to hum inteqam lekar rahenge"
         }
       ]
     },
@@ -476,6 +586,11 @@
           "id": 405229,
           "resource_id": 85,
           "text": "We gave Moses the Scripture- so [Muhammad] do not doubt that you are receiving it- and We made it a guide for the Children of Israel."
+        },
+        {
+          "id": 1547963,
+          "resource_id": 831,
+          "text": "Issey pehle hum Moosa ko kitaab de chuke hain. Lihaza usi cheez ke milne par tumhein koi shakk na hona chahiye. Us kitab ko humne bani Israel ke liye hidayat banaya tha"
         }
       ]
     },
@@ -496,6 +611,11 @@
           "id": 405230,
           "resource_id": 85,
           "text": "When they became steadfast and believed firmly in Our messages, We raised leaders among them, guiding them according to Our command."
+        },
+        {
+          "id": 1547964,
+          "resource_id": 831,
+          "text": "Aur jab unhon ne sabr kiya aur hamari aayaat par yaqeen latey rahey to unke andar humne aise peshwa paida kiye jo hamare hukum se rehnumayi (hidayat/guidance) karte thay"
         }
       ]
     },
@@ -516,6 +636,11 @@
           "id": 405231,
           "resource_id": 85,
           "text": "[Prophet], it is your Lord who will judge between them on the Day of Resurrection concerning their differences."
+        },
+        {
+          "id": 1547965,
+          "resource_id": 831,
+          "text": "Yaqeenan tera Rubb hi qayamat ke roz un baaton ka faisla karega jinmein (bani Israel) baaham(aapas mein) ikhtilaf karte rahey hain"
         }
       ]
     },
@@ -536,6 +661,11 @@
           "id": 405232,
           "resource_id": 85,
           "text": "Is it not a lesson for them [to see] how many generations We destroyed before them, in whose homes they now walk? There truly are signs in this- do they not hear?"
+        },
+        {
+          "id": 1547966,
+          "resource_id": 831,
+          "text": "Aur kya in logon ko (in tareekhi (historical) waqiyat mein) koi hidayat nahin mili ke unse pehle kitni qaumon ko hum halaak kar chuke hain jinke rehne ki jaghon mein aaj yeh chalte phirte hain? Ismein badi nishaniyan hain. Kya yeh sunte nahin hain"
         }
       ]
     },
@@ -556,6 +686,11 @@
           "id": 405233,
           "resource_id": 85,
           "text": "Do they not consider how We drive rain to the barren land, and with it produce vegetation from which their cattle and they themselves eat? Do they not see?"
+        },
+        {
+          "id": 1547967,
+          "resource_id": 831,
+          "text": "Aur kya in logon ne yeh manzar kabhi nahin dekha ke hum ek bay-aab o gayah (banjar) zameen ki taraf pani baha latey hain, aur phir usi zameen se woh fasal ugati hai jissey unke jaanwaron ko bhi chara milta hai aur yeh khud bhi khate hain? To kya inhein kuch nahin soojhta"
         }
       ]
     },
@@ -576,6 +711,11 @@
           "id": 405234,
           "resource_id": 85,
           "text": "And they say, ‘When will this Decision be, if you are telling the truth?’"
+        },
+        {
+          "id": 1547968,
+          "resource_id": 831,
+          "text": "Yeh log kehte hain ke “yeh faisla kab hoga agar tum sachhey ho?”"
         }
       ]
     },
@@ -596,6 +736,11 @@
           "id": 405235,
           "resource_id": 85,
           "text": "Say, ‘On the Day of Decision it will be no use for the disbelievers to believe; they will be granted no respite.’"
+        },
+        {
+          "id": 1547969,
+          "resource_id": 831,
+          "text": "Insey kaho “faisle ke din iman laana un logon ke liye kuch bhi nafeh (faidemand) na hoga jinhon ne kufr kiya hai aur phir unko koi mohlat na milegi.”"
         }
       ]
     },
@@ -616,6 +761,11 @@
           "id": 405236,
           "resource_id": 85,
           "text": "So [Prophet], turn away from them and wait: they too are waiting."
+        },
+        {
+          "id": 1547970,
+          "resource_id": 831,
+          "text": "Accha, inhein inke haal par chodh do aur intezar karo, yeh bhi muntazir (intezar kar rahe) hain"
         }
       ]
     }

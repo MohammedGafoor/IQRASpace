@@ -1,5 +1,5 @@
 {
-  "syncedAt": "2026-08-31T05:21:33.510Z",
+  "syncedAt": "2026-08-31T09:58:00.163Z",
   "chapter": {
     "id": 112,
     "revelation_place": "makkah",
@@ -36,6 +36,11 @@
           "id": 407925,
           "resource_id": 85,
           "text": "Say, ‘He is God the One,"
+        },
+        {
+          "id": 1550659,
+          "resource_id": 831,
+          "text": "Kaho woh Allah hai, Yakta"
         }
       ]
     },
@@ -56,6 +61,11 @@
           "id": 407926,
           "resource_id": 85,
           "text": "God the eternal."
+        },
+        {
+          "id": 1550660,
+          "resource_id": 831,
+          "text": "Allah sab se bay-niyaz hai aur sab us kay mohtaj hain"
         }
       ]
     },
@@ -76,6 +86,11 @@
           "id": 407927,
           "resource_id": 85,
           "text": "He begot no one nor was He begotten."
+        },
+        {
+          "id": 1550661,
+          "resource_id": 831,
+          "text": "Na uski koi aulad hai aur na woh kisi ki aulad"
         }
       ]
     },
@@ -96,6 +111,11 @@
           "id": 407928,
           "resource_id": 85,
           "text": "No one is comparable to Him.’"
+        },
+        {
+          "id": 1550662,
+          "resource_id": 831,
+          "text": "Aur koi uska humsar nahin hai"
         }
       ]
     }

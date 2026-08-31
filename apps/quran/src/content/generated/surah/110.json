@@ -1,5 +1,5 @@
 {
-  "syncedAt": "2026-08-31T05:21:32.676Z",
+  "syncedAt": "2026-08-31T09:57:59.318Z",
   "chapter": {
     "id": 110,
     "revelation_place": "madinah",
@@ -36,6 +36,11 @@
           "id": 407917,
           "resource_id": 85,
           "text": "When God’s help comes and He opens up your way [Prophet],"
+        },
+        {
+          "id": 1550651,
+          "resource_id": 831,
+          "text": "Jab Allah ki madad aa jaye aur fatah naseeb ho jaye"
         }
       ]
     },
@@ -56,6 +61,11 @@
           "id": 407918,
           "resource_id": 85,
           "text": "when you see people embracing God’s faith in crowds,"
+        },
+        {
+          "id": 1550652,
+          "resource_id": 831,
+          "text": "Aur (aey Nabi s.a.s) tum dekh lo ke log fauj dar fauj Allah ke deen mein dakhil ho rahey hain"
         }
       ]
     },
@@ -76,6 +86,11 @@
           "id": 407919,
           "resource_id": 85,
           "text": "celebrate the praise of your Lord and ask His forgiveness: He is always ready to accept repentance."
+        },
+        {
+          "id": 1550653,
+          "resource_id": 831,
+          "text": "To apne Rubb ki hamd ke saath uski tasbeeh karo Aur us se magfirat ki duaa maango. Beshak woh bada tauba qabool karne wala hai"
         }
       ]
     }

@@ -1,5 +1,5 @@
 {
-  "syncedAt": "2026-08-31T05:21:31.859Z",
+  "syncedAt": "2026-08-31T09:57:58.491Z",
   "chapter": {
     "id": 108,
     "revelation_place": "makkah",
@@ -36,6 +36,11 @@
           "id": 407908,
           "resource_id": 85,
           "text": "We have truly given abundance to you [Prophet]––"
+        },
+        {
+          "id": 1550642,
+          "resource_id": 831,
+          "text": "(Aey Nabi ) Hum ne tumhein kausar ata kar diya"
         }
       ]
     },
@@ -56,6 +61,11 @@
           "id": 407909,
           "resource_id": 85,
           "text": "so pray to your Lord and make your sacrifice to Him alone––"
+        },
+        {
+          "id": 1550643,
+          "resource_id": 831,
+          "text": "Pas tum apne Rubb hi ke liye namaz padho aur qurbani karo"
         }
       ]
     },
@@ -76,6 +86,11 @@
           "id": 407910,
           "resource_id": 85,
           "text": "it is the one who hates you who has been cut off."
+        },
+        {
+          "id": 1550644,
+          "resource_id": 831,
+          "text": "Tumhara dushman hi jadh-kata hai"
         }
       ]
     }

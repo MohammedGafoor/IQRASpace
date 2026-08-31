@@ -1,5 +1,5 @@
 {
-  "syncedAt": "2026-08-31T05:21:16.927Z",
+  "syncedAt": "2026-08-31T09:57:43.276Z",
   "chapter": {
     "id": 73,
     "revelation_place": "makkah",
@@ -36,6 +36,11 @@
           "id": 407179,
           "resource_id": 85,
           "text": "You [Prophet], enfolded in your cloak!"
+        },
+        {
+          "id": 1549913,
+          "resource_id": 831,
+          "text": "Aey oad lapet kar (enwrapped ) sone waley"
         }
       ]
     },
@@ -56,6 +61,11 @@
           "id": 407180,
           "resource_id": 85,
           "text": "Stay up throughout the night, all but a small part of it,"
+        },
+        {
+          "id": 1549914,
+          "resource_id": 831,
+          "text": "Raat ko namaz mein khade raha karo magar kam"
         }
       ]
     },
@@ -76,6 +86,11 @@
           "id": 407181,
           "resource_id": 85,
           "text": "half, or a little less,"
+        },
+        {
+          "id": 1549915,
+          "resource_id": 831,
+          "text": "Aadhi Raat"
         }
       ]
     },
@@ -96,6 +111,11 @@
           "id": 407182,
           "resource_id": 85,
           "text": "or a little more; recite the Quran slowly and distinctly:"
+        },
+        {
+          "id": 1549916,
+          "resource_id": 831,
+          "text": "Ya issey kuch kam karlo ya issey kuch zyada badha do, aur Quran ko khoob tehar tehar kar padho"
         }
       ]
     },
@@ -116,6 +136,11 @@
           "id": 407183,
           "resource_id": 85,
           "text": "We shall send a momentous message down to you."
+        },
+        {
+          "id": 1549917,
+          "resource_id": 831,
+          "text": "Hum tumpar ek bhari kalam nazil karne waley hain"
         }
       ]
     },
@@ -136,6 +161,11 @@
           "id": 407184,
           "resource_id": 85,
           "text": "Night prayer makes a deeper impression and sharpens words––"
+        },
+        {
+          "id": 1549918,
+          "resource_id": 831,
+          "text": "Dar haqeeqat raat ka uthna nafs par qaabu paney ke liye bahut kaargar aur Quran theek padhne ke liye zyada mauzu (suitable) hai"
         }
       ]
     },
@@ -156,6 +186,11 @@
           "id": 407185,
           "resource_id": 85,
           "text": "you are kept busy for long periods of the day––"
+        },
+        {
+          "id": 1549919,
+          "resource_id": 831,
+          "text": "Din ke auqat mein to tumhare liye bahut masrufiyat (prolonged occupation) hai"
         }
       ]
     },
@@ -176,6 +211,11 @@
           "id": 407186,
           "resource_id": 85,
           "text": "so celebrate the name of your Lord and devote yourself wholeheart-edly to Him."
+        },
+        {
+          "id": 1549920,
+          "resource_id": 831,
+          "text": "Apne Rubb ke naam ka zikr kiya karo aur sabse katt kar usi ke ho raho"
         }
       ]
     },
@@ -196,6 +236,11 @@
           "id": 407187,
           "resource_id": 85,
           "text": "He is Lord of the east and west, there is no god but Him, so take Him as your Protector,"
+        },
+        {
+          "id": 1549921,
+          "resource_id": 831,
+          "text": "Woo mashrik (east) o magrib (west) ka maalik hai, uske siwa koi khuda nahin hai, lihaza usi ko apna wakeel bana lo"
         }
       ]
     },
@@ -216,6 +261,11 @@
           "id": 407188,
           "resource_id": 85,
           "text": "patiently endure what they say, ignore them politely,"
+        },
+        {
+          "id": 1549922,
+          "resource_id": 831,
+          "text": "Aur jo baatein log bana rahey hain unpar sabr karo aur sharafat ke saath unse alag ho jao"
         }
       ]
     },
@@ -236,6 +286,11 @@
           "id": 407189,
           "resource_id": 85,
           "text": "and leave to Me those who deny the truth and live in luxury. Bear with them for a little while;"
+        },
+        {
+          "id": 1549923,
+          "resource_id": 831,
+          "text": "In jhutlane waley khush haal logon se nimatne ka kaam tum mujhpar chodh do aur inhein zara kuch dair isi halat par rehne do"
         }
       ]
     },
@@ -256,6 +311,11 @@
           "id": 407190,
           "resource_id": 85,
           "text": "We have fetters, a blazing fire,"
+        },
+        {
+          "id": 1549924,
+          "resource_id": 831,
+          "text": "Hamarey paas (inke liye) bhaari bediyan hain aur bhadakti hui aag"
         }
       ]
     },
@@ -276,6 +336,11 @@
           "id": 407191,
           "resource_id": 85,
           "text": "food that chokes, and agonizing torment in store for them"
+        },
+        {
+          "id": 1549925,
+          "resource_id": 831,
+          "text": "Aur halaq(throat) mein phasne wala khana aur dard-naak azaab"
         }
       ]
     },
@@ -296,6 +361,11 @@
           "id": 407192,
           "resource_id": 85,
           "text": "on the Day when the earth and the mountains will shake. The mountains will become a heap of loose sand."
+        },
+        {
+          "id": 1549926,
+          "resource_id": 831,
+          "text": "Yeh us din hoga jab zameen aur pahad laraz uthengey aur pahadon ka haal aisa ho jaeyga jaise reit (sand) ke dhair hai jo bhikhre ja rahe hain"
         }
       ]
     },
@@ -316,6 +386,11 @@
           "id": 407193,
           "resource_id": 85,
           "text": "We have sent a messenger to you [people] to be your witness, just as We sent a messenger to Pharaoh,"
+        },
+        {
+          "id": 1549927,
+          "resource_id": 831,
+          "text": "Tum logon ke paas humne usi tarah ek rasool tum par gawah bana kar bheja hai jis tarah humne Firaun ki taraf ek rasool bheja tha"
         }
       ]
     },
@@ -336,6 +411,11 @@
           "id": 407194,
           "resource_id": 85,
           "text": "but Pharaoh disobeyed the messenger and so We inflicted a heavy punishment on him."
+        },
+        {
+          "id": 1549928,
+          "resource_id": 831,
+          "text": "(Phir dekhlo ke jab ) Firaun ne us Rasool ki baat na maani to humne usko badi sakhti kay saath pakad liya"
         }
       ]
     },
@@ -356,6 +436,11 @@
           "id": 407195,
           "resource_id": 85,
           "text": "So if you disbelieve, how can you guard yourselves against a Day that will turn children’s hair grey,"
+        },
+        {
+          "id": 1549929,
+          "resource_id": 831,
+          "text": "Agar tum maan-ne se inkar karoge to us din kaisey bach jaogey jo bacchon ko boodha kardega"
         }
       ]
     },
@@ -376,6 +461,11 @@
           "id": 407196,
           "resource_id": 85,
           "text": "a Day when the sky will be torn apart? God’s promise will certainly be fulfilled."
+        },
+        {
+          "id": 1549930,
+          "resource_id": 831,
+          "text": "Aur jiski sakhti se aasman phata ja raha hoga?Allah ka wada to poora hokar hi rehna hai"
         }
       ]
     },
@@ -396,6 +486,11 @@
           "id": 407197,
           "resource_id": 85,
           "text": "This is a reminder. Let whoever wishes take the way to his Lord."
+        },
+        {
+          "id": 1549931,
+          "resource_id": 831,
+          "text": "Yeh ek nasihat hai , ab jiska jee chahey apne Rubb ki taraf janey ka rasta ikhtiyar karle"
         }
       ]
     },
@@ -416,6 +511,11 @@
           "id": 407198,
           "resource_id": 85,
           "text": "[Prophet], your Lord is well aware that you sometimes spend nearly two-thirds of the night at prayer––sometimes half, sometimes a third––as do some of your followers. God determines the division of night and day. He knows that you will not be able to keep a measure of it and He has relented towards all of you, so recite as much of the Quran as is easy for you. He knows that some of you will be sick, some of you travelling through the land seeking God’s bounty, some of you fighting in God’s way: recite as much as is easy for you, keep up the prayer, pay the prescribed alms, and make God a good loan. Whatever good you store up for yourselves will be improved and increased for you. Ask God for His forgiveness, He is most forgiving, most merciful."
+        },
+        {
+          "id": 1549932,
+          "resource_id": 831,
+          "text": "Aey Nabi, tumhara Rubb janta hai ke tum kabhi do tihayi (two-third) raat ke qareeb aur kabhi aadhi raat aur kabhi ek tihayi (one-third) raat ibadat mein khade rehtey ho,Aur tumhare saathiyon mein se bhi ek giroh yeh amal karta hai, Allah hi raat aur din ke auqat ka hisab rakhta hai. Usey maloom hai ke tumlog auqat ka theek shumar nahin kar sakte, lihaza usne tumpar meharbani farmayi, Ab jitna Quran aasani se padh sakte ho padh liya karo. Usey maloom hai ke tum mein kuch mareez hongey, kuch dusre log Allah ke fazal(bounty) ki talash mein safar karte hain, Aur kuch aur log Allah ki raah mein jung karte hain, pas jitna Quran ba aasani padha ja sakey padh liya karo, namaz qayam karo, zakaat do aur Allah ko accha qarz dete raho, jo kuch bhalayi tum apne liye aagey bhejoge usey Allah ke yahan maujood paogey, wahi zyada behtar hai aur uska ajr bahut bada hai. Allah se magfirat maangte raho, beshak Allah bada Gafoor o Raheem hai"
         }
       ]
     }

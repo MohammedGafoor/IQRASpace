@@ -1,5 +1,5 @@
 {
-  "syncedAt": "2026-08-31T05:21:03.042Z",
+  "syncedAt": "2026-08-31T09:57:29.115Z",
   "chapter": {
     "id": 47,
     "revelation_place": "madinah",
@@ -36,6 +36,11 @@
           "id": 406249,
           "resource_id": 85,
           "text": "God will bring to nothing the deeds of those who disbelieve and bar others from the way of God,"
+        },
+        {
+          "id": 1548983,
+          "resource_id": 831,
+          "text": "Jin logon ne kufr kiya aur Allah ke raaste se roka Allah ne unke aamal ko raigaan (waste /vain) kardiya"
         }
       ]
     },
@@ -56,6 +61,11 @@
           "id": 406250,
           "resource_id": 85,
           "text": "but He will overlook the bad deeds of those who have faith, do good deeds, and believe in what has been sent down to Muhammad––the truth from their Lord––and He will put them into a good state."
+        },
+        {
+          "id": 1548984,
+          "resource_id": 831,
+          "text": "Aur jo log imaan laye aur jinhon ne neik aamal kiye aur us cheez ko maan liya jo Muhammad par nazil hui hai aur hai woh sarasar haqq unke Rubb ki taraf se Allah ne unki burayian (evil deeds) unse dur kardi aur unka haal durust kardiya"
         }
       ]
     },
@@ -76,6 +86,11 @@
           "id": 406251,
           "resource_id": 85,
           "text": "This is because the disbelievers follow falsehood, while the believers follow the truth from their Lord. In this way God shows people their true type."
+        },
+        {
+          "id": 1548985,
+          "resource_id": 831,
+          "text": "Yeh is liye ke kufr karne walon ne baatil (falsehood) ki pairwi ki aur imaan lane walon ne us haqq ki pairwi ki jo unke Rubb ki taraf se aaya hai. Is tarhaan Allah logon ko unki theek theek haisiyat bataye deta hai"
         }
       ]
     },
@@ -96,6 +111,11 @@
           "id": 406252,
           "resource_id": 85,
           "text": "When you meet the disbelievers in battle, strike them in the neck, and once they are defeated, bind any captives firmly––later you can release them by grace or by ransom––until the toils of war have ended. That [is the way]. God could have defeated them Himself if He had willed, but His purpose is to test some of you by means of others. He will not let the deeds of those who are killed for His cause come to nothing;"
+        },
+        {
+          "id": 1548986,
+          "resource_id": 831,
+          "text": "Pas jab in kafiron se tumhari muth-bhaid (battle) ho to pehla kaam gardanein (necks) maarna hai, yahan tak ke jab tum unko acchi tarah kuchal do tab qaidiyon (captives) ko mazboot baandho. Iske baad (tumhein ikhtiyar hai) ehsan karo ya fidiye (ransom) ka muaamla karlo, taa-aanke ladayi apne hatiyar daal de. Yeh hai tumhare karne ka kaam. Allah chahta to khud hi unse nimat leta, magar (yeh tareeqa us ne is liye ikhtiyar kiya hai) taa-ke tum logon ko ek dusre ke zariye se aazmaye aur jo log Allah ki raah mein maarey jayenge Allah unke aamal ko hargiz zaya na karega"
         }
       ]
     },
@@ -116,6 +136,11 @@
           "id": 406253,
           "resource_id": 85,
           "text": "He will guide them and put them into a good state;"
+        },
+        {
+          "id": 1548987,
+          "resource_id": 831,
+          "text": "Woh unki rehnumayi farmayega, unka haal durust kardega"
         }
       ]
     },
@@ -136,6 +161,11 @@
           "id": 406254,
           "resource_id": 85,
           "text": "He will admit them into the Garden He has already made known to them."
+        },
+        {
+          "id": 1548988,
+          "resource_id": 831,
+          "text": "Aur unko us jannat mein daakhil karega jissey woh unko waqif kara chuka hai"
         }
       ]
     },
@@ -156,6 +186,11 @@
           "id": 406255,
           "resource_id": 85,
           "text": "You who believe! If you help God, He will help you and make you stand firm."
+        },
+        {
+          "id": 1548989,
+          "resource_id": 831,
+          "text": "Aey logon jo imaan laye ho, agar tum Allah ki madad karoge to woh tumhari madad karega aur tumhare qadam mazboot jamaa dega"
         }
       ]
     },
@@ -176,6 +211,11 @@
           "id": 406256,
           "resource_id": 85,
           "text": "As for the disbelievers, how wretched will be their state! God has brought their deeds to nothing."
+        },
+        {
+          "id": 1548990,
+          "resource_id": 831,
+          "text": "Rahe woh log jinhon ne kufr kiya hai, to unke liye halakat hai aur Allah ne unke aamal ko bhatka diya hai"
         }
       ]
     },
@@ -196,6 +236,11 @@
           "id": 406257,
           "resource_id": 85,
           "text": "It is because they hate what God has sent down that He has caused their deeds to go to waste."
+        },
+        {
+          "id": 1548991,
+          "resource_id": 831,
+          "text": "Kyunke unhon ne us cheez ko napasand kiya jisey Allah ne naazil kiya hai, lihaza Allah ne unke aamal zaya (waste) kardiye"
         }
       ]
     },
@@ -216,6 +261,11 @@
           "id": 406258,
           "resource_id": 85,
           "text": "Have they not travelled the earth and seen how those before them met their end? God destroyed them utterly: a similar fate awaits the disbelievers."
+        },
+        {
+          "id": 1548992,
+          "resource_id": 831,
+          "text": "Kya woh zameen mein chale phire na thay ke un logon ka anjaam dekhte jo unse pehle guzar chuke hain? Allah ne unka sab kuch unpar ulat diya, aur aise hi nataij in kaafiron ke liye muqaddar hain"
         }
       ]
     },
@@ -236,6 +286,11 @@
           "id": 406259,
           "resource_id": 85,
           "text": "That is because God protects the believers while the disbelievers have no one to protect them:"
+        },
+        {
+          "id": 1548993,
+          "resource_id": 831,
+          "text": "Yeh is liye ke imaan laane walon ka haami o nasir (Protector) Allah hai aur kaafiron ka haami o nasir (Protector) koi nahin"
         }
       ]
     },
@@ -256,6 +311,11 @@
           "id": 406260,
           "resource_id": 85,
           "text": "God will admit those who believe and do good deeds to Gardens graced with flowing streams; the disbelievers may take their fill of pleasure in this world, and eat as cattle do, but the Fire will be their home."
+        },
+        {
+          "id": 1548994,
+          "resource_id": 831,
+          "text": "Iman laney walon aur neik amal karne walon ko Allah un jannaton mein daakhil karega jinke nichey nehrein behti hain, aur kufr karne waale bas duniya ki chandh roza zindagi ke mazey loot rahey hain, janwaron ki tarah kha pee rahey hain, aur unka aakhri thikana jahannum hai"
         }
       ]
     },
@@ -276,6 +336,11 @@
           "id": 406261,
           "resource_id": 85,
           "text": "We have destroyed many a town stronger than your own [Prophet]- the town which [chose to] expel you- and they had no one to help them."
+        },
+        {
+          "id": 1548995,
+          "resource_id": 831,
+          "text": "Aey Nabi (s.a.s) kitni hi bastiyan aisi guzar chuki hain jo tumhare us basti se bahut zyada zoarawar thin jisne tumhein nikal diya hai? Unhein humne is tarhaan halaak kardiya ke koi unka bachane wala na tha"
         }
       ]
     },
@@ -296,6 +361,11 @@
           "id": 406262,
           "resource_id": 85,
           "text": "Can those who follow clear proof from their Lord be compared to those whose foul deeds are made to seem alluring to them, those who follow their own desires?"
+        },
+        {
+          "id": 1548996,
+          "resource_id": 831,
+          "text": "Bhala kahin aisa ho sakta hai ke jo apne Rubb ki taraf se ek saaf o sareeh hidayat par ho, woh un logon ki tarah ho jaye jinke liye unka bura amal khushnuma bana diya gaya hai aur woh apni khwahishat ke pairo ban gaye hain"
         }
       ]
     },
@@ -316,6 +386,11 @@
           "id": 406263,
           "resource_id": 85,
           "text": "Here is a picture of the Garden promised to the pious: rivers of water forever pure, rivers of milk forever fresh, rivers of wine, a delight for those who drink, rivers of honey clarified and pure, [all] flow in it; there they will find fruit of every kind; and they will find forgiveness from their Lord. How can this be compared to the fate of those stuck in the Fire, given boiling water to drink that tears their bowels?"
+        },
+        {
+          "id": 1548997,
+          "resource_id": 831,
+          "text": "Parhezgar-on ke liye jis jannat ka waada kiya gaya hai uski shaan to yeh hai ke usmein nehrein beh rahi hongi nithre (incorruptible /unpolluted) huye pani ki, nehrein beh rahi hongi aisey doodh ki jiske mazay(taste) mein zara farq na aaya hoga, nehrein beh rahi hongi aisi sharaab ki jo peene walon ke liye lazeez (delicious) hongi, nehrein beh rahi hongi saaf shafaaf shehad (honey) ki. Usmein unke liye har taraah ke phal hongay aur unke Rubb ki taraf se bakshish. (kya woh shaks jiske hissey mein yeh jannat aane wali hai) un logon ki taraah ho sakta hai jo jahannam mein hamesha rahenge aur jinhein aisa garam(hot) pani pilaya jayega jo unke aantein (bowels) tak kaat dega"
         }
       ]
     },
@@ -336,6 +411,11 @@
           "id": 406264,
           "resource_id": 85,
           "text": "Some of these people listen to you [Prophet], but, once they leave your presence, they sneer at those who have been given knowledge, saying, ‘What was that he just said?’ These are the ones whose hearts God has sealed, those who follow their own desires."
+        },
+        {
+          "id": 1548998,
+          "resource_id": 831,
+          "text": "In mein se kuch log aise hain jo kaan laga kar tumhari baat sunte hain aur phir jab tumhare paas se nikalte hain un logon se jinhein ilm ki niyamat bakshi gayi hai puchte hain ke abhi abhi inhon ne kya kaha tha?yeh woh log hain jinke dilon par Allah ne thappa (seal) laga diya hai aur yeh apni apni khwaishat ke pairo bane huey hain"
         }
       ]
     },
@@ -356,6 +436,11 @@
           "id": 406265,
           "resource_id": 85,
           "text": "God has increased the guidance of those who follow the right path, and given them their awareness [of Him]."
+        },
+        {
+          "id": 1548999,
+          "resource_id": 831,
+          "text": "Rahe woh log jinhon ne hidayat payi hai, Allah unko aur zyada hidayat deta hai aur unhein unke hisse ka taqwa ata farmata hai"
         }
       ]
     },
@@ -376,6 +461,11 @@
           "id": 406266,
           "resource_id": 85,
           "text": "What are the disbelievers waiting for, other than the Hour which will come upon them unawares? Its signs are already here, but once the Hour has actually arrived, what use will it be then to take heed?"
+        },
+        {
+          "id": 1549000,
+          "resource_id": 831,
+          "text": "Ab kya yeh log bas qayamat hi ke muntazir hain ke woh achanak inpar aa jaye? Uski alamaat to aa chuki hain jab woh khud aa jayegi to inke liye nasihat kabool karne ka kaunsa mauqa baaqi reh jayega"
         }
       ]
     },
@@ -396,6 +486,11 @@
           "id": 406267,
           "resource_id": 85,
           "text": "So [Prophet], bear in mind that there is no god but God, and ask forgiveness for your sins and for the sins of believing men and women. God knows whenever any of you move, and whenever any of you stay still."
+        },
+        {
+          "id": 1549001,
+          "resource_id": 831,
+          "text": "Pas aey Nabi, khoob jaan lo ke Allah ke siwa koi ibadat ka mustahiq nahin hai, aur maafi maango apne kasoor ke liye bhi aur momin mardon aur auraton ke liye bhi. Allah tumhari sargarmiyon ko bhi jaanta hai aur tumhare thikane se bhi waqif hai"
         }
       ]
     },
@@ -416,6 +511,11 @@
           "id": 406268,
           "resource_id": 85,
           "text": "Those who believe ask why no sura [about fighting] has been sent down. Yet when a decisive sura [that mentions fighting] is sent down, you can see the sick at heart looking at you [Prophet] and visibly fainting at the prospect of death- better for them"
+        },
+        {
+          "id": 1549002,
+          "resource_id": 831,
+          "text": "Jo log iman laye hain woh keh rahe thay ke koi surat kyun nahin nazil ki jaati (jis mein jung ka hukum diya jaye) magar jab ek mohkam surat nazil kardi gayi jismein jung ka zikr tha to tumne dekha ke jinke dilon mein bimari thi woh tumhari taraf is tarah dekh rahey hain jaise kisi par maut chaa gayi ho. Afsos unke haal par"
         }
       ]
     },
@@ -436,6 +536,11 @@
           "id": 406269,
           "resource_id": 85,
           "text": "would be obedience and fitting words; it would also be better for them to be true to God when the decision to fight has been made."
+        },
+        {
+          "id": 1549003,
+          "resource_id": 831,
+          "text": "(Unki zubaan par hai) itaat ka ikrar aur acchi acchi batein. Magar jab qataii hukum de diya gaya us waqt woh Allah se apne ahad mein sacche nikalte to unhi ke liye accha tha"
         }
       ]
     },
@@ -456,6 +561,11 @@
           "id": 406270,
           "resource_id": 85,
           "text": "‘If you turn away now, could it be that you will go on to spread corruption all over the land and break your ties of kinship?’"
+        },
+        {
+          "id": 1549004,
+          "resource_id": 831,
+          "text": "Ab kya tum logon se iske siwa kuch aur tawaqqu ki ja sakti hai ke agar tum ulte mooh phir gaye to zameen mein phir fasad barpa karoge aur aapas mein ek dusre ke galay (throats) kaatoge"
         }
       ]
     },
@@ -476,6 +586,11 @@
           "id": 406271,
           "resource_id": 85,
           "text": "These are the ones God has rejected, making their ears deaf and their eyes blind."
+        },
+        {
+          "id": 1549005,
+          "resource_id": 831,
+          "text": "Yeh log hain jinpar Allah ne laanat ki aur inko andha (blind) aur behra bana diya"
         }
       ]
     },
@@ -496,6 +611,11 @@
           "id": 406272,
           "resource_id": 85,
           "text": "Will they not contemplate the Quran? Do they have locks on their hearts?"
+        },
+        {
+          "id": 1549006,
+          "resource_id": 831,
+          "text": "Kya un logon ne Quran par gaur nahin kiya, ya dilon par unke qufal (locks) chade huey hain"
         }
       ]
     },
@@ -516,6 +636,11 @@
           "id": 406273,
           "resource_id": 85,
           "text": "Those who turn on their heels after being shown guidance are duped and tempted by Satan;"
+        },
+        {
+          "id": 1549007,
+          "resource_id": 831,
+          "text": "Haqeeqat yeh hai ke jo log hidayat wazeh ho jaane ke baad ussey phir gaye unke liye shaytan ne is rawish ko sahal bana diya hai aur jhuti tawaqquat ka silsila unke liye daraaz kar rakkha hai"
         }
       ]
     },
@@ -536,6 +661,11 @@
           "id": 406274,
           "resource_id": 85,
           "text": "they say to those who hate what God has sent down, ‘We will obey you in some matters’––God knows their secret schemes."
+        },
+        {
+          "id": 1549008,
+          "resource_id": 831,
+          "text": "Is liye unhon ne Allah ke nazil karda deen ko napasand karne walon se kehdiya ke baaz maamlaat mein hum tumhari manenge.Allah unki yeh khufiya baatein khoob jaanta hai"
         }
       ]
     },
@@ -556,6 +686,11 @@
           "id": 406275,
           "resource_id": 85,
           "text": "How will they feel when the angels take them in death and beat their faces and their backs"
+        },
+        {
+          "id": 1549009,
+          "resource_id": 831,
+          "text": "Phir us waqt kya haal hoga jab farishtey inki roohein qabz karenge aur inke mooh aur peethon (backs) par maarte huey inhein le jayenge"
         }
       ]
     },
@@ -576,6 +711,11 @@
           "id": 406276,
           "resource_id": 85,
           "text": "because they practised things that incurred God’s wrath, and disdained to please Him? He makes their deeds go to waste."
+        },
+        {
+          "id": 1549010,
+          "resource_id": 831,
+          "text": "Yeh isi liye to hoga ke inhon ne us tariqe ki pairwi ki jo Allah ko naraaz karne wala hai aur us ki raza ka raasta ikhtiyar karna pasand na kiya. Isi bina par usne inke sab aamaal zaya kar diye"
         }
       ]
     },
@@ -596,6 +736,11 @@
           "id": 406277,
           "resource_id": 85,
           "text": "Do the corrupt at heart assume that God will not expose their malice?"
+        },
+        {
+          "id": 1549011,
+          "resource_id": 831,
+          "text": "Kya woh log jinke dilon mein bimari hai yeh samjhe baithe hain ke Allah unke dilon ke khot (keena) zahir nahin karega"
         }
       ]
     },
@@ -616,6 +761,11 @@
           "id": 406278,
           "resource_id": 85,
           "text": "We could even point them out to you [Prophet] if We wished, and then you could identify them by their marks, but you will know them anyway by the tone of their speech. God knows everything you [people] do."
+        },
+        {
+          "id": 1549012,
+          "resource_id": 831,
+          "text": "Hum chahein to unhein tumko aankhon se dikha dein aur unke chehron se tum unko pehchaan lo magar unke andaaz e kalaam se to tum unko jaan hi logay.Allah tum sab ke aamal se khoob waqif hai"
         }
       ]
     },
@@ -636,6 +786,11 @@
           "id": 406279,
           "resource_id": 85,
           "text": "We shall test you to see which of you strive your hardest and are steadfast; We shall test the sincerity of your assertions."
+        },
+        {
+          "id": 1549013,
+          "resource_id": 831,
+          "text": "Hum zaroor tum logon ko aazmaish mein dalenge taake tumhare halaat ki jaanch karein aur dekh lein ke tum mein mujahid aur sabit qadam kaun hain"
         }
       ]
     },
@@ -656,6 +811,11 @@
           "id": 406280,
           "resource_id": 85,
           "text": "Those who disbelieve, bar others from God’s path, and oppose the Messenger when they have been shown guidance, do not harm God in any way. He will make their deeds go to waste-"
+        },
+        {
+          "id": 1549014,
+          "resource_id": 831,
+          "text": "Jin logon ne kufr kiya aur Allah ki raah se roaka aur Rasool se jhagda kiya jabke unpar raah e raast wazeh ho chuki thi, dar haqeeqat woh Allah ka koi nuksan bhi nahin kar sakte, balke Allah hi unka sab kiya karaya gaarat (null / fruitless) kardega"
         }
       ]
     },
@@ -676,6 +836,11 @@
           "id": 406281,
           "resource_id": 85,
           "text": "believers, obey God and the Messenger: do not let your deeds go to waste-"
+        },
+        {
+          "id": 1549015,
+          "resource_id": 831,
+          "text": "Aey logon jo iman laye ho, Tum Allah ki itaat karo aur Rasool ki itaat karo aur apne aamal ko barbaad na karlo"
         }
       ]
     },
@@ -696,6 +861,11 @@
           "id": 406282,
           "resource_id": 85,
           "text": "God will not forgive those who disbelieve, bar others from God’s path, and die as disbelievers."
+        },
+        {
+          "id": 1549016,
+          "resource_id": 831,
+          "text": "Kufr karne walon aur raah e khuda se roakne walon aur marte dum tak kufr par jamey rehne walon ko to Allah hargiz maaf na karega"
         }
       ]
     },
@@ -716,6 +886,11 @@
           "id": 406283,
           "resource_id": 85,
           "text": "So [believers] do not lose heart and cry out for peace. It is you who have the upper hand: God is with you. He will not begrudge you the reward for your [good] deeds:"
+        },
+        {
+          "id": 1549017,
+          "resource_id": 831,
+          "text": "Pas tum bodeyh (faint-hearted) na bano aur sulah ki darkhwast na karo. Tum hi ghalib rehne wale ho. Allah tumhare saath hai aur tumhare aamal ko woh hargiz zaya na karega"
         }
       ]
     },
@@ -736,6 +911,11 @@
           "id": 406284,
           "resource_id": 85,
           "text": "the life of this world is only a game, a pastime, but if you believe and are mindful of God, He will recompense you. He does not ask you to give up [all] your posses-sions-"
+        },
+        {
+          "id": 1549018,
+          "resource_id": 831,
+          "text": "Yeh duniya ki zindagi to ek khel aur tamasha hai agar tum imaan rakkho aur taqwe ki rawish par chalte raho to Allah tumhare ajar tumko dega aur woh tumhare maal tumse na maange ga"
         }
       ]
     },
@@ -756,6 +936,11 @@
           "id": 406285,
           "resource_id": 85,
           "text": "you would be grudging if He were to ask you and press you for them, and He would bring your ill-will to light-"
+        },
+        {
+          "id": 1549019,
+          "resource_id": 831,
+          "text": "Agar kahin woh tumhare maal tumse maang le aur sab ke sab tumse talab karle to tum bukhal (kanjoosi /niggardly /miserly) karoge aur woh tumhare khot (failings) ubhar layega"
         }
       ]
     },
@@ -776,6 +961,11 @@
           "id": 406286,
           "resource_id": 85,
           "text": "though now you are called upon to give [a little] for the sake of God, some of you are grudging. Whoever is grudging is so only towards himself: God is the source of wealth and you are the needy ones. He will substitute other people for you if you turn away, and they will not be like you."
+        },
+        {
+          "id": 1549020,
+          "resource_id": 831,
+          "text": "Dekho, tum logon ko dawat di jaa rahi hai ke Allah ki raah mein maal kharch karo ispar tum mein se kuch log hain jo bukhal (niggardly / kanjoosi) kar rahe hain. Halaanke jo bukhal (niggardly) karta hai woh dar haqeeqat apne aap hi se bukhal kar raha hai. Allah to Gani (all-Sufficient) hai, tumhi uske mohtaj ho. Agar tum mooh moadoge to Allah tumhari jagah kisi aur qaum ko le aayega aur woh tum jaise na hongey"
         }
       ]
     }

@@ -1,5 +1,5 @@
 {
-  "syncedAt": "2026-08-31T05:21:13.571Z",
+  "syncedAt": "2026-08-31T09:57:39.949Z",
   "chapter": {
     "id": 67,
     "revelation_place": "makkah",
@@ -36,6 +36,11 @@
           "id": 406945,
           "resource_id": 85,
           "text": "Exalted is He who holds all control in His hands; who has power over all things;"
+        },
+        {
+          "id": 1549679,
+          "resource_id": 831,
+          "text": "Nihayat buzurg-o-bartar hai woh jiske haath mein qayinaat ki sultanat hai , aur woh har cheez par qudrat rakhta hai"
         }
       ]
     },
@@ -56,6 +61,11 @@
           "id": 406946,
           "resource_id": 85,
           "text": "who created death and life to test you [people] and reveal which of you does best––He is the Mighty, the Forgiving;"
+        },
+        {
+          "id": 1549680,
+          "resource_id": 831,
+          "text": "Jisne maut aur zindagi ko ijaat kiya taa-ke tum logon ko aazma kar dekhey tum mein se kaun behtar amal karne wala hai, aur woh zabardast bhi hai aur darguzar farmane wala bhi"
         }
       ]
     },
@@ -76,6 +86,11 @@
           "id": 406947,
           "resource_id": 85,
           "text": "who created the seven heavens, one above the other. You will not see any flaw in what the Lord of Mercy creates. Look again! Can you see any flaw?"
+        },
+        {
+          "id": 1549681,
+          "resource_id": 831,
+          "text": "Jisne teh-bar-teh saat (seven) aasman banaye tum Rehman ki takhleeq(creation) mein kisi kism ki be-rabti (incongruity) na paogey phir palat kar dekho, kahin tumhein koi khalal (flaw) nazar aata hai"
         }
       ]
     },
@@ -96,6 +111,11 @@
           "id": 406948,
           "resource_id": 85,
           "text": "Look again! And again! Your sight will turn back to you, weak and defeated."
+        },
+        {
+          "id": 1549682,
+          "resource_id": 831,
+          "text": "Baar baar nigaah daudao tumhari nigaah thak kar na-murad palat aayegi"
         }
       ]
     },
@@ -116,6 +136,11 @@
           "id": 406949,
           "resource_id": 85,
           "text": "We have adorned the lowest heaven with lamps and made them [missiles] for stoning devils for whom We have also prepared the torment of a blazing fire."
+        },
+        {
+          "id": 1549683,
+          "resource_id": 831,
+          "text": "Humne tumhare kareeb ke aasman ko azeem-o-shaan chiragon se aarasta (adorned /beautify) kiya hai aur unhein shayateen ko maar bhagane ka zariya bana diya hai. In shaytano ke liye bhadakti hui aag humne muhayya kar rakkhi hai"
         }
       ]
     },
@@ -136,6 +161,11 @@
           "id": 406950,
           "resource_id": 85,
           "text": "For those who defy their Lord We have prepared the torment of Hell: an evil destination."
+        },
+        {
+          "id": 1549684,
+          "resource_id": 831,
+          "text": "Jin logon ne apne Rubb se kufr kiya hai unke liye jahannum ka azaab hai aur woh bahut hi bura thikana hai"
         }
       ]
     },
@@ -156,6 +186,11 @@
           "id": 406951,
           "resource_id": 85,
           "text": "They will hear it drawing in its breath when they are thrown in. It blazes forth,"
+        },
+        {
+          "id": 1549685,
+          "resource_id": 831,
+          "text": "Jab woh usmein phenke jayenge to uske dhahadne (roar) ki haulnaak aawaz sunengey aur woh josh kha rahi hogi"
         }
       ]
     },
@@ -176,6 +211,11 @@
           "id": 406952,
           "resource_id": 85,
           "text": "almost bursting with rage. Its keepers will ask every group that is thrown in, ‘Did no one come to warn you?’"
+        },
+        {
+          "id": 1549686,
+          "resource_id": 831,
+          "text": "Shiddat-e-gazab se phati jati hogi, har baar jab koi anbwah (multitude/group) us mein dala jayega uske kaarinde (keepers) un logon se puchenge “kya tumhare paas koi khabardaar karne wala nahin aaya tha?”"
         }
       ]
     },
@@ -196,6 +236,11 @@
           "id": 406953,
           "resource_id": 85,
           "text": "They will reply, ‘Yes, a warner did come to us, but we did not believe him. We said, “God has revealed nothing: you are greatly misguided”.’"
+        },
+        {
+          "id": 1549687,
+          "resource_id": 831,
+          "text": "Woh jawab denge “haan ,khabardaar karne wala hamare paas aaya tha,magar humne usey jhutla diya aur kaha Allah ne kuch bhi nazil nahin kiya hai, tum badi gumraahi mein padey huey ho”"
         }
       ]
     },
@@ -216,6 +261,11 @@
           "id": 406954,
           "resource_id": 85,
           "text": "They will say, ‘If only we had listened, or reasoned, we would not be with the inhabitants of the blazing fire,’ and"
+        },
+        {
+          "id": 1549688,
+          "resource_id": 831,
+          "text": "Aur woh kahenge “kaash hum sunte ya samajhte to aaj is bhadakti hui aag ke sazawaron mein na shamil hotey”"
         }
       ]
     },
@@ -236,6 +286,11 @@
           "id": 406955,
           "resource_id": 85,
           "text": "they will confess their sins. Away with the inhabitants of the blazing fire!"
+        },
+        {
+          "id": 1549689,
+          "resource_id": 831,
+          "text": "Is tarah woh apne kasoor ka khud aitraaf (confess) kar lengey, laanat hai in dozakhiyon par"
         }
       ]
     },
@@ -256,6 +311,11 @@
           "id": 406956,
           "resource_id": 85,
           "text": "But there is forgiveness and a great reward for those who fear their Lord though they cannot see Him."
+        },
+        {
+          "id": 1549690,
+          "resource_id": 831,
+          "text": "Jo log be-dekhe apne Rubb se darte hai , yaqeenan unke liye magfirat hai aur bada ajar"
         }
       ]
     },
@@ -276,6 +336,11 @@
           "id": 406957,
           "resource_id": 85,
           "text": "Whether you keep your words secret or state them openly, He knows the contents of every heart."
+        },
+        {
+          "id": 1549691,
+          "resource_id": 831,
+          "text": "Tum khwah chupke se baat karo ya unchi aawaz se (Allah ke liye yaksa hai) woh to dilon ka haal tak jaanta hai"
         }
       ]
     },
@@ -296,6 +361,11 @@
           "id": 406958,
           "resource_id": 85,
           "text": "How could He who created not know His own creation, when He is the Most Subtle, the All Aware?"
+        },
+        {
+          "id": 1549692,
+          "resource_id": 831,
+          "text": "Kya wahi na jaanega jisne paida kiya hai? Halanke woh baareek-been aur bakhabar hai"
         }
       ]
     },
@@ -316,6 +386,11 @@
           "id": 406959,
           "resource_id": 85,
           "text": "It is He who has made the earth manageable for you––travel its regions; eat His provision- and to Him you will be resurrected."
+        },
+        {
+          "id": 1549693,
+          "resource_id": 831,
+          "text": "Wahi to hai jisne tumhare liye zameen ko taabeh kar rakkha hai , chalo uski chaati par aur khao khuda ka rizq, usi ke huzoor tumhein dobara zinda ho kar jana hai"
         }
       ]
     },
@@ -336,6 +411,11 @@
           "id": 406960,
           "resource_id": 85,
           "text": "Are you sure that He who is in Heaven will not make the earth swallow you up with a violent shudder?"
+        },
+        {
+          "id": 1549694,
+          "resource_id": 831,
+          "text": "Kya tum issey be-khauf ho ke woh jo aasman mein hai tumhein zameen mein dhasa de aur yakayak yeh zameen jhakoley khane lagey (shake/rock violently)"
         }
       ]
     },
@@ -356,6 +436,11 @@
           "id": 406961,
           "resource_id": 85,
           "text": "Are you sure that He who is in Heaven will not send a whirlwind to pelt you with stones? You will come to know what My warning means."
+        },
+        {
+          "id": 1549695,
+          "resource_id": 831,
+          "text": "Kya tum issey be-khauf ho ke wo jo aasman mein hai tum par pathrao karne wali hawa bhej de? Phir tumhein maloom ho jayega ke meri tambeeh (warning) kaisi hoti hai"
         }
       ]
     },
@@ -376,6 +461,11 @@
           "id": 406962,
           "resource_id": 85,
           "text": "Those who went before them also disbelieved- how terrible was My condemnation!"
+        },
+        {
+          "id": 1549696,
+          "resource_id": 831,
+          "text": "Inse pehle guzre huey log jhutla chuke hain phir dekhlo ke meri giraft kaisi sakht thi"
         }
       ]
     },
@@ -396,6 +486,11 @@
           "id": 406963,
           "resource_id": 85,
           "text": "Do they not see the birds above them spreading and closing their wings? It is only the Lord of Mercy who holds them up: He watches over everything."
+        },
+        {
+          "id": 1549697,
+          "resource_id": 831,
+          "text": "Kya yeh log apne upar udney waley parindon ko par phaylaye aur sukedte nahin dekhte? Rehman ke siwa koi nahin jo inhein thamey huey ho. Wahi har cheez ka nigehbaan hai"
         }
       ]
     },
@@ -416,6 +511,11 @@
           "id": 406964,
           "resource_id": 85,
           "text": "What force can help you if the Lord of Mercy does not? The disbelievers are truly deluded."
+        },
+        {
+          "id": 1549698,
+          "resource_id": 831,
+          "text": "Batao, aakhir woh kaunsa lashkar tumhare paas hai jo Rehman ke muqable mein tumhari madad kar sakta hai? Haqeeqat yeh hai ke yeh mukireen dhoke mein padey huey hain"
         }
       ]
     },
@@ -436,6 +536,11 @@
           "id": 406965,
           "resource_id": 85,
           "text": "Who can provide for you if He withholds His provision? Yet they persist in their insolence and their avoidance of the Truth."
+        },
+        {
+          "id": 1549699,
+          "resource_id": 831,
+          "text": "Ya phir batao, kaun hai jo tumhein rizq de sakta hai agar Rehman apna rizq roak ley? Dar-asal yeh log sarkashi aur haqq se gurez par adey huey hai"
         }
       ]
     },
@@ -456,6 +561,11 @@
           "id": 406966,
           "resource_id": 85,
           "text": "Who is better guided: someone who falls on his face, or someone who walks steadily on a straight path?"
+        },
+        {
+          "id": 1549700,
+          "resource_id": 831,
+          "text": "Bhala socho, jo shaks mooh aundhaey (grovelling) chal raha ho woh zyada sahih raah paney wala hai ya woh jo sar uthaye seedha ek hamwar sadak par chal raha ho"
         }
       ]
     },
@@ -476,6 +586,11 @@
           "id": 406967,
           "resource_id": 85,
           "text": "Say [Prophet], ‘It is He who brought you into being, He who endowed you with hearing, sight, and understanding- what small thanks you give!’"
+        },
+        {
+          "id": 1549701,
+          "resource_id": 831,
+          "text": "Inse kaho Allah hi hai jisne tumhein paida kiya, tumko sunney aur dekhne ki taaqatein di aur sochne samajhne waley dil diye, magar tum kam hi shukr ada karte ho"
         }
       ]
     },
@@ -496,6 +611,11 @@
           "id": 406968,
           "resource_id": 85,
           "text": "Say, ‘It is He who scattered you throughout the earth, He to whom you will be gathered.’"
+        },
+        {
+          "id": 1549702,
+          "resource_id": 831,
+          "text": "Insey kaho, Allah hi hai jisne tumhein zameen mein phailaya hai aur usi ki taraf tum sametey jaogey"
         }
       ]
     },
@@ -516,6 +636,11 @@
           "id": 406969,
           "resource_id": 85,
           "text": "They say, ‘If what you say is true, when will this promise be fulfilled?’"
+        },
+        {
+          "id": 1549703,
+          "resource_id": 831,
+          "text": "Yeh kehte hain “Agar tum sacchey ho to batao yeh wada kab poora hoga?”"
         }
       ]
     },
@@ -536,6 +661,11 @@
           "id": 406970,
           "resource_id": 85,
           "text": "Say, ‘God alone has knowledge of this: my only duty is to give clear warning.’"
+        },
+        {
+          "id": 1549704,
+          "resource_id": 831,
+          "text": "Kaho “Iska ilm to Allah ke paas hai, main to bas saaf saaf khabardar kardene wala hoon"
         }
       ]
     },
@@ -556,6 +686,11 @@
           "id": 406971,
           "resource_id": 85,
           "text": "When they see it close at hand, the disbelievers’ faces will be gloomy, and it will be said, ‘This is what you were calling for.’"
+        },
+        {
+          "id": 1549705,
+          "resource_id": 831,
+          "text": "Phir jab yeh us cheez ko kareeb dekh lenge to un sab logon ke chehre bigad jayenge jinhon ne inkar kiya hai, aur us waqt unse kaha jayega ke yahi hai woh cheez jiske liye tum takazey kar rahey (ask for) thay"
         }
       ]
     },
@@ -576,6 +711,11 @@
           "id": 406972,
           "resource_id": 85,
           "text": "Say, ‘Just think- regardless of whether God destroys me and my followers or has mercy on us- who will protect the disbelievers from an agonizing torment?’"
+        },
+        {
+          "id": 1549706,
+          "resource_id": 831,
+          "text": "Insey kaho, kabhi tumne yeh bhi socha ke Allah khwa mujhey aur mere saathiyon ko halaaq karde ya hum par Reham karey, kafiron ko dardnaak azaab se kaun bacha lega"
         }
       ]
     },
@@ -596,6 +736,11 @@
           "id": 406973,
           "resource_id": 85,
           "text": "Say, ‘He is the Lord of Mercy; we believe in Him; we put our trust in Him. You will come to know in time who is in obvious error.’"
+        },
+        {
+          "id": 1549707,
+          "resource_id": 831,
+          "text": "Insey kaho, woh bada Raheem hai, usi par hum imaan laye hain, aur usi par hamara bharosa hai, ankareeb tumhein maloom ho jayega ke sareeh gumrahi (manifest error) mein pada hua kaun hai"
         }
       ]
     },
@@ -616,6 +761,11 @@
           "id": 406974,
           "resource_id": 85,
           "text": "Say, ‘Just think: if all your water were to sink deep into the earth who could give you flowing water in its place?’"
+        },
+        {
+          "id": 1549708,
+          "resource_id": 831,
+          "text": "Inse kaho, kabhi tumne yeh bhi socha ke agar tumhare kuwon (wells) ka pani zameen mein utar jaye to kaun hai jo is pani ki behti hui sotein (flowing water) tumhein nikal kar la dega"
         }
       ]
     }

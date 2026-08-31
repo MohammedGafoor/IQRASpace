@@ -1,5 +1,5 @@
 {
-  "syncedAt": "2026-08-31T05:21:01.756Z",
+  "syncedAt": "2026-08-31T09:57:27.827Z",
   "chapter": {
     "id": 44,
     "revelation_place": "makkah",
@@ -36,6 +36,11 @@
           "id": 406118,
           "resource_id": 85,
           "text": "Ha Mim"
+        },
+        {
+          "id": 1548852,
+          "resource_id": 831,
+          "text": "Haa Meem"
         }
       ]
     },
@@ -56,6 +61,11 @@
           "id": 406119,
           "resource_id": 85,
           "text": "By the Scripture that makes things clear,"
+        },
+        {
+          "id": 1548853,
+          "resource_id": 831,
+          "text": "Kasam hai is kitaab e Mubeen ki"
         }
       ]
     },
@@ -76,6 +86,11 @@
           "id": 406120,
           "resource_id": 85,
           "text": "truly We sent it down on a blessed night––We have always sent warnings––"
+        },
+        {
+          "id": 1548854,
+          "resource_id": 831,
+          "text": "Ke humne isey ek badi khair o barakat wali raat mein nazil kiya hai, kyunke hum logon ko mutanabbeh (warning) karne ka irada rakhte thay"
         }
       ]
     },
@@ -96,6 +111,11 @@
           "id": 406121,
           "resource_id": 85,
           "text": "a night when every matter of wisdom was made distinct"
+        },
+        {
+          "id": 1548855,
+          "resource_id": 831,
+          "text": "Yeh woh raat thi jismein har maamle ka hakeemana faisla"
         }
       ]
     },
@@ -116,6 +136,11 @@
           "id": 406122,
           "resource_id": 85,
           "text": "at Our command––We have always sent messages to man––"
+        },
+        {
+          "id": 1548856,
+          "resource_id": 831,
+          "text": "Hamare hukum se sadir kiya jata hai. Hum ek Rasool bhejne waley thay"
         }
       ]
     },
@@ -136,6 +161,11 @@
           "id": 406123,
           "resource_id": 85,
           "text": "as a mercy [Prophet] from your Lord who sees and knows all,"
+        },
+        {
+          "id": 1548857,
+          "resource_id": 831,
+          "text": "Tere Rubb ki rehmat ke taur par.Yaqeenan wahi sab kuch sunne aur jaanne wala hai"
         }
       ]
     },
@@ -156,6 +186,11 @@
           "id": 406124,
           "resource_id": 85,
           "text": "Lord of the heavens and the earth and everything between––if only you people were firm believers––"
+        },
+        {
+          "id": 1548858,
+          "resource_id": 831,
+          "text": "Aasmano aur zameen ka Rubb aur har us cheez ka Rubb jo Aasman o zameen ke darmiyan hai agar tum log waqaii yakeen rakhne waley ho"
         }
       ]
     },
@@ -176,6 +211,11 @@
           "id": 406125,
           "resource_id": 85,
           "text": "there is no god but Him: He gives life and death––He is your Lord and the Lord of your forefathers––"
+        },
+        {
+          "id": 1548859,
+          "resource_id": 831,
+          "text": "Koi maabood uske siwa nahin hai. Wahi zindagi ata karta hai aur wahi maut deta hai.Tumhara Rubb aur tumhare un aslaaf (forefathers) ka Rubb jo pehle guzar chuke hain"
         }
       ]
     },
@@ -196,6 +236,11 @@
           "id": 406126,
           "resource_id": 85,
           "text": "yet in [their state of] doubt they take nothing seriously."
+        },
+        {
+          "id": 1548860,
+          "resource_id": 831,
+          "text": "(Magar fil-waqeh in logon ko yaqeen nahin hai) balke yeh apne shakk mein paday khel rahey hain"
         }
       ]
     },
@@ -216,6 +261,11 @@
           "id": 406127,
           "resource_id": 85,
           "text": "[Prophet], watch out for the Day when the sky brings forth clouds of smoke for all to see."
+        },
+        {
+          "id": 1548861,
+          "resource_id": 831,
+          "text": "Accha intezar karo us din ka jab aasman sareeh dhuwan (smoke) liye huey aayega"
         }
       ]
     },
@@ -236,6 +286,11 @@
           "id": 406128,
           "resource_id": 85,
           "text": "It will envelop the people. They will cry, ‘This is a terrible torment!"
+        },
+        {
+          "id": 1548862,
+          "resource_id": 831,
+          "text": "Aur woh logon par chaa jayega, yeh hai dardnaak saza"
         }
       ]
     },
@@ -256,6 +311,11 @@
           "id": 406129,
           "resource_id": 85,
           "text": "Lord relieve us from this torment! We believe!’"
+        },
+        {
+          "id": 1548863,
+          "resource_id": 831,
+          "text": "(Ab kehte hain ke) “ parwardigar , humpar se yeh azaab taal de, hum imaan laatey hain”"
         }
       ]
     },
@@ -276,6 +336,11 @@
           "id": 406130,
           "resource_id": 85,
           "text": "How will this [sudden] faith benefit them? When a prophet came to warn them plainly,"
+        },
+        {
+          "id": 1548864,
+          "resource_id": 831,
+          "text": "Inki gaflat kahan dur hoti hai? Inka haal to yeh hai ke in ke paas Rasool e mubeen aa gaya"
         }
       ]
     },
@@ -296,6 +361,11 @@
           "id": 406131,
           "resource_id": 85,
           "text": "they turned their backs on him, saying, ‘He is tutored! He is possessed!’"
+        },
+        {
+          "id": 1548865,
+          "resource_id": 831,
+          "text": "Phir bhi yeh uski taraf multafit na huey aur kaha ke “ yeh to sikhaya padaya bawla hai (well-tutored madman)”"
         }
       ]
     },
@@ -316,6 +386,11 @@
           "id": 406132,
           "resource_id": 85,
           "text": "We shall hold the torment back for a while ––you are sure to return [to Us]––"
+        },
+        {
+          "id": 1548866,
+          "resource_id": 831,
+          "text": "Hum zara azaab hataye detay hain, tum log phir wahi kuch karoge jo pehle kar rahe thay"
         }
       ]
     },
@@ -336,6 +411,11 @@
           "id": 406133,
           "resource_id": 85,
           "text": "and on the Day We seize [them] mightily We shall exact retribution."
+        },
+        {
+          "id": 1548867,
+          "resource_id": 831,
+          "text": "Jis roz hum badi zarb (assault) lagayenge woh din hoga jab hum tumse intiqaam lenge"
         }
       ]
     },
@@ -356,6 +436,11 @@
           "id": 406134,
           "resource_id": 85,
           "text": "We tested the people of Pharaoh before them: a noble messenger was sent to them,"
+        },
+        {
+          "id": 1548868,
+          "resource_id": 831,
+          "text": "Hum insey pehle Firaun ki qaum ko isi aazmaish mein daal chuke hain. Unke paas ek nihayat shareef Rasool aaya"
         }
       ]
     },
@@ -376,6 +461,11 @@
           "id": 406135,
           "resource_id": 85,
           "text": "saying, ‘Hand the servants of God over to me! I am a faithful messenger who has been sent to you."
+        },
+        {
+          "id": 1548869,
+          "resource_id": 831,
+          "text": "Aur usne kaha “Allah ke bandon ko mere hawale karo, main tumhare liye ek amanat-daar Rasool hoon"
         }
       ]
     },
@@ -396,6 +486,11 @@
           "id": 406136,
           "resource_id": 85,
           "text": "Do not consider yourselves to be above God! I come to you with clear authority."
+        },
+        {
+          "id": 1548870,
+          "resource_id": 831,
+          "text": "Allah ke muqable mein sarkashi na karo. Main tumhare saamne (apni maamuriyat ki) sareeh sanad (clear authority) pesh karta hoon"
         }
       ]
     },
@@ -416,6 +511,11 @@
           "id": 406137,
           "resource_id": 85,
           "text": "I seek refuge in my Lord and yours against your insults!"
+        },
+        {
+          "id": 1548871,
+          "resource_id": 831,
+          "text": "Aur main apne Rubb aur tumhare Rubb ki panaah le chuka hoon issey ke tum mujhpar hamla-awar (attack) ho"
         }
       ]
     },
@@ -436,6 +536,11 @@
           "id": 406138,
           "resource_id": 85,
           "text": "If you do not believe me, just let me be.’"
+        },
+        {
+          "id": 1548872,
+          "resource_id": 831,
+          "text": "Agar tum meri baat nahin maante to mujhpar haath daalne se baaz raho”"
         }
       ]
     },
@@ -456,6 +561,11 @@
           "id": 406139,
           "resource_id": 85,
           "text": "[Moses] cried to his Lord, ‘These people are evildoers!’"
+        },
+        {
+          "id": 1548873,
+          "resource_id": 831,
+          "text": "Aakhir e kaar usne apne Rubb ko pukara ke yeh log mujrim hain"
         }
       ]
     },
@@ -476,6 +586,11 @@
           "id": 406140,
           "resource_id": 85,
           "text": "[God replied], ‘Escape in the night with My servants, for you are sure to be pursued."
+        },
+        {
+          "id": 1548874,
+          "resource_id": 831,
+          "text": "(Jawab diya gaya) accha to raat-o-raat mere bandon (servants) ko lekar chal padh. Tum logon ka peecha kiya jayega"
         }
       ]
     },
@@ -496,6 +611,11 @@
           "id": 406141,
           "resource_id": 85,
           "text": "Leave the sea behind you parted and their army will be drowned.’"
+        },
+        {
+          "id": 1548875,
+          "resource_id": 831,
+          "text": "Samandar ko uske haal par khula chodh de.Yeh saara lashkar garq (drown) honay wala hai"
         }
       ]
     },
@@ -516,6 +636,11 @@
           "id": 406142,
           "resource_id": 85,
           "text": "Many a garden and spring they left behind,"
+        },
+        {
+          "id": 1548876,
+          "resource_id": 831,
+          "text": "Kitne hi baag aur chasme"
         }
       ]
     },
@@ -536,6 +661,11 @@
           "id": 406143,
           "resource_id": 85,
           "text": "many a cornfield and noble building,"
+        },
+        {
+          "id": 1548877,
+          "resource_id": 831,
+          "text": "Aur kheit (gardens) aur shaandaar mahal thay jo woh chodh gaye"
         }
       ]
     },
@@ -556,6 +686,11 @@
           "id": 406144,
           "resource_id": 85,
           "text": "many a thing in which they had delighted:"
+        },
+        {
+          "id": 1548878,
+          "resource_id": 831,
+          "text": "Kitne hi aish ke sar-o-samaan, jin mein woh mazey kar rahey thay unke pichey dharay reh gaye"
         }
       ]
     },
@@ -576,6 +711,11 @@
           "id": 406145,
           "resource_id": 85,
           "text": "We gave these to another people to inherit."
+        },
+        {
+          "id": 1548879,
+          "resource_id": 831,
+          "text": "Yeh hua unka anjaam, aur humne dusron ko in cheezon ka waris bana diya"
         }
       ]
     },
@@ -596,6 +736,11 @@
           "id": 406146,
           "resource_id": 85,
           "text": "Neither heavens nor earth shed a tear for them, nor were they given any time."
+        },
+        {
+          "id": 1548880,
+          "resource_id": 831,
+          "text": "Phir na aasman unpar roya na zameen, aur zara si mohalat bhi unko na di gayi"
         }
       ]
     },
@@ -616,6 +761,11 @@
           "id": 406147,
           "resource_id": 85,
           "text": "We saved the Children of Israel from their degrading suffering"
+        },
+        {
+          "id": 1548881,
+          "resource_id": 831,
+          "text": "Is taraah bani Israel ko humne sakht zillat ke azaab"
         }
       ]
     },
@@ -636,6 +786,11 @@
           "id": 406148,
           "resource_id": 85,
           "text": "at the hands of Pharaoh: he was a tyrant who exceeded all bounds."
+        },
+        {
+          "id": 1548882,
+          "resource_id": 831,
+          "text": "Firoun se najaat di jo hadd se guzar janey walon mein fil waqeh badey unchey darje ka aadmi tha"
         }
       ]
     },
@@ -656,6 +811,11 @@
           "id": 406149,
           "resource_id": 85,
           "text": "We chose them knowingly above others:"
+        },
+        {
+          "id": 1548883,
+          "resource_id": 831,
+          "text": "Aur unki halat jaante huye, unko duniya ki dursi qaumon par tarjeeh di"
         }
       ]
     },
@@ -676,6 +836,11 @@
           "id": 406150,
           "resource_id": 85,
           "text": "We gave them revelations in which there was a clear test."
+        },
+        {
+          "id": 1548884,
+          "resource_id": 831,
+          "text": "Aur unhein aisi nishaniya dikhayi jin mein sareeh aazmaish thi"
         }
       ]
     },
@@ -696,6 +861,11 @@
           "id": 406151,
           "resource_id": 85,
           "text": "These people here assert,"
+        },
+        {
+          "id": 1548885,
+          "resource_id": 831,
+          "text": "Yeh log kehte hain"
         }
       ]
     },
@@ -716,6 +886,11 @@
           "id": 406152,
           "resource_id": 85,
           "text": "‘There is nothing beyond our one death: we will not be resurrected."
+        },
+        {
+          "id": 1548886,
+          "resource_id": 831,
+          "text": "“hamari pehli maut ke siwa aur kuch nahin uske baad hum dobara uthaye jaane wale nahin hai"
         }
       ]
     },
@@ -736,6 +911,11 @@
           "id": 406153,
           "resource_id": 85,
           "text": "Bring back our forefathers, if what you say is true.’"
+        },
+        {
+          "id": 1548887,
+          "resource_id": 831,
+          "text": "Agar tum sacchey ho to utha lao hamare baap dada ko”"
         }
       ]
     },
@@ -756,6 +936,11 @@
           "id": 406154,
           "resource_id": 85,
           "text": "Are they better than the people of Tubba and those who flourished before them? We destroyed them all- they were guilty."
+        },
+        {
+          "id": 1548888,
+          "resource_id": 831,
+          "text": "Yeh behtar hai ya tubbah ki qaum aur ussey pehle ke log? Humne unko isi bina par tabah kiya ke woh mujrim ho gaye thay"
         }
       ]
     },
@@ -776,6 +961,11 @@
           "id": 406155,
           "resource_id": 85,
           "text": "We were not playing a pointless game when We created the heavens and earth and everything in between;"
+        },
+        {
+          "id": 1548889,
+          "resource_id": 831,
+          "text": "Yeh Aasman o zameen aur inke darmiyan ki cheezein humne kuch khel ke taur par nahin bana di hai"
         }
       ]
     },
@@ -796,6 +986,11 @@
           "id": 406156,
           "resource_id": 85,
           "text": "We created them for a true purpose, but most people do not comprehend."
+        },
+        {
+          "id": 1548890,
+          "resource_id": 831,
+          "text": "Inko humne bar-haqq paida kiya hai, magar aksar log jaante hain hai"
         }
       ]
     },
@@ -816,6 +1011,11 @@
           "id": 406157,
           "resource_id": 85,
           "text": "The Day of Decision is the time appointed for all;"
+        },
+        {
+          "id": 1548891,
+          "resource_id": 831,
+          "text": "In sabke uthaye janey ke liye the-shuda waqt faisle ka din hai"
         }
       ]
     },
@@ -836,6 +1036,11 @@
           "id": 406158,
           "resource_id": 85,
           "text": "a Day when no friend can take another’s place."
+        },
+        {
+          "id": 1548892,
+          "resource_id": 831,
+          "text": "Woh din jab koi azeez kareeb apne kisi azeez kareeb ke kuch bhi kaam nahin aayega. Aur na kahin se unhein koi madad pahunchegi"
         }
       ]
     },
@@ -856,6 +1061,11 @@
           "id": 406159,
           "resource_id": 85,
           "text": "No one will receive any help except for those to whom God shows mercy: He is the Mighty, the Merciful Lord."
+        },
+        {
+          "id": 1548893,
+          "resource_id": 831,
+          "text": "Siwaye iske ke Allah hi kisi par reham karey, woh zabardast aur Raheem hai"
         }
       ]
     },
@@ -876,6 +1086,11 @@
           "id": 406160,
           "resource_id": 85,
           "text": "The tree of Zaqqum"
+        },
+        {
+          "id": 1548894,
+          "resource_id": 831,
+          "text": "Zakkhum ka darakht (tree)"
         }
       ]
     },
@@ -896,6 +1111,11 @@
           "id": 406161,
           "resource_id": 85,
           "text": "will be food for the sinners:"
+        },
+        {
+          "id": 1548895,
+          "resource_id": 831,
+          "text": "Gunahgaar ka kha-ja (khana /food) hoga"
         }
       ]
     },
@@ -916,6 +1136,11 @@
           "id": 406162,
           "resource_id": 85,
           "text": "[hot] as molten metal, it boils in their bellies"
+        },
+        {
+          "id": 1548896,
+          "resource_id": 831,
+          "text": "Tail (oil) ki tiljhat (dregs) jaisa, pait (bellies) mein is tarah josh khayega"
         }
       ]
     },
@@ -936,6 +1161,11 @@
           "id": 406163,
           "resource_id": 85,
           "text": "like seething water."
+        },
+        {
+          "id": 1548897,
+          "resource_id": 831,
+          "text": "Jaise khaulta (boiling) hua pani josh khata hai"
         }
       ]
     },
@@ -956,6 +1186,11 @@
           "id": 406164,
           "resource_id": 85,
           "text": "‘Take him! Thrust him into the depths of Hell!"
+        },
+        {
+          "id": 1548898,
+          "resource_id": 831,
+          "text": "Pakado isey aur raged-te (dragging) huey le jao isko jahannum ke beechon beech"
         }
       ]
     },
@@ -976,6 +1211,11 @@
           "id": 406165,
           "resource_id": 85,
           "text": "Pour scalding water over his head as punishment!’"
+        },
+        {
+          "id": 1548899,
+          "resource_id": 831,
+          "text": "Aur undhail (pour) do iske sar par khaulte (boiling) paani ka azaab"
         }
       ]
     },
@@ -996,6 +1236,11 @@
           "id": 406166,
           "resource_id": 85,
           "text": "‘Taste this, you powerful, respected man!"
+        },
+        {
+          "id": 1548900,
+          "resource_id": 831,
+          "text": "Chakkh iska maza, bada zabardast izzatdaar aadmi hai tu"
         }
       ]
     },
@@ -1016,6 +1261,11 @@
           "id": 406167,
           "resource_id": 85,
           "text": "This is what you doubted.’"
+        },
+        {
+          "id": 1548901,
+          "resource_id": 831,
+          "text": "Yeh wahi cheez hai jiske aane mein tumlog shakk rakhte thay”"
         }
       ]
     },
@@ -1036,6 +1286,11 @@
           "id": 406168,
           "resource_id": 85,
           "text": "But those mindful of God will be in a safe place"
+        },
+        {
+          "id": 1548902,
+          "resource_id": 831,
+          "text": "Khuda tars log aman ki jagah mein hongey"
         }
       ]
     },
@@ -1056,6 +1311,11 @@
           "id": 406169,
           "resource_id": 85,
           "text": "amid Gardens and springs,"
+        },
+        {
+          "id": 1548903,
+          "resource_id": 831,
+          "text": "Baaghon (gardens) aur chashmo mein"
         }
       ]
     },
@@ -1076,6 +1336,11 @@
           "id": 406170,
           "resource_id": 85,
           "text": "clothed in silk and fine brocade, facing one another:"
+        },
+        {
+          "id": 1548904,
+          "resource_id": 831,
+          "text": "Hareer-o-deeba (silk and brocade) ke libas pehne, aamne saamne baithey honge"
         }
       ]
     },
@@ -1096,6 +1361,11 @@
           "id": 406171,
           "resource_id": 85,
           "text": "so it will be. We shall wed them to maidens with large, dark eyes."
+        },
+        {
+          "id": 1548905,
+          "resource_id": 831,
+          "text": "Yeh hogi inki shaan aur hum gori gori aah-o-chashm auratein unse biyah denge"
         }
       ]
     },
@@ -1116,6 +1386,11 @@
           "id": 406172,
           "resource_id": 85,
           "text": "Secure and contented, they will call for every kind of fruit."
+        },
+        {
+          "id": 1548906,
+          "resource_id": 831,
+          "text": "Wahan woh itminaan se har tarah ki lazeez cheezein talab karenge"
         }
       ]
     },
@@ -1136,6 +1411,11 @@
           "id": 406173,
           "resource_id": 85,
           "text": "After the one death they will taste death no more. God will guard them from the torment of Hell,"
+        },
+        {
+          "id": 1548907,
+          "resource_id": 831,
+          "text": "Wahan maut ka maza woh kabhi na chakhenge . Bas duniya mein jo maut aa chuki so aa chuki aur Allah apne fazal se"
         }
       ]
     },
@@ -1156,6 +1436,11 @@
           "id": 406174,
           "resource_id": 85,
           "text": "a bounty from your Lord. That is the supreme triumph."
+        },
+        {
+          "id": 1548908,
+          "resource_id": 831,
+          "text": "Unko jahannum ke azaab se bacha dega yahi badi kamiyabi hai"
         }
       ]
     },
@@ -1176,6 +1461,11 @@
           "id": 406175,
           "resource_id": 85,
           "text": "We have made this Quran easy to understand- in your own language [Prophet]- so that they may take heed."
+        },
+        {
+          "id": 1548909,
+          "resource_id": 831,
+          "text": "Aey Nabi (s.a.s) humne is kitaab ko tumhari zubaan mein sahal (easy / aasaan) bana diya hai taake yeh log nasihat hasil karein"
         }
       ]
     },
@@ -1196,6 +1486,11 @@
           "id": 406176,
           "resource_id": 85,
           "text": "So wait; the disbelievers too are waiting."
+        },
+        {
+          "id": 1548910,
+          "resource_id": 831,
+          "text": "Ab tum bhi intezar karo, yeh bhi muntazir (intezar kar rahey) hain"
         }
       ]
     }

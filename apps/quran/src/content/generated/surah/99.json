@@ -1,5 +1,5 @@
 {
-  "syncedAt": "2026-08-31T05:21:28.114Z",
+  "syncedAt": "2026-08-31T09:57:54.763Z",
   "chapter": {
     "id": 99,
     "revelation_place": "madinah",
@@ -36,6 +36,11 @@
           "id": 407842,
           "resource_id": 85,
           "text": "When the earth is shaken violently in its [last] quaking,"
+        },
+        {
+          "id": 1550576,
+          "resource_id": 831,
+          "text": "Jab zameen apni puri shiddat kay saath hila daali jayegi"
         }
       ]
     },
@@ -56,6 +61,11 @@
           "id": 407843,
           "resource_id": 85,
           "text": "when the earth throws out its burdens,"
+        },
+        {
+          "id": 1550577,
+          "resource_id": 831,
+          "text": "Aur zameen apne andar kay sarey bojh nikal kar bahar daal degi"
         }
       ]
     },
@@ -76,6 +86,11 @@
           "id": 407844,
           "resource_id": 85,
           "text": "when man cries, ‘What is happening to it?’;"
+        },
+        {
+          "id": 1550578,
+          "resource_id": 831,
+          "text": "Aur Insan kahega ke yeh isko kya ho raha hai"
         }
       ]
     },
@@ -96,6 +111,11 @@
           "id": 407845,
           "resource_id": 85,
           "text": "on that Day, it will tell all"
+        },
+        {
+          "id": 1550579,
+          "resource_id": 831,
+          "text": "Us roz woh apne (upar guzre huey) halaat bayan karegi"
         }
       ]
     },
@@ -116,6 +136,11 @@
           "id": 407846,
           "resource_id": 85,
           "text": "because your Lord will inspire it [to do so]."
+        },
+        {
+          "id": 1550580,
+          "resource_id": 831,
+          "text": "Kyunke tere Rubb ne usey (aisa karne ka) hukm diya hoga"
         }
       ]
     },
@@ -136,6 +161,11 @@
           "id": 407847,
           "resource_id": 85,
           "text": "On that Day, people will come forward in separate groups to be shown their deeds:"
+        },
+        {
+          "id": 1550581,
+          "resource_id": 831,
+          "text": "Us roz log mutafarrik halat mein paltenge taakay unke aamal unko dikhaey jayein"
         }
       ]
     },
@@ -156,6 +186,11 @@
           "id": 407848,
           "resource_id": 85,
           "text": "whoever has done an atom’s-weight of good will see it,"
+        },
+        {
+          "id": 1550582,
+          "resource_id": 831,
+          "text": "Phir jisne zarra barabar neki ki hogi woh usko dekh lega"
         }
       ]
     },
@@ -176,6 +211,11 @@
           "id": 407849,
           "resource_id": 85,
           "text": "but whoever has done an atom’s-weight of evil will see that."
+        },
+        {
+          "id": 1550583,
+          "resource_id": 831,
+          "text": "Aur jisne zarra barabar badi ki hogi woh usko dekh lega"
         }
       ]
     }

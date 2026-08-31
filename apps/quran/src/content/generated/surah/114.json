@@ -1,5 +1,5 @@
 {
-  "syncedAt": "2026-08-31T05:21:34.356Z",
+  "syncedAt": "2026-08-31T09:58:01.002Z",
   "chapter": {
     "id": 114,
     "revelation_place": "makkah",
@@ -36,6 +36,11 @@
           "id": 407934,
           "resource_id": 85,
           "text": "Say, ‘I seek refuge with the Lord of people,"
+        },
+        {
+          "id": 1550668,
+          "resource_id": 831,
+          "text": "Kaho, main panah maangta hoon insano ke Rubb"
         }
       ]
     },
@@ -56,6 +61,11 @@
           "id": 407935,
           "resource_id": 85,
           "text": "the Controller of people,"
+        },
+        {
+          "id": 1550669,
+          "resource_id": 831,
+          "text": "Insano ke badshah"
         }
       ]
     },
@@ -76,6 +86,11 @@
           "id": 407936,
           "resource_id": 85,
           "text": "the God of people,"
+        },
+        {
+          "id": 1550670,
+          "resource_id": 831,
+          "text": "Insano ke hakiki maabood ki"
         }
       ]
     },
@@ -96,6 +111,11 @@
           "id": 407937,
           "resource_id": 85,
           "text": "against the harm of the slinking whisperer––"
+        },
+        {
+          "id": 1550671,
+          "resource_id": 831,
+          "text": "us waswasa dalne wale ke shar se jo baar baar palat kar aata hai"
         }
       ]
     },
@@ -116,6 +136,11 @@
           "id": 407938,
           "resource_id": 85,
           "text": "who whispers into the hearts of people––"
+        },
+        {
+          "id": 1550672,
+          "resource_id": 831,
+          "text": "Jo logon ke dilon mei waswasey daalta hai"
         }
       ]
     },
@@ -136,6 +161,11 @@
           "id": 407939,
           "resource_id": 85,
           "text": "whether they be jinn or people.’"
+        },
+        {
+          "id": 1550673,
+          "resource_id": 831,
+          "text": "khwah woh jinno mein se ho ya Insano mein se"
         }
       ]
     }

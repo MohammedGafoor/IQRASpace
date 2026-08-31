@@ -1,5 +1,5 @@
 {
-  "syncedAt": "2026-08-31T05:21:19.790Z",
+  "syncedAt": "2026-08-31T09:57:46.271Z",
   "chapter": {
     "id": 79,
     "revelation_place": "makkah",
@@ -36,6 +36,11 @@
           "id": 407416,
           "resource_id": 85,
           "text": "By the forceful chargers"
+        },
+        {
+          "id": 1550150,
+          "resource_id": 831,
+          "text": "Kasam hai un (Farishton) ki jo doob kar khinchte hain"
         }
       ]
     },
@@ -56,6 +61,11 @@
           "id": 407417,
           "resource_id": 85,
           "text": "raring to go,"
+        },
+        {
+          "id": 1550151,
+          "resource_id": 831,
+          "text": "aur aahistagi se (gently) nikaal le jataey hain"
         }
       ]
     },
@@ -76,6 +86,11 @@
           "id": 407418,
           "resource_id": 85,
           "text": "sweeping ahead at full stretch,"
+        },
+        {
+          "id": 1550152,
+          "resource_id": 831,
+          "text": "Aur (un farishton ki jo qayinaat mein) tezi se tairtey phirtay hain"
         }
       ]
     },
@@ -96,6 +111,11 @@
           "id": 407419,
           "resource_id": 85,
           "text": "overtaking swiftly"
+        },
+        {
+          "id": 1550153,
+          "resource_id": 831,
+          "text": "phir (hukum baja laane mein) sabqat karte hain"
         }
       ]
     },
@@ -116,6 +136,11 @@
           "id": 407420,
           "resource_id": 85,
           "text": "to bring the matter to an end,"
+        },
+        {
+          "id": 1550154,
+          "resource_id": 831,
+          "text": "phir (ehkam-ilahi ke mutabiq) maamlaat ka intizam chalate hain"
         }
       ]
     },
@@ -136,6 +161,11 @@
           "id": 407421,
           "resource_id": 85,
           "text": "on the Day when the blast reverberates"
+        },
+        {
+          "id": 1550155,
+          "resource_id": 831,
+          "text": "Jis roz hila marey ga zalzalay ka jhatka"
         }
       ]
     },
@@ -156,6 +186,11 @@
           "id": 407422,
           "resource_id": 85,
           "text": "and the second blast follows,"
+        },
+        {
+          "id": 1550156,
+          "resource_id": 831,
+          "text": "Aur uske pichey ek aur jhatka padega"
         }
       ]
     },
@@ -176,6 +211,11 @@
           "id": 407423,
           "resource_id": 85,
           "text": "hearts will tremble"
+        },
+        {
+          "id": 1550157,
+          "resource_id": 831,
+          "text": "Kuch dil hongey jo us roz khauf se kaanp rahey hongey"
         }
       ]
     },
@@ -196,6 +236,11 @@
           "id": 407424,
           "resource_id": 85,
           "text": "and eyes will be downcast."
+        },
+        {
+          "id": 1550158,
+          "resource_id": 831,
+          "text": "Nigahein unki sehmi(downcast) hui hogi"
         }
       ]
     },
@@ -216,6 +261,11 @@
           "id": 407425,
           "resource_id": 85,
           "text": "They say, ‘What? shall we be brought back to life,"
+        },
+        {
+          "id": 1550159,
+          "resource_id": 831,
+          "text": "Yeh log kehte hain “Kya waqai hum palta kar phir wapas laaye jayenge?”"
         }
       ]
     },
@@ -236,6 +286,11 @@
           "id": 407426,
           "resource_id": 85,
           "text": "after we have turned into decayed bones?’ and they say,"
+        },
+        {
+          "id": 1550160,
+          "resource_id": 831,
+          "text": "“Kya jab hum khokli boseeda (hollow and rotten) haddiyan ban chuke hongey?”"
         }
       ]
     },
@@ -256,6 +311,11 @@
           "id": 407427,
           "resource_id": 85,
           "text": "‘Such a return is impossible!’"
+        },
+        {
+          "id": 1550161,
+          "resource_id": 831,
+          "text": "Kehne lagey “yeh wapsi to phir badey ghatey(nuksan) ki hogi”"
         }
       ]
     },
@@ -276,6 +336,11 @@
           "id": 407428,
           "resource_id": 85,
           "text": "But all it will take is a single blast,"
+        },
+        {
+          "id": 1550162,
+          "resource_id": 831,
+          "text": "Halaanke yeh bas itna kaam hai ke ek zoar ki daant padegi"
         }
       ]
     },
@@ -296,6 +361,11 @@
           "id": 407429,
           "resource_id": 85,
           "text": "and they will be back above ground."
+        },
+        {
+          "id": 1550163,
+          "resource_id": 831,
+          "text": "Aur yakayk yeh khule maidan mein maujood hongey"
         }
       ]
     },
@@ -316,6 +386,11 @@
           "id": 407430,
           "resource_id": 85,
           "text": "Have you [Prophet] heard the story of Moses?"
+        },
+        {
+          "id": 1550164,
+          "resource_id": 831,
+          "text": "Kya tumhein Moosa ke qissey ki khabar pahunchi hai"
         }
       ]
     },
@@ -336,6 +411,11 @@
           "id": 407431,
           "resource_id": 85,
           "text": "His Lord called out to him in the sacred valley of Tuwa:"
+        },
+        {
+          "id": 1550165,
+          "resource_id": 831,
+          "text": "Jab uske Rubb ne usey Tuwa ke muqaddas wadi(valley) mein pukara tha"
         }
       ]
     },
@@ -356,6 +436,11 @@
           "id": 407432,
           "resource_id": 85,
           "text": "‘Go to Pharaoh, for he has exceeded all bounds,"
+        },
+        {
+          "id": 1550166,
+          "resource_id": 831,
+          "text": "Ke Firaun ke paas ja, woh sarkash ho gaya hai"
         }
       ]
     },
@@ -376,6 +461,11 @@
           "id": 407433,
           "resource_id": 85,
           "text": "and ask him, “Do you want to purify yourself [of sin]?"
+        },
+        {
+          "id": 1550167,
+          "resource_id": 831,
+          "text": "Aur ussey keh, kya tu iske liye tayyar hai ke pakeezgi ikhtiyar karey"
         }
       ]
     },
@@ -396,6 +486,11 @@
           "id": 407434,
           "resource_id": 85,
           "text": "Do you want me to guide you to your Lord, so that you may hold Him in awe?” ’"
+        },
+        {
+          "id": 1550168,
+          "resource_id": 831,
+          "text": "Aur mai terey Rubb ki taraf teri rehnumai karoon to (uska) khauf terey andar paida ho?”"
         }
       ]
     },
@@ -416,6 +511,11 @@
           "id": 407435,
           "resource_id": 85,
           "text": "Moses showed him the great sign,"
+        },
+        {
+          "id": 1550169,
+          "resource_id": 831,
+          "text": "Phir Moosa ne (Firaun ke paas ja kar) usko badi nishani dikhai"
         }
       ]
     },
@@ -436,6 +536,11 @@
           "id": 407436,
           "resource_id": 85,
           "text": "but he denied it and refused [the faith]."
+        },
+        {
+          "id": 1550170,
+          "resource_id": 831,
+          "text": "Magar usne jhutla diya aur na mana"
         }
       ]
     },
@@ -456,6 +561,11 @@
           "id": 407437,
           "resource_id": 85,
           "text": "He turned away and hastily"
+        },
+        {
+          "id": 1550171,
+          "resource_id": 831,
+          "text": "Phir chaal baaziyan karne ke liye palta"
         }
       ]
     },
@@ -476,6 +586,11 @@
           "id": 407438,
           "resource_id": 85,
           "text": "gathered his people, proclaiming,"
+        },
+        {
+          "id": 1550172,
+          "resource_id": 831,
+          "text": "Aur logon ko jama karke usne pukaar kar kaha"
         }
       ]
     },
@@ -496,6 +611,11 @@
           "id": 407439,
           "resource_id": 85,
           "text": "‘I am your supreme lord,’"
+        },
+        {
+          "id": 1550173,
+          "resource_id": 831,
+          "text": "“Main tumhara sabse bada Rubb hoon”"
         }
       ]
     },
@@ -516,6 +636,11 @@
           "id": 407440,
           "resource_id": 85,
           "text": "so God condemned him to punishment in the life to come as well as in this life:"
+        },
+        {
+          "id": 1550174,
+          "resource_id": 831,
+          "text": "Aakhir-e-kaar Allah ne usey aakhirat aur duniya ke azaab mei pakad liya"
         }
       ]
     },
@@ -536,6 +661,11 @@
           "id": 407441,
           "resource_id": 85,
           "text": "there truly is a lesson in this for anyone who stands in awe of God."
+        },
+        {
+          "id": 1550175,
+          "resource_id": 831,
+          "text": "Dar haqeeqat is mein badi ibrat hai har us shaks ke liye jo darey"
         }
       ]
     },
@@ -556,6 +686,11 @@
           "id": 407442,
           "resource_id": 85,
           "text": "Which is harder to create: you people or the sky that He built,"
+        },
+        {
+          "id": 1550176,
+          "resource_id": 831,
+          "text": "Kya tum logon ki takhleeq(paidaish) zyada sakht kaam hai ya aasmaan ki? Allah ne usko banaya"
         }
       ]
     },
@@ -576,6 +711,11 @@
           "id": 407443,
           "resource_id": 85,
           "text": "raising it high and perfecting it,"
+        },
+        {
+          "id": 1550177,
+          "resource_id": 831,
+          "text": "Uski chhat(ceiling) khoob unchi uthayi phir uska tawazun qayam kiya(proportioned it)"
         }
       ]
     },
@@ -596,6 +736,11 @@
           "id": 407444,
           "resource_id": 85,
           "text": "giving darkness to its night and bringing out its morning brightness,"
+        },
+        {
+          "id": 1550178,
+          "resource_id": 831,
+          "text": "Aur uski raat dhaanki aur uska din nikala"
         }
       ]
     },
@@ -616,6 +761,11 @@
           "id": 407445,
           "resource_id": 85,
           "text": "and the earth, too, He spread out,"
+        },
+        {
+          "id": 1550179,
+          "resource_id": 831,
+          "text": "Iske baad zameen ko usne bichaya"
         }
       ]
     },
@@ -636,6 +786,11 @@
           "id": 407446,
           "resource_id": 85,
           "text": "bringing waters and pastures out of it,"
+        },
+        {
+          "id": 1550180,
+          "resource_id": 831,
+          "text": "Uske andar se uska paani aur chara nikala"
         }
       ]
     },
@@ -656,6 +811,11 @@
           "id": 407447,
           "resource_id": 85,
           "text": "and setting firm mountains [in it]"
+        },
+        {
+          "id": 1550181,
+          "resource_id": 831,
+          "text": "Aur pahad usmein gaadh diye"
         }
       ]
     },
@@ -676,6 +836,11 @@
           "id": 407448,
           "resource_id": 85,
           "text": "for you and your animals to enjoy?"
+        },
+        {
+          "id": 1550182,
+          "resource_id": 831,
+          "text": "Saaman-e-zeist(provision) ke taur par tumharay liye aur tumharey maweshion ke liye"
         }
       ]
     },
@@ -696,6 +861,11 @@
           "id": 407449,
           "resource_id": 85,
           "text": "When the great overwhelming event arrives"
+        },
+        {
+          "id": 1550183,
+          "resource_id": 831,
+          "text": "Phir jab woh hungama-e-azeem barpa hoga"
         }
       ]
     },
@@ -716,6 +886,11 @@
           "id": 407450,
           "resource_id": 85,
           "text": "on the Day that man remembers what he has done"
+        },
+        {
+          "id": 1550184,
+          "resource_id": 831,
+          "text": "Jis roz Insan apna sab kiya dhara yaad karega"
         }
       ]
     },
@@ -736,6 +911,11 @@
           "id": 407451,
           "resource_id": 85,
           "text": "and Hell is there for all to see,"
+        },
+        {
+          "id": 1550185,
+          "resource_id": 831,
+          "text": "Aur har dekhne wale ke samney dozak khol kar rakh di jayegi"
         }
       ]
     },
@@ -756,6 +936,11 @@
           "id": 407452,
           "resource_id": 85,
           "text": "for anyone who has transgressed"
+        },
+        {
+          "id": 1550186,
+          "resource_id": 831,
+          "text": "To jisne sarkashi(transgress) ki thi"
         }
       ]
     },
@@ -776,6 +961,11 @@
           "id": 407453,
           "resource_id": 85,
           "text": "and preferred the present life"
+        },
+        {
+          "id": 1550187,
+          "resource_id": 831,
+          "text": "Aur dunya ki zindagi ko tarjeeh di thi"
         }
       ]
     },
@@ -796,6 +986,11 @@
           "id": 407454,
           "resource_id": 85,
           "text": "Hell will be home;"
+        },
+        {
+          "id": 1550188,
+          "resource_id": 831,
+          "text": "dozakh hi uska thikana hogi"
         }
       ]
     },
@@ -816,6 +1011,11 @@
           "id": 407455,
           "resource_id": 85,
           "text": "for anyone who feared the meeting with his Lord and restrained himself from base desires,"
+        },
+        {
+          "id": 1550189,
+          "resource_id": 831,
+          "text": "Aur jisne apne Rubb ke samney khade honay ka khauf kiya tha aur nafs ko buri khwaishaat se baaz rakha tha"
         }
       ]
     },
@@ -836,6 +1036,11 @@
           "id": 407456,
           "resource_id": 85,
           "text": "Paradise will be home."
+        },
+        {
+          "id": 1550190,
+          "resource_id": 831,
+          "text": "Jannat uska thikana hogi"
         }
       ]
     },
@@ -856,6 +1061,11 @@
           "id": 407457,
           "resource_id": 85,
           "text": "They ask you [Prophet] about the Hour,"
+        },
+        {
+          "id": 1550191,
+          "resource_id": 831,
+          "text": "Yeh log tumse puchte hain ke aakhir woh ghadi kab aakar thehre gi"
         }
       ]
     },
@@ -876,6 +1086,11 @@
           "id": 407458,
           "resource_id": 85,
           "text": "saying, ‘When will it arrive?’, but how can you tell [them that]?"
+        },
+        {
+          "id": 1550192,
+          "resource_id": 831,
+          "text": "Tumhara kya kaam ke us ka waqt batao"
         }
       ]
     },
@@ -896,6 +1111,11 @@
           "id": 407459,
           "resource_id": 85,
           "text": "Its time is known only to your Lord;"
+        },
+        {
+          "id": 1550193,
+          "resource_id": 831,
+          "text": "Us ka ilm to Allah par khatm hai"
         }
       ]
     },
@@ -916,6 +1136,11 @@
           "id": 407460,
           "resource_id": 85,
           "text": "you are only sent to warn those who fear it."
+        },
+        {
+          "id": 1550194,
+          "resource_id": 831,
+          "text": "Tum sirf khabardar karne waley ho har us shaks ko jo uska khauff karey"
         }
       ]
     },
@@ -936,6 +1161,11 @@
           "id": 407461,
           "resource_id": 85,
           "text": "On the Day they see it, it will seem they lingered [in this life] an evening [at most,] or its morning."
+        },
+        {
+          "id": 1550195,
+          "resource_id": 831,
+          "text": "Jis roz yeh log usey dekh lengey to inhein yun mehsoos hoga ke (yeh duniya mein ya halat-e-mout mei) bas ek din ke pichle pehar ya aglay pehar tak thehrey hai"
         }
       ]
     }

@@ -1,5 +1,5 @@
 {
-  "syncedAt": "2026-08-31T05:21:12.292Z",
+  "syncedAt": "2026-08-31T09:57:38.669Z",
   "chapter": {
     "id": 64,
     "revelation_place": "madinah",
@@ -36,6 +36,11 @@
           "id": 406903,
           "resource_id": 85,
           "text": "Everything that is in the heavens and earth glorifies God; all control and all praise belong to Him; He has power over everything."
+        },
+        {
+          "id": 1549637,
+          "resource_id": 831,
+          "text": "Allah ki tasbeeh kar rahi hai har woh cheez jo aasmano mein hai aur har woh cheez jo zameen mein hai usi ki baadshahi hai aur usi ke liye tareef hai aur woh har cheez par qadir hai"
         }
       ]
     },
@@ -56,6 +61,11 @@
           "id": 406904,
           "resource_id": 85,
           "text": "It is He who created you, yet some of you disbelieve and some believe: God sees everything you do."
+        },
+        {
+          "id": 1549638,
+          "resource_id": 831,
+          "text": "Wahi hai jisne tumko paida kiya, phir tum mein se koi kafir hai aur koi momin. Aur Allah woh sab kuch dekh raha hai jo tum karte ho"
         }
       ]
     },
@@ -76,6 +86,11 @@
           "id": 406905,
           "resource_id": 85,
           "text": "He created the heavens and earth for a true purpose; He formed you and made your forms good: you will all return to Him."
+        },
+        {
+          "id": 1549639,
+          "resource_id": 831,
+          "text": "Usne zameen aur aasmano ko barhaqq paida kiya hai, aur tumhari surat banayi aur badi umdah (excellent) banayi hai, aur usi ki taraf aakhir-e-kaar tumhein palatna hai"
         }
       ]
     },
@@ -96,6 +111,11 @@
           "id": 406906,
           "resource_id": 85,
           "text": "He knows what is in the heavens and earth; He knows what you conceal and what you reveal; God knows very well the secrets of every heart."
+        },
+        {
+          "id": 1549640,
+          "resource_id": 831,
+          "text": "Zameen aur aasmano ki har cheez ka usey ilm hai jo kuch tum chupatey ho aur jo kuch tum zaahir karte ho sab us ko maloom hai. Aur woh dilon ka haal tak jaanta hai"
         }
       ]
     },
@@ -116,6 +136,11 @@
           "id": 406907,
           "resource_id": 85,
           "text": "[Disbelievers], have you not heard about those who disbelieved before you? They tasted the evil consequences of their conduct, and a painful torment awaits them."
+        },
+        {
+          "id": 1549641,
+          "resource_id": 831,
+          "text": "kya tumhein un logon ki koi khabar nahi pahunchi jinhon ne issey pehle kufar kiya aur phir apni shamat-e-aamaal (evil consequence) ka maza chakkh liya? aur aagey unke liye ek dardnaak azaab hai"
         }
       ]
     },
@@ -136,6 +161,11 @@
           "id": 406908,
           "resource_id": 85,
           "text": "That is because their messengers came to them with clear signs, yet they said, ‘Should we take guidance from mere mortals?’, rejected the message, and turned away. But God had no need for them: He is all sufficient, worthy of all praise."
+        },
+        {
+          "id": 1549642,
+          "resource_id": 831,
+          "text": "Is anjaam ke mustahiq woh is liye huey ke unke paas unke Rasool khuli khuli daleelein (clear signs) aur nishaniyan lekar aate rahey, magar unhon ne kaha\" kya Insan humein hadayat deinge ?\" Is tarah unhon ne maanne se inkaar kardiya aur mooh pheir liya. Tab Allah bhi unsey be-parwa ho gaya aur Allah to hai hi be niyaz aur apni zaat mein aap Mahmood (Praiseworthy)"
         }
       ]
     },
@@ -156,6 +186,11 @@
           "id": 406909,
           "resource_id": 85,
           "text": "The disbelievers claim they will not be raised from the dead. Say [Prophet], ‘Yes indeed! I swear by my Lord! You will be raised and then you will be informed about everything you have done: an easy matter for God.’"
+        },
+        {
+          "id": 1549643,
+          "resource_id": 831,
+          "text": "Munkireen ne badey dawey se kaha hai ke woh marne ke baad hargiz dobara na uthaye jayenge. Insey kaho\" nahin, mere Rubb ki kasam tum zaroor uthaye jaogey, phir zaroor tumhein bataya jayega ke tumne (duniya mein) kya kuch kiya hai aur aisa karna Allah ke liye bahut aasaan hai"
         }
       ]
     },
@@ -176,6 +211,11 @@
           "id": 406910,
           "resource_id": 85,
           "text": "So believe in God, in His Messenger, and in the light We have sent down: God is fully aware of what you do."
+        },
+        {
+          "id": 1549644,
+          "resource_id": 831,
+          "text": "Pas iman lao Allah par, aur uske Rasool par, aur us roshni par jo humne nazil ki hai. Jo kuch tum karte ho Allah usse bakhabar hai"
         }
       ]
     },
@@ -196,6 +236,11 @@
           "id": 406911,
           "resource_id": 85,
           "text": "When He gathers you for the Day of Gathering, the Day of mutual neglect, He will cancel the sins of those who believed in Him and acted righteously: He will admit them into Gardens graced with flowing streams, there to remain for ever- the supreme triumph."
+        },
+        {
+          "id": 1549645,
+          "resource_id": 831,
+          "text": "(Iska pata tumhein us roz chal jayega ) jab ijtima (will assemble you )ke din woh tum sabko ikattha karega. Woh din hoga ek dusre ke muqable mein logon ki haar jeet ka. Jo Allah par iman laya hai aur neik amal karta hai, Allah uske gunah jhaad dega aur usey aisi jannaton mein daakhil karega jinke nichey nehrein behti hongi. Yeh log hamesha hamesha inmein rahenge. Yahi badi kamiyabi hai"
         }
       ]
     },
@@ -216,6 +261,11 @@
           "id": 406912,
           "resource_id": 85,
           "text": "But those who disbelieved and rejected Our signs will be the inhabitants of the Fire, there to remain- a miserable destination."
+        },
+        {
+          "id": 1549646,
+          "resource_id": 831,
+          "text": "Aur jin logon ne kufr kiya hai aur hamari aayaat ko jhutlaya hai woh dozakh ke bashindey(inmates ) honge, jismein woh hamesha rahenge. Aur woh badhtareen thikana hai"
         }
       ]
     },
@@ -236,6 +286,11 @@
           "id": 406913,
           "resource_id": 85,
           "text": "Misfortunes can only happen with God’s permission––He will guide the heart of anyone who believes in Him: God knows all things––"
+        },
+        {
+          "id": 1549647,
+          "resource_id": 831,
+          "text": "Koi museebat kabhi nahi aati magar Allah ke izan(Allah’s leave) hi se aati hai. Jo shakhs Allah par iman rakhta ho Allah uske dil ko hidayat bakshta hai. Aur Allah ko har cheez ka ilm hai"
         }
       ]
     },
@@ -256,6 +311,11 @@
           "id": 406914,
           "resource_id": 85,
           "text": "so obey God and the Messenger. If you turn away, remember that Our Messenger’s duty is only to make plain his message."
+        },
+        {
+          "id": 1549648,
+          "resource_id": 831,
+          "text": "Allah ki itaat karo aur Rasool ki itaat karo lekin agar tum itaat se mooh moadtey ho to hamarey Rasool par saaf saaf haqq pahuncha dene ke siwa koi zimmedari nahin hai"
         }
       ]
     },
@@ -276,6 +336,11 @@
           "id": 406915,
           "resource_id": 85,
           "text": "God! There is no god but Him, so let the faithful put their trust in Him."
+        },
+        {
+          "id": 1549649,
+          "resource_id": 831,
+          "text": "Allah woh hai jiske siwa koi khuda nahin, lihaza iman laney walon ko Allah hi par bharosa rakhna chahiye"
         }
       ]
     },
@@ -296,6 +361,11 @@
           "id": 406916,
           "resource_id": 85,
           "text": "Believers, even among your spouses and your children you have some enemies- beware of them- but if you overlook their offences, forgive them, pardon them, then God is all forgiving, all merciful."
+        },
+        {
+          "id": 1549650,
+          "resource_id": 831,
+          "text": "Aey logon jo iman laye ho, tumhari biwiyon aur tumhari aulad mein se baaz tumhare dushman hain, Inse hoshiyar raho. Aur agar tum Affu-o-darguzar(forgive and overlook) se kaam lo aur maaf kardo to Allah gafoor-o-Raheem hai"
         }
       ]
     },
@@ -316,6 +386,11 @@
           "id": 406917,
           "resource_id": 85,
           "text": "Your wealth and your children are only a test for you. There is great reward with God:"
+        },
+        {
+          "id": 1549651,
+          "resource_id": 831,
+          "text": "Tumhare maal aur tumhari aulad to ek aazmaish hai, aur Allah hi hai jiske paas bada ajar hai"
         }
       ]
     },
@@ -336,6 +411,11 @@
           "id": 406918,
           "resource_id": 85,
           "text": "be mindful of God as much as you can; hear and obey; be charitable- it is for your own good. Those who are saved from their own meanness will be the prosperous ones:"
+        },
+        {
+          "id": 1549652,
+          "resource_id": 831,
+          "text": "lihaza jahan tak tumhare bas mein ho Allah se darte raho, aur suno aur itaat karo, aur apne maal kharch karo, yeh tumhare hi liye behtar hai. Jo apne dil ki tanggi se mehfooz reh gaye bas wahi falaah paney waley hain"
         }
       ]
     },
@@ -356,6 +436,11 @@
           "id": 406919,
           "resource_id": 85,
           "text": "if you make a generous loan to God He will multiply it for you and forgive you. God is ever thankful and forbearing;"
+        },
+        {
+          "id": 1549653,
+          "resource_id": 831,
+          "text": "Agar tum Allah ko qarz-e-hasan do to woh tumhein kai guna (several fold) badha kar dega aur tumhare kasooron se dar guzar farmayega. Allah bada qadardaan aur burdbar (Most Forbearing) hai"
         }
       ]
     },
@@ -376,6 +461,11 @@
           "id": 406920,
           "resource_id": 85,
           "text": "He knows the unseen, as well as the seen; He is the Almighty, the Wise."
+        },
+        {
+          "id": 1549654,
+          "resource_id": 831,
+          "text": "Haazir aur gayab har cheez ko jaanta hai, zabardast (mighty) aur daana(Most Wise) hai"
         }
       ]
     }

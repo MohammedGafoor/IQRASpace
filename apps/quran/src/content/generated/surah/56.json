@@ -1,5 +1,5 @@
 {
-  "syncedAt": "2026-08-31T05:21:08.827Z",
+  "syncedAt": "2026-08-31T09:57:35.155Z",
   "chapter": {
     "id": 56,
     "revelation_place": "makkah",
@@ -36,6 +36,11 @@
           "id": 406683,
           "resource_id": 85,
           "text": "When that which is coming arrives,"
+        },
+        {
+          "id": 1549417,
+          "resource_id": 831,
+          "text": "Jab woh honay wala waqia pesh aa jayega"
         }
       ]
     },
@@ -56,6 +61,11 @@
           "id": 406684,
           "resource_id": 85,
           "text": "no one will be able to deny it has come,"
+        },
+        {
+          "id": 1549418,
+          "resource_id": 831,
+          "text": "To koi uske waquh(occurrence) ko jhutlane wala na hoga"
         }
       ]
     },
@@ -76,6 +86,11 @@
           "id": 406685,
           "resource_id": 85,
           "text": "bringing low and raising high."
+        },
+        {
+          "id": 1549419,
+          "resource_id": 831,
+          "text": "Woh tah-o-bala (pasth aur buland) kardene wali aafat hogi"
         }
       ]
     },
@@ -96,6 +111,11 @@
           "id": 406686,
           "resource_id": 85,
           "text": "When the earth is shaken violently"
+        },
+        {
+          "id": 1549420,
+          "resource_id": 831,
+          "text": "Zameen us waqt ek baar hi hila daali jayegi"
         }
       ]
     },
@@ -116,6 +136,11 @@
           "id": 406687,
           "resource_id": 85,
           "text": "and the mountains are ground to powder"
+        },
+        {
+          "id": 1549421,
+          "resource_id": 831,
+          "text": "Aur pahad is tarah reza reza kardiye jayenge"
         }
       ]
     },
@@ -136,6 +161,11 @@
           "id": 406688,
           "resource_id": 85,
           "text": "and turn to scattered dust,"
+        },
+        {
+          "id": 1549422,
+          "resource_id": 831,
+          "text": "Ke paraganda (scattered) gubar (dust) ban kar reh jayenge"
         }
       ]
     },
@@ -156,6 +186,11 @@
           "id": 406689,
           "resource_id": 85,
           "text": "then you will be sorted into three classes."
+        },
+        {
+          "id": 1549423,
+          "resource_id": 831,
+          "text": "Tum log us waqt teen girohon (jamaat) mein taqseem ho jaogey"
         }
       ]
     },
@@ -176,6 +211,11 @@
           "id": 406690,
           "resource_id": 85,
           "text": "Those on the Right––what people they are!"
+        },
+        {
+          "id": 1549424,
+          "resource_id": 831,
+          "text": "Dayein bazu waley, so dayein bazu walon (ke khush-naseebi ) ka kya kehna"
         }
       ]
     },
@@ -196,6 +236,11 @@
           "id": 406691,
           "resource_id": 85,
           "text": "Those on the Left––what people they are!"
+        },
+        {
+          "id": 1549425,
+          "resource_id": 831,
+          "text": "Aur bayein bazu waley, to bayein bazu walon (ki badnasibi ka) kya thikana"
         }
       ]
     },
@@ -216,6 +261,11 @@
           "id": 406692,
           "resource_id": 85,
           "text": "And those in front––ahead indeed!"
+        },
+        {
+          "id": 1549426,
+          "resource_id": 831,
+          "text": "Aur aagey waley to phir aagey waley hi hain"
         }
       ]
     },
@@ -236,6 +286,11 @@
           "id": 406693,
           "resource_id": 85,
           "text": "For these will be the ones brought nearest to God"
+        },
+        {
+          "id": 1549427,
+          "resource_id": 831,
+          "text": "Wahi to muqarrab (nearest to Allah) log hain"
         }
       ]
     },
@@ -256,6 +311,11 @@
           "id": 406694,
           "resource_id": 85,
           "text": "in Gardens of Bliss:"
+        },
+        {
+          "id": 1549428,
+          "resource_id": 831,
+          "text": "Niyamat bhari jannaton mein rahengey"
         }
       ]
     },
@@ -276,6 +336,11 @@
           "id": 406695,
           "resource_id": 85,
           "text": "many from the past"
+        },
+        {
+          "id": 1549429,
+          "resource_id": 831,
+          "text": "Aglon mein se bahut hongey"
         }
       ]
     },
@@ -296,6 +361,11 @@
           "id": 406696,
           "resource_id": 85,
           "text": "and a few from later generations."
+        },
+        {
+          "id": 1549430,
+          "resource_id": 831,
+          "text": "Aur pichlon mein se kam"
         }
       ]
     },
@@ -316,6 +386,11 @@
           "id": 406697,
           "resource_id": 85,
           "text": "On couches of well-woven cloth"
+        },
+        {
+          "id": 1549431,
+          "resource_id": 831,
+          "text": "Murassasa takhaton par (On thrones decorated)"
         }
       ]
     },
@@ -336,6 +411,11 @@
           "id": 406698,
           "resource_id": 85,
           "text": "they will sit facing each other;"
+        },
+        {
+          "id": 1549432,
+          "resource_id": 831,
+          "text": "Takiye lagaye aamne saamne baithengey"
         }
       ]
     },
@@ -356,6 +436,11 @@
           "id": 406699,
           "resource_id": 85,
           "text": "everlasting youths will go round among them"
+        },
+        {
+          "id": 1549433,
+          "resource_id": 831,
+          "text": "Unki majlison mein abadi ladke sharab-e-chashma-e jaari se"
         }
       ]
     },
@@ -376,6 +461,11 @@
           "id": 406700,
           "resource_id": 85,
           "text": "with glasses, flagons, and cups of a pure drink"
+        },
+        {
+          "id": 1549434,
+          "resource_id": 831,
+          "text": "Labrez pyale aur kantar (jugs) aur saagar liye daudte phirte hongey"
         }
       ]
     },
@@ -396,6 +486,11 @@
           "id": 406701,
           "resource_id": 85,
           "text": "that causes no headache or intoxication;"
+        },
+        {
+          "id": 1549435,
+          "resource_id": 831,
+          "text": "Jisey pee kar na unka sar chakrayega na unki aqal mein fatur (drunkenness) aayega"
         }
       ]
     },
@@ -416,6 +511,11 @@
           "id": 406702,
           "resource_id": 85,
           "text": "[there will be] any fruit they choose;"
+        },
+        {
+          "id": 1549436,
+          "resource_id": 831,
+          "text": "Aur woh unke saamne tarah tarah ke lazeez phal (fruits) pesh karengey jisey chahe chun le"
         }
       ]
     },
@@ -436,6 +536,11 @@
           "id": 406703,
           "resource_id": 85,
           "text": "the meat of any bird they like;"
+        },
+        {
+          "id": 1549437,
+          "resource_id": 831,
+          "text": "Aur parindon ke gosht pesh karenge ke jis parinde ka chahein istimal karein"
         }
       ]
     },
@@ -456,6 +561,11 @@
           "id": 406704,
           "resource_id": 85,
           "text": "and beautiful companions"
+        },
+        {
+          "id": 1549438,
+          "resource_id": 831,
+          "text": "Aur unke liye khubsurat aankhon wali hoorein hongi"
         }
       ]
     },
@@ -476,6 +586,11 @@
           "id": 406705,
           "resource_id": 85,
           "text": "like hidden pearls:"
+        },
+        {
+          "id": 1549439,
+          "resource_id": 831,
+          "text": "Aisi haseen jaise chupa kar rakkhey huey moti"
         }
       ]
     },
@@ -496,6 +611,11 @@
           "id": 406706,
           "resource_id": 85,
           "text": "a reward for what they used to do."
+        },
+        {
+          "id": 1549440,
+          "resource_id": 831,
+          "text": "Yeh sab kuch un aamal ki jaza ke taur par unhein milega jo woh duniya mein karte rahe thay"
         }
       ]
     },
@@ -516,6 +636,11 @@
           "id": 406707,
           "resource_id": 85,
           "text": "They will hear no idle or sinful talk there,"
+        },
+        {
+          "id": 1549441,
+          "resource_id": 831,
+          "text": "Wahan woh koi behuda kalaam ya gunah ki baat na sunengey"
         }
       ]
     },
@@ -536,6 +661,11 @@
           "id": 406708,
           "resource_id": 85,
           "text": "only clean and wholesome speech."
+        },
+        {
+          "id": 1549442,
+          "resource_id": 831,
+          "text": "Jo baat bhi hogi theek theek hogi"
         }
       ]
     },
@@ -556,6 +686,11 @@
           "id": 406709,
           "resource_id": 85,
           "text": "Those on the Right, what people they are!"
+        },
+        {
+          "id": 1549443,
+          "resource_id": 831,
+          "text": "Aur daayein bazu waley, daayein bazu walon ki khush nasibi ka kya kehna"
         }
       ]
     },
@@ -576,6 +711,11 @@
           "id": 406710,
           "resource_id": 85,
           "text": "They will dwell amid thornless lote trees"
+        },
+        {
+          "id": 1549444,
+          "resource_id": 831,
+          "text": "Woh be-khaar (thornless) beriyon(lote trees)"
         }
       ]
     },
@@ -596,6 +736,11 @@
           "id": 406711,
           "resource_id": 85,
           "text": "and clustered acacia"
+        },
+        {
+          "id": 1549445,
+          "resource_id": 831,
+          "text": "Aur teh bar teh chadey huey kelon (bananas)"
         }
       ]
     },
@@ -616,6 +761,11 @@
           "id": 406712,
           "resource_id": 85,
           "text": "with spreading shade,"
+        },
+        {
+          "id": 1549446,
+          "resource_id": 831,
+          "text": "Aur door tak phayli hui chaaon (shadow)"
         }
       ]
     },
@@ -636,6 +786,11 @@
           "id": 406713,
           "resource_id": 85,
           "text": "constantly flowing water,"
+        },
+        {
+          "id": 1549447,
+          "resource_id": 831,
+          "text": "Aur har dum rawan (gushing) paani"
         }
       ]
     },
@@ -656,6 +811,11 @@
           "id": 406714,
           "resource_id": 85,
           "text": "abundant fruits,"
+        },
+        {
+          "id": 1549448,
+          "resource_id": 831,
+          "text": "Aur kabhi khatam na honay waley"
         }
       ]
     },
@@ -676,6 +836,11 @@
           "id": 406715,
           "resource_id": 85,
           "text": "unfailing, unforbidden,"
+        },
+        {
+          "id": 1549449,
+          "resource_id": 831,
+          "text": "Aur bay rok-tok milne waley ba-kasrat phalon (fruits)"
         }
       ]
     },
@@ -696,6 +861,11 @@
           "id": 406716,
           "resource_id": 85,
           "text": "with incomparable companions"
+        },
+        {
+          "id": 1549450,
+          "resource_id": 831,
+          "text": "Aur unchi nishist gaahon (exalted thrones) mein hongay"
         }
       ]
     },
@@ -716,6 +886,11 @@
           "id": 406717,
           "resource_id": 85,
           "text": "We have specially created––"
+        },
+        {
+          "id": 1549451,
+          "resource_id": 831,
+          "text": "Unki biwiyon ko hum khaas taur par naye sirey se paida karengey"
         }
       ]
     },
@@ -736,6 +911,11 @@
           "id": 406718,
           "resource_id": 85,
           "text": "virginal,"
+        },
+        {
+          "id": 1549452,
+          "resource_id": 831,
+          "text": "Aur unhein bakira (virgins) bana dengey"
         }
       ]
     },
@@ -756,6 +936,11 @@
           "id": 406719,
           "resource_id": 85,
           "text": "loving, of matching age––"
+        },
+        {
+          "id": 1549453,
+          "resource_id": 831,
+          "text": "Apne shoharon ki aashik aur umar mein humsin (equal age)"
         }
       ]
     },
@@ -776,6 +961,11 @@
           "id": 406720,
           "resource_id": 85,
           "text": "for those on the Right,"
+        },
+        {
+          "id": 1549454,
+          "resource_id": 831,
+          "text": "Yeh kuch daayein bazu walon ke liye hai"
         }
       ]
     },
@@ -796,6 +986,11 @@
           "id": 406721,
           "resource_id": 85,
           "text": "many from the past"
+        },
+        {
+          "id": 1549455,
+          "resource_id": 831,
+          "text": "Woh aglon mein se bahut hongey"
         }
       ]
     },
@@ -816,6 +1011,11 @@
           "id": 406722,
           "resource_id": 85,
           "text": "and many from later generations."
+        },
+        {
+          "id": 1549456,
+          "resource_id": 831,
+          "text": "Aur pichlon mein se bhi bahut"
         }
       ]
     },
@@ -836,6 +1036,11 @@
           "id": 406723,
           "resource_id": 85,
           "text": "But those on the Left, what people they are!"
+        },
+        {
+          "id": 1549457,
+          "resource_id": 831,
+          "text": "Aur baayein (left) bazu wale, bayein bazu walon ki badnasibi ka kya puchna"
         }
       ]
     },
@@ -856,6 +1061,11 @@
           "id": 406724,
           "resource_id": 85,
           "text": "They will dwell amid scorching wind and scalding water"
+        },
+        {
+          "id": 1549458,
+          "resource_id": 831,
+          "text": "Woh luu ki lapat (midst of scorching wind) aur khaulte (boiling) huey paani"
         }
       ]
     },
@@ -876,6 +1086,11 @@
           "id": 406725,
           "resource_id": 85,
           "text": "in the shadow of black smoke,"
+        },
+        {
+          "id": 1549459,
+          "resource_id": 831,
+          "text": "Aur kaalay dhuwon (smoke) ke saaye mein hongey"
         }
       ]
     },
@@ -896,6 +1111,11 @@
           "id": 406726,
           "resource_id": 85,
           "text": "neither cool nor refreshing."
+        },
+        {
+          "id": 1549460,
+          "resource_id": 831,
+          "text": "Jo na thanda hoga na aaram de"
         }
       ]
     },
@@ -916,6 +1136,11 @@
           "id": 406727,
           "resource_id": 85,
           "text": "Before, they overindulged in luxury"
+        },
+        {
+          "id": 1549461,
+          "resource_id": 831,
+          "text": "Yeh woh log hongey jo is anjaam ko pahunchne se pehle khush haal thay"
         }
       ]
     },
@@ -936,6 +1161,11 @@
           "id": 406728,
           "resource_id": 85,
           "text": "and persisted in great sin,"
+        },
+        {
+          "id": 1549462,
+          "resource_id": 831,
+          "text": "Aur gunaah-e-azeem par israr karte thay"
         }
       ]
     },
@@ -956,6 +1186,11 @@
           "id": 406729,
           "resource_id": 85,
           "text": "always saying, ‘What? When we are dead and have become dust and bones, shall we then be raised up?"
+        },
+        {
+          "id": 1549463,
+          "resource_id": 831,
+          "text": "Kehte thay “kya jab hum mar kar khaak ho jayengey aur haddiyon ka panjar reh jayengey to phir utha khadey kiye jayenge"
         }
       ]
     },
@@ -976,6 +1211,11 @@
           "id": 406730,
           "resource_id": 85,
           "text": "And our earliest forefathers too?’"
+        },
+        {
+          "id": 1549464,
+          "resource_id": 831,
+          "text": "Aur kya hamare woh baap dada bhi uthaye jayengey jo pehle guzar chuke hain?”"
         }
       ]
     },
@@ -996,6 +1236,11 @@
           "id": 406731,
           "resource_id": 85,
           "text": "Say [Prophet], ‘The earliest and latest generations"
+        },
+        {
+          "id": 1549465,
+          "resource_id": 831,
+          "text": "Aye Nabi in logon se kaho, yaqeenan agle aur pichle sab"
         }
       ]
     },
@@ -1016,6 +1261,11 @@
           "id": 406732,
           "resource_id": 85,
           "text": "will all be gathered on a predetermined Day"
+        },
+        {
+          "id": 1549466,
+          "resource_id": 831,
+          "text": "Ek din zaroor jama kiye janey wale hain jiska waqt muqarrar kiya ja chuka hai"
         }
       ]
     },
@@ -1036,6 +1286,11 @@
           "id": 406733,
           "resource_id": 85,
           "text": "and you who have gone astray and denied the truth"
+        },
+        {
+          "id": 1549467,
+          "resource_id": 831,
+          "text": "Phir aey gumrahon aur jhutlane walon"
         }
       ]
     },
@@ -1056,6 +1311,11 @@
           "id": 406734,
           "resource_id": 85,
           "text": "will eat from the bitter tree of Zaqqum,"
+        },
+        {
+          "id": 1549468,
+          "resource_id": 831,
+          "text": "Tum shajar-e-zaqqum ki giza khane waley ho"
         }
       ]
     },
@@ -1076,6 +1336,11 @@
           "id": 406735,
           "resource_id": 85,
           "text": "filling your bellies with it,"
+        },
+        {
+          "id": 1549469,
+          "resource_id": 831,
+          "text": "Usi se tum pait bharogey"
         }
       ]
     },
@@ -1096,6 +1361,11 @@
           "id": 406736,
           "resource_id": 85,
           "text": "and drink scalding water,"
+        },
+        {
+          "id": 1549470,
+          "resource_id": 831,
+          "text": "Aur upar se khaulta (boiling) hua paani"
         }
       ]
     },
@@ -1116,6 +1386,11 @@
           "id": 406737,
           "resource_id": 85,
           "text": "lapping it like thirsty camels.’"
+        },
+        {
+          "id": 1549471,
+          "resource_id": 831,
+          "text": "Toans (thirst) lagey huey ount (camel) ki tarah piogey"
         }
       ]
     },
@@ -1136,6 +1411,11 @@
           "id": 406738,
           "resource_id": 85,
           "text": "This will be their welcome on the Day of Judgement."
+        },
+        {
+          "id": 1549472,
+          "resource_id": 831,
+          "text": "Yahi baayein walon ki ziyafat ka saamaan roz-e-jaza mein"
         }
       ]
     },
@@ -1156,6 +1436,11 @@
           "id": 406739,
           "resource_id": 85,
           "text": "It was We who created you: will you not believe?"
+        },
+        {
+          "id": 1549473,
+          "resource_id": 831,
+          "text": "Humne tumhein paida kiya hai phir kyun tasdeek (confirm) nahin karte"
         }
       ]
     },
@@ -1176,6 +1461,11 @@
           "id": 406740,
           "resource_id": 85,
           "text": "Consider [the semen] you eject-"
+        },
+        {
+          "id": 1549474,
+          "resource_id": 831,
+          "text": "Kabhi tumne gaur kiya, yeh nutfa (sperm) jo tum daltey ho"
         }
       ]
     },
@@ -1196,6 +1486,11 @@
           "id": 406741,
           "resource_id": 85,
           "text": "do you create it yourselves or are We the Creator?"
+        },
+        {
+          "id": 1549475,
+          "resource_id": 831,
+          "text": "Usse baccha tum banate ho ya uske banane wale hum hain"
         }
       ]
     },
@@ -1216,6 +1511,11 @@
           "id": 406742,
           "resource_id": 85,
           "text": "We ordained death to be among you. Nothing could stop Us"
+        },
+        {
+          "id": 1549476,
+          "resource_id": 831,
+          "text": "Humne tumharey darmiyan maut ko takseem kiya hai, aur hum issey aajiz nahin hai"
         }
       ]
     },
@@ -1236,6 +1536,11 @@
           "id": 406743,
           "resource_id": 85,
           "text": "if We intended to change you and recreate you in a way unknown to you."
+        },
+        {
+          "id": 1549477,
+          "resource_id": 831,
+          "text": "Ke tumhari shaklein badal dein aur kisi aisi shakal mein tumhein paida kardein jisko tum nahin jante"
         }
       ]
     },
@@ -1256,6 +1561,11 @@
           "id": 406744,
           "resource_id": 85,
           "text": "You have learned how you were first created: will you not reflect?"
+        },
+        {
+          "id": 1549478,
+          "resource_id": 831,
+          "text": "Apni pehli paidaish ko to tum jante ho, phir kyun sabaq nahin letay"
         }
       ]
     },
@@ -1276,6 +1586,11 @@
           "id": 406745,
           "resource_id": 85,
           "text": "Consider the seeds you sow in the ground-"
+        },
+        {
+          "id": 1549479,
+          "resource_id": 831,
+          "text": "Kabhi tumne socha, yeh beej (seed) jo tum botey ho"
         }
       ]
     },
@@ -1296,6 +1611,11 @@
           "id": 406746,
           "resource_id": 85,
           "text": "is it you who make them grow or We?"
+        },
+        {
+          "id": 1549480,
+          "resource_id": 831,
+          "text": "Insey khetiyan tum ugatey ho ya unke ugane waley hum hain"
         }
       ]
     },
@@ -1316,6 +1636,11 @@
           "id": 406747,
           "resource_id": 85,
           "text": "If We wished, We could turn your harvest into chaff and leave you to wail,"
+        },
+        {
+          "id": 1549481,
+          "resource_id": 831,
+          "text": "Hum chahein to un khetoun ko bhus (rubble) bana kar rakh dein aur tum tarah tarah ki baatein banate reh jao"
         }
       ]
     },
@@ -1336,6 +1661,11 @@
           "id": 406748,
           "resource_id": 85,
           "text": "‘We are burdened with debt;"
+        },
+        {
+          "id": 1549482,
+          "resource_id": 831,
+          "text": "Ke hum par to ulti chatti pad gayi (Lo! we are laden with debt)"
         }
       ]
     },
@@ -1356,6 +1686,11 @@
           "id": 406749,
           "resource_id": 85,
           "text": "we are bereft.’"
+        },
+        {
+          "id": 1549483,
+          "resource_id": 831,
+          "text": "Balke humarey to naseeb hi phootey huey hain"
         }
       ]
     },
@@ -1376,6 +1711,11 @@
           "id": 406750,
           "resource_id": 85,
           "text": "Consider the water you drink-"
+        },
+        {
+          "id": 1549484,
+          "resource_id": 831,
+          "text": "Kabhi tumne aankhein khol kar dekha, yeh paani jo tum peetey ho"
         }
       ]
     },
@@ -1396,6 +1736,11 @@
           "id": 406751,
           "resource_id": 85,
           "text": "was it you who brought it down from the rain-cloud or We?"
+        },
+        {
+          "id": 1549485,
+          "resource_id": 831,
+          "text": "Isey tumne baadal se barsaya hai ya iske barsane wale hum hain"
         }
       ]
     },
@@ -1416,6 +1761,11 @@
           "id": 406752,
           "resource_id": 85,
           "text": "If We wanted, We could make it bitter: will you not be thankful?"
+        },
+        {
+          "id": 1549486,
+          "resource_id": 831,
+          "text": "Hum chahein to isey sakht khari(bitter) bana kar rakh dein, phir kyun tum shukar guzar nahin hotey"
         }
       ]
     },
@@ -1436,6 +1786,11 @@
           "id": 406753,
           "resource_id": 85,
           "text": "Consider the fire you kindle-"
+        },
+        {
+          "id": 1549487,
+          "resource_id": 831,
+          "text": "Kabhi tumne khayal kiya, yeh aag jo tum sulgate ho"
         }
       ]
     },
@@ -1456,6 +1811,11 @@
           "id": 406754,
           "resource_id": 85,
           "text": "is it you who make the wood for it grow or We?"
+        },
+        {
+          "id": 1549488,
+          "resource_id": 831,
+          "text": "Iska darakht tum ne paida kiya hai ya iske paida karne wale hum hain"
         }
       ]
     },
@@ -1476,6 +1836,11 @@
           "id": 406755,
           "resource_id": 85,
           "text": "We made it a reminder, and useful to those who kindle it,"
+        },
+        {
+          "id": 1549489,
+          "resource_id": 831,
+          "text": "Humne usko yaad-dihani(reminder) ka zariya aur haajat-mandon (needy) ke liye saaman-e-zeist (provision) banaya hai"
         }
       ]
     },
@@ -1496,6 +1861,11 @@
           "id": 406756,
           "resource_id": 85,
           "text": "so [Prophet] glorify the name of your Lord, the Supreme."
+        },
+        {
+          "id": 1549490,
+          "resource_id": 831,
+          "text": "Pas aey Nabi, apne Rubb-e-azeem ke naam ki tasbeeh karo"
         }
       ]
     },
@@ -1516,6 +1886,11 @@
           "id": 406757,
           "resource_id": 85,
           "text": "I swear by the positions of the stars-"
+        },
+        {
+          "id": 1549491,
+          "resource_id": 831,
+          "text": "Pas nahin main kasam khata hoon taaron ke mawake (setting or the mansions, etc.) ki"
         }
       ]
     },
@@ -1536,6 +1911,11 @@
           "id": 406758,
           "resource_id": 85,
           "text": "a mighty oath, if you only knew-"
+        },
+        {
+          "id": 1549492,
+          "resource_id": 831,
+          "text": "Agar tum samjho to yeh bahut badi qasam hai"
         }
       ]
     },
@@ -1556,6 +1936,11 @@
           "id": 406759,
           "resource_id": 85,
           "text": "that this is truly a noble Quran,"
+        },
+        {
+          "id": 1549493,
+          "resource_id": 831,
+          "text": "Ke yeh ek buland paya Quran hai"
         }
       ]
     },
@@ -1576,6 +1961,11 @@
           "id": 406760,
           "resource_id": 85,
           "text": "in a protected Record"
+        },
+        {
+          "id": 1549494,
+          "resource_id": 831,
+          "text": "Ek mehfooz kitaab mein sabt (inscribed)"
         }
       ]
     },
@@ -1596,6 +1986,11 @@
           "id": 406761,
           "resource_id": 85,
           "text": "that only the purified can touch,"
+        },
+        {
+          "id": 1549495,
+          "resource_id": 831,
+          "text": "Jisey mutahreen (pure) ke siwa koi choo nahin sakta"
         }
       ]
     },
@@ -1616,6 +2011,11 @@
           "id": 406762,
           "resource_id": 85,
           "text": "sent down from the Lord of all being."
+        },
+        {
+          "id": 1549496,
+          "resource_id": 831,
+          "text": "Yeh Rubb-ul- Aalameen ka nazil karda hai"
         }
       ]
     },
@@ -1636,6 +2036,11 @@
           "id": 406763,
           "resource_id": 85,
           "text": "How can you scorn this statement?"
+        },
+        {
+          "id": 1549497,
+          "resource_id": 831,
+          "text": "Phir kya is kalam ke saath tum be-atnayi (indifferent) barat-te ho"
         }
       ]
     },
@@ -1656,6 +2061,11 @@
           "id": 406764,
           "resource_id": 85,
           "text": "And how, in return for the livelihood you are given, can you deny it?"
+        },
+        {
+          "id": 1549498,
+          "resource_id": 831,
+          "text": "Aur is niyamat mein apna hissa tumne yeh rakkha hai ke isey jhutlate ho"
         }
       ]
     },
@@ -1676,6 +2086,11 @@
           "id": 406765,
           "resource_id": 85,
           "text": "When the soul of a dying man comes up to his throat"
+        },
+        {
+          "id": 1549499,
+          "resource_id": 831,
+          "text": "To jab marne wale ki jaan halaq tak pahunch chuki hoti hai"
         }
       ]
     },
@@ -1696,6 +2111,11 @@
           "id": 406766,
           "resource_id": 85,
           "text": "while you gaze on-"
+        },
+        {
+          "id": 1549500,
+          "resource_id": 831,
+          "text": "Aur tum aankhon se dekh rahe hotey ho ke woh marr raha hai"
         }
       ]
     },
@@ -1716,6 +2136,11 @@
           "id": 406767,
           "resource_id": 85,
           "text": "We are nearer to him than you, though you do not see Us-"
+        },
+        {
+          "id": 1549501,
+          "resource_id": 831,
+          "text": "Us waqt tumhare ba-nisbat hum uske zyada kareeb hotey hain magar tumko nazar nahin aatey"
         }
       ]
     },
@@ -1736,6 +2161,11 @@
           "id": 406768,
           "resource_id": 85,
           "text": "why, if you are not to be judged,"
+        },
+        {
+          "id": 1549502,
+          "resource_id": 831,
+          "text": "Ab agar tum kisi ke mahkoom(anyones authority) nahin ho aur apne is khayal mein sacchey ho"
         }
       ]
     },
@@ -1756,6 +2186,11 @@
           "id": 406769,
           "resource_id": 85,
           "text": "do you not restore his soul to him, if what you say is true?"
+        },
+        {
+          "id": 1549503,
+          "resource_id": 831,
+          "text": "Us waqt uski nikalti hui jaan ko wapas kyun nahin ley aatey"
         }
       ]
     },
@@ -1776,6 +2211,11 @@
           "id": 406770,
           "resource_id": 85,
           "text": "If that dying person is one of those who will be brought near to God,"
+        },
+        {
+          "id": 1549504,
+          "resource_id": 831,
+          "text": "Phir woh marne wala agar muqarrabin (near to Allah) mein se hon"
         }
       ]
     },
@@ -1796,6 +2236,11 @@
           "id": 406771,
           "resource_id": 85,
           "text": "he will have rest, ease, and a Garden of Bliss;"
+        },
+        {
+          "id": 1549505,
+          "resource_id": 831,
+          "text": "To uske liye rahat aur umda rizq aur niyamat bhari jannat hai"
         }
       ]
     },
@@ -1816,6 +2261,11 @@
           "id": 406772,
           "resource_id": 85,
           "text": "if he is one of those on the Right,"
+        },
+        {
+          "id": 1549506,
+          "resource_id": 831,
+          "text": "Aur agar woh ashaab-e-yameen mei se ho"
         }
       ]
     },
@@ -1836,6 +2286,11 @@
           "id": 406773,
           "resource_id": 85,
           "text": "[he will hear], ‘Peace be on you,’ from his companions on the Right;"
+        },
+        {
+          "id": 1549507,
+          "resource_id": 831,
+          "text": "To uska istaqbal (welcome) yun hota hai ke salaam hai tujhey, tu ashab-ul-yameen (People on the Right) mein se hai"
         }
       ]
     },
@@ -1856,6 +2311,11 @@
           "id": 406774,
           "resource_id": 85,
           "text": "but if he is one of those who denied the truth and went astray,"
+        },
+        {
+          "id": 1549508,
+          "resource_id": 831,
+          "text": "Aur agar woh jhutlane waley gumraah logon mein se ho"
         }
       ]
     },
@@ -1876,6 +2336,11 @@
           "id": 406775,
           "resource_id": 85,
           "text": "he will be welcomed with scalding water."
+        },
+        {
+          "id": 1549509,
+          "resource_id": 831,
+          "text": "To uski tawazu ke liye khaulta (boiling) pani hai"
         }
       ]
     },
@@ -1896,6 +2361,11 @@
           "id": 406776,
           "resource_id": 85,
           "text": "He will burn in Hell."
+        },
+        {
+          "id": 1549510,
+          "resource_id": 831,
+          "text": "Aur jahannum mein jhonka jaana"
         }
       ]
     },
@@ -1916,6 +2386,11 @@
           "id": 406777,
           "resource_id": 85,
           "text": "This is the certain truth:"
+        },
+        {
+          "id": 1549511,
+          "resource_id": 831,
+          "text": "Yeh sab kuch qataii haqq hai"
         }
       ]
     },
@@ -1936,6 +2411,11 @@
           "id": 406778,
           "resource_id": 85,
           "text": "[Prophet], glorify the name of your Lord the Supreme."
+        },
+        {
+          "id": 1549512,
+          "resource_id": 831,
+          "text": "Pas aey Nabi apne Rubb-e-Azeem ke naam ki tasbeeh karo"
         }
       ]
     }

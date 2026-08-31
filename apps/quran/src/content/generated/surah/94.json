@@ -1,5 +1,5 @@
 {
-  "syncedAt": "2026-08-31T05:21:26.028Z",
+  "syncedAt": "2026-08-31T09:57:52.667Z",
   "chapter": {
     "id": 94,
     "revelation_place": "makkah",
@@ -36,6 +36,11 @@
           "id": 407794,
           "resource_id": 85,
           "text": "Did We not relieve your heart for you [Prophet],"
+        },
+        {
+          "id": 1550528,
+          "resource_id": 831,
+          "text": "(Aey Nabi) kya humne tumhara seena tumhare liye khol nahin diya"
         }
       ]
     },
@@ -56,6 +61,11 @@
           "id": 407795,
           "resource_id": 85,
           "text": "and remove the burden"
+        },
+        {
+          "id": 1550529,
+          "resource_id": 831,
+          "text": "Aur tumpar se woh bhari bojh utar diya"
         }
       ]
     },
@@ -76,6 +86,11 @@
           "id": 407796,
           "resource_id": 85,
           "text": "that weighed so heavily on your back,"
+        },
+        {
+          "id": 1550530,
+          "resource_id": 831,
+          "text": "Jo tumhari qamar todhe daal raha tha"
         }
       ]
     },
@@ -96,6 +111,11 @@
           "id": 407797,
           "resource_id": 85,
           "text": "and raise your reputation high?"
+        },
+        {
+          "id": 1550531,
+          "resource_id": 831,
+          "text": "Aur tumhare khatir tumharey zikr ka awazah buland kar diya"
         }
       ]
     },
@@ -116,6 +136,11 @@
           "id": 407798,
           "resource_id": 85,
           "text": "So truly where there is hardship there is also ease;"
+        },
+        {
+          "id": 1550532,
+          "resource_id": 831,
+          "text": "Pas haqeeqat yeh hai kay tangi kay saat farakhi bhi hai"
         }
       ]
     },
@@ -136,6 +161,11 @@
           "id": 407799,
           "resource_id": 85,
           "text": "truly where there is hardship there is also ease."
+        },
+        {
+          "id": 1550533,
+          "resource_id": 831,
+          "text": "Beshak tangi kay saath farakhi bhi hai"
         }
       ]
     },
@@ -156,6 +186,11 @@
           "id": 407800,
           "resource_id": 85,
           "text": "The moment you are freed [of one task] work on,"
+        },
+        {
+          "id": 1550534,
+          "resource_id": 831,
+          "text": "Lihaza jab tum faarig ho to Ibadat ki mushakkat mei lag jao"
         }
       ]
     },
@@ -176,6 +211,11 @@
           "id": 407801,
           "resource_id": 85,
           "text": "and turn to your Lord for everything."
+        },
+        {
+          "id": 1550535,
+          "resource_id": 831,
+          "text": "Aur apne Rubb ki taraf raagib ho"
         }
       ]
     }

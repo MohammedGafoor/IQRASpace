@@ -1,5 +1,5 @@
 {
-  "syncedAt": "2026-08-31T05:21:20.648Z",
+  "syncedAt": "2026-08-31T09:57:47.120Z",
   "chapter": {
     "id": 81,
     "revelation_place": "makkah",
@@ -36,6 +36,11 @@
           "id": 407504,
           "resource_id": 85,
           "text": "When the sun is shrouded in darkness,"
+        },
+        {
+          "id": 1550238,
+          "resource_id": 831,
+          "text": "Jab Suraj lapeit diya jayega"
         }
       ]
     },
@@ -56,6 +61,11 @@
           "id": 407505,
           "resource_id": 85,
           "text": "when the stars are dimmed,"
+        },
+        {
+          "id": 1550239,
+          "resource_id": 831,
+          "text": "Aur jab taarey bikhar jayenge"
         }
       ]
     },
@@ -76,6 +86,11 @@
           "id": 407506,
           "resource_id": 85,
           "text": "when the mountains are set in motion,"
+        },
+        {
+          "id": 1550240,
+          "resource_id": 831,
+          "text": "Aur jab pahad chalaye jayenge"
         }
       ]
     },
@@ -96,6 +111,11 @@
           "id": 407507,
           "resource_id": 85,
           "text": "when pregnant camels are abandoned,"
+        },
+        {
+          "id": 1550241,
+          "resource_id": 831,
+          "text": "Aur jab dus mahine ki hamila ountniyan (she-camels) apne haal par chod di jayengi"
         }
       ]
     },
@@ -116,6 +136,11 @@
           "id": 407508,
           "resource_id": 85,
           "text": "when wild beasts are herded together,"
+        },
+        {
+          "id": 1550242,
+          "resource_id": 831,
+          "text": "Aur jab jungli jaanwar sameth kar ikhattey kar diye jayenge"
         }
       ]
     },
@@ -136,6 +161,11 @@
           "id": 407509,
           "resource_id": 85,
           "text": "when the seas boil over,"
+        },
+        {
+          "id": 1550243,
+          "resource_id": 831,
+          "text": "Aur jab samandar bhadka diye jayenge"
         }
       ]
     },
@@ -156,6 +186,11 @@
           "id": 407510,
           "resource_id": 85,
           "text": "when souls are sorted into classes,"
+        },
+        {
+          "id": 1550244,
+          "resource_id": 831,
+          "text": "Aur jab jaane (Jismon se) jodh di jayengi"
         }
       ]
     },
@@ -176,6 +211,11 @@
           "id": 407511,
           "resource_id": 85,
           "text": "when the baby girl buried alive is asked"
+        },
+        {
+          "id": 1550245,
+          "resource_id": 831,
+          "text": "Aur jab zinda gaadi hui(buried) ladki se pucha jayega"
         }
       ]
     },
@@ -196,6 +236,11 @@
           "id": 407512,
           "resource_id": 85,
           "text": "for what sin she was killed,"
+        },
+        {
+          "id": 1550246,
+          "resource_id": 831,
+          "text": "ke woh kis kasoor mei mari gayi"
         }
       ]
     },
@@ -216,6 +261,11 @@
           "id": 407513,
           "resource_id": 85,
           "text": "when the records of deeds are spread open,"
+        },
+        {
+          "id": 1550247,
+          "resource_id": 831,
+          "text": "Aur jab aamal-naame(scrolls of deeds) kholey jayenge"
         }
       ]
     },
@@ -236,6 +286,11 @@
           "id": 407514,
           "resource_id": 85,
           "text": "when the sky is stripped away,"
+        },
+        {
+          "id": 1550248,
+          "resource_id": 831,
+          "text": "Aur jab aasman ka purda hata diya jayega"
         }
       ]
     },
@@ -256,6 +311,11 @@
           "id": 407515,
           "resource_id": 85,
           "text": "when Hell is made to blaze"
+        },
+        {
+          "id": 1550249,
+          "resource_id": 831,
+          "text": "Aur jab Jahannam dehkayi jayegi"
         }
       ]
     },
@@ -276,6 +336,11 @@
           "id": 407516,
           "resource_id": 85,
           "text": "and Paradise brought near:"
+        },
+        {
+          "id": 1550250,
+          "resource_id": 831,
+          "text": "Aur jab Jannat qareeb le aayi jayegi"
         }
       ]
     },
@@ -296,6 +361,11 @@
           "id": 407517,
           "resource_id": 85,
           "text": "then every soul will know what it has brought about."
+        },
+        {
+          "id": 1550251,
+          "resource_id": 831,
+          "text": "Us waqt har shaks ko maloom ho jayega ke woh kya lekar aaya hai"
         }
       ]
     },
@@ -316,6 +386,11 @@
           "id": 407518,
           "resource_id": 85,
           "text": "I swear by the planets"
+        },
+        {
+          "id": 1550252,
+          "resource_id": 831,
+          "text": "Pas nahin main kasam khata hoon"
         }
       ]
     },
@@ -336,6 +411,11 @@
           "id": 407519,
           "resource_id": 85,
           "text": "that recede, move, and hide,"
+        },
+        {
+          "id": 1550253,
+          "resource_id": 831,
+          "text": "Palatne aur chup janey wale taaron ki"
         }
       ]
     },
@@ -356,6 +436,11 @@
           "id": 407520,
           "resource_id": 85,
           "text": "by the night that descends,"
+        },
+        {
+          "id": 1550254,
+          "resource_id": 831,
+          "text": "Aur Raat ki jabke woh ruksat hui"
         }
       ]
     },
@@ -376,6 +461,11 @@
           "id": 407521,
           "resource_id": 85,
           "text": "by the dawn that softly breathes:"
+        },
+        {
+          "id": 1550255,
+          "resource_id": 831,
+          "text": "Aur subah ki jabke usne saans liya"
         }
       ]
     },
@@ -396,6 +486,11 @@
           "id": 407522,
           "resource_id": 85,
           "text": "this is the speech of a noble messenger,"
+        },
+        {
+          "id": 1550256,
+          "resource_id": 831,
+          "text": "Yeh fil waqea ek buzurg paigam-bar ka qaul(word) hai"
         }
       ]
     },
@@ -416,6 +511,11 @@
           "id": 407523,
           "resource_id": 85,
           "text": "who possesses great strength and is held in honour by the Lord of the Throne––"
+        },
+        {
+          "id": 1550257,
+          "resource_id": 831,
+          "text": "Jo badi tawanai (might) rakhta hai, Arsh waley ke yahan buland martaba hai"
         }
       ]
     },
@@ -436,6 +536,11 @@
           "id": 407524,
           "resource_id": 85,
           "text": "he is obeyed there and worthy of trust."
+        },
+        {
+          "id": 1550258,
+          "resource_id": 831,
+          "text": "Wahan uska hukum mana jata hai, Woh ba-aitamad (trustworthy) hai"
         }
       ]
     },
@@ -456,6 +561,11 @@
           "id": 407525,
           "resource_id": 85,
           "text": "Your companion is not mad:"
+        },
+        {
+          "id": 1550259,
+          "resource_id": 831,
+          "text": "Aur (aey ehle Makkah) tumhara rafeeq(companion) majnoon(mad) nahin hai"
         }
       ]
     },
@@ -476,6 +586,11 @@
           "id": 407526,
           "resource_id": 85,
           "text": "he did see him on the clear horizon."
+        },
+        {
+          "id": 1550260,
+          "resource_id": 831,
+          "text": "Usne us paigambar ko roshan ufaq (clear horizon) par dekha hai"
         }
       ]
     },
@@ -496,6 +611,11 @@
           "id": 407527,
           "resource_id": 85,
           "text": "He does not withhold what is revealed to him from beyond."
+        },
+        {
+          "id": 1550261,
+          "resource_id": 831,
+          "text": "Aur woh gaib (ke is ilam ko logon tak pahunchane) ke maamle mei bakheel nahin hai"
         }
       ]
     },
@@ -516,6 +636,11 @@
           "id": 407528,
           "resource_id": 85,
           "text": "This is not the word of an outcast devil."
+        },
+        {
+          "id": 1550262,
+          "resource_id": 831,
+          "text": "Aur yeh kisi shaitan-e-mardood ka qaul nahin hai"
         }
       ]
     },
@@ -536,6 +661,11 @@
           "id": 407529,
           "resource_id": 85,
           "text": "So where are you [people] going?"
+        },
+        {
+          "id": 1550263,
+          "resource_id": 831,
+          "text": "Phir tum log kidhar chaley ja rahey ho"
         }
       ]
     },
@@ -556,6 +686,11 @@
           "id": 407530,
           "resource_id": 85,
           "text": "This is a message for all people;"
+        },
+        {
+          "id": 1550264,
+          "resource_id": 831,
+          "text": "Yeh to saarey jahan walon ke liye ek naseehat hai"
         }
       ]
     },
@@ -576,6 +711,11 @@
           "id": 407531,
           "resource_id": 85,
           "text": "for those who wish to take the straight path."
+        },
+        {
+          "id": 1550265,
+          "resource_id": 831,
+          "text": "Tum mein se har us shaks ke liye jo raah-e-raast par chalna chahta ho"
         }
       ]
     },
@@ -596,6 +736,11 @@
           "id": 407532,
           "resource_id": 85,
           "text": "But you will only wish to do so by the will of God, the Lord of all people."
+        },
+        {
+          "id": 1550266,
+          "resource_id": 831,
+          "text": "Aur tumharey chahney se kuch nahin hota jab tak Allah Rabb-ul-Aalameen na chahey"
         }
       ]
     }

@@ -1,5 +1,5 @@
 {
-  "syncedAt": "2026-08-31T05:21:16.507Z",
+  "syncedAt": "2026-08-31T09:57:42.859Z",
   "chapter": {
     "id": 72,
     "revelation_place": "makkah",
@@ -36,6 +36,11 @@
           "id": 407151,
           "resource_id": 85,
           "text": "Say [Prophet], ‘It has been revealed to me that a group of jinn once listened in and said, “We have heard a wondrous Quran,"
+        },
+        {
+          "id": 1549885,
+          "resource_id": 831,
+          "text": "Aey Nabi, kaho, meri taraf wahee (revelation) bheji gayi hai ke Jinno ke ek giroh (group) ne gaur se suna phir (jaa kar apne qaum ke logon se) kaha: “humne ek bada hi ajeeb Quran suna hai"
         }
       ]
     },
@@ -56,6 +61,11 @@
           "id": 407152,
           "resource_id": 85,
           "text": "that gives guidance to the right path, and we have come to believe it––We shall never set up partners with our Lord––"
+        },
+        {
+          "id": 1549886,
+          "resource_id": 831,
+          "text": "Jo raah-e-raast ki taraf rehnumayi karta hai is liye hum uspar iman le aaye hain aur ab hum hargiz apne Rubb ke saath kisi ko sharik nahin karenge"
         }
       ]
     },
@@ -76,6 +86,11 @@
           "id": 407153,
           "resource_id": 85,
           "text": "and that He––exalted be the glory of our Lord!––has neither spouse nor child."
+        },
+        {
+          "id": 1549887,
+          "resource_id": 831,
+          "text": "Aur yeh ke hamare Rubb ki shaan bahut aala-o-Arfa hai , usne kisi ko biwi ya beta nahin banaya"
         }
       ]
     },
@@ -96,6 +111,11 @@
           "id": 407154,
           "resource_id": 85,
           "text": "Outrageous things have been said about God by the foolish among us,"
+        },
+        {
+          "id": 1549888,
+          "resource_id": 831,
+          "text": "Aur yeh ke hamare nadaan log Allah ke barey mein bahut khilaf-e-haqq baatein karte rahey hain"
         }
       ]
     },
@@ -116,6 +136,11 @@
           "id": 407155,
           "resource_id": 85,
           "text": "although we had thought that no man or jinn would [dare to] tell a lie about Him."
+        },
+        {
+          "id": 1549889,
+          "resource_id": 831,
+          "text": "Aur yeh ke humne samjha tha ke insaan aur jinn kabhi khuda ke baarey mein jhoot nahin bol sakte"
         }
       ]
     },
@@ -136,6 +161,11 @@
           "id": 407156,
           "resource_id": 85,
           "text": "Men have sought refuge with the jinn in the past, but they only misguided them further."
+        },
+        {
+          "id": 1549890,
+          "resource_id": 831,
+          "text": "Aur yeh ke Insano mein se kuch log Jinno mein se kuch logon ki panaah (refuge) maanga karte thay, is tarah unhon ne Jinno ka guroor aur zyada badha diya"
         }
       ]
     },
@@ -156,6 +186,11 @@
           "id": 407157,
           "resource_id": 85,
           "text": "They thought, as you did, that God would never raise anyone from the dead."
+        },
+        {
+          "id": 1549891,
+          "resource_id": 831,
+          "text": "Aur yeh ke insaano ne bhi wahi gumaan kiya jaisa tumhara gumaan tha ke Allah kisi ko Rasool bana kar na bhejega"
         }
       ]
     },
@@ -176,6 +211,11 @@
           "id": 407158,
           "resource_id": 85,
           "text": "We tried to reach heaven, but discovered it to be full of stern guards and shooting stars––"
+        },
+        {
+          "id": 1549892,
+          "resource_id": 831,
+          "text": "Aur yeh ke humne aasman ko tatola to dekha ke woh pehray-daaron (terrible guards) se patha pada hai aur shahabon (shooting meteors) ki baarish ho rahi hai"
         }
       ]
     },
@@ -196,6 +236,11 @@
           "id": 407159,
           "resource_id": 85,
           "text": "we used to sit in places there, listening, but anyone trying to listen now will find a shooting star lying in wait for him––"
+        },
+        {
+          "id": 1549893,
+          "resource_id": 831,
+          "text": "Aur yeh ke pehle hum sun-gun lene ke liye aasman mei baithnay ki jagah paa lete thay, magar ab jo chori chupey sunne ke koshish karta hai woh apne liye ghaat mein ek shahabe saaqib (shooting meteors) laga hua paata hai"
         }
       ]
     },
@@ -216,6 +261,11 @@
           "id": 407160,
           "resource_id": 85,
           "text": "[so now] we do not know whether those who live on earth are due for misfortune, or whether their Lord intends to guide them."
+        },
+        {
+          "id": 1549894,
+          "resource_id": 831,
+          "text": "Aur yeh ke hamari samajh mein na aata tha ke aaya zameen walon ke saath koi bura maamla karne ka irada kiya gaya hai ya unka Rubb unhein raah-e-raast dikhana chahta hai"
         }
       ]
     },
@@ -236,6 +286,11 @@
           "id": 407161,
           "resource_id": 85,
           "text": "Some of us are righteous and others less so: we follow different paths."
+        },
+        {
+          "id": 1549895,
+          "resource_id": 831,
+          "text": "Aur yeh ke hum mein se kuch log saleh (upright) hain aur kuch is se farotar hain, hum mukhtalif tareeqon (ways/factions) mein batey (divided) huey hain"
         }
       ]
     },
@@ -256,6 +311,11 @@
           "id": 407162,
           "resource_id": 85,
           "text": "We know we can never frustrate God on earth; we can never escape Him."
+        },
+        {
+          "id": 1549896,
+          "resource_id": 831,
+          "text": "Auy yeh ke hum samajhte thay ke na zameen mein hum Allah ko aajiz (frustrate) kar sakte hain aur na bhaag kar usey hara saktey hain"
         }
       ]
     },
@@ -276,6 +336,11 @@
           "id": 407163,
           "resource_id": 85,
           "text": "When we heard the guidance we came to believe: whoever believes in his Lord need fear no loss nor injustice."
+        },
+        {
+          "id": 1549897,
+          "resource_id": 831,
+          "text": "Aur yeh ke humne jab hidayat ki taleem suni to hum uspar iman le aaye ab jo koi bhi apne Rubb par iman le aayega usey kisi haq-talfi ya zulm ka khauff na hoga"
         }
       ]
     },
@@ -296,6 +361,11 @@
           "id": 407164,
           "resource_id": 85,
           "text": "Some of us submit to Him and others go the wrong way: those who submit to God have found wise guidance,"
+        },
+        {
+          "id": 1549898,
+          "resource_id": 831,
+          "text": "Aur yeh ke hum mein se kuch muslim(Allah ke itaat guzar) hain aur kuch haqq se munharif (upright) to jinhon ne Islam (itaat ka raasta) ikhtiyar kar liya unhon ne najaat ki raah dhoond li"
         }
       ]
     },
@@ -316,6 +386,11 @@
           "id": 407165,
           "resource_id": 85,
           "text": "but those who go wrong will be fuel for Hellfire.” ’"
+        },
+        {
+          "id": 1549899,
+          "resource_id": 831,
+          "text": "Aur jo haqq se muhnarif hai woh jahannum ka indhan (fuel) banney wala hai"
         }
       ]
     },
@@ -336,6 +411,11 @@
           "id": 407166,
           "resource_id": 85,
           "text": "If they had taken to the right way, We would have given them abundant water to drink-"
+        },
+        {
+          "id": 1549900,
+          "resource_id": 831,
+          "text": "Aur (aey Nabi kaho mujhpar yeh wahee bhi ki gayi hai ke) log agar raah-e-raast par sabit qadami (firmly) se chalte to hum unhein khoob sairaab karte (provide abundant rain)"
         }
       ]
     },
@@ -356,6 +436,11 @@
           "id": 407167,
           "resource_id": 85,
           "text": "a test for them––but anyone who turns away from his Lord’s Revelation will be sent by Him to spiralling torment."
+        },
+        {
+          "id": 1549901,
+          "resource_id": 831,
+          "text": "Taa-ke is niyamat se unki aazmaish karein aur jo apne Rubb ke zikr se mooh modega uska Rubb usey sakht azaab mein mubtala kardega"
         }
       ]
     },
@@ -376,6 +461,11 @@
           "id": 407168,
           "resource_id": 85,
           "text": "Places of worship are for God alone- so do not pray to anyone other than God-"
+        },
+        {
+          "id": 1549902,
+          "resource_id": 831,
+          "text": "Aur yeh ke masjidein Allah ke liye hai, lihaza unmein Allah ke saath kisi aur ko na pukaro"
         }
       ]
     },
@@ -396,6 +486,11 @@
           "id": 407169,
           "resource_id": 85,
           "text": "yet when God’s Servant stood up to pray to Him, they pressed in on him."
+        },
+        {
+          "id": 1549903,
+          "resource_id": 831,
+          "text": "Aur yeh ke jab Allah ka banda usko pukarne ke liye khada hua to log uspar toot padne ke liye tayyar ho gaye"
         }
       ]
     },
@@ -416,6 +511,11 @@
           "id": 407170,
           "resource_id": 85,
           "text": "Say, ‘I pray to my Lord alone; I set up no partner with Him.’"
+        },
+        {
+          "id": 1549904,
+          "resource_id": 831,
+          "text": "Aey Nabi ,kaho ke main to apne Rubb ko pukarta hoon aur uske saath kisi ko sharik nahin karta"
         }
       ]
     },
@@ -436,6 +536,11 @@
           "id": 407171,
           "resource_id": 85,
           "text": "Say, ‘I have no control over any harm or good that may befall you.’"
+        },
+        {
+          "id": 1549905,
+          "resource_id": 831,
+          "text": "Kaho main tum logon keliye na kisi nuksan ka ikhtiyar rakhta hoon na kisi bhalayi ka"
         }
       ]
     },
@@ -456,6 +561,11 @@
           "id": 407172,
           "resource_id": 85,
           "text": "Say, ‘No one can protect me from God: I have no refuge except in Him."
+        },
+        {
+          "id": 1549906,
+          "resource_id": 831,
+          "text": "Kaho mujhey Allah ki giraft se koi nahin bacha sakta aur na main uske daaman ke siwa koi jaye panaah (refuge) paa sakta hoon"
         }
       ]
     },
@@ -476,6 +586,11 @@
           "id": 407173,
           "resource_id": 85,
           "text": "I only deliver [what I receive] from God- only His messages.’ Whoever disobeys God and His Messenger will have Hell’s Fire as his permanent home:"
+        },
+        {
+          "id": 1549907,
+          "resource_id": 831,
+          "text": "Mera kaam iske siwa kuch nahin hai ke Allah ki baat aur uske paighamaat pahuncha doon. Ab jo bhi Allah aur uske Rasool ki baat na maanega uske liye jahannum ki aag hai aur aisey log usmein hamesha rahenge"
         }
       ]
     },
@@ -496,6 +611,11 @@
           "id": 407174,
           "resource_id": 85,
           "text": "when they are confronted by what they have been warned about, they will realize who has the weaker protector and the smaller number."
+        },
+        {
+          "id": 1549908,
+          "resource_id": 831,
+          "text": "(Yeh log apni is rawish se baaz na aayenge) yahan tak ke jab us cheez ko dekh lenge jiska inse waada kiya ja raha hai to inhein maloom ho jayega ke kiske madadgaar kamzoar hain aur kiska jattha (group) taadad mein kam hai"
         }
       ]
     },
@@ -516,6 +636,11 @@
           "id": 407175,
           "resource_id": 85,
           "text": "Say, ‘I do not know whether what you have been warned about is near, or whether a distant time has been appointed for it by my Lord.’"
+        },
+        {
+          "id": 1549909,
+          "resource_id": 831,
+          "text": "Kaho, main nahin jaanta ke jis cheez ka waada tumse kiya ja raha hai woh qareeb hai ya mera Rubb uske liye koi lambi muddat muqarrar famata hai"
         }
       ]
     },
@@ -536,6 +661,11 @@
           "id": 407176,
           "resource_id": 85,
           "text": "He is the One who knows what is hidden."
+        },
+        {
+          "id": 1549910,
+          "resource_id": 831,
+          "text": "Woh aalimul gaib hai , apne gaib par kisi ko muttala (reveal/disclose) nahin karta"
         }
       ]
     },
@@ -556,6 +686,11 @@
           "id": 407177,
           "resource_id": 85,
           "text": "He does not disclose it except to a messenger of His choosing. He sends watchers to go in front and behind"
+        },
+        {
+          "id": 1549911,
+          "resource_id": 831,
+          "text": "Siwai us Rasool ke jisey usne (gaib ka koi ilm dene ke liye) pasand karliya ho, to uske aagey aur pichey woh muhafiz (guards) laga deta hai"
         }
       ]
     },
@@ -576,6 +711,11 @@
           "id": 407178,
           "resource_id": 85,
           "text": "to ensure that each of His messengers delivers his Lord’s message: He knows all about them, and He takes account of everything."
+        },
+        {
+          "id": 1549912,
+          "resource_id": 831,
+          "text": "Taa-ke woh jaan le ke unhon ne apne Rubb ke paighamaat pahuncha diye, aur woh unke poorey maahol ka ihata (encompass) kiye huey hai aur ek ek cheez ko usne gin rakkha hai"
         }
       ]
     }

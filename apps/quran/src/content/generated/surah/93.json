@@ -1,5 +1,5 @@
 {
-  "syncedAt": "2026-08-31T05:21:25.628Z",
+  "syncedAt": "2026-08-31T09:57:52.257Z",
   "chapter": {
     "id": 93,
     "revelation_place": "makkah",
@@ -36,6 +36,11 @@
           "id": 407783,
           "resource_id": 85,
           "text": "By the morning brightness"
+        },
+        {
+          "id": 1550517,
+          "resource_id": 831,
+          "text": "Kasam hai rozey roshan ki"
         }
       ]
     },
@@ -56,6 +61,11 @@
           "id": 407784,
           "resource_id": 85,
           "text": "and by the night when it grows still,"
+        },
+        {
+          "id": 1550518,
+          "resource_id": 831,
+          "text": "Aur raat ki jabke woh sukoon ke saath taari ho jaye"
         }
       ]
     },
@@ -76,6 +86,11 @@
           "id": 407785,
           "resource_id": 85,
           "text": "your Lord has not forsaken you [Prophet], nor does He hate you,"
+        },
+        {
+          "id": 1550519,
+          "resource_id": 831,
+          "text": "(Aey nabi) tumharey Rubb ne tumko hargiz nahin chodha aur na woh naraaz hua"
         }
       ]
     },
@@ -96,6 +111,11 @@
           "id": 407786,
           "resource_id": 85,
           "text": "and the future will be better for you than the past;"
+        },
+        {
+          "id": 1550520,
+          "resource_id": 831,
+          "text": "Aur yaqeenan tumhare liya baad ka daur pehle daur se behtar hai"
         }
       ]
     },
@@ -116,6 +136,11 @@
           "id": 407787,
           "resource_id": 85,
           "text": "your Lord is sure to give you so much that you will be well satisfied."
+        },
+        {
+          "id": 1550521,
+          "resource_id": 831,
+          "text": "Aur anqareeb tumhra Rubb tumko itna dega ke tum khush ho jaogey"
         }
       ]
     },
@@ -136,6 +161,11 @@
           "id": 407788,
           "resource_id": 85,
           "text": "Did He not find you an orphan and shelter you?"
+        },
+        {
+          "id": 1550522,
+          "resource_id": 831,
+          "text": "Kya usne tumko yateem nahin paya aur phir thikana faraham kiya"
         }
       ]
     },
@@ -156,6 +186,11 @@
           "id": 407789,
           "resource_id": 85,
           "text": "Did He not find you lost and guide you?"
+        },
+        {
+          "id": 1550523,
+          "resource_id": 831,
+          "text": "Aur tumhey nawaqif-e-raah paya aur phir hidayat bakshi"
         }
       ]
     },
@@ -176,6 +211,11 @@
           "id": 407790,
           "resource_id": 85,
           "text": "Did He not find you in need and make you self-sufficient?"
+        },
+        {
+          "id": 1550524,
+          "resource_id": 831,
+          "text": "Aur tumhein nadaar(in want) paya aur phir maldar kar diya"
         }
       ]
     },
@@ -196,6 +236,11 @@
           "id": 407791,
           "resource_id": 85,
           "text": "So do not be harsh with the orphan"
+        },
+        {
+          "id": 1550525,
+          "resource_id": 831,
+          "text": "Lihaza yateem par sakhti na karo"
         }
       ]
     },
@@ -216,6 +261,11 @@
           "id": 407792,
           "resource_id": 85,
           "text": "and do not chide the one who asks for help;"
+        },
+        {
+          "id": 1550526,
+          "resource_id": 831,
+          "text": "Aur saayil(maangne waley) ko na jhidko"
         }
       ]
     },
@@ -236,6 +286,11 @@
           "id": 407793,
           "resource_id": 85,
           "text": "talk about the blessings of your Lord."
+        },
+        {
+          "id": 1550527,
+          "resource_id": 831,
+          "text": "Aur apne Rubb ki niyamt ka izhar karo"
         }
       ]
     }

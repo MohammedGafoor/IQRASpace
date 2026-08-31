@@ -1,5 +1,5 @@
 {
-  "syncedAt": "2026-08-31T05:21:24.792Z",
+  "syncedAt": "2026-08-31T09:57:51.434Z",
   "chapter": {
     "id": 91,
     "revelation_place": "makkah",
@@ -36,6 +36,11 @@
           "id": 407747,
           "resource_id": 85,
           "text": "By the sun in its morning brightness"
+        },
+        {
+          "id": 1550481,
+          "resource_id": 831,
+          "text": "Suraj aur uski dhoop ki kasam"
         }
       ]
     },
@@ -56,6 +61,11 @@
           "id": 407748,
           "resource_id": 85,
           "text": "and by the moon as it follows it,"
+        },
+        {
+          "id": 1550482,
+          "resource_id": 831,
+          "text": "Aur Chand ki kasam jabke wo uske pichey aata hai"
         }
       ]
     },
@@ -76,6 +86,11 @@
           "id": 407749,
           "resource_id": 85,
           "text": "by the day as it displays the sun’s glory"
+        },
+        {
+          "id": 1550483,
+          "resource_id": 831,
+          "text": "Aur din ki kasam jabke woh (Suraj ko) numaya kar deta hai"
         }
       ]
     },
@@ -96,6 +111,11 @@
           "id": 407750,
           "resource_id": 85,
           "text": "and by the night as it conceals it,"
+        },
+        {
+          "id": 1550484,
+          "resource_id": 831,
+          "text": "Aur raat ki kasam jabke woh (suraj ko) dhank leti hai"
         }
       ]
     },
@@ -116,6 +136,11 @@
           "id": 407751,
           "resource_id": 85,
           "text": "by the sky and how He built it"
+        },
+        {
+          "id": 1550485,
+          "resource_id": 831,
+          "text": "Aur aasman ki aur us zaat ki kasam jisne usey qayam kiya"
         }
       ]
     },
@@ -136,6 +161,11 @@
           "id": 407752,
           "resource_id": 85,
           "text": "and by the earth and how He spread it,"
+        },
+        {
+          "id": 1550486,
+          "resource_id": 831,
+          "text": "Aur zameen ki aur us zaat ki kasam jisne usey bichaya"
         }
       ]
     },
@@ -156,6 +186,11 @@
           "id": 407753,
           "resource_id": 85,
           "text": "by the soul and how He formed it"
+        },
+        {
+          "id": 1550487,
+          "resource_id": 831,
+          "text": "Aur nafs-e-Insani ki aur us zaat ki kasam jisne usey hamwar kiya"
         }
       ]
     },
@@ -176,6 +211,11 @@
           "id": 407754,
           "resource_id": 85,
           "text": "and inspired it [to know] its own rebellion and piety!"
+        },
+        {
+          "id": 1550488,
+          "resource_id": 831,
+          "text": "Phir uski badi aur uski parhezgari uss par ilham kar di"
         }
       ]
     },
@@ -196,6 +236,11 @@
           "id": 407755,
           "resource_id": 85,
           "text": "The one who purifies his soul succeeds"
+        },
+        {
+          "id": 1550489,
+          "resource_id": 831,
+          "text": "Yaqeenan falah pa gaya woh jisne nafs ka tazkiya kiya"
         }
       ]
     },
@@ -216,6 +261,11 @@
           "id": 407756,
           "resource_id": 85,
           "text": "and the one who corrupts it fails."
+        },
+        {
+          "id": 1550490,
+          "resource_id": 831,
+          "text": "Aur na-murad hua woh jisne usko daba diya"
         }
       ]
     },
@@ -236,6 +286,11 @@
           "id": 407757,
           "resource_id": 85,
           "text": "In their arrogant cruelty, the people of Thamud called [their messenger] a liar,"
+        },
+        {
+          "id": 1550491,
+          "resource_id": 831,
+          "text": "Samood ne apni sarkashi ki bina par jhutlaya"
         }
       ]
     },
@@ -256,6 +311,11 @@
           "id": 407758,
           "resource_id": 85,
           "text": "when the most wicked man among them rose [against him]."
+        },
+        {
+          "id": 1550492,
+          "resource_id": 831,
+          "text": "Jab us qaum ka sab se zyada shaqi (Badnaseeb) aadmi biphar kar utha"
         }
       ]
     },
@@ -276,6 +336,11 @@
           "id": 407759,
           "resource_id": 85,
           "text": "The messenger of God said to them, ‘[Leave] God’s camel to drink,’"
+        },
+        {
+          "id": 1550493,
+          "resource_id": 831,
+          "text": "To Allah ke Rasool ne un logon se kaha ke khabardar Allah ki ountni (she-camel) ko (haath na lagana) aur uske paani peene (mein maane na hona)"
         }
       ]
     },
@@ -296,6 +361,11 @@
           "id": 407760,
           "resource_id": 85,
           "text": "but they called him a liar and hamstrung her. Their Lord destroyed them for their crime and levelled them."
+        },
+        {
+          "id": 1550494,
+          "resource_id": 831,
+          "text": "Magar unhon ne uski baat ko jhuta qarar diya aur ountni ko maar dala. Aakhir-e-kaar unke gunah ke padash mein unke Rubb ne unpar aisi aafat toodi ke ek saath sab ko paywand-e-khaaq kar diya"
         }
       ]
     },
@@ -316,6 +386,11 @@
           "id": 407761,
           "resource_id": 85,
           "text": "He did not hesitate to punish them."
+        },
+        {
+          "id": 1550495,
+          "resource_id": 831,
+          "text": "Aur usey (apne is fail kay) kisi burey natije ka koi khauf(darr) nahin hai"
         }
       ]
     }

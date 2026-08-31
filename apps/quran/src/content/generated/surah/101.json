@@ -1,5 +1,5 @@
 {
-  "syncedAt": "2026-08-31T05:21:28.960Z",
+  "syncedAt": "2026-08-31T09:57:55.590Z",
   "chapter": {
     "id": 101,
     "revelation_place": "makkah",
@@ -36,6 +36,11 @@
           "id": 407861,
           "resource_id": 85,
           "text": "The Crashing Blow!"
+        },
+        {
+          "id": 1550595,
+          "resource_id": 831,
+          "text": "Azeem hadisa"
         }
       ]
     },
@@ -56,6 +61,11 @@
           "id": 407862,
           "resource_id": 85,
           "text": "What is the Crashing Blow?"
+        },
+        {
+          "id": 1550596,
+          "resource_id": 831,
+          "text": "Kya hai woh azeem hadisa"
         }
       ]
     },
@@ -76,6 +86,11 @@
           "id": 407863,
           "resource_id": 85,
           "text": "What will explain to you what the Crashing Blow is?"
+        },
+        {
+          "id": 1550597,
+          "resource_id": 831,
+          "text": "Tum kya jano ke woh azeem hadisa kya hai"
         }
       ]
     },
@@ -96,6 +111,11 @@
           "id": 407864,
           "resource_id": 85,
           "text": "On a Day when people will be like scattered moths"
+        },
+        {
+          "id": 1550598,
+          "resource_id": 831,
+          "text": "woh din jab log bhikre huey parwano ki tarah"
         }
       ]
     },
@@ -116,6 +136,11 @@
           "id": 407865,
           "resource_id": 85,
           "text": "and the mountains like tufts of wool,"
+        },
+        {
+          "id": 1550599,
+          "resource_id": 831,
+          "text": "Aur pahad rang bi rangi dhunki hui oon ke tarah hongey"
         }
       ]
     },
@@ -136,6 +161,11 @@
           "id": 407866,
           "resource_id": 85,
           "text": "the one whose good deeds are heavy on the scales"
+        },
+        {
+          "id": 1550600,
+          "resource_id": 831,
+          "text": "Phir jiske palade bhari hongey"
         }
       ]
     },
@@ -156,6 +186,11 @@
           "id": 407867,
           "resource_id": 85,
           "text": "will have a pleasant life,"
+        },
+        {
+          "id": 1550601,
+          "resource_id": 831,
+          "text": "Woh dil pasand aish mei hoga"
         }
       ]
     },
@@ -176,6 +211,11 @@
           "id": 407868,
           "resource_id": 85,
           "text": "but the one whose good deeds are light"
+        },
+        {
+          "id": 1550602,
+          "resource_id": 831,
+          "text": "Aur jis kay palade halke hongey"
         }
       ]
     },
@@ -196,6 +236,11 @@
           "id": 407869,
           "resource_id": 85,
           "text": "will have the Bottomless Pit for his home––"
+        },
+        {
+          "id": 1550603,
+          "resource_id": 831,
+          "text": "Uski jaye qarar gehri khayi hogi"
         }
       ]
     },
@@ -216,6 +261,11 @@
           "id": 407870,
           "resource_id": 85,
           "text": "what will explain to you what that is?––"
+        },
+        {
+          "id": 1550604,
+          "resource_id": 831,
+          "text": "Aur tumhein kya khabar kay woh kya cheez hai"
         }
       ]
     },
@@ -236,6 +286,11 @@
           "id": 407871,
           "resource_id": 85,
           "text": "a blazing fire."
+        },
+        {
+          "id": 1550605,
+          "resource_id": 831,
+          "text": "Bhadakti hui Aag"
         }
       ]
     }

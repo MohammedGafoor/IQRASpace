@@ -11,6 +11,7 @@ import {
   LINE_SPACING_STEP,
   type ReadingWidth,
 } from "@/lib/preferences/types";
+import { TRANSLATION_LANGUAGES } from "@/lib/content/translations";
 
 const READING_WIDTHS: { value: ReadingWidth; label: string }[] = [
   { value: "narrow", label: "Narrow" },
@@ -54,7 +55,7 @@ export function ReaderToolbar() {
         onChange={(v) => setPreference("arabicFontScale", v)}
       />
       <FontScaleControl
-        label="Translation"
+        label="Translation text"
         value={preferences.translationFontScale}
         onChange={(v) => setPreference("translationFontScale", v)}
       />
@@ -88,14 +89,24 @@ export function ReaderToolbar() {
         </select>
       </label>
 
-      <label style={{ display: "flex", alignItems: "center", gap: "0.4rem" }}>
-        <input
-          type="checkbox"
-          checked={preferences.translationVisible}
-          onChange={(e) => setPreference("translationVisible", e.target.checked)}
-        />
-        Show translation
-      </label>
+      <div role="group" aria-label="Translation" style={{ display: "flex", alignItems: "center", gap: "0.75rem" }}>
+        <span style={{ color: "var(--color-text-muted)" }}>Translation</span>
+        {TRANSLATION_LANGUAGES.map((lang) => (
+          <label key={lang.id} style={{ display: "flex", alignItems: "center", gap: "0.35rem" }}>
+            <input
+              type="checkbox"
+              checked={preferences.enabledTranslations.includes(lang.id)}
+              onChange={(e) => {
+                const next = e.target.checked
+                  ? [...preferences.enabledTranslations, lang.id]
+                  : preferences.enabledTranslations.filter((id) => id !== lang.id);
+                setPreference("enabledTranslations", next);
+              }}
+            />
+            {lang.label}
+          </label>
+        ))}
+      </div>
     </div>
   );
 }
@@ -140,13 +151,20 @@ function FontScaleControl({
   );
 }
 
+// 2.25rem (36px) rather than the old 1.6rem (~25.6px) — comfortably above
+// the WCAG 2.5.8 minimum tap target (24x24 CSS px) so zoom in/out is easy
+// to hit precisely on a phone, not just technically clickable.
+// touchAction: "manipulation" removes the ~300ms double-tap delay some
+// mobile browsers add before firing click on a plain <button>.
 const buttonStyle: CSSProperties = {
-  width: "1.6rem",
-  height: "1.6rem",
+  width: "2.25rem",
+  height: "2.25rem",
   lineHeight: 1,
+  fontSize: "1rem",
   border: "1px solid var(--color-border)",
-  borderRadius: "0.25rem",
+  borderRadius: "0.375rem",
   background: "var(--color-bg)",
   color: "var(--color-text)",
   cursor: "pointer",
+  touchAction: "manipulation",
 };

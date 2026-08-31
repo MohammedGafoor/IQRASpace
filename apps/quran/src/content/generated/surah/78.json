@@ -1,5 +1,5 @@
 {
-  "syncedAt": "2026-08-31T05:21:19.408Z",
+  "syncedAt": "2026-08-31T09:57:45.853Z",
   "chapter": {
     "id": 78,
     "revelation_place": "makkah",
@@ -36,6 +36,11 @@
           "id": 407376,
           "resource_id": 85,
           "text": "What are they asking about?"
+        },
+        {
+          "id": 1550110,
+          "resource_id": 831,
+          "text": "Yeh log kis cheez ke baarey mei puch-gajj kar rahe hain"
         }
       ]
     },
@@ -56,6 +61,11 @@
           "id": 407377,
           "resource_id": 85,
           "text": "The momentous announcement"
+        },
+        {
+          "id": 1550111,
+          "resource_id": 831,
+          "text": "Kya us badi khabar ke baarey mein"
         }
       ]
     },
@@ -76,6 +86,11 @@
           "id": 407378,
           "resource_id": 85,
           "text": "about which they differ."
+        },
+        {
+          "id": 1550112,
+          "resource_id": 831,
+          "text": "Jiske mutaaliq yeh mukhtalif che-mei-goiyan (disagreement) karne mein lagey huey hain"
         }
       ]
     },
@@ -96,6 +111,11 @@
           "id": 407379,
           "resource_id": 85,
           "text": "They will find out."
+        },
+        {
+          "id": 1550113,
+          "resource_id": 831,
+          "text": "Hargiz nahin an-qareeb inhein maloom ho jayega"
         }
       ]
     },
@@ -116,6 +136,11 @@
           "id": 407380,
           "resource_id": 85,
           "text": "In the end they will find out."
+        },
+        {
+          "id": 1550114,
+          "resource_id": 831,
+          "text": "Haan hargiz nahin, an-qareeb inhein maloom ho jayega"
         }
       ]
     },
@@ -136,6 +161,11 @@
           "id": 407381,
           "resource_id": 85,
           "text": "Did We not make the earth smooth,"
+        },
+        {
+          "id": 1550115,
+          "resource_id": 831,
+          "text": "Kya yeh waqiya nahin hai ke humne zameen ko farsh banaya"
         }
       ]
     },
@@ -156,6 +186,11 @@
           "id": 407382,
           "resource_id": 85,
           "text": "and make the mountains to keep it stable?"
+        },
+        {
+          "id": 1550116,
+          "resource_id": 831,
+          "text": "Aur pahadon ko mekhon(pegs) ki tarah gaad diya"
         }
       ]
     },
@@ -176,6 +211,11 @@
           "id": 407383,
           "resource_id": 85,
           "text": "Did We not create you in pairs,"
+        },
+        {
+          "id": 1550117,
+          "resource_id": 831,
+          "text": "Aur tumhein (mardon aur auraton ke) jodon ki shakal mein paida kiya"
         }
       ]
     },
@@ -196,6 +236,11 @@
           "id": 407384,
           "resource_id": 85,
           "text": "give you sleep for rest,"
+        },
+        {
+          "id": 1550118,
+          "resource_id": 831,
+          "text": "Aur tumhari neend ko baaisey sukoon banaya"
         }
       ]
     },
@@ -216,6 +261,11 @@
           "id": 407385,
           "resource_id": 85,
           "text": "the night as a cover,"
+        },
+        {
+          "id": 1550119,
+          "resource_id": 831,
+          "text": "Aur raat ko purdah posh"
         }
       ]
     },
@@ -236,6 +286,11 @@
           "id": 407386,
           "resource_id": 85,
           "text": "and the day for your livelihood?"
+        },
+        {
+          "id": 1550120,
+          "resource_id": 831,
+          "text": "Aur din ko muaash ka waqt banaya"
         }
       ]
     },
@@ -256,6 +311,11 @@
           "id": 407387,
           "resource_id": 85,
           "text": "Did We not build seven strong [heavens] above you,"
+        },
+        {
+          "id": 1550121,
+          "resource_id": 831,
+          "text": "Aur Tumharey upar saat mazboot aasman qayam kiye"
         }
       ]
     },
@@ -276,6 +336,11 @@
           "id": 407388,
           "resource_id": 85,
           "text": "and make a blazing lamp?"
+        },
+        {
+          "id": 1550122,
+          "resource_id": 831,
+          "text": "Aur ek nihayat roshan aur garm chirag paida kya"
         }
       ]
     },
@@ -296,6 +361,11 @@
           "id": 407389,
           "resource_id": 85,
           "text": "Did We not send water pouring down from the clouds"
+        },
+        {
+          "id": 1550123,
+          "resource_id": 831,
+          "text": "Aur baadalon se lagatar baarish barsayi"
         }
       ]
     },
@@ -316,6 +386,11 @@
           "id": 407390,
           "resource_id": 85,
           "text": "to bring forth with it grain, plants,"
+        },
+        {
+          "id": 1550124,
+          "resource_id": 831,
+          "text": "Taa-ke iske zariye se galla(grain) aur sabzi"
         }
       ]
     },
@@ -336,6 +411,11 @@
           "id": 407391,
           "resource_id": 85,
           "text": "and luxuriant gardens?"
+        },
+        {
+          "id": 1550125,
+          "resource_id": 831,
+          "text": "Aur ghaney baagh ugaye"
         }
       ]
     },
@@ -356,6 +436,11 @@
           "id": 407392,
           "resource_id": 85,
           "text": "A time has been appointed for the Day of Decision:"
+        },
+        {
+          "id": 1550126,
+          "resource_id": 831,
+          "text": "Beshak faisley ka din ek mukarrar waqt hai"
         }
       ]
     },
@@ -376,6 +461,11 @@
           "id": 407393,
           "resource_id": 85,
           "text": "a Day when the Trumpet will sound and you will come forward in crowds,"
+        },
+        {
+          "id": 1550127,
+          "resource_id": 831,
+          "text": "Jis roz soor mei phook maar di jayegi tum fauj dar fauj nikal aaogey"
         }
       ]
     },
@@ -396,6 +486,11 @@
           "id": 407394,
           "resource_id": 85,
           "text": "when the sky will open up like wide portals,"
+        },
+        {
+          "id": 1550128,
+          "resource_id": 831,
+          "text": "Aur aasmaan khol diya jayega hatta ke woh darwaze hi darwaze ban kar reh jayega"
         }
       ]
     },
@@ -416,6 +511,11 @@
           "id": 407395,
           "resource_id": 85,
           "text": "when the mountains will vanish like a mirage."
+        },
+        {
+          "id": 1550129,
+          "resource_id": 831,
+          "text": "Aur pahad chalaye jayenge yahan tak ke woh saraab(mirage) ho jayenge"
         }
       ]
     },
@@ -436,6 +536,11 @@
           "id": 407396,
           "resource_id": 85,
           "text": "Hell lies in wait,"
+        },
+        {
+          "id": 1550130,
+          "resource_id": 831,
+          "text": "Dar haqeeqat jahannum ek ghaat(ambush) hai"
         }
       ]
     },
@@ -456,6 +561,11 @@
           "id": 407397,
           "resource_id": 85,
           "text": "a home for oppressors"
+        },
+        {
+          "id": 1550131,
+          "resource_id": 831,
+          "text": "Sarkashon ka thikana"
         }
       ]
     },
@@ -476,6 +586,11 @@
           "id": 407398,
           "resource_id": 85,
           "text": "to stay in for a long, long time,"
+        },
+        {
+          "id": 1550132,
+          "resource_id": 831,
+          "text": "Jismein woh muddaton padey rahengey"
         }
       ]
     },
@@ -496,6 +611,11 @@
           "id": 407399,
           "resource_id": 85,
           "text": "where they will taste no coolness nor drink"
+        },
+        {
+          "id": 1550133,
+          "resource_id": 831,
+          "text": "Uske andar kisi thandak aur peene ke qabil kisi cheez ka maza woh na chakhengey"
         }
       ]
     },
@@ -516,6 +636,11 @@
           "id": 407400,
           "resource_id": 85,
           "text": "except one that is scalding and dark––"
+        },
+        {
+          "id": 1550134,
+          "resource_id": 831,
+          "text": "kuch milega to bas garam paani aur zakhmon ka dho-wan(peep)"
         }
       ]
     },
@@ -536,6 +661,11 @@
           "id": 407401,
           "resource_id": 85,
           "text": "a fitting requital,"
+        },
+        {
+          "id": 1550135,
+          "resource_id": 831,
+          "text": "(Unke kartuton) ka bharpur badla"
         }
       ]
     },
@@ -556,6 +686,11 @@
           "id": 407402,
           "resource_id": 85,
           "text": "for they did not fear a reckoning,"
+        },
+        {
+          "id": 1550136,
+          "resource_id": 831,
+          "text": "Woh kisi hisab ki tawakku na rakhte thay"
         }
       ]
     },
@@ -576,6 +711,11 @@
           "id": 407403,
           "resource_id": 85,
           "text": "and they rejected Our messages as lies."
+        },
+        {
+          "id": 1550137,
+          "resource_id": 831,
+          "text": "Aur hamari aayat ko unhon ne bilkul jhutla diya tha"
         }
       ]
     },
@@ -596,6 +736,11 @@
           "id": 407404,
           "resource_id": 85,
           "text": "We have recorded everything in a Record."
+        },
+        {
+          "id": 1550138,
+          "resource_id": 831,
+          "text": "Aur haal yeh tha ke humne har cheez gin gin kar likh rakkhi thi"
         }
       ]
     },
@@ -616,6 +761,11 @@
           "id": 407405,
           "resource_id": 85,
           "text": "‘Taste this: all you will get from Us is more torment.’"
+        },
+        {
+          "id": 1550139,
+          "resource_id": 831,
+          "text": "Ab chakho maza, Hum tumhare liye azaab ke siwa kisi cheez mei hargiz izafa na karengey"
         }
       ]
     },
@@ -636,6 +786,11 @@
           "id": 407406,
           "resource_id": 85,
           "text": "For those who were aware of God there is supreme fulfilment:"
+        },
+        {
+          "id": 1550140,
+          "resource_id": 831,
+          "text": "Yakeenan muttakiyon(pious) ke liye kamrani ka ek Muqaam hai"
         }
       ]
     },
@@ -656,6 +811,11 @@
           "id": 407407,
           "resource_id": 85,
           "text": "private gardens, vineyards,"
+        },
+        {
+          "id": 1550141,
+          "resource_id": 831,
+          "text": "Baagh aur angur"
         }
       ]
     },
@@ -676,6 +836,11 @@
           "id": 407408,
           "resource_id": 85,
           "text": "nubile, well-matched companions,"
+        },
+        {
+          "id": 1550142,
+          "resource_id": 831,
+          "text": "Aur naukhez humsin ladkiyan"
         }
       ]
     },
@@ -696,6 +861,11 @@
           "id": 407409,
           "resource_id": 85,
           "text": "and an overflowing cup."
+        },
+        {
+          "id": 1550143,
+          "resource_id": 831,
+          "text": "Aur jhalakte huey jaam"
         }
       ]
     },
@@ -716,6 +886,11 @@
           "id": 407410,
           "resource_id": 85,
           "text": "There they will hear no vain or lying talk:"
+        },
+        {
+          "id": 1550144,
+          "resource_id": 831,
+          "text": "Wahan koi lagv(vain) aur jhuthi baat woh na sunengey"
         }
       ]
     },
@@ -736,6 +911,11 @@
           "id": 407411,
           "resource_id": 85,
           "text": "a reward from your Lord, a fitting gift"
+        },
+        {
+          "id": 1550145,
+          "resource_id": 831,
+          "text": "Jazaa aur kafi inaam tumharey Rubb ki taraf se"
         }
       ]
     },
@@ -756,6 +936,11 @@
           "id": 407412,
           "resource_id": 85,
           "text": "from the Lord of the heavens and earth and everything between, the Lord of Mercy. They will have no authority from Him to speak."
+        },
+        {
+          "id": 1550146,
+          "resource_id": 831,
+          "text": "Us nihayat meharban khuda ki taraf se jo zameen aur aasmaano ka aur inke darmiyan ki har cheez ka malik hai jiske samney kisi ko bolne ka yara nahin"
         }
       ]
     },
@@ -776,6 +961,11 @@
           "id": 407413,
           "resource_id": 85,
           "text": "On the Day when the Spirit and the angels stand in rows, they will not speak except for those to whom the Lord of Mercy gives permission, who will say only what is right."
+        },
+        {
+          "id": 1550147,
+          "resource_id": 831,
+          "text": "Jis roz rooh aur malaika saff basta khade hongey. Koi na bolega siwaye uske jisey Rehman ijazat de aur jo theek baat kahey"
         }
       ]
     },
@@ -796,6 +986,11 @@
           "id": 407414,
           "resource_id": 85,
           "text": "That is the Day of Truth. So whoever wishes to do so should take the path that leads to his Lord."
+        },
+        {
+          "id": 1550148,
+          "resource_id": 831,
+          "text": "Woh din bar-haqq hai, ab jiska jee chahey apne Rubb ki taraf palatne ka rasta ikhtiyar karle"
         }
       ]
     },
@@ -816,6 +1011,11 @@
           "id": 407415,
           "resource_id": 85,
           "text": "We have warned you of imminent torment, on the Day when every person will see what their own hands have sent ahead for them, when the disbeliever will say, ‘If only I were dust!’"
+        },
+        {
+          "id": 1550149,
+          "resource_id": 831,
+          "text": "Humne tum logon ko us azaab se dara diya hai jo qareeb aa laga hai. Jis roz aadmi woh sab kuch dekh lega jo uske hathon ne aagey bheja hai, aur kafir pukar uthega ke kaash mai khaaq(mitti) hota"
         }
       ]
     }

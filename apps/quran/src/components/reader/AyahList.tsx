@@ -3,11 +3,12 @@
 import { useEffect, useRef } from "react";
 import { saveLastPosition } from "@/lib/preferences/storage";
 import { AyahBlock } from "./AyahBlock";
+import type { TranslationLanguageId } from "@/lib/content/translations";
 import type { VerseWithSurah } from "@/lib/content/types";
 
 type Props = {
   verses: VerseWithSurah[];
-  translationVisible: boolean;
+  enabledTranslations: TranslationLanguageId[];
   /** Show a Surah-name heading whenever the Surah changes mid-list — for
       Juz/Page views, which cross Surah boundaries. A single-Surah reader
       already names the Surah in its own page header, so passes false. */
@@ -21,7 +22,7 @@ type Props = {
  * the IntersectionObserver/scroll-restore logic instead of three
  * near-identical copies.
  */
-export function AyahList({ verses, translationVisible, showSurahHeadings, ariaLabel }: Props) {
+export function AyahList({ verses, enabledTranslations, showSurahHeadings, ariaLabel }: Props) {
   const ayahRefs = useRef(new Map<string, HTMLElement>());
   const saveTimeout = useRef<ReturnType<typeof setTimeout> | null>(null);
 
@@ -77,7 +78,7 @@ export function AyahList({ verses, translationVisible, showSurahHeadings, ariaLa
           <AyahBlock
             key={verse.verse_key}
             verse={verse}
-            translationVisible={translationVisible}
+            enabledTranslations={enabledTranslations}
             surahHeading={isNewSurah ? verse.surahName : undefined}
             registerRef={(el) => {
               if (el) ayahRefs.current.set(verse.verse_key, el);

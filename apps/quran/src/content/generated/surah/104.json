@@ -1,5 +1,5 @@
 {
-  "syncedAt": "2026-08-31T05:21:30.206Z",
+  "syncedAt": "2026-08-31T09:57:56.821Z",
   "chapter": {
     "id": 104,
     "revelation_place": "makkah",
@@ -36,6 +36,11 @@
           "id": 407883,
           "resource_id": 85,
           "text": "Woe to every fault-finding backbiter"
+        },
+        {
+          "id": 1550617,
+          "resource_id": 831,
+          "text": "Tabahi hai har us shaks ke liye jo (moonh dar moonh) logon par taan aur (peeth peechey) buraiyan karne ka khugar hai"
         }
       ]
     },
@@ -56,6 +61,11 @@
           "id": 407884,
           "resource_id": 85,
           "text": "who amasses riches, counting them over,"
+        },
+        {
+          "id": 1550618,
+          "resource_id": 831,
+          "text": "Jisne maal jama kiya aur usey gin gin kar rakkha"
         }
       ]
     },
@@ -76,6 +86,11 @@
           "id": 407885,
           "resource_id": 85,
           "text": "thinking they will make him live for ever."
+        },
+        {
+          "id": 1550619,
+          "resource_id": 831,
+          "text": "Woh samajhta hai ke us ka maal hamesha uske paas rahega"
         }
       ]
     },
@@ -96,6 +111,11 @@
           "id": 407886,
           "resource_id": 85,
           "text": "No indeed! He will be thrust into the Crusher!"
+        },
+        {
+          "id": 1550620,
+          "resource_id": 831,
+          "text": "Hargiz nahin, woh shaks to chakna-chur kar dene wali jagah mein phenk diya jayega"
         }
       ]
     },
@@ -116,6 +136,11 @@
           "id": 407887,
           "resource_id": 85,
           "text": "What will explain to you what the Crusher is?"
+        },
+        {
+          "id": 1550621,
+          "resource_id": 831,
+          "text": "Aur tum kya jano ke kya hai woh chakna-chur kar dene wali jagah"
         }
       ]
     },
@@ -136,6 +161,11 @@
           "id": 407888,
           "resource_id": 85,
           "text": "It is God’s Fire, made to blaze,"
+        },
+        {
+          "id": 1550622,
+          "resource_id": 831,
+          "text": "Allah ki aag khoob bhadkayi hui"
         }
       ]
     },
@@ -156,6 +186,11 @@
           "id": 407889,
           "resource_id": 85,
           "text": "which rises over people’s hearts."
+        },
+        {
+          "id": 1550623,
+          "resource_id": 831,
+          "text": "Jo dilon tak pahunchey gi"
         }
       ]
     },
@@ -176,6 +211,11 @@
           "id": 407890,
           "resource_id": 85,
           "text": "It closes in on them"
+        },
+        {
+          "id": 1550624,
+          "resource_id": 831,
+          "text": "Woh un par dhaank kar bandh kar di jayegi"
         }
       ]
     },
@@ -196,6 +236,11 @@
           "id": 407891,
           "resource_id": 85,
           "text": "in towering columns."
+        },
+        {
+          "id": 1550625,
+          "resource_id": 831,
+          "text": "(Is halat mei ke woh) unchey unchey sutuno mei (ghirey huey hongey)"
         }
       ]
     }

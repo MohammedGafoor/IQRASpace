@@ -48,7 +48,16 @@ const HOSTS = {
 // either environment. Production also has Saheeh International (id 20),
 // Pickthall (19), Yusuf Ali (22), and others if this default is ever
 // reconsidered — see QURAN-CONTENT.md §4b for the full list found.
-const TRANSLATION_RESOURCE_ID = 85; // M.A.S. Abdel Haleem
+//
+// 831 (Roman Urdu — "Abul Ala Maududi (Roman Urdu)") confirmed present in
+// production the same way: queried GET /resources/translations directly
+// (slug "maududi-roman-urdu", language_name "urdu"), then spot-checked a
+// real verse's text to confirm it's actually Latin-script Roman Urdu, not
+// Arabic-script Urdu — the app's translation-language picker
+// (src/lib/content/translations.ts) depends on this id matching real
+// Roman Urdu text. Both ids are requested in one comma-separated
+// `translations=` param — confirmed the API embeds both per verse.
+const TRANSLATION_RESOURCE_IDS = [85, 831]; // M.A.S. Abdel Haleem (English), Maududi (Roman Urdu)
 const PER_PAGE = 50; // API maximum (verses-by-chapter query params)
 const REQUEST_DELAY_MS = 250;
 const MAX_RETRIES = 3;
@@ -135,7 +144,7 @@ async function fetchAllVerses(env, clientId, token, chapterNumber) {
       env,
       clientId,
       token,
-      `verses/by_chapter/${chapterNumber}?words=false&fields=text_uthmani&translations=${TRANSLATION_RESOURCE_ID}&per_page=${PER_PAGE}&page=${page}`
+      `verses/by_chapter/${chapterNumber}?words=false&fields=text_uthmani&translations=${TRANSLATION_RESOURCE_IDS.join(",")}&per_page=${PER_PAGE}&page=${page}`
     );
     verses.push(...data.verses);
     totalPages = data.pagination?.total_pages ?? 1;
@@ -149,7 +158,7 @@ async function main() {
   const env = resolveEnv();
   const { clientId, clientSecret } = requireCredentials(env);
   console.log(`Syncing against ${env} (${HOSTS[env].api})...`);
-  console.log(`Translation resource id: ${TRANSLATION_RESOURCE_ID}\n`);
+  console.log(`Translation resource ids: ${TRANSLATION_RESOURCE_IDS.join(", ")}\n`);
 
   const token = await getAccessToken(clientId, clientSecret, env);
 
