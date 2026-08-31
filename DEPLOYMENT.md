@@ -15,7 +15,7 @@ Status: **pilot** (no custom domain yet — temporary Vercel URL only).
 | Lint | `npm run lint` → `apps/learning` → `eslint` |
 | Type check | `npm run typecheck` → `apps/learning` → `tsc --noEmit` |
 | Tests | none configured yet (`npm run test --if-present` is a no-op) |
-| Repository | https://github.com/MohammedGafoor/IQRASpace |
+| Repository | https://github.com/iqraspace-admin/IQRASpace |
 | Deployment branch | `main` |
 | Deployment platform | Vercel |
 | Deployment URL | **https://iqraspace.vercel.app** (temporary Vercel domain, aliases the latest Production deployment) |

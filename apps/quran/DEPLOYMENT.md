@@ -26,7 +26,7 @@ Each app has its own `package.json` (or, for `apps/landing`, no build tooling at
 | Build command | n/a (Vercel serves the directory as-is) | Vercel's remote build (`next build`, Turbopack) — see note below on why not a local prebuild |
 | Lint / Typecheck | `html-validate` on `index.html`, JSON validation on `vercel.json` | `npm run lint` (ESLint) / `npm run typecheck` (`tsc --noEmit`) |
 | Tests | none | none configured yet (`npm run test --if-present` is a no-op) |
-| Repository | `github.com/MohammedGafoor/IQRASpace` (same repo, `apps/landing/`) | same repo, `apps/quran/` |
+| Repository | `github.com/iqraspace-admin/IQRASpace` (same repo, `apps/landing/`) | same repo, `apps/quran/` |
 | Deployment branch | `main` | `main` |
 | Vercel team | `shaga2` (same team as `apps/web` — a genuinely-personal-account scope was attempted first but this token/CLI combination could not target it; projects stay isolated via separate Vercel projects/secrets regardless) | `shaga2` |
 | Vercel project | `iqraspace-landing` (`prj_lnlOOiPb0xuraZDGnGEPWMPvpTr1`) | `iqraspace-quran` (`prj_Xoa0J8m5m1gsijkBKI3IUDCKipR5`) |

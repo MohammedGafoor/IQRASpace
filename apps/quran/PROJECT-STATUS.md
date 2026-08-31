@@ -10,7 +10,7 @@ This repository is **not empty and not a blank slate for this product.** It alre
 
 | | |
 |---|---|
-| Repo | `github.com/MohammedGafoor/IQRASpace`, monorepo, no workspace tooling (npm, plain folders) |
+| Repo | `github.com/iqraspace-admin/IQRASpace`, monorepo, no workspace tooling (npm, plain folders) |
 | Existing product | **IQRASpace — Quranic Teacher**: a paid, one-to-one/small-group Quran tutoring LMS (`apps/web`) — auth, classes, students, lessons, live PDF highlight-sync, scheduling, attendance, progress, curriculum ("Lesson Plans"), admin/super-admin roles |
 | Existing product status | Live pilot: `https://iqraspace.vercel.app`, deployed via GitHub Actions → Vercel, backed by a hosted Supabase project (23 migrations applied) |
 | This new product | **IqraSpace Quran** ("Read. Listen. Learn. Reflect.") — a free, public, distraction-free Quran reader for anyone, no account required. Positioned as an NGO/Sadaqah Jariyah project, not commercial. |
