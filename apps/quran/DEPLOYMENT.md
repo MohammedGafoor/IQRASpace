@@ -1,6 +1,6 @@
 # IqraSpace Quran — Production Deployment
 
-Status: **prepared, not yet deployed** — code, CI, and config are production-ready (see `PROJECT-STATUS.md`); the two Vercel projects and the `iqraspace.org` domain attachment happen once a Vercel token is available in this environment. This doc will be updated with real deployment IDs/URLs/DNS records once that happens — until then, values marked **TBD** are placeholders, not real.
+Status: **deployed to Vercel, DNS pending.** Both apps are live and verified working on their `*.vercel.app` aliases, including the full Multi-Zones stitch (`https://iqraspace-landing.vercel.app/quran` correctly proxies to the `apps/quran` deployment). `iqraspace.org` itself is added to the `apps/landing` Vercel project but **not yet resolving** — the domain's DNS is hosted at Cloudflare and doesn't point at Vercel yet. See "DNS — action required" below; that's the one remaining step before `https://iqraspace.org` goes live.
 
 ## Architecture
 
@@ -21,13 +21,23 @@ Each app has its own `package.json` (or, for `apps/landing`, no build tooling at
 | Framework | None — static HTML/CSS, no build | Next.js 16.3.3 (App Router), React 19, TypeScript, Tailwind v4 |
 | Package manager | n/a | npm |
 | Node.js | n/a | `>=20.9.0` |
-| Build command | n/a (Vercel serves the directory as-is) | `npm run build` → `next build` (Turbopack) |
+| Build command | n/a (Vercel serves the directory as-is) | Vercel's remote build (`next build`, Turbopack) — see note below on why not a local prebuild |
 | Lint / Typecheck | `html-validate` on `index.html`, JSON validation on `vercel.json` | `npm run lint` (ESLint) / `npm run typecheck` (`tsc --noEmit`) |
 | Tests | none | none configured yet (`npm run test --if-present` is a no-op) |
 | Repository | `github.com/MohammedGafoor/IQRASpace` (same repo, `apps/landing/`) | same repo, `apps/quran/` |
 | Deployment branch | `main` | `main` |
-| Vercel project | **TBD** | **TBD** |
-| Production domain | `https://iqraspace.org` | `https://iqraspace.org/quran` (also directly reachable at its own `*.vercel.app` alias — **TBD**) |
+| Vercel team | `shaga2` (same team as `apps/web` — a genuinely-personal-account scope was attempted first but this token/CLI combination could not target it; projects stay isolated via separate Vercel projects/secrets regardless) | `shaga2` |
+| Vercel project | `iqraspace-landing` (`prj_lnlOOiPb0xuraZDGnGEPWMPvpTr1`) | `iqraspace-quran` (`prj_Xoa0J8m5m1gsijkBKI3IUDCKipR5`) |
+| Stable alias (works today) | `https://iqraspace-landing.vercel.app` | `https://iqraspace-quran.vercel.app/quran` |
+| Production domain (pending DNS) | `https://iqraspace.org` | `https://iqraspace.org/quran` |
+
+### Why `apps/quran` doesn't use the "prebuilt" deploy flow
+
+`ci.yml` (`apps/web`) and `ci-landing.yml` both use `vercel pull` → `vercel build --prod` → `vercel deploy --prebuilt --prod` (build locally/in the runner, then upload the finished output). During `apps/quran`'s first real deploy, `vercel build`'s local lambda-tracing step failed outright — first on `/brand/book-icon` (since removed as dead code, see below), then, once that was gone, on a real route: `Unable to find lambda for route: /juz/1`. This reproduced consistently and affected legitimate SSG routes, not just the removed ones — a real Vercel CLI 59.x / Next.js 16 Turbopack compatibility issue with the local Build Output API packaging step, not a bug in this app's code (confirmed: plain `next build` succeeds cleanly, `npm run lint`/`typecheck` are clean, and `vercel deploy --prod` — letting Vercel's own remote build pipeline build it — works). `ci-quran.yml`'s `deploy` job therefore uses `vercel deploy --prod` directly. Revisit the prebuilt flow if this is ever fixed upstream (it would shave a little time off the deploy by not re-fetching dependencies on Vercel's build machines, but isn't otherwise necessary).
+
+### A real bug found and fixed during this deployment
+
+`src/app/brand/book-icon/route.tsx` and `candle-icon/route.tsx` (two decorative icon routes, already flagged in `SETUP.md` as "currently unused, kept in case they're wanted elsewhere") were deleted — confirmed via a repo-wide search that nothing referenced them, and they were the direct cause of the Vercel build failure above. The shared helper they used (`src/lib/branding/renderCroppedIcon.tsx`) is untouched and still used by `icon.tsx`/`apple-icon.tsx`/`opengraph-image.tsx`, which do work.
 
 ## Environment variables
 
@@ -37,32 +47,47 @@ None. It's a static page with no server code.
 
 ### `apps/quran`
 
-Full purpose/detail for every variable lives in `apps/quran/.env.local.example` (committed, placeholders only). Summary of what's actually set where:
+Full purpose/detail for every variable lives in `apps/quran/.env.local.example` (committed, placeholders only). Actual Vercel configuration (Production + Preview, both apply to every real deploy and every PR preview):
 
-| Variable | Client-exposed? | Local dev | Vercel (Production) | Notes |
-|---|---|---|---|---|
-| `NEXT_BASE_PATH` | No (build-time only) | unset | `/quran` | Activates `next.config.ts`'s `basePath` — see `ARCHITECTURE.md` §8. |
-| `QURAN_FOUNDATION_ENV` | No | `prelive` | `production` | Selects which credential pair below is used. |
-| `QURAN_FOUNDATION_PROD_CLIENT_ID` / `_SECRET` | **No — never** | optional | ✅ | Only used by `npm run sync:content` (a manual, local step — see below), never by the deployed app itself. Deployed pages read pre-synced, **committed** JSON (`src/content/generated/`, see `.gitignore`'s note), not this API, at request time. |
-| `NEXT_PUBLIC_SUPABASE_URL` | Yes | ✅ | ✅ | Not used by any Phase 1 feature yet (reading is 100% local-first, `ARCHITECTURE.md` §5) — set for when Phase 5 (cross-device sync) lands, so it doesn't need a separate deploy step then. |
-| `NEXT_PUBLIC_SUPABASE_ANON_KEY` | Yes | ✅ | ✅ | Publishable key; safe to expose (RLS is the real access control, per `supabase/migrations/0001_init_schema.sql`). |
+| Variable | Client-exposed? | Type in Vercel | Notes |
+|---|---|---|---|
+| `NEXT_BASE_PATH` | No (build-time only) | Config (readable) | `/quran` — activates `next.config.ts`'s `basePath`. Deliberately **not** Secret type: `vercel pull` can't retrieve Secret-type values (returns a `[SENSITIVE]` placeholder string), which would have silently broken every route's `basePath` if this app ever used the local prebuilt flow again. |
+| `QURAN_FOUNDATION_ENV` | No | Secret | `production` |
+| `QURAN_FOUNDATION_PROD_CLIENT_ID` / `_SECRET` | **No — never** | Secret | Only used by `npm run sync:content` (a manual, local step — see below), never by the deployed app itself. Deployed pages read pre-synced, **committed** JSON (`src/content/generated/`, see `.gitignore`'s note), not this API, at request time — confirmed safe for these two to stay Secret-type/unpullable, since nothing in the Next.js build or runtime reads them. |
+| `NEXT_PUBLIC_SUPABASE_URL` | Yes | Config | Not used by any Phase 1 feature yet (reading is 100% local-first, `ARCHITECTURE.md` §5) — set now so Phase 5 (cross-device sync) doesn't need a separate deploy step later. |
+| `NEXT_PUBLIC_SUPABASE_ANON_KEY` | Yes | Config | Publishable key; safe to expose (RLS is the real access control, per `supabase/migrations/0001_init_schema.sql`). |
 
 **Content sync is deliberately not part of any pipeline here** — same principle as `apps/web`'s Supabase migrations (root `DEPLOYMENT.md`): a deploy should never silently re-fetch content from a third-party API. `npm run sync:content` is run manually/locally, its output (`src/content/generated/`) reviewed and committed like any other change, at least every 7 days per `QURAN-CONTENT.md`'s licensing term.
 
+## DNS — action required
+
+`iqraspace.org`'s DNS is hosted at **Cloudflare** (nameservers `harley.ns.cloudflare.com` / `kia.ns.cloudflare.com` — confirmed via `vercel domains inspect`, not assumed). The domain is already added to the `iqraspace-landing` Vercel project, and `www.iqraspace.org` is already configured to 308-redirect to the apex once both resolve. What's missing is the actual DNS records — **add these two in the Cloudflare dashboard** (these are the exact records Vercel's own `vercel domains inspect` returned, not guessed):
+
+| Type | Name | Value | Cloudflare proxy status |
+|---|---|---|---|
+| A | `iqraspace.org` (root/`@`) | `76.76.21.21` | **DNS only** (grey cloud) |
+| A | `www.iqraspace.org` | `76.76.21.21` | **DNS only** (grey cloud) |
+
+**Important:** set both records to Cloudflare's "DNS only" mode, not "Proxied" — leaving Cloudflare's proxy on would put Cloudflare's edge in front of Vercel's, which commonly causes TLS certificate issues and redirect loops (Vercel needs to see and terminate the real TLS handshake to issue/renew its own certificate for the domain). This matches the objective's own "avoid unnecessary proxy/CDN conflicts" requirement.
+
+Once added, Vercel auto-verifies (an email confirms it) and issues HTTPS certificates for both `iqraspace.org` and `www.iqraspace.org` automatically — no separate certificate step. Re-run `vercel domains inspect iqraspace.org` to confirm the warning clears.
+
 ## GitHub Actions secrets required
 
-Neither workflow can deploy until these repository secrets exist (GitHub → Settings → Secrets and variables → Actions). None are printed in workflow logs.
+Neither workflow's `deploy` job can run until these repository secrets exist (GitHub → Settings → Secrets and variables → Actions → New repository secret). None are printed in workflow logs. `validate` runs fine without them (already confirmed green on GitHub Actions).
 
 | Secret | Used by | Value |
 |---|---|---|
-| `LANDING_VERCEL_TOKEN` | `ci-landing.yml` | A Vercel API token scoped to the `apps/landing` project's team (vercel.com/account/tokens) |
-| `LANDING_VERCEL_ORG_ID` | `ci-landing.yml` | **TBD** — from `apps/landing/.vercel/project.json` after `vercel link`, or the Vercel dashboard |
-| `LANDING_VERCEL_PROJECT_ID` | `ci-landing.yml` | **TBD** — same source |
-| `QURAN_VERCEL_TOKEN` | `ci-quran.yml` | A Vercel API token scoped to the `apps/quran` project's team |
-| `QURAN_VERCEL_ORG_ID` | `ci-quran.yml` | **TBD** |
-| `QURAN_VERCEL_PROJECT_ID` | `ci-quran.yml` | **TBD** |
+| `LANDING_VERCEL_TOKEN` | `ci-landing.yml` | A Vercel API token for the `shaga2` team (vercel.com/account/tokens) — generate a fresh one for CI use, don't reuse a personal interactive-session token |
+| `LANDING_VERCEL_ORG_ID` | `ci-landing.yml` | `team_FXkdH5PjVawG5qfuheLlST0K` |
+| `LANDING_VERCEL_PROJECT_ID` | `ci-landing.yml` | `prj_lnlOOiPb0xuraZDGnGEPWMPvpTr1` |
+| `QURAN_VERCEL_TOKEN` | `ci-quran.yml` | Same Vercel team token as above (or a separate one — either works, both projects are in `shaga2`) |
+| `QURAN_VERCEL_ORG_ID` | `ci-quran.yml` | `team_FXkdH5PjVawG5qfuheLlST0K` |
+| `QURAN_VERCEL_PROJECT_ID` | `ci-quran.yml` | `prj_Xoa0J8m5m1gsijkBKI3IUDCKipR5` |
 
-Deliberately **not** GitHub secrets: `NEXT_PUBLIC_SUPABASE_URL`/`_ANON_KEY`, `QURAN_FOUNDATION_PROD_*`, `NEXT_BASE_PATH` — these live only in the Vercel dashboard's Environment Variables for the `apps/quran` project (`vercel pull` in the `deploy` job fetches them at build time), following the same pattern `apps/web`'s pipeline already uses.
+Deliberately **not** GitHub secrets: `NEXT_PUBLIC_SUPABASE_URL`/`_ANON_KEY`, `QURAN_FOUNDATION_PROD_*`, `NEXT_BASE_PATH` — these live only in the Vercel dashboard's Environment Variables for the `apps/quran` project (already set, see table above), following the same pattern `apps/web`'s pipeline already uses.
+
+**Security note:** the Vercel token used to set all of the above up during this session was pasted directly into chat rather than passed via the local-file method originally requested — meaning it's present in this session's conversation history/logs. It still works and nothing here was left in a broken state because of it, but treat it as exposed: **rotate it** (vercel.com/account/tokens → revoke, generate a new one) once you've copied whatever you still need from it, and generate the CI tokens above fresh rather than reusing it.
 
 ## Deployment process (CI/CD)
 
@@ -72,20 +97,24 @@ git push origin main
 GitHub Actions — path-filtered, only the app(s) that actually changed run
         ↓
   ci-landing.yml: validate (HTML/JSON check) → deploy (Vercel CLI, prebuilt, prod) → health check
-  ci-quran.yml:   validate (lint/typecheck/build) → deploy (Vercel CLI, prebuilt, prod) → health check
+  ci-quran.yml:   validate (lint/typecheck/build) → deploy (Vercel CLI, remote build, prod) → health check
         ↓
 https://iqraspace.org (apps/landing)  +  https://iqraspace.org/quran (apps/quran, via the rewrite)
 ```
 
-A pull request against `main` runs only each affected app's `validate` job — nothing deploys until merged. Pushing directly to `main` (small team) triggers the same sequence without a PR.
+A pull request against `main` runs only each affected app's `validate` job — nothing deploys until merged. Pushing directly to `main` (small team) triggers the same sequence without a PR. **Not yet exercised end-to-end**: both `deploy` jobs are currently blocked on the GitHub secrets above — everything documented as "live" in this file was deployed manually from this session via the Vercel CLI to unblock going live now; the next real code change pushed to `main` will be the first one to actually flow through the automated pipeline once the secrets are added.
 
-### One-time setup still required (only the project owner can do this — needs Vercel/GitHub account access)
+### One-time setup already done
 
-1. Create the `apps/quran` Vercel project (root directory `apps/quran`), Hobby tier, set env vars from the table above.
-2. Deploy it once to get its stable `*.vercel.app` alias; put that exact URL into `apps/landing/vercel.json`'s two `rewrites` entries (replacing the `REPLACE-WITH-QURAN-PROJECT.vercel.app` placeholder), commit, push.
-3. Create the `apps/landing` Vercel project (root directory `apps/landing`, Framework Preset: **Other**), deploy it.
-4. Add domain `iqraspace.org` (+ `www.iqraspace.org`, redirecting to the apex) to the `apps/landing` project via the Vercel dashboard or `vercel domains add`. Vercel will show the exact DNS records this specific domain needs — apply those at whichever registrar/DNS provider actually manages `iqraspace.org` today (**TBD which one** — confirm before assuming).
-5. Add the six GitHub Actions secrets listed above.
+1. ✅ `apps/quran` Vercel project created, env vars set, deployed — live at its alias.
+2. ✅ `apps/landing` Vercel project created, deployed, `vercel.json`'s rewrite points at the real `apps/quran` alias — live at its alias, full `/quran` proxy verified working end-to-end.
+3. ✅ `iqraspace.org` + `www.iqraspace.org` added to the `apps/landing` project; `www` → apex redirect configured.
+
+### One-time setup still required (only the project owner can do this)
+
+1. **DNS** — add the two Cloudflare A records above (this is what's blocking `https://iqraspace.org` from resolving right now).
+2. **GitHub secrets** — add the six secrets above, so `git push` alone deploys from now on instead of the manual CLI steps this session used.
+3. Rotate the Vercel token per the security note above.
 
 ### Rollback
 
@@ -93,16 +122,19 @@ Same pattern as `apps/web` (root `DEPLOYMENT.md`): Vercel keeps every past deplo
 
 ### Troubleshooting a failed run
 
-1. Open the failed GitHub Actions run → the red ✕ step names the stage (lint / typecheck / build / Vercel build / deploy / health check).
+1. Open the failed GitHub Actions run → the red ✕ step names the stage (lint / typecheck / build / Vercel deploy / health check).
 2. `validate` failing means the code has a real problem — reproduce locally (`npm run lint` / `npm run typecheck` / `npm run build` inside the affected app).
-3. `deploy` failing on `vercel pull`/`vercel build`/`vercel deploy` almost always means a missing/incorrect `*_VERCEL_TOKEN`/`*_VERCEL_ORG_ID`/`*_VERCEL_PROJECT_ID` secret for that app.
-4. Health check failing on `apps/quran` but the build/deploy succeeded: check that project's own Vercel Runtime Logs. If it's a 401/redirect instead of a real failure, this Vercel team may have Deployment Protection (SSO) on — see the caveat comment in `ci-quran.yml`'s health-check step; the fix is checking the stable alias instead of the ephemeral deploy URL, same as `apps/web`'s pipeline already does.
-5. `apps/landing`'s `/quran` rewrite 404ing specifically (root `/` still works): `apps/landing/vercel.json`'s rewrite destination is stale — it must point at `apps/quran`'s *current* Vercel alias.
+3. `deploy` failing on `vercel deploy`/`vercel pull`/`vercel build` almost always means a missing/incorrect `*_VERCEL_TOKEN`/`*_VERCEL_ORG_ID`/`*_VERCEL_PROJECT_ID` secret for that app.
+4. Health check failing on `apps/quran` but the deploy step succeeded: check that project's own Vercel Runtime Logs (dashboard → `iqraspace-quran` → Deployments → the deployment → Logs). Note both projects' team has Deployment Protection (SSO) on — `ci-quran.yml`'s health check deliberately targets the stable `https://iqraspace-quran.vercel.app` alias, not the ephemeral per-deploy URL, for exactly this reason (same fix `ci.yml`/`apps/web` already uses).
+5. `apps/landing`'s `/quran` rewrite 404ing specifically (root `/` still works): `apps/landing/vercel.json`'s rewrite destination is stale — it must point at `apps/quran`'s *current* Vercel alias (currently `https://iqraspace-quran.vercel.app`, correct as of this deploy).
 
 ## Manual verification checklist (post-deploy)
 
-- `https://iqraspace.org` loads the landing page; the "Open the Quran Reader" link goes to `https://iqraspace.org/quran` and it loads the Surah list correctly (through the rewrite, not directly).
-- `https://www.iqraspace.org` redirects to `https://iqraspace.org` (no loop).
-- A Surah, a Juz, and a Mushaf page all render Arabic text + translation correctly; an out-of-range number (e.g. `/quran/surah/999`) shows the branded not-found page, not a raw error.
-- `https://iqraspace.org/quran/manifest.webmanifest` and `.../sitemap.xml` return 200 with `/quran`-prefixed paths inside.
-- Browser console: no CSP violations, no mixed-content warnings, on both desktop and mobile widths.
+Verified via `.vercel.app` aliases already (2026-08-31) — re-verify against the real domain once DNS resolves:
+
+- ✅ `https://iqraspace-landing.vercel.app` loads the landing page; `/quran` link works.
+- ✅ `https://iqraspace-landing.vercel.app/quran`, `/quran/surah/1`, `/quran/manifest.webmanifest` all load correctly through the rewrite.
+- ✅ `robots.txt` lists both sitemaps; response headers show the correct, non-colliding CSP on each side of the rewrite (landing's own strict `script-src 'none'` on `/`, `apps/quran`'s `script-src 'self'` on `/quran/*` — confirmed these don't merge/conflict).
+- ☐ `https://iqraspace.org` and `https://www.iqraspace.org` (pending DNS).
+- ☐ A Surah, a Juz, and a Mushaf page render correctly on the real domain; an out-of-range number (e.g. `/quran/surah/999`) shows the branded not-found page.
+- ☐ Browser console: no CSP violations, no mixed-content warnings, desktop and mobile.

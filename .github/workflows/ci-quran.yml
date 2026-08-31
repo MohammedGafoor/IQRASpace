@@ -5,12 +5,13 @@ name: CI/CD (Quran)
 # apps/quran/ARCHITECTURE.md §8. Path-filtered so a change to one app
 # never triggers or blocks another's pipeline.
 #
-# `deploy` mirrors ci.yml's proven shape (vercel pull → vercel build
-# --prod → vercel deploy --prebuilt --prod → health check), gated to a
-# push on main, using this app's own dedicated QURAN_VERCEL_*/QURAN_
-# secrets — never apps/web's or apps/landing's Vercel project or secrets
-# (ARCHITECTURE.md §2). See DEPLOYMENT.md for the exact secret names and
-# where each value comes from.
+# `deploy` gated to a push on main, using this app's own dedicated
+# QURAN_VERCEL_*/QURAN_ secrets — never apps/web's or apps/landing's
+# Vercel project or secrets (ARCHITECTURE.md §2). Unlike ci.yml
+# (apps/web), it uses `vercel deploy --prod` directly (remote build) —
+# NOT the "vercel pull → vercel build --prod → vercel deploy --prebuilt"
+# flow — see the `deploy` job's own comment for why. See DEPLOYMENT.md
+# for the exact secret names and where each value comes from.
 
 on:
   push:
@@ -95,41 +96,36 @@ jobs:
       - name: Install Vercel CLI
         run: npm install --global vercel@latest
 
-      # Pulls this project's own Production env vars (NEXT_BASE_PATH,
-      # QURAN_FOUNDATION_*, NEXT_PUBLIC_SUPABASE_*) already configured in
-      # the Vercel dashboard — see DEPLOYMENT.md for the full list of
-      # names (values are never in this repo).
-      - name: Pull Vercel project settings
-        run: vercel pull --yes --environment=production --token="${{ secrets.QURAN_VERCEL_TOKEN }}"
-
-      - name: Build via Vercel
-        run: vercel build --prod --token="${{ secrets.QURAN_VERCEL_TOKEN }}"
-
-      - name: Deploy prebuilt output to Vercel
+      # NOT the "vercel pull → vercel build --prod → vercel deploy
+      # --prebuilt --prod" flow ci.yml (apps/web) uses: confirmed during
+      # this app's first real deploy that `vercel build`'s local
+      # lambda-tracing step fails on this app's SSG output ("Unable to
+      # find lambda for route: /juz/1" — a real Next.js 16 Turbopack /
+      # Vercel CLI compatibility issue, not a code bug; every SSG route
+      # was affected, not just one). Plain `vercel deploy --prod`
+      # uploads the source and lets Vercel's own (more mature) remote
+      # build pipeline build it instead — confirmed working. Revisit the
+      # prebuilt flow later if this is ever fixed upstream.
+      - name: Deploy to Vercel
         id: deploy
         run: |
-          url=$(vercel deploy --prebuilt --prod --token="${{ secrets.QURAN_VERCEL_TOKEN }}")
+          url=$(vercel deploy --prod --token="${{ secrets.QURAN_VERCEL_TOKEN }}")
           echo "Deployed: $url"
           echo "url=$url" >> "$GITHUB_OUTPUT"
 
-      # Checks this deployment directly (bypassing the apps/landing
-      # rewrite, a separate pipeline — this only proves *this* deploy
-      # succeeded). "/quran" not "/": NEXT_BASE_PATH means bare "/" 404s
-      # on this project by design (ARCHITECTURE.md §8).
-      #
-      # NOTE: apps/web's Vercel team has Deployment Protection (SSO) on,
-      # which makes every ephemeral per-deployment URL (what
-      # steps.deploy.outputs.url is) require a logged-in account and
-      # therefore fail this curl check — see root DEPLOYMENT.md. If this
-      # app's Vercel team (confirmed different, see PROJECT-STATUS.md)
-      # turns out to have the same setting on, switch this to check the
-      # project's stable <project>.vercel.app alias instead, same fix
-      # ci.yml already uses.
+      # Checks the STABLE alias (https://iqraspace-quran.vercel.app), not
+      # steps.deploy.outputs.url: this Vercel team has Deployment
+      # Protection (SSO) on (confirmed, same as apps/web's team, see root
+      # DEPLOYMENT.md) — every ephemeral per-deployment URL redirects to
+      # vercel.com/sso-api (302) and would fail this check even on a
+      # totally healthy deploy. "/quran" not "/": NEXT_BASE_PATH means
+      # bare "/" 404s on this project by design (ARCHITECTURE.md §8).
       - name: Health check
         run: |
           set -e
+          ALIAS_URL="https://iqraspace-quran.vercel.app"
           for path in "/quran" "/quran/surah" "/quran/sitemap.xml"; do
-            code=$(curl -s -o /dev/null -w "%{http_code}" "${{ steps.deploy.outputs.url }}$path")
+            code=$(curl -s -o /dev/null -w "%{http_code}" "$ALIAS_URL$path")
             echo "$path -> HTTP $code"
             if [ "$code" != "200" ]; then
               echo "::error::Health check failed for $path (HTTP $code)"
