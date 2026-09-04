@@ -39,7 +39,7 @@ type View = "main" | "arabicFont" | "tajweedRules";
  * Settings from Quran Content"). Everything ReaderToolbar used to show
  * inline — font size/zoom, translation size, line spacing, page width,
  * translation language, Show Bookmarks — plus the Arabic font picker now
- * lives behind one gear icon, so Surah/Juz/Page readers stay a minimal,
+ * lives behind one gear icon, so Surah/Page readers stay a minimal,
  * distraction-free reading experience by default (Readme.md §11).
  *
  * Every row applies live and persists immediately (see
@@ -50,7 +50,7 @@ type View = "main" | "arabicFont" | "tajweedRules";
  * Tajweed Rules (a read-only reference, nothing to persist) is its own
  * drill-down sub-view too, at the top of the main list — this used to be
  * a separate route (app/tajweed-rules/page.tsx) but moved in-panel so
- * opening it never navigates away from the Surah/Juz/Page reader
+ * opening it never navigates away from the Surah/Page reader
  * underneath.
  */
 export function ReaderSettingsPanel() {
@@ -180,6 +180,7 @@ export function ReaderSettingsPanel() {
                     <LayoutSection />
                     <TranslationSection />
                     <BookmarksSection />
+                    <PdfModeSection />
                   </div>
 
                   <div style={panelFooterStyle}>
@@ -397,6 +398,24 @@ function BookmarksSection() {
         checked={preferences.showBookmarks}
         onChange={(checked) => setPreference("showBookmarks", checked)}
       />
+    </section>
+  );
+}
+
+function PdfModeSection() {
+  const { preferences, setPreference } = useReaderPreferences();
+
+  return (
+    <section>
+      <SectionLabel>Reading View</SectionLabel>
+      <ToggleRow
+        label="PDF Mode"
+        checked={preferences.pdfMode}
+        onChange={(checked) => setPreference("pdfMode", checked)}
+      />
+      <p style={{ margin: "0.25rem 0 0", fontSize: "0.8rem", color: "var(--color-text-muted)" }}>
+        Shows the original scanned Mushaf pages instead of typeset text. Applies to Surah view only.
+      </p>
     </section>
   );
 }

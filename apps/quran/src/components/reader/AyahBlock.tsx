@@ -18,7 +18,7 @@ type Props = {
       control. */
   showBookmarks: boolean;
   registerRef: (el: HTMLElement | null) => void;
-  /** Rendered as a heading directly above this ayah — used by Juz/Page
+  /** Rendered as a heading directly above this ayah — used by Page
       views to mark where a new Surah begins mid-list (a Surah reader
       already shows its name in the page header, so passes nothing). */
   surahHeading?: string;

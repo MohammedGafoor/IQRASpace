@@ -8,11 +8,10 @@ import { ReaderSettingsPanel } from "@/components/reader/ReaderSettingsPanel";
 import { BrandWordmark } from "./BrandWordmark";
 import type { Theme } from "@/lib/preferences/types";
 
-// Matches /surah/1, /juz/5, /page/23 — an open Surah/Juz/Page — but not
-// the bare list pages (/surah, /juz, /page), which show no Ayah text and
-// so have nothing for Settings' font/translation/bookmark controls to
-// visibly affect.
-const READER_PAGE_PATTERN = /^\/(surah|juz|page)\/[^/]+/;
+// Matches /surah/1, /page/23 — an open Surah/Page — but not the bare list
+// pages (/surah, /page), which show no Ayah text and so have nothing for
+// Settings' font/translation/bookmark controls to visibly affect.
+const READER_PAGE_PATTERN = /^\/(surah|page)\/[^/]+/;
 
 const THEME_CYCLE: Record<Theme, Theme> = {
   system: "light",
@@ -36,7 +35,7 @@ const THEME_LABEL: Record<Theme, string> = {
  * so nothing below it needs manual top-padding to avoid being covered —
  * `fixed` would need that compensation recalculated every time this
  * header's height changes (e.g. its nav wrapping onto a second line on a
- * narrow viewport), which sticky avoids entirely. The Surah/Juz/Page nav
+ * narrow viewport), which sticky avoids entirely. The Surah/Page nav
  * row (ReaderNavBar's "top" variant) stacks sticky directly beneath this
  * one, offset by --site-header-height (measured below).
  */
@@ -91,9 +90,6 @@ export function SiteHeader() {
           <Link href="/surah" style={{ color: "var(--color-text)", textDecoration: "none" }}>
             Surahs
           </Link>
-          <Link href="/juz" style={{ color: "var(--color-text)", textDecoration: "none" }}>
-            Juz
-          </Link>
           <Link href="/page" style={{ color: "var(--color-text)", textDecoration: "none" }}>
             Pages
           </Link>
@@ -113,7 +109,7 @@ export function SiteHeader() {
           >
             {THEME_LABEL[preferences.theme]}
           </button>
-          {/* Only on an open Surah/Juz/Page — see READER_PAGE_PATTERN.
+          {/* Only on an open Surah/Page — see READER_PAGE_PATTERN.
               Was previously duplicated inline on each reader page; now
               one place, reachable without scrolling back up past the
               Ayah list. */}

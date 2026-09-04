@@ -13,9 +13,9 @@ type Props = {
 };
 
 /**
- * Mushaf page reader (Readme.md §10) — same cross-Surah shape as
- * JuzReader (a printed page can also span two Surahs), reusing the same
- * shared pieces so the three readers can't drift apart in behavior.
+ * Mushaf page reader (Readme.md §10) — a printed page can span two
+ * Surahs, so this reuses the same shared pieces (AyahList, ReaderNavBar)
+ * as SurahReader so the two readers can't drift apart in behavior.
  */
 export function PageReader({ pageNumber, verses, previous, next }: Props) {
   const { preferences } = useReaderPreferences();

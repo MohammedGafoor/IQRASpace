@@ -11,7 +11,7 @@ type Props = {
   enabledTranslations: TranslationLanguageId[];
   showBookmarks: boolean;
   /** Show a Surah-name heading whenever the Surah changes mid-list — for
-      Juz/Page views, which cross Surah boundaries. A single-Surah reader
+      Page views, which cross Surah boundaries. A single-Surah reader
       already names the Surah in its own page header, so passes false. */
   showSurahHeadings: boolean;
   ariaLabel: string;
@@ -19,7 +19,7 @@ type Props = {
 
 /**
  * Shared ayah-list rendering + Continue Reading tracking, used by the
- * Surah, Juz, and Page readers alike (Readme.md §10/§16) — one place for
+ * Surah and Page readers alike (Readme.md §10/§16) — one place for
  * the IntersectionObserver/scroll-restore logic instead of three
  * near-identical copies.
  */
@@ -30,7 +30,7 @@ export function AyahList({ verses, enabledTranslations, showBookmarks, showSurah
   // Continue Reading (Readme.md §16): track whichever ayah is topmost in
   // the viewport while scrolling, debounced, so "return to exactly where
   // they stopped" reflects the ayah actually being read, not just which
-  // Surah/Juz/Page was opened.
+  // Surah/Page was opened.
   useEffect(() => {
     const observer = new IntersectionObserver(
       (entries) => {
@@ -55,7 +55,7 @@ export function AyahList({ verses, enabledTranslations, showBookmarks, showSurah
       observer.disconnect();
       if (saveTimeout.current) clearTimeout(saveTimeout.current);
     };
-    // Re-observe whenever the verse set changes (new Surah/Juz/Page).
+    // Re-observe whenever the verse set changes (new Surah/Page).
   }, [verses]);
 
   // Deep-link support (Continue Reading, and any future shared-ayah

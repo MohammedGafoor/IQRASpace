@@ -30,6 +30,13 @@ export type ReaderPreferences = {
       is for readers who want to hide it for a cleaner look, not an
       opt-in reveal like translations. */
   showBookmarks: boolean;
+  /** Renders the original scanned Mushaf page (via PdfViewer) instead of
+      the typeset AyahList — off by default, like enabledTranslations:
+      this is an opt-in alternate reading surface ("see the real Mushaf"),
+      not a replacement for the accessible, translation-capable default
+      view. Only affects the Surah reader — see PDF-CONTENT.md for why a
+      Juz-level or Mushaf-page PDF view isn't offered. */
+  pdfMode: boolean;
 };
 
 export const DEFAULT_PREFERENCES: ReaderPreferences = {
@@ -41,6 +48,7 @@ export const DEFAULT_PREFERENCES: ReaderPreferences = {
   readingWidth: "comfortable",
   enabledTranslations: [],
   showBookmarks: true,
+  pdfMode: false,
 };
 
 export const FONT_SCALE_MIN = 0.75;

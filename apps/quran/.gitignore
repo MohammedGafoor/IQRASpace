@@ -48,3 +48,23 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# pdf.js worker — copied by scripts/pdf/copy-pdf-worker.mjs (postinstall)
+# from whatever pdfjs-dist version react-pdf resolved to on this install.
+# Build tooling output, like .next/ — not meant to be hand-tracked.
+/public/pdf-worker/
+
+# Raw source Juz PDFs for PDF Mode (see PDF-CONTENT.md) — NOT committed.
+# scripts/pdf/strip-watermark.mjs reads these and writes watermark-free
+# copies to .pdf-build/juz/ (also gitignored, see below). Kept locally
+# only as the working source for regenerating public/pdf/surah/ if the
+# source PDFs are ever replaced/updated.
+/pdf/
+
+# Watermark-stripped per-Juz PDFs — an intermediate build artifact only
+# (input to scripts/pdf/generate-surah-pdfs.mjs), NOT served by the app
+# and NOT committed. There is no Juz-level PDF Mode (Juz Mode was
+# removed) — public/pdf/surah/ (committed, deliberately, same reasoning
+# as chapters.json above) is the only PDF content actually shipped.
+# Regenerate with `npm run pdf:strip-watermark`.
+/.pdf-build/

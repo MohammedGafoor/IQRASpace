@@ -56,9 +56,24 @@
   --reader-translation-scale: 1;
   --reader-line-spacing: 1;
   --reader-max-width: 42rem;
+  /* PDF Mode's own container width — deliberately NOT tied to
+     --reader-max-width/data-reading-width: that preference sets a
+     comfortable *text line length*, which has nothing to do with how
+     much horizontal room a scanned page image should get. A first pass
+     here capped this at 60rem (960px) — far too conservative: a 1591px
+     desktop viewport still had ~680px of dead space either side, the
+     exact "unnecessarily narrow" complaint this now fixes. 96rem (1536px)
+     comfortably fills a typical desktop/laptop width while a genuinely
+     huge (e.g. 4K/ultrawide) viewport still gets a sane upper bound
+     rather than a page image stretched edge to edge. 97vw (not 100vw)
+     is the actual overflow guard — SurahReader.tsx's box-sizing:
+     border-box on this container is what makes that vw-based cap safe
+     (padding no longer added on top of it); see PdfViewer.tsx's
+     fit-width scaling for the zoom half of this fix. */
+  --pdf-reader-max-width: min(97vw, 96rem);
 
   /* SiteHeader's actual rendered height, in px — it's sticky, and the
-     Surah/Juz/Page nav row stacks sticky directly below it (top: var(
+     Surah/Page nav row stacks sticky directly below it (top: var(
      --site-header-height)), so the nav row needs to know exactly how
      tall the header is. The header's own content can wrap onto a second
      line on narrow viewports (long nav + theme toggle + Settings), so
@@ -67,6 +82,21 @@
      pre-hydration/JS-disabled fallback, sized for the common one-line
      case (see SiteHeader.tsx's own comment). */
   --site-header-height: 3.5rem;
+
+  /* ReaderNavBar's own "top" variant rendered height, in px — it's
+     sticky directly beneath SiteHeader (see --site-header-height's own
+     comment for why sticky, not fixed), and PdfViewer's own page-level
+     toolbar stacks sticky directly beneath THIS one in PDF Mode (top:
+     calc(var(--site-header-height) + var(--reader-navbar-height))) — a
+     Surah can run to dozens of scanned pages in one continuous scroll
+     (Readme.md), so Prev/Next/Zoom would otherwise scroll out of reach
+     entirely rather than just needing a scroll back to the top. Measured
+     the same way as --site-header-height (ResizeObserver, corrected
+     after mount) for the same reason: this row's height isn't a fixed
+     constant either (translation display, font-size preference, narrow-
+     viewport label wrapping). This is only the pre-hydration fallback.
+     */
+  --reader-navbar-height: 3rem;
 
   color-scheme: light;
 }

@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { getAdjacentSurahs, getAllChapters, getSurahContent } from "@/lib/content/quran";
+import { getSurahPdfInfo } from "@/lib/content/pdf";
 import { SurahReader } from "@/components/reader/SurahReader";
 import { canonicalUrl } from "@/lib/site";
 
@@ -37,6 +38,9 @@ export default async function SurahPage({ params }: Props) {
   }
 
   const { previous, next } = getAdjacentSurahs(number);
+  const pdfInfo = getSurahPdfInfo(number);
 
-  return <SurahReader chapter={content.chapter} verses={content.verses} previous={previous} next={next} />;
+  return (
+    <SurahReader chapter={content.chapter} verses={content.verses} previous={previous} next={next} pdfInfo={pdfInfo} />
+  );
 }

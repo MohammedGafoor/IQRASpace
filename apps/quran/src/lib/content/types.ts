@@ -40,6 +40,11 @@ export type Verse = {
   sajdah_number: number | null;
   text_uthmani: string;
   page_number: number;
+  /** Raw synced data (mirrors the upstream API's verse schema) — currently
+      unused by any UI: the Juz browsing feature that once read this was
+      removed (see PDF-CONTENT.md §8). Left in the data model rather than
+      stripped out of sync-content.mjs's output, since it's real Quran
+      structural metadata a future feature could still want. */
   juz_number: number;
   translations: VerseTranslation[];
 };
@@ -57,8 +62,8 @@ export type ChaptersIndex = {
 
 /**
  * A verse annotated with which Surah it belongs to — needed anywhere a
- * view can span multiple Surahs (Juz, Mushaf page), since a bare `Verse`
- * only carries `verse_key` ("2:255"), not the Surah's name/metadata.
+ * view can span multiple Surahs (the Mushaf-page reader), since a bare
+ * `Verse` only carries `verse_key` ("2:255"), not the Surah's name/metadata.
  */
 export type VerseWithSurah = Verse & {
   surahId: number;

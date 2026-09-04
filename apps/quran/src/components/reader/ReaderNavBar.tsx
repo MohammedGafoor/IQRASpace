@@ -1,5 +1,8 @@
+"use client";
+
 import Link from "next/link";
-import type { CSSProperties } from "react";
+import { useEffect, useRef } from "react";
+import type { CSSProperties, Ref } from "react";
 
 type NavTarget = { href: string; label: string };
 
@@ -7,7 +10,7 @@ type Props = {
   previous: NavTarget | undefined;
   next: NavTarget | undefined;
   variant?: "top" | "bottom";
-  /** The Surah/Juz/Page currently open, shown centered between Previous
+  /** The Surah/Page currently open, shown centered between Previous
       and Next — bold, in the strongest available text color so it reads
       as the "you are here" anchor rather than another link (Previous/
       Next stay in the teal link color either side of it). Only rendered
@@ -17,9 +20,9 @@ type Props = {
 };
 
 /**
- * Prev/next navigation, shared by Surah/Juz/Page readers (each just
+ * Prev/next navigation, shared by Surah/Page readers (each just
  * supplies its own href/label pairs) — kept as one component so the
- * three readers can't drift into subtly different markup/behavior.
+ * two readers can't drift into subtly different markup/behavior.
  *
  * Every reader renders this twice (top and bottom of the ayah list) —
  * only the top one is a `<nav>` landmark. Two identically-labeled
@@ -30,7 +33,7 @@ type Props = {
  *
  * The "top" copy is sticky, stacked directly beneath SiteHeader (see
  * that component's own sticky/--site-header-height comment) so it — and
- * the current Surah/Juz/Page name — stay visible while scrolling.
+ * the current Surah/Page name — stay visible while scrolling.
  * CSS Grid (1fr / auto / 1fr), not flex `justify-content: space-between`:
  * with two differently-sized Previous/Next labels either side, `space-
  * between` would put equal *gaps* around the current-name span rather
@@ -41,10 +44,31 @@ type Props = {
 export function ReaderNavBar({ previous, next, variant = "top", current }: Props) {
   const Container = variant === "top" ? "nav" : "div";
   const isTop = variant === "top";
+  // Container itself is one of two intrinsic tags (nav/div) chosen at
+  // runtime, so TS can't narrow which HTMLElement subtype its own `ref`
+  // prop expects — both are plain HTMLElements for every purpose this
+  // ref is actually used for (measuring rendered height), hence the cast.
+  const navRef = useRef<HTMLElement>(null);
+
+  // Keeps --reader-navbar-height (globals.css) in sync with this row's
+  // REAL rendered height — see that CSS var's own comment for why (PDF
+  // Mode's own toolbar stacks sticky beneath it). Only the "top" variant
+  // is sticky/measured; the "bottom" copy never needs this.
+  useEffect(() => {
+    if (!isTop) return;
+    const el = navRef.current;
+    if (!el) return;
+    const observer = new ResizeObserver(([entry]) => {
+      document.documentElement.style.setProperty("--reader-navbar-height", `${entry.contentRect.height}px`);
+    });
+    observer.observe(el);
+    return () => observer.disconnect();
+  }, [isTop]);
 
   return (
     <Container
-      {...(isTop ? { "aria-label": "Surah/Juz/Page navigation" } : {})}
+      ref={navRef as Ref<HTMLDivElement>}
+      {...(isTop ? { "aria-label": "Surah/Page navigation" } : {})}
       style={isTop ? topNavStyle : bottomNavStyle}
     >
       {previous ? (

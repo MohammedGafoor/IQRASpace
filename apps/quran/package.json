@@ -12,20 +12,26 @@
     "start": "next start -p 3001",
     "lint": "eslint",
     "typecheck": "tsc --noEmit",
-    "sync:content": "node --env-file=.env.local scripts/sync-content.mjs"
+    "sync:content": "node --env-file=.env.local scripts/sync-content.mjs",
+    "postinstall": "node scripts/pdf/copy-pdf-worker.mjs",
+    "pdf:strip-watermark": "node scripts/pdf/strip-watermark.mjs",
+    "pdf:generate": "node scripts/pdf/generate-surah-pdfs.mjs"
   },
   "dependencies": {
     "next": "16.3.3",
     "react": "19.2.8",
-    "react-dom": "19.2.8"
+    "react-dom": "19.2.8",
+    "react-pdf": "^10.5.0"
   },
   "devDependencies": {
     "@tailwindcss/postcss": "^4",
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",
+    "canvas": "^3.2.3",
     "eslint": "^9",
     "eslint-config-next": "16.3.3",
+    "pdf-lib": "^1.17.1",
     "tailwindcss": "^4",
     "typescript": "^5"
   }

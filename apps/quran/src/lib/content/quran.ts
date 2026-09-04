@@ -77,9 +77,8 @@ let flatVersesCache: VerseWithSurah[] | null = null;
 /**
  * Every synced verse, across every Surah, in canonical Mushaf order
  * (Surah 1 ayah 1 → Surah 114's last ayah), each annotated with its
- * Surah id/name — the basis for Juz and Mushaf-page views, which both
- * cut across Surah boundaries (e.g. Juz 1 spans all of Al-Fatihah plus
- * the start of Al-Baqarah). Reads every per-surah file once and caches
+ * Surah id/name — the basis for Mushaf-page views, which cut across
+ * Surah boundaries. Reads every per-surah file once and caches
  * the flattened result in memory for the life of the process/build.
  */
 function getAllVersesWithSurah(): VerseWithSurah[] {
@@ -90,25 +89,6 @@ function getAllVersesWithSurah(): VerseWithSurah[] {
     return content.verses.map((verse) => ({ ...verse, surahId: chapter.id, surahName: chapter.name_simple }));
   });
   return flatVersesCache;
-}
-
-/** Every Juz number that actually has synced verses, in order. */
-export function getJuzNumbers(): number[] {
-  return [...new Set(getAllVersesWithSurah().map((v) => v.juz_number))].sort((a, b) => a - b);
-}
-
-/** Every verse in a given Juz, across Surah boundaries, in Mushaf order. */
-export function getVersesForJuz(juzNumber: number): VerseWithSurah[] {
-  return getAllVersesWithSurah().filter((v) => v.juz_number === juzNumber);
-}
-
-export function getAdjacentJuz(juzNumber: number): { previous: number | undefined; next: number | undefined } {
-  const numbers = getJuzNumbers();
-  const index = numbers.indexOf(juzNumber);
-  return {
-    previous: index > 0 ? numbers[index - 1] : undefined,
-    next: index >= 0 && index < numbers.length - 1 ? numbers[index + 1] : undefined,
-  };
 }
 
 /** Every Mushaf page number that actually has synced verses, in order. */
